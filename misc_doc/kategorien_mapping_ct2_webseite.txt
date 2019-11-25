@@ -1,0 +1,26 @@
+-  Kategorien in CT2:
+
+ public enum ComponentCategory
+    {
+        CiphersClassic,
+        CiphersModernSymmetric,
+        CiphersModernAsymmetric,
+        Steganography,
+        HashFunctions,
+        CryptanalysisSpecific,
+        CryptanalysisGeneric,
+        Protocols,
+        ToolsBoolean,
+        ToolsDataflow,
+        ToolsDataInputOutput,
+        ToolsMisc,
+        ToolsP2P,
+        DECRYPTProjectComponent,
+        Undefined
+    }
+
+Projekt: OnlineDocumentationGenerator
+Klasse: FunctionListGenerator
+Methode: private static string GetComponentCategory(ComponentCategory category)
+
+---> mapping wird mit resourcen (de/en) von Enum zu "string" gemacht
