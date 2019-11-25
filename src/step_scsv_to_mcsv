@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+script="$(readlink -f "$0")"
+scriptname="$(basename "$script")"
+scriptpath="$(dirname "$script")"
+
+source "$scriptpath/../sandbox-env.bash"
+
+cat "$flist_dir_runspace/$scriptname.input.d"/* | \
+    "$scriptpath/$scriptname.py" > \
+    "$flist_dir_runspace/$scriptname.output"

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+runspace_target="$flist_dir_sandbox/runspace_instance"
+runspace_proto="$flist_dir_sandbox/runspace_proto"
+
+rm -rf "$runspace_target"  && cp -r "$runspace_proto" "$runspace_target" && { echo "successfully recreated $runspace_target" >&2; exit 0; }
+exit 1
