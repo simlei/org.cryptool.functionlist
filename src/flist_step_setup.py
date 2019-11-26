@@ -4,34 +4,22 @@ import os
 import sys
 import flist
 import shutil
-import scriptlib; from scriptlib import Arg, Args, Scriptspec
-
-default_data_dir = flist.envdir_existing("sandbox", "data")
-default_ws_location = flist.envdir("sandbox", "ws")
+import argparse; from argparse import FileType
+import flist_argtype as argtype
 
 def CreateFreshWorkspace(workspace, data):
-    _workspace = workspace[-1]
-    _data = data[-1]
-    print(f"FList: working with: {_workspace=}, {_data=}")
-    if os.path.exists(_workspace):
-        shutil.rmtree(_workspace)
-    os.makedirs(_workspace)
+    print(f"FList: working with: {workspace=}, {data=}")
+    if os.path.exists(workspace):
+        shutil.rmtree(workspace)
+    os.makedirs(workspace)
 
-    shutil.copytree(_data, os.path.join(_workspace, "data"))
+    shutil.copytree(data, os.path.join(workspace, "data"))
 
-script_handler = Scriptspec(
-    __file__, 
-    Args([
-        Arg.Keyval    ("workspace"         ), 
-        Arg.Keyval    ("data"         ), 
-    ]),
-    self_passed_args = [
-        f"--workspace={default_ws_location}", 
-        f"--data={default_data_dir}"
-    ],
-    kwargs_receiver = CreateFreshWorkspace,
-)
+argparser = argparse.ArgumentParser()
+argparser.add_argument("workspace", type=argtype.DirPath        , default=str(flist.dev_state.fs.workspace), nargs="?")
+argparser.add_argument("--datadir", type=argtype.DirPathExisting, default=str(flist.dev_state.fs.datadir))
 
 if __name__ == "__main__":
-    script_handler.run(sys.argv[1:])
+    parsed = argparser.parse_args()
+    CreateFreshWorkspace(parsed.workspace, parsed.datadir)
 

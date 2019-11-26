@@ -31,4 +31,3 @@ class FListComponents:
         self.wscopy          = wscopy
 
 
-

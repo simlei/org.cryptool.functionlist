@@ -43,5 +43,4 @@ script_handler = Scriptspec( __file__, Args([
 if __name__ == "__main__":
     script_handler.run(sys.argv[1:])
 
-# vim: fdm=marker
 # }}}

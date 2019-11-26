@@ -1,4 +1,3 @@
-
 # vim: fdm=marker
 
 from __future__ import annotations
@@ -11,20 +10,24 @@ import sys
 import argparse
 import pandas
 from typing import List, Any
+import pathlib; from pathlib import Path
 
-def envdir_existing(name, *vargs):
-    dirname = os.environ["flist_dir_" + name]
-    result = os.path.join(dirname, *vargs)
-    if not os.path.isdir(result):
-        raise f"not a dir: environment variable {name} = {dirname}; {result=}"
-    return result
 
-def envdir(name, *vargs):
-    dirname = os.environ["flist_dir_" + name]
-    result = os.path.join(dirname, *vargs)
-    if os.path.exists(result) and not os.path.isdir(result):
-        raise f"path exists and is no dir: environment variable {name} = {dirname}; {result=}"
-    return result
+# @dataclass
+# class FlistFilesystem:
+#     workspace: Path
+#     datadir: Path
+
+# @dataclass
+# class FlistProgramState:
+#     fs: FlistFilesystem
+
+# dev_state = FlistProgramState(
+#     FlistFilesystem(
+#         workspace = Path(__file__).parent.parent / "ws",
+#         datadir = Path(__file__).parent.parent / "data"
+#     )
+# )
 
 # ---- Data specification{{{
 
@@ -77,6 +80,8 @@ class SCSV_Entry(CSV_Entry): # {{{
 
     @staticmethod
     def From_Dataframe_Row(row):
+        # print(f"{row['path']=}")
+        print(str(row["path"]))
         return SCSV_Entry(
             id              = row["id"], 
             functionality   = row["functionality"],
@@ -167,7 +172,10 @@ class SCSV_Dataset(CSV_Dataset): # {{{
     
     @staticmethod
     def From_Dataframe(dataset):
-        return SCSV_Dataset(entries = [SCSV_Entry.From_Dataframe_Row(row) for i, row in dataset.iterrows()])
+        rows = [row for i,row in dataset.iterrows()]
+        print(f"{rows[0]['functionality']=}")
+
+        return SCSV_Dataset(entries = [SCSV_Entry.From_Dataframe_Row(row) for row in rows])
 
     @staticmethod
     def Dataframe_From_File(file):
@@ -228,7 +236,6 @@ def ParseMergeConfigFile(): # {{{
             parsed = IniAssignment.Parse(line) or TransformRule.Parse(line)
             if parsed:
                 result.append(parsed)
-                print(f"appending {parsed}")
             else:
                 print(f"Line #{lineNo} : {line} of {mergeConfigFile} could not be parsed", file=sys.stderr)
                 # return None
