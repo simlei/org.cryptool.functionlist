@@ -15,11 +15,8 @@ def CreateFreshWorkspace(workspace, data):
 
     shutil.copytree(data, os.path.join(workspace, "data"))
 
-argparser = argparse.ArgumentParser()
-argparser.add_argument("workspace", type=argtype.DirPath        , default=str(flist.dev_state.fs.workspace), nargs="?")
-argparser.add_argument("--datadir", type=argtype.DirPathExisting, default=str(flist.dev_state.fs.datadir))
-
 if __name__ == "__main__":
-    parsed = argparser.parse_args()
-    CreateFreshWorkspace(parsed.workspace, parsed.datadir)
+    flist_state, restargs = flist.FlistProgramState.ParseStateFromArgs(sys.argv)
+    CreateFreshWorkspace(flist_state.fs.workspace, flist_state.fs.datadir)
+
 

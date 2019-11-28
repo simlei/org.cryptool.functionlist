@@ -17,27 +17,34 @@ def get_input_dataframe(files):
     return pandas.concat(frames)
 
 
-def Merge(files, output):
 
+# Just for illustration purpose -- it's reversible (but not resistant to bad manual edits that exceed whitespace around csv delims)
+def Unmerge(file):
+    unmerged = flist.MCSV_Dataset.From_Dataframe(flist.MCSV_Dataset.Dataframe_From_File(file, flist.MCSV_Dataset.COLUMNS))
+    print(unmerged.rows[0])
+
+def Merge(files, output):
     scsv_dataframe = get_input_dataframe(files)
     scsv_all       = flist.SCSV_Dataset.From_Dataframe(scsv_dataframe)
-    merged_entries = [Merged_Functionality(functionality = func) for func in [entry.functionality for entry in scsv_all]]
+    merged_rows = [flist.Merged_Functionality(functionality) for functionality in scsv_all.get_functionalities()]
 
-    for scsv_entry in scsv_all.get_entries():
-        merge_targets = [entry for entry in merged_entries if entry.functionality == scsv_entry.functionality]
-        if len(merge_targets) == 0 : raise Exception(f"no merge targets found for {scsv_entry}")
-        if len(merge_targets) > 1  : raise Exception(f"multiple merge targets found for {scsv_entry}: {merge_targets}")
+    for scsv_row in scsv_all.get_rows():
+        merge_targets = [merged for merged in merged_rows if merged.functionality == scsv_row["functionality"]]
+        if len(merge_targets) == 0 : raise Exception(f"no merge targets found for {scsv_row}")
+        if len(merge_targets) > 1  : raise Exception(f"multiple merge targets found for {scsv_row}: {merge_targets}")
         for target in merge_targets:
-            target.merge_with(scsv_entry)
+            target.merge_with(scsv_row)
         
-    mcsv = merged_entries.to_MCSV()
-    mcsv.to_dataframe().write_csv(output)
+    mcsv_rows = [ merged.to_MCSV() for merged in merged_rows ]
+    mcsv_all = flist.MCSV_Dataset.From_Rows(mcsv_rows)
+    mcsv_all.write_csv(output)
 
-
-argparser = argparse.ArgumentParser()
-argparser.add_argument("files"   , type=argtype.FilePathExisting, nargs="+")
-argparser.add_argument("--output", type=argtype.FilePath)
 
 if __name__ == "__main__":
+    flist_state, restargs = flist.FlistProgramState.ParseStateFromArgs(sys.argv[1:])
+
+    argparser = argparse.ArgumentParser()
+    argparser.add_argument("input_scsv"   , type=argtype.FilePathExisting, nargs="*", default=list(flist_state.fs.workspace.glob("data/scsv_webdump/*.csv")))
+    argparser.add_argument("--output", type=argtype.FilePath, default=flist_state.fs.workspace / "all_merged.csv")
     parsed = argparser.parse_args()
-    Merge(parsed.files, parsed.output)
+    Merge(parsed.input_scsv, parsed.output)
