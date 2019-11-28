@@ -124,7 +124,7 @@ CT2:static:417;Padding Oracle Attack against AES;CT2:C\T;;7) Modern Cryptanalysi
 
 ## JCT paths
 
-JCT paths start with bracketed [D/a], unlike the paths of the other tools.
+JCT paths start with bracketed [D/a], unlike the paths of the other tools. in the output, CT2 tools need the prefix too.l
 In SCSV format however, all paths are now prefixed with `(CT1|CT2|CTO|JCT):Letter:\ ` anyways.
 
 for now, that seems like the SCSV have information heavily duplicated within JCT files. But it is for consistency.
@@ -134,3 +134,17 @@ for now, that seems like the SCSV have information heavily duplicated within JCT
 MCSV: Because duplicate elements are deleted from each cell of a row when writing to csv ("Merge"), when reading them in again for further processing, the cells may not contain the same number of elements. they are however prefixed with the CrypTool id (CT1/2/O/J) for easier processing
 
 
+## Sometimes, multiple Categories are assigned to one functionality
+
+e.g. (from all_finalform.csv)
+
+end of dataset: `10) Learning Aids and Visualizations <br \>13) Protocols`
+
+```
+Shamir's Secret Sharing Visualization;X;;D;;Indiv. Procedures \ Secret Sharing Demonstration (Shamir)…;;[D] \ Visualizations \ Shamir's Secret Sharing <br /> [D] \ Visuals \ Shamir's Secret Sharing;;;10) Learning Aids and Visualizations <br \>13) Protocols
+```
+
+# Open issues
+
+- many...
+- Next up: CT2 paths do not have their prefix e.g. [T] \ ...
