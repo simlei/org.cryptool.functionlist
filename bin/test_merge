@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-src/flist_step_merge.py --output ws/output_merge.csv ws/data/scsv_webdump/*
