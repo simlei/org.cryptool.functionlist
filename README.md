@@ -8,6 +8,13 @@ To that end, it processes legacy files from, and data that is dynamically genera
  - [CrypTool Online](https://www.cryptool.org/en/cryptool-online)
  - [JCrypTool](https://www.cryptool.org/en/jcryptool)
 
+# Current data output:
+
+- sample output of the merge step: [](misc_doc/output_19_11_28/regular_merged.csv)
+- sample output of the "final-form" (SQL input) step: [](misc_doc/output_19_11_28/regular_final.csv)
+- prettified (space-padded) output of the "final-form" (SQL input) step (columns truncated after 60 colums): [](misc_doc/output_19_11_28/pretty_final.csv)
+- prettified (space-padded) output of the "final-form" (SQL input) step (no truncation): [](misc_doc/output_19_11_28/pretty_full_final.csv)
+
 # Steps
 
 Right now, the csv generation is comprised of three steps:
@@ -16,15 +23,15 @@ Right now, the csv generation is comprised of three steps:
 - merging of `$workspace/data/scsv_webdump` -- `src/flist_step_setup.py`
 - creating the output that can be fed to the SQL database: `src/flist_step_tofinalform.py`
 
-These three steps are Python scripts that depend upon `src/flist.python` as the common library. They are usable completely independently and do not even depend on a workspace present.
+These three steps are Python scripts that depend upon `src/flist.python` as the common library. They are usable completely independently and do not even depend on a workspace present -- by virtue of the common "workspace" base (see below), defaults are available for everything.
 
 However, each one is executable without specifying further arguments; they will work together by default. A bash script like this currently represents the whole pipeline. Each step writes its result to file, which gets picked up by the next one.
 
 ```
 #!/bin/bash
 
-./src/flist_step_merge.py
 ./src/flist_step_setup.py
+./src/flist_step_merge.py
 ./src/flist_step_tofinalform.py
 ```
 
@@ -57,9 +64,10 @@ ws/
 
 The data folder is by default a copy of the "data" dir next to the "src" dir of this repository. It may also be linked, or the files in it be specified to be loaded from any location. In most cases though, it is most convenient to run `src/flist_step_setup.py --workspace <if-left-out-defaults-to-ws-dir>` which sets up a workspace completely from scratch.
 
-# TODO
+# TODO next
 
 - The argparse code is currently divided into two steps, so that not all command line arguments can be seen by invoking --help on the step scripts.
 - CT2 paths in the final csv do not have a `[C]`-like path prefix
+- convert `data/scsv_CT2/*` into properly formatted csv and push it into `flist_step_merge`, too. This is the prototype for processing dynamic output of the CrypTools (JCT to follow)
 
 See also the [comprehensive overview over findings](todo.md). in the (formerly manually maintained) web-dump database
