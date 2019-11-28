@@ -8,6 +8,58 @@ To that end, it processes legacy files from, and data that is dynamically genera
  - [CrypTool Online](https://www.cryptool.org/en/cryptool-online)
  - [JCrypTool](https://www.cryptool.org/en/jcryptool)
 
-# State
+# Steps
 
-- Nonfunctional/WIP
+Right now, the csv generation is comprised of three steps:
+
+- workspace setup: --  `src/flist_step_merge.py`
+- merging of `$workspace/data/scsv_webdump` -- `src/flist_step_setup.py`
+- creating the output that can be fed to the SQL database: `src/flist_step_tofinalform.py`
+
+These three steps are Python scripts that depend upon `src/flist.python` as the common library. They are usable completely independently and do not even depend on a workspace present.
+
+However, each one is executable without specifying further arguments; they will work together by default. A bash script like this currently represents the whole pipeline. Each step writes its result to file, which gets picked up by the next one.
+
+```
+#!/bin/bash
+
+./src/flist_step_merge.py
+./src/flist_step_setup.py
+./src/flist_step_tofinalform.py
+```
+
+Additional steps to follow:
+
+- `finalform-to-html` -- for local testing of the product *(50% there)*
+- `process-merged` -- if we see that we want to batch-process intermediate, `all_merged.csv` files, a filter step could be implemented that works AWK-like with rules over the columns of the data, taking as in- and output the same `all_merged.csv` file. `cp -r` Snapshots of the workspace may help keeping track of those steps.
+
+Still, these can be customized by providing arguments, most prominently `--workspace` (specify another workspace to work together in)
+
+# Workspace directory
+
+The so-called "Workspace" connects all the single steps. It can be specified for each step separately via `--workspace <WS-dir>` argument, or be completely left out. In the latter case, the workspace defaults to the "ws" directory next to the "src" directory in the project home folder.
+
+It looks like this, after all steps have been run (19/11/28):
+
+```
+ws/
+├── all_final.csv    : the file that corresponds to the website input
+├── all_merged.csv   : the file that contains the "raw", but merged content from different CT projects
+└── data             : by default, a clone of /data in this repository
+    ├── scsv_CT2     : contains the dynamically generated csv files of CT2
+    │   └── FunctionList-en.csv
+    └── scsv_webdump : contains the data that was copied from the website; the most up to date legacy dataset
+        ├── CT1.csv
+        ├── CT2.csv
+        ├── CTO.csv
+        └── JCT.csv
+```
+
+The data folder is by default a copy of the "data" dir next to the "src" dir of this repository. It may also be linked, or the files in it be specified to be loaded from any location. In most cases though, it is most convenient to run `src/flist_step_setup.py --workspace <if-left-out-defaults-to-ws-dir>` which sets up a workspace completely from scratch.
+
+# TODO
+
+- The argparse code is currently divided into two steps, so that not all command line arguments can be seen by invoking --help on the step scripts.
+- CT2 paths in the final csv do not have a `[C]`-like path prefix
+
+See also the [comprehensive overview over findings](todo.md). in the (formerly manually maintained) web-dump database
