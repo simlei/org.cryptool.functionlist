@@ -1,49 +1,49 @@
-CTO:static:1;ADFGV;CTO:X;Ciphers\ ADFGVX;1) Classic Ciphers
-CTO:static:2;AES;CTO:X;Highlights\ AES;2) Modern Ciphers
-CTO:static:3;Affine Cipher;CTO:X;Ciphers\ Multiplicative;1) Classic Ciphers
-CTO:static:4;Alberti;CTO:X;Ciphers\ Alberti;1) Classic Ciphers
-CTO:static:5;AMSCO;CTO:X;Ciphers\ AMSCO;1) Classic Ciphers
-CTO:static:6;ASCII;CTO:X;Codings\ ASCII;9) Codings
-CTO:static:7;Autocorrelation;CTO:X;Cryptanalysis\ Autocorrelation;6) Classic Cryptanalysis
-CTO:static:8;Autokey Analysis;CTO:X;Cryptanalysis\ Break Autokey;6) Classic Cryptanalysis
-CTO:static:9;Autokey Vigenère;CTO:X;Ciphers\ Autokey;1) Classic Ciphers
-CTO:static:10;Bacon;CTO:X;Codings\ Bacon;9) Codings
-CTO:static:11;Barcode Generator;CTO:X;Codings\ Barcode Generator;9) Codings
-CTO:static:12;Base 64 Decode;CTO:X;Codings\ Base64;9) Codings
-CTO:static:13;Base 64 Encode;CTO:X;Codings\ Base64;9) Codings
-CTO:static:14;Beaufort;CTO:X;Ciphers\ Beaufort;1) Classic Ciphers
-CTO:static:15;Bifid;CTO:X;Ciphers\ Bifid;1) Classic Ciphers
-CTO:static:16;Caesar;CTO:X;Ciphers\ Caesar / Rot-13;1) Classic Ciphers
-CTO:static:17;Code 39;CTO:X;Codings\ Code39;9) Codings
-CTO:static:18;Distributed AES Analysis;CTO:X;Cryptanalysis\ Distributed AES Analysis;7) Modern Cryptanalysis
-CTO:static:19;Enigma;CTO:X;Ciphers\ Enigma;1) Classic Ciphers
-CTO:static:20;Four Square;CTO:X;Ciphers\ Four-Square;1) Classic Ciphers
-CTO:static:21;Freemason;CTO:X;Ciphers\ Freemason;1) Classic Ciphers
-CTO:static:22;Frequency Test;CTO:X;Cryptanalysis\ Frequency Analysis;6) Classic Cryptanalysis
-CTO:static:23;Gronsfeld;CTO:X;Ciphers\ Gronsfeld;1) Classic Ciphers
-CTO:static:24;Hill;CTO:X;Ciphers\ Hill;1) Classic Ciphers
-CTO:static:25;Homophone;CTO:X;Ciphers\ Homophonic;1) Classic Ciphers
-CTO:static:26;Huffman;CTO:X;Codings\ Huffman;9) Codings
-CTO:static:27;Kamasutra;CTO:X;Ciphers\ Kamasutra;1) Classic Ciphers
-CTO:static:28;Larrabee;CTO:X;Ciphers\ Larrabee;1) Classic Ciphers
-CTO:static:29;Morse Code;CTO:X;Codings\ Morse code;9) Codings
-CTO:static:30;N-Gram Analysis;CTO:X;Cryptanalysis\ N-Gram Analysis;6) Classic Cryptanalysis
-CTO:static:31;Navajo;CTO:X;Ciphers\ Navajo;1) Classic Ciphers
-CTO:static:32;Nihilist;CTO:X;Ciphers\ Nihilist;1) Classic Ciphers
-CTO:static:33;Number Shark;CTO:X;Highlights\ Taxman;11) Games
-CTO:static:34;Password Generator;CTO:X;Highlights\ Password Generator;14) Tools
-CTO:static:35;Password Quality Visualization;CTO:X;Highlights\ Password Check;10) Learning Aids and Visualizations
-CTO:static:36;Playfair;CTO:X;Ciphers\ Playfair;1) Classic Ciphers
-CTO:static:37;Pollux;CTO:X;Ciphers\ Pollux;1) Classic Ciphers
-CTO:static:38;Polybius;CTO:X;Ciphers\ Polybius;1) Classic Ciphers
-CTO:static:39;Porta;CTO:X;Ciphers\ Porta;1) Classic Ciphers
-CTO:static:40;Rail Fence;CTO:X;Ciphers\ Zigzag (Rail Fence);1) Classic Ciphers
-CTO:static:41;Rot-13;CTO:X;Ciphers\ Caesar / Rot-13;1) Classic Ciphers
-CTO:static:42;Rotation;CTO:X;Ciphers\ Rotation;1) Classic Ciphers
-CTO:static:43;Scytale;CTO:X;Ciphers\ Scytale;1) Classic Ciphers
-CTO:static:44;Substitution;CTO:X;Ciphers\ Monoalphabetic Substitution;1) Classic Ciphers
-CTO:static:45;Templar;CTO:X;Ciphers\ Templar;1) Classic Ciphers
-CTO:static:46;Transposition (Single Column);CTO:X;Ciphers\ Transposition;1) Classic Ciphers
-CTO:static:47;Trithemius;CTO:X;Ciphers\ Trithemius;1) Classic Ciphers
-CTO:static:48;Vigenère;CTO:X;Ciphers\ Vigenère;1) Classic Ciphers
-CTO:static:49;Vigenère Analysis;CTO:X;Cryptanalysis\ Break Vigenère;6) Classic Cryptanalysis
+CTO:static:1;ADFGV;CTO:X;CTO:X\ Ciphers\ ADFGVX;1) Classic Ciphers
+CTO:static:2;AES;CTO:X;CTO:X\ Highlights\ AES;2) Modern Ciphers
+CTO:static:3;Affine Cipher;CTO:X;CTO:X\ Ciphers\ Multiplicative;1) Classic Ciphers
+CTO:static:4;Alberti;CTO:X;CTO:X\ Ciphers\ Alberti;1) Classic Ciphers
+CTO:static:5;AMSCO;CTO:X;CTO:X\ Ciphers\ AMSCO;1) Classic Ciphers
+CTO:static:6;ASCII;CTO:X;CTO:X\ Codings\ ASCII;9) Codings
+CTO:static:7;Autocorrelation;CTO:X;CTO:X\ Cryptanalysis\ Autocorrelation;6) Classic Cryptanalysis
+CTO:static:8;Autokey Analysis;CTO:X;CTO:X\ Cryptanalysis\ Break Autokey;6) Classic Cryptanalysis
+CTO:static:9;Autokey Vigenère;CTO:X;CTO:X\ Ciphers\ Autokey;1) Classic Ciphers
+CTO:static:10;Bacon;CTO:X;CTO:X\ Codings\ Bacon;9) Codings
+CTO:static:11;Barcode Generator;CTO:X;CTO:X\ Codings\ Barcode Generator;9) Codings
+CTO:static:12;Base 64 Decode;CTO:X;CTO:X\ Codings\ Base64;9) Codings
+CTO:static:13;Base 64 Encode;CTO:X;CTO:X\ Codings\ Base64;9) Codings
+CTO:static:14;Beaufort;CTO:X;CTO:X\ Ciphers\ Beaufort;1) Classic Ciphers
+CTO:static:15;Bifid;CTO:X;CTO:X\ Ciphers\ Bifid;1) Classic Ciphers
+CTO:static:16;Caesar;CTO:X;CTO:X\ Ciphers\ Caesar / Rot-13;1) Classic Ciphers
+CTO:static:17;Code 39;CTO:X;CTO:X\ Codings\ Code39;9) Codings
+CTO:static:18;Distributed AES Analysis;CTO:X;CTO:X\ Cryptanalysis\ Distributed AES Analysis;7) Modern Cryptanalysis
+CTO:static:19;Enigma;CTO:X;CTO:X\ Ciphers\ Enigma;1) Classic Ciphers
+CTO:static:20;Four Square;CTO:X;CTO:X\ Ciphers\ Four-Square;1) Classic Ciphers
+CTO:static:21;Freemason;CTO:X;CTO:X\ Ciphers\ Freemason;1) Classic Ciphers
+CTO:static:22;Frequency Test;CTO:X;CTO:X\ Cryptanalysis\ Frequency Analysis;6) Classic Cryptanalysis
+CTO:static:23;Gronsfeld;CTO:X;CTO:X\ Ciphers\ Gronsfeld;1) Classic Ciphers
+CTO:static:24;Hill;CTO:X;CTO:X\ Ciphers\ Hill;1) Classic Ciphers
+CTO:static:25;Homophone;CTO:X;CTO:X\ Ciphers\ Homophonic;1) Classic Ciphers
+CTO:static:26;Huffman;CTO:X;CTO:X\ Codings\ Huffman;9) Codings
+CTO:static:27;Kamasutra;CTO:X;CTO:X\ Ciphers\ Kamasutra;1) Classic Ciphers
+CTO:static:28;Larrabee;CTO:X;CTO:X\ Ciphers\ Larrabee;1) Classic Ciphers
+CTO:static:29;Morse Code;CTO:X;CTO:X\ Codings\ Morse code;9) Codings
+CTO:static:30;N-Gram Analysis;CTO:X;CTO:X\ Cryptanalysis\ N-Gram Analysis;6) Classic Cryptanalysis
+CTO:static:31;Navajo;CTO:X;CTO:X\ Ciphers\ Navajo;1) Classic Ciphers
+CTO:static:32;Nihilist;CTO:X;CTO:X\ Ciphers\ Nihilist;1) Classic Ciphers
+CTO:static:33;Number Shark;CTO:X;CTO:X\ Highlights\ Taxman;11) Games
+CTO:static:34;Password Generator;CTO:X;CTO:X\ Highlights\ Password Generator;14) Tools
+CTO:static:35;Password Quality Visualization;CTO:X;CTO:X\ Highlights\ Password Check;10) Learning Aids and Visualizations
+CTO:static:36;Playfair;CTO:X;CTO:X\ Ciphers\ Playfair;1) Classic Ciphers
+CTO:static:37;Pollux;CTO:X;CTO:X\ Ciphers\ Pollux;1) Classic Ciphers
+CTO:static:38;Polybius;CTO:X;CTO:X\ Ciphers\ Polybius;1) Classic Ciphers
+CTO:static:39;Porta;CTO:X;CTO:X\ Ciphers\ Porta;1) Classic Ciphers
+CTO:static:40;Rail Fence;CTO:X;CTO:X\ Ciphers\ Zigzag (Rail Fence);1) Classic Ciphers
+CTO:static:41;Rot-13;CTO:X;CTO:X\ Ciphers\ Caesar / Rot-13;1) Classic Ciphers
+CTO:static:42;Rotation;CTO:X;CTO:X\ Ciphers\ Rotation;1) Classic Ciphers
+CTO:static:43;Scytale;CTO:X;CTO:X\ Ciphers\ Scytale;1) Classic Ciphers
+CTO:static:44;Substitution;CTO:X;CTO:X\ Ciphers\ Monoalphabetic Substitution;1) Classic Ciphers
+CTO:static:45;Templar;CTO:X;CTO:X\ Ciphers\ Templar;1) Classic Ciphers
+CTO:static:46;Transposition (Single Column);CTO:X;CTO:X\ Ciphers\ Transposition;1) Classic Ciphers
+CTO:static:47;Trithemius;CTO:X;CTO:X\ Ciphers\ Trithemius;1) Classic Ciphers
+CTO:static:48;Vigenère;CTO:X;CTO:X\ Ciphers\ Vigenère;1) Classic Ciphers
+CTO:static:49;Vigenère Analysis;CTO:X;CTO:X\ Cryptanalysis\ Break Vigenère;6) Classic Cryptanalysis
