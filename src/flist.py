@@ -336,13 +336,13 @@ class FinalForm_Entry:
     @staticmethod
     def From_MCSV(mcsv: MCSV_Entry):
         functionality    = mcsv.functionality
-        category       = mcsv.categories
+        category         = MCSV_Entry.merge_categories(mcsv.categories)
         how_implemented  = dict()
         paths            = dict()
         for ctid in ["CT1", "CT2", "CTO", "JCT"]:
-            filtered = mcsv.filter_for_cryptoolstring(ctid)
+            filtered              = mcsv.filter_for_cryptoolstring(ctid)
             how_implemented[ctid] = MCSV_Entry.merge_how_implemented(filtered.how_implemented)
-            paths[ctid] = MCSV_Entry.merge_paths(filtered.paths)
+            paths[ctid]           = MCSV_Entry.merge_paths(filtered.paths)
 
         return FinalForm_Entry(functionality, how_implemented, paths, category)
 
