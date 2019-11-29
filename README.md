@@ -10,10 +10,15 @@ To that end, it processes legacy files from, and data that is dynamically genera
 
 # Current data output:
 
-- sample output of the merge step: [](misc_doc/output_19_11_28/regular_merged.csv)
-- sample output of the "final-form" (SQL input) step: [](misc_doc/output_19_11_28/regular_final.csv)
-- prettified (space-padded) output of the "final-form" (SQL input) step (columns truncated after 60 colums): [](misc_doc/output_19_11_28/pretty_final.csv)
-- prettified (space-padded) output of the "final-form" (SQL input) step (no truncation): [](misc_doc/output_19_11_28/pretty_full_final.csv)
+- sample output of the merge step: [misc_doc/output_19_11_28/regular_merged.csv](misc_doc/output_19_11_28/regular_merged.csv)
+- sample output of the "final-form" (SQL input) step: [misc_doc/output_19_11_28/regular_final.csv](misc_doc/output_19_11_28/regular_final.csv)
+- prettified (space-padded) output of the "final-form" (SQL input) step (columns truncated after 60 colums): [misc_doc/output_19_11_28/pretty_final.csv](misc_doc/output_19_11_28/pretty_final.csv)
+- prettified (space-padded) output of the "final-form" (SQL input) step (no truncation): [misc_doc/output_19_11_28/pretty_full_final.csv](misc_doc/output_19_11_28/pretty_full_final.csv)
+
+# Requirements:
+
+- Python 3.8
+- see [requirements.txt](requirements.txt)
 
 # Steps
 
@@ -66,8 +71,15 @@ The data folder is by default a copy of the "data" dir next to the "src" dir of 
 
 # TODO next
 
-- The argparse code is currently divided into two steps, so that not all command line arguments can be seen by invoking --help on the step scripts.
 - CT2 paths in the final csv do not have a `[C]`-like path prefix
 - convert `data/scsv_CT2/*` into properly formatted csv and push it into `flist_step_merge`, too. This is the prototype for processing dynamic output of the CrypTools (JCT to follow)
+- generate a local version of the webpage for simulating the eventual behavior
+
+## More TODO after these steps check out
+
+- let JCT generate output that augments the legacy data in [data/scsv_webdump/JCT.csv](data/scsv_webdump/JCT.csv), with the goal to improve that functionality to the point of replacing that file entirely (as will have happened already with CT2)
+- have CT2 and JCT generate translation files
+    - incorporate these into the pipeline, so that a german translation of the "final" `ws/all_final.csv` file is generated
+
 
 See also the [comprehensive overview over findings](todo.md). in the (formerly manually maintained) web-dump database
