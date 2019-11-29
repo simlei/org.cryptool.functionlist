@@ -1,4 +1,6 @@
-# more issues (others in old doc in ~/Documents)
+# Issues with the web-dumped data 
+
+Original data that was manually dumped from cryptool.org is in data/scsv_webdump/original. This documents the issues that have been identified during development with that data. It was created manually at that time and has artifacts; most of it was resolved on-the-spot but some have been left untouched for reasons. This document keeps track of these issues, resolved and unresolved.
 
 ## scsv_webdump/CT2.csv @ CT2:static:82
 
@@ -139,6 +141,26 @@ MCSV: Because duplicate elements are deleted from each cell of a row when writin
 e.g. (from all_finalform.csv)
 
 end of dataset: `10) Learning Aids and Visualizations <br \>13) Protocols`
+
+more in detail:
+
+```
+|| Coin Flipping Protocol ['JCT:static:54', 'JCT:static:55', 'CT2:static:82', 'CT2:static:83']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization ['JCT:static:58', 'JCT:static:59', 'CT1:static:31', 'CT1:static:32']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| RSA ['JCT:static:166', 'JCT:static:167', 'JCT:static:168', 'JCT:static:169', 'JCT:static:170', 'JCT:static:171', 'JCT:static:172', 'JCT:static:173', 'JCT:static:174', 'JCT:static:175', 'JCT:static:176', 'JCT:static:177', 'JCT:static:178', 'JCT:static:179', 'JCT:static:180', 'JCT:static:181', 'JCT:static:182', 'JCT:static:183', 'JCT:static:184', 'CT1:static:104', 'CT1:static:105', 'CT2:static:485', 'CT2:static:486', 'CT2:static:487', 'CT2:static:488', 'CT2:static:489', 'CT2:static:490', 'CT2:static:491', 'CT2:static:492', 'CT2:static:493', 'CT2:static:494', 'CT2:static:495', 'CT2:static:496', 'CT2:static:497', 'CT2:static:498', 'CT2:static:499']: ['2) Modern Ciphers', '4) Digital Signatures/PKI']
+|| Shamir's Secret Sharing Visualization ['JCT:static:212', 'JCT:static:213', 'CT1:static:121', 'CT1:static:122']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Authentication Methods in Networks Visualization ['CT1:static:11', 'CT1:static:12']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Secure Email (S/MIME) Visualization ['CT1:static:113', 'CT1:static:114']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| BB84 Key Exchange ['CT2:static:46', 'CT2:static:47', 'CT2:static:48', 'CT2:static:49', 'CT2:static:50', 'CT2:static:51', 'CT2:static:52', 'CT2:static:53', 'CT2:static:54']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| BB84 Key Exchange with Eavesdropping Attack ['CT2:static:55', 'CT2:static:56']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Bit Commitment Scheme ['CT2:static:59', 'CT2:static:60', 'CT2:static:61', 'CT2:static:62']: ['7) Modern Cryptanalysis', '13) Protocols']
+|| Dining Cryptographers Protocol ['CT2:static:257', 'CT2:static:258']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Oblivious Transfer Protocol ['CT2:static:404', 'CT2:static:405', 'CT2:static:406', 'CT2:static:407', 'CT2:static:408', 'CT2:static:409', 'CT2:static:410', 'CT2:static:411']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Virtual Smartcard ['CT2:static:600', 'CT2:static:601', 'CT2:static:602', 'CT2:static:603', 'CT2:static:604']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Wired Equivalent Privacy (WEP) ['CT2:static:628', 'CT2:static:629', 'CT2:static:630']: ['2) Modern Ciphers', '13) Protocols']
+|| Yao's Millionaire Problem ['CT2:static:646', 'CT2:static:647', 'CT2:static:648', 'CT2:static:649', 'CT2:static:650', 'CT2:static:651', 'CT2:static:652', 'CT2:static:653']: ['10) Learning Aids and Visualizations', '13) Protocols']
+|| Zero Knowledge Protocol ['CT2:static:654', 'CT2:static:655', 'CT2:static:656', 'CT2:static:657', 'CT2:static:658', 'CT2:static:659']: ['10) Learning Aids and Visualizations', '13) Protocols']
+```
 
 ```
 Shamir's Secret Sharing Visualization;X;;D;;Indiv. Procedures \ Secret Sharing Demonstration (Shamir)…;;[D] \ Visualizations \ Shamir's Secret Sharing <br /> [D] \ Visuals \ Shamir's Secret Sharing;;;10) Learning Aids and Visualizations <br \>13) Protocols
