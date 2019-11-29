@@ -1,4 +1,6 @@
 /**/*.local
+/ws
+/ws/**
 
 # ACME gitignore below
 
