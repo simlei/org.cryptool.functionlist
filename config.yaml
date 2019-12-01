@@ -1,0 +1,20 @@
+
+# Paths are relative to the workspace.
+# Under Windows, paths with forward slashes ("/") are valid.
+
+merge:
+  input: 
+    - data/scsv_webdump/CT1.csv
+    - data/scsv_webdump/CTO.csv
+    - data/scsv_webdump/JCT.csv
+  output: all_merged.csv
+
+tofinalform:
+  input:
+    - all_merged.csv
+  output: all_final.csv
+
+tohtml:
+  input:
+    - all_final.csv
+  output: html/index.html

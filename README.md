@@ -8,12 +8,17 @@ To that end, it processes legacy files from, and data that is dynamically genera
  - [CrypTool Online](https://www.cryptool.org/en/cryptool-online)
  - [JCrypTool](https://www.cryptool.org/en/jcryptool)
 
+# Requirements:
+
+- Python 3.8
+- see [requirements.txt](requirements.txt)
+
 # Documentation
 
 [User Documentation](doc/)
-[Developer Documentation](doc/developer)
+[Developer Documentation](doc/developer/)
 
-The a complete program with default behavior is started by running `bin/flist` with no arguments. The output will be the files in `ws` which is the default "workspace" of the program. This directory is created fresh with every start of `flist`, older versions are deleted. 
+The complete program with default behavior is started by running `bin/flist` with no arguments. The output will be the files in `ws` which is the default "workspace" of the program. This directory is created fresh with every start of `flist`, older versions are deleted. 
 
 Learn how to set set another workspace path, and other configuration:
 
@@ -22,8 +27,4 @@ Learn how to set set another workspace path, and other configuration:
 
 <!-- TODO: Exemplary output of the current revision can be seen in [doc_misc/newest_ws](doc_misc/newest_ws), which is a copy of the workspace of `bin/flist` after it has run, and an additional `bin/analyze` afterwards, on the same workspace. -->
 
-# Requirements:
-
-- Python 3.8
-- see [requirements.txt](requirements.txt)
 

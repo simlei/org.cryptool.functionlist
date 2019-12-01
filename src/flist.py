@@ -9,63 +9,26 @@ import pandas
 from typing import List, Any, Dict
 import pathlib; from pathlib import Path
 import flist_argtype as argtype
+import flist_io as io
 
+# ---- State that holds the multiple steps together. Must be completely inferrable by pointing to a workspace dir, and must also be optional
 
-
-
-@dataclass
-class FlistFilesystem:
-    workspace: Path
-    datadir: Path
-    htmltemplates: Path
-
-@dataclass
-class FlistProgramState:
-    fs: FlistFilesystem
-
-    @staticmethod
-    def ParseStateFromArgs(args):
-        wsparser = argparse.ArgumentParser()
-        wsparser.add_argument("--workspace", type=argtype.DirPath, default=Path(__file__).parent.parent / "ws")
-        parsed,rest = wsparser.parse_known_args(args)
-        state = FlistProgramState.FromWSDir(parsed.workspace)
-        return state,rest
-
-
-    @staticmethod
-    def FromWSDir(dir):
-        if not Path(dir).is_dir():
-            raise Exception(f"{dir=} is not an existing flist workspace directory")
-        return FlistProgramState(FlistFilesystem(
-            workspace = Path(dir), 
-            datadir = Path(__file__).parent.parent       / "data", 
-            htmltemplates = Path(__file__).parent.parent / "html"
-        ))
-        
-
-dev_state = FlistProgramState(
-    FlistFilesystem(
-        workspace = Path(__file__).parent.parent     / "ws",
-        datadir = Path(__file__).parent.parent       / "data", 
-        htmltemplates = Path(__file__).parent.parent / "html"
-    )
-)
-
-# ---- Data specification{{{
+# ---- Data documentation stub:
 
 # DCSV_CT2: CT2 dynamic csv-like data (different numbers of columns per line -> state based)
 # SCSV: single csv -- all cells are atomar (no lists)
 # MCSV: merged csv
+# FinalForm: 
 
 CSV_SEP=";"
 
+# CSV infrastructure
+
+# this class is just a marker for future abstractions over CSV entries
 class CSV_Entry(ABC):
     pass
 
-    # @abstractmethod
-    # def as_dict(self) -> dict:
-    #     pass
-
+# this abstract class controls serialization and deserialization of CSV datasets
 class CSV_Dataset(ABC):
 
     @abstractmethod
@@ -89,9 +52,20 @@ class CSV_Dataset(ABC):
         self.to_dataframe().to_csv(outfile, sep=CSV_SEP, index=False, header=False)
 
     @staticmethod
-    def Dataframe_From_File(file, columns):
-        return pandas.read_csv(file, sep=CSV_SEP, header=None, names=columns)
+    def Dataframe_From_File(file: Path, columns):
+        if not file.exists():
+            raise io.FlistException(f"nonexistent file path: {file}")
+        return pandas.read_csv(file, sep=CSV_SEP, header=None, names=columns, keep_default_na=False)
 
+    @staticmethod
+    def Dataframe_From_Files(files, columns):
+        if len(files) == 0: raise io.FlistException("empty csv file list")
+        frames = [CSV_Dataset.Dataframe_From_File(file, columns) for file in files]
+        return pandas.concat(frames)
+
+
+
+# ---- Data structure
 
 @dataclass
 class SCSV_Entry(CSV_Entry):
@@ -112,8 +86,38 @@ class SCSV_Entry(CSV_Entry):
             path            = re.split(r"\s*[\\/]\s*", row["path"]),
             category        = row["category"]
         )
+@dataclass
+class SCSV_Dataset(CSV_Dataset):
+    COLUMNS = ["id", "functionality", "how_implemented", "path", "category"]
 
+    rows: List[SCSV_Entry] = field(default_factory=list)
 
+    def get_rows(self):
+        return [ dataclasses.asdict(row) for row in self.rows ]
+
+    def get_columns(self):
+        return SCSV_Dataset.COLUMNS
+
+    def get_functionalities(self):
+        functionalities = [ row["functionality"] for row in self.get_rows() ]
+        uniqd = uniq(functionalities)
+        # print(f"{functionalities=}")
+        # print(f"{uniqd=}")
+        return uniqd
+    
+    @staticmethod
+    def From_Dataframe(dataset):
+        rows = [row for i,row in dataset.iterrows()]
+
+        return SCSV_Dataset(rows = [SCSV_Entry.From_Dataframe_Row(row) for row in rows])
+
+    @staticmethod
+    def Dataframe_From_File(file):
+        return CSV_Dataset.Dataframe_From_File(file, SCSV_Dataset.COLUMNS)
+    
+    @staticmethod
+    def Dataframe_From_Files(files):
+        return CSV_Dataset.Dataframe_From_Files(files, SCSV_Dataset.COLUMNS)
 
 @dataclass
 class Merged_Functionality():
@@ -132,8 +136,6 @@ class Merged_Functionality():
             paths           = [row["path"]            for row in self.scsv_rows], 
             categories      = [row["category"]        for row in self.scsv_rows]
         )
-
-
 @dataclass
 class MCSV_Entry(CSV_Entry):
     SEP_ids             = "+"
@@ -188,7 +190,7 @@ class MCSV_Entry(CSV_Entry):
         uniqd    = uniq(ids)
         appended =  MCSV_Entry.SEP_ids.join(uniqd)
         if(ids != uniqd):
-            raise Exception(f"ids are not unique for {self}: {ids} != {uniqd}")
+            raise io.FlistException(f"ids are not unique for {self}: {ids} != {uniqd}")
         return appended
 
     @staticmethod
@@ -234,12 +236,15 @@ class MCSV_Entry(CSV_Entry):
         return merged.strip().split(MCSV_Entry.SEP_categories)
 
     def to_dataframe_row(self):
+        # if len(uniq(self.categories)) > 1:
+        #     print(f"{self.functionality} {self.ids}: {uniq(self.categories)}", file=sys.stderr)
+
         result = {
             "functionality"  : MCSV_Entry.merge_functionality(self.functionality),
             "ids"            : MCSV_Entry.merge_ids(self.ids),
             "how_implemented": MCSV_Entry.merge_how_implemented(self.how_implemented),
             "paths"          : MCSV_Entry.merge_paths(self.paths),
-            "categories"     : MCSV_Entry.merge_categories(self.categories)
+            "categories"     : MCSV_Entry.merge_categories(uniq(self.categories)[:1])
         }
         return result
 
@@ -262,8 +267,6 @@ class MCSV_Entry(CSV_Entry):
             paths = paths, 
             categories = categories
         )
-
-
 @dataclass
 class MCSV_Dataset(CSV_Dataset):
 
@@ -286,65 +289,33 @@ class MCSV_Dataset(CSV_Dataset):
     def From_Rows(rows: List[MCSV_Entry]):
         return MCSV_Dataset(rows)
 
-
-def uniq(lst):
-    seen = set()
-    result = list()
-    for el in lst:
-        if not tuple(el) in seen:
-            result.append(el)
-            seen.add(tuple(el))
-    return result
-
-@dataclass
-class SCSV_Dataset(CSV_Dataset):
-    COLUMNS = ["id", "functionality", "how_implemented", "path", "category"]
-
-    rows: List[SCSV_Entry] = field(default_factory=list)
-
-    def get_rows(self):
-        return [ dataclasses.asdict(row) for row in self.rows ]
-
-    def get_columns(self):
-        return SCSV_Dataset.COLUMNS
-
-    def get_functionalities(self):
-        functionalities = [ row["functionality"] for row in self.get_rows() ]
-        uniqd = uniq(functionalities)
-        # print(f"{functionalities=}")
-        # print(f"{uniqd=}")
-        return uniqd
-    
-    @staticmethod
-    def From_Dataframe(dataset):
-        rows = [row for i,row in dataset.iterrows()]
-
-        return SCSV_Dataset(rows = [SCSV_Entry.From_Dataframe_Row(row) for row in rows])
-
     @staticmethod
     def Dataframe_From_File(file):
-        return CSV_Dataset.Dataframe_From_File(file, SCSV_Dataset.COLUMNS)
+        return CSV_Dataset.Dataframe_From_File(file, MCSV_Dataset.COLUMNS)
 
+    @staticmethod
+    def Dataframe_From_Files(files):
+        return CSV_Dataset.Dataframe_From_Files(files, MCSV_Dataset.COLUMNS)
 
 @dataclass
 class FinalForm_Entry:
     functionality: str
     how_implemented: Dict[str, str]
     paths: Dict[str, str]
-    category: str
+    categories: str
 
     @staticmethod
     def From_MCSV(mcsv: MCSV_Entry):
-        functionality    = mcsv.functionality
-        category         = MCSV_Entry.merge_categories(mcsv.categories)
-        how_implemented  = dict()
-        paths            = dict()
+        functionality      = mcsv.functionality
+        categories         = MCSV_Entry.merge_categories(mcsv.categories)
+        how_implemented    = dict()
+        paths              = dict()
         for ctid in ["CT1", "CT2", "CTO", "JCT"]:
             filtered              = mcsv.filter_for_cryptoolstring(ctid)
             how_implemented[ctid] = MCSV_Entry.merge_how_implemented(filtered.how_implemented)
             paths[ctid]           = MCSV_Entry.merge_paths(filtered.paths)
 
-        return FinalForm_Entry(functionality, how_implemented, paths, category)
+        return FinalForm_Entry(functionality, how_implemented, paths, categories)
 
 
     @staticmethod
@@ -357,12 +328,12 @@ class FinalForm_Entry:
             how_implemented[ctid] = row[f"how_implemented_{ctid}"]
             paths[ctid] = row[f"paths_{ctid}"]
 
-        return FinalForm_Entry(functionality, how_implemented, paths, category)
+        return FinalForm_Entry(functionality, how_implemented, paths, categories)
 
     def to_dataframe_row(self):
         result = {}
         result["functionality"] = self.functionality
-        result["category"] = self.category
+        result["categories"] = self.categories
         for ctid in ["CT1", "CT2", "CTO", "JCT"]:
             column_HI = f"how_implemented_{ctid}"
             column_paths = f"paths_{ctid}"
@@ -370,17 +341,10 @@ class FinalForm_Entry:
             result[column_paths] = self.paths[ctid]
 
         return result
-
 @dataclass
 class FinalForm_Dataset(CSV_Dataset):
 
-    rows: List[FinalForm_Entry] = field(default_factory=list)
-
-    def get_rows(self):
-        return [ row.to_dataframe_row() for row in self.rows ]
-
-    def get_columns(self):
-        return ["functionality", 
+    COLUMNS = ["functionality", 
                "how_implemented_CT1", 
                "how_implemented_CT2", 
                "how_implemented_JCT", 
@@ -390,11 +354,18 @@ class FinalForm_Dataset(CSV_Dataset):
                "paths_JCT", 
                "paths_CTO", 
                "categories"]
+    rows: List[FinalForm_Entry] = field(default_factory=list)
+
+    def get_rows(self):
+        return [ row.to_dataframe_row() for row in self.rows ]
+
+    def get_columns(self):
+        return FinalForm_Dataset.COLUMNS
 
     @staticmethod
     def From_Dataframe(dataframe):
         rows = [FinalForm_Entry.From_Dataframe_Row(row) for i,row in dataframe.iterrows()]
-        return MCSV_Dataset.From_Rows(rows)
+        return FinalForm_Dataset.From_Rows(rows)
 
     @staticmethod
     def From_Rows(rows: List[MCSV_Entry]):
@@ -404,13 +375,15 @@ class FinalForm_Dataset(CSV_Dataset):
     def From_MCSV(mcsv_set):
         return FinalForm_Dataset.From_Rows([ FinalForm_Entry.From_MCSV(row) for row in mcsv_set.rows ])
 
+    @staticmethod
+    def Dataframe_From_File(file):
+        return CSV_Dataset.Dataframe_From_File(file, FinalForm_Dataset.COLUMNS)
+    
+    @staticmethod
+    def Dataframe_From_Files(files):
+        return CSV_Dataset.Dataframe_From_Files(files, FinalForm_Dataset.COLUMNS)
 
-
-
-# end data spec }}}
-
-
-
+# ---- Transform csv utilities
 
 @dataclass
 class TransformRule:
@@ -433,7 +406,6 @@ class TransformRule:
         else:
             return None
 
-
 @dataclass
 class IniAssignment:
     key: str
@@ -442,7 +414,6 @@ class IniAssignment:
     @staticmethod
     def Parse(line):
         return None
-
 
 def ParseMergeConfigFile():
     result=[]
@@ -467,4 +438,13 @@ def ParseMergeConfigFile():
 
             line = fileIn.readline()
 
+# --- utilities
 
+def uniq(lst):
+    seen = set()
+    result = list()
+    for el in lst:
+        if not tuple(el) in seen:
+            result.append(el)
+            seen.add(tuple(el))
+    return result

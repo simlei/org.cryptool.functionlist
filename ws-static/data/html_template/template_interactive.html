@@ -4,7 +4,7 @@
                     Cryptographic category:</td><td>
                     <select name="cat" onchange="" id="cat_selector">
                         <option value="" selected="">No filter applied</option>
-                        ${fragment_categories.html}
+                        ${categories}
                     </select>
                 </td>
             </tr>
@@ -31,6 +31,6 @@
     </thead>
     
     <tbody role="alert" aria-live="polite" aria-relevant="all">
-        ${entries}
+        ${rows}
     </tbody>
 </table>
