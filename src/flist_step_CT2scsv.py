@@ -38,7 +38,7 @@ def appendRecord(df: pandas.DataFrame, currentFrame: list, inputfile: Path, curr
         pathelements = entrySplit[2].split("\\ ")
         path = " \\ ".join([how_implemented] + pathelements)
         category = "0) TODO: not inferred for dynamic CT2 output"
-        id = f"CT2:dynamic:{lineNr}"
+        id = f"CT2:dynamic:{flist.makeId(functionality, path, howimpl_payload)}"
         record_dict = {
             "functionality" : functionality,
             "id" : id, 
