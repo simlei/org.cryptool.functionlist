@@ -26,7 +26,7 @@ def substituteFileToFile(infilePath, outfilePath, **kwargs):
             while replaced := infile.readline():
                 for k,v in kwargs.items():
                     replaced = replaced.replace("${"+k+"}", v)
-                # print(replaced, end='', file=outfile)
+                print(replaced, end='', file=outfile)
 
 def substituteFileToStr(infilePath, **kwargs):
     if not Path(infilePath).exists():
@@ -119,7 +119,7 @@ if __name__ == "__main__":
     try:
         MakeHTML(parsed.inputs, parsed.output)
     except io.FlistException as e:
-        io.err(e.msg, e)
+        io.err(str(e), e)
         exit(1)
 
 

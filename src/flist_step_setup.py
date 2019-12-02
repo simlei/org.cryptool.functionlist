@@ -27,6 +27,6 @@ if __name__ == "__main__":
     try:
         CreateFreshWorkspace(flist_state)
     except io.FlistException as e:
-        io.err(e.msg, e)
+        io.err(str(e), e)
         exit(1)
 

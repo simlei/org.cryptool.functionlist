@@ -9,6 +9,8 @@ import typing; from typing import List, Dict, Any, Callable
 import argparse
 import flist_argtype as argtype
 
+import flist_io as io
+
 project_root = Path(__file__).parent.parent
 project_cfg  = project_root / "config.yaml"
 project_ws_static_content_dir = project_root / "ws-static"
@@ -25,6 +27,10 @@ def make_state(configobj, ws=None):
         inputs = [current_ws / relpath for relpath in configobj["merge"]["input"]],
         output = current_ws / configobj["merge"]["output"]
     )
+    default_ct2scsv = CT2SCSVConfig(
+        input = current_ws / configobj["CT2scsv"]["input"],
+        output = current_ws / configobj["CT2scsv"]["output"]
+    )
     default_tofinalform = MergeConfig(
         inputs = [current_ws / relpath for relpath in configobj["tofinalform"]["input"]],
         output = current_ws / configobj["tofinalform"]["output"]
@@ -37,6 +43,7 @@ def make_state(configobj, ws=None):
         fs = fsobj, 
         defaults = FlistDefaults(
             merge = default_merge,
+            ct2scsv = default_ct2scsv,
             tofinalform = default_tofinalform,
             tohtml = default_tohtml
         )
@@ -68,12 +75,21 @@ def parse_args(args, subparse_contrib):
 
 def parse_cfg():
     with open(project_cfg, "r") as input:
-        return yaml.load(input)
+        try:
+            return yaml.load(input)
+        except Exception as e:
+            io.err("The config file (config.yaml) could not be read correctly and is probably malformed. Please refer to https://en.wikpedia.org/YAML for the file format and git checkout config.yaml for a sane state of the file.")
+            exit(3)
 
 @dataclass
 class FlistFilesystem:
     workspace: Path
     ws_static_content_dir: Path
+
+@dataclass
+class CT2SCSVConfig:
+    input: Path
+    output: Path
 
 @dataclass
 class MergeConfig:
@@ -93,6 +109,7 @@ class TohtmlConfig:
 @dataclass
 class FlistDefaults:
     merge: MergeConfig
+    ct2scsv: CT2SCSVConfig
     tofinalform: TofinalformConfig
     tohtml: TohtmlConfig
 
