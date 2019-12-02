@@ -424,6 +424,12 @@ class FinalForm_Dataset(CSV_Dataset):
         return CSV_Dataset.Dataframe_From_Files(files, FinalForm_Dataset.COLUMNS)
 
 
+# ---- Id formation
+
+import hashlib
+def makeId(functionality_en:str, path:str, how_implemented:str):
+    return hashlib.md5(f"{functionality_en}{path}{how_implemented}".encode()).hexdigest()[:8]
+
 # ---- Transform csv utilities
 
 @dataclass
