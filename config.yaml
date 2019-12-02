@@ -2,11 +2,16 @@
 # Paths are relative to the workspace.
 # Under Windows, paths with forward slashes ("/") are valid.
 
+CT2scsv:
+  input: data/scsv_CT2/ct2-generated.csv
+  output: ct2_scsv.csv
+
 merge:
   input: 
     - data/scsv_webdump/CT1.csv
     - data/scsv_webdump/CTO.csv
     - data/scsv_webdump/JCT.csv
+    - ct2_scsv.csv
   output: all_merged.csv
 
 tofinalform:
