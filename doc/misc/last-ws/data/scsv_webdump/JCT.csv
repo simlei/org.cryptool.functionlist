@@ -1,0 +1,241 @@
+JCT:static:1;3DES;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ DESede_CBC (OID: 1.2.840.113549.3.7);2) Modern Ciphers
+JCT:static:2;ADFGVX;JCT:D;JCT:D\ Algorithms\ Classic\ ADFGVX;1) Classic Ciphers
+JCT:static:3;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES128_CBC (OID: 2.16.840.1.101.3.4.1.2);2) Modern Ciphers
+JCT:static:4;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES128_CFB (OID: 2.16.840.1.101.3.4.1.4);2) Modern Ciphers
+JCT:static:5;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES128_ECB (OID: 2.16.840.1.101.3.4.1.1);2) Modern Ciphers
+JCT:static:6;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES128_OFB (OID: 2.16.840.1.101.3.4.1.3);2) Modern Ciphers
+JCT:static:7;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES192_CBC (OID: 2.16.840.1.101.3.4.1.22);2) Modern Ciphers
+JCT:static:8;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES192_CFB (OID: 2.16.840.1.101.3.4.1.24);2) Modern Ciphers
+JCT:static:9;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES192_ECB (OID: 2.16.840.1.101.3.4.1.21);2) Modern Ciphers
+JCT:static:10;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES192_OFB (OID: 2.16.840.1.101.3.4.1.23);2) Modern Ciphers
+JCT:static:11;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES256_CBC (OID: 2.16.840.1.101.3.4.1.42);2) Modern Ciphers
+JCT:static:12;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES256_ECB (OID: 2.16.840.1.101.3.4.1.41);2) Modern Ciphers
+JCT:static:13;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES256_CFB (OID: 2.16.840.1.101.3.4.1.44);2) Modern Ciphers
+JCT:static:14;AES;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ Rijndael\ AES256_CFB (OID: 2.16.840.1.101.3.4.1.43);2) Modern Ciphers
+JCT:static:15;Android Unlock Pattern (AUP) Visualization;JCT:D;JCT:D\ Visualizations\ Android Unlock Pattern (AUP);10) Learning Aids and Visualizations
+JCT:static:16;Ant Colony Optimization Visualization;JCT:D;JCT:D\ Visualizations\ Ant Colony Optimization;10) Learning Aids and Visualizations
+JCT:static:17;Autokey Vigenère;JCT:D;JCT:D\ Algorithms\ Classic\ Autokey Vigenère;1) Classic Ciphers
+JCT:static:18;Bifid;JCT:D;JCT:D\ Algorithms\ Classic\ Bifid;1) Classic Ciphers
+JCT:static:19;Blum Blum Shub (B.B.S.) (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ BBSRandom;5) Random Number Generators
+JCT:static:20;Caesar;JCT:D;JCT:D\ Algorithms\ Classic\ Caesar;1) Classic Ciphers
+JCT:static:21;Camellia;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Camellia128_CBC (OID: 1.2.392.200011.61.1.1.1.2);2) Modern Ciphers
+JCT:static:22;Camellia;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Camellia192_CBC (OID: 1.2.392.200011.61.1.1.1.3);2) Modern Ciphers
+JCT:static:23;Camellia;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Camellia256_CBC (OID: 1.2.392.200011.61.1.1.1.4);2) Modern Ciphers
+JCT:static:24;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacAES128;3) Hash and MAC Algorithms
+JCT:static:25;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacAES192;3) Hash and MAC Algorithms
+JCT:static:26;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacAES256;3) Hash and MAC Algorithms
+JCT:static:27;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacCamellia;3) Hash and MAC Algorithms
+JCT:static:28;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacDESede;3) Hash and MAC Algorithms
+JCT:static:29;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacIDEA;3) Hash and MAC Algorithms
+JCT:static:30;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacMARS;3) Hash and MAC Algorithms
+JCT:static:31;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacMisty1;3) Hash and MAC Algorithms
+JCT:static:32;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacRC2;3) Hash and MAC Algorithms
+JCT:static:33;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacRC5;3) Hash and MAC Algorithms
+JCT:static:34;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacRC6;3) Hash and MAC Algorithms
+JCT:static:35;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CBCmacSAFER+;3) Hash and MAC Algorithms
+JCT:static:36;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\;3) Hash and MAC Algorithms
+JCT:static:37;Certificate Verification;JCT:D;JCT:D\ Visualizations\ Certificate Verification;10) Learning Aids and Visualizations
+JCT:static:38;Chinese Remainder Theorem Visualization;JCT:D;JCT:D\ Visualizations\ Chinese Remainder Theorem;10) Learning Aids and Visualizations
+JCT:static:39;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CmacAES128;3) Hash and MAC Algorithms
+JCT:static:40;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CmacAES192;3) Hash and MAC Algorithms
+JCT:static:41;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CmacAES256;3) Hash and MAC Algorithms
+JCT:static:42;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ CmacDESede;3) Hash and MAC Algorithms
+JCT:static:43;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSS (OID: 1.3.6.1.4.1.8301.3.1.3.2.6);4) Digital Signatures/PKI
+JCT:static:44;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA1andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.1);4) Digital Signatures/PKI
+JCT:static:45;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA1andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.2);4) Digital Signatures/PKI
+JCT:static:46;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA1andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.3);4) Digital Signatures/PKI
+JCT:static:47;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA1andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.4);4) Digital Signatures/PKI
+JCT:static:48;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA256andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.5);4) Digital Signatures/PKI
+JCT:static:49;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA256andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.7);4) Digital Signatures/PKI
+JCT:static:50;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA256andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.8);4) Digital Signatures/PKI
+JCT:static:51;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA384andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.9);4) Digital Signatures/PKI
+JCT:static:52;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA384andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.10);4) Digital Signatures/PKI
+JCT:static:53;CMSS;JCT:A;JCT:A\ Signatures\ Signatures\ CMSSwithSHA384andWinternitzOTS_3 (OID: 1.;4) Digital Signatures/PKI
+JCT:static:54;Coin Flipping Protocol;JCT:C;JCT:C\ Protocols\ Coin Flipping;10) Learning Aids and Visualizations
+JCT:static:55;Coin Flipping Protocol;JCT:T;JCT:T\ Protocols\ Coin Flipping Protocol;10) Learning Aids and Visualizations
+JCT:static:56;DHA256;JCT:A;JCT:A\ Message Digests\ DHA256;3) Hash and MAC Algorithms
+JCT:static:57;Differential Power Analysis Visualization;JCT:D;JCT:D\ Visualizations\ Differential Power Analysis / Double and Add;10) Learning Aids and Visualizations
+JCT:static:58;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;JCT:D;JCT:D\ Visualizations\ Diffie-Hellman Key Exchange (EC);10) Learning Aids and Visualizations
+JCT:static:59;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;JCT:D;JCT:D\ Visuals\ Diffie-Hellman Key Exchange (EC);13) Protocols
+JCT:static:60;Digital Signatures Visualization;JCT:D;JCT:D\ Visualizations\ Signature Demonstration;10) Learning Aids and Visualizations
+JCT:static:61;Divider Game;JCT:D;JCT:D\ Games\ Divider Game;11) Games
+JCT:static:62;Double Box;JCT:D;JCT:D\ Algorithms\ Classic\ Double Box;1) Classic Ciphers
+JCT:static:63;Dragon;JCT:D;JCT:D\ Algorithms\ Symmetric\ Dragon;2) Modern Ciphers
+JCT:static:64;DSA;JCT:A;JCT:A\ Signatures\ Signatures\ RAW/DSA;4) Digital Signatures/PKI
+JCT:static:65;ECDSA;JCT:A;JCT:A\ Signatures\ Signatures\ RawECDSA;4) Digital Signatures/PKI
+JCT:static:66;ECDSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA1/ECDSA (OID: 1.2.840.10045.4.1);4) Digital Signatures/PKI
+JCT:static:67;ECDSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA224/ECDSA (OID: 1.2.840.10045.4.3.1);4) Digital Signatures/PKI
+JCT:static:68;ECDSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA256/ECDSA (OID: 1.2.840.10045.4.3.2);4) Digital Signatures/PKI
+JCT:static:69;ECDSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA384/ECDSA (OID: 1.2.840.10045.4.3.3);4) Digital Signatures/PKI
+JCT:static:70;ECDSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA512/ECDSA (OID: 1.2.840.10045.4.3.4);4) Digital Signatures/PKI
+JCT:static:71;ECIES;JCT:A;JCT:A\ Hybrid Ciphers\ ECIES;2) Modern Ciphers
+JCT:static:72;ECNR;JCT:A;JCT:A\ Signatures\ SHA1/ECNR;4) Digital Signatures/PKI
+JCT:static:73;ElGamal;JCT:A;JCT:A\ Asymmetric Block Ciphers\ ElGamal (OID: 1.3.14.7.2.1.1);2) Modern Ciphers
+JCT:static:74;ElGamal Visualization;JCT:D;JCT:D\ Visualizations\ ElGamal Cryptosystem;10) Learning Aids and Visualizations
+JCT:static:75;Elliptic Curve (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ ECPRNG;5) Random Number Generators
+JCT:static:76;Elliptic Curve Calculations Visualization;JCT:D;JCT:D\ Visualizations\ Elliptic Curve Calculations;10) Learning Aids and Visualizations
+JCT:static:77;Enhanced RSA Crypto System (identities‚ multi-prime);JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;2) Modern Ciphers
+JCT:static:78;Enhanced RSA Crypto System (identities‚ multi-prime);JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;2) Modern Ciphers
+JCT:static:79;Entropy;JCT:D;JCT:D\ Analysis\ Entropy Analysis;6) Classic Cryptanalysis
+JCT:static:80;Extended Euclidian plus the method of mutual "exhaustion" (anthyphairesis = continually subtract the smaller from the larger) Visualization;JCT:D;JCT:D\ Visualizations\ Extended Euclidean / Reciprocal Subtraction;10) Learning Aids and Visualizations
+JCT:static:81;Feige Fiat Shamir Visualization;JCT:D;JCT:D\ Visualizations\ Feige Fiat Shamir;10) Learning Aids and Visualizations
+JCT:static:82;Fiat Shamir Visualization;JCT:D;JCT:D\ Visualizations\ Fiat Shamir;10) Learning Aids and Visualizations
+JCT:static:83;FORK-256;JCT:A;JCT:A\ Message Digests\ FORK256;3) Hash and MAC Algorithms
+JCT:static:84;Frequency Test;JCT:D;JCT:D\ Analysis\ Frequency Analysis;6) Classic Cryptanalysis
+JCT:static:85;Friedman Test;JCT:D;JCT:D\ Analysis\ Friedman Test;6) Classic Cryptanalysis
+JCT:static:86;GMSS;JCT:A;JCT:A\ Signatures\ Signatures\ GMSSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.3.1);4) Digital Signatures/PKI
+JCT:static:87;GMSS;JCT:A;JCT:A\ Signatures\ Signatures\ GMSSwithSHA224 (OID: 1.3.6.1.4.1.8301.3.1.3.3.2);4) Digital Signatures/PKI
+JCT:static:88;GMSS;JCT:A;JCT:A\ Signatures\ Signatures\ GMSSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.3.3);4) Digital Signatures/PKI
+JCT:static:89;GMSS;JCT:A;JCT:A\ Signatures\ Signatures\ GMSSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.3.4);4) Digital Signatures/PKI
+JCT:static:90;GMSS;JCT:A;JCT:A\ Signatures\ Signatures\ GMSSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.3.5);4) Digital Signatures/PKI
+JCT:static:91;Graph Isomorphism Visualization;JCT:D;JCT:D\ Visualizations\ Graph Isomorphism;10) Learning Aids and Visualizations
+JCT:static:92;Grille Visualization;JCT:D;JCT:D\ Visualizations\ Grille;10) Learning Aids and Visualizations
+JCT:static:93;Hash Algorithms Visualization;JCT:D;JCT:D\ Visualizations\ Hash Sensitivity;10) Learning Aids and Visualizations
+JCT:static:94;Hash Value of a File;JCT:D\A;Hash\MD5;3) Hash and MAC Algorithms
+JCT:static:95;Hash Value of a File;JCT:D\A;Hash\SHA;3) Hash and MAC Algorithms
+JCT:static:96;Hash Value of a File;JCT:D\A;Hash\SHA3-Candidates;3) Hash and MAC Algorithms
+JCT:static:97;Hash Value of a File;JCT:D\A;Messages Digests\;3) Hash and MAC Algorithms
+JCT:static:98;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ Hmac (OID: 1.3.6.1.5.5.8.1.2);3) Hash and MAC Algorithms
+JCT:static:99;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacDHA256;3) Hash and MAC Algorithms
+JCT:static:100;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacFORK256;3) Hash and MAC Algorithms
+JCT:static:101;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacMD4;3) Hash and MAC Algorithms
+JCT:static:102;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacMD5 (OID: 1.3.6.1.5.5.8.1.1);3) Hash and MAC Algorithms
+JCT:static:103;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacRIPEMD128;3) Hash and MAC Algorithms
+JCT:static:104;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacRIPEMD160 (OID: 1.3.6.1.5.5.8.1.4);3) Hash and MAC Algorithms
+JCT:static:105;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacRIPEMD256;3) Hash and MAC Algorithms
+JCT:static:106;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacRIPEMD320;3) Hash and MAC Algorithms
+JCT:static:107;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacSHA224;3) Hash and MAC Algorithms
+JCT:static:108;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacSHA256;3) Hash and MAC Algorithms
+JCT:static:109;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacSHA384;3) Hash and MAC Algorithms
+JCT:static:110;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ HmacSHA512;3) Hash and MAC Algorithms
+JCT:static:111;Homomorphic Encryption Visualization;JCT:D;JCT:D\ Visualizations\ Homomorphic Encryption;10) Learning Aids and Visualizations
+JCT:static:112;Huffman;JCT:D;JCT:D\ Visualizations\ Huffman Coding;9) Codings
+JCT:static:113;IDEA;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ IDEA_ECB (OID: 1.3.6.1.4.1.188.7.1.1.1);2) Modern Ciphers
+JCT:static:114;IDEA;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ IDEA_CBC (OID: 1.3.6.1.4.1.188.7.1.1.2);2) Modern Ciphers
+JCT:static:115;IDEA;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ IDEA_CFB (OID: 1.3.6.1.4.1.188.7.1.1.3);2) Modern Ciphers
+JCT:static:116;IDEA;JCT:D;JCT:D\ Block Ciphers\ Block Ciphers\ IDEA_OFB (OID: 1.3.6.1.4.1.188.7.1.1.4);2) Modern Ciphers
+JCT:static:117;Inner States of the DES Visualization;JCT:D;JCT:D\ Visualizations\ Inner States of the Data Encryption Standard (DES);10) Learning Aids and Visualizations
+JCT:static:118;IQDSA;JCT:A;JCT:A\ Signatures\ Signatures\ IQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.2);4) Digital Signatures/PKI
+JCT:static:119;IQDSA;JCT:A;JCT:A\ Signatures\ Signatures\ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3);4) Digital Signatures/PKI
+JCT:static:120;IQGQ;JCT:A;JCT:A\ Signatures\ Signatures\ IQGQ (OID: 1.3.6.1.4.1.8301.3.1.1.5);4) Digital Signatures/PKI
+JCT:static:121;IQGQ;JCT:A;JCT:A\ Signatures\ Signatures\ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3);4) Digital Signatures/PKI
+JCT:static:122;IQRDSA;JCT:A;JCT:A\ Signatures\ Signatures\ IQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.8);4) Digital Signatures/PKI
+JCT:static:123;IQRDSA;JCT:A;JCT:A\ Signatures\ Signatures\ RIPEMD160withIQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.9);4) Digital Signatures/PKI
+JCT:static:124;Kleptography Visualization;JCT:D;JCT:D\ Visualizations\ Kleptography;10) Learning Aids and Visualizations
+JCT:static:125;Lattice-Based Attacks - Merkle-Hellman;JCT:D;JCT:D\ Visualizations\ Merkle-Hellman Knapsack Cryptosystem;10) Learning Aids and Visualizations
+JCT:static:126;LFSR;JCT:D;JCT:D\ Algorithms\ Symmetric\ LFSR;2) Modern Ciphers
+JCT:static:127;Magic Door Visualization;JCT:D;JCT:D\ Visualizations\ Magic Door;10) Learning Aids and Visualizations
+JCT:static:128;MARS;JCT:A;JCT:A\ Block Ciphers\ MARS;2) Modern Ciphers
+JCT:static:129;McEliece Fujisaki;JCT:A;JCT:A\ Hybrid Ciphers\ McElieceFujisakiCipher (OID: 1.3.6.1.4.1.8301.3.1.3.4.2.1);2) Modern Ciphers
+JCT:static:130;McEliece Kobara Imai;JCT:A;JCT:A\ Hybrid Ciphers\ McElieceKobaraImaiCipher (OID: 1.3.6.1.4.1.8301.3.1.3.4.2.3);2) Modern Ciphers
+JCT:static:131;McEliece PKCS;JCT:A;JCT:A\ Asymmetric Block Ciphers\ McEliecePKCS (OID: 1.3.6.1.4.1.8301.3.1.3.4.1);2) Modern Ciphers
+JCT:static:132;McEliece Pointcheval;JCT:A;JCT:A\ Hybrid Ciphers\ McEliecePointchevalCipher (OID: 1.3.6.1.4.1.8301.3.1.3.4.2.2);2) Modern Ciphers
+JCT:static:133;MD4;JCT:A;JCT:A\ Message Digests\ MD4 (OID: 1.2.840.113549.2.4);3) Hash and MAC Algorithms
+JCT:static:134;MD5;JCT:D;JCT:D\ Message Digests\ MD5 (OID: 1.2.840.113549.2.5);3) Hash and MAC Algorithms
+JCT:static:135;Merkle OTS;JCT:A;JCT:A\ Signatures\ Signatures\ MerkleOTSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.1);4) Digital Signatures/PKI
+JCT:static:136;Merkle OTS;JCT:A;JCT:A\ Signatures\ Signatures\ MerkleOTSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.2);4) Digital Signatures/PKI
+JCT:static:137;Merkle OTS;JCT:A;JCT:A\ Signatures\ Signatures\ MerkleOTSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.3);4) Digital Signatures/PKI
+JCT:static:138;Merkle OTS;JCT:A;JCT:A\ Signatures\ Signatures\ MerkleOTSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.4);4) Digital Signatures/PKI
+JCT:static:139;Merkle Signature Scheme (MSS, XMSS, XMSS_XT);JCT:D;JCT:D\ Visualizations\ Merkle Signature Scheme (MerkleTree);10) Learning Aids and Visualizations
+JCT:static:140;MeRSA;JCT:A;JCT:A\ Asymmetric Block Ciphers\ MeRSA;2) Modern Ciphers
+JCT:static:141;MeRSA;JCT:A;JCT:A\ Signatures\ MeRSA;2) Modern Ciphers
+JCT:static:142;Misty-1 (Kasumi);JCT:A;JCT:A\ Block Ciphers\ Misty1;2) Modern Ciphers
+JCT:static:143;MpRSA;JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;2) Modern Ciphers
+JCT:static:144;MpRSA;JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;2) Modern Ciphers
+JCT:static:145;Multipartite Key Exchange Visualization;JCT:D;JCT:D\ Visualizations\ Multipartite Key Exchange;10) Learning Aids and Visualizations
+JCT:static:146;Niederreiter;JCT:A;JCT:A\ Asymmetric Block Ciphers\ Niederreiter;2) Modern Ciphers
+JCT:static:147;Niederreiter CFS;JCT:A;JCT:A\ Signatures\ NiederreiterCFS (OID: 1.3.6.1.4.1.8301.3.1.3.4.3.2);4) Digital Signatures/PKI
+JCT:static:148;Number Shark;JCT:D;JCT:D\ Games\ Number Shark;11) Games
+JCT:static:149;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PBES2 (OID: 1.2.840.113549.1.5.13);3) Hash and MAC Algorithms
+JCT:static:150;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithMD5AndDES_CBC (OID: 1.2.840.113549.1.5.3);3) Hash and MAC Algorithms
+JCT:static:151;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithSHA1AndDES_CBC (OID: 1.2.840.113549.1.5.10);3) Hash and MAC Algorithms
+JCT:static:152;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithSHAAnd3_KeyTripleDES_CBC (OID: 1.2.840.113549.1.12.1.3);3) Hash and MAC Algorithms
+JCT:static:153;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithSHAAnd40BitRC2_CBC (OID: 1.2.840.113549.1.12.1.6);3) Hash and MAC Algorithms
+JCT:static:154;Playfair;JCT:D;JCT:D\ Algorithms\ Classic\ Playfair;1) Classic Ciphers
+JCT:static:155;Public-Key Infrastructure;JCT:D;JCT:D\ Visualizations\ Public-Key Infrastructure;10) Learning Aids and Visualizations
+JCT:static:156;RC2;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ RC2_CBC (OID: 1.2.840.113549.3.2);2) Modern Ciphers
+JCT:static:157;RC4;JCT:D;JCT:D\ Algorithms\ Symmetric\ ARC4/Spritz;2) Modern Ciphers
+JCT:static:158;RC4 / Spritz;JCT:D;JCT:D\ Visualizations\ ARC4 / Spritz;10) Learning Aids and Visualizations
+JCT:static:159;RC5;JCT:A;JCT:A\ Block Ciphers\ RC5;2) Modern Ciphers
+JCT:static:160;RC6;JCT:D\A;Block Ciphers\ RC6;2) Modern Ciphers
+JCT:static:161;RIPEMD-160;JCT:A;JCT:A\ Message Digests\ RIPEMD128 (OID: 1.3.36.3.2.2);3) Hash and MAC Algorithms
+JCT:static:162;RIPEMD-160;JCT:A;JCT:A\ Message Digests\ RIPEMD160 (OID: 1.3.36.3.2.1);3) Hash and MAC Algorithms
+JCT:static:163;RIPEMD-160;JCT:A;JCT:A\ Message Digests\ RIPEMD256 (OID: 1.3.36.3.2.3);3) Hash and MAC Algorithms
+JCT:static:164;RIPEMD-160;JCT:A;JCT:A\ Message Digests\ RIPEMD320;3) Hash and MAC Algorithms
+JCT:static:165;Rot-13;JCT:D;JCT:D\ Algorithms\ Classic\ Caesar;1) Classic Ciphers
+JCT:static:166;RSA;JCT:A;JCT:A\ Asymmetric Block Ciphers\ RSA (OID: 1.2.840.113549.1.1.1);2) Modern Ciphers
+JCT:static:167;RSA;JCT:A;JCT:A\ Asymmetric Block Ciphers\ RbRSA (OID: 1.2.840.113549.1.1.7);2) Modern Ciphers
+JCT:static:168;RSA;JCT:A;JCT:A\ Asymmetric Block Ciphers\ RprimeRSA;2) Modern Ciphers
+JCT:static:169;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ MD5/RSA/RAW;4) Digital Signatures/PKI
+JCT:static:170;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ MD5withRSA (OID: 1.2.840.113549.1.1.4);4) Digital Signatures/PKI
+JCT:static:171;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ RIPEMD160/RSA (OID: 1.3.36.3.3.1.2);4) Digital Signatures/PKI
+JCT:static:172;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ RIPEMD160/RSA/RAW;4) Digital Signatures/PKI
+JCT:static:173;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA1/RSA (OID: 1.2.840.113549.1.1.5);4) Digital Signatures/PKI
+JCT:static:174;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA1/RSA/RAW;4) Digital Signatures/PKI
+JCT:static:175;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA224/RSA (OID: 1.2.840.113549.1.1.14);4) Digital Signatures/PKI
+JCT:static:176;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA224/RSA/RAW;4) Digital Signatures/PKI
+JCT:static:177;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA256/RSA/RAW;4) Digital Signatures/PKI
+JCT:static:178;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA256withRSA (OID: 1.2.840.113549.1.1.11);4) Digital Signatures/PKI
+JCT:static:179;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA384/RSA/RAW;4) Digital Signatures/PKI
+JCT:static:180;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA384withRSA (OID: 1.2.840.113549.1.1.12);4) Digital Signatures/PKI
+JCT:static:181;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA512/RSA/RAW;4) Digital Signatures/PKI
+JCT:static:182;RSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHA512withRSA (OID: 1.2.840.113549.1.1.13);4) Digital Signatures/PKI
+JCT:static:183;RSA;JCT:A;JCT:A\ Signatures\ RbRSA (OID: 1.2.840.113549.1.1.10);4) Digital Signatures/PKI
+JCT:static:184;RSA;JCT:A;JCT:A\ Signatures\ RprimeRSA;4) Digital Signatures/PKI
+JCT:static:185;RSA Visualization;JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;10) Learning Aids and Visualizations
+JCT:static:186;RSA Visualization;JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;10) Learning Aids and Visualizations
+JCT:static:187;RSASSA-PSS;JCT:A;JCT:A\ Algorithms\ Signatures\ RSASSA-PSS;4) Digital Signatures/PKI
+JCT:static:188;SAFER+;JCT:A;JCT:A\ Block Ciphers\ SAFER+;2) Modern Ciphers
+JCT:static:189;SAFER++;JCT:A;JCT:A\ Block Ciphers\ SAFER++;2) Modern Ciphers
+JCT:static:190;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent128_CBC (OID: 1.3.6.1.4.1.11591.13.2.2);2) Modern Ciphers
+JCT:static:191;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent128_CFB (OID: 1.3.6.1.4.1.11591.13.2.4);2) Modern Ciphers
+JCT:static:192;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent128_ECB (OID: 1.3.6.1.4.1.11591.13.2.1);2) Modern Ciphers
+JCT:static:193;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent128_OFB (OID: 1.3.6.1.4.1.11591.13.2.3);2) Modern Ciphers
+JCT:static:194;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent192_CBC (OID: 1.3.6.1.4.1.11591.13.2.22);2) Modern Ciphers
+JCT:static:195;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent192_CFB (OID: 1.3.6.1.4.1.11591.13.2.24);2) Modern Ciphers
+JCT:static:196;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent192_ECB (OID: 1.3.6.1.4.1.11591.13.2.21);2) Modern Ciphers
+JCT:static:197;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent192_OFB (OID: 1.3.6.1.4.1.11591.13.2.23);2) Modern Ciphers
+JCT:static:198;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent256_CBC (OID: 1.3.6.1.4.1.11591.13.2.42);2) Modern Ciphers
+JCT:static:199;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent256_CFB (OID: 1.3.6.1.4.1.11591.13.2.44);2) Modern Ciphers
+JCT:static:200;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent256_ECB (OID: 1.3.6.1.4.1.11591.13.2.41);2) Modern Ciphers
+JCT:static:201;Serpent;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ Serpent256_OFB (OID: 1.3.6.1.4.1.11591.13.2.43);2) Modern Ciphers
+JCT:static:202;SHA;JCT:D;JCT:D\ Algorithms\ Hash\ SHA;3) Hash and MAC Algorithms
+JCT:static:203;SHA with DSA;JCT:A;JCT:A\ Signatures\ Signatures\ SHAwithDSA (OID: 1.3.14.3.2.13);4) Digital Signatures/PKI
+JCT:static:204;SHA-1;JCT:D;JCT:D\ Message Digests\ SHA1 (OID: 1.3.14.3.2.26);3) Hash and MAC Algorithms
+JCT:static:205;SHA-1 (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ SHA1PRNG;5) Random Number Generators
+JCT:static:206;SHA-256;JCT:D\A;Message Digests\ SHA256 (OID: 2.16.840.1.101.3.4.2.1);3) Hash and MAC Algorithms
+JCT:static:207;SHA-3 Candidates;JCT:D;JCT:D\ Algorithms\ Hash\ SHA3-Candidates;3) Hash and MAC Algorithms
+JCT:static:208;SHA-384;JCT:A;JCT:A\ Message Digests\ SHA384 (OID: 2.16.840.1.101.3.4.2.2);3) Hash and MAC Algorithms
+JCT:static:209;SHA-512;JCT:A;JCT:A\ Message Digests\ SHA512 (OID: 2.16.840.1.101.3.4.2.3);3) Hash and MAC Algorithms
+JCT:static:210;Shacal;JCT:A;JCT:A\ Block Ciphers\ Shacal;2) Modern Ciphers
+JCT:static:211;Shacal2;JCT:A;JCT:A\ Block Ciphers\ Shacal2;2) Modern Ciphers
+JCT:static:212;Shamir's Secret Sharing Visualization;JCT:D;JCT:D\ Visualizations\ Shamir's Secret Sharing;10) Learning Aids and Visualizations
+JCT:static:213;Shamir's Secret Sharing Visualization;JCT:D;JCT:D\ Visuals\ Shamir's Secret Sharing;13) Protocols
+JCT:static:214;Signatur Verification;JCT:D;JCT:D\ Visualizations\ Signature Verification;10) Learning Aids and Visualizations
+JCT:static:215;Simple Power Analysis Visualization;JCT:D;JCT:D\ Visualizations\ Simple Power Analysis / Square and Multiply;10) Learning Aids and Visualizations
+JCT:static:216;Solving Discrete Logarithm with Babystep-Giantstep;JCT:D;JCT:D\ Visualizations\ Shanks Babystep-Giantstep;10) Learning Aids and Visualizations
+JCT:static:217;SSL (MD5 and SHA1 with RSA);JCT:A;JCT:A\ Signatures\ SSL_MD5andSHA1withRSA;4) Digital Signatures/PKI
+JCT:static:218;SSL/TLS Handshake;JCT:D;JCT:D\ Visualizations\ SSL/TLS Handshake;10) Learning Aids and Visualizations
+JCT:static:219;Substitution;JCT:D;JCT:D\ Algorithms\ Classic\ Substitution;1) Classic Ciphers
+JCT:static:220;Substitution Analysis;JCT:D;JCT:D\ Analysis\ Substitution Analysis;6) Classic Cryptanalysis
+JCT:static:221;Sudoku Solver;JCT:D;JCT:D\ Games\ Sudoku-Solver;11) Games
+JCT:static:222;Tiger;JCT:A;JCT:A\ Message Digests\ Tiger (OID: 1.3.6.1.4.1.11591.12.2);3) Hash and MAC Algorithms
+JCT:static:223;Transposition (Double Column);JCT:D;JCT:D\ Algorithms\ Classic\ Transposition;1) Classic Ciphers
+JCT:static:224;Transposition (Single Column);JCT:D;JCT:D\ Algorithms\ Classic\ Transposition;1) Classic Ciphers
+JCT:static:225;Transposition Analysis;JCT:D;JCT:D\ Analysis\ Transposition Analysis;6) Classic Cryptanalysis
+JCT:static:226;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ TTmac128;3) Hash and MAC Algorithms
+JCT:static:227;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ TwoTrackMac160;3) Hash and MAC Algorithms
+JCT:static:228;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ TwoTrackMac32;3) Hash and MAC Algorithms
+JCT:static:229;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ TwoTrackMac64;3) Hash and MAC Algorithms
+JCT:static:230;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ Message Authentication Codes\ TwoTrackMac96;3) Hash and MAC Algorithms
+JCT:static:231;Twofish;JCT:A;JCT:A\ Block Ciphers\ Twofish;2) Modern Ciphers
+JCT:static:232;Verifiable Secret Sharing (VSS) Visualization;JCT:D;JCT:D\ Visualizations\ Verifiable Secret Sharing;10) Learning Aids and Visualizations
+JCT:static:233;Vigenère;JCT:D;JCT:D\ Algorithms\ Classic\ Vigenère;1) Classic Ciphers
+JCT:static:234;Vigenère Analysis;JCT:D;JCT:D\ Analysis\ Vigenère Breaker;6) Classic Cryptanalysis
+JCT:static:235;Viterbi Analysis;JCT:D;JCT:D\ Analysis\ Viterbi Analysis;6) Classic Cryptanalysis
+JCT:static:236;Viterbi Visualization;JCT:D;JCT:D\ Visuals\ Viterbi;10) Learning Aids and Visualizations
+JCT:static:237;VSH;JCT:A;JCT:A\ Message Digests\ VSH;3) Hash and MAC Algorithms
+JCT:static:238;WOTS/WOTS+;JCT:D;JCT:D\ Visualizations\ WOTS/WOTS+;10) Learning Aids and Visualizations
+JCT:static:239;XML Security;JCT:D;JCT:D\ Algorithms\ XML Security\;2) Modern Ciphers
+JCT:static:240;XOR;JCT:D;JCT:D\ Algorithms\ Classic\ XOR;1) Classic Ciphers
+JCT:static:241;Zudo-Ku (Zero-Knowledge Proof);JCT:D;JCT:D\ Games\ Zudo-Ku;11) Games
