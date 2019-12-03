@@ -31,6 +31,10 @@ def make_state(configobj, ws=None):
         input = current_ws / configobj["CT2scsv"]["input"],
         output = current_ws / configobj["CT2scsv"]["output"]
     )
+    default_jct2scsv = JCT2CSVConfig(
+        input = current_ws / configobj["JCTscsv"]["input"],
+        output = current_ws / configobj["JCTscsv"]["output"]
+    )
     default_tofinalform = MergeConfig(
         inputs = [current_ws / relpath for relpath in configobj["tofinalform"]["input"]],
         output = current_ws / configobj["tofinalform"]["output"]
@@ -44,6 +48,7 @@ def make_state(configobj, ws=None):
         defaults = FlistDefaults(
             merge = default_merge,
             ct2scsv = default_ct2scsv,
+            jctscsv = default_jctscsv,
             tofinalform = default_tofinalform,
             tohtml = default_tohtml
         )
@@ -87,6 +92,11 @@ class FlistFilesystem:
     ws_static_content_dir: Path
 
 @dataclass
+class JCTSCSVConfig:
+    input: Path
+    output: Path
+
+@dataclass
 class CT2SCSVConfig:
     input: Path
     output: Path
@@ -110,6 +120,7 @@ class TohtmlConfig:
 class FlistDefaults:
     merge: MergeConfig
     ct2scsv: CT2SCSVConfig
+    jctscsv: JCTSCSVConfig
     tofinalform: TofinalformConfig
     tohtml: TohtmlConfig
 

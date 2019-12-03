@@ -26,6 +26,7 @@ def RunStep(step_prog) -> bool:
 def FullRun(state):
     step_setup       = local.python[config.project_root / "src/flist_step_setup.py"] # type: local.LocalCommand
     step_ct2scsv     = local.python[config.project_root / "src/flist_step_CT2scsv.py"]
+    step_ct2scsv     = local.python[config.project_root / "src/flist_step_JCTscsv.py"]
     step_merge       = local.python[config.project_root / "src/flist_step_merge.py"]
     step_tofinalform = local.python[config.project_root / "src/flist_step_tofinalform.py"]
     step_tohtml      = local.python[config.project_root / "src/flist_step_tohtml.py"]
