@@ -6,6 +6,24 @@ import argparse
 import sys
 import subprocess
 import flist_io as io
+import typing; from typing import List, Dict, Any
+
+import api
+
+# A step needs - a sub namespace
+# - a sub parser
+# - a contribution to the top parser: sub kw
+@dataclass
+class Step:
+    
+    config: api.Configuration # alias for Namespace
+
+
+
+     
+    
+    
+
 
 currentStep = None
 currentProc = None
@@ -25,8 +43,9 @@ def RunStep(step_prog) -> bool:
 
 def FullRun(state):
     step_setup       = local.python[config.project_root / "src/flist_step_setup.py"] # type: local.LocalCommand
+    step_ct2scsv     = local.python[config.project_root / "src/flist_step_CT2scsv.py"]["--"]
     step_ct2scsv     = local.python[config.project_root / "src/flist_step_CT2scsv.py"]
-    step_ct2scsv     = local.python[config.project_root / "src/flist_step_JCTscsv.py"]
+    # step_ct2scsv     = local.python[config.project_root / "src/flist_step_JCTscsv.py"]
     step_merge       = local.python[config.project_root / "src/flist_step_merge.py"]
     step_tofinalform = local.python[config.project_root / "src/flist_step_tofinalform.py"]
     step_tohtml      = local.python[config.project_root / "src/flist_step_tohtml.py"]
