@@ -10,16 +10,19 @@ import pathlib ; from pathlib  import Path
 import flist_argtype as argtype
 import flist_config as config
 
+import dataclasses; from dataclasses import dataclass
+import typing; from typing import List, Dict, Any
+
 import flist
 import flist_io as io
+import flist_api as api
+
+import benedict; from benedict import benedict as bdict
 
 
-# Just for illustration purpose -- it's reversible (but not resistant to bad manual edits that exceed whitespace around csv delims)
-def Unmerge(file):
-    unmerged = flist.MCSV_Dataset.From_Dataframe(flist.MCSV_Dataset.Dataframe_From_File(file, flist.MCSV_Dataset.COLUMNS))
-    print(unmerged.rows[0])
 
-def Merge(files, output):
+def MergeImpl(files, output):
+
     io.msg(f"merging scsv files into {output}: {files}")
     scsv_dataframe = flist.SCSV_Dataset.Dataframe_From_Files(files)
     scsv_all       = flist.SCSV_Dataset.From_Dataframe(scsv_dataframe)
@@ -36,23 +39,49 @@ def Merge(files, output):
     mcsv_all = flist.MCSV_Dataset.From_Rows(mcsv_rows)
     mcsv_all.write_csv(output)
 
-def argparse_contribute(parser, state: config.FlistProgramState):
-    parser.add_argument(
-        "input", 
-        type=argtype.FilePathExisting, 
-        nargs="*", 
-        default=state.defaults.merge.inputs
-    )
-    parser.add_argument("--output", 
-                        type=argtype.FilePath, 
-                        default=state.defaults.merge.output
-                        )
+
+@dataclass
+class MergeProg():
+
+    inpaths: List[Path]
+    outpath: Path
+    strdict: dict
+
+    def Main(self):
+        return MergeImpl(self.inpaths, self.outpath)
+
+
+class MergeSignature(api.ArgdictSignature):
+
+    def get_varargs_id(self):
+        return "input"
+
+    def make_rawparse_spec(self) -> api.RawParse_Spec:
+        spec = api.RawParse_Spec()
+        spec.kw_ids = ["output"]
+        spec.any_keywords_allowed = False
+        return spec
+
+    def make_default_argdict(self) -> dict:
+        return {
+            "input": [],
+            "output": None
+        }
+
+    def convert_strdict(self, strdict: dict):
+        print(f"converting strdict: {strdict}")
+        bd = bdict(strdict)
+        inputstrings = api.require_arg_key(strdict, "input", list)
+        outputstring = api.require_arg_key(strdict, "output", str)
+        if len(inputstrings) == 0:
+            raise api.ApiException("zero input files are not allowed")
+        inpaths = [argtype.FilePathExisting(path) for path in inputstrings]
+        outpath = argtype.FilePath(outputstring)
+        return MergeProg(inpaths, outpath, strdict)
+
+signature = MergeSignature()
 
 if __name__ == "__main__":
-    parsed, flist_state = config.parse_args(sys.argv[1:], argparse_contribute)
+    prog = signature.parse(signature, sys.args)
+    prog.Main()
 
-    try:
-        Merge(parsed.input, parsed.output)
-    except io.FlistException as e:
-        io.err(str(e), e)
-        exit(1)

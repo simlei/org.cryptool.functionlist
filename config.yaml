@@ -1,60 +1,78 @@
-
-# Paths are relative to the workspace.
+# Paths are relative to the workspace, if they begin with "./"
 # Under Windows, paths with forward slashes ("/") are valid.
 
 CT2scsv_ct2_en:
-  input       : data/scsv_ct2/en.csv
-  output      : scsv_ct2_nocat_en.csv
+  input       : ./data/scsv_ct2/en.csv
+  output      : ./scsv_ct2_nocat_en.csv
 
 CT2scsv_ct2_de:
-  id_reference: data/scsv_ct2/en.csv
-  input       : data/scsv_ct2/de.csv
-  output      : scsv_ct2_nocat_de.csv
+  id_reference: ./data/scsv_ct2/en.csv
+  input       : ./data/scsv_ct2/de.csv
+  output      : ./scsv_ct2_nocat_de.csv
 
 CT2scsv_jct_en:
-  input       : data/scsv_jct/en.csv
-  output      : scsv_jct_nocat_en.csv
+  input       : ./data/scsv_jct/en.csv
+  output      : ./scsv_jct_nocat_en.csv
 
 CT2scsv_jct_de:
-  id_reference: data/scsv_jct/en.csv
-  input       : data/scsv_jct/de.csv
-  output      : scsv_jct_nocat_de.csv
+  id_reference: ./data/scsv_jct/en.csv
+  input       : ./data/scsv_jct/de.csv
+  output      : ./scsv_jct_nocat_de.csv
 
 categories_ct2_en:
-  input: scsv_ct2_nocat_en.csv
-  catfile: categories_ct2_en.csv
-  output: scsv_ct2_en.csv
+  input  : ./scsv_ct2_nocat_en.csv
+  catfile: ./categories_ct2_en.csv
+  output : ./scsv_ct2_en.csv
 
 categories_ct2_de:
-  input: scsv_ct2_nocat_de.csv
-  catfile: categories_ct2_de.csv
-  output: scsv_ct2_de.csv
+  input  : ./scsv_ct2_nocat_de.csv
+  catfile: ./categories_ct2_de.csv
+  output : ./scsv_ct2_de.csv
 
 categories_jct_en:
-  input: scsv_jct_nocat_en.csv
-  catfile: categories_jct_en.csv
-  output: scsv_jct_en.csv
+  input  : ./scsv_jct_nocat_en.csv
+  catfile: ./categories_jct_en.csv
+  output : ./scsv_jct_en.csv
 
 categories_jct_en:
-  input: scsv_jct_nocat_de.csv
-  catfile: categories_jct_de.csv
-  output: scsv_jct_de.csv
+  input: ./scsv_jct_nocat_de.csv
+  catfile: ./categories_jct_de.csv
+  output: ./scsv_jct_de.csv
 
 merge_en:
   input: 
-    - data/scsv_webdump/ct1_en.csv
-    - data/scsv_webdump/cto_en.csv
-    - ct2_scsv.csv
-  output: all_merged.csv
+    - ./data/scsv_webdump/ct1_en.csv
+    - ./data/scsv_webdump/cto_en.csv
+    - ./ct2_scsv.csv
+  output: ./all_merged.csv
 
-    - data/scsv_webdump/ct1_de.csv
-    - data/scsv_webdump/cto_de.csv
-tofinalform:
-  input:
-    - all_merged.csv
-  output: all_final.csv
+merge_en:
+  input: 
+    - ./data/scsv_webdump/ct1_en.csv
+    - ./data/scsv_webdump/cto_en.csv
+    - ./scsv_ct2_en.csv
+    - ./scsv_jct_en.csv
+  output: ./all_merged_en.csv
 
-tohtml:
+merge_de:
+  input: 
+    - ./data/scsv_webdump/ct1_de.csv
+    - ./data/scsv_webdump/cto_de.csv
+    - ./scsv_ct2_de.csv
+    - ./scsv_jct_de.csv
+  output: ./all_merged_de.csv
+
+tofinalform_en:
   input:
-    - all_final.csv
-  output: html/index.html
+    - ./all_merged_en.csv
+  output: all_final_en.csv
+
+tofinalform_de:
+  input:
+    - ./all_merged_de.csv
+  output: all_final_de.csv
+
+tohtml_en:
+  input:
+    - ./all_final_en.csv
+  output: ./html/index.html

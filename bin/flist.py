@@ -1,93 +1,55 @@
 #!/usr/bin/env python3
 
-import flist_config as config
 import plumbum; from plumbum import local
 import argparse
 import sys
 import subprocess
 import flist_io as io
-import typing; from typing import List, Dict, Any
+import typing; from typing import List, Dict, Any, Optional
+import dataclasses; from dataclasses import dataclass, field
 
-import api
-
-# A step needs - a sub namespace
-# - a sub parser
-# - a contribution to the top parser: sub kw
-@dataclass
-class Step:
+import flist_api as api
+import flist_steps as steps
+import flist_files
     
-    config: api.Configuration # alias for Namespace
-
-
-
-     
-    
+from plumbum.commands import BaseCommand
     
 
+def runMainStepSequence(ws):
+    flist_files.workspace = ws
+    flist_files.refresh_workspace()
 
-currentStep = None
-currentProc = None
-def RunStep(step_prog) -> bool:
-    global currentStep 
-    global currentProc
-    io.msg(f"Running step: {step_prog}")
-    currentStep = step_prog
-    proc = step_prog.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); 
-    currentProc = proc
-    proc.communicate(); 
-    if proc.returncode != 0: 
-        return False
-    else:
-        return True
+    steps.CT2scsv_ct2_en.makeprog(ws).Main()
+    steps.CT2scsv_ct2_de.makeprog(ws).Main()
+    steps.CT2scsv_jct_en.makeprog(ws).Main()
+    steps.CT2scsv_jct_de.makeprog(ws).Main()
 
+    steps.categories_ct2_en.makeprog(ws).Main()
+    steps.categories_ct2_de.makeprog(ws).Main()
+    steps.categories_jct_en.makeprog(ws).Main()
+    steps.categories_jct_de.makeprog(ws).Main()
 
-def FullRun(state):
-    step_setup       = local.python[config.project_root / "src/flist_step_setup.py"] # type: local.LocalCommand
-    step_ct2scsv     = local.python[config.project_root / "src/flist_step_CT2scsv.py"]["--"]
-    step_ct2scsv     = local.python[config.project_root / "src/flist_step_CT2scsv.py"]
-    # step_ct2scsv     = local.python[config.project_root / "src/flist_step_JCTscsv.py"]
-    step_merge       = local.python[config.project_root / "src/flist_step_merge.py"]
-    step_tofinalform = local.python[config.project_root / "src/flist_step_tofinalform.py"]
-    step_tohtml      = local.python[config.project_root / "src/flist_step_tohtml.py"]
+    steps.merge_en.makeprog(ws).Main()
+    steps.merge_de.makeprog(ws).Main()
 
-    # TODO: warum and
-    successful = (
-        RunStep(step_setup)       and 
-        RunStep(step_ct2scsv)     and 
-        RunStep(step_merge)       and 
-        RunStep(step_tofinalform) and 
-        RunStep(step_tohtml)      and 
-        sys.exit()
-    ) or (
-        io.err(f"Unsuccessful run, aborted in step {currentStep}") or sys.exit(currentProc.returncode)
-    )
+    steps.tofinalform_en.makeprog(ws).Main()
+    steps.tofinalform_de.makeprog(ws).Main()
 
-    # proc = step_setup.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); proc.communicate(); 
-    # if proc.returncode != 0: 
-    #     sys.exit(proc.returncode)
-
-    # proc = step_merge.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); proc.communicate(); 
-    # if proc.returncode != 0: 
-    #     sys.exit(proc.returncode)
-
-    # proc = step_tofinalform.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); proc.communicate(); 
-    # if proc.returncode != 0: 
-    #     sys.exit(proc.returncode)
-
-    # proc = step_tohtml.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); proc.communicate(); 
-    # if proc.returncode != 0: 
-    #     sys.exit(proc.returncode)
-
-    # step_setup(f"--workspace={state.fs.workspace}")
-    # step_merge(f"--workspace={state.fs.workspace}")
-    # step_tofinalform(f"--workspace={state.fs.workspace}")
-
-    # print(step_tohtml(f"--workspace={state.fs.workspace}"))
-
-
-def argparse_contribute(parser: argparse.ArgumentParser, state: config.FlistProgramState):
-    pass
+    steps.tohtml_en.makeprog(ws).Main()
 
 if __name__ == "__main__":
-    parsed, flist_state = config.parse_args(sys.argv[1:], argparse_contribute)
-    FullRun(flist_state)
+    mainprog = sys.argv[0]
+    restargs = []
+    workspace = flist_files.workspace
+    for arg in sys.argv[1:]:
+        if (ws_arg := arg.replace("-workspace=")) != arg
+            workspace = Path(ws_arg)
+        else:
+            restargs.append(arg)
+
+    if(len(restargs) == 0):
+        runMainStepSequence(workspace)
+        exit(0)
+    else:
+        print("flist does not know yet how to invoke a sub-program based on args: {restargs}, try running the program with the defaults")
+        exit(1)

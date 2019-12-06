@@ -1,191 +1,116 @@
-import dataclasses; from dataclasses import dataclass
-import abc; from abc import ABC, abstractmethod
-import pathlib; from pathlib import Path
-import plumbum; from plumbum import local
-import typing; from typing import List, Dict, Any, Callable
-import glob
+import flist_api as api
+import flist_config as config
+from pathlib import Path
+import dataclasses; from dataclasses import dataclass, field
+import typing; from typing import List, Dict, Any, Callable, Optional
 import sys
-import os
-import inspect
-import argparse
+import subprocess
+
+import plumbum; from plumbum.commands import BaseCommand
+
+def RunStep(step_prog) -> bool:
+    io.msg(f"Running step: {step_prog}")
+    currentStep = step_prog
+    proc = step_prog.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); 
+    currentProc = proc
+    proc.communicate(); 
+    if proc.returncode != 0: 
+        return False
+    else:
+        return True
 
 @dataclass
-class PythonCmdStep:
-    file
-
-
-
-class Namespace(ABC):
-
-    pass
-
-# configures a namespace; =, +=
-# if value=
-class Configuration:
-    key: str
-    alias: str = None
-    value: str = None
-
-class RawParameters()
-
-class SortedOutArguments:
-
-    raw: List[Configuration]
-    positional: List[str]
-    keyword: Dict[str,str]
-    sub: Prog = None
-    receiver: 
-
-
-# signature elements:
-# positional single (regular), varargs ()
-# keyword
-# flags translate to keyword with implied --flag=true
-class ArgSpec(ABC):
-    @abstractmethod
-    def get_id() -> str:
-        pass
-
-    @abstractmethod
-    def get_parser_additions(self) -> List[ArgparseAddition]:
-        pass
-
-# issued by a program
-class Signature(ABC):
-    @abstractmethod
-    def get_argspecs(self) -> List[ArgSpec]:
-        pass
-
-    @abstractmethod
-    def make_argparser(self) -> argparse.ArgumentParser:
-        pass
-
-@dataclass
-class Args(Signature):
-    argspecs: List[ArgSpec]
-    def get_argspecs(self): return self.argspecs
-
-    def make_argparser(self) -> argparse.ArgumentParser:
-        parser = argparse.ArgumentParser()
-        for additions in self.get_argspecs():
-            for addarg in additions.get_parser_additions():
-                addarg.applyToParser(parser)
-        return parser
-
-
-def is_receiver_kwargs(receiver):
-    has_kwargs = any(param for param in inspect.signature(receiver).parameters.values() if param.kind == param.VAR_KEYWORD)
-    is_only_arg = len(inspect.getargspec(receiver).args) == 0
-
-@dataclass
-class Scriptspec:
-    executable: str
-    signature: Signature
-    kwargs_receiver: Any
-    parser: argparse.ArgumentParser = field(init=False, repr=False)
-    self_passed_args: List[str] = field(default_factory=list)
+class FlistPyEntrypoint:
+    module: Any
+    init_args: List[str] = field(default_factory=list)
+    sig: api.ArgdictSignature = field(default=None)
 
     def __post_init__(self):
-        self.parser = self.signature.make_argparser()
+        self.sig = self.module.signature
 
-    def run(self, args=None):
-        _args = self.self_passed_args + (args or [])
-        parsed = self.parser.parse_intermixed_args(_args)
-        # print(f"calling {self.kwargs_receiver}({vars(parsed)})")
-        return self.kwargs_receiver(**vars(parsed))
+    def makeprog(self, additionalArgs: List[str]):
+        args = self.init_args.copy()
+        args = args + additionalArgs
+        print(additionalArgs) # dbg
+        prog = self.sig.parse([str(self)] + additionalArgs)
+        return prog
+    
+def flist_augment_cfgpath(ws: Path, cfgpath: str):
+    if cfgpath.startswith("."):
+        return ws / cfgpath
+    else:
+        return Path(cfgpath)
 
-def load_script_from(path):
-    import importlib
-    import importlib.util
-    import random
+@dataclass
+class FlistStepCmd:
+    id: str
+    entrypoint: FlistPyEntrypoint
+    
+    def makeprog(self, ws: Path) -> api.ArgdictArgs:
+        additionalArgs = []
+        config_dict = config.require_cfg(self.id)
+        for k,v in config_dict.items():
+            if isinstance(v, list):
+                augmentedpaths = [flist_augment_cfgpath(ws, p) for p in v]
+                for p in augmentedpaths:
+                    # additionalArgs.extend([f"--{k}+={p.as_posix()}" for p in augmentedpaths])
+                    isKv = self.entrypoint.sig.is_keyval_id(k)
+                    print(self.entrypoint.sig.get_positional_ids())
+                    print(f"{(k,p)=} {isKv=}")
+                    strRep = p.as_posix()
+                    if isKv:
+                        additionalArgs.append(f"--{k}={strRep}")
+                    else:
+                        additionalArgs.append(f"{strRep}")
+            else:
+                if k == "output":
+                    v = flist_augment_cfgpath(ws, v)
+                if isinstance(v, Path):
+                    strRep = v.as_posix()
+                else:
+                    strRep = str(v)
+                
+                isKv = self.entrypoint.sig.is_keyval_id(k)
+                # print(f"{(k,v)=} {isKv=}")
+                if isKv:
+                    additionalArgs.append(f"--{k}={strRep}")
+                else:
+                    additionalArgs.append(f"{strRep}")
+                
+        return self.entrypoint.makeprog(additionalArgs)
 
-    module_name = "script_" + str(random.randint(1,99999))
-    spec = importlib.util.spec_from_file_location(module_name, path)
-    module = importlib.util.module_from_spec(spec)
-    # sys.modules[module_name] = module
-    spec.loader.exec_module(module)
-    return ScriptModule(module, module.script_handler)
 
-@dataclass 
-class ScriptModule:
-    module: Any
-    spec: Scriptspec
+import flist_workspace
 
-class Arg:
+import flist_step_CT2scsv
+import flist_step_categories
+import flist_step_merge
+import flist_step_tofinalform
+import flist_step_tohtml
 
-    @dataclass
-    class Keyval():
-        id: str
-        parserAdditions: List[ArgparseAddition] = field(default_factory=list, repr=False, init=False)
+prog_ct2scsv = FlistPyEntrypoint(flist_step_ct2scsv)
+prog_categories = FlistPyEntrypoint(flist_step_categories)
+prog_merge = FlistPyEntrypoint(flist_step_merge)
+prog_tofinalform = FlistPyEntrypoint(flist_step_tofinalform)
+prog_tohtml = FlistPyEntrypoint(flist_step_tohtml)
 
-        def get_id() -> str:
-            return self.id;
+# The actual steps
+CT2scsv_ct2_en = FlistStepCmd("CT2scsv_ct2_en", prog_ct2scsv)
+CT2scsv_ct2_de = FlistStepCmd("CT2scsv_ct2_de", prog_ct2scsv)
+CT2scsv_jct_en = FlistStepCmd("CT2scsv_jct_en", prog_ct2scsv)
+CT2scsv_jct_de = FlistStepCmd("CT2scsv_jct_de", prog_ct2scsv)
 
-        def __post_init__():
-            pass
+categories_ct2_en = FlistStepCmd("categories_ct2_en", prog_categories)
+categories_ct2_de = FlistStepCmd("categories_ct2_de", prog_categories)
+categories_jct_en = FlistStepCmd("categories_jct_en", prog_categories)
+categories_jct_de = FlistStepCmd("categories_jct_de", prog_categories)
 
-        def __post_init__(self):
-            self.parserAdditions.append(ArgparseAddition(
-                    [f"--{self.id}"], 
-                    {"action":"append", "dest":f"{self.id}"}
-                ))
-        
-        def get_parser_additions(self) -> List[ArgparseAddition]: return self.parserAdditions
+merge_en = FlistStepCmd("merge_en", merge_prog)
+merge_de = FlistStepCmd("merge_de", merge_prog)
 
-    # TODO: works only for single-char ids
-    @dataclass
-    class Delegate():
-        id: str
-        parserAdditions: List[ArgparseAddition] = field(default_factory=list, repr=False, init=False)
+tofinalform_en = FlistStepCmd("tofinalform_en", prog_tofinalform)
+tofinalform_de = FlistStepCmd("tofinalform_de", prog_tofinalform)
 
-        def get_id() -> str:
-            return self.id;
+tohtml_en = FlistStepCmd("tohtml_en", prog_tohtml)
 
-        def __post_init__():
-            pass
-
-        def __post_init__(self):
-            self.parserAdditions.append(ArgparseAddition(
-                    [f"-{self.id}"], 
-                    {"action":"append", "dest":f"{self.id}"}
-                ))
-
-        def get_parser_additions(self) -> List[ArgparseAddition]: return self.parserAdditions
-
-    @dataclass
-    class Flag():
-        id: str
-        parserAdditions: List[ArgparseAddition] = field(default_factory=list, repr=False, init=False)
-
-        def get_id() -> str:
-            return self.id;
-        
-        def __post_init__(self):
-            self.parserAdditions.append(ArgparseAddition(
-                    [ f"--{self.id}" ], 
-                    { "type": str2bool, "nargs": "?", "const": "1", "default": "0"}
-                ))
-        def get_parser_additions(self) -> List[ArgparseAddition]: return self.parserAdditions
-
-    @dataclass
-    class Positional:
-        id: str
-        nargs: int = -1
-        parserAdditions: List[ArgparseAddition] = field(default_factory=list, repr=False, init=False)
-
-        def get_id() -> str:
-            return self.id
-        
-        def __post_init__(self):
-            self.parserAdditions.append(ArgparseAddition(
-                    [ f"{self.id}" ], 
-                    {} if self.nargs == 2 else { "nargs": self.nargs if self.nargs > 0 else '*'}
-                ))
-
-        def get_parser_additions(self) -> List[ArgparseAddition]: return self.parserAdditions
-
-def expand_workspace_filelist(workspace, files):
-    expanded = [glob.glob(os.path.join(workspace,f), recursive=True) for f in files]
-    flattened = [file for sublist in expanded for file in sublist]
-    return flattened
-
+print(step_merge_en.makeprog(config.project_root / "ws"))
