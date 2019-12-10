@@ -49,21 +49,21 @@ def appendRecord(df: pandas.DataFrame, currentFrame: list, inputfile: Path, curr
         result = result.append([record_dict])
     return result
 
-def CreateCT2SCSV(inputfile: Path, outputfile: Path):
+def CreateCT2SCSV(input: Path, output: Path, id_reference: Path = None):
     dataframe = pandas.DataFrame(columns=flist.SCSV_Dataset.COLUMNS)
-    if not inputfile.is_file():
-        raise io.FlistException(f"{inputfile=} does not exist")
+    if not input.is_file():
+        raise io.FlistException(f"{input=} does not exist")
     state_which = ""
     state_currentfunc = ["", []]
     currentLine = 0
-    with open(inputfile, "r") as input:
-        while line := input.readline():
+    with open(input, "r") as opened:
+        while line := opened.readline():
             line = line.strip()
             currentLine += 1
             if len(line.strip()) == 0:
                 state_which = "separator"
-                checkValidRecord(state_currentfunc, inputfile, currentLine)
-                dataframe = appendRecord(dataframe, state_currentfunc, inputfile, currentLine)
+                checkValidRecord(state_currentfunc, input, currentLine)
+                dataframe = appendRecord(dataframe, state_currentfunc, input, currentLine)
                 state_currentfunc = ["", []]
             elif line.startswith(";"):
                 state_which = "entry"
@@ -72,29 +72,9 @@ def CreateCT2SCSV(inputfile: Path, outputfile: Path):
                 state_which = "header"
                 state_currentfunc[0] = line
         try:
-            checkValidRecord(state_currentfunc, inputfile, currentLine)
+            checkValidRecord(state_currentfunc, input, currentLine)
             dataframe = appendRecord(dataframe, state_currentfunc)
         except:
             pass
-    dataframe.to_csv(outputfile, sep=flist.CSV_SEP, index=False, header=False)
+    dataframe.to_csv(output, sep=flist.CSV_SEP, index=False, header=False)
 
-def argparse_contribute(parser, state: config.FlistProgramState):
-    parser.add_argument(
-        "input", 
-        type=argtype.FilePathExisting, 
-        nargs="?", 
-        default=state.defaults.ct2scsv.input
-    )
-    parser.add_argument("--output", 
-                        type=argtype.FilePath, 
-                        default=state.defaults.ct2scsv.output
-                        )
-
-if __name__ == "__main__":
-    parsed, flist_state = config.parse_args(sys.argv[1:], argparse_contribute)
-
-    try:
-        CreateCT2SCSV(parsed.input, parsed.output)
-    except io.FlistException as e:
-        io.err(str(e), e)
-        exit(1)

@@ -15,17 +15,17 @@ import typing; from typing import List, Dict, Any
 
 import flist
 import flist_io as io
-import flist_api as api
+import flist_api as api; from flist_api import implicitly
 
 import benedict; from benedict import benedict as bdict
 
 
+def MergeImpl(input: List[Path], output: Path):
 
-def MergeImpl(files, output):
-
-    io.msg(f"merging scsv files into {output}: {files}")
-    scsv_dataframe = flist.SCSV_Dataset.Dataframe_From_Files(files)
+    implicitly("prog.logger").debug(f"Running MergeImpl({input=}, {output=})")
+    scsv_dataframe = flist.SCSV_Dataset.Dataframe_From_Files(input)
     scsv_all       = flist.SCSV_Dataset.From_Dataframe(scsv_dataframe)
+
     merged_rows = [flist.Merged_Functionality(functionality) for functionality in scsv_all.get_functionalities()]
 
     for scsv_row in scsv_all.get_rows():
@@ -39,49 +39,8 @@ def MergeImpl(files, output):
     mcsv_all = flist.MCSV_Dataset.From_Rows(mcsv_rows)
     mcsv_all.write_csv(output)
 
-
-@dataclass
-class MergeProg():
-
-    inpaths: List[Path]
-    outpath: Path
-    strdict: dict
-
-    def Main(self):
-        return MergeImpl(self.inpaths, self.outpath)
-
-
-class MergeSignature(api.ArgdictSignature):
-
-    def get_varargs_id(self):
-        return "input"
-
-    def make_rawparse_spec(self) -> api.RawParse_Spec:
-        spec = api.RawParse_Spec()
-        spec.kw_ids = ["output"]
-        spec.any_keywords_allowed = False
-        return spec
-
-    def make_default_argdict(self) -> dict:
-        return {
-            "input": [],
-            "output": None
-        }
-
-    def convert_strdict(self, strdict: dict):
-        print(f"converting strdict: {strdict}")
-        bd = bdict(strdict)
-        inputstrings = api.require_arg_key(strdict, "input", list)
-        outputstring = api.require_arg_key(strdict, "output", str)
-        if len(inputstrings) == 0:
-            raise api.ApiException("zero input files are not allowed")
-        inpaths = [argtype.FilePathExisting(path) for path in inputstrings]
-        outpath = argtype.FilePath(outputstring)
-        return MergeProg(inpaths, outpath, strdict)
-
-signature = MergeSignature()
-
-if __name__ == "__main__":
-    prog = signature.parse(signature, sys.args)
-    prog.Main()
-
+# Snippet to extract category ids from the dumped scsv file
+    # scsv_frame_ct2 = flist.SCSV_Dataset.Dataframe_From_Files(["/home/simon/sandbox/featurelist/ct_functionlist/ws/data/en/scsv_webdump/ct2.csv"])
+    # scsv_ct2 = flist.SCSV
+    # with open("/home/simon/sandbox/featurelist/ct_functionlist/ws-static/categories_ct2_en.csv", "wb") as opened:
+    #     for entry in scsv_ct2.

@@ -13,20 +13,20 @@ import flist_files
 import flist_io as io
 
 
-def parse_cfg():
-    with open(project_cfg, "r") as input:
-        try:
-            return yaml.load(input)
-        except Exception as e:
-            io.err("The config file (config.yaml) could not be read correctly and is probably malformed. Please refer to https://en.wikpedia.org/YAML for the file format and git checkout config.yaml for a sane state of the file.")
-            exit(3)
+# def parse_cfg():
+#     with open(project_cfg, "r") as input:
+#         try:
+#             return yaml.load(input)
+#         except Exception as e:
+#             io.err("The config file (config.yaml) could not be read correctly and is probably malformed. Please refer to https://en.wikpedia.org/YAML for the file format and git checkout config.yaml for a sane state of the file.")
+#             exit(3)
 
-globalcfg = parse_cfg()
+# globalcfg = parse_cfg()
 
-def require_cfg(subkey):
-    if not subkey in globalcfg:
-        raise io.FlistException(f"no config.yaml key present for step {subkey}!")
-    return globalcfg[subkey]
+# def require_cfg(subkey):
+#     if not subkey in globalcfg:
+#         raise io.FlistException(f"no config.yaml key present for step {subkey}!")
+#     return globalcfg[subkey]
 
 
 # print(parse_cfg())

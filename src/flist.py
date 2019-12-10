@@ -7,6 +7,7 @@ import re
 import sys
 import argparse
 import pandas
+import hashlib
 from typing import List, Any, Dict
 import pathlib;
 from pathlib import Path
@@ -426,67 +427,8 @@ class FinalForm_Dataset(CSV_Dataset):
 
 # ---- Id formation
 
-import hashlib
 def makeId(functionality_en:str, path:str, how_implemented:str):
     return hashlib.md5(f"{functionality_en}{path}{how_implemented}".encode()).hexdigest()[:8]
-
-# ---- Transform csv utilities
-
-@dataclass
-class TransformRule:
-    leftPattern: str
-    funcReplacement: str
-    prefix: str
-
-    def IsDeletion(self):
-        return funcReplacement == ""
-
-    "returns None if the input is not of the correct form"
-
-    @staticmethod
-    def Parse(line):
-        pat = r"^\s*(.*)\s+-->\s*([^;]*)(;.*)?"
-        match = re.findall(pat, line)
-        if match:
-            groups = match[0]
-            return TransformRule(groups[0], groups[1], groups[2])
-        else:
-            return None
-
-
-@dataclass
-class IniAssignment:
-    key: str
-    val: str
-
-    @staticmethod
-    def Parse(line):
-        return None
-
-
-def ParseMergeConfigFile():
-    result = []
-    with open(mergeConfigFile, "r") as fileIn:
-        line = fileIn.readline()
-        lineNo = 0
-        commentLineRE = r"^\s*(#.*)?$"
-        while line:
-            lineNo = lineNo + 1
-
-            if re.match(commentLineRE, line):
-                line = fileIn.readline()
-                continue
-
-            line = line.strip()
-            parsed = IniAssignment.Parse(line) or TransformRule.Parse(line)
-            if parsed:
-                result.append(parsed)
-            else:
-                print(f"Line #{lineNo} : {line} of {mergeConfigFile} could not be parsed", file=sys.stderr)
-                # return None
-
-            line = fileIn.readline()
-
 
 # --- utilities
 
@@ -498,3 +440,62 @@ def uniq(lst):
             result.append(el)
             seen.add(tuple(el))
     return result
+
+# ---- Transform csv utilities || outdated
+
+# @dataclass
+# class TransformRule:
+#     leftPattern: str
+#     funcReplacement: str
+#     prefix: str
+
+#     def IsDeletion(self):
+#         return funcReplacement == ""
+
+#     "returns None if the input is not of the correct form"
+
+#     @staticmethod
+#     def Parse(line):
+#         pat = r"^\s*(.*)\s+-->\s*([^;]*)(;.*)?"
+#         match = re.findall(pat, line)
+#         if match:
+#             groups = match[0]
+#             return TransformRule(groups[0], groups[1], groups[2])
+#         else:
+#             return None
+
+
+# @dataclass
+# class IniAssignment:
+#     key: str
+#     val: str
+
+#     @staticmethod
+#     def Parse(line):
+#         return None
+
+
+# def ParseMergeConfigFile():
+#     result = []
+#     with open(mergeConfigFile, "r") as fileIn:
+#         line = fileIn.readline()
+#         lineNo = 0
+#         commentLineRE = r"^\s*(#.*)?$"
+#         while line:
+#             lineNo = lineNo + 1
+
+#             if re.match(commentLineRE, line):
+#                 line = fileIn.readline()
+#                 continue
+
+#             line = line.strip()
+#             parsed = IniAssignment.Parse(line) or TransformRule.Parse(line)
+#             if parsed:
+#                 result.append(parsed)
+#             else:
+#                 print(f"Line #{lineNo} : {line} of {mergeConfigFile} could not be parsed", file=sys.stderr)
+#                 # return None
+
+#             line = fileIn.readline()
+
+

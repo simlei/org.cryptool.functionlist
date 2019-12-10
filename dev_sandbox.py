@@ -28,7 +28,6 @@ testDataframe=flist.SCSV_Dataset.Dataframe_From_File(flist.envdir("scsv", "CTO.c
 
 testEntry = flist.SCSV_Entry(id="id", functionality="f", path=["p1"], category="cat", how_implemented="how")
 testDataframe=testDataframe.append([dataclasses.asdict(testEntry)])
-print(testDataframe.to_string())
 
 # print(testDataframe.to_string())
 

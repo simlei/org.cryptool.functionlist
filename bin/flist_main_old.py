@@ -11,7 +11,7 @@ import dataclasses; from dataclasses import dataclass, field
 import flist_api as api
 import flist_steps as steps
 import flist_files
-    
+
 from plumbum.commands import BaseCommand
     
 
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     restargs = []
     workspace = flist_files.workspace
     for arg in sys.argv[1:]:
-        if (ws_arg := arg.replace("-workspace=")) != arg
+        if (ws_arg := arg.replace("-workspace=")) != arg:
             workspace = Path(ws_arg)
         else:
             restargs.append(arg)
@@ -51,5 +51,4 @@ if __name__ == "__main__":
         runMainStepSequence(workspace)
         exit(0)
     else:
-        print("flist does not know yet how to invoke a sub-program based on args: {restargs}, try running the program with the defaults")
         exit(1)

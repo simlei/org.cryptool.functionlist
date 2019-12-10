@@ -1,15 +1,13 @@
-import flist_api as api
-import flist_config as config
 from pathlib import Path
 import dataclasses; from dataclasses import dataclass, field
 import typing; from typing import List, Dict, Any, Callable, Optional
 import sys
-import subprocess
+import benedict; from benedict.dicts import benedict as bdict
+import flist_api as api; from flist_api import implicitly
 
 import plumbum; from plumbum.commands import BaseCommand
 
 def RunStep(step_prog) -> bool:
-    io.msg(f"Running step: {step_prog}")
     currentStep = step_prog
     proc = step_prog.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); 
     currentProc = proc
@@ -20,97 +18,148 @@ def RunStep(step_prog) -> bool:
         return True
 
 @dataclass
-class FlistPyEntrypoint:
-    module: Any
-    init_args: List[str] = field(default_factory=list)
-    sig: api.ArgdictSignature = field(default=None)
+class FlistStep:
+    name: str
+    callable: Callable
+    proto: dict
 
-    def __post_init__(self):
-        self.sig = self.module.signature
+    # args_pos: List[Any] = field(default_factory = list)
+    # args_kw : Dict[str, Any] = field(default_factory = dict)
 
-    def makeprog(self, additionalArgs: List[str]):
-        args = self.init_args.copy()
-        args = args + additionalArgs
-        print(additionalArgs) # dbg
-        prog = self.sig.parse([str(self)] + additionalArgs)
-        return prog
-    
+    def get_config_proc(self):
+        """
+        returns the context processor contributions for the step.
+        describes how a dictionary provided by e.g. YAML config (string based)
+        is transferred to the "params" space for the step.
+
+        For flist steps, this is implemented by looking at the step param
+        prototype, and specifying for each subelement to be transformed 
+        according to FlistStep.CfgTransfer, where first-level lists are recursed into.
+        """
+        result = []
+        for key in self.proto:
+            if isinstance(self.proto[key], list):
+                sublistproc = api.ContextProcessorForeach(f"config.step.{self.name}.{key}", f"params.step.{self.name}.{key}", FlistStep.CfgTransfer)
+                result.append(sublistproc)
+            else:
+
+                elementproc = api.ContextProcessorLambda([f"config.step.{self.name}.{key}"], f"params.step.{self.name}.{key}", FlistStep.CfgTransfer)
+                implicitly("prog.logger").debug(f"{elementproc=}")
+                result.append( elementproc )
+
+        return result
+
+    @staticmethod
+    def CfgTransfer(element: Any) -> Any:
+        """
+        Transfer the configuration (config.step) of a step
+        to the parameters for invoking the step (params.step)
+
+        Naively identifies paths in the config to be augmented to the workspace
+        by looking at whether a string starts with "./"
+        """
+        if isinstance(element, str):
+            if element.startswith("./"):
+                #TODO: many more cases possible...
+                return Path(implicitly("workspace").path / element)
+            else:
+                return element
+        else:
+            return element
+
+
+    def perform(self, *args, **kwargs):
+        # implicitly("prog.logger").debug(f"performing on {context}")
+        prog = implicitly("Prog") # type: api.Prog
+        callableKwargs = prog.context.names[f"params.step.{self.name}"]
+        callablePosargs = []
+        callableKwargs.update(kwargs)
+        callablePosargs += args
+
+        # implicitly("prog.logger").debug(f"on step.{self.name} invocation, {prog.context.names['params.step.'+self.name]=}")
+        # implicitly("prog.logger").info(f"running step.{self.name}({callablePosargs} {callableKwargs})")
+        self.callable(*callablePosargs, **callableKwargs)
+
 def flist_augment_cfgpath(ws: Path, cfgpath: str):
     if cfgpath.startswith("."):
         return ws / cfgpath
     else:
         return Path(cfgpath)
 
-@dataclass
-class FlistStepCmd:
-    id: str
-    entrypoint: FlistPyEntrypoint
-    
-    def makeprog(self, ws: Path) -> api.ArgdictArgs:
-        additionalArgs = []
-        config_dict = config.require_cfg(self.id)
-        for k,v in config_dict.items():
-            if isinstance(v, list):
-                augmentedpaths = [flist_augment_cfgpath(ws, p) for p in v]
-                for p in augmentedpaths:
-                    # additionalArgs.extend([f"--{k}+={p.as_posix()}" for p in augmentedpaths])
-                    isKv = self.entrypoint.sig.is_keyval_id(k)
-                    print(self.entrypoint.sig.get_positional_ids())
-                    print(f"{(k,p)=} {isKv=}")
-                    strRep = p.as_posix()
-                    if isKv:
-                        additionalArgs.append(f"--{k}={strRep}")
-                    else:
-                        additionalArgs.append(f"{strRep}")
-            else:
-                if k == "output":
-                    v = flist_augment_cfgpath(ws, v)
-                if isinstance(v, Path):
-                    strRep = v.as_posix()
-                else:
-                    strRep = str(v)
-                
-                isKv = self.entrypoint.sig.is_keyval_id(k)
-                # print(f"{(k,v)=} {isKv=}")
-                if isKv:
-                    additionalArgs.append(f"--{k}={strRep}")
-                else:
-                    additionalArgs.append(f"{strRep}")
-                
-        return self.entrypoint.makeprog(additionalArgs)
 
-
-import flist_workspace
-
-import flist_step_CT2scsv
 import flist_step_categories
+import flist_step_CT2scsv
 import flist_step_merge
 import flist_step_tofinalform
 import flist_step_tohtml
 
-prog_ct2scsv = FlistPyEntrypoint(flist_step_ct2scsv)
-prog_categories = FlistPyEntrypoint(flist_step_categories)
-prog_merge = FlistPyEntrypoint(flist_step_merge)
-prog_tofinalform = FlistPyEntrypoint(flist_step_tofinalform)
-prog_tohtml = FlistPyEntrypoint(flist_step_tohtml)
-
-# The actual steps
-CT2scsv_ct2_en = FlistStepCmd("CT2scsv_ct2_en", prog_ct2scsv)
-CT2scsv_ct2_de = FlistStepCmd("CT2scsv_ct2_de", prog_ct2scsv)
-CT2scsv_jct_en = FlistStepCmd("CT2scsv_jct_en", prog_ct2scsv)
-CT2scsv_jct_de = FlistStepCmd("CT2scsv_jct_de", prog_ct2scsv)
-
-categories_ct2_en = FlistStepCmd("categories_ct2_en", prog_categories)
-categories_ct2_de = FlistStepCmd("categories_ct2_de", prog_categories)
-categories_jct_en = FlistStepCmd("categories_jct_en", prog_categories)
-categories_jct_de = FlistStepCmd("categories_jct_de", prog_categories)
-
-merge_en = FlistStepCmd("merge_en", merge_prog)
-merge_de = FlistStepCmd("merge_de", merge_prog)
-
-tofinalform_en = FlistStepCmd("tofinalform_en", prog_tofinalform)
-tofinalform_de = FlistStepCmd("tofinalform_de", prog_tofinalform)
-
-tohtml_en = FlistStepCmd("tohtml_en", prog_tohtml)
-
-print(step_merge_en.makeprog(config.project_root / "ws"))
+CT2scsv_jct_en = FlistStep(
+    name="CT2scsv_jct_en",
+    callable = flist_step_CT2scsv.CreateCT2SCSV,
+    proto = bdict(input=None, output=None, id_reference=None)
+)
+CT2scsv_jct_de = FlistStep(
+    name="CT2scsv_jct_de",
+    callable = flist_step_CT2scsv.CreateCT2SCSV, 
+    proto = bdict(input=None, output=None, id_reference=None)
+)
+CT2scsv_ct2_en = FlistStep(
+    name="CT2scsv_ct2_en",
+    callable = flist_step_CT2scsv.CreateCT2SCSV, 
+    proto = bdict(input=None, output=None, id_reference=None)
+)
+CT2scsv_ct2_de = FlistStep(
+    name="CT2scsv_ct2_de",
+    callable = flist_step_CT2scsv.CreateCT2SCSV, 
+    proto = bdict(input=None, output=None, id_reference=None)
+)
+categories_ct2_en = FlistStep(
+    name="categories_ct2_en", 
+    callable = flist_step_categories.Add_Categories,
+    proto = bdict(input=None, catfile=None, output=None)
+)
+categories_ct2_de = FlistStep(
+    name="categories_ct2_de", 
+    callable = flist_step_categories.Add_Categories,
+    proto = bdict(input=None, catfile=None, output=None)
+)
+categories_jct_en = FlistStep(
+    name="categories_jct_en", 
+    callable = flist_step_categories.Add_Categories,
+    proto = bdict(input=None, catfile=None, output=None)
+)
+categories_jct_de = FlistStep(
+    name="categories_jct_de", 
+    callable = flist_step_categories.Add_Categories,
+    proto = bdict(input=None, catfile=None, output=None)
+)
+merge_en = FlistStep(
+    name="merge_en",
+    callable = flist_step_merge.MergeImpl,
+    proto = bdict(input=[], output=None)
+)
+merge_de= FlistStep(
+    name="merge_de",
+    callable = flist_step_merge.MergeImpl,
+    proto = bdict(input=[], output=None)
+)
+tofinalform_en = FlistStep(
+    name="tofinalform_en",
+    callable = flist_step_tofinalform.CreateFinalForm,
+    proto = bdict(input=None, output=None)
+)
+tofinalform_de= FlistStep(
+    name="tofinalform_de",
+    callable = flist_step_tofinalform.CreateFinalForm,
+    proto = bdict(input=None, output=None)
+)
+tohtml_en = FlistStep(
+    name="tohtml_en",
+    callable = flist_step_tohtml.MakeHTML,
+    proto = bdict(input=None, output=None, template_html=None)
+)
+tohtml_de= FlistStep(
+    name="tohtml_de",
+    callable = flist_step_tohtml.MakeHTML,
+    proto = bdict(input=None, output=None, template_html=None)
+)

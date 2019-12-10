@@ -46,27 +46,25 @@ def getFileContent(path):
         return "".join(opened.readlines())
 
 
-def MakeHTML(inputs: List[Path], outputFile: Path):
-    dataframe = flist.FinalForm_Dataset.Dataframe_From_Files(inputs)
+def MakeHTML(input: Path, outputFile: Path, template_html):
+    dataframe = flist.FinalForm_Dataset.Dataframe_From_Files([input])
     dataset = flist.FinalForm_Dataset.From_Dataframe(dataframe)
-    testel = dataset.rows[0]
-    # print(testel)
-    categorytags=generate_category_tags(dataset)
-    rowtags=generate_row_tags(dataset)
-    interactive_html=generate_interactive(rowtags, categorytags)
-    generate_index(interactive_html, outputFile)
+    categorytags=generate_category_tags(dataset, template_html, template_html)
+    rowtags=generate_row_tags(dataset, template_html)
+    interactive_html=generate_interactive(rowtags, categorytags, template_html)
+    generate_index(interactive_html, outputFile, template_html)
 
-def generate_interactive(rows, categories):
-        return substituteFileToStr(flist_state.fs.workspace / "data" / "html_template" / "template_interactive.html",
+def generate_interactive(rows, categories, template_html):
+        return substituteFileToStr(template_html / "template_interactive.html",
                                    rows=rows,
                                    categories=categories
                                    )
-def generate_index(interactive_html, target):
-        return substituteFileToFile(flist_state.fs.workspace / "data" / "html_template" / "template_index.html", target,
+def generate_index(interactive_html, target, template_html):
+        return substituteFileToFile(template_html / "template_index.html", target,
                                    interactive_part=interactive_html
                                    )
 
-def generate_category_tags(dataset):
+def generate_category_tags(dataset, template_html):
     all_categories = []
     for row in dataset.rows:
         cat = row.categories
@@ -75,14 +73,14 @@ def generate_category_tags(dataset):
     tags=""
     result=""
     for cat in all_categories:
-        result += substituteFileToStr(flist_state.fs.workspace / "data" / "html_template" / "fragment_category.html", 
+        result += substituteFileToStr(template_html / "fragment_category.html", 
                           categoryVal=cat,
                           categoryBody=re.sub(r"^\s*\d+\)\s*", "", cat)
                           )
     return result
 
 
-def generate_row_tags(dataset):
+def generate_row_tags(dataset, template_html: Path):
     result = ""
     odd="even"
     for row in dataset.rows:
@@ -90,7 +88,7 @@ def generate_row_tags(dataset):
             odd = "even"
         else:
             odd = "odd"
-        result += substituteFileToStr(flist_state.fs.workspace / "data" / "html_template" / "fragment_row.html", 
+        result += substituteFileToStr(template_html / "fragment_row.html", 
                                    odd_even=odd,
                                    functionality=row.functionality,
                                    how_implemented_CT1=row.how_implemented["CT1"],
@@ -104,22 +102,4 @@ def generate_row_tags(dataset):
                                    category=row.categories
                                    )
     return result
-
-
-
-    
-
-
-def argparse_contribute(parser, state: config.FlistProgramState):
-    parser.add_argument("inputs"    , type=argtype.FilePathExisting, default=state.defaults.tohtml.inputs, nargs="*")
-    parser.add_argument("--output"  , type=argtype.FilePath        , default=state.defaults.tohtml.output, nargs="?")
-
-if __name__ == "__main__":
-    parsed, flist_state = config.parse_args(sys.argv[1:], argparse_contribute)
-    try:
-        MakeHTML(parsed.inputs, parsed.output)
-    except io.FlistException as e:
-        io.err(str(e), e)
-        exit(1)
-
 
