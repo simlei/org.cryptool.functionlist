@@ -2,6 +2,7 @@
 # Under Windows, paths with forward slashes ("/") are valid.
 
 step.CT2scsv_ct2_en:
+  id_reference: ./data/en/scsv_generated/ct2.csv
   input       : ./data/en/scsv_generated/ct2.csv
   output      : ./scsv_ct2_nocat_en.csv
 
@@ -11,6 +12,7 @@ step.CT2scsv_ct2_de:
   output      : ./scsv_ct2_nocat_de.csv
 
 step.CT2scsv_jct:
+  id_reference: ./data/en/scsv_generated/jct.csv
   input       : ./data/en/scsv_generated/jct.csv
   output      : ./scsv_jct_nocat_en.csv
 

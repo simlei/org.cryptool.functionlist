@@ -25,7 +25,7 @@ def MergeImpl(input: List[Path], output: Path):
     implicitly("prog.logger").debug(f"Running MergeImpl({input=}, {output=})")
     scsv_dataframe = flist.SCSV_Dataset.Dataframe_From_Files(input)
     scsv_all       = flist.SCSV_Dataset.From_Dataframe(scsv_dataframe)
-
+    
     merged_rows = [flist.Merged_Functionality(functionality) for functionality in scsv_all.get_functionalities()]
 
     for scsv_row in scsv_all.get_rows():
@@ -39,8 +39,3 @@ def MergeImpl(input: List[Path], output: Path):
     mcsv_all = flist.MCSV_Dataset.From_Rows(mcsv_rows)
     mcsv_all.write_csv(output)
 
-# Snippet to extract category ids from the dumped scsv file
-    # scsv_frame_ct2 = flist.SCSV_Dataset.Dataframe_From_Files(["/home/simon/sandbox/featurelist/ct_functionlist/ws/data/en/scsv_webdump/ct2.csv"])
-    # scsv_ct2 = flist.SCSV
-    # with open("/home/simon/sandbox/featurelist/ct_functionlist/ws-static/categories_ct2_en.csv", "wb") as opened:
-    #     for entry in scsv_ct2.
