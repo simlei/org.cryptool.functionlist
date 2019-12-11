@@ -124,8 +124,12 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path):
             raise io.FlistException("while extracting reference ids from line {currentLine} in {id_reference} for csv file {input}: parsing did not happen in lockstep. This is probably an error in the correspondence between outputs of different languages of that CrypTool.")
 
         if currentResult:
+            # set id from id-reference result and write to dataframe
             currentResult.id = refResult.id
-            currentResult.appendToDF(dataframe)
+            dataframe = currentResult.appendToDF(dataframe)
+            # reset the current parser
+            currentRecord = LineparseRecord(input=input)
+            currentRefRecord = LineparseRecord(input=id_reference)
 
     dataframe.to_csv(output, sep=flist.CSV_SEP, index=False, header=False)
 
