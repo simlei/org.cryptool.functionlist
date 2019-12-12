@@ -43,9 +43,9 @@ class CSV_Dataset(ABC):
     """
 
     @abstractmethod
-    def get_rows(self) -> List[CSV_Entry]:
+    def get_rows(self) -> List[dict]:
         """
-        returns a list of CSV_Entry. If the CSV_Entry instance is a dataclass,
+        returns a list of dictionaries, representing the fields of the object via key-value notation.
         the string representation of its members and their names can automatically describe a CSV table
         """
         pass
@@ -57,18 +57,18 @@ class CSV_Dataset(ABC):
         """
         pass
 
-    def to_dataframe(self):
+    def to_dataframe(self) -> pandas.DataFrame:
         """
         automatically construct the dataframe for this CSV dataset
         """
         dataframe = pandas.DataFrame(columns=self.get_columns())
-        for row in self.get_rows():
+        for row in self.get_dataframe_dictionaries():
             dataframe = dataframe.append(row, ignore_index=True)
         return dataframe
 
     def write_csv(self, outfile):
         """
-        This attempts to convert the CSV_Entry fields from self.get_rows to a pandas.DataFrame, 
+        This attempts to convert the CSV_Entry fields from self.get_dataframe_dictionaries to a pandas.DataFrame, 
         which is then written to a CSV file.
         """
         self.to_dataframe().to_csv(outfile, sep=CSV_SEP, index=False, header=False)
@@ -121,6 +121,19 @@ class SCSV_Entry(CSV_Entry):
             category=row["category"]
         )
 
+    def to_dataframe_dictionary(self):
+        return {
+            "id": self.id,
+            "functionality": self.functionality,
+            "how_implemented": self.how_implemented,
+            "path": " \\ ".join(self.path), 
+            "category": self.category
+        }
+    
+    def infer_id_from_fields(self, tool: str):
+        scsv_file_repr = self.to_dataframe_dictionary()
+        self.id = tool + ":dynamic:" + makeId(scsv_file_repr["functionality"], scsv_file_repr["path"], scsv_file_repr["how_implemented"])
+
 
 @dataclass
 class SCSV_Dataset(CSV_Dataset):
@@ -135,6 +148,9 @@ class SCSV_Dataset(CSV_Dataset):
 
     def get_rows(self):
         return [dataclasses.asdict(row) for row in self.rows]
+
+    def get_dataframe_dictionaries(self):
+        return [row.to_dataframe_dictionary() for row in self.rows]
 
     def get_columns(self):
         return SCSV_Dataset.COLUMNS
@@ -428,7 +444,9 @@ class FinalForm_Dataset(CSV_Dataset):
 # ---- Id formation
 
 def makeId(functionality_en:str, path:str, how_implemented:str):
-    return hashlib.md5(f"{functionality_en}{path}{how_implemented}".encode()).hexdigest()[:8]
+    payload = f"{functionality_en}{path}{how_implemented}"
+    result = hashlib.md5(payload.encode()).hexdigest()[:8]
+    return result
 
 # --- utilities
 
