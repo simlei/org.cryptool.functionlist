@@ -78,6 +78,7 @@ class FlistStep:
 
         # implicitly("prog.logger").debug(f"on step.{self.name} invocation, {prog.context.names['params.step.'+self.name]=}")
         # implicitly("prog.logger").info(f"running step.{self.name}({callablePosargs} {callableKwargs})")
+        implicitly("prog.logger").info(f"Step {self.name} is being run with args ({callablePosargs} {callableKwargs})")
         self.callable(*callablePosargs, **callableKwargs)
 
 def flist_augment_cfgpath(ws: Path, cfgpath: str):
@@ -96,22 +97,22 @@ import flist_step_tohtml
 CT2scsv_jct_en = FlistStep(
     name="CT2scsv_jct_en",
     callable = flist_step_CT2scsv.CreateCT2SCSV,
-    proto = bdict(input=None, output=None, id_reference=None)
+    proto = bdict(input=None, output=None, id_reference=None, toolname="JCT")
 )
 CT2scsv_jct_de = FlistStep(
     name="CT2scsv_jct_de",
     callable = flist_step_CT2scsv.CreateCT2SCSV, 
-    proto = bdict(input=None, output=None, id_reference=None)
+    proto = bdict(input=None, output=None, id_reference=None, toolname="JCT")
 )
 CT2scsv_ct2_en = FlistStep(
     name="CT2scsv_ct2_en",
     callable = flist_step_CT2scsv.CreateCT2SCSV, 
-    proto = bdict(input=None, output=None, id_reference=None)
+    proto = bdict(input=None, output=None, id_reference=None, toolname="CT2")
 )
 CT2scsv_ct2_de = FlistStep(
     name="CT2scsv_ct2_de",
     callable = flist_step_CT2scsv.CreateCT2SCSV, 
-    proto = bdict(input=None, output=None, id_reference=None)
+    proto = bdict(input=None, output=None, id_reference=None, toolname="CT2")
 )
 categories_ct2_en = FlistStep(
     name="categories_ct2_en", 
