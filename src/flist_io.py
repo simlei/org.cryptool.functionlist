@@ -7,6 +7,11 @@ logger = logging.getLogger("flist")
 def logException(logger: logging.Logger, ex: Exception, msg: str =None):
     logger.error(((msg + " :") if msg is not None else "") + str(ex))
 
+def logFlistException(logger: logging.Logger, ex: Exception, msg: str =None):
+    stepname = api.implicitly_or("state.currentStep", "<no current flist step>")
+    msg = ((msg + " :") if msg is not None else "")
+    exmsg = str(ex)
+    logger.error(f"Error in step {stepname}: {msg}{exmsg}")
 
 def msg(msg: str):
     implicitLogger = api.implicitly("prog.logger")

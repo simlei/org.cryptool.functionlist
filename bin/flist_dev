@@ -23,12 +23,8 @@ class FlistProg(ws.WSProg, api.Prog):
     def __init__(self):
         super().__init__()
         
-        SetupLogger = logging.getLogger("flist.Setup")
-        SetupLogger.addFilter(FlistSetupLogFilter())
-        self.context.names["prog.logger"] = SetupLogger
-
-        self.context.names["prog.args_pos"] = []
         self.context.names["prog.logger"] = io.logger
+        self.context.names["prog.args_pos"] = []
         self.context.names["params.workspace.template"] = Path(__file__).parent.parent / "ws-static"
 
         self.context_processors += [
@@ -36,25 +32,23 @@ class FlistProg(ws.WSProg, api.Prog):
         ]
 
         self.steps = []
-        self.steps_by_default = []
 
-        self.addStep(steps.CT2scsv_ct2_en, runByDefault=True)
-        self.addStep(steps.CT2scsv_ct2_de, runByDefault=True)
-        self.addStep(steps.CT2scsv_jct_en, runByDefault=False)
-        self.addStep(steps.CT2scsv_jct_de, runByDefault=False)
-        self.addStep(steps.categories_ct2_en, runByDefault=False)
-        self.addStep(steps.categories_ct2_de, runByDefault=False)
-        self.addStep(steps.categories_jct_en, runByDefault=False)
-        self.addStep(steps.categories_jct_de, runByDefault=False)
-        self.addStep(steps.merge_en, runByDefault=False)
-        self.addStep(steps.merge_de, runByDefault=False)
-        self.addStep(steps.tofinalform_en, runByDefault=False)
-        self.addStep(steps.tofinalform_de, runByDefault=False)
-        self.addStep(steps.tohtml_en, runByDefault=False)
-        self.addStep(steps.tohtml_de, runByDefault=False)
+        self.addStep(steps.CT2scsv_ct2_en)
+        self.addStep(steps.CT2scsv_ct2_de)
+        self.addStep(steps.CT2scsv_jct_en)
+        self.addStep(steps.CT2scsv_jct_de)
+        self.addStep(steps.categories_ct2_en)
+        self.addStep(steps.categories_ct2_de)
+        self.addStep(steps.categories_jct_en)
+        self.addStep(steps.categories_jct_de)
+        self.addStep(steps.merge_en)
+        self.addStep(steps.merge_de)
+        self.addStep(steps.tofinalform_en)
+        self.addStep(steps.tofinalform_de)
+        self.addStep(steps.tohtml_en)
+        self.addStep(steps.tohtml_de)
 
     def runStep(self, step_name):
-        self.logger.info(f"Step {step_name} is being run")
         step = self.context.names[f"step.{step_name}"] # type: steps.FlistStep
         step.perform()
 
@@ -74,39 +68,41 @@ class FlistProg(ws.WSProg, api.Prog):
         # both config and params
 
         self.steps += [ step ]
-        if runByDefault:
-            self.steps_by_default += [ step ]
-        self.logger.debug(f"adding {step=}")
+
         self.context.names[f"step.{step.name}"] = step
         self.context.names[f"config.step.{step.name}"] = step.proto.copy()
         self.context.names[f"params.step.{step.name}"] = step.proto.copy() # todo
-        self.logger.debug(f"set up step with config: {self.context.names['config.step.' + step.name]=}")
+
         self.context_processors += step.get_config_proc();
 
     def Main(self):
+        self.context.names["state.currentStep"] = "__main__"
+        self.context.make_implicit("state.currentStep")
+
+        mainLogger    = logging.getLogger("Flist:Main")   ; mainLogger.setLevel (logging.DEBUG)
+        wslogLogger   = logging.getLogger("Flist:WSLog")  ; wslogLogger.setLevel(logging.DEBUG)
+        consoleLogger = logging.getLogger("Flist:Console"); wslogLogger.setLevel(logging.INFO)
+
+        mainLogger.addHandler(wslogLogger)
+        mainLogger.addHandler(consoleLogger)
+        consoleLogger.addHandler(logging.StreamHandler(sys.stderr))
+        wslogLogger.addHandler(logging.FileHandler(self.ws.path / "log.txt"))
+
+        self.context.names["prog.logger"] = mainLogger
+
+        try:
+            self.Main_Default()
+        except io.FlistException as e:
+            io.logFlistException(self.logger, e)
+
+    def Main_Default(self):
         self.ws.recreated()
-        MainLogger = logging.getLogger("flist.Main")
-        MainLogger.addFilter(FlistMainLogFilter())
-        self.context.names["prog.logger"] = MainLogger
-
-        for step in self.steps_by_default:
-            self.runStep(step.name)
+        for stepname in self.context.names["config.defaultsteps"]:
+            self.context.names["state.currentStep"] = stepname
+            self.runStep(stepname)
 
 
-class FlistSetupLogFilter(logging.Filter):
-    def filter(self, record):
-        if record.levelname == "DEBUG":
-            return False
-        return True
+if __name__ == "__main__":
+    prog = FlistProg()
+    prog.run_from_cmdline_call(sys.argv[1:])
 
-class FlistMainLogFilter(logging.Filter):
-    def filter(self, record):
-        if record.levelname == "DEBUG":
-            return False
-        return True
-
-
-logging.basicConfig(level=logging.INFO)
-logging.getLogger("Prog::Default").addFilter(FlistSetupLogFilter())
-prog = FlistProg()
-prog.run_from_cmdline_call([])

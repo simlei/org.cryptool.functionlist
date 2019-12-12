@@ -46,10 +46,11 @@ def getFileContent(path):
         return "".join(opened.readlines())
 
 
-def MakeHTML(input: Path, outputFile: Path, template_html):
+def MakeHTML(input: Path, output: Path, template_html: Path):
+    outputFile = output
     dataframe = flist.FinalForm_Dataset.Dataframe_From_Files([input])
     dataset = flist.FinalForm_Dataset.From_Dataframe(dataframe)
-    categorytags=generate_category_tags(dataset, template_html, template_html)
+    categorytags=generate_category_tags(dataset, template_html)
     rowtags=generate_row_tags(dataset, template_html)
     interactive_html=generate_interactive(rowtags, categorytags, template_html)
     generate_index(interactive_html, outputFile, template_html)

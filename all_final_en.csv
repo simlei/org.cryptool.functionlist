@@ -1,0 +1,387 @@
+3DES;X;C;;;Encrypt \ Decrypt \ Symmetric (modern) \ Triple DES…;Modern Ciphers \ Symmetric \ DES;;;2) Modern Ciphers
+3DES Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Triple DES…;;;;7) Modern Cryptanalysis
+ADFGVX;X;C;;;Encrypt \ Decrypt \ Symmetric (classic) \ ADFGVX…;Classic Ciphers \ ADFGVX;;;1) Classic Ciphers
+ADFGVX Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ ADFGVX…;;;;6) Classic Cryptanalysis
+AES;X;C;;X;Encrypt \ Decrypt \ Symmetric (modern) \ AES (CBC)... <br /> Encrypt \ Decrypt \ Symmetric (modern) \ AES (self extracting)…;Modern Ciphers \ Symmetric \ AES;;Highlights \ AES;2) Modern Ciphers
+AES Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ AES (CBC)…;;;;7) Modern Cryptanalysis
+AES Visualization;X;C;;;Indiv. Procedures \ Visualization of Algorithms \ AES \ ;Modern Ciphers \ Symmetric \ AES Visualization;;;10) Learning Aids and Visualizations
+ASN.1;X;;;;Indiv. Procedures \ Tools \ Codes \ Decode ASN.1 Code of a Document;;;;9) Codings
+Atbash;X;;;;Encrypt \ Decrypt \ Symmetric (classic) \ Substitution \ Atbash…;;;;1) Classic Ciphers
+Authentication Methods in Networks Visualization;X;;;;Indiv. Procedures \ Protocols \ Network Authentication…;;;;10) Learning Aids and Visualizations
+Autocorrelation;X;C;;X;Analysis \ Tools for Analysis \ Autocorrelation;Cryptanalysis \ Generic \ Autocorrelation;;Cryptanalysis \ Autocorrelation;6) Classic Cryptanalysis
+Base 64 Decode;X;;;X;Indiv. Procedures \ Tools \ Codes \ Base64 Encode \ Decode \ Base64 Decode;;;Codings \ Base64;9) Codings
+Base 64 Encode;X;;;X;Indiv. Procedures \ Tools \ Codes \ Base64 Encode \ Decode \ Base64 Encode;;;Codings \ Base64;9) Codings
+Byte Addition;X;;;;Encrypt \ Decrypt \ Symmetric (classic) \ Byte Addition…;;;;1) Classic Ciphers
+Byte Addition Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Byte Addition;;;;6) Classic Cryptanalysis
+Caesar;X;C;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Caesar \ Rot-13…;Classic Ciphers \ Caesar;;Ciphers \ Caesar \ Rot-13;1) Classic Ciphers
+Caesar Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Caesar;;;;6) Classic Cryptanalysis
+Caesar Visualization;X;;;;Indiv. Procedures \ Visualization of Algorithms \ Caesar…;;;;10) Learning Aids and Visualizations
+Chinese Remainder Theorem Visualization;X;;;;Indiv. Procedures \ Chinese Remainder Theorem Applications \;;;;10) Learning Aids and Visualizations
+DES;X;C;;;Encrypt \ Decrypt \ Symmetric (modern) \ DES…;Modern Ciphers \ Symmetric \ DES;;;2) Modern Ciphers
+DES Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ DES…;;;;7) Modern Cryptanalysis
+DES Visualization;X;;;;Indiv. Procedures \ Visualization of Algorithms \ DES…;;;;10) Learning Aids and Visualizations
+DESL;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESL…;;;;2) Modern Ciphers
+DESL Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESL…;;;;7) Modern Cryptanalysis
+DESX;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESX…;;;;2) Modern Ciphers
+DESX Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESX…;;;;7) Modern Cryptanalysis
+DESXL;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESXL…;;;;2) Modern Ciphers
+DESXL Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESXL…;;;;7) Modern Cryptanalysis
+Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;X;;;;Indiv. Procedures \ Protocols \ Diffie-Hellman Demonstration…;;;;10) Learning Aids and Visualizations
+Digital Signatures Visualization;X;;;;Digital Signatures \ PKI \ Signature Demonstration (Signature Generation)… <br /> Indiv. Procedures \ RSA Cryptosystem \ Signature Demonstration (Signature Generation)…;;;;10) Learning Aids and Visualizations
+Display/Export Keys;X;;;;Digital Signatures \ PKI \ Display \ Export Keys…;;;;4) Digital Signatures/PKI
+DSA;X;;;;Digital Signatures \ PKI \ Sign Document... \ DSA;;;;4) Digital Signatures/PKI
+ECC-AES;X;;;;Encrypt \ Decrypt \ Hybrid \ ECC-AES…;;;;2) Modern Ciphers
+ECDSA;X;;;;Digital Signatures \ PKI \ Sign Document... \ ECSP-DSA;;;;4) Digital Signatures/PKI
+ECNR;X;;;;Digital Signatures \ PKI \ Sign Document... \ ECSP-NR;;;;4) Digital Signatures/PKI
+Elliptic Curve Calculations Visualization;X;;;;Indiv. Procedures \ Number Theory - Interactive \ Point Addition on Elliptic Curves…;;;;10) Learning Aids and Visualizations
+Enigma Visualization;X;;;;Indiv. Procedures \ Visualization of Algorithms \ Enigma…;;;;10) Learning Aids and Visualizations
+Entropy;X;;;;Analysis \ Tools for Analysis \ Entropy;;;;6) Classic Cryptanalysis
+Extract Signature;X;;;;Digital Signatures \ PKI \ Extract Signature…;;;;4) Digital Signatures/PKI
+Factorization of a Number;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brute-force <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brent <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Pollard <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Williams <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Lenstra <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Quadratic Sieve;;;;12) Prime numbers
+FIPS PUB-140-1;X;;;;Analysis \ Analyze Randomness \ FIPS PUB-140-1 Test Battery;;;;7) Modern Cryptanalysis
+Frequency Test;X;C;;X;Analysis \ Analyze Randomness \ Frequency Test... <br /> Analysis \ Tools for Analysis \ Floating Frequency;Cryptanalysis \ Generic \ Frequency Test;;Cryptanalysis \ Frequency Analysis;6) Classic Cryptanalysis
+Generate/Import Keys;X;;;;Digital Signatures \ PKI \ Generate \ Import Keys…;;;;4) Digital Signatures/PKI
+Generation of Prime Numbers;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Miller-Rabin Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Solovay-Strassen Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ FermatTest;;;;12) Prime numbers
+Hash Algorithms Visualization;X;;;;Indiv Procedures \ Hash \ Hash Demonstration…;;;;10) Learning Aids and Visualizations
+Hash Collisions;X;;;;Analysis \ Hash \ Attack on the Hash Value of the Digital Signature…;;;;7) Modern Cryptanalysis
+Hash Value of a File;X;;;;Indiv. Procedures \ Hash \ Hash Value of a File…;;;;3) Hash and MAC Algorithms
+Hill;X;;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Hill…;;;Ciphers \ Hill;1) Classic Ciphers
+Hill Analysis;X;;;;Analysis \ Symmetric encryption (classic) \ Known Plaintext \ Hill…;;;;6) Classic Cryptanalysis
+Histogram;X;;;;Analysis \ Tools for Analysis \ Histogram;;;;6) Classic Cryptanalysis
+HMACs;X;;;;Indiv. Procedures \ Hash \ Generation of HMACs…;;;;3) Hash and MAC Algorithms
+Homophone;X;;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Homophone…;;;Ciphers \ Homophonic;1) Classic Ciphers
+IDEA;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ IDEA…;;;;2) Modern Ciphers
+IDEA Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ IDEA…;;;;7) Modern Cryptanalysis
+Inverse Congruence Generator (ICG) (PRNG);X;;;;Indiv. Procedures \ Tools \ Generate Random Numbers…;;;;5) Random Number Generators
+Key Generation from Password (PKCS#5);X;;;;Indiv. Procedures \ Hash \ Key Generation from Password (PKCS #5)…;;;;3) Hash and MAC Algorithms
+Length of a number;X;;;;Indiv. Procedures \ Tools \ Length of a number…;;;;10) Learning Aids and Visualizations
+Linear Congruence Generator (LCG) (PRNG);X;;;;Indiv. Procedures \ Tools \ Generate Random Numbers…;;;;5) Random Number Generators
+MARS;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ MARS…;;;;2) Modern Ciphers
+MARS Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ MARS…;;;;7) Modern Cryptanalysis
+MD2;X;;;;Indiv. Procedures \ Hash \ MD2;;;;3) Hash and MAC Algorithms
+MD4;X;;;;Indiv. Procedures \ Hash \ MD4;;;;3) Hash and MAC Algorithms
+MD5;X;C;;;Indiv. Procedures \ Hash \ MD5;Hash functions \ MD5;;;3) Hash and MAC Algorithms
+N-Gram Analysis;X;;;X;Analysis \ Tools for Analysis \ N-Gram…;;;Cryptanalysis \ N-Gram Analysis;6) Classic Cryptanalysis
+Nihilist Visualization;X;;;;Indiv. Procedures \ Visualization of Algorithms \ Nihilist…;;;;10) Learning Aids and Visualizations
+Number Shark;X;;;X;Indiv. Procedures \ Educational Games \ Number Shark;;;Highlights \ Taxman;11) Games
+Number Theory;X;;;;Indiv. Procedures \ Number Theory - Interactive \  <br /> Indiv. Procedures \ Number Theory - Interactive \ Generic t-adic-NAF Key Generator;;;;10) Learning Aids and Visualizations
+Password Quality Visualization;X;;;X;Indiv. Procedures \ Tools \ Password Quality Meter... <br /> Indiv. Procedures \ Tools \ Password Entropy...;;;Highlights \ Password Check;10) Learning Aids and Visualizations
+Periodicity Analysis;X;;;;Analysis \ Tools for Analysis \ Periodicity;;;;6) Classic Cryptanalysis
+Playfair;X;C;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Playfair…;Classic Ciphers \ Playfair;;Ciphers \ Playfair;1) Classic Ciphers
+Playfair Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Manual Analysis \ Playfair…;;;;6) Classic Cryptanalysis
+Poker Test;X;;;;Analysis \ Analyze Randomness \ Poker Test…;;;;7) Modern Cryptanalysis
+Prime Number Test;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ Miller-Rabin Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ Fermat Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ Solovay-Strassen test <br /> Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ AKS test (deterministic procedure);;;;12) Prime numbers
+Prime Number Tutorial;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… <br /> Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number…;;;;12) Prime numbers
+Rail Fence;X;;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Scytale \ Rail Fence…;;;Ciphers \ Zigzag (Rail Fence);1) Classic Ciphers
+Randomness Visualization;X;;;;Analysis \ Analyze Randomness \ 3D Visualization…;;;;10) Learning Aids and Visualizations
+RC2;X;C;;;Encrypt \ Decrypt \ Symmetric (modern) \ RC2…;Modern Ciphers \ Symmetric \ RC2;;;2) Modern Ciphers
+RC2 Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ RC2…;;;;7) Modern Cryptanalysis
+RC4;X;C;;;Encrypt \ Decrypt \ Symmetric (modern) \ RC4…;Modern Ciphers \ Symmetric \ RC4;;;2) Modern Ciphers
+RC4 Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ RC4…;;;;7) Modern Cryptanalysis
+RC6;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ RC6…;;;;2) Modern Ciphers
+RC6 Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ RC6…;;;;7) Modern Cryptanalysis
+RIPEMD-160;X;;;;Indiv. Procedures \ Hash \ RIPEMD-160;;;;3) Hash and MAC Algorithms
+Rot-13;X;;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Caesar \ Rot-13…;;;Ciphers \ Caesar \ Rot-13;1) Classic Ciphers
+RSA;X;C;;;Encrypt \ Decrypt \ Asymmetric \ RSA  <br /> Indiv. Procedures \ RSA Cryptosystem \ ;Modern Ciphers \ Asymmetric \ RSA;;;2) Modern Ciphers
+RSA Attacks;X;;;;"Analysis \ Asymmetric Encryption \ Lattice-Based Attacks on RSA... \  <br /> Analysis \ Asymmetric Encryption \ Side-Channel Attack on ""Textbook RSA""…";;;;7) Modern Cryptanalysis
+RSA Visualization;X;;;;Indiv. Procedures \ RSA Cryptosystem \;;;;10) Learning Aids and Visualizations
+RSA-AES;X;;;;Encrypt \ Decrypt \ Hybrid \ RSA-AES…;;;;2) Modern Ciphers
+Runs Test;X;;;;Analysis \ Analyze Randomness \ Runs Test…;;;;6) Classic Cryptanalysis
+Scytale;X;C;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Scytale \ Rail Fence…;Classic Ciphers \ Scytale;;Ciphers \ Scytale;1) Classic Ciphers
+Secude Library Random Number Generator;X;;;;Indiv. Procedures \ Tools \ Generate Random Numbers…;;;;5) Random Number Generators
+Secure Email (S/MIME) Visualization;X;;;;Indiv. Procedures \ Protocols \ Secure E-Mail with S \ MIME…;;;;10) Learning Aids and Visualizations
+Serial Test;X;;;;Analysis \ Analyze Randomness \ Serial Test…;;;;7) Modern Cryptanalysis
+Serpent;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ Serpent…;;;;2) Modern Ciphers
+Serpent Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ Serpent…;;;;7) Modern Cryptanalysis
+SHA-1;X;C;;;Indiv. Procedures \ Hash \ SHA-1;Hash functions \ SHA;;;3) Hash and MAC Algorithms
+SHA-256;X;C;;;Indiv. Procedures \ Hash \ SHA-256;Hash functions \ SHA;;;3) Hash and MAC Algorithms
+SHA-512;X;C;;;Indiv. Procedures \ Hash \ SHA-512;Hash functions \ SHA;;;3) Hash and MAC Algorithms
+Shamir's Secret Sharing Visualization;X;;;;Indiv. Procedures \ Secret Sharing Demonstration (Shamir)…;;;;10) Learning Aids and Visualizations
+Solitaire;X;C;;;Encrypt \ Decrypt \ Symmetric (classic) \ Solitaire…;Classic Ciphers \ Solitaire;;;1) Classic Ciphers
+Solitaire Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Solitaire... <br /> Analysis \ Symmetric Encryption (classic) \ Manual Analysis \ Solitaire…;;;;6) Classic Cryptanalysis
+Substitution;X;C;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Substitution \ Atbash…;Classic Ciphers \ Substitution;;Ciphers \ Monoalphabetic Substitution;1) Classic Ciphers
+Substitution Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Substitution... <br /> Analysis \ Symmetric Encryption (classic) \ Manual Analysis \ Substitution…;;;;6) Classic Cryptanalysis
+Transposition (Double Column);X;;;;Encrypt \ Decrypt \ Symmetric (classic) \ Permutation \ Transposition…;;;;1) Classic Ciphers
+Transposition (Single Column);X;;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Permutation \ Transposition…;;;Ciphers \ Transposition;1) Classic Ciphers
+Transposition Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Known Plaintext \ Single Column Transposition…;;;;6) Classic Cryptanalysis
+Twofish;X;C;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ Twofish…;Modern Ciphers \ Symmetric \ Twofish;;;2) Modern Ciphers
+Twofish Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ Twofish…;;;;7) Modern Cryptanalysis
+Unzip;X;;;;Indiv. Procedures \ Tools \ Compress \ UnZip;;;;9) Codings
+UU Decode;X;;;;Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Decode;;;;9) Codings
+UU Encode;X;;;;Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Encode;;;;9) Codings
+Verify Signature;X;;;;Digital Signatures \ PKI \ Verify Signature…;;;;4) Digital Signatures/PKI
+Vernam;X;C;;;Encrypt \ Decrypt \ Symmetric (classic) \ Vernam \ OTP…;Classic Ciphers \ Vernam;;;1) Classic Ciphers
+Vernam Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ XOR \ Vernam;;;;6) Classic Cryptanalysis
+Vigenère;X;;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Vigenère…;;;Ciphers \ Vigenère;1) Classic Ciphers
+Vigenère Analysis;X;;;X;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Vigenère <br /> Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Vigenère (Analysis according to Schroedel)…;;;Cryptanalysis \ Break Vigenère;6) Classic Cryptanalysis
+Vigenère Visualization;X;;;;Indiv. Procedures \ Visualization of Algorithms \ Vigenère…;;;;10) Learning Aids and Visualizations
+Vitányi Analysis;X;;;;Analysis \ Analyze Randomness \ Vitányi;;;;7) Modern Cryptanalysis
+X^2 (mod N) (PRNG);X;;;;Indiv. Procedures \ Tools \ Generate Random Numbers…;;;;5) Random Number Generators
+XOR;X;C;;;Encrypt \ Decrypt \ Symmetric (classic) \ XOR…;Classic Ciphers \ XOR;;;1) Classic Ciphers
+Zip;X;;;;Indiv. Procedures \ Tools \ Compress \ Zip;;;;9) Codings
+ADFGV;;;;X;;;;Ciphers \ ADFGVX;1) Classic Ciphers
+Affine Cipher;;;;X;;;;Ciphers \ Multiplicative;1) Classic Ciphers
+Alberti;;;;X;;;;Ciphers \ Alberti;1) Classic Ciphers
+AMSCO;;;;X;;;;Ciphers \ AMSCO;1) Classic Ciphers
+ASCII;;;;X;;;;Codings \ ASCII;9) Codings
+Autokey Analysis;;;;X;;;;Cryptanalysis \ Break Autokey;6) Classic Cryptanalysis
+Autokey Vigenère;;;;X;;;;Ciphers \ Autokey;1) Classic Ciphers
+Bacon;;;;X;;;;Codings \ Bacon;9) Codings
+Barcode Generator;;;;X;;;;Codings \ Barcode Generator;9) Codings
+Beaufort;;;;X;;;;Ciphers \ Beaufort;1) Classic Ciphers
+Bifid;;;;X;;;;Ciphers \ Bifid;1) Classic Ciphers
+Code 39;;;;X;;;;Codings \ Code39;9) Codings
+Distributed AES Analysis;;;;X;;;;Cryptanalysis \ Distributed AES Analysis;7) Modern Cryptanalysis
+Enigma;;C;;X;;Classic Ciphers \ Enigma;;Ciphers \ Enigma;1) Classic Ciphers
+Four Square;;;;X;;;;Ciphers \ Four-Square;1) Classic Ciphers
+Freemason;;;;X;;;;Ciphers \ Freemason;1) Classic Ciphers
+Gronsfeld;;;;X;;;;Ciphers \ Gronsfeld;1) Classic Ciphers
+Huffman;;C;;X;;Tools \ Misc \ Huffman;;Codings \ Huffman;9) Codings
+Kamasutra;;;;X;;;;Ciphers \ Kamasutra;1) Classic Ciphers
+Larrabee;;;;X;;;;Ciphers \ Larrabee;1) Classic Ciphers
+Morse Code;;C;;X;;Tools \ Misc \ Morse Code;;Codings \ Morse code;9) Codings
+Navajo;;;;X;;;;Ciphers \ Navajo;1) Classic Ciphers
+Nihilist;;C;;X;;Classic Ciphers \ Nihilist;;Ciphers \ Nihilist;1) Classic Ciphers
+Password Generator;;;;X;;;;Highlights \ Password Generator;14) Tools
+Pollux;;;;X;;;;Ciphers \ Pollux;1) Classic Ciphers
+Polybius;;;;X;;;;Ciphers \ Polybius;1) Classic Ciphers
+Porta;;;;X;;;;Ciphers \ Porta;1) Classic Ciphers
+Rotation;;;;X;;;;Ciphers \ Rotation;1) Classic Ciphers
+Templar;;;;X;;;;Ciphers \ Templar;1) Classic Ciphers
+Trithemius;;;;X;;;;Ciphers \ Trithemius;1) Classic Ciphers
+A5;;C;;;;Modern Ciphers \ Symmetric \ A5;;;0) Unassigned category
+A5 Attack;;C;;;;Cryptanalysis \ Specific \ A5 Attack;;;0) Unassigned category
+Achterbahn;;C;;;;Modern Ciphers \ Symmetric \ Achterbahn;;;0) Unassigned category
+ADFGVX Analyzer;;C;;;;Cryptanalysis \ Generic \ ADFGVX Analyzer;;;0) Unassigned category
+Alg. attack: Compute XZ;;C;;;;Cryptanalysis \ Specific \ Alg. attack: Compute XZ;;;0) Unassigned category
+Alg. attack: System of equations;;C;;;;Cryptanalysis \ Specific \ Alg. attack: System of equations;;;0) Unassigned category
+Alg.Attack: Compute annihilators;;C;;;;Cryptanalysis \ Specific \ Alg.Attack: Compute annihilators;;;0) Unassigned category
+Alphabet Permutator;;C;;;;Tools \ Data flow \ Alphabet Permutator;;;0) Unassigned category
+Alphabets;;C;;;;Tools \ Data input \ output \ Alphabets;;;0) Unassigned category
+Array Indexer;;C;;;;Tools \ Data flow \ Array Indexer;;;0) Unassigned category
+Attack on PKCS#1;;N;;;;Crypto tutorials \ Attack on PKCS#1;;;0) Unassigned category
+Attacks on the WEP protocol;;C;;;;Protocols \ Attacks on the WEP protocol;;;0) Unassigned category
+Audio Input;;C;;;;Tools \ Data input \ output \ Audio Input;;;0) Unassigned category
+Audio Output;;C;;;;Tools \ Data input \ output \ Audio Output;;;0) Unassigned category
+Avalanche Visualization;;C;;;;Tools \ Misc \ Avalanche Visualization;;;0) Unassigned category
+BB84 Error Detector;;C;;;;Protocols \ BB84 Error Detector;;;0) Unassigned category
+BB84 Key Generator;;C;;;;Protocols \ BB84 Key Generator;;;0) Unassigned category
+BB84 Man in the Middle;;C;;;;Protocols \ BB84 Man in the Middle;;;0) Unassigned category
+BB84 Photon Decoder;;C;;;;Protocols \ BB84 Photon Decoder;;;0) Unassigned category
+BB84 Photon Encoder;;C;;;;Protocols \ BB84 Photon Encoder;;;0) Unassigned category
+BB84 Photonbase Generator;;C;;;;Protocols \ BB84 Photonbase Generator;;;0) Unassigned category
+Berlekamp-Massey Algorithm;;C;;;;Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm;;;0) Unassigned category
+Bitcoin Block Downloader;;C;;;;Protocols \ Bitcoin Block Downloader;;;0) Unassigned category
+Bitcoin Block Viewer;;C;;;;Protocols \ Bitcoin Block Viewer;;;0) Unassigned category
+Bitcoin Transaction Downloader;;C;;;;Protocols \ Bitcoin Transaction Downloader;;;0) Unassigned category
+Bitcoin Transaction Viewer;;C;;;;Protocols \ Bitcoin Transaction Viewer;;;0) Unassigned category
+BLAKE;;C;;;;Hash functions \ BLAKE;;;0) Unassigned category
+Blind Signature Generator;;C;;;;Modern Ciphers \ Asymmetric \ Blind Signature Generator;;;0) Unassigned category
+Blind Signature Verifier;;C;;;;Modern Ciphers \ Asymmetric \ Blind Signature Verifier;;;0) Unassigned category
+Blockmode Visualizer;;C;;;;Tools \ Misc \ Blockmode Visualizer;;;0) Unassigned category
+Boolean Binary Operator;;C;;;;Tools \ Boolean \ Boolean Binary Operator;;;0) Unassigned category
+Boolean Function Parser;;C;;;;Tools \ Boolean \ Boolean Function Parser;;;0) Unassigned category
+Boolean If-Else Operator;;C;;;;Tools \ Boolean \ Boolean If-Else Operator;;;0) Unassigned category
+Boolean Input;;C;;;;Tools \ Boolean \ Boolean Input;;;0) Unassigned category
+Boolean Not Operator;;C;;;;Tools \ Boolean \ Boolean Not Operator;;;0) Unassigned category
+Boolean Output;;C;;;;Tools \ Boolean \ Boolean Output;;;0) Unassigned category
+Brute-force;;W;;;;Cryptanalysis \ Classic Encryption \ Transposition \ Brute-force;;;0) Unassigned category
+Caesar Analyzer;;C;;;;Cryptanalysis \ Specific \ Caesar Analyzer;;;0) Unassigned category
+Camellia;;C;;;;Modern Ciphers \ Symmetric \ Camellia;;;0) Unassigned category
+Camera;;C;;;;Tools \ Misc \ Camera;;;0) Unassigned category
+Ciphertext-only;;W;;;;Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Ciphertext-only;;;0) Unassigned category
+Clipboard Input;;C;;;;Tools \ Data input \ output \ Clipboard Input;;;0) Unassigned category
+Clipboard Output;;C;;;;Tools \ Data input \ output \ Clipboard Output;;;0) Unassigned category
+Clock;;C;;;;Tools \ Data flow \ Clock;;;0) Unassigned category
+Cloud Test Component;;C;;;;Tools \ Misc \ Cloud Test Component;;;0) Unassigned category
+Coin Flipping;;C;;;;Protocols \ Coin Flipping;;;0) Unassigned category
+Collector;;C;;;;Tools \ Data flow \ Collector;;;0) Unassigned category
+Comparators;;C;;;;Tools \ Misc \ Comparators;;;0) Unassigned category
+Concatenate;;C;;;;Tools \ Misc \ Concatenate;;;0) Unassigned category
+Contains;;C;;;;Cryptanalysis \ Generic \ Contains;;;0) Unassigned category
+Converter;;C;;;;Tools \ Misc \ Converter;;;0) Unassigned category
+Cost Function;;C;;;;Cryptanalysis \ Generic \ Cost Function;;;0) Unassigned category
+Cramer-Shoup;;C;;;;Modern Ciphers \ Asymmetric \ Cramer-Shoup;;;0) Unassigned category
+Cramer-Shoup Key Generator;;C;;;;Modern Ciphers \ Asymmetric \ Cramer-Shoup Key Generator;;;0) Unassigned category
+CRC;;C;;;;Hash functions \ CRC;;;0) Unassigned category
+Create visual code;;W;;;;Codes \ Create visual code;;;0) Unassigned category
+Crib;;W;;;;Cryptanalysis \ Classic Encryption \ Transposition \ Crib;;;0) Unassigned category
+CryptAnalysisEvaluator;;C;;;;Cryptanalysis \ Generic \ CryptAnalysisEvaluator;;;0) Unassigned category
+Cryptanalytic Process Executor;;C;;;;Tools \ Misc \ Cryptanalytic Process Executor;;;0) Unassigned category
+CSVReader;;C;;;;Tools \ Data flow \ CSVReader;;;0) Unassigned category
+Cube Attack;;C;;;;Cryptanalysis \ Specific \ Cube Attack;;;0) Unassigned category
+Cylinder Cipher;;C;;;;Classic Ciphers \ Cylinder Cipher;;;0) Unassigned category
+CypherMatrix;;C;;;;Tools \ Misc \ CypherMatrix;;;0) Unassigned category
+CypherMatrix Hash;;C;;;;Tools \ Misc \ CypherMatrix Hash;;;0) Unassigned category
+DCA KeyRecovery;;C;;;;Cryptanalysis \ Specific \ DCA KeyRecovery;;;0) Unassigned category
+DCA Oracle;;C;;;;Cryptanalysis \ Specific \ DCA Oracle;;;0) Unassigned category
+DCA PathFinder;;C;;;;Cryptanalysis \ Specific \ DCA PathFinder;;;0) Unassigned category
+DCA PathVisualiser;;C;;;;Cryptanalysis \ Specific \ DCA PathVisualiser;;;0) Unassigned category
+DCA ToyCipher;;C;;;;Cryptanalysis \ Specific \ DCA ToyCipher;;;0) Unassigned category
+Decimalization;;C;;;;Tools \ Misc \ Decimalization;;;0) Unassigned category
+DECODE Downloader;;C;;;;Tools \ Data input \ output \ DECODE Downloader;;;0) Unassigned category
+DECODE Viewer;;C;;;;Tools \ Data input \ output \ DECODE Viewer;;;0) Unassigned category
+Decode visual code;;W;;;;Codes \ Decode visual code;;;0) Unassigned category
+DECODEClustererCaption;;C;;;;Tools \ Misc \ DECODEClustererCaption;;;0) Unassigned category
+DECODEDeciphererCaption;;C;;;;Tools \ Data input \ output \ DECODEDeciphererCaption;;;0) Unassigned category
+DecodeParserTesterCaption;;C;;;;Tools \ Data input \ output \ DecodeParserTesterCaption;;;0) Unassigned category
+DESVisualization;;C;;;;Modern Ciphers \ Symmetric \ DESVisualization;;;0) Unassigned category
+DGK;;C;;;;Modern Ciphers \ Asymmetric \ DGK;;;0) Unassigned category
+DGK Key Generator;;C;;;;Modern Ciphers \ Asymmetric \ DGK Key Generator;;;0) Unassigned category
+Dictionary;;C;;;;Tools \ Data input \ output \ Dictionary;;;0) Unassigned category
+Discrete Logarithm;;C;;;;Cryptanalysis \ Generic \ Discrete Logarithm;;;0) Unassigned category
+Distribution of primes;;N;;;;Crypto tutorials \ World of Primes \ Distribution of primes \ Number line;;;0) Unassigned category
+Encoding;;W;;;;Codes \ Encoding;;;0) Unassigned category
+Encrypt with password;;W;;;;Tools \ Encrypt with password;;;0) Unassigned category
+Enigma Analyzer;;C;;;;Cryptanalysis \ Specific \ Enigma Analyzer;;;0) Unassigned category
+EvaluationContainerInput;;C;;;;Cryptanalysis \ Generic \ EvaluationContainerInput;;;0) Unassigned category
+Example Plugin;;C;;;;Tools \ Misc \ Example Plugin;;;0) Unassigned category
+Factorization of a number;;N;;;;Crypto tutorials \ World of Primes \ Factorization \ Brute-force;;;0) Unassigned category
+Factorizer;;C;;;;Cryptanalysis \ Generic \ Factorizer;;;0) Unassigned category
+FEAL;;C;;;;Modern Ciphers \ Symmetric \ FEAL;;;0) Unassigned category
+Feistel Cipher;;C;;;;Modern Ciphers \ Symmetric \ Feistel Cipher;;;0) Unassigned category
+Fialka;;C;;;;Classic Ciphers \ Fialka;;;0) Unassigned category
+File Input;;C;;;;Tools \ Data input \ output \ File Input;;;0) Unassigned category
+File Output;;C;;;;Tools \ Data input \ output \ File Output;;;0) Unassigned category
+Format Preserving Encryption (FPE);;C;;;;Modern Ciphers \ Symmetric \ Format Preserving Encryption (FPE);;;0) Unassigned category
+Friedman Test;;C;;;;Cryptanalysis \ Generic \ Friedman Test;;;0) Unassigned category
+Gate;;C;;;;Tools \ Data flow \ Gate;;;0) Unassigned category
+General Number Field Sieve;;C;;;;Cryptanalysis \ Generic \ General Number Field Sieve;;;0) Unassigned category
+Generation of primes;;N;;;;Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes;;;0) Unassigned category
+Genetic;;W;;;;Cryptanalysis \ Classic Encryption \ Transposition \ Genetic;;;0) Unassigned category
+Grain v1;;C;;;;Modern Ciphers \ Symmetric \ Grain v1;;;0) Unassigned category
+Grain V1 Attack;;C;;;;Cryptanalysis \ Specific \ Grain V1 Attack;;;0) Unassigned category
+GrainV0;;C;;;;Modern Ciphers \ Symmetric \ GrainV0;;;0) Unassigned category
+GrainV0 Attack;;C;;;;Cryptanalysis \ Specific \ GrainV0 Attack;;;0) Unassigned category
+Gr?stl;;C;;;;Hash functions \ Gr?stl;;;0) Unassigned category
+HammingDistance;;C;;;;Tools \ Misc \ HammingDistance;;;0) Unassigned category
+HC128;;C;;;;Modern Ciphers \ Symmetric \ HC128;;;0) Unassigned category
+Heartbleed analysis;;W;;;;Tools \ Heartbleed analysis;;;0) Unassigned category
+HIGHT;;C;;;;Modern Ciphers \ Symmetric \ HIGHT;;;0) Unassigned category
+Hill Cipher;;C;;;;Classic Ciphers \ Hill Cipher;;;0) Unassigned category
+HKDF SHA-256;;C;;;;Hash functions \ HKDF SHA-256;;;0) Unassigned category
+HMAC;;C;;;;Protocols \ HMAC;;;0) Unassigned category
+Homophonic Substitution Analyzer;;C;;;;Cryptanalysis \ Specific \ Homophonic Substitution Analyzer;;;0) Unassigned category
+IDP Analyzer;;C;;;;Cryptanalysis \ Specific \ IDP Analyzer;;;0) Unassigned category
+ImageHash;;C;;;;Hash functions \ ImageHash;;;0) Unassigned category
+ImageProcessor;;C;;;;Tools \ Misc \ ImageProcessor;;;0) Unassigned category
+Inc Dec;;C;;;;Tools \ Misc \ Inc Dec;;;0) Unassigned category
+Insertion Steganography;;C;;;;Steganography \ Insertion Steganography;;;0) Unassigned category
+IP Frame Generator;;C;;;;Tools \ Data input \ output \ IP Frame Generator;;;0) Unassigned category
+ISAP Bit Commitment Scheme;;C;;;;Protocols \ ISAP Bit Commitment Scheme;;;0) Unassigned category
+Kasiski's Test;;C;;;;Cryptanalysis \ Generic \ Kasiski's Test;;;0) Unassigned category
+Keccak;;C;;;;Hash functions \ Keccak;;;0) Unassigned category
+KeySearcher;;C;;;;Cryptanalysis \ Specific \ KeySearcher;;;0) Unassigned category
+KKDF SHA-256;;C;;;;Hash functions \ KKDF SHA-256;;;0) Unassigned category
+KKDF SHAKE256;;C;;;;Hash functions \ KKDF SHAKE256;;;0) Unassigned category
+Known plaintext;;W;;;;Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Known plaintext;;;0) Unassigned category
+Lattice-based cryptanalysis;;N;;;;Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ Merkle-Hellman Knapsack;;;0) Unassigned category
+Lattice-based cryptography;;N;;;;Crypto tutorials \ Lattice-based cryptography;;;0) Unassigned category
+Lattice-based problems;;N;;;;Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm;;;0) Unassigned category
+Length;;C;;;;Tools \ Misc \ Length;;;0) Unassigned category
+LFSR;;C;;;;Tools \ Misc \ LFSR;;;0) Unassigned category
+Lorenz SZ42;;C;;;;Classic Ciphers \ Lorenz SZ42;;;0) Unassigned category
+LSB Steganography;;C;;;;Steganography \ LSB Steganography;;;0) Unassigned category
+M-138;;C;;;;Classic Ciphers \ M-138;;;0) Unassigned category
+M-138 Analyzer;;C;;;;Cryptanalysis \ Specific \ M-138 Analyzer;;;0) Unassigned category
+M209;;C;;;;Classic Ciphers \ M209;;;0) Unassigned category
+ManInTheMiddle;;C;;;;Protocols \ ManInTheMiddle;;;0) Unassigned category
+MD5 Collider;;C;;;;Hash functions \ MD5 Collider;;;0) Unassigned category
+Mickey 2;;C;;;;Modern Ciphers \ Symmetric \ Mickey 2;;;0) Unassigned category
+MiniTreyfer;;C;;;;Modern Ciphers \ Symmetric \ MiniTreyfer;;;0) Unassigned category
+Monoalphabetic Substitution;;W;;;;Cryptanalysis \ Classic Encryption \ Monoalphabetic Substitution;;;0) Unassigned category
+Monoalphabetic Substitution Analyzer;;C;;;;Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer;;;0) Unassigned category
+Morse code;;W;;;;Codes \ Morse code;;;0) Unassigned category
+Network Capture;;C;;;;Tools \ Data input \ output \ Network Capture;;;0) Unassigned category
+Network Receiver;;C;;;;Tools \ Data input \ output \ Network Receiver;;;0) Unassigned category
+Network Sender;;C;;;;Tools \ Data input \ output \ Network Sender;;;0) Unassigned category
+NFS Factorizer;;C;;;;Cryptanalysis \ Generic \ NFS Factorizer;;;0) Unassigned category
+NLFSR;;C;;;;Protocols \ NLFSR;;;0) Unassigned category
+Number Input;;C;;;;Tools \ Data input \ output \ Number Input;;;0) Unassigned category
+Number Operation;;C;;;;Tools \ Misc \ Number Operation;;;0) Unassigned category
+Number theory;;N;;;;Crypto tutorials \ World of Primes \ Number theory \ Powering;;;0) Unassigned category
+Oblivious Transfer 1;;C;;;;Protocols \ Oblivious Transfer 1;;;0) Unassigned category
+Oblivious Transfer 2;;C;;;;Protocols \ Oblivious Transfer 2;;;0) Unassigned category
+Padding Oracle;;C;;;;Tools \ Misc \ Padding Oracle;;;0) Unassigned category
+Padding Oracle Attack;;C;;;;Tools \ Misc \ Padding Oracle Attack;;;0) Unassigned category
+Paillier;;C;;;;Modern Ciphers \ Asymmetric \ Paillier;;;0) Unassigned category
+Paillier Key Generator;;C;;;;Modern Ciphers \ Asymmetric \ Paillier Key Generator;;;0) Unassigned category
+Password Strength;;W;;;;Tools \ Password Strength;;;0) Unassigned category
+PasswordStrength;;C;;;;Tools \ Misc \ PasswordStrength;;;0) Unassigned category
+Permutation Steganography;;C;;;;Steganography \ Permutation Steganography;;;0) Unassigned category
+Picture Output;;C;;;;Tools \ Data input \ output \ Picture Output;;;0) Unassigned category
+PKCS#5;;C;;;;Hash functions \ PKCS#5;;;0) Unassigned category
+Playfair Analyzer;;C;;;;Cryptanalysis \ Specific \ Playfair Analyzer;;;0) Unassigned category
+PRESENT;;C;;;;Modern Ciphers \ Symmetric \ PRESENT;;;0) Unassigned category
+Primality test;;N;;;;Crypto tutorials \ World of Primes \ Primality test \ Sieve of Eratosthenes;;;0) Unassigned category
+Prime Factorization;;W;;;;Mathematical Functions \ Prime Factorization;;;0) Unassigned category
+Prime Generator;;C;;;;Tools \ Data input \ output \ Prime Generator;;;0) Unassigned category
+Prime Number Generation;;W;;;;Mathematical Functions \ Prime Operations \ Prime Number Generation;;;0) Unassigned category
+Prime Test;;C;;;;Cryptanalysis \ Generic \ Prime Test;;;0) Unassigned category
+Progress;;C;;;;Tools \ Misc \ Progress;;;0) Unassigned category
+Purple;;C;;;;Classic Ciphers \ Purple;;;0) Unassigned category
+Quadratic Sieve;;C;;;;Cryptanalysis \ Generic \ Quadratic Sieve;;;0) Unassigned category
+Rabbit;;C;;;;Modern Ciphers \ Symmetric \ Rabbit;;;0) Unassigned category
+Random Number Generator;;C;;;;Tools \ Misc \ Random Number Generator;;;0) Unassigned category
+Random numbers;;W;;;;Tools \ Random numbers;;;0) Unassigned category
+Regular Expression Match;;C;;;;Tools \ Data flow \ Regular Expression Match;;;0) Unassigned category
+Regular Expression Replace;;C;;;;Tools \ Data flow \ Regular Expression Replace;;;0) Unassigned category
+RIPEMD160;;C;;;;Hash functions \ RIPEMD160;;;0) Unassigned category
+RSA Decryption;;W;;;;Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Decryption;;;0) Unassigned category
+RSA Encryption;;W;;;;Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Encryption;;;0) Unassigned category
+RSA Key Generator;;C;;;;Modern Ciphers \ Asymmetric \ RSA Key Generator;;;0) Unassigned category
+Salsa20;;C;;;;Modern Ciphers \ Symmetric \ Salsa20;;;0) Unassigned category
+SAT Solver;;C;;;;Tools \ Misc \ SAT Solver;;;0) Unassigned category
+SDES;;C;;;;Modern Ciphers \ Symmetric \ SDES;;;0) Unassigned category
+Serializer;;C;;;;Tools \ Data flow \ Serializer;;;0) Unassigned category
+SHA;;C;;;;Hash functions \ SHA;;;0) Unassigned category
+SHA-384;;C;;;;Hash functions \ SHA;;;0) Unassigned category
+Sigaba;;C;;;;Tools \ Misc \ Sigaba;;;0) Unassigned category
+SIGABA Known Plaintext;;C;;;;Tools \ Misc \ SIGABA Known Plaintext;;;0) Unassigned category
+SigabaBruteforce;;C;;;;Tools \ Misc \ SigabaBruteforce;;;0) Unassigned category
+Slide Attack on Feistel Cipher;;C;;;;Cryptanalysis \ Specific \ Slide Attack on Feistel Cipher;;;0) Unassigned category
+Slide Attack on TREYFER;;C;;;;Modern Ciphers \ Symmetric \ Slide Attack on TREYFER;;;0) Unassigned category
+Smartcard;;C;;;;Protocols \ Smartcard;;;0) Unassigned category
+Smartcard Interpreter;;C;;;;Protocols \ Smartcard Interpreter;;;0) Unassigned category
+SoapMessage;;C;;;;Protocols \ SoapMessage;;;0) Unassigned category
+Solitaire Analyzer;;C;;;;Cryptanalysis \ Specific \ Solitaire Analyzer;;;0) Unassigned category
+Sosemanuk;;C;;;;Modern Ciphers \ Symmetric \ Sosemanuk;;;0) Unassigned category
+Spanish Strip Cipher;;C;;;;Classic Ciphers \ Spanish Strip Cipher;;;0) Unassigned category
+Spanish Strip Cipher Analyzer;;C;;;;Cryptanalysis \ Specific \ Spanish Strip Cipher Analyzer;;;0) Unassigned category
+Splitter;;C;;;;Tools \ Data flow \ Splitter;;;0) Unassigned category
+Stream Comparator;;C;;;;Tools \ Misc \ Stream Comparator;;;0) Unassigned category
+StreamSplitter;;C;;;;Tools \ Misc \ StreamSplitter;;;0) Unassigned category
+String Decoder;;C;;;;Tools \ Misc \ String Decoder;;;0) Unassigned category
+String Encoder;;C;;;;Tools \ Misc \ String Encoder;;;0) Unassigned category
+String Operations;;C;;;;Tools \ Misc \ String Operations;;;0) Unassigned category
+T-310;;C;;;;Classic Ciphers \ T-310;;;0) Unassigned category
+T-316;;C;;;;Classic Ciphers \ T-316;;;0) Unassigned category
+TEA;;C;;;;Modern Ciphers \ Symmetric \ TEA;;;0) Unassigned category
+TestVectorGenerator;;C;;;;Cryptanalysis \ Generic \ TestVectorGenerator;;;0) Unassigned category
+Text Input;;C;;;;Tools \ Data input \ output \ Text Input;;;0) Unassigned category
+Text Output;;C;;;;Tools \ Data input \ output \ Text Output;;;0) Unassigned category
+Tiger;;C;;;;Hash functions \ Tiger;;;0) Unassigned category
+Transcriptor;;C;;;;Cryptanalysis \ Generic \ Transcriptor;;;0) Unassigned category
+Transposition;;C;;;;Classic Ciphers \ Transposition;;;0) Unassigned category
+Transposition Analyzer;;C;;;;Cryptanalysis \ Specific \ Transposition Analyzer;;;0) Unassigned category
+TREYFER;;C;;;;Modern Ciphers \ Symmetric \ TREYFER;;;0) Unassigned category
+Trivium;;C;;;;Modern Ciphers \ Symmetric \ Trivium;;;0) Unassigned category
+UserCode;;C;;;;Tools \ Data flow \ UserCode;;;0) Unassigned category
+Variable Load;;C;;;;Tools \ Data flow \ Variable Load;;;0) Unassigned category
+Variable Store;;C;;;;Tools \ Data flow \ Variable Store;;;0) Unassigned category
+Vigen?re;;C;;;;Classic Ciphers \ Vigen?re;;;0) Unassigned category
+Vigen?re Analyzer;;C;;;;Cryptanalysis \ Specific \ Vigen?re Analyzer;;;0) Unassigned category
+Visual Decoder;;C;;;;Tools \ Misc \ Visual Decoder;;;0) Unassigned category
+Visual Encoder;;C;;;;Tools \ Misc \ Visual Encoder;;;0) Unassigned category
+Watermark Creator;;C;;;;Steganography \ Watermark Creator;;;0) Unassigned category
+WebHits;;C;;;;Tools \ Misc \ WebHits;;;0) Unassigned category
+WebService;;C;;;;Protocols \ WebService;;;0) Unassigned category
+WEP protocol;;C;;;;Protocols \ WEP protocol;;;0) Unassigned category
+Whirlpool;;C;;;;Hash functions \ Whirlpool;;;0) Unassigned category
+Word Patterns;;C;;;;Cryptanalysis \ Generic \ Word Patterns;;;0) Unassigned category
+World of Primes;;N;;;;Crypto tutorials \ World of Primes;;;0) Unassigned category
+Yao 1;;C;;;;Protocols \ Yao 1;;;0) Unassigned category
+Yao 2;;C;;;;Protocols \ Yao 2;;;0) Unassigned category
+Yao 3;;C;;;;Protocols \ Yao 3;;;0) Unassigned category
+Zero Knowledge Prover;;C;;;;Protocols \ Zero Knowledge Prover;;;0) Unassigned category
+Zero Knowledge Verifier;;C;;;;Protocols \ Zero Knowledge Verifier;;;0) Unassigned category

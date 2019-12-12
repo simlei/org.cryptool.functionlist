@@ -1,6 +1,22 @@
 # Paths are relative to the workspace, if they begin with "./"
 # Under Windows, paths with forward slashes ("/") are valid.
 
+defaultsteps:
+  - CT2scsv_ct2_en
+  # - CT2scsv_ct2_de
+  # - CT2scsv_jct_en
+  # - CT2scsv_jct_de
+  - categories_ct2_en
+  # - categories_ct2_de
+  # - categories_jct_en
+  # - categories_jct_de
+  - merge_en
+  # - merge_de
+  - tofinalform_en
+  # - tofinalform_de
+  - tohtml_en
+  # - tohtml_de
+
 step.CT2scsv_ct2_en:
   id_reference: ./data/en/scsv_generated/ct2.csv
   input       : ./data/en/scsv_generated/ct2.csv
@@ -25,30 +41,32 @@ step.CT2scsv_jct_de:
 step.categories_ct2_en:
   input  : ./scsv_ct2_nocat_en.csv
   catfile: ./categories_ct2_en.csv
+  feedbackfile: ./categories_interaction_required.csv
   output : ./scsv_ct2_en.csv
 
 step.categories_ct2_de:
   input  : ./scsv_ct2_nocat_de.csv
   catfile: ./categories_ct2_de.csv
+  feedbackfile: ./categories_interaction_required.csv
   output : ./scsv_ct2_de.csv
 
 step.categories_jct_en:
   input  : ./scsv_jct_nocat_en.csv
   catfile: ./categories_jct_en.csv
+  feedbackfile: ./categories_interaction_required.csv
   output : ./scsv_jct_en.csv
 
 step.categories_jct_de:
   input: ./scsv_jct_nocat_de.csv
   catfile: ./categories_jct_de.csv
+  feedbackfile: ./categories_interaction_required.csv
   output: ./scsv_jct_de.csv
 
 step.merge_en:
   input: 
     - ./data/en/scsv_webdump/ct1.csv
     - ./data/en/scsv_webdump/cto.csv
-    - ./data/en/scsv_webdump/ct2.csv
-    - ./data/en/scsv_webdump/jct.csv
-    # - ./scsv_ct2_en.csv
+    - ./scsv_ct2_en.csv
     # - ./scsv_jct_en.csv
   output: ./all_merged_en.csv
 
@@ -62,11 +80,11 @@ step.merge_de:
 
 step.tofinalform_en:
   input: ./all_merged_en.csv
-  output: all_final_en.csv
+  output: ./all_final_en.csv
 
 step.tofinalform_de:
   input: ./all_merged_de.csv
-  output: all_final_de.csv
+  output: ./all_final_de.csv
 
 step.tohtml_en:
   template_html: ./data/en/html_template

@@ -236,7 +236,6 @@ class Prog(ABC):
         self.context.names["prog.logger"] = logging.getLogger("Prog::Default")
 
         self.context.make_implicit("prog.logger")
-        self.context.make_implicit("prog.logger")
 
     @property
     def logger(self) -> logging.Logger:
@@ -300,6 +299,12 @@ def _get_context_from_obj(o, name):
     else:
         return None
 
+
+def implicitly_or(key, default=None):
+    try:
+        return implicitly(key)
+    except:
+        return default
 
 def implicitly(key):
     current_frame = None

@@ -1,0 +1,265 @@
+<>;
+<>*added 12/12/2019 18:38:12*;
+<>;
+CT2:dynamic:4af5fc3a;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ DES
+CT2:dynamic:4261f5dc;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ A5
+CT2:dynamic:ae043020;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ A5 Attack
+CT2:dynamic:70430969;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Achterbahn
+CT2:dynamic:78dd1227;<enter category here>;CT2:C \ Classic Ciphers \ ADFGVX
+CT2:dynamic:4abe0dbb;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ ADFGVX Analyzer
+CT2:dynamic:ed3d8fb4;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ AES
+CT2:dynamic:5b5522c2;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
+CT2:dynamic:d626fc04;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Alg. attack: Compute XZ
+CT2:dynamic:df941c52;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Alg. attack: System of equations
+CT2:dynamic:ac7a6e9c;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Alg.Attack: Compute annihilators
+CT2:dynamic:84d875b8;<enter category here>;CT2:C \ Tools \ Data flow \ Alphabet Permutator
+CT2:dynamic:2c09e4b9;<enter category here>;CT2:C \ Tools \ Data input \ output \ Alphabets
+CT2:dynamic:83ed5c07;<enter category here>;CT2:C \ Tools \ Data flow \ Array Indexer
+CT2:dynamic:b4e7d796;<enter category here>;CT2:N \ Crypto tutorials \ Attack on PKCS#1
+CT2:dynamic:a4eda42f;<enter category here>;CT2:C \ Protocols \ Attacks on the WEP protocol
+CT2:dynamic:76742593;<enter category here>;CT2:C \ Tools \ Data input \ output \ Audio Input
+CT2:dynamic:edb18a0c;<enter category here>;CT2:C \ Tools \ Data input \ output \ Audio Output
+CT2:dynamic:668a651e;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Autocorrelation
+CT2:dynamic:3a25e43b;<enter category here>;CT2:C \ Tools \ Misc \ Avalanche Visualization
+CT2:dynamic:8d15c892;<enter category here>;CT2:C \ Protocols \ BB84 Error Detector
+CT2:dynamic:1257c8dd;<enter category here>;CT2:C \ Protocols \ BB84 Key Generator
+CT2:dynamic:4047e5f4;<enter category here>;CT2:C \ Protocols \ BB84 Man in the Middle
+CT2:dynamic:07ff9751;<enter category here>;CT2:C \ Protocols \ BB84 Photon Decoder
+CT2:dynamic:4a8edf0e;<enter category here>;CT2:C \ Protocols \ BB84 Photon Encoder
+CT2:dynamic:e3d1d6f9;<enter category here>;CT2:C \ Protocols \ BB84 Photonbase Generator
+CT2:dynamic:30b94932;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm
+CT2:dynamic:bf112385;<enter category here>;CT2:C \ Protocols \ Bitcoin Block Downloader
+CT2:dynamic:edbefef9;<enter category here>;CT2:C \ Protocols \ Bitcoin Block Viewer
+CT2:dynamic:432db7ad;<enter category here>;CT2:C \ Protocols \ Bitcoin Transaction Downloader
+CT2:dynamic:9387018e;<enter category here>;CT2:C \ Protocols \ Bitcoin Transaction Viewer
+CT2:dynamic:b908c2d6;<enter category here>;CT2:C \ Hash functions \ BLAKE
+CT2:dynamic:4bd918fd;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ Blind Signature Generator
+CT2:dynamic:131db979;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ Blind Signature Verifier
+CT2:dynamic:5c21b941;<enter category here>;CT2:C \ Tools \ Misc \ Blockmode Visualizer
+CT2:dynamic:c9261726;<enter category here>;CT2:C \ Tools \ Boolean \ Boolean Binary Operator
+CT2:dynamic:ca600068;<enter category here>;CT2:C \ Tools \ Boolean \ Boolean Function Parser
+CT2:dynamic:645fcb83;<enter category here>;CT2:C \ Tools \ Boolean \ Boolean If-Else Operator
+CT2:dynamic:3dc25f7e;<enter category here>;CT2:C \ Tools \ Boolean \ Boolean Input
+CT2:dynamic:2c949846;<enter category here>;CT2:C \ Tools \ Boolean \ Boolean Not Operator
+CT2:dynamic:c152bf5c;<enter category here>;CT2:C \ Tools \ Boolean \ Boolean Output
+CT2:dynamic:ea0fd323;<enter category here>;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Brute-force
+CT2:dynamic:e1157b1d;<enter category here>;CT2:C \ Classic Ciphers \ Caesar
+CT2:dynamic:76a994b5;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Caesar Analyzer
+CT2:dynamic:acfe9015;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Camellia
+CT2:dynamic:fdca05c1;<enter category here>;CT2:C \ Tools \ Misc \ Camera
+CT2:dynamic:843f8c16;<enter category here>;CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Ciphertext-only
+CT2:dynamic:f06fa1b9;<enter category here>;CT2:C \ Tools \ Data input \ output \ Clipboard Input
+CT2:dynamic:90148fde;<enter category here>;CT2:C \ Tools \ Data input \ output \ Clipboard Output
+CT2:dynamic:3c844cd5;<enter category here>;CT2:C \ Tools \ Data flow \ Clock
+CT2:dynamic:013cb103;<enter category here>;CT2:C \ Tools \ Misc \ Cloud Test Component
+CT2:dynamic:aedf4b8f;<enter category here>;CT2:C \ Protocols \ Coin Flipping
+CT2:dynamic:74af21a1;<enter category here>;CT2:C \ Tools \ Data flow \ Collector
+CT2:dynamic:91cc7697;<enter category here>;CT2:C \ Tools \ Misc \ Comparators
+CT2:dynamic:22205eb8;<enter category here>;CT2:C \ Tools \ Misc \ Concatenate
+CT2:dynamic:2b1bcf0d;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Contains
+CT2:dynamic:1fb6b08a;<enter category here>;CT2:C \ Tools \ Misc \ Converter
+CT2:dynamic:cbe6e870;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Cost Function
+CT2:dynamic:6abc716d;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup
+CT2:dynamic:13810a53;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup Key Generator
+CT2:dynamic:1f0d7f14;<enter category here>;CT2:C \ Hash functions \ CRC
+CT2:dynamic:0bccec06;<enter category here>;CT2:W \ Codes \ Create visual code
+CT2:dynamic:4eed328f;<enter category here>;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Crib
+CT2:dynamic:0b6872d9;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ CryptAnalysisEvaluator
+CT2:dynamic:87a2b1ee;<enter category here>;CT2:C \ Tools \ Misc \ Cryptanalytic Process Executor
+CT2:dynamic:59690d43;<enter category here>;CT2:C \ Tools \ Data flow \ CSVReader
+CT2:dynamic:d09cd03f;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Cube Attack
+CT2:dynamic:e1195843;<enter category here>;CT2:C \ Classic Ciphers \ Cylinder Cipher
+CT2:dynamic:352d546f;<enter category here>;CT2:C \ Tools \ Misc \ CypherMatrix
+CT2:dynamic:626c264c;<enter category here>;CT2:C \ Tools \ Misc \ CypherMatrix Hash
+CT2:dynamic:dc157c3c;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ DCA KeyRecovery
+CT2:dynamic:17a9170d;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ DCA Oracle
+CT2:dynamic:ca8b64e2;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ DCA PathFinder
+CT2:dynamic:f5c0e62b;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ DCA PathVisualiser
+CT2:dynamic:57018911;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ DCA ToyCipher
+CT2:dynamic:6b79a1fa;<enter category here>;CT2:C \ Tools \ Misc \ Decimalization
+CT2:dynamic:a78e5d68;<enter category here>;CT2:C \ Tools \ Data input \ output \ DECODE Downloader
+CT2:dynamic:3daa80e1;<enter category here>;CT2:C \ Tools \ Data input \ output \ DECODE Viewer
+CT2:dynamic:1f01c224;<enter category here>;CT2:W \ Codes \ Decode visual code
+CT2:dynamic:8094c025;<enter category here>;CT2:C \ Tools \ Misc \ DECODEClustererCaption
+CT2:dynamic:5c21fd72;<enter category here>;CT2:C \ Tools \ Data input \ output \ DECODEDeciphererCaption
+CT2:dynamic:8d30d2fc;<enter category here>;CT2:C \ Tools \ Data input \ output \ DecodeParserTesterCaption
+CT2:dynamic:ef9dd30f;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ DES
+CT2:dynamic:cd558702;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
+CT2:dynamic:e2750dff;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ DGK
+CT2:dynamic:45399f77;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
+CT2:dynamic:83abf978;<enter category here>;CT2:C \ Tools \ Data input \ output \ Dictionary
+CT2:dynamic:a1257b67;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Discrete Logarithm
+CT2:dynamic:e05ea6ad;<enter category here>;CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number line
+CT2:dynamic:c8f8b480;<enter category here>;CT2:W \ Codes \ Encoding
+CT2:dynamic:98611f34;<enter category here>;CT2:W \ Tools \ Encrypt with password
+CT2:dynamic:c62e55c4;<enter category here>;CT2:C \ Classic Ciphers \ Enigma
+CT2:dynamic:33bfb66e;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Enigma Analyzer
+CT2:dynamic:0505f074;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ EvaluationContainerInput
+CT2:dynamic:efa8d44b;<enter category here>;CT2:C \ Tools \ Misc \ Example Plugin
+CT2:dynamic:cae298fa;<enter category here>;CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force
+CT2:dynamic:37ae13f4;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Factorizer
+CT2:dynamic:f891d708;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ FEAL
+CT2:dynamic:93c6259f;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Feistel Cipher
+CT2:dynamic:8574f91e;<enter category here>;CT2:C \ Classic Ciphers \ Fialka
+CT2:dynamic:4ea90dde;<enter category here>;CT2:C \ Tools \ Data input \ output \ File Input
+CT2:dynamic:ab186837;<enter category here>;CT2:C \ Tools \ Data input \ output \ File Output
+CT2:dynamic:846438a9;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Format Preserving Encryption (FPE)
+CT2:dynamic:bfdf9d34;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Frequency Test
+CT2:dynamic:afd29606;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Friedman Test
+CT2:dynamic:b54c007e;<enter category here>;CT2:C \ Tools \ Data flow \ Gate
+CT2:dynamic:b04581a2;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ General Number Field Sieve
+CT2:dynamic:cdcfed58;<enter category here>;CT2:N \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes
+CT2:dynamic:55083231;<enter category here>;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Genetic
+CT2:dynamic:d270be37;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Grain v1
+CT2:dynamic:02d2955a;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Grain V1 Attack
+CT2:dynamic:aae113db;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ GrainV0
+CT2:dynamic:8f51f9c1;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ GrainV0 Attack
+CT2:dynamic:07ff9f09;<enter category here>;CT2:C \ Hash functions \ Gr?stl
+CT2:dynamic:c4b08b4b;<enter category here>;CT2:C \ Tools \ Misc \ HammingDistance
+CT2:dynamic:da0590fb;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ HC128
+CT2:dynamic:b658c407;<enter category here>;CT2:W \ Tools \ Heartbleed analysis
+CT2:dynamic:61e10fa7;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ HIGHT
+CT2:dynamic:72ac66c3;<enter category here>;CT2:C \ Classic Ciphers \ Hill Cipher
+CT2:dynamic:8bfdff00;<enter category here>;CT2:C \ Hash functions \ HKDF SHA-256
+CT2:dynamic:fd5e682f;<enter category here>;CT2:C \ Protocols \ HMAC
+CT2:dynamic:a1ffd592;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Homophonic Substitution Analyzer
+CT2:dynamic:d6769cac;<enter category here>;CT2:C \ Tools \ Misc \ Huffman
+CT2:dynamic:18f8e15b;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ IDP Analyzer
+CT2:dynamic:56f52758;<enter category here>;CT2:C \ Hash functions \ ImageHash
+CT2:dynamic:4510a44d;<enter category here>;CT2:C \ Tools \ Misc \ ImageProcessor
+CT2:dynamic:18c5de5b;<enter category here>;CT2:C \ Tools \ Misc \ Inc Dec
+CT2:dynamic:d6234f8e;<enter category here>;CT2:C \ Steganography \ Insertion Steganography
+CT2:dynamic:e2e9854e;<enter category here>;CT2:C \ Tools \ Data input \ output \ IP Frame Generator
+CT2:dynamic:24289153;<enter category here>;CT2:C \ Protocols \ ISAP Bit Commitment Scheme
+CT2:dynamic:514eaa14;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Kasiski's Test
+CT2:dynamic:68b6130b;<enter category here>;CT2:C \ Hash functions \ Keccak
+CT2:dynamic:2216f3e2;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:dynamic:32ed815d;<enter category here>;CT2:C \ Hash functions \ KKDF SHA-256
+CT2:dynamic:20bb69d5;<enter category here>;CT2:C \ Hash functions \ KKDF SHAKE256
+CT2:dynamic:bc8a36d2;<enter category here>;CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Known plaintext
+CT2:dynamic:4dcd3b7c;<enter category here>;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ Merkle-Hellman Knapsack
+CT2:dynamic:d619a5bf;<enter category here>;CT2:N \ Crypto tutorials \ Lattice-based cryptography
+CT2:dynamic:89360db9;<enter category here>;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm
+CT2:dynamic:770aa96f;<enter category here>;CT2:C \ Tools \ Misc \ Length
+CT2:dynamic:4763e28d;<enter category here>;CT2:C \ Tools \ Misc \ LFSR
+CT2:dynamic:cba7ec68;<enter category here>;CT2:C \ Classic Ciphers \ Lorenz SZ42
+CT2:dynamic:46f19d5e;<enter category here>;CT2:C \ Steganography \ LSB Steganography
+CT2:dynamic:a11ff65c;<enter category here>;CT2:C \ Classic Ciphers \ M-138
+CT2:dynamic:58ac5854;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ M-138 Analyzer
+CT2:dynamic:e9f45fe4;<enter category here>;CT2:C \ Classic Ciphers \ M209
+CT2:dynamic:d8103283;<enter category here>;CT2:C \ Protocols \ ManInTheMiddle
+CT2:dynamic:48f81e51;<enter category here>;CT2:C \ Hash functions \ MD5
+CT2:dynamic:08ffcf17;<enter category here>;CT2:C \ Hash functions \ MD5 Collider
+CT2:dynamic:92a80a76;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Mickey 2
+CT2:dynamic:c8eba477;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ MiniTreyfer
+CT2:dynamic:9f8218d1;<enter category here>;CT2:W \ Cryptanalysis \ Classic Encryption \ Monoalphabetic Substitution
+CT2:dynamic:66a4073c;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer
+CT2:dynamic:6e3141a2;<enter category here>;CT2:W \ Codes \ Morse code
+CT2:dynamic:8fe14760;<enter category here>;CT2:C \ Tools \ Misc \ Morse Code
+CT2:dynamic:13a9ecc2;<enter category here>;CT2:C \ Tools \ Data input \ output \ Network Capture
+CT2:dynamic:4103946c;<enter category here>;CT2:C \ Tools \ Data input \ output \ Network Receiver
+CT2:dynamic:7372218c;<enter category here>;CT2:C \ Tools \ Data input \ output \ Network Sender
+CT2:dynamic:5b7b4677;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ NFS Factorizer
+CT2:dynamic:1abe2d15;<enter category here>;CT2:C \ Classic Ciphers \ Nihilist
+CT2:dynamic:465047f2;<enter category here>;CT2:C \ Protocols \ NLFSR
+CT2:dynamic:56557276;<enter category here>;CT2:C \ Tools \ Data input \ output \ Number Input
+CT2:dynamic:05de3c8e;<enter category here>;CT2:C \ Tools \ Misc \ Number Operation
+CT2:dynamic:7411f2b9;<enter category here>;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering
+CT2:dynamic:78868f72;<enter category here>;CT2:C \ Protocols \ Oblivious Transfer 1
+CT2:dynamic:804f1536;<enter category here>;CT2:C \ Protocols \ Oblivious Transfer 2
+CT2:dynamic:27d843c4;<enter category here>;CT2:C \ Tools \ Misc \ Padding Oracle
+CT2:dynamic:ded7caa4;<enter category here>;CT2:C \ Tools \ Misc \ Padding Oracle Attack
+CT2:dynamic:dba73410;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
+CT2:dynamic:a8cbf750;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier Key Generator
+CT2:dynamic:096f48f8;<enter category here>;CT2:W \ Tools \ Password Strength
+CT2:dynamic:ca8b749a;<enter category here>;CT2:C \ Tools \ Misc \ PasswordStrength
+CT2:dynamic:f2513145;<enter category here>;CT2:C \ Steganography \ Permutation Steganography
+CT2:dynamic:6de6f80c;<enter category here>;CT2:C \ Tools \ Data input \ output \ Picture Output
+CT2:dynamic:2cb712af;<enter category here>;CT2:C \ Hash functions \ PKCS#5
+CT2:dynamic:e21922f3;<enter category here>;CT2:C \ Classic Ciphers \ Playfair
+CT2:dynamic:4c7bb07d;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Playfair Analyzer
+CT2:dynamic:1e87e75a;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ PRESENT
+CT2:dynamic:c32dca37;<enter category here>;CT2:N \ Crypto tutorials \ World of Primes \ Primality test \ Sieve of Eratosthenes
+CT2:dynamic:dfa9682f;<enter category here>;CT2:W \ Mathematical Functions \ Prime Factorization
+CT2:dynamic:3e5005e5;<enter category here>;CT2:C \ Tools \ Data input \ output \ Prime Generator
+CT2:dynamic:b6a1573b;<enter category here>;CT2:W \ Mathematical Functions \ Prime Operations \ Prime Number Generation
+CT2:dynamic:903b9b54;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Prime Test
+CT2:dynamic:b9a3cf05;<enter category here>;CT2:C \ Tools \ Misc \ Progress
+CT2:dynamic:df715faa;<enter category here>;CT2:C \ Classic Ciphers \ Purple
+CT2:dynamic:26f2db79;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Quadratic Sieve
+CT2:dynamic:c525f20e;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Rabbit
+CT2:dynamic:9b7f17fd;<enter category here>;CT2:C \ Tools \ Misc \ Random Number Generator
+CT2:dynamic:ed87bbe0;<enter category here>;CT2:W \ Tools \ Random numbers
+CT2:dynamic:54489343;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ RC2
+CT2:dynamic:f973932b;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ RC4
+CT2:dynamic:829c664d;<enter category here>;CT2:C \ Tools \ Data flow \ Regular Expression Match
+CT2:dynamic:49ea7c36;<enter category here>;CT2:C \ Tools \ Data flow \ Regular Expression Replace
+CT2:dynamic:e365cb5b;<enter category here>;CT2:C \ Hash functions \ RIPEMD160
+CT2:dynamic:1ba6a2a9;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ RSA
+CT2:dynamic:d36044fc;<enter category here>;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Decryption
+CT2:dynamic:b261b9f9;<enter category here>;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Encryption
+CT2:dynamic:6a5c2c75;<enter category here>;CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
+CT2:dynamic:172bf705;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Salsa20
+CT2:dynamic:df7850e9;<enter category here>;CT2:C \ Tools \ Misc \ SAT Solver
+CT2:dynamic:d410449d;<enter category here>;CT2:C \ Classic Ciphers \ Scytale
+CT2:dynamic:b46dca99;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ SDES
+CT2:dynamic:40412b63;<enter category here>;CT2:C \ Tools \ Data flow \ Serializer
+CT2:dynamic:cbca2321;<enter category here>;CT2:C \ Hash functions \ SHA
+CT2:dynamic:d9bee3bb;<enter category here>;CT2:C \ Hash functions \ SHA
+CT2:dynamic:2a1d83ec;<enter category here>;CT2:C \ Hash functions \ SHA
+CT2:dynamic:7923fcc2;<enter category here>;CT2:C \ Hash functions \ SHA
+CT2:dynamic:5f25c15e;<enter category here>;CT2:C \ Hash functions \ SHA
+CT2:dynamic:1b1bda3f;<enter category here>;CT2:C \ Tools \ Misc \ Sigaba
+CT2:dynamic:fa8d9d4a;<enter category here>;CT2:C \ Tools \ Misc \ SIGABA Known Plaintext
+CT2:dynamic:c40affa8;<enter category here>;CT2:C \ Tools \ Misc \ SigabaBruteforce
+CT2:dynamic:d0471e5e;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Slide Attack on Feistel Cipher
+CT2:dynamic:3f7b567f;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Slide Attack on TREYFER
+CT2:dynamic:4470db8f;<enter category here>;CT2:C \ Protocols \ Smartcard
+CT2:dynamic:c5d3f940;<enter category here>;CT2:C \ Protocols \ Smartcard Interpreter
+CT2:dynamic:3b9949de;<enter category here>;CT2:C \ Protocols \ SoapMessage
+CT2:dynamic:90b6a2f7;<enter category here>;CT2:C \ Classic Ciphers \ Solitaire
+CT2:dynamic:e7170275;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Solitaire Analyzer
+CT2:dynamic:017e87e3;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Sosemanuk
+CT2:dynamic:cabf8d42;<enter category here>;CT2:C \ Classic Ciphers \ Spanish Strip Cipher
+CT2:dynamic:09bfaaf1;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Spanish Strip Cipher Analyzer
+CT2:dynamic:cf8e3621;<enter category here>;CT2:C \ Tools \ Data flow \ Splitter
+CT2:dynamic:8f831f46;<enter category here>;CT2:C \ Tools \ Misc \ Stream Comparator
+CT2:dynamic:adf1b73d;<enter category here>;CT2:C \ Tools \ Misc \ StreamSplitter
+CT2:dynamic:99811820;<enter category here>;CT2:C \ Tools \ Misc \ String Decoder
+CT2:dynamic:542013eb;<enter category here>;CT2:C \ Tools \ Misc \ String Encoder
+CT2:dynamic:08c653bf;<enter category here>;CT2:C \ Tools \ Misc \ String Operations
+CT2:dynamic:97213d4b;<enter category here>;CT2:C \ Classic Ciphers \ Substitution
+CT2:dynamic:dc636b20;<enter category here>;CT2:C \ Classic Ciphers \ T-310
+CT2:dynamic:b5e20792;<enter category here>;CT2:C \ Classic Ciphers \ T-316
+CT2:dynamic:b27faf85;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ TEA
+CT2:dynamic:4eab0551;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ TestVectorGenerator
+CT2:dynamic:cfe9a3f1;<enter category here>;CT2:C \ Tools \ Data input \ output \ Text Input
+CT2:dynamic:79d5f599;<enter category here>;CT2:C \ Tools \ Data input \ output \ Text Output
+CT2:dynamic:3fec2099;<enter category here>;CT2:C \ Hash functions \ Tiger
+CT2:dynamic:41691577;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Transcriptor
+CT2:dynamic:03033afc;<enter category here>;CT2:C \ Classic Ciphers \ Transposition
+CT2:dynamic:75db14d8;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Transposition Analyzer
+CT2:dynamic:3e13651e;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ TREYFER
+CT2:dynamic:c4af22c5;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Trivium
+CT2:dynamic:1faf2de1;<enter category here>;CT2:C \ Modern Ciphers \ Symmetric \ Twofish
+CT2:dynamic:beb405da;<enter category here>;CT2:C \ Tools \ Data flow \ UserCode
+CT2:dynamic:b9336fae;<enter category here>;CT2:C \ Tools \ Data flow \ Variable Load
+CT2:dynamic:6196b2f0;<enter category here>;CT2:C \ Tools \ Data flow \ Variable Store
+CT2:dynamic:66458946;<enter category here>;CT2:C \ Classic Ciphers \ Vernam
+CT2:dynamic:b5cd17b4;<enter category here>;CT2:C \ Classic Ciphers \ Vigen?re
+CT2:dynamic:cef0bd67;<enter category here>;CT2:C \ Cryptanalysis \ Specific \ Vigen?re Analyzer
+CT2:dynamic:036ce27d;<enter category here>;CT2:C \ Tools \ Misc \ Visual Decoder
+CT2:dynamic:8278bef2;<enter category here>;CT2:C \ Tools \ Misc \ Visual Encoder
+CT2:dynamic:f38a084d;<enter category here>;CT2:C \ Steganography \ Watermark Creator
+CT2:dynamic:ef90395c;<enter category here>;CT2:C \ Tools \ Misc \ WebHits
+CT2:dynamic:0910b919;<enter category here>;CT2:C \ Protocols \ WebService
+CT2:dynamic:6a3b2782;<enter category here>;CT2:C \ Protocols \ WEP protocol
+CT2:dynamic:ebb74d65;<enter category here>;CT2:C \ Hash functions \ Whirlpool
+CT2:dynamic:fbcbb2fe;<enter category here>;CT2:C \ Cryptanalysis \ Generic \ Word Patterns
+CT2:dynamic:368cbcae;<enter category here>;CT2:N \ Crypto tutorials \ World of Primes
+CT2:dynamic:eb7cce55;<enter category here>;CT2:C \ Classic Ciphers \ XOR
+CT2:dynamic:8bb1949b;<enter category here>;CT2:C \ Protocols \ Yao 1
+CT2:dynamic:e6229127;<enter category here>;CT2:C \ Protocols \ Yao 2
+CT2:dynamic:40f3eea1;<enter category here>;CT2:C \ Protocols \ Yao 3
+CT2:dynamic:0de35859;<enter category here>;CT2:C \ Protocols \ Zero Knowledge Prover
+CT2:dynamic:cab4f29c;<enter category here>;CT2:C \ Protocols \ Zero Knowledge Verifier

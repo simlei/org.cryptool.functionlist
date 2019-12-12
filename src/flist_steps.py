@@ -117,22 +117,22 @@ CT2scsv_ct2_de = FlistStep(
 categories_ct2_en = FlistStep(
     name="categories_ct2_en", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None)
+    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="en")
 )
 categories_ct2_de = FlistStep(
     name="categories_ct2_de", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None)
+    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="de")
 )
 categories_jct_en = FlistStep(
     name="categories_jct_en", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None)
+    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="en")
 )
 categories_jct_de = FlistStep(
     name="categories_jct_de", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None)
+    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="de")
 )
 merge_en = FlistStep(
     name="merge_en",

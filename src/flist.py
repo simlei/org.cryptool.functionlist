@@ -103,11 +103,20 @@ class SCSV_Entry(CSV_Entry):
     """
     represents a single line in a "SCSV" file. It represents a single row of data
     """
+
     id: str
     functionality: str
     how_implemented: str
     path: List[str]
     category: str
+
+    @staticmethod
+    def dynamic_category_notset():
+        return "<does_not_contain_category>"
+
+    @staticmethod
+    def dynamic_category_placeholder():
+        return "0) Unassigned category"
 
     @staticmethod
     def From_Dataframe_Row(row):
@@ -336,6 +345,10 @@ class MCSV_Dataset(CSV_Dataset):
     def get_columns(self):
         return MCSV_Dataset.COLUMNS
 
+
+    def get_dataframe_dictionaries(self):
+        return [row.to_dataframe_row() for row in self.rows]
+
     @staticmethod
     def From_Dataframe(dataframe):
         rows = [MCSV_Entry.From_Dataframe_Row(row) for i, row in dataframe.iterrows()]
@@ -414,6 +427,9 @@ class FinalForm_Dataset(CSV_Dataset):
     rows: List[FinalForm_Entry] = field(default_factory=list)
 
     def get_rows(self):
+        return [row.to_dataframe_row() for row in self.rows]
+
+    def get_dataframe_dictionaries(self):
         return [row.to_dataframe_row() for row in self.rows]
 
     def get_columns(self):
