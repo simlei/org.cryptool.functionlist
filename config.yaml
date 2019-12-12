@@ -11,7 +11,7 @@ step.CT2scsv_ct2_de:
   input       : ./data/de/scsv_generated/ct2.csv
   output      : ./scsv_ct2_nocat_de.csv
 
-step.CT2scsv_jct:
+step.CT2scsv_jct_en:
   id_reference: ./data/en/scsv_generated/jct.csv
   input       : ./data/en/scsv_generated/jct.csv
   output      : ./scsv_jct_nocat_en.csv
