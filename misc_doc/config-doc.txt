@@ -1,0 +1,11 @@
+# In this file, the behavior of the flist main application can be controlled.
+# The application is run in steps, executed in a "workspace" - a directory that stores the state
+# of the file conversions. The following settings determine the defaults for the workspace and its setup.
+# The workspace setup is identical to "loading configuration" and also provides the static files -- it completely
+# specifies the behavior of the program. The intention is to have to program operate completely within this isolated
+# "workspace" instance, and to resume operation, etc.
+
+# The setup of the workspace includes, most basically:
+#  - create the directory (overwriting existing ones if specified: ".overwrite" setting)
+#  - copy files in a "config" directory to the workspace. These specify how the workspace behaves. By switching "config" directories, the behavior of the program in the workspace can be switched easily from one preset to the other.
+#    included in the template directory is a file "flist.yaml" that serves as 

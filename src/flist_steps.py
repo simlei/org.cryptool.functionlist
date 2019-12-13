@@ -58,15 +58,19 @@ class FlistStep:
         Naively identifies paths in the config to be augmented to the workspace
         by looking at whether a string starts with "./"
         """
-        if isinstance(element, str):
-            if element.startswith("./"):
-                #TODO: many more cases possible...
-                return Path(implicitly("workspace").path / element)
-            else:
-                return element
-        else:
-            return element
-
+        processed = element
+        if isinstance(processed, str):
+            processed = processed.replace('${workspace}', str(implicitly("workspace").path))
+        if isinstance(processed, str):
+            processed = processed.replace('${workspace.template}', str(implicitly("workspace").template))
+        if isinstance(processed, str):
+            try:
+                topath = Path(processed)
+                if topath.is_absolute():
+                    processed = topath
+            except:
+                pass
+        return processed
 
     def perform(self, *args, **kwargs):
         # implicitly("prog.logger").debug(f"performing on {context}")

@@ -34,26 +34,38 @@ def map_category(catmapping_df: pandas.DataFrame, id: str):
             return row["category"]
     return None
 
-def blank_placeholder():
-    return "<enter category here>"
-
-def blank_disappears():
-    return "<>"
+blank_placeholder = "<enter category here>"
+blank_disappears  = "<>"
 
 def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path, output: Path):
     if not input.is_file():
         raise io.FlistException("file {input} does not exist")
     if not catfile.is_file():
         raise io.FlistException("file {catfile} does not exist")
-    # if not feedbackfile.is_file():
-    #     raise io.FlistException("file {feedbackfile} does not exist")
 
     translations = pandas.read_csv(get_category_file(), names=["en", "de"], header=None, sep=";")
     feedbackfile_static = Path(__file__).parent.parent / "ws-static" / feedbackfile.relative_to( implicitly("workspace").path )
 
     dataset = flist.SCSV_Dataset.From_Dataframe(flist.SCSV_Dataset.Dataframe_From_Files([input]))
-    catmapping_df = pandas.read_csv(catfile, names=["id", "category"], sep=";")
-    print(catmapping_df.to_string())
+    catmapping_df = pandas.read_csv(catfile, names=["id", "category"], header=None, sep=";")
+    catmapping_df.fillna('', inplace=True)
+
+    cats_user = None
+    if feedbackfile.is_file():
+        cats_user = pandas.read_csv(feedbackfile, names=["id", "category"], header=None, sep=";")
+        cats_user.fillna('', inplace=True)
+
+        cats_user = cats_user[
+            (~ (cats_user["id"].str.contains(blank_disappears))) & (~ (cats_user["category"].str.contains(blank_placeholder)))
+        ]
+        catmapping_df = catmapping_df.append(cats_user)
+        implicitly("prog.logger").debug(cats_user.to_string())
+        # print(catmapping_df.to_string())
+
+    catmapping_df = catmapping_df[
+        (~ catmapping_df["id"].str.contains(blank_disappears)) & (~ catmapping_df["category"].str.contains(blank_placeholder))
+    ]
+    # print(catmapping_df.to_string())
 
     ids_with_no_category_mapping = []
 
@@ -72,24 +84,44 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
             entry.category = translated_mapped_cat
 
 
-    if len(ids_with_no_category_mapping) > 0:
-        existing_manual_lines = []
-        if feedbackfile.is_file():
-            with open(feedbackfile, "r") as opened:
-                while (line := opened.readline()):
-                    existing_manual_lines.append(line.strip())
+    # writeback modality of category mappings:
+    # - per file
+    #   - mapping not successfully applied -> throw out
+    #   - mapping successfully applied     -> keep
+    # - but how to avoid deleting stuff accidentally - if e.g. one CrypTool was omitted in processing?
+    # - clean solution: 
+    #   - apply make a "diff file" for which the user can decide if it's applied to the template
+    # - all mappings that were provided
+    # - including: all mappings that were applied successfully
+    # - minus, the entries that could not be applied successfully
+    # 
+    # 
 
-        writeback_manual_lines = [line for line in existing_manual_lines if not blank_disappears() in line]
+    if len(ids_with_no_category_mapping) > 0:
+
+        existing_manual_lines = []
+        
+        # if there are ids that are not 
+        cats_user_writeback = cats_user[
+            (~ cats_user["id"].isin(ids_with_)) & (~ cats_user["category"].str.contains(blank_placeholder))
+        ]
+
+        # if feedbackfile.is_file():
+        #     with open(feedbackfile, "r") as opened:
+        #         while (line := opened.readline()):
+        #             existing_manual_lines.append(line.strip())
+
+        writeback_manual_lines = [line for line in existing_manual_lines if not blank_disappears in line]
         for id in [e.id for e in ids_with_no_category_mapping]:
             writeback_manual_lines = [line for line in writeback_manual_lines if not id in line]
 
         for entry in ids_with_no_category_mapping:
-            writeback_manual_lines.append(f"{entry.id};{blank_placeholder()};{entry.to_dataframe_dictionary()['path']}")
+            writeback_manual_lines.append(f"{entry.id};{blank_placeholder};{entry.to_dataframe_dictionary()['path']}")
 
         with open(feedbackfile_static, "w") as opened:
-            opened.write(f"{blank_disappears()};\n")
-            opened.write(f"{blank_disappears()}*added {datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')}*;\n")
-            opened.write(f"{blank_disappears()};\n")
+            opened.write(f"{blank_disappears};\n")
+            opened.write(f"{blank_disappears}*added {datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')}*;\n")
+            opened.write(f"{blank_disappears};\n")
             opened.write("\n".join(writeback_manual_lines))
 
         api.implicitly("prog.logger").warning(f"[[ WARNING ]] : some entries in {input} could not be assigned categories. To remedy this, edit the categories manually in {writeback_manual_lines}")

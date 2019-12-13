@@ -1,97 +1,102 @@
-# Paths are relative to the workspace, if they begin with "./"
-# Under Windows, paths with forward slashes ("/") are valid.
-
 defaultsteps:
   - CT2scsv_ct2_en
-  # - CT2scsv_ct2_de
+  - CT2scsv_ct2_de
   # - CT2scsv_jct_en
   # - CT2scsv_jct_de
   - categories_ct2_en
-  # - categories_ct2_de
+  - categories_ct2_de
   # - categories_jct_en
   # - categories_jct_de
-  - merge_en
+  # - merge_en
   # - merge_de
-  - tofinalform_en
+  # - tofinalform_en
   # - tofinalform_de
-  - tohtml_en
+  # - tohtml_en
   # - tohtml_de
 
 step.CT2scsv_ct2_en:
-  id_reference: ./data/en/scsv_generated/ct2.csv
-  input       : ./data/en/scsv_generated/ct2.csv
-  output      : ./scsv_ct2_nocat_en.csv
+  id_reference: ${workspace}/data/en/scsv_generated/ct2.csv
+  input       : ${workspace}/data/en/scsv_generated/ct2.csv
+  output      : ${workspace}/scsv_ct2_nocat_en.csv
 
 step.CT2scsv_ct2_de:
-  id_reference: ./data/en/scsv_generated/ct2.csv
-  input       : ./data/de/scsv_generated/ct2.csv
-  output      : ./scsv_ct2_nocat_de.csv
+  id_reference: ${workspace}/data/en/scsv_generated/ct2.csv
+  input       : ${workspace}/data/de/scsv_generated/ct2.csv
+  output      : ${workspace}/scsv_ct2_nocat_de.csv
 
 step.CT2scsv_jct_en:
-  id_reference: ./data/en/scsv_generated/jct.csv
-  input       : ./data/en/scsv_generated/jct.csv
-  output      : ./scsv_jct_nocat_en.csv
+  id_reference: ${workspace}/data/en/scsv_generated/jct.csv
+  input       : ${workspace}/data/en/scsv_generated/jct.csv
+  output      : ${workspace}/scsv_jct_nocat_en.csv
 
 step.CT2scsv_jct_de:
-  id_reference: ./data/en/scsv_generated/jct.csv
-  input       : ./data/de/scsv_generated/jct.csv
-  output      : ./scsv_jct_nocat_de.csv
+  id_reference: ${workspace}/data/en/scsv_generated/jct.csv
+  input       : ${workspace}/data/de/scsv_generated/jct.csv
+  output      : ${workspace}/scsv_jct_nocat_de.csv
 
 
 step.categories_ct2_en:
-  input  : ./scsv_ct2_nocat_en.csv
-  catfile: ./categories_ct2_en.csv
-  feedbackfile: ./categories_interaction_required.csv
-  output : ./scsv_ct2_en.csv
+  input  : ${workspace}/scsv_ct2_nocat_en.csv
+  catfiles: 
+    - ${workspace}/categories_ct2_en.csv
+    - ${workspace}/categories_interaction_required.csv
+  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  output : ${workspace}/scsv_ct2_en.csv
 
 step.categories_ct2_de:
-  input  : ./scsv_ct2_nocat_de.csv
-  catfile: ./categories_ct2_de.csv
-  feedbackfile: ./categories_interaction_required.csv
-  output : ./scsv_ct2_de.csv
+  input  : ${workspace}/scsv_ct2_nocat_de.csv
+  catfiles: 
+    - ${workspace}/categories_ct2_de.csv
+    - ${workspace}/categories_interaction_required.csv
+  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  output : ${workspace}/scsv_ct2_de.csv
 
 step.categories_jct_en:
-  input  : ./scsv_jct_nocat_en.csv
-  catfile: ./categories_jct_en.csv
-  feedbackfile: ./categories_interaction_required.csv
-  output : ./scsv_jct_en.csv
+  input  : ${workspace}/scsv_jct_nocat_en.csv
+  catfiles: 
+    - ${workspace}/categories_jct_en.csv
+    - ${workspace}/categories_interaction_required.csv
+  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  output : ${workspace}/scsv_jct_en.csv
 
 step.categories_jct_de:
-  input: ./scsv_jct_nocat_de.csv
-  catfile: ./categories_jct_de.csv
-  feedbackfile: ./categories_interaction_required.csv
-  output: ./scsv_jct_de.csv
+  input: ${workspace}/scsv_jct_nocat_de.csv
+  catfiles: 
+    - ${workspace}/categories_jct_de.csv
+    - ${workspace}/categories_interaction_required.csv
+  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  output: ${workspace}/scsv_jct_de.csv
 
 step.merge_en:
   input: 
-    - ./data/en/scsv_webdump/ct1.csv
-    - ./data/en/scsv_webdump/cto.csv
-    - ./scsv_ct2_en.csv
-    # - ./scsv_jct_en.csv
-  output: ./all_merged_en.csv
+    - ${workspace}/data/en/scsv_webdump/ct1.csv
+    - ${workspace}/data/en/scsv_webdump/cto.csv
+    - ${workspace}/scsv_ct2_en.csv
+    # - ${workspace}/scsv_jct_en.csv
+  output: ${workspace}/all_merged_en.csv
 
 step.merge_de:
   input: 
-    - ./data/de/scsv_webdump/ct1.csv
-    - ./data/de/scsv_webdump/cto.csv
-    - ./scsv_ct2_de.csv
-    # - ./scsv_jct_de.csv
-  output: ./all_merged_de.csv
+    - ${workspace}/data/de/scsv_webdump/ct1.csv
+    - ${workspace}/data/de/scsv_webdump/cto.csv
+    - ${workspace}/scsv_ct2_de.csv
+    - ${workspace}/scsv_jct_de.csv
+  output: ${workspace}/all_merged_de.csv
 
 step.tofinalform_en:
-  input: ./all_merged_en.csv
-  output: ./all_final_en.csv
+  input: ${workspace}/all_merged_en.csv
+  output: ${workspace}/all_final_en.csv
 
 step.tofinalform_de:
-  input: ./all_merged_de.csv
-  output: ./all_final_de.csv
+  input: ${workspace}/all_merged_de.csv
+  output: ${workspace}/all_final_de.csv
 
 step.tohtml_en:
-  template_html: ./data/en/html_template
-  input: ./all_final_en.csv
-  output: ./html_en/index.html
+  template_html: ${workspace}/data/en/html_template
+  input: ${workspace}/all_final_en.csv
+  output: ${workspace}/html_en/index.html
 
 step.tohtml_de:
-  template_html: ./data/de/html_template
-  input: ./all_final_de.csv
-  output: ./html_de/index.html
+  template_html: ${workspace}/data/de/html_template
+  input: ${workspace}/all_final_de.csv
+  output: ${workspace}/html_de/index.html
