@@ -98,5 +98,6 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
         api.implicitly("prog.logger").warning(f"[[ WARNING ]] : some entries in {input} could not be assigned categories. To remedy this, edit the categories manually in {feedbackfile}")
 
 
+    implicitly("prog.logger").debug(f"writing feedbackfile with ids {df_writeback_feedback['id']} to {feedbackfile}")
     df_writeback_feedback.to_csv(feedbackfile, sep=flist.CSV_SEP, index=False, header=False)
     dataset.write_csv(output)
