@@ -33,6 +33,12 @@ class FlistProg(ws.WSProg, api.Prog):
 
         self.steps = []
 
+        self.addStep(steps.FlistStep(
+            name = "init_workspace",
+            callable = lambda : self.ws.recreated(),
+            proto = {}
+        ))
+
         self.addStep(steps.CT2scsv_ct2_en)
         self.addStep(steps.CT2scsv_ct2_de)
         self.addStep(steps.CT2scsv_jct_en)

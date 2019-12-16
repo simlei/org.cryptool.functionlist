@@ -55,6 +55,8 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
     df_cats_input = df_cats_input[
         (~ df_cats_input["id"].str.contains(blank_disappears)) & (~ df_cats_input["category"].str.contains(blank_placeholder))
     ]
+    implicitly("prog.logger").info(f"==== Input cat file file ===")
+    implicitly("prog.logger").info(df_cats_input.to_string())
 
     df_cats_feedback = None
     if feedbackfile.is_file():
@@ -63,6 +65,8 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
         df_cats_feedback = df_cats_feedback[
             (~ (df_cats_feedback["id"].str.contains(blank_disappears))) & (~ (df_cats_feedback["category"].str.contains(blank_placeholder)))
         ]
+        implicitly("prog.logger").info(f"==== Feedback cat file file ===")
+        implicitly("prog.logger").info(df_cats_feedback.to_string())
         # implicitly("prog.logger").debug(df_cats_feedback.to_string())
         # print(df_cats_input.to_string())
 
@@ -71,25 +75,29 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
     df_writeback_feedback = pandas.DataFrame(columns = ["id", "category", "path"])
 
     has_unmatched_categories = False
+    implicitly("prog.logger").info(f"{feedbackfile=}")
     for entry in dataset.rows:
         id = entry.id
         category = entry.category
         if category != flist.SCSV_Entry.dynamic_category_notset():
             raise FlistException(f"SCSV file {input} is being assigned categories dynamically, but has category {category} which is not the 'needs category assignment' placeholder that was expected")
 
-        category_from_input = map_category(df_cats_input, category)
-        category_from_feedback = map_category(df_cats_input, category)
+        category_from_input = map_category(df_cats_input, id)
+        category_from_feedback = map_category(df_cats_feedback, id)
+        implicitly("prog.logger").info(f"getting cat for {id}")
+        implicitly("prog.logger").info(f"{category_from_input=}, {category_from_feedback=}")
+
         if category_from_input:
-            df_writeback_input.append([{"id":entry.id, "category":category_from_input}])
+            df_writeback_input = df_writeback_input.append([{"id":entry.id, "category":category_from_input}])
         elif category_from_feedback:
-            df_writeback_feedback.append([{"id": entry.id, "category": category_from_feedback, "path": entry.to_dataframe_dictionary()["path"]}])
+            df_writeback_feedback = df_writeback_feedback.append([{"id": entry.id, "category": category_from_feedback, "path": entry.to_dataframe_dictionary()["path"]}])
 
         if category_from_input or category_from_feedback:
             mapped_cat = category_from_input or category_from_feedback
             translated_mapped_cat = translate(translations, language, mapped_cat)
             entry.category = translated_mapped_cat
         else:
-            df_writeback_feedback.append([{"id": entry.id, "category": blank_placeholder, "path": entry.to_dataframe_dictionary()["path"]}])
+            df_writeback_feedback = df_writeback_feedback.append([{"id": entry.id, "category": blank_placeholder, "path": entry.to_dataframe_dictionary()["path"]}])
             has_unmatched_categories = True
 
 

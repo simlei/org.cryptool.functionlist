@@ -1,10 +1,11 @@
 defaultsteps:
+  - init_workspace
   - CT2scsv_ct2_en
   - CT2scsv_ct2_de
   # - CT2scsv_jct_en
   # - CT2scsv_jct_de
   - categories_ct2_en
-  - categories_ct2_de
+  # - categories_ct2_de
   # - categories_jct_en
   # - categories_jct_de
   # - merge_en
