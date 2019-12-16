@@ -37,34 +37,26 @@ step.CT2scsv_jct_de:
 
 step.categories_ct2_en:
   input  : ${workspace}/scsv_ct2_nocat_en.csv
-  catfiles: 
-    - ${workspace}/categories_ct2_en.csv
-    - ${workspace}/categories_interaction_required.csv
-  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  catfile: ${workspace}/categories_ct2_en.csv
+  feedbackfile: ${workspace}/categories_interaction_required.csv
   output : ${workspace}/scsv_ct2_en.csv
 
 step.categories_ct2_de:
   input  : ${workspace}/scsv_ct2_nocat_de.csv
-  catfiles: 
-    - ${workspace}/categories_ct2_de.csv
-    - ${workspace}/categories_interaction_required.csv
-  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  catfile: ${workspace}/categories_ct2_de.csv
+  feedbackfile: ${workspace}/categories_interaction_required.csv
   output : ${workspace}/scsv_ct2_de.csv
 
 step.categories_jct_en:
   input  : ${workspace}/scsv_jct_nocat_en.csv
-  catfiles: 
-    - ${workspace}/categories_jct_en.csv
-    - ${workspace}/categories_interaction_required.csv
-  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  catfile: ${workspace}/categories_jct_en.csv
+  feedbackfile: ${workspace}/categories_interaction_required.csv
   output : ${workspace}/scsv_jct_en.csv
 
 step.categories_jct_de:
   input: ${workspace}/scsv_jct_nocat_de.csv
-  catfiles: 
-    - ${workspace}/categories_jct_de.csv
-    - ${workspace}/categories_interaction_required.csv
-  feedbackfile: ${workspace.template}/categories_interaction_required.csv
+  catfile: ${workspace}/categories_jct_de.csv
+  feedbackfile: ${workspace}/categories_interaction_required.csv
   output: ${workspace}/scsv_jct_de.csv
 
 step.merge_en:

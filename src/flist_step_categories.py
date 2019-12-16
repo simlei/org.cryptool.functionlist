@@ -47,84 +47,56 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
     feedbackfile_static = Path(__file__).parent.parent / "ws-static" / feedbackfile.relative_to( implicitly("workspace").path )
 
     dataset = flist.SCSV_Dataset.From_Dataframe(flist.SCSV_Dataset.Dataframe_From_Files([input]))
-    catmapping_df = pandas.read_csv(catfile, names=["id", "category"], header=None, sep=";")
-    catmapping_df.fillna('', inplace=True)
 
-    cats_user = None
-    if feedbackfile.is_file():
-        cats_user = pandas.read_csv(feedbackfile, names=["id", "category"], header=None, sep=";")
-        cats_user.fillna('', inplace=True)
+    catmapping_all = pandas.DataFrame(columns = ["id", "category"])
 
-        cats_user = cats_user[
-            (~ (cats_user["id"].str.contains(blank_disappears))) & (~ (cats_user["category"].str.contains(blank_placeholder)))
-        ]
-        catmapping_df = catmapping_df.append(cats_user)
-        implicitly("prog.logger").debug(cats_user.to_string())
-        # print(catmapping_df.to_string())
-
-    catmapping_df = catmapping_df[
-        (~ catmapping_df["id"].str.contains(blank_disappears)) & (~ catmapping_df["category"].str.contains(blank_placeholder))
+    df_cats_input = pandas.read_csv(catfile, names=["id", "category"], header=None, sep=";")
+    df_cats_input.fillna('', inplace=True)
+    df_cats_input = df_cats_input[
+        (~ df_cats_input["id"].str.contains(blank_disappears)) & (~ df_cats_input["category"].str.contains(blank_placeholder))
     ]
-    # print(catmapping_df.to_string())
 
-    ids_with_no_category_mapping = []
+    df_cats_feedback = None
+    if feedbackfile.is_file():
+        df_cats_feedback = pandas.read_csv(feedbackfile, names=["id", "category"], header=None, sep=";")
+        df_cats_feedback.fillna('', inplace=True)
+        df_cats_feedback = df_cats_feedback[
+            (~ (df_cats_feedback["id"].str.contains(blank_disappears))) & (~ (df_cats_feedback["category"].str.contains(blank_placeholder)))
+        ]
+        # implicitly("prog.logger").debug(df_cats_feedback.to_string())
+        # print(df_cats_input.to_string())
 
+
+    df_writeback_input = pandas.DataFrame(columns = ["id", "category"])
+    df_writeback_feedback = pandas.DataFrame(columns = ["id", "category", "path"])
+
+    has_unmatched_categories = False
     for entry in dataset.rows:
         id = entry.id
         category = entry.category
         if category != flist.SCSV_Entry.dynamic_category_notset():
             raise FlistException(f"SCSV file {input} is being assigned categories dynamically, but has category {category} which is not the 'needs category assignment' placeholder that was expected")
 
-        category_from_mapping = map_category(catmapping_df, category)
-        if not category_from_mapping:
-            ids_with_no_category_mapping.append(entry)
-            entry.category = flist.SCSV_Entry.dynamic_category_placeholder()
-        else:
-            translated_mapped_cat = translate(translations, language, category_from_mapping)
+        category_from_input = map_category(df_cats_input, category)
+        category_from_feedback = map_category(df_cats_input, category)
+        if category_from_input:
+            df_writeback_input.append([{"id":entry.id, "category":category_from_input}])
+        elif category_from_feedback:
+            df_writeback_feedback.append([{"id": entry.id, "category": category_from_feedback, "path": entry.to_dataframe_dictionary()["path"]}])
+
+        if category_from_input or category_from_feedback:
+            mapped_cat = category_from_input or category_from_feedback
+            translated_mapped_cat = translate(translations, language, mapped_cat)
             entry.category = translated_mapped_cat
+        else:
+            df_writeback_feedback.append([{"id": entry.id, "category": blank_placeholder, "path": entry.to_dataframe_dictionary()["path"]}])
+            has_unmatched_categories = True
 
 
-    # writeback modality of category mappings:
-    # - per file
-    #   - mapping not successfully applied -> throw out
-    #   - mapping successfully applied     -> keep
-    # - but how to avoid deleting stuff accidentally - if e.g. one CrypTool was omitted in processing?
-    # - clean solution: 
-    #   - apply make a "diff file" for which the user can decide if it's applied to the template
-    # - all mappings that were provided
-    # - including: all mappings that were applied successfully
-    # - minus, the entries that could not be applied successfully
-    # 
-    # 
 
-    if len(ids_with_no_category_mapping) > 0:
+    if has_unmatched_categories:
+        api.implicitly("prog.logger").warning(f"[[ WARNING ]] : some entries in {input} could not be assigned categories. To remedy this, edit the categories manually in {feedbackfile}")
 
-        existing_manual_lines = []
-        
-        # if there are ids that are not 
-        cats_user_writeback = cats_user[
-            (~ cats_user["id"].isin(ids_with_)) & (~ cats_user["category"].str.contains(blank_placeholder))
-        ]
 
-        # if feedbackfile.is_file():
-        #     with open(feedbackfile, "r") as opened:
-        #         while (line := opened.readline()):
-        #             existing_manual_lines.append(line.strip())
-
-        writeback_manual_lines = [line for line in existing_manual_lines if not blank_disappears in line]
-        for id in [e.id for e in ids_with_no_category_mapping]:
-            writeback_manual_lines = [line for line in writeback_manual_lines if not id in line]
-
-        for entry in ids_with_no_category_mapping:
-            writeback_manual_lines.append(f"{entry.id};{blank_placeholder};{entry.to_dataframe_dictionary()['path']}")
-
-        with open(feedbackfile_static, "w") as opened:
-            opened.write(f"{blank_disappears};\n")
-            opened.write(f"{blank_disappears}*added {datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')}*;\n")
-            opened.write(f"{blank_disappears};\n")
-            opened.write("\n".join(writeback_manual_lines))
-
-        api.implicitly("prog.logger").warning(f"[[ WARNING ]] : some entries in {input} could not be assigned categories. To remedy this, edit the categories manually in {writeback_manual_lines}")
-
+    df_writeback_feedback.to_csv(feedbackfile, sep=flist.CSV_SEP, index=False, header=False)
     dataset.write_csv(output)
-    # with open(input, "") as opened
