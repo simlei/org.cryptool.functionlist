@@ -90,11 +90,11 @@ class Lineparser:
 def reference_file_lockstep_exception(currentLine, id_reference, input) -> io.FlistException:
     return io.FlistException(f"while extracting reference ids from line {currentLine} in {id_reference} for csv file {input}: number of lines mismatches. This is probably an error in the correspondence between outputs of different languages of that tool.")
 
-def reference_file_filelength_exception(currentLine, id_reference, input):
-    return io.FlistException("while extracting reference ids from line {currentLine} in {id_reference} for csv file {input}: number of lines mismatches. This is probably an error in the correspondence between outputs of different languages of that tool.")
+def reference_file_filelength_exception(id_reference, input):
+    return io.FlistException(f"while extracting reference ids in {id_reference} for csv file {input}: number of lines mismatches. This is probably an error in the correspondence between outputs of different languages of that tool.")
 
 def reference_file_linecontent_exception(currentLine, id_reference, input):
-    return io.FlistException("while extracting reference ids from line {currentLine} in {id_reference} for csv file {input}: lines do mismatch (one is empty, the other is not). This is probably an error in the correspondence between outputs of different languages of that CrypTool.")
+    return io.FlistException(f"while extracting reference ids from line {currentLine} in {id_reference} for csv file {input}: lines do mismatch (one is empty, the other is not). This is probably an error in the correspondence between outputs of different languages of that CrypTool.")
 
 def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
     resultDataset = flist.SCSV_Dataset()
@@ -116,11 +116,11 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
     # implicitly("prog.logger").info(f"{(input,output,id_reference,toolname)}")
     # sanity checks for checking wether the files match superficially
 
-    if(len(lines) != len(reference_lines)):
-        raise reference_file_filelength_exception(currentLine, id_reference, input)
 
     currentLine = 0
     for line in lines:
+        if currentLine >= len(reference_lines):
+            raise reference_file_filelength_exception(id_reference, input)
         reference_line = reference_lines[currentLine]
 
         currentLine += 1
@@ -134,6 +134,8 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
     currentRefRecord = Lineparser(input=id_reference)
     for line in lines:
         line = line.strip()
+        if currentLine >= len(reference_lines):
+            raise reference_file_filelength_exception(id_reference, input)
         reference_line = reference_lines[currentLine]
         reference_line = reference_line.strip()
         currentLine += 1
@@ -144,7 +146,7 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
             raise reference_file_lockstep_exception(currentLine, id_reference, input)
 
         if currentResult:
-            implicitly("prog.logger").info(f"New parsed entry: {currentResult} with reference {refResult}")
+            implicitly("prog.logger").debug(f"New parsed entry: {currentResult} with reference {refResult}")
             # prefix some fields with tool-specific info to match SCSV format (for legacy reasons)
             currentResult.category = flist.SCSV_Entry.dynamic_category_notset()
             currentResult.how_implemented = f"{toolname}:{currentResult.how_implemented}"

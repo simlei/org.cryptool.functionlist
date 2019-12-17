@@ -1,17 +1,18 @@
-<table class="table">
+        <table class="table">
             <tbody><tr>
                 <td>
-                    Cryptographic category:</td><td>
+                    Kryptographische Kategorie:</td><td>
                     <select name="cat" onchange="" id="cat_selector">
-                        <option value="" selected="">No filter applied</option>
+                        <option value="" selected="">Kein Filter angewendet</option>
                         ${categories}
                     </select>
                 </td>
             </tr>
             <tr>
-                <td>Additional search phrase:</td><td> <input type="text" id="custom_search"></td>
+                <td>Zusätzlicher Suchfilter:</td><td> <input type="text" id="custom_search"></td>
             </tr>
         </tbody></table>
+
             <input type="hidden" style="display: none;" id="ctversions" value="CrypTool1 CrypTool2 JCrypTool CrypToolOnline">
     <table class="table">
         <tbody><tr>
@@ -24,13 +25,9 @@
 </fieldset>
 <br>
 <b><span id="visiblerows"></span></b>
-<div id="myTable_wrapper" class="dataTables_wrapper" role="grid"><div class="top"><div class="dataTables_info" id="myTable_info"><b>405 rows</b> found according to the selection criteria.</div></div>
-<table id="myTable" class="tablesorter dataTable" aria-describedby="myTable_info"> 
+<div id="myTable_wrapper" class="dataTables_wrapper" role="grid"><div class="top"><div class="dataTables_info" id="myTable_info"><b>413 Zeilen</b> gefunden, die dem Auswahlkriterium entsprechen.</div></div><table id="myTable" class="tablesorter dataTable" aria-describedby="myTable_info"> 
     <thead>
-        <tr role="row"><th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Function: activate to sort column descending" style="width: 157.021px;">Function</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT1: activate to sort column ascending" style="width: 30.0208px;">CT1</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT2: activate to sort column ascending" style="width: 40.0208px;">CT2</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="JCT: activate to sort column ascending" style="width: 30.0208px;">JCT</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CTO: activate to sort column ascending" style="width: 30.0208px;">CTO</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT 1 Path: activate to sort column ascending" style="width: 124.021px;">CT 1 Path</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT 2 Path: activate to sort column ascending" style="width: 146.021px;">CT 2 Path</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="JCT Path: activate to sort column ascending" style="width: 188.021px;">JCT Path</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CTO Path: activate to sort column ascending" style="width: 74.0208px;">CTO Path</th><th style="display: none; width: 46.0208px;" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Category: activate to sort column ascending">Category</th><th style="display: none; width: 39.0208px;" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT-Version: activate to sort column ascending">CT-Version</th></tr>
+        <tr role="row"><th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Funktionen: activate to sort column descending" style="width: 129.021px;">Funktionen</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT1: activate to sort column ascending" style="width: 22.0208px;">CT1</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT2: activate to sort column ascending" style="width: 40.0208px;">CT2</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="JCT: activate to sort column ascending" style="width: 23.0208px;">JCT</th><th width="40" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CTO: activate to sort column ascending" style="width: 26.0208px;">CTO</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Pfad in CT1: activate to sort column ascending" style="width: 152.021px;">Pfad in CT1</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Pfad in CT2: activate to sort column ascending" style="width: 147.021px;">Pfad in CT2</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Pfad in JCT: activate to sort column ascending" style="width: 188.021px;">Pfad in JCT</th><th class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Pfad in CTO: activate to sort column ascending" style="width: 92.0208px;">Pfad in CTO</th><th style="display: none; width: 46.0208px;" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Category: activate to sort column ascending">Category</th><th style="display: none; width: 39.0208px;" class="sorting" role="columnheader" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="CT-Version: activate to sort column ascending">CT-Version</th></tr>
     </thead>
     
-    <tbody role="alert" aria-live="polite" aria-relevant="all">
-        ${rows}
-    </tbody>
-</table>
+    <tbody role="alert" aria-live="polite" aria-relevant="all">${rows}</tbody></table>

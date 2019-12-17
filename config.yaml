@@ -2,27 +2,27 @@ defaultsteps:
   - init_workspace # deactivate if you do not want to erase and re-recreate the workspace
   - CT2scsv_ct2_en
   - CT2scsv_ct2_de
-  # - CT2scsv_jct_en
-  # - CT2scsv_jct_de
+  - CT2scsv_jct_en
+  - CT2scsv_jct_de
   - categories_ct2_en
   - categories_ct2_de
-  # - categories_jct_en
-  # - categories_jct_de
-  # - merge_en
-  # - merge_de
-  # - tofinalform_en
-  # - tofinalform_de
-  # - tohtml_en
-  # - tohtml_de
+  - categories_jct_en
+  - categories_jct_de
+  - merge_en
+  - merge_de
+  - tofinalform_en
+  - tofinalform_de
+  - tohtml_en
+  - tohtml_de
 
 step.CT2scsv_ct2_en:
-  id_reference: ${workspace}/data/en/scsv_generated/ct2.csv
-  input       : ${workspace}/data/en/scsv_generated/ct2.csv
+  id_reference: ${workspace}/data/en/scsv_generated/ct2_corrected.csv
+  input       : ${workspace}/data/en/scsv_generated/ct2_corrected.csv
   output      : ${workspace}/scsv_ct2_nocat_en.csv
 
 step.CT2scsv_ct2_de:
-  id_reference: ${workspace}/data/en/scsv_generated/ct2.csv
-  input       : ${workspace}/data/de/scsv_generated/ct2.csv
+  id_reference: ${workspace}/data/en/scsv_generated/ct2_corrected.csv
+  input       : ${workspace}/data/de/scsv_generated/ct2_corrected.csv
   output      : ${workspace}/scsv_ct2_nocat_de.csv
 
 step.CT2scsv_jct_en:
@@ -62,10 +62,10 @@ step.categories_jct_de:
 
 step.merge_en:
   input: 
-    # - ${workspace}/data/en/scsv_webdump/ct1.csv
-    # - ${workspace}/data/en/scsv_webdump/cto.csv
+    - ${workspace}/data/en/scsv_webdump/ct1.csv
+    - ${workspace}/data/en/scsv_webdump/cto.csv
     - ${workspace}/scsv_ct2_en.csv
-    # - ${workspace}/scsv_jct_en.csv
+    - ${workspace}/scsv_jct_en.csv
   output: ${workspace}/all_merged_en.csv
 
 step.merge_de:
@@ -87,9 +87,9 @@ step.tofinalform_de:
 step.tohtml_en:
   template_html: ${workspace}/data/en/html_template
   input: ${workspace}/all_final_en.csv
-  output: ${workspace}/html_en/index.html
+  output: ${workspace}/www/html_en/index.html
 
 step.tohtml_de:
   template_html: ${workspace}/data/de/html_template
   input: ${workspace}/all_final_de.csv
-  output: ${workspace}/html_de/index.html
+  output: ${workspace}/www/html_de/index.html

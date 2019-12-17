@@ -13,6 +13,7 @@ import flist_argtype as argtype
 import flist_config as config
 import typing; from typing import List, Any
 import flist_io as io
+import flist_api as api; from flist_api import implicitly
 
 # reads a file, and substitutes patterns in it.
 # patterns are marked in the file as ${key}
@@ -61,6 +62,7 @@ def generate_interactive(rows, categories, template_html):
                                    categories=categories
                                    )
 def generate_index(interactive_html, target, template_html):
+        implicitly("prog.logger").info(f"generating {target} from {template_html}")
         return substituteFileToFile(template_html / "template_index.html", target,
                                    interactive_part=interactive_html
                                    )
@@ -89,6 +91,7 @@ def generate_row_tags(dataset, template_html: Path):
             odd = "even"
         else:
             odd = "odd"
+        implicitly("prog.logger").info(f"generating html row for {row}")
         result += substituteFileToStr(template_html / "fragment_row.html", 
                                    odd_even=odd,
                                    functionality=row.functionality,
@@ -102,5 +105,6 @@ def generate_row_tags(dataset, template_html: Path):
                                    paths_JCT=row.paths["JCT"],
                                    category=row.categories
                                    )
+
     return result
 
