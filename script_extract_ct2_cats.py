@@ -52,7 +52,7 @@ def load_legacy_and_infer_ids(tool, language) -> flist.SCSV_Dataset:
 
 def legacy_scsv_to_catref(scsv: flist.SCSV_Dataset) -> pandas.DataFrame:
     df = scsv.to_dataframe()
-    df = df.drop(columns="path")
+    # df = df.drop(columns="path")
     df = df.drop(columns="how_implemented")
     df = df.drop(columns="functionality")
     return df
@@ -62,7 +62,7 @@ def extract_catref_file_in_wsstatic(tool, language):
     legacy_with_ids = load_legacy_and_infer_ids(tool, language)
     catref_df = legacy_scsv_to_catref(legacy_with_ids)
     output = category_table_output(tool, language)
-    catref_df.to_csv(output, sep=flist.CSV_SEP, index=False, header=False)
+    catref_df.to_csv(output, sep=flist.CSV_SEP, index=False, header=False, columns = ["id", "category", "path"])
     print(f"written to {output}")
 
 extract_catref_file_in_wsstatic(tool = "CT2", language = "en")

@@ -26,7 +26,7 @@ def appendToDF(entry: flist.SCSV_Entry):
     return df.append([entry.to_dataframe_dictionary()])
 
 @dataclass
-class LineparseRecord:
+class Lineparser:
     input: Path = None
     state_which: str = ""
     state_currentfunc: list = field(default_factory=list)
@@ -34,43 +34,51 @@ class LineparseRecord:
     def __post_init__(self):
         self.state_currentfunc = ["", []]
 
-    def parse(self, line: str, currentLine: int) -> typing.Optional[flist.SCSV_Entry]:
+    def getLastParsedEntry(self, line: str, nr: int):
+        checkValidRecord(self.state_currentfunc, self.input, nr)
 
+        headerSplit = self.state_currentfunc[0].split(";")
+        entriesSplit = [(entry.split(";"),lineNr) for (entry,lineNr) in self.state_currentfunc[1]]
+        if(len(headerSplit) != 3):
+            raise io.FlistException(f"at line {line} in {self.input}, encountered invalid csv output record.")
+        functionality = headerSplit[0]
+        # how_implemented = headerSplit[1].split("/")
+        implicitly("prog.logger").debug(f"{[e[0] for e in entriesSplit]=}")
+        result = []
+        (entrySplit,lineNr) = entriesSplit[-1]
+        if(len(entrySplit) != 3):
+            raise io.FlistException(f"at line {line} in {self.input}, encountered invalid csv output record.")
+        how_implemented = entrySplit[1][1]
+        path = entrySplit[2]
+        category = ""
+        id = "<no_id_-_dynamic_output>"
+        df_row_dict = {
+            "functionality" : functionality,
+            "id" : id, 
+            "how_implemented" : how_implemented, 
+            "path" : path, 
+            "category" : category
+        }
+        # print(f"dbg: {how_implemented} | {path}")
+        return flist.SCSV_Entry.From_Dataframe_Row(df_row_dict)
+
+
+    def parse(self, line: str, nr: int) -> typing.List[flist.SCSV_Entry]:
+
+        implicitly("prog.logger").debug(f"parsing {nr=} {line=} in file {self.input}")
         # an empty line: marks that a functionality record is complete. it is finalized and returned in this if-branch.
         if len(line.strip()) == 0:
             self.state_which = "separator"
-            checkValidRecord(self.state_currentfunc, input, currentLine)
-
-            headerSplit = self.state_currentfunc[0].split(";")
-            entriesSplit = [(entry.split(";"),lineNr) for (entry,lineNr) in self.state_currentfunc[1]]
-            if(len(headerSplit) != 3):
-                raise io.FlistException(f"at line {line} in {self.input}, encountered invalid csv output record.")
-            functionality = headerSplit[0]
-            # how_implemented = headerSplit[1].split("/")
-            for (entrySplit,lineNr) in entriesSplit:
-                if(len(entrySplit) != 3):
-                    raise io.FlistException(f"at line {line} in {self.input}, encountered invalid csv output record.")
-                how_implemented = entrySplit[1][1]
-                path = entrySplit[2]
-                category = ""
-                id = "<no_id_-_dynamic_output>"
-                df_row_dict = {
-                    "functionality" : functionality,
-                    "id" : id, 
-                    "how_implemented" : how_implemented, 
-                    "path" : path, 
-                    "category" : category
-                }
-                # print(f"dbg: {how_implemented} | {path}")
-                return flist.SCSV_Entry.From_Dataframe_Row(df_row_dict)
-
             self.state_currentfunc = ["", []]
+            return None
 
         # a line that starts with a semicolon marks a single-path entry, which is added to the state array
         elif line.startswith(";"):
             self.state_which = "entry"
-            self.state_currentfunc[1].append((line,currentLine))
-            return None
+            self.state_currentfunc[1].append((line,nr))
+            singleRecord = self.getLastParsedEntry(line, nr)
+            implicitly("prog.logger").debug(f"parsed {singleRecord=}")
+            return singleRecord
 
         # non-empty non-semicolon-prefixed lines mark the header of a functionality record
         else:
@@ -122,8 +130,8 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
     # parsing
 
     currentLine = 0
-    currentRecord = LineparseRecord(input=input)
-    currentRefRecord = LineparseRecord(input=id_reference)
+    currentRecord = Lineparser(input=input)
+    currentRefRecord = Lineparser(input=id_reference)
     for line in lines:
         line = line.strip()
         reference_line = reference_lines[currentLine]
@@ -136,6 +144,7 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
             raise reference_file_lockstep_exception(currentLine, id_reference, input)
 
         if currentResult:
+            implicitly("prog.logger").info(f"New parsed entry: {currentResult} with reference {refResult}")
             # prefix some fields with tool-specific info to match SCSV format (for legacy reasons)
             currentResult.category = flist.SCSV_Entry.dynamic_category_notset()
             currentResult.how_implemented = f"{toolname}:{currentResult.how_implemented}"
@@ -152,8 +161,6 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
 
             # prepare for next record
             resultDataset.rows.append(currentResult)
-            currentRecord = LineparseRecord(input=input)
-            currentRefRecord = LineparseRecord(input=id_reference)
 
     resultDataset.write_csv(output)
 

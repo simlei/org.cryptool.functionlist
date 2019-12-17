@@ -50,23 +50,23 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
 
     catmapping_all = pandas.DataFrame(columns = ["id", "category"])
 
-    df_cats_input = pandas.read_csv(catfile, names=["id", "category"], header=None, sep=";")
+    df_cats_input = pandas.read_csv(catfile, names=["id", "category", "path"], header=None, sep=";")
     df_cats_input.fillna('', inplace=True)
     df_cats_input = df_cats_input[
         (~ df_cats_input["id"].str.contains(blank_disappears)) & (~ df_cats_input["category"].str.contains(blank_placeholder))
     ]
-    implicitly("prog.logger").info(f"==== Input cat file file ===")
-    implicitly("prog.logger").info(df_cats_input.to_string())
+    implicitly("prog.logger").debug(f"==== Input cat file file ===")
+    implicitly("prog.logger").debug(df_cats_input.to_string())
 
     df_cats_feedback = None
     if feedbackfile.is_file():
-        df_cats_feedback = pandas.read_csv(feedbackfile, names=["id", "category"], header=None, sep=";")
+        df_cats_feedback = pandas.read_csv(feedbackfile, names=["id", "category", "path"], header=None, sep=";")
         df_cats_feedback.fillna('', inplace=True)
         df_cats_feedback = df_cats_feedback[
             (~ (df_cats_feedback["id"].str.contains(blank_disappears))) & (~ (df_cats_feedback["category"].str.contains(blank_placeholder)))
         ]
-        implicitly("prog.logger").info(f"==== Feedback cat file file ===")
-        implicitly("prog.logger").info(df_cats_feedback.to_string())
+        implicitly("prog.logger").debug(f"==== Feedback cat file file ===")
+        implicitly("prog.logger").debug(df_cats_feedback.to_string())
         # implicitly("prog.logger").debug(df_cats_feedback.to_string())
         # print(df_cats_input.to_string())
 
@@ -75,7 +75,7 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
     df_writeback_feedback = pandas.DataFrame(columns = ["id", "category", "path"])
 
     has_unmatched_categories = False
-    implicitly("prog.logger").info(f"{feedbackfile=}")
+    implicitly("prog.logger").debug(f"{feedbackfile=}")
     for entry in dataset.rows:
         id = entry.id
         category = entry.category
@@ -84,8 +84,8 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
 
         category_from_input = map_category(df_cats_input, id)
         category_from_feedback = map_category(df_cats_feedback, id)
-        implicitly("prog.logger").info(f"getting cat for {id}")
-        implicitly("prog.logger").info(f"{category_from_input=}, {category_from_feedback=}")
+        implicitly("prog.logger").debug(f"getting cat for {id}")
+        implicitly("prog.logger").debug(f"{category_from_input=}, {category_from_feedback=}")
 
         if category_from_input:
             df_writeback_input = df_writeback_input.append([{"id":entry.id, "category":category_from_input}])
@@ -106,6 +106,6 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
         api.implicitly("prog.logger").warning(f"[[ WARNING ]] : some entries in {input} could not be assigned categories. To remedy this, edit the categories manually in {feedbackfile}")
 
 
-    implicitly("prog.logger").debug(f"writing feedbackfile with ids {df_writeback_feedback['id']} to {feedbackfile}")
+    implicitly("prog.logger").info(f"writing feedbackfile with ids to {feedbackfile} with ids: {df_writeback_feedback['id'].tolist()}")
     df_writeback_feedback.to_csv(feedbackfile, sep=flist.CSV_SEP, index=False, header=False)
     dataset.write_csv(output)

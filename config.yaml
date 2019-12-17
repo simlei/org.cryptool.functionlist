@@ -1,16 +1,16 @@
 defaultsteps:
-  - init_workspace
+  - init_workspace # deactivate if you do not want to erase and re-recreate the workspace
   - CT2scsv_ct2_en
-  - CT2scsv_ct2_de
+  # - CT2scsv_ct2_de
   # - CT2scsv_jct_en
   # - CT2scsv_jct_de
   - categories_ct2_en
   # - categories_ct2_de
   # - categories_jct_en
   # - categories_jct_de
-  # - merge_en
+  - merge_en
   # - merge_de
-  # - tofinalform_en
+  - tofinalform_en
   # - tofinalform_de
   # - tohtml_en
   # - tohtml_de
@@ -62,8 +62,8 @@ step.categories_jct_de:
 
 step.merge_en:
   input: 
-    - ${workspace}/data/en/scsv_webdump/ct1.csv
-    - ${workspace}/data/en/scsv_webdump/cto.csv
+    # - ${workspace}/data/en/scsv_webdump/ct1.csv
+    # - ${workspace}/data/en/scsv_webdump/cto.csv
     - ${workspace}/scsv_ct2_en.csv
     # - ${workspace}/scsv_jct_en.csv
   output: ${workspace}/all_merged_en.csv

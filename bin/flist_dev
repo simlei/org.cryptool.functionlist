@@ -85,8 +85,8 @@ class FlistProg(ws.WSProg, api.Prog):
         self.context.names["state.currentStep"] = "__main__"
         self.context.make_implicit("state.currentStep")
 
-        mainLogger    = logging.getLogger("Flist:Main")   ; mainLogger.setLevel (logging.DEBUG)
-        wslogLogger   = logging.getLogger("Flist:WSLog")  ; wslogLogger.setLevel(logging.DEBUG)
+        mainLogger    = logging.getLogger("Flist:Main")   ; mainLogger.setLevel (logging.INFO)
+        wslogLogger   = logging.getLogger("Flist:WSLog")  ; wslogLogger.setLevel(logging.INFO)
         consoleLogger = logging.getLogger("Flist:Console"); wslogLogger.setLevel(logging.INFO)
 
         mainLogger.addHandler(wslogLogger)
@@ -100,9 +100,9 @@ class FlistProg(ws.WSProg, api.Prog):
             self.Main_Default()
         except io.FlistException as e:
             io.logFlistException(self.logger, e)
+            exit(1)
 
     def Main_Default(self):
-        self.ws.recreated()
         for stepname in self.context.names["config.defaultsteps"]:
             self.context.names["state.currentStep"] = stepname
             self.runStep(stepname)
