@@ -14,7 +14,7 @@ def logFlistException(logger: logging.Logger, ex: Exception, msg: str =None):
     logger.error(f"Error in step {stepname}: {msg}{exmsg}")
 
 def msg(msg: str):
-    implicitLogger = api.implicitly("prog.logger")
+    implicitLogger = api.implicitly_or("prog.logger", logging.getLogger("default"))
     logger = implicitLogger or logger
     logger.info(msg)
 
