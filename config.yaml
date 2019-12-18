@@ -6,8 +6,8 @@ defaultsteps:
   - CT2scsv_jct_de
   - categories_ct2_en
   - categories_ct2_de
-  - categories_jct_en
-  - categories_jct_de
+  # - categories_jct_en
+  # - categories_jct_de
   - merge_en
   - merge_de
   - tofinalform_en
@@ -65,7 +65,7 @@ step.merge_en:
     - ${workspace}/data/en/scsv_webdump/ct1.csv
     - ${workspace}/data/en/scsv_webdump/cto.csv
     - ${workspace}/scsv_ct2_en.csv
-    - ${workspace}/scsv_jct_en.csv
+    # - ${workspace}/scsv_jct_en.csv
   output: ${workspace}/all_merged_en.csv
 
 step.merge_de:
@@ -73,7 +73,7 @@ step.merge_de:
     - ${workspace}/data/de/scsv_webdump/ct1.csv
     - ${workspace}/data/de/scsv_webdump/cto.csv
     - ${workspace}/scsv_ct2_de.csv
-    - ${workspace}/scsv_jct_de.csv
+    # - ${workspace}/scsv_jct_de.csv
   output: ${workspace}/all_merged_de.csv
 
 step.tofinalform_en:
