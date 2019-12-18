@@ -1,0 +1,127 @@
+JCT:de:static:1;ADFGVX;D;JCT:D \ Algorithmen \ Klassisch \ ADFGVX;1) Klassische Chiffren
+JCT:de:static:2;Autokey-Vigenère;D;JCT:D \ Algorithmen \ Klassisch \ Autokey-Vigenère;1) Klassische Chiffren
+JCT:de:static:3;Bifid;D;JCT:D \ Algorithmen \ Klassisch \ Bifid-Verfahren;1) Klassische Chiffren
+JCT:de:static:4;Caesar;D;JCT:D \ Algorithmen \ Klassisch \ Caesar;1) Klassische Chiffren
+JCT:de:static:5;Doppelkasten;D;JCT:D \ Algorithmen \ Klassisch \ Doppelkasten;1) Klassische Chiffren
+JCT:de:static:6;Playfair;D;JCT:D \ Algorithmen \ Klassisch \ Playfair;1) Klassische Chiffren
+JCT:de:static:7;Rot-13;D;JCT:D \ Algorithmen \ Klassisch \ Caesar;1) Klassische Chiffren
+JCT:de:static:8;Substitution;D;JCT:D \ Algorithmen \ Klassisch \ Substitution;1) Klassische Chiffren
+JCT:de:static:9;Transposition (ein-stufige Spaltentransposition);D;JCT:D \ Algorithmen \ Klassisch \ Transposition;1) Klassische Chiffren
+JCT:de:static:10;Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel);D;JCT:D \ Algorithmen \ Klassisch \ Transposition;1) Klassische Chiffren
+JCT:de:static:11;Vigenère;D;JCT:D \ Algorithmen \ Klassisch \ Vigenère;1) Klassische Chiffren
+JCT:de:static:12;XOR;D;JCT:D \ Algorithmen \ Klassisch \ XOR;1) Klassische Chiffren
+JCT:de:static:13;3DES;A;JCT:A \ Algorithmen \ Blockchiffren \ DESede;2) Moderne Chiffren
+JCT:de:static:14;AES;D;JCT:D \ Algorithmen \ Symmetrisch \ AES;2) Moderne Chiffren
+JCT:de:static:15;AES;A;JCT:A \ Algorithmen \ Blockchiffren \ Rijndael;2) Moderne Chiffren
+JCT:de:static:16;Camellia;A;JCT:A \ Algorithmen \ Blockchiffren \ Camellia;2) Moderne Chiffren
+JCT:de:static:17;Dragon;D;JCT:D \ Algorithmen \ Symmetrisch \ Dragon;2) Moderne Chiffren
+JCT:de:static:18;ECIES;A;JCT:A \ Algorithmen \ Hybride Verschlüsselung \ ECIES;2) Moderne Chiffren
+JCT:de:static:19;ElGamal;D;JCT:D \ Algorithmen \ Asymmetrisch \ ElGamal;2) Moderne Chiffren
+JCT:de:static:20;ElGamal;A;JCT:A \ Algorithmen \ Asymmetrische Blockchiffren \ ElGamal;2) Moderne Chiffren
+JCT:de:static:21;Erweitertes RSA-Kryptosystem (Identitäten / multi-prime);D;JCT:D \ Visualisierungen \ Erweitertes RSA-Kryptosystem;2) Moderne Chiffren
+JCT:de:static:22;IDEA;D;JCT:D \ Algorithmen \ Symmetrisch \ IDEA;2) Moderne Chiffren
+JCT:de:static:23;IDEA;A;JCT:A \ Algorithmen \ Blockchiffren \ IDEA;2) Moderne Chiffren
+JCT:de:static:24;LFSR;D;JCT:D \ Algorithmen \ Symmetrisch \ LFSR;2) Moderne Chiffren
+JCT:de:static:25;MARS;A;JCT:A \ Algorithmen \ Blockchiffren \ MARS;2) Moderne Chiffren
+JCT:de:static:26;McEliece Fujisaki;A;JCT:A \ Algorithmen \ Hybride Verschlüsselung \ McElieceFujisakiCipher;2) Moderne Chiffren
+JCT:de:static:27;McEliece Kobara Imai;A;JCT:A \ Algorithmen \ Hybride Verschlüsselung \ McElieceKobaraImaiCipher;2) Moderne Chiffren
+JCT:de:static:28;McEliece PKCS;A;JCT:A \ Algorithmen \ Asymmetrische Blockchiffren \ McEliecePKCS;2) Moderne Chiffren
+JCT:de:static:29;McEliece Pointcheval;A;JCT:A \ Algorithmen \ Hybride Verschlüsselung \ McEliecePointchevalCipher;2) Moderne Chiffren
+JCT:de:static:30;MeRSA;A;JCT:A \ Algorithmen \ Asymmetrische Blockchiffren \ MeRSA;2) Moderne Chiffren
+JCT:de:static:31;Misty-1 (Kasumi);A;JCT:A \ Algorithmen \ Blockchiffren \ Misty1;2) Moderne Chiffren
+JCT:de:static:32;MpRSA;D;JCT:D \ Visualisierung \ Erweitertes RSA-Kryptosystem;2) Moderne Chiffren
+JCT:de:static:33;MpRSA;A;JCT:A \ Algorithmen \ Asymmetrische Blockchiffren \ MpRSA;2) Moderne Chiffren
+JCT:de:static:34;Niederreiter;A;JCT:A \ Algorithmen \ Asymmetrische Blockchiffren \ Niederreiter;2) Moderne Chiffren
+JCT:de:static:35;RC2;A;JCT:A \ Algorithmen \ Blockchiffren \ RC2;2) Moderne Chiffren
+JCT:de:static:36;RC5;A;JCT:A \ Algorithmen \ Blockchiffren \ RC5;2) Moderne Chiffren
+JCT:de:static:37;RC6;D;JCT:D \ Algorithmen \ Symmetrisch \ RC6;2) Moderne Chiffren
+JCT:de:static:38;RC6;A;JCT:A \ Algorithmen \ Blockchiffren \ RC6;2) Moderne Chiffren
+JCT:de:static:39;RSA;D;JCT:D \ Algorithmen \ Asymmetrisch \ RSA;2) Moderne Chiffren
+JCT:de:static:40;RSA;A;JCT:A \ Algorithmen \ Asymmetrische Blockchiffren \ RSA_PKCS1_v1_5;2) Moderne Chiffren
+JCT:de:static:41;RSA;A;JCT:A \ Algorithmen \ Asymmetrische Blockchiffren \ RSA_PKCS1_v2_1;2) Moderne Chiffren
+JCT:de:static:42;SAFER+;A;JCT:A \ Algorithmen \ Blockchiffren \ SAFER+;2) Moderne Chiffren
+JCT:de:static:43;SAFER++;A;JCT:A \ Algorithmen \ Blockchiffren \ SAFER++;2) Moderne Chiffren
+JCT:de:static:44;Serpent;A;JCT:A \ Algorithmen \ Blockchiffren \ Serpent;2) Moderne Chiffren
+JCT:de:static:45;Shacal;A;JCT:A \ Algorithmen \ Blockchiffren \ Shacal;2) Moderne Chiffren
+JCT:de:static:46;Shacal2;A;JCT:A \ Algorithmen \ Blockchiffren \ Shacal2;2) Moderne Chiffren
+JCT:de:static:47;Twofish;A;JCT:A \ Algorithmen \ Blockchiffren \ Twofish;2) Moderne Chiffren
+JCT:de:static:48;XML-Sicherheit;D;JCT:D \ Algorithmen \ XML-Sicherheit \ ;2) Moderne Chiffren
+JCT:de:static:49;CBC MACs;A;JCT:A \ Algorithmen \ Authentifizierungscodes \ CBCMaK \ ;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:50;Cipher-Based MACs (CMAC);A;JCT:A \ Algorithmen \ Authentifizierungscodes \ CMaK \ ;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:51;FORK-256;A;JCT:A \ Algorithmen \ Hash-Funktionen \ FORK256;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:52;Hashwert einer Datei;D;JCT:D \ Algorithmen \ Hash \ MD5;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:53;Hashwert einer Datei;D;JCT:D \ Algorithmen \ Hash \ SHA;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:54;Hashwert einer Datei;D;JCT:D \ Algorithmen \ Hash \ SHA3-Kandidaten;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:55;Hashwert einer Datei;A;JCT:A \ Hash-Funktionen \ ;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:56;HMACs;D;JCT:D \ Algorithmen \ MAK \ HMacMD5;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:57;HMACs;A;JCT:A \ Algorithmen \ Authentifizierungscodes \ HMaK \ ;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:58;MD4;A;JCT:A \ Algorithmen \ Hash-Funktionen \ MD4;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:59;MD5;D;JCT:D \ Algorithmen \ Hash \ MD5;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:60;MD5;A;JCT:A \ Algorithmen \ Hash-Funktionen \ MD5;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:61;PKCS#5;A;JCT:A \ Algorithmen \ Passwortbasierte Chiffren \ ;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:62;RIPEMD-160;A;JCT:A \ Algorithmen \ Hash-Funktionen \ RIPEMD;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:63;SHA-1;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:64;SHA-256;D;JCT:D \ Algorithmen \ Hash \ SHA;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:65;SHA-256;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA256;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:66;SHA-384;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA384;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:67;SHA-3-Kandidaten;D;JCT:D \ Algorithmen \ Hash \ SHA3-Kandidaten;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:68;SHA-512;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA512;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:69;Tiger;A;JCT:A \ Algorithmen \ Hash-Funktionen \ Tiger;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:70;Two-Track MAC;A;JCT:A \ Algorithmen \ Authentifizierungscodes \ TwoTrackMaK \ ;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:71;VSH;A;JCT:A \ Algorithmen \ Hash-Funktionen \ VSH;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:72;CMSS;A;JCT:A \ Algorithmen \ Signaturen \ CMSSSignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:73;DSA;D;JCT:D \ Algorithmen \ Signatur \ DSA;4) Digitale Signatur/PKI
+JCT:de:static:74;DSA;A;JCT:A \ Algorithmen \ Signaturen \ DSASignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:75;ECDSA;A;JCT:A \ Algorithmen \ Signaturen \ ECDSASignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:76;ECNR;A;JCT:A \ Algorithmen \ Signaturen \ SHA1 \ ECNR;4) Digitale Signatur/PKI
+JCT:de:static:77;GMSS;A;JCT:A \ Algorithmen \ Signaturen \ GMSSSignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:78;IQDSA;A;JCT:A \ Algorithmen \ Signaturen \ IQDSASignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:79;IQGQ;A;JCT:A \ Algorithmen \ Signaturen \ IQGQSignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:80;IQRDSA;A;JCT:A \ Algorithmen \ Signaturen \ IQRDSASignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:81;Merkle OTS;A;JCT:A \ Algorithmen \ Signaturen \ MerkleOTSSignature \ ;4) Digitale Signatur/PKI
+JCT:de:static:82;Niederreiter CFS;A;JCT:A \ Algorithmen \ Signaturen \ NiederreiterCFS;4) Digitale Signatur/PKI
+JCT:de:static:83;RSASSA-PSS;A;JCT:A \ Algorithmen \ Signaturen \ RSASSA-PSS;4) Digitale Signatur/PKI
+JCT:de:static:84;SSL (MD5 und SHA1 mit RSA);A;JCT:A \ Algorithmen \ Signaturen \ SHA1 \ SSL_MD5andSHA1withRSA;4) Digitale Signatur/PKI
+JCT:de:static:85;Blum Blum Shub (B.B.S.) (PRNG);A;JCT:A \ Algorithmen \ Pseudo-Zufallsgeneratoren \ BBSRandom;5) Zufallszahlen-Generatoren
+JCT:de:static:86;Elliptische Kurven (PRNG);A;JCT:A \ Algorithmen \ Pseudo-Zufallsgeneratoren \ ECPRNG;5) Zufallszahlen-Generatoren
+JCT:de:static:87;SHA-1 (PRNG);D;JCT:D \ Algorithmen \ Zufallszahlengenerator \ SHA1;5) Zufallszahlen-Generatoren
+JCT:de:static:88;SHA-1 (PRNG);A;JCT:A \ Algorithmen \ Pseudo-Zufallsgeneratoren \ SHA1PRNG;5) Zufallszahlen-Generatoren
+JCT:de:static:89;Entropie;D;JCT:D \ Analyse \ Entropie-Analyse;6) Klassische Kryptoanalyse
+JCT:de:static:90;Friedman-Test;D;JCT:D \ Analyse \ Friedman-Test;6) Klassische Kryptoanalyse
+JCT:de:static:91;Häufigkeitsanalyse;D;JCT:D \ Analyse \ Häufigkeitsanalyse;6) Klassische Kryptoanalyse
+JCT:de:static:92;Transpositions-Analyse;D;JCT:D \ Analyse \ Transpositions-Analyse;6) Klassische Kryptoanalyse
+JCT:de:static:93;Vigenère-Analyse;D;JCT:D \ Analyse \ Vigenère-Analyse;6) Klassische Kryptoanalyse
+JCT:de:static:94;Huffman;D;JCT:D \ Visualisierungen \ Huffman-Kodierung;9) Kodierungen
+JCT:de:static:95;Ameisenkolonie-Optimierung-Visualisierung;D;JCT:D \ Visualisierungen \ Ameisenkolonie-Optimierung;10) Lernhilfen und Visualisierungen
+JCT:de:static:96;Android-Mustersperre-Visualisierung;D;JCT:D \ Visualisierungen \ Android-Mustersperre (AUP);10) Lernhilfen und Visualisierungen
+JCT:de:static:97;Chinesischer Restsatz-Visualisierung;D;JCT:D \ Visualisierungen \ Chinesischer Restsatz;10) Lernhilfen und Visualisierungen
+JCT:de:static:98;Differential Power Analysis-Visualisierung;D;JCT:D \ Visualisierungen \ Differential Power Analysis \ Double and Add;10) Lernhilfen und Visualisierungen
+JCT:de:static:99;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy)-Visualisierung;D;JCT:D \ Visualisierungen \ Diffie-Hellman Schlüsselaustausch (EC);10) Lernhilfen und Visualisierungen
+JCT:de:static:100;Digitale Signatur-Visualisierung;D;JCT:D \ Visualisierungen \ Signatur-Demo;10) Lernhilfen und Visualisierungen
+JCT:de:static:101;ElGamal-Visualisierung;D;JCT:D \ Visualisierungen \ ElGamal-Kryptosystem;10) Lernhilfen und Visualisierungen
+JCT:de:static:102;Elliptische Kurvenberechnung-Visualisierung;D;JCT:D \ Visualisierungen \ Elliptische Kurven Berechnungen;10) Lernhilfen und Visualisierungen
+JCT:de:static:103;Erweiterter Euklid mit Wechselwegnahme-Visualisierung;D;JCT:D \ Visualisierungen \ Erweiterter Euklid;10) Lernhilfen und Visualisierungen
+JCT:de:static:104;Feige Fiat Shamir-Visualisierung;D;JCT:D \ Visualisierungen \ Feige Fiat Shamir;10) Lernhilfen und Visualisierungen
+JCT:de:static:105;Fiat Shamir-Visualisierung;D;JCT:D \ Visualisierungen \ Fiat Shamir;10) Lernhilfen und Visualisierungen
+JCT:de:static:106;Graphenisomorphismen-Visualisierung;D;JCT:D \ Visualisierungen \ Graphenisomorphie;10) Lernhilfen und Visualisierungen
+JCT:de:static:107;Grille-Visualisierung;D;JCT:D \ Visualisierungen \ Grille;10) Lernhilfen und Visualisierungen
+JCT:de:static:108;Homomorphe Verschlüsselung-Visualisierung;D;JCT:D \ Visualisierungen \ Homomorphe Verschlüsselung;10) Lernhilfen und Visualisierungen
+JCT:de:static:109;Innere Zustände im Data Encryption Standard (DES)-Visualisierung;D;JCT:D \ Visualisierungen \ Innere Zustände im Data Encryption Standard (DES);10) Lernhilfen und Visualisierungen
+JCT:de:static:110;Kleptographie-Visualisierung;D;JCT:D \ Visualisierungen \ Kleptographie;10) Lernhilfen und Visualisierungen
+JCT:de:static:111;Lösung des diskreten Logarithmus mit Babystep-Giantstep;D;JCT:D \ Visualisierungen \ Shanks Babystep-Giantstep;10) Lernhilfen und Visualisierungen
+JCT:de:static:112;Magische Tür-Visualisierung;D;JCT:D \ Visualisierungen \ Magische Tür;10) Lernhilfen und Visualisierungen
+JCT:de:static:113;Multipartiter Schlüsselaustausch-Visualisierung;D;JCT:D \ Visualisierungen \ Multipartite Key Exchange;10) Lernhilfen und Visualisierungen
+JCT:de:static:114;Public-Key-Infrastruktur;D;JCT:D \ Visualisierungen \ Public-Key-Infrastruktur;10) Lernhilfen und Visualisierungen
+JCT:de:static:115;RSA-Visualisierung;D;JCT:D \ Visualisierungen \ RSA-Kryptosystem;10) Lernhilfen und Visualisierungen
+JCT:de:static:116;Shamir's Secret Sharing-Visualisierung;D;JCT:D \ Visualisierungen \ Shamir's Secret Sharing;10) Lernhilfen und Visualisierungen
+JCT:de:static:117;Signatur-Verifikation;D;JCT:D \ Visualisierungen \ Signatur-Verifikation;10) Lernhilfen und Visualisierungen
+JCT:de:static:118;Simple Power Analysis-Visualisierung;D;JCT:D \ Visualisierungen \ Simple Power Analysis \ Square and Multiply;10) Lernhilfen und Visualisierungen
+JCT:de:static:119;SSL/TLS-Handshake;D;JCT:D \ Visualisierungen \ SSL \ TLS-Handshake;10) Lernhilfen und Visualisierungen
+JCT:de:static:120;Verifiable Secret Sharing (VSS)-Visualisierung;D;JCT:D \ Visualisierungen \ Verifiable-Secret-Sharing;10) Lernhilfen und Visualisierungen
+JCT:de:static:121;Viterbi-Visualisierung;D;JCT:D \ Visualisierungen \ Viterbi;10) Lernhilfen und Visualisierungen
+JCT:de:static:122;Sudoku-Löser;D;JCT:D \ Spiele \ Sudoku-Solver;11) Spiele
+JCT:de:static:123;Teilerspiel;D;JCT:D \ Spiele \ Teilerspiel;11) Spiele
+JCT:de:static:124;Zahlenhai;D;JCT:D \ Spiele \ Zahlenhai;11) Spiele
+JCT:de:static:125;Zudo-Ku (Zero-Knowledge Proof);D;JCT:D \ Spiele \ Zudo-Ku;11) Spiele
+JCT:de:static:126;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy)-Visualisierung;D;JCT:D \ Visualisierungen \ Diffie-Hellman Schlüsselaustausch (EC);13) Protokolle
+JCT:de:static:127;Shamir's Secret Sharing-Visualisierung;D;JCT:D \ Visualisierungen \ Shamir's Secret Sharing;13) Protokolle
