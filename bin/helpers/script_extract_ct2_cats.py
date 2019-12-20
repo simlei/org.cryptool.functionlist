@@ -8,7 +8,6 @@ import pandas
 import argparse; from argparse import FileType
 import pathlib ; from pathlib  import Path
 import flist_argtype as argtype
-import flist_config as config
 
 import dataclasses; from dataclasses import dataclass
 import typing; from typing import List, Dict, Any

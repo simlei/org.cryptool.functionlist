@@ -1,56 +1,56 @@
-JCT:dynamic:49279c21;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ DESede_CBC (OID: 1.2.840.113549.3.7)
+JCT:dynamic:91dfc781;2) Modern Ciphers;JCT:A \ Block Ciphers \ DESede_CBC (OID: 1.2.840.113549.3.7)
 JCT:dynamic:a858587d;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ ADFGVX
-JCT:dynamic:7c71b2a0;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES128_CBC (OID: 2.16.840.1.101.3.4.1.2)
-JCT:dynamic:15520a13;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES128_CFB (OID: 2.16.840.1.101.3.4.1.4)
-JCT:dynamic:734d225b;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES128_ECB (OID: 2.16.840.1.101.3.4.1.1)
-JCT:dynamic:f1037374;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES128_OFB (OID: 2.16.840.1.101.3.4.1.3)
-JCT:dynamic:2adc690f;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES192_CBC (OID: 2.16.840.1.101.3.4.1.22)
-JCT:dynamic:d9f53a27;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES192_CFB (OID: 2.16.840.1.101.3.4.1.24)
-JCT:dynamic:a8d27788;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES192_ECB (OID: 2.16.840.1.101.3.4.1.21)
-JCT:dynamic:55c5c8e2;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES192_OFB (OID: 2.16.840.1.101.3.4.1.23)
-JCT:dynamic:e5a5708c;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES256_CBC (OID: 2.16.840.1.101.3.4.1.42)
-JCT:dynamic:430ae4c6;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES256_ECB (OID: 2.16.840.1.101.3.4.1.41)
-JCT:dynamic:e5ff6112;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES256_CFB (OID: 2.16.840.1.101.3.4.1.44)
-JCT:dynamic:0739b9d1;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ Rijndael \ AES256_CFB (OID: 2.16.840.1.101.3.4.1.43)
+JCT:dynamic:4ae97c3e;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES128_CBC (OID: 2.16.840.1.101.3.4.1.2)
+JCT:dynamic:d94501f4;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES128_CFB (OID: 2.16.840.1.101.3.4.1.4)
+JCT:dynamic:ef0c7e66;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES128_ECB (OID: 2.16.840.1.101.3.4.1.1)
+JCT:dynamic:de352b6b;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES128_OFB (OID: 2.16.840.1.101.3.4.1.3)
+JCT:dynamic:3b5b582b;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES192_CBC (OID: 2.16.840.1.101.3.4.1.22)
+JCT:dynamic:5804ca6f;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES192_CFB (OID: 2.16.840.1.101.3.4.1.24)
+JCT:dynamic:70706196;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES192_ECB (OID: 2.16.840.1.101.3.4.1.21)
+JCT:dynamic:db8b7dff;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES192_OFB (OID: 2.16.840.1.101.3.4.1.23)
+JCT:dynamic:c5cd1f0b;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES256_CBC (OID: 2.16.840.1.101.3.4.1.42)
+JCT:dynamic:85f5ecdf;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES256_ECB (OID: 2.16.840.1.101.3.4.1.41)
+JCT:dynamic:eb967274;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB (OID: 2.16.840.1.101.3.4.1.44)
+JCT:dynamic:329d3038;2) Modern Ciphers;JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB (OID: 2.16.840.1.101.3.4.1.43)
 JCT:dynamic:b82992d2;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Android Unlock Pattern (AUP)
 JCT:dynamic:2cb5d891;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Ant Colony Optimization
 JCT:dynamic:e257ca79;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Autokey Vigenère
 JCT:dynamic:494e8c0c;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Bifid
 JCT:dynamic:e851a7b4;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ BBSRandom
 JCT:dynamic:36bdcbde;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Caesar
-JCT:dynamic:b64d6b3e;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Camellia128_CBC (OID: 1.2.392.200011.61.1.1.1.2)
-JCT:dynamic:81e04fc6;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Camellia192_CBC (OID: 1.2.392.200011.61.1.1.1.3)
-JCT:dynamic:8419fd26;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Camellia256_CBC (OID: 1.2.392.200011.61.1.1.1.4)
-JCT:dynamic:5c0fddab;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacAES128
-JCT:dynamic:61387c2c;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacAES192
-JCT:dynamic:7e7ecd14;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacAES256
-JCT:dynamic:194e43f8;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacCamellia
-JCT:dynamic:51151226;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacDESede
-JCT:dynamic:b71b3fb3;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacIDEA
-JCT:dynamic:36de4ea6;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacMARS
-JCT:dynamic:846270d4;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacMisty1
-JCT:dynamic:41e2d6b9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacRC2
-JCT:dynamic:34920846;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacRC5
-JCT:dynamic:559cad59;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacRC6
-JCT:dynamic:c1c4878c;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CBCmacSAFER+
-JCT:dynamic:6c37a876;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ 
+JCT:dynamic:64a16c28;2) Modern Ciphers;JCT:A \ Block Ciphers \ Camellia128_CBC (OID: 1.2.392.200011.61.1.1.1.2)
+JCT:dynamic:ad39f424;2) Modern Ciphers;JCT:A \ Block Ciphers \ Camellia192_CBC (OID: 1.2.392.200011.61.1.1.1.3)
+JCT:dynamic:f9ab0a46;2) Modern Ciphers;JCT:A \ Block Ciphers \ Camellia256_CBC (OID: 1.2.392.200011.61.1.1.1.4)
+JCT:dynamic:429aa57f;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES128
+JCT:dynamic:5e4f29f9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES192
+JCT:dynamic:5e07db12;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES256
+JCT:dynamic:ba8e5f46;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacCamellia
+JCT:dynamic:142bc24c;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacDESede
+JCT:dynamic:ddff7aaf;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacIDEA
+JCT:dynamic:789fffe0;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacMARS
+JCT:dynamic:8f42a9a5;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacMisty1
+JCT:dynamic:3d403f11;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC2
+JCT:dynamic:7973766f;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC5
+JCT:dynamic:db41c12d;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC6
+JCT:dynamic:e1c31db2;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacSAFER+
+JCT:dynamic:2b5ae26e;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ 
 JCT:dynamic:4093c479;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Certificate Verification
 JCT:dynamic:d2ed1909;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Chinese Remainder Theorem
-JCT:dynamic:9b3015ef;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CmacAES128
-JCT:dynamic:ec92c4f7;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CmacAES192
-JCT:dynamic:234bf095;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CmacAES256
-JCT:dynamic:3452d013;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ CmacDESede
-JCT:dynamic:ed10a8f1;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSS (OID: 1.3.6.1.4.1.8301.3.1.3.2.6)
-JCT:dynamic:88e0d7b6;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.1)
-JCT:dynamic:aa799c80;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.2)
-JCT:dynamic:16548238;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.3)
-JCT:dynamic:f7fe4e89;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.4)
-JCT:dynamic:f4db5954;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.5)
-JCT:dynamic:2ce02d2a;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.7)
-JCT:dynamic:87c19e03;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.8)
-JCT:dynamic:9d4cdf64;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.9)
-JCT:dynamic:d06fc896;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.10)
-JCT:dynamic:e7f7b88d;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_3 (OID: 1.
+JCT:dynamic:4709bdb9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES128
+JCT:dynamic:3182228e;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES192
+JCT:dynamic:ef2007d2;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES256
+JCT:dynamic:1aa8d9eb;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacDESede
+JCT:dynamic:f502fbe6;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSS (OID: 1.3.6.1.4.1.8301.3.1.3.2.6)
+JCT:dynamic:a10d87b0;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.1)
+JCT:dynamic:40e77976;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.2)
+JCT:dynamic:14ee090b;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.3)
+JCT:dynamic:2c824e75;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.4)
+JCT:dynamic:65ac1eef;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.5)
+JCT:dynamic:4fc5f498;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.7)
+JCT:dynamic:dfe770c5;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.8)
+JCT:dynamic:59d00abc;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.9)
+JCT:dynamic:2786aadb;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.10)
+JCT:dynamic:ea74160a;4) Digital Signatures/PKI;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_3 (OID: 1.
 JCT:dynamic:5bf356db;10) Learning Aids and Visualizations;JCT:C \ Protocols \ Coin Flipping
 JCT:dynamic:ac3eb60b;10) Learning Aids and Visualizations;JCT:T \ Protocols \ Coin Flipping Protocol
 JCT:dynamic:8c62bc5e;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ DHA256
@@ -61,13 +61,13 @@ JCT:dynamic:69c349ce;10) Learning Aids and Visualizations;JCT:D \ Visualizations
 JCT:dynamic:fd9dddc6;11) Games;JCT:D \ Games \ Divider Game
 JCT:dynamic:88f0b764;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Double Box
 JCT:dynamic:a34fa534;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ Dragon
-JCT:dynamic:8b04afa9;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ RAW \ DSA
-JCT:dynamic:fcf33e32;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ RawECDSA
-JCT:dynamic:8af025e5;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA1 \ ECDSA (OID: 1.2.840.10045.4.1)
-JCT:dynamic:9361fea7;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA224 \ ECDSA (OID: 1.2.840.10045.4.3.1)
-JCT:dynamic:641fc93a;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA256 \ ECDSA (OID: 1.2.840.10045.4.3.2)
-JCT:dynamic:55be7d42;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA384 \ ECDSA (OID: 1.2.840.10045.4.3.3)
-JCT:dynamic:e789e3d0;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA512 \ ECDSA (OID: 1.2.840.10045.4.3.4)
+JCT:dynamic:eda589af;4) Digital Signatures/PKI;JCT:A \ Signatures \ RAW \ DSA
+JCT:dynamic:711d7573;4) Digital Signatures/PKI;JCT:A \ Signatures \ RawECDSA
+JCT:dynamic:cd1fcd87;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ ECDSA (OID: 1.2.840.10045.4.1)
+JCT:dynamic:2eaa54ba;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA224 \ ECDSA (OID: 1.2.840.10045.4.3.1)
+JCT:dynamic:80fed9eb;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA256 \ ECDSA (OID: 1.2.840.10045.4.3.2)
+JCT:dynamic:19e6d57b;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA384 \ ECDSA (OID: 1.2.840.10045.4.3.3)
+JCT:dynamic:8628c7c2;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA512 \ ECDSA (OID: 1.2.840.10045.4.3.4)
 JCT:dynamic:955227b4;2) Modern Ciphers;JCT:A \ Hybrid Ciphers \ ECIES
 JCT:dynamic:56202fad;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ ECNR
 JCT:dynamic:cacca9b3;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ ElGamal (OID: 1.3.14.7.2.1.1)
@@ -83,11 +83,11 @@ JCT:dynamic:acad669a;10) Learning Aids and Visualizations;JCT:D \ Visualizations
 JCT:dynamic:66011656;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ FORK256
 JCT:dynamic:eba25ff7;6) Classic Cryptanalysis;JCT:D \ Analysis \ Frequency Analysis
 JCT:dynamic:28452099;6) Classic Cryptanalysis;JCT:D \ Analysis \ Friedman Test
-JCT:dynamic:cbc92c8e;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ GMSSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.3.1)
-JCT:dynamic:ea71189a;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ GMSSwithSHA224 (OID: 1.3.6.1.4.1.8301.3.1.3.3.2)
-JCT:dynamic:abb3569b;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ GMSSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.3.3)
-JCT:dynamic:c0715739;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ GMSSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.3.4)
-JCT:dynamic:0dd05fca;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ GMSSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.3.5)
+JCT:dynamic:5f3bbee5;4) Digital Signatures/PKI;JCT:A \ Signatures \ GMSSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.3.1)
+JCT:dynamic:c99d7a73;4) Digital Signatures/PKI;JCT:A \ Signatures \ GMSSwithSHA224 (OID: 1.3.6.1.4.1.8301.3.1.3.3.2)
+JCT:dynamic:ba72e87f;4) Digital Signatures/PKI;JCT:A \ Signatures \ GMSSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.3.3)
+JCT:dynamic:1e674d83;4) Digital Signatures/PKI;JCT:A \ Signatures \ GMSSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.3.4)
+JCT:dynamic:926da2f0;4) Digital Signatures/PKI;JCT:A \ Signatures \ GMSSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.3.5)
 JCT:dynamic:f6ac8bab;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Graph Isomorphism
 JCT:dynamic:e46cb28a;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Grille
 JCT:dynamic:107f6108;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Hash Sensitivity
@@ -95,32 +95,32 @@ JCT:dynamic:508b03bf;3) Hash and MAC Algorithms;Hash \ MD5
 JCT:dynamic:9779c84c;3) Hash and MAC Algorithms;Hash \ SHA
 JCT:dynamic:43389d96;3) Hash and MAC Algorithms;Hash \ SHA3-Candidates
 JCT:dynamic:30256dc4;3) Hash and MAC Algorithms;Messages Digests \ 
-JCT:dynamic:62a64f59;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ Hmac (OID: 1.3.6.1.5.5.8.1.2)
-JCT:dynamic:d3fc130b;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacDHA256
-JCT:dynamic:59c97f11;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacFORK256
-JCT:dynamic:30f6a0c0;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacMD4
-JCT:dynamic:33c1b638;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacMD5 (OID: 1.3.6.1.5.5.8.1.1)
-JCT:dynamic:9e2e7999;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacRIPEMD128
-JCT:dynamic:08640f45;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacRIPEMD160 (OID: 1.3.6.1.5.5.8.1.4)
-JCT:dynamic:7e5bcbc0;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacRIPEMD256
-JCT:dynamic:0ffdacd2;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacRIPEMD320
-JCT:dynamic:5f1b095b;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacSHA224
-JCT:dynamic:52a0858f;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacSHA256
-JCT:dynamic:3473991a;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacSHA384
-JCT:dynamic:5e5255e5;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ HmacSHA512
+JCT:dynamic:8b590727;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Hmac (OID: 1.3.6.1.5.5.8.1.2)
+JCT:dynamic:ffeb5a32;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacDHA256
+JCT:dynamic:ce1e8772;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacFORK256
+JCT:dynamic:17970bf5;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacMD4
+JCT:dynamic:f31099cd;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacMD5 (OID: 1.3.6.1.5.5.8.1.1)
+JCT:dynamic:35f70f10;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD128
+JCT:dynamic:f545fe4c;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD160 (OID: 1.3.6.1.5.5.8.1.4)
+JCT:dynamic:5f7e2224;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD256
+JCT:dynamic:e76ae5f7;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD320
+JCT:dynamic:980584a2;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA224
+JCT:dynamic:05d6e006;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA256
+JCT:dynamic:718e92f5;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA384
+JCT:dynamic:7de77df4;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA512
 JCT:dynamic:626ebacc;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Homomorphic Encryption
 JCT:dynamic:7849021b;9) Codings;JCT:D \ Visualizations \ Huffman Coding
-JCT:dynamic:e39e2e7b;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ IDEA_ECB (OID: 1.3.6.1.4.1.188.7.1.1.1)
-JCT:dynamic:39112a2f;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ IDEA_CBC (OID: 1.3.6.1.4.1.188.7.1.1.2)
-JCT:dynamic:c4c7bf36;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ IDEA_CFB (OID: 1.3.6.1.4.1.188.7.1.1.3)
-JCT:dynamic:31f7422a;2) Modern Ciphers;JCT:D \ Block Ciphers \ Block Ciphers \ IDEA_OFB (OID: 1.3.6.1.4.1.188.7.1.1.4)
+JCT:dynamic:864e61df;2) Modern Ciphers;JCT:D \ Block Ciphers \ IDEA_ECB (OID: 1.3.6.1.4.1.188.7.1.1.1)
+JCT:dynamic:8b3da142;2) Modern Ciphers;JCT:D \ Block Ciphers \ IDEA_CBC (OID: 1.3.6.1.4.1.188.7.1.1.2)
+JCT:dynamic:41176249;2) Modern Ciphers;JCT:D \ Block Ciphers \ IDEA_CFB (OID: 1.3.6.1.4.1.188.7.1.1.3)
+JCT:dynamic:e6fb1dce;2) Modern Ciphers;JCT:D \ Block Ciphers \ IDEA_OFB (OID: 1.3.6.1.4.1.188.7.1.1.4)
 JCT:dynamic:3b02b1b7;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Inner States of the Data Encryption Standard (DES)
-JCT:dynamic:c490d6db;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ IQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.2)
-JCT:dynamic:245becbd;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3)
-JCT:dynamic:ee0a5738;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ IQGQ (OID: 1.3.6.1.4.1.8301.3.1.1.5)
-JCT:dynamic:245becbd;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3)
-JCT:dynamic:71187a11;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ IQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.8)
-JCT:dynamic:f29c0433;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ RIPEMD160withIQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.9)
+JCT:dynamic:c96c7753;4) Digital Signatures/PKI;JCT:A \ Signatures \ IQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.2)
+JCT:dynamic:9a0d035f;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3)
+JCT:dynamic:32b420d9;4) Digital Signatures/PKI;JCT:A \ Signatures \ IQGQ (OID: 1.3.6.1.4.1.8301.3.1.1.5)
+JCT:dynamic:9a0d035f;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3)
+JCT:dynamic:433893b3;4) Digital Signatures/PKI;JCT:A \ Signatures \ IQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.8)
+JCT:dynamic:27e65a9e;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160withIQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.9)
 JCT:dynamic:a2a888a9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Kleptography
 JCT:dynamic:638c766d;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Merkle-Hellman Knapsack Cryptosystem
 JCT:dynamic:2db0b1ab;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ LFSR
@@ -132,10 +132,10 @@ JCT:dynamic:70e69ab6;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ McElie
 JCT:dynamic:441e1abc;2) Modern Ciphers;JCT:A \ Hybrid Ciphers \ McEliecePointchevalCipher (OID: 1.3.6.1.4.1.8301.3.1.3.4.2.2)
 JCT:dynamic:989a4e7e;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ MD4 (OID: 1.2.840.113549.2.4)
 JCT:dynamic:6f5f3c38;3) Hash and MAC Algorithms;JCT:D \ Message Digests \ MD5 (OID: 1.2.840.113549.2.5)
-JCT:dynamic:d92b3171;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ MerkleOTSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.1)
-JCT:dynamic:2b765c1e;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ MerkleOTSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.2)
-JCT:dynamic:810c9477;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ MerkleOTSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.3)
-JCT:dynamic:3d5a151b;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ MerkleOTSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.4)
+JCT:dynamic:a2d8108a;4) Digital Signatures/PKI;JCT:A \ Signatures \ MerkleOTSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.1)
+JCT:dynamic:dec369ab;4) Digital Signatures/PKI;JCT:A \ Signatures \ MerkleOTSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.2)
+JCT:dynamic:5caf9d1d;4) Digital Signatures/PKI;JCT:A \ Signatures \ MerkleOTSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.3)
+JCT:dynamic:23da7dda;4) Digital Signatures/PKI;JCT:A \ Signatures \ MerkleOTSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.4)
 JCT:dynamic:f4eda1c9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Merkle Signature Scheme (MerkleTree)
 JCT:dynamic:cadfcc05;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ MeRSA
 JCT:dynamic:0d763ce2;2) Modern Ciphers;JCT:A \ Signatures \ MeRSA
@@ -166,20 +166,20 @@ JCT:dynamic:36bdcbde;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Caesar
 JCT:dynamic:e16804e7;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ RSA (OID: 1.2.840.113549.1.1.1)
 JCT:dynamic:9c9f5a5e;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ RbRSA (OID: 1.2.840.113549.1.1.7)
 JCT:dynamic:37bb8ed2;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ RprimeRSA
-JCT:dynamic:7003947b;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ MD5 \ RSA \ RAW
-JCT:dynamic:ffbb3d92;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ MD5withRSA (OID: 1.2.840.113549.1.1.4)
-JCT:dynamic:9bbc91d6;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ RIPEMD160 \ RSA (OID: 1.3.36.3.3.1.2)
-JCT:dynamic:e9b642ff;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ RIPEMD160 \ RSA \ RAW
-JCT:dynamic:48bf619a;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA1 \ RSA (OID: 1.2.840.113549.1.1.5)
-JCT:dynamic:dd58b7bc;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA1 \ RSA \ RAW
-JCT:dynamic:1ae305c6;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA224 \ RSA (OID: 1.2.840.113549.1.1.14)
-JCT:dynamic:8e6a7fc0;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA224 \ RSA \ RAW
-JCT:dynamic:9cb3f149;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA256 \ RSA \ RAW
-JCT:dynamic:32b02c2e;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA256withRSA (OID: 1.2.840.113549.1.1.11)
-JCT:dynamic:dcdb082c;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA384 \ RSA \ RAW
-JCT:dynamic:ac115c4a;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA384withRSA (OID: 1.2.840.113549.1.1.12)
-JCT:dynamic:3c159f2b;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA512 \ RSA \ RAW
-JCT:dynamic:d249894c;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHA512withRSA (OID: 1.2.840.113549.1.1.13)
+JCT:dynamic:d85882d1;4) Digital Signatures/PKI;JCT:A \ Signatures \ MD5 \ RSA \ RAW
+JCT:dynamic:99c9b202;4) Digital Signatures/PKI;JCT:A \ Signatures \ MD5withRSA (OID: 1.2.840.113549.1.1.4)
+JCT:dynamic:2dc8db1b;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160 \ RSA (OID: 1.3.36.3.3.1.2)
+JCT:dynamic:dc8d1416;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160 \ RSA \ RAW
+JCT:dynamic:c3629176;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ RSA (OID: 1.2.840.113549.1.1.5)
+JCT:dynamic:e5cc707a;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ RSA \ RAW
+JCT:dynamic:6a3a321b;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA224 \ RSA (OID: 1.2.840.113549.1.1.14)
+JCT:dynamic:3b705ee3;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA224 \ RSA \ RAW
+JCT:dynamic:8f46663f;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA256 \ RSA \ RAW
+JCT:dynamic:38f68800;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA256withRSA (OID: 1.2.840.113549.1.1.11)
+JCT:dynamic:6bb166b5;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA384 \ RSA \ RAW
+JCT:dynamic:e8b8edfb;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA384withRSA (OID: 1.2.840.113549.1.1.12)
+JCT:dynamic:2ec5c3cf;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA512 \ RSA \ RAW
+JCT:dynamic:d6ce4f19;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA512withRSA (OID: 1.2.840.113549.1.1.13)
 JCT:dynamic:1d5f820b;4) Digital Signatures/PKI;JCT:A \ Signatures \ RbRSA (OID: 1.2.840.113549.1.1.10)
 JCT:dynamic:942a5b1d;4) Digital Signatures/PKI;JCT:A \ Signatures \ RprimeRSA
 JCT:dynamic:acc665fd;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ RSA Cryptosystem
@@ -187,20 +187,20 @@ JCT:dynamic:9528f64b;10) Learning Aids and Visualizations;JCT:D \ Visualizations
 JCT:dynamic:8c5f80b7;4) Digital Signatures/PKI;JCT:A \ Algorithms \ Signatures \ RSASSA-PSS
 JCT:dynamic:90b3f512;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER+
 JCT:dynamic:5093a864;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER++
-JCT:dynamic:b46e9467;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent128_CBC (OID: 1.3.6.1.4.1.11591.13.2.2)
-JCT:dynamic:2d2f81ec;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent128_CFB (OID: 1.3.6.1.4.1.11591.13.2.4)
-JCT:dynamic:1a78a7da;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent128_ECB (OID: 1.3.6.1.4.1.11591.13.2.1)
-JCT:dynamic:942a7bfe;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent128_OFB (OID: 1.3.6.1.4.1.11591.13.2.3)
-JCT:dynamic:cc2290e2;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent192_CBC (OID: 1.3.6.1.4.1.11591.13.2.22)
-JCT:dynamic:e2312095;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent192_CFB (OID: 1.3.6.1.4.1.11591.13.2.24)
-JCT:dynamic:fabd13bd;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent192_ECB (OID: 1.3.6.1.4.1.11591.13.2.21)
-JCT:dynamic:44e7f292;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent192_OFB (OID: 1.3.6.1.4.1.11591.13.2.23)
-JCT:dynamic:e554454a;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent256_CBC (OID: 1.3.6.1.4.1.11591.13.2.42)
-JCT:dynamic:c7c5e164;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent256_CFB (OID: 1.3.6.1.4.1.11591.13.2.44)
-JCT:dynamic:aab8572b;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent256_ECB (OID: 1.3.6.1.4.1.11591.13.2.41)
-JCT:dynamic:4626e55a;2) Modern Ciphers;JCT:A \ Block Ciphers \ Block Ciphers \ Serpent256_OFB (OID: 1.3.6.1.4.1.11591.13.2.43)
+JCT:dynamic:45d23c91;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent128_CBC (OID: 1.3.6.1.4.1.11591.13.2.2)
+JCT:dynamic:baa6ad2c;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent128_CFB (OID: 1.3.6.1.4.1.11591.13.2.4)
+JCT:dynamic:1a9042c3;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent128_ECB (OID: 1.3.6.1.4.1.11591.13.2.1)
+JCT:dynamic:1ef02ac1;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent128_OFB (OID: 1.3.6.1.4.1.11591.13.2.3)
+JCT:dynamic:d019067e;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent192_CBC (OID: 1.3.6.1.4.1.11591.13.2.22)
+JCT:dynamic:a47a08ba;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent192_CFB (OID: 1.3.6.1.4.1.11591.13.2.24)
+JCT:dynamic:200ca453;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent192_ECB (OID: 1.3.6.1.4.1.11591.13.2.21)
+JCT:dynamic:c4e70cf3;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent192_OFB (OID: 1.3.6.1.4.1.11591.13.2.23)
+JCT:dynamic:73cea43a;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent256_CBC (OID: 1.3.6.1.4.1.11591.13.2.42)
+JCT:dynamic:611ad2da;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent256_CFB (OID: 1.3.6.1.4.1.11591.13.2.44)
+JCT:dynamic:504fadef;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent256_ECB (OID: 1.3.6.1.4.1.11591.13.2.41)
+JCT:dynamic:23737bf7;2) Modern Ciphers;JCT:A \ Block Ciphers \ Serpent256_OFB (OID: 1.3.6.1.4.1.11591.13.2.43)
 JCT:dynamic:2bdf42e0;3) Hash and MAC Algorithms;JCT:D \ Algorithms \ Hash \ SHA
-JCT:dynamic:72cf43f2;4) Digital Signatures/PKI;JCT:A \ Signatures \ Signatures \ SHAwithDSA (OID: 1.3.14.3.2.13)
+JCT:dynamic:c8749031;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHAwithDSA (OID: 1.3.14.3.2.13)
 JCT:dynamic:02161c3e;3) Hash and MAC Algorithms;JCT:D \ Message Digests \ SHA1 (OID: 1.3.14.3.2.26)
 JCT:dynamic:b009ab81;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ SHA1PRNG
 JCT:dynamic:4d6a3a8e;3) Hash and MAC Algorithms;Message Digests \ SHA256 (OID: 2.16.840.1.101.3.4.2.1)
@@ -223,11 +223,11 @@ JCT:dynamic:41a6b9ba;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ Tiger 
 JCT:dynamic:f2812a88;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Transposition
 JCT:dynamic:f2812a88;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Transposition
 JCT:dynamic:2873349c;6) Classic Cryptanalysis;JCT:D \ Analysis \ Transposition Analysis
-JCT:dynamic:f8b79138;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ TTmac128
-JCT:dynamic:d300dbdf;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ TwoTrackMac160
-JCT:dynamic:d406a814;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ TwoTrackMac32
-JCT:dynamic:a58ce268;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ TwoTrackMac64
-JCT:dynamic:f5e6fff4;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ Message Authentication Codes \ TwoTrackMac96
+JCT:dynamic:f86564ef;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TTmac128
+JCT:dynamic:83ea8a4b;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac160
+JCT:dynamic:f1362302;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac32
+JCT:dynamic:599262cb;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac64
+JCT:dynamic:bc31e176;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac96
 JCT:dynamic:a6d0cd03;2) Modern Ciphers;JCT:A \ Block Ciphers \ Twofish
 JCT:dynamic:7f76c240;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Verifiable Secret Sharing
 JCT:dynamic:5948d13f;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Vigenère
