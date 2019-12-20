@@ -8,7 +8,6 @@ import pandas
 import argparse; from argparse import FileType
 import pathlib ; from pathlib  import Path
 import flist_argtype as argtype
-import flist_config as config
 import dataclasses; from dataclasses import dataclass, field
 import typing
 
@@ -19,7 +18,7 @@ import flist_io as io
 def checkValidRecord(record: list, file: Path, line: int):
     """checks whether a record obtained from CT2 dynamic csv is valid"""
     if len(record[0]) == 0 or len(record[1]) == 0:
-        raise io.FlistException(f"at line {line} in {file}, encountered invalid CT2 csv output record.")
+        raise io.FlistException(f"at line#{nr} {line} in {file}, encountered invalid CT2 csv output record.")
 
 
 def appendToDF(entry: flist.SCSV_Entry):
@@ -40,14 +39,14 @@ class Lineparser:
         headerSplit = self.state_currentfunc[0].split(";")
         entriesSplit = [(entry.split(";"),lineNr) for (entry,lineNr) in self.state_currentfunc[1]]
         if(len(headerSplit) != 3):
-            raise io.FlistException(f"at line {line} in {self.input}, encountered invalid csv output record.")
+            raise io.FlistException(f"at line#{nr} {line} in {self.input}, encountered invalid csv output record.")
         functionality = headerSplit[0]
         # how_implemented = headerSplit[1].split("/")
         implicitly("prog.logger").debug(f"{[e[0] for e in entriesSplit]=}")
         result = []
         (entrySplit,lineNr) = entriesSplit[-1]
         if(len(entrySplit) != 3):
-            raise io.FlistException(f"at line {line} in {self.input}, encountered invalid csv output record.")
+            raise io.FlistException(f"at line#{nr} {line} in {self.input}, encountered invalid csv output record.")
         how_implemented = entrySplit[1][1]
         path = entrySplit[2]
         category = ""

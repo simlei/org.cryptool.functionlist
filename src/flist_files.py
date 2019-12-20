@@ -4,7 +4,6 @@ import flist
 import shutil
 import argparse; from argparse import FileType
 import flist_argtype as argtype
-import flist_config as config
 import pathlib; from pathlib import Path
 import flist_io as io
 

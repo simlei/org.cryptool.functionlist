@@ -1,13 +1,42 @@
+# This is a YAML file -- see Wikipedia for more detailed syntax.
+# configuration lines can be disabled by prefixing them with a '#'
+# "defaultsteps" is the sequence of steps that is run when the program is launched without any arguments.
+# If the program is launched with string arguments, they are assumend to be single step names which are run in turn.
+
+# There are a few placeholders that get resolved in file paths:
+# - {project} is resolved to the directory of this config file.
+# - {workspace} is resolved to the main workspace, {project}/ws (TODO: make configurable)
+# - {workspace_template} is resolved to the workspace template directory, {project}/ws-static (TODO: make configurable)
+
+# available steps are:
+# - init_workspace
+# -  CT2scsv_ct2_en
+# -  CT2scsv_ct2_de
+# -  CT2scsv_jct_en
+# -  CT2scsv_jct_de
+# -  categories_ct2_de
+# -  categories_ct2_en
+# -  categories_jct_de
+# -  categories_jct_en
+# -  merge_en
+# -  merge_de
+# -  tofinalform_en
+# -  tofinalform_de
+# -  tohtml_en
+# -  tohtml_de
+
+# This setting specifies the folder name of the main workspace. 
+
 defaultsteps:
-  - init_workspace # deactivate if you do not want to erase and re-recreate the workspace
+  # - init_workspace # activate this if you want to re-create the workspace. Caution: overwrites ALL workspace files!
   - CT2scsv_ct2_en
   - CT2scsv_ct2_de
   - CT2scsv_jct_en
   - CT2scsv_jct_de
-  - categories_ct2_en
   - categories_ct2_de
-  # - categories_jct_en
-  # - categories_jct_de
+  - categories_ct2_en
+  - categories_jct_de
+  - categories_jct_en
   - merge_en
   - merge_de
   - tofinalform_en
@@ -38,26 +67,26 @@ step.CT2scsv_jct_de:
 
 step.categories_ct2_en:
   input  : ${workspace}/scsv_ct2_nocat_en.csv
-  catfile: ${workspace}/categories_ct2_en.csv
-  feedbackfile: ${workspace}/categories_interaction_required.csv
+  catfile: ${workspace}/data/categories_ct2.csv
+  feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
   output : ${workspace}/scsv_ct2_en.csv
 
 step.categories_ct2_de:
   input  : ${workspace}/scsv_ct2_nocat_de.csv
-  catfile: ${workspace}/categories_ct2_de.csv
-  feedbackfile: ${workspace}/categories_interaction_required.csv
+  catfile: ${workspace}/data/categories_ct2.csv
+  feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
   output : ${workspace}/scsv_ct2_de.csv
 
 step.categories_jct_en:
   input  : ${workspace}/scsv_jct_nocat_en.csv
-  catfile: ${workspace}/categories_jct_en.csv
-  feedbackfile: ${workspace}/categories_interaction_required.csv
+  catfile: ${workspace}/data/categories_jct.csv
+  feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_en.csv
 
 step.categories_jct_de:
   input: ${workspace}/scsv_jct_nocat_de.csv
-  catfile: ${workspace}/categories_jct_de.csv
-  feedbackfile: ${workspace}/categories_interaction_required.csv
+  catfile: ${workspace}/data/categories_jct.csv
+  feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
   output: ${workspace}/scsv_jct_de.csv
 
 step.merge_en:
@@ -65,7 +94,7 @@ step.merge_en:
     - ${workspace}/data/en/scsv_webdump/ct1.csv
     - ${workspace}/data/en/scsv_webdump/cto.csv
     - ${workspace}/scsv_ct2_en.csv
-    # - ${workspace}/scsv_jct_en.csv
+    - ${workspace}/scsv_jct_en.csv
   output: ${workspace}/all_merged_en.csv
 
 step.merge_de:
@@ -73,7 +102,7 @@ step.merge_de:
     - ${workspace}/data/de/scsv_webdump/ct1.csv
     - ${workspace}/data/de/scsv_webdump/cto.csv
     - ${workspace}/scsv_ct2_de.csv
-    # - ${workspace}/scsv_jct_de.csv
+    - ${workspace}/scsv_jct_de.csv
   output: ${workspace}/all_merged_de.csv
 
 step.tofinalform_en:
@@ -87,9 +116,9 @@ step.tofinalform_de:
 step.tohtml_en:
   template_html: ${workspace}/data/en/html_template
   input: ${workspace}/all_final_en.csv
-  output: ${workspace}/www/html_en/index.html
+  output: ${project}/sphinx-doc/genFlistHtml/html_en/index.html
 
 step.tohtml_de:
   template_html: ${workspace}/data/de/html_template
   input: ${workspace}/all_final_de.csv
-  output: ${workspace}/www/html_de/index.html
+  output: ${project}/sphinx-doc/genFlistHtml/html_de/index.html

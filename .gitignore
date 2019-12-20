@@ -1,7 +1,6 @@
 /**/*.local
 /ws
-!/ws/www
-!/ws/www/**
+/ws/**
 
 # ACME gitignore below
 

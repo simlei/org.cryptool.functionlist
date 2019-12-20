@@ -460,7 +460,8 @@ class FinalForm_Dataset(CSV_Dataset):
 # ---- Id formation
 
 def makeId(functionality_en:str, path:str, how_implemented:str):
-    payload = f"{functionality_en}{path}{how_implemented}"
+    # payload = f"{functionality_en}{path}{how_implemented}"
+    payload = f"{path}"
     result = hashlib.md5(payload.encode()).hexdigest()[:8]
     return result
 

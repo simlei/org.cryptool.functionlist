@@ -6,16 +6,11 @@ import benedict; from benedict.dicts import benedict as bdict
 import flist_api as api; from flist_api import implicitly
 
 import plumbum; from plumbum.commands import BaseCommand
-
-def RunStep(step_prog) -> bool:
-    currentStep = step_prog
-    proc = step_prog.popen(stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr); 
-    currentProc = proc
-    proc.communicate(); 
-    if proc.returncode != 0: 
-        return False
-    else:
-        return True
+import flist_step_categories
+import flist_step_CT2scsv
+import flist_step_merge
+import flist_step_tofinalform
+import flist_step_tohtml
 
 @dataclass
 class FlistStep:
@@ -62,7 +57,9 @@ class FlistStep:
         if isinstance(processed, str):
             processed = processed.replace('${workspace}', str(implicitly("workspace").path))
         if isinstance(processed, str):
-            processed = processed.replace('${workspace.template}', str(implicitly("workspace").template))
+            processed = processed.replace('${workspace_template}', str(implicitly("workspace").template))
+        if isinstance(processed, str):
+            processed = processed.replace('${project}', str(Path(__file__).parent.parent))
         if isinstance(processed, str):
             try:
                 topath = Path(processed)
@@ -91,80 +88,118 @@ def flist_augment_cfgpath(ws: Path, cfgpath: str):
     else:
         return Path(cfgpath)
 
+allsteps=[]
+def registerStep(step: FlistStep):
+    global allsteps
+    allsteps.append(step)
 
-import flist_step_categories
-import flist_step_CT2scsv
-import flist_step_merge
-import flist_step_tofinalform
-import flist_step_tohtml
+def getStep(stepname: str):
+    matched = [step for step in allsteps if step.name == stepname]
+    if len(matched) == 0:
+        raise Exception(f"could not find step with name {stepname}")
+    return matched[0]
+
+init_workspace = FlistStep(
+            name = "init_workspace",
+            callable = lambda : implicitly("workspace").recreated(),
+            proto = {}
+        )
+registerStep(init_workspace);
 
 CT2scsv_jct_en = FlistStep(
     name="CT2scsv_jct_en",
     callable = flist_step_CT2scsv.CreateCT2SCSV,
     proto = bdict(input=None, output=None, id_reference=None, toolname="JCT")
 )
+registerStep(CT2scsv_jct_en)
+
 CT2scsv_jct_de = FlistStep(
     name="CT2scsv_jct_de",
     callable = flist_step_CT2scsv.CreateCT2SCSV, 
     proto = bdict(input=None, output=None, id_reference=None, toolname="JCT")
 )
+registerStep(CT2scsv_jct_de)
+
 CT2scsv_ct2_en = FlistStep(
     name="CT2scsv_ct2_en",
     callable = flist_step_CT2scsv.CreateCT2SCSV, 
     proto = bdict(input=None, output=None, id_reference=None, toolname="CT2")
 )
+registerStep(CT2scsv_ct2_en)
+
 CT2scsv_ct2_de = FlistStep(
     name="CT2scsv_ct2_de",
     callable = flist_step_CT2scsv.CreateCT2SCSV, 
     proto = bdict(input=None, output=None, id_reference=None, toolname="CT2")
 )
+registerStep(CT2scsv_ct2_de)
+
 categories_ct2_en = FlistStep(
     name="categories_ct2_en", 
     callable = flist_step_categories.Add_Categories,
     proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="en")
 )
+registerStep(categories_ct2_en)
+
 categories_ct2_de = FlistStep(
     name="categories_ct2_de", 
     callable = flist_step_categories.Add_Categories,
     proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="de")
 )
+registerStep(categories_ct2_de)
+
 categories_jct_en = FlistStep(
     name="categories_jct_en", 
     callable = flist_step_categories.Add_Categories,
     proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="en")
 )
+registerStep(categories_jct_en)
+
 categories_jct_de = FlistStep(
     name="categories_jct_de", 
     callable = flist_step_categories.Add_Categories,
     proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="de")
 )
+registerStep(categories_jct_de)
+
 merge_en = FlistStep(
     name="merge_en",
     callable = flist_step_merge.MergeImpl,
     proto = bdict(input=[], output=None)
 )
-merge_de= FlistStep(
+registerStep(merge_en)
+
+merge_de = FlistStep(
     name="merge_de",
     callable = flist_step_merge.MergeImpl,
     proto = bdict(input=[], output=None)
 )
+registerStep(merge_de)
+
 tofinalform_en = FlistStep(
     name="tofinalform_en",
     callable = flist_step_tofinalform.CreateFinalForm,
     proto = bdict(input=None, output=None)
 )
-tofinalform_de= FlistStep(
+registerStep(tofinalform_en)
+
+tofinalform_de = FlistStep(
     name="tofinalform_de",
     callable = flist_step_tofinalform.CreateFinalForm,
     proto = bdict(input=None, output=None)
 )
+registerStep(tofinalform_de)
+
 tohtml_en = FlistStep(
     name="tohtml_en",
     callable = flist_step_tohtml.MakeHTML,
     proto = bdict(input=None, output=None, template_html=None)
 )
-tohtml_de= FlistStep(
+registerStep(tohtml_en)
+
+tohtml_de = FlistStep(
     name="tohtml_de",
     callable = flist_step_tohtml.MakeHTML,
     proto = bdict(input=None, output=None, template_html=None)
 )
+registerStep(tohtml_de)

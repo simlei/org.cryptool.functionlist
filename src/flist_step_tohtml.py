@@ -10,7 +10,6 @@ import flist
 import dataclasses; from dataclasses import dataclass, field
 from pathlib import Path
 import flist_argtype as argtype
-import flist_config as config
 import typing; from typing import List, Any
 import flist_io as io
 import flist_api as api; from flist_api import implicitly
@@ -91,7 +90,6 @@ def generate_row_tags(dataset, template_html: Path):
             odd = "even"
         else:
             odd = "odd"
-        implicitly("prog.logger").info(f"generating html row for {row}")
         result += substituteFileToStr(template_html / "fragment_row.html", 
                                    odd_even=odd,
                                    functionality=row.functionality,

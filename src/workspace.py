@@ -74,7 +74,6 @@ def ensure_workspace(path: Path, template: Optional[Path] = None):
         return recreate_workspace(path, template)
 
 def recreate_workspace(path: Path, template: Optional[Path] = None):
-
     if template:
         if not template.exists():
             raise api.ArgparseException(f"workspace: template dir {template} does not exist")

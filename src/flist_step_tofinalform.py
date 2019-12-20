@@ -6,7 +6,6 @@ import flist
 import dataclasses; from dataclasses import dataclass, field
 from pathlib import Path
 import flist_argtype as argtype
-import flist_config as config
 import flist_io as io
 
 @dataclass

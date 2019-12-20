@@ -1,0 +1,46 @@
+@startuml
+digraph G {
+rankdir=LR;
+    "${workspace}/data/en/scsv_generated/ct2_corrected.csv" -> CT2scsv_ct2_en
+    "${workspace}/data/de/scsv_generated/ct2_corrected.csv" -> CT2scsv_ct2_de
+
+    "${workspace}/data/en/scsv_generated/jct.csv" -> CT2scsv_jct_en
+    "${workspace}/data/de/scsv_generated/jct.csv" -> CT2scsv_jct_de
+
+    CT2scsv_ct2_en -> categories_ct2_en
+    "${workspace}/data/categories_ct2.csv" -> categories_ct2_en
+
+    CT2scsv_ct2_de -> categories_ct2_de
+    "${workspace}/data/categories_ct2.csv" -> categories_ct2_de
+
+    CT2scsv_jct_en -> categories_jct_en
+    "${workspace}/data/categories_jct.csv" -> categories_jct_en
+
+    CT2scsv_jct_de -> categories_jct_de
+    "${workspace}/data/categories_jct.csv" -> categories_jct_de
+
+    categories_ct2_en -> merge_en
+    categories_ct2_de -> merge_de
+    categories_jct_en -> merge_en
+    categories_jct_de -> merge_de
+
+    "${workspace}/data/en/scsv_webdump/ct1.csv" -> merge_en
+    "${workspace}/data/en/scsv_webdump/cto.csv" -> merge_en
+
+    "${workspace}/data/de/scsv_webdump/ct1.csv" -> merge_de
+    "${workspace}/data/de/scsv_webdump/cto.csv" -> merge_de
+
+    merge_en -> tofinalform_en
+    merge_de -> tofinalform_de
+
+    merge_en -> tohtml_en
+    merge_de -> tohtml_de
+
+    tofinalform_en -> "${workspace}/all_final_en.csv"
+    tofinalform_de -> "${workspace}/all_final_de.csv"
+
+    tohtml_en -> "${project}/sphinx-doc/genFlistHtml/html_en/index.html"
+    tohtml_de -> "${project}/sphinx-doc/genFlistHtml/html_de/index.html"
+
+} 
+@enduml
