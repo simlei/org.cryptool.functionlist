@@ -13,6 +13,6 @@ To that end, it processes legacy files from, and data that is dynamically genera
 - Python 3.8
 - see [requirements.txt](requirements.txt)
 
-Documentation
+# Documentation
 
-[**Please continue to read it here**](sphinx-doc/_build/html/index.html)
+[**Please continue to read it here**](https://simlei.github.io/org.cryptool.functionlist/sphinx-doc/_build/html/index.html)
