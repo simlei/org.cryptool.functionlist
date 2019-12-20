@@ -13,4 +13,6 @@ To that end, it processes legacy files from, and data that is dynamically genera
 - Python 3.8
 - see [requirements.txt](requirements.txt)
 
-[# In-depth user and developer documentation](sphinx-doc/_build/html/index.html)
+Documentation
+
+[**Please continue to read it here**](sphinx-doc/_build/html/index.html)
