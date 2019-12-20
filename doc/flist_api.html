@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>flist_api module &mdash; CrypTool Functionlist 0.8 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> CrypTool Functionlist
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">User Guide:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview and basic usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workflows.html">Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config_data.html">Steps Config and Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules_infra.html">API: Infrastructure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules_steps.html">API: Step implementation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">CrypTool Functionlist</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>flist_api module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/flist_api.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-flist_api">
+<span id="flist-api-module"></span><h1>flist_api module<a class="headerlink" href="#module-flist_api" title="Permalink to this headline">¶</a></h1>
+<dl class="exception">
+<dt id="flist_api.ApiException">
+<em class="property">exception </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ApiException</code><a class="headerlink" href="#flist_api.ApiException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="flist_api.ArgparseException">
+<em class="property">exception </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ArgparseException</code><a class="headerlink" href="#flist_api.ArgparseException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.ApiException" title="flist_api.ApiException"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.ApiException</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.Context">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">Context</code><span class="sig-paren">(</span><em class="sig-param">names: benedict.dicts.benedict</em>, <em class="sig-param">implicits: flist_api.ContextImplicits = None</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.Context" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<dl class="method">
+<dt id="flist_api.Context.as_dict">
+<code class="sig-name descname">as_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; dict<a class="headerlink" href="#flist_api.Context.as_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist_api.Context.getval">
+<code class="sig-name descname">getval</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span> &#x2192; Any<a class="headerlink" href="#flist_api.Context.getval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist_api.Context.implicits">
+<code class="sig-name descname">implicits</code><em class="property"> = None</em><a class="headerlink" href="#flist_api.Context.implicits" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist_api.Context.make_implicit">
+<code class="sig-name descname">make_implicit</code><span class="sig-paren">(</span><em class="sig-param">ckey</em>, <em class="sig-param">ikey=None</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.Context.make_implicit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.ContextImplicits">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ContextImplicits</code><span class="sig-paren">(</span><em class="sig-param">context</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextImplicits" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.Implicits" title="flist_api.Implicits"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.Implicits</span></code></a></p>
+<dl class="method">
+<dt id="flist_api.ContextImplicits.add">
+<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param">contextkey</em>, <em class="sig-param">implicitkey</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextImplicits.add" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist_api.ContextImplicits.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param">key</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextImplicits.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.ContextProcessor">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ContextProcessor</code><a class="headerlink" href="#flist_api.ContextProcessor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<dl class="method">
+<dt id="flist_api.ContextProcessor.initialize">
+<code class="sig-name descname">initialize</code><span class="sig-paren">(</span><em class="sig-param">ctx: flist_api.Context</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextProcessor.initialize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist_api.ContextProcessor.process">
+<em class="property">abstract </em><code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">ctx: flist_api.Context</em><span class="sig-paren">)</span> &#x2192; List[flist_api.DictContrib]<a class="headerlink" href="#flist_api.ContextProcessor.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.ContextProcessorCopy">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ContextProcessorCopy</code><span class="sig-paren">(</span><em class="sig-param">id_from: str</em>, <em class="sig-param">id_to: str</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextProcessorCopy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.ContextProcessor" title="flist_api.ContextProcessor"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.ContextProcessor</span></code></a></p>
+<dl class="method">
+<dt id="flist_api.ContextProcessorCopy.process">
+<code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">ctx: flist_api.Context</em><span class="sig-paren">)</span> &#x2192; List[flist_api.DictContrib]<a class="headerlink" href="#flist_api.ContextProcessorCopy.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.ContextProcessorForeach">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ContextProcessorForeach</code><span class="sig-paren">(</span><em class="sig-param">id_in: str</em>, <em class="sig-param">id_out: str</em>, <em class="sig-param">fun: Callable</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextProcessorForeach" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.ContextProcessor" title="flist_api.ContextProcessor"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.ContextProcessor</span></code></a></p>
+<dl class="method">
+<dt id="flist_api.ContextProcessorForeach.process">
+<code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">ctx: flist_api.Context</em><span class="sig-paren">)</span> &#x2192; List[flist_api.DictContrib]<a class="headerlink" href="#flist_api.ContextProcessorForeach.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.ContextProcessorLambda">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ContextProcessorLambda</code><span class="sig-paren">(</span><em class="sig-param">ids_in: List[str], id_out: str, fun: Callable</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextProcessorLambda" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.ContextProcessor" title="flist_api.ContextProcessor"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.ContextProcessor</span></code></a></p>
+<dl class="method">
+<dt id="flist_api.ContextProcessorLambda.process">
+<code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">ctx: flist_api.Context</em><span class="sig-paren">)</span> &#x2192; List[flist_api.DictContrib]<a class="headerlink" href="#flist_api.ContextProcessorLambda.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.ContextProcessorYamlConfig">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">ContextProcessorYamlConfig</code><span class="sig-paren">(</span><em class="sig-param">path: pathlib.Path</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextProcessorYamlConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="flist_api.ContextProcessorYamlConfig.load">
+<code class="sig-name descname">load</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.ContextProcessorYamlConfig.load" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist_api.ContextProcessorYamlConfig.process">
+<code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">ctx: flist_api.Context</em><span class="sig-paren">)</span> &#x2192; List[flist_api.DictContrib]<a class="headerlink" href="#flist_api.ContextProcessorYamlConfig.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.DictContrib">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">DictContrib</code><span class="sig-paren">(</span><em class="sig-param">key: str</em>, <em class="sig-param">val: Any</em>, <em class="sig-param">how: str = 'append'</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.DictContrib" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="flist_api.DictContrib.apply">
+<code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">d: benedict.dicts.benedict</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.DictContrib.apply" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist_api.DictContrib.how">
+<code class="sig-name descname">how</code><em class="property"> = 'append'</em><a class="headerlink" href="#flist_api.DictContrib.how" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist_api.DictContrib.how_append">
+<code class="sig-name descname">how_append</code><em class="property"> = 'append'</em><a class="headerlink" href="#flist_api.DictContrib.how_append" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist_api.DictContrib.how_set">
+<code class="sig-name descname">how_set</code><em class="property"> = 'set'</em><a class="headerlink" href="#flist_api.DictContrib.how_set" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.DictImplicits">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">DictImplicits</code><span class="sig-paren">(</span><em class="sig-param">d: dict</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.DictImplicits" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.Implicits" title="flist_api.Implicits"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.Implicits</span></code></a></p>
+<dl class="method">
+<dt id="flist_api.DictImplicits.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param">key</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.DictImplicits.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.Implicits">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">Implicits</code><a class="headerlink" href="#flist_api.Implicits" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<dl class="method">
+<dt id="flist_api.Implicits.get">
+<em class="property">abstract </em><code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param">key</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.Implicits.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.Prog">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">Prog</code><a class="headerlink" href="#flist_api.Prog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<dl class="method">
+<dt id="flist_api.Prog.context">
+<em class="property">property </em><code class="sig-name descname">context</code><a class="headerlink" href="#flist_api.Prog.context" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist_api.Prog.logger">
+<em class="property">property </em><code class="sig-name descname">logger</code><a class="headerlink" href="#flist_api.Prog.logger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist_api.Prog.run_from_cmdline_call">
+<code class="sig-name descname">run_from_cmdline_call</code><span class="sig-paren">(</span><em class="sig-param">argv: List[str] = None</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.Prog.run_from_cmdline_call" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist_api.RawArgContextProcessor">
+<em class="property">class </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">RawArgContextProcessor</code><a class="headerlink" href="#flist_api.RawArgContextProcessor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.ContextProcessor" title="flist_api.ContextProcessor"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.ContextProcessor</span></code></a></p>
+<dl class="method">
+<dt id="flist_api.RawArgContextProcessor.process">
+<code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">ctx: flist_api.Context</em><span class="sig-paren">)</span> &#x2192; List[flist_api.DictContrib]<a class="headerlink" href="#flist_api.RawArgContextProcessor.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="flist_api.UnexpectedKey">
+<em class="property">exception </em><code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">UnexpectedKey</code><a class="headerlink" href="#flist_api.UnexpectedKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist_api.ApiException" title="flist_api.ApiException"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist_api.ApiException</span></code></a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="flist_api.implicitly">
+<code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">implicitly</code><span class="sig-paren">(</span><em class="sig-param">key</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.implicitly" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="flist_api.implicitly_or">
+<code class="sig-prename descclassname">flist_api.</code><code class="sig-name descname">implicitly_or</code><span class="sig-paren">(</span><em class="sig-param">key</em>, <em class="sig-param">default=None</em><span class="sig-paren">)</span><a class="headerlink" href="#flist_api.implicitly_or" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Simon Leischnig
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

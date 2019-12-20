@@ -1,0 +1,616 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>flist module &mdash; CrypTool Functionlist 0.8 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="flist_steps module" href="flist_steps.html" />
+    <link rel="prev" title="Infrastructure modules" href="modules_infra.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> CrypTool Functionlist
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">User Guide:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview and basic usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workflows.html">Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config_data.html">Steps Config and Data</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules_infra.html">API: Infrastructure</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">flist module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flist_steps.html">flist_steps module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flistapp.html">flistapp module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules_steps.html">API: Step implementation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">CrypTool Functionlist</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules_infra.html">Infrastructure modules</a> &raquo;</li>
+        
+      <li>flist module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/flist.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-flist">
+<span id="flist-module"></span><h1>flist module<a class="headerlink" href="#module-flist" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="flist.CSV_Dataset">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">CSV_Dataset</code><a class="headerlink" href="#flist.CSV_Dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<p>super class for any csv dataset in the flist project.
+CSV files in this schemes are not ever considered to have a “header” row; 
+this is because they are often read in in series, where single headers would be 
+a source of conflicts.</p>
+<dl class="method">
+<dt id="flist.CSV_Dataset.Dataframe_From_File">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_File</code><span class="sig-paren">(</span><em class="sig-param">file: pathlib.Path</em>, <em class="sig-param">columns</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.CSV_Dataset.Dataframe_From_File" title="Permalink to this definition">¶</a></dt>
+<dd><p>This attempts to convert a file to a dataframe, based on a list of column names given</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.CSV_Dataset.Dataframe_From_Files">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_Files</code><span class="sig-paren">(</span><em class="sig-param">files</em>, <em class="sig-param">columns</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.CSV_Dataset.Dataframe_From_Files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Based on a list of columns, return the dataframe that corresponds to the content of the given files</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.CSV_Dataset.get_columns">
+<em class="property">abstract </em><code class="sig-name descname">get_columns</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List[str]<a class="headerlink" href="#flist.CSV_Dataset.get_columns" title="Permalink to this definition">¶</a></dt>
+<dd><p>return the columns of the CSV scheme</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.CSV_Dataset.get_rows">
+<em class="property">abstract </em><code class="sig-name descname">get_rows</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List[dict]<a class="headerlink" href="#flist.CSV_Dataset.get_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns a list of dictionaries, representing the fields of the object via key-value notation.
+the string representation of its members and their names can automatically describe a CSV table</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.CSV_Dataset.to_dataframe">
+<code class="sig-name descname">to_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#flist.CSV_Dataset.to_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>automatically construct the dataframe for this CSV dataset</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.CSV_Dataset.write_csv">
+<code class="sig-name descname">write_csv</code><span class="sig-paren">(</span><em class="sig-param">outfile</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.CSV_Dataset.write_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>This attempts to convert the CSV_Entry fields from self.get_dataframe_dictionaries to a pandas.DataFrame, 
+which is then written to a CSV file.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.CSV_Entry">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">CSV_Entry</code><a class="headerlink" href="#flist.CSV_Entry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<p>this class is just a marker for future abstractions over CSV entries</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.FinalForm_Dataset">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">FinalForm_Dataset</code><span class="sig-paren">(</span><em class="sig-param">rows: 'List[FinalForm_Entry]' = &lt;factory&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist.CSV_Dataset" title="flist.CSV_Dataset"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist.CSV_Dataset</span></code></a></p>
+<dl class="attribute">
+<dt id="flist.FinalForm_Dataset.COLUMNS">
+<code class="sig-name descname">COLUMNS</code><em class="property"> = ['functionality', 'how_implemented_CT1', 'how_implemented_CT2', 'how_implemented_JCT', 'how_implemented_CTO', 'paths_CT1', 'paths_CT2', 'paths_JCT', 'paths_CTO', 'categories']</em><a class="headerlink" href="#flist.FinalForm_Dataset.COLUMNS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.Dataframe_From_File">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_File</code><span class="sig-paren">(</span><em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.Dataframe_From_File" title="Permalink to this definition">¶</a></dt>
+<dd><p>This attempts to convert a file to a dataframe, based on a list of column names given</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.Dataframe_From_Files">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_Files</code><span class="sig-paren">(</span><em class="sig-param">files</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.Dataframe_From_Files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Based on a list of columns, return the dataframe that corresponds to the content of the given files</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.From_Dataframe">
+<em class="property">static </em><code class="sig-name descname">From_Dataframe</code><span class="sig-paren">(</span><em class="sig-param">dataframe</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.From_Dataframe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.From_MCSV">
+<em class="property">static </em><code class="sig-name descname">From_MCSV</code><span class="sig-paren">(</span><em class="sig-param">mcsv_set</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.From_MCSV" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.From_Rows">
+<em class="property">static </em><code class="sig-name descname">From_Rows</code><span class="sig-paren">(</span><em class="sig-param">rows: List[flist.MCSV_Entry]</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.From_Rows" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.get_columns">
+<code class="sig-name descname">get_columns</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.get_columns" title="Permalink to this definition">¶</a></dt>
+<dd><p>return the columns of the CSV scheme</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.get_dataframe_dictionaries">
+<code class="sig-name descname">get_dataframe_dictionaries</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.get_dataframe_dictionaries" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Dataset.get_rows">
+<code class="sig-name descname">get_rows</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Dataset.get_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns a list of dictionaries, representing the fields of the object via key-value notation.
+the string representation of its members and their names can automatically describe a CSV table</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.FinalForm_Entry">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">FinalForm_Entry</code><span class="sig-paren">(</span><em class="sig-param">functionality: 'str'</em>, <em class="sig-param">how_implemented: 'Dict[str</em>, <em class="sig-param">str]'</em>, <em class="sig-param">paths: 'Dict[str</em>, <em class="sig-param">str]'</em>, <em class="sig-param">categories: 'str'</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Entry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="flist.FinalForm_Entry.From_Dataframe_Row">
+<em class="property">static </em><code class="sig-name descname">From_Dataframe_Row</code><span class="sig-paren">(</span><em class="sig-param">row</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Entry.From_Dataframe_Row" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Entry.From_MCSV">
+<em class="property">static </em><code class="sig-name descname">From_MCSV</code><span class="sig-paren">(</span><em class="sig-param">mcsv: flist.MCSV_Entry</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Entry.From_MCSV" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.FinalForm_Entry.to_dataframe_row">
+<code class="sig-name descname">to_dataframe_row</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.FinalForm_Entry.to_dataframe_row" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.MCSV_Dataset">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">MCSV_Dataset</code><span class="sig-paren">(</span><em class="sig-param">rows: 'List[MCSV_Entry]' = &lt;factory&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist.CSV_Dataset" title="flist.CSV_Dataset"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist.CSV_Dataset</span></code></a></p>
+<dl class="attribute">
+<dt id="flist.MCSV_Dataset.COLUMNS">
+<code class="sig-name descname">COLUMNS</code><em class="property"> = ['ids', 'functionality', 'how_implemented', 'paths', 'categories']</em><a class="headerlink" href="#flist.MCSV_Dataset.COLUMNS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Dataset.Dataframe_From_File">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_File</code><span class="sig-paren">(</span><em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset.Dataframe_From_File" title="Permalink to this definition">¶</a></dt>
+<dd><p>This attempts to convert a file to a dataframe, based on a list of column names given</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Dataset.Dataframe_From_Files">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_Files</code><span class="sig-paren">(</span><em class="sig-param">files</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset.Dataframe_From_Files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Based on a list of columns, return the dataframe that corresponds to the content of the given files</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Dataset.From_Dataframe">
+<em class="property">static </em><code class="sig-name descname">From_Dataframe</code><span class="sig-paren">(</span><em class="sig-param">dataframe</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset.From_Dataframe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Dataset.From_Rows">
+<em class="property">static </em><code class="sig-name descname">From_Rows</code><span class="sig-paren">(</span><em class="sig-param">rows: List[flist.MCSV_Entry]</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset.From_Rows" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Dataset.get_columns">
+<code class="sig-name descname">get_columns</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset.get_columns" title="Permalink to this definition">¶</a></dt>
+<dd><p>return the columns of the CSV scheme</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Dataset.get_dataframe_dictionaries">
+<code class="sig-name descname">get_dataframe_dictionaries</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset.get_dataframe_dictionaries" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Dataset.get_rows">
+<code class="sig-name descname">get_rows</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Dataset.get_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns a list of dictionaries, representing the fields of the object via key-value notation.
+the string representation of its members and their names can automatically describe a CSV table</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.MCSV_Entry">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">MCSV_Entry</code><span class="sig-paren">(</span><em class="sig-param">functionality: 'str'</em>, <em class="sig-param">ids: 'List[str]'</em>, <em class="sig-param">how_implemented: 'List[str]'</em>, <em class="sig-param">paths: 'List[List[str]]'</em>, <em class="sig-param">categories: 'List[str]'</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist.CSV_Entry" title="flist.CSV_Entry"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist.CSV_Entry</span></code></a></p>
+<dl class="method">
+<dt id="flist.MCSV_Entry.From_Dataframe_Row">
+<em class="property">static </em><code class="sig-name descname">From_Dataframe_Row</code><span class="sig-paren">(</span><em class="sig-param">row</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.From_Dataframe_Row" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist.MCSV_Entry.SEP_categories">
+<code class="sig-name descname">SEP_categories</code><em class="property"> = ' &lt;br \\&gt;'</em><a class="headerlink" href="#flist.MCSV_Entry.SEP_categories" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist.MCSV_Entry.SEP_how_implemented">
+<code class="sig-name descname">SEP_how_implemented</code><em class="property"> = '\\'</em><a class="headerlink" href="#flist.MCSV_Entry.SEP_how_implemented" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist.MCSV_Entry.SEP_ids">
+<code class="sig-name descname">SEP_ids</code><em class="property"> = '+'</em><a class="headerlink" href="#flist.MCSV_Entry.SEP_ids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist.MCSV_Entry.SEP_pathelement">
+<code class="sig-name descname">SEP_pathelement</code><em class="property"> = ' \\ '</em><a class="headerlink" href="#flist.MCSV_Entry.SEP_pathelement" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="flist.MCSV_Entry.SEP_paths">
+<code class="sig-name descname">SEP_paths</code><em class="property"> = ' &lt;br /&gt; '</em><a class="headerlink" href="#flist.MCSV_Entry.SEP_paths" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.filter_for_cryptoolstring">
+<code class="sig-name descname">filter_for_cryptoolstring</code><span class="sig-paren">(</span><em class="sig-param">ctstring</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.filter_for_cryptoolstring" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.get_ids_for">
+<code class="sig-name descname">get_ids_for</code><span class="sig-paren">(</span><em class="sig-param">ctstring</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.get_ids_for" title="Permalink to this definition">¶</a></dt>
+<dd><p>ctstring: one of “CT1,CT2,CTO,JCT”</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.merge_categories">
+<em class="property">static </em><code class="sig-name descname">merge_categories</code><span class="sig-paren">(</span><em class="sig-param">categories</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.merge_categories" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.merge_functionality">
+<em class="property">static </em><code class="sig-name descname">merge_functionality</code><span class="sig-paren">(</span><em class="sig-param">functionality</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.merge_functionality" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.merge_how_implemented">
+<em class="property">static </em><code class="sig-name descname">merge_how_implemented</code><span class="sig-paren">(</span><em class="sig-param">how_implemented</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.merge_how_implemented" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.merge_ids">
+<em class="property">static </em><code class="sig-name descname">merge_ids</code><span class="sig-paren">(</span><em class="sig-param">ids</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.merge_ids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.merge_paths">
+<em class="property">static </em><code class="sig-name descname">merge_paths</code><span class="sig-paren">(</span><em class="sig-param">paths</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.merge_paths" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.processStartOfPath">
+<em class="property">static </em><code class="sig-name descname">processStartOfPath</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.processStartOfPath" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.to_dataframe_row">
+<code class="sig-name descname">to_dataframe_row</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.to_dataframe_row" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.unmerge_categories">
+<em class="property">static </em><code class="sig-name descname">unmerge_categories</code><span class="sig-paren">(</span><em class="sig-param">merged</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.unmerge_categories" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.unmerge_functionality">
+<em class="property">static </em><code class="sig-name descname">unmerge_functionality</code><span class="sig-paren">(</span><em class="sig-param">merged</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.unmerge_functionality" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.unmerge_how_implemented">
+<em class="property">static </em><code class="sig-name descname">unmerge_how_implemented</code><span class="sig-paren">(</span><em class="sig-param">merged</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.unmerge_how_implemented" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.unmerge_ids">
+<em class="property">static </em><code class="sig-name descname">unmerge_ids</code><span class="sig-paren">(</span><em class="sig-param">merged</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.unmerge_ids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.MCSV_Entry.unmerge_paths">
+<em class="property">static </em><code class="sig-name descname">unmerge_paths</code><span class="sig-paren">(</span><em class="sig-param">merged</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.MCSV_Entry.unmerge_paths" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.Merged_Functionality">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">Merged_Functionality</code><span class="sig-paren">(</span><em class="sig-param">functionality: 'str'</em>, <em class="sig-param">scsv_rows: 'List[SCSV_Entry]' = &lt;factory&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.Merged_Functionality" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="flist.Merged_Functionality.merge_with">
+<code class="sig-name descname">merge_with</code><span class="sig-paren">(</span><em class="sig-param">scsv_row</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.Merged_Functionality.merge_with" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.Merged_Functionality.to_MCSV">
+<code class="sig-name descname">to_MCSV</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.Merged_Functionality.to_MCSV" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.SCSV_Dataset">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">SCSV_Dataset</code><span class="sig-paren">(</span><em class="sig-param">rows: List[SCSV_Entry] = &lt;factory&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist.CSV_Dataset" title="flist.CSV_Dataset"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist.CSV_Dataset</span></code></a></p>
+<p>This class models the “single CSV” scheme of data. It is either provided
+by the CrypTool itself, or provided by another pipeline “step” of this project.
+The path elements (how to get to the functionality) are internally modeled as a list of path elements.</p>
+<dl class="attribute">
+<dt id="flist.SCSV_Dataset.COLUMNS">
+<code class="sig-name descname">COLUMNS</code><em class="property"> = ['id', 'functionality', 'how_implemented', 'path', 'category']</em><a class="headerlink" href="#flist.SCSV_Dataset.COLUMNS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Dataset.Dataframe_From_File">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_File</code><span class="sig-paren">(</span><em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset.Dataframe_From_File" title="Permalink to this definition">¶</a></dt>
+<dd><p>This attempts to convert a file to a dataframe, based on a list of column names given</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Dataset.Dataframe_From_Files">
+<em class="property">static </em><code class="sig-name descname">Dataframe_From_Files</code><span class="sig-paren">(</span><em class="sig-param">files</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset.Dataframe_From_Files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Based on a list of columns, return the dataframe that corresponds to the content of the given files</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Dataset.From_Dataframe">
+<em class="property">static </em><code class="sig-name descname">From_Dataframe</code><span class="sig-paren">(</span><em class="sig-param">dataset</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset.From_Dataframe" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Dataset.get_columns">
+<code class="sig-name descname">get_columns</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset.get_columns" title="Permalink to this definition">¶</a></dt>
+<dd><p>return the columns of the CSV scheme</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Dataset.get_dataframe_dictionaries">
+<code class="sig-name descname">get_dataframe_dictionaries</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset.get_dataframe_dictionaries" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Dataset.get_functionalities">
+<code class="sig-name descname">get_functionalities</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset.get_functionalities" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Dataset.get_rows">
+<code class="sig-name descname">get_rows</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Dataset.get_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns a list of dictionaries, representing the fields of the object via key-value notation.
+the string representation of its members and their names can automatically describe a CSV table</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="flist.SCSV_Entry">
+<em class="property">class </em><code class="sig-prename descclassname">flist.</code><code class="sig-name descname">SCSV_Entry</code><span class="sig-paren">(</span><em class="sig-param">id: str, functionality: str, how_implemented: str, path: List[str], category: str</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Entry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#flist.CSV_Entry" title="flist.CSV_Entry"><code class="xref py py-class docutils literal notranslate"><span class="pre">flist.CSV_Entry</span></code></a></p>
+<p>represents a single line in a “SCSV” file. It represents a single row of data</p>
+<dl class="method">
+<dt id="flist.SCSV_Entry.From_Dataframe_Row">
+<em class="property">static </em><code class="sig-name descname">From_Dataframe_Row</code><span class="sig-paren">(</span><em class="sig-param">row</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Entry.From_Dataframe_Row" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Entry.dynamic_category_notset">
+<em class="property">static </em><code class="sig-name descname">dynamic_category_notset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Entry.dynamic_category_notset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Entry.dynamic_category_placeholder">
+<em class="property">static </em><code class="sig-name descname">dynamic_category_placeholder</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Entry.dynamic_category_placeholder" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Entry.infer_id_from_fields">
+<code class="sig-name descname">infer_id_from_fields</code><span class="sig-paren">(</span><em class="sig-param">tool: str</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Entry.infer_id_from_fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="flist.SCSV_Entry.to_dataframe_dictionary">
+<code class="sig-name descname">to_dataframe_dictionary</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flist.SCSV_Entry.to_dataframe_dictionary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="flist.makeId">
+<code class="sig-prename descclassname">flist.</code><code class="sig-name descname">makeId</code><span class="sig-paren">(</span><em class="sig-param">functionality_en: str</em>, <em class="sig-param">path: str</em>, <em class="sig-param">how_implemented: str</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.makeId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="flist.uniq">
+<code class="sig-prename descclassname">flist.</code><code class="sig-name descname">uniq</code><span class="sig-paren">(</span><em class="sig-param">lst</em><span class="sig-paren">)</span><a class="headerlink" href="#flist.uniq" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="flist_steps.html" class="btn btn-neutral float-right" title="flist_steps module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modules_infra.html" class="btn btn-neutral float-left" title="Infrastructure modules" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Simon Leischnig
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

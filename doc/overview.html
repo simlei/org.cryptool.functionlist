@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Overview &mdash; CrypTool Functionlist 0.8 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Workflows" href="workflows.html" />
+    <link rel="prev" title="Welcome to CrypTool Functionlist’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> CrypTool Functionlist
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">User Guide:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview and basic usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data-sources">Data sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="workflows.html">Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config_data.html">Steps Config and Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules_infra.html">API: Infrastructure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules_steps.html">API: Step implementation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">CrypTool Functionlist</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/overview.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<p>The CrypTool Functionlist project, short “flist”, is embodied by a command line program where the main mode of operation is to just run it without command line parameters. It performs a sequence of steps. When command line parameters are specified, they are interpreted as the sequence of step names. Otherwise, a preconfigured sequence of steps is performed.</p>
+<p>In the following, it is assumed the user is in the root directory of the project (i.e. <code class="docutils literal notranslate"><span class="pre">src</span></code> and <code class="docutils literal notranslate"><span class="pre">ws-static</span></code> are the sub-folders of the current working directory). Paths that start with <code class="docutils literal notranslate"><span class="pre">./</span></code> are relative to the project root.</p>
+<p>The main program is the file <code class="docutils literal notranslate"><span class="pre">./src/flistapp.py</span></code>. It performs a sequence of steps. Their input and output are files in the directory <code class="docutils literal notranslate"><span class="pre">./ws</span></code>, the “workspace”. The workspace is set up fresh like this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>    ./src/flistapp.py --initws
+</pre></div>
+</div>
+<p>This essentially re-creates the <code class="docutils literal notranslate"><span class="pre">./ws</span></code> directory (double-check that all files changed in there can be overwritten!) and populates it with the contents of <code class="docutils literal notranslate"><span class="pre">./ws-static</span></code>. It is however performed automatically, when no “ws” directory is already present.</p>
+<p>The steps are configured by the file <code class="docutils literal notranslate"><span class="pre">./config.yaml</span></code>. The default sequence of steps, as well as all the arguments to the single steps are configurable. A line of configuration may be disabled (ignored by the program) by prefixing it with a <code class="docutils literal notranslate"><span class="pre">#</span></code> character; however, one should take care to not disable the input to an active step.</p>
+<p>Please refer to <a class="reference external" href="config_data.html">Config and Data</a> for a closer look at the single steps and their configuration. Depending on the reader’s expertise, it might be possible to skip that document entirely and intuit first steps by just using the config file. As an example, the step “merge_en” is configured as follows in the <code class="docutils literal notranslate"><span class="pre">./config.yaml</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>step.merge_de:
+  input: 
+    - ${workspace}/data/de/scsv_webdump/ct1.csv
+    - ${workspace}/data/de/scsv_webdump/cto.csv
+    - ${workspace}/scsv_ct2_de.csv
+    - ${workspace}/scsv_jct_de.csv
+  output: ${workspace}/all_merged_de.csv
+</pre></div>
+</div>
+<p>Every step follows this general scheme: receive input (mostly files), write output to file. All inputs and outputs are in the <code class="docutils literal notranslate"><span class="pre">./ws</span></code> folder, enabling an in-depth view of what happened in the sequence of steps by just inspecting these files.</p>
+<div class="section" id="data-sources">
+<h2>Data sources<a class="headerlink" href="#data-sources" title="Permalink to this headline">¶</a></h2>
+<p>Some of the data sources provided to the steps in <code class="docutils literal notranslate"><span class="pre">./ws</span></code> are generated by external tools, others are incrementally updated to accommodate changes in the respective tools. Generated data sources are:</p>
+<ul class="simple">
+<li><p>CT2 generates the file configured as <code class="docutils literal notranslate"><span class="pre">step.CT2scsv_en_ct2.input</span></code> and <code class="docutils literal notranslate"><span class="pre">step.CT2scsv_de_ct2.input</span></code></p></li>
+<li><p>JCT generates the file configured as <code class="docutils literal notranslate"><span class="pre">step.CT2scsv_en_jct.input</span></code> and <code class="docutils literal notranslate"><span class="pre">step.CT2scsv_de_jct.input</span></code></p></li>
+<li><p>CT1 and CTO do not generate files; their functionality records are managed through their respective <code class="docutils literal notranslate"><span class="pre">step.CT2scsv_{en,de}_ct{1,o}.input</span></code> files</p></li>
+</ul>
+<p>Additional manual information may be required when the tools update their functionality. For JCT and CT2, these are mainly assignments of functionality categories and clustering of functionality paths into groups. This is explained in more detail in <a class="reference external" href="workflows.html">Workflows</a>. The CSV schema of the single files is shown in <a class="reference external" href="config_data.html">Steps Config and Data</a></p>
+<p>CT2 and JCT offer a command-line facility to generate their input files:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">CrypWin</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">GenerateFunctionList</span>
+<span class="c1"># Both english, german and russian .csv files are generated in the current working directory</span>
+
+<span class="o">&gt;</span> <span class="n">JCrypTool</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">nl</span> <span class="n">en</span> <span class="o">-</span><span class="n">GenerateFunctionList</span> <span class="p">[</span><span class="o">&lt;</span><span class="n">path</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">english</span><span class="o">-</span><span class="n">output</span><span class="o">.</span><span class="n">csv</span><span class="o">&gt;</span><span class="p">]</span>
+<span class="o">&gt;</span> <span class="n">JCrypTool</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">nl</span> <span class="n">de</span> <span class="o">-</span><span class="n">GenerateFunctionList</span> <span class="p">[</span><span class="o">&lt;</span><span class="n">path</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">german</span><span class="o">-</span><span class="n">output</span><span class="o">.</span><span class="n">csv</span><span class="o">&gt;</span><span class="p">]</span>
+<span class="c1"># without a path, or with relative paths, the files are generated into the ~/Documents/.jcryptool directory</span>
+</pre></div>
+</div>
+<p>These files have to be put into the configured input locations in <code class="docutils literal notranslate"><span class="pre">./config.yaml</span></code></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="workflows.html" class="btn btn-neutral float-right" title="Workflows" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to CrypTool Functionlist’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Simon Leischnig
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
