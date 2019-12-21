@@ -1,4 +1,4 @@
-# Steps Config and Data
+# Steps config and data
 
 Single steps can be run in isolation by providing the `./src/flistapp.py` with arguments that are step names. When omitted, the "defaultsteps" configuration from './config.yaml' is used.
 
@@ -16,31 +16,31 @@ It is however best viewed in a new Tab via right click -> open image in new tab.
 The steps are implemented by their eponymous `step_{name}.py` files in `./src`
 
 - **CT2scsv_{ct2,jct}_{en,de}** (4 separate steps): processes the files that JCT and CT2 generate, into regular columnar CSV. Generates ids that are consistent across languages based on symmetry between english and german files.
-  - id_reference: the csv file that is used to create functionality entry IDs (for bridging languages)
-  - input       : the input path, output format of JCT/CT2 file (see below, "Data Formats")
-  - output      : the output path: SCSV file (see below, "Data Formats")
+  - *id_reference*:  the csv file that is used to create functionality entry IDs (for bridging languages)
+  - *input*: the input path, output format of JCT/CT2 file (see below, "Data Formats")
+  - *output*: the output path: SCSV file (see below, "Data Formats")
 
 - **step.categories_{ct2,jct}_{en,de}**: Assigns categories to SCSV files from JCT and CT2, based on script-extracted and used-feedback input.
-  input  : SCSV file (see below, "Data Formats")
-  catfile: the "trunk" CSV file that maps ids to categories. Two columns: "id" and "category". The category column must contain the english category string.
-  feedbackfile: A file where the program writes entries that have yet to receive a category from user input. Possible interaction by the user with this file will be taken into account in the next run of the program.
-  output : SCSV file (see below, "Data Formats")
+  - *input*: SCSV file (see below, "Data Formats")
+  - *catfile*: the "trunk" CSV file that maps ids to categories. Two columns: "id" and "category". The category column must contain the english category string.
+  - *feedbackfile*: A file where the program writes entries that have yet to receive a category from user input. Possible interaction by the user with this file will be taken into account in the next run of the program.
+  - *output*: SCSV file (see below, "Data Formats")
 
 - **step.merge_{en,de}**: Merges SCSV files into a single MCSV file, compounding by identical "functionality" column.
-  input: 
+  - *input*: 
     - list
     - of
     - SCSV
     - files (see below, "Data Formats")
-  output: MCSV file (see below, "Data Formats")
+  - *output*: MCSV file (see below, "Data Formats")
 
 - **step.tofinalform_en**: Converts merged MCSV files into the form the database expects
-  input: MCSV file (see below, "Data Formats")
-  output: SQL-Database-fitting CSV (see below, "Data Formats")
+  - *input*: MCSV file (see below, "Data Formats")
+  - *output*: SQL-Database-fitting CSV (see below, "Data Formats")
 
 - **step.tohtml**: Converts merged MCSV files into a html page that is supposed to be the same as the eventual result on the cryptool.org home page
-  input: MCSV file (see below, "Data Formats")
-  output: html page in the `./sphinx-doc` directory
+  - *input*: MCSV file (see below, "Data Formats")
+  - *output*: html page in the `./sphinx-doc` directory
 
 ## Data Formats
 

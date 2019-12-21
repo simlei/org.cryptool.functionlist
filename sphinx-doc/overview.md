@@ -1,5 +1,7 @@
 # Overview
 
+This document gives a high-level overview over the project. It introduces how to run it and how to interact with it. In the following, the reader is assumed to already know the `CrypTool <https://cryptool.org>`_ project.
+
 The CrypTool Functionlist project, short "flist", is embodied by a command line program where the main mode of operation is to just run it without command line parameters. It performs a sequence of steps. When command line parameters are specified, they are interpreted as the sequence of step names. Otherwise, a preconfigured sequence of steps is performed.
 
 In the following, it is assumed the user is in the root directory of the project (i.e. `src` and `ws-static` are the sub-folders of the current working directory). Paths that start with `./` are relative to the project root.

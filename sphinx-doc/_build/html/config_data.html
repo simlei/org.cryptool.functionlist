@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Steps Config and Data &mdash; CrypTool Functionlist 0.8 documentation</title>
+  <title>Steps config and data &mdash; CrypTool Functionlist 0.8 documentation</title>
   
 
   
@@ -84,7 +84,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview and basic usage</a></li>
 <li class="toctree-l1"><a class="reference internal" href="workflows.html">Workflows</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Steps Config and Data</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Steps config and data</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#steps">Steps</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-formats">Data Formats</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#output-of-jct-and-ct2">Output of JCT and CT2</a></li>
@@ -143,7 +143,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Steps Config and Data</li>
+      <li>Steps config and data</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -163,7 +163,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="steps-config-and-data">
-<h1>Steps Config and Data<a class="headerlink" href="#steps-config-and-data" title="Permalink to this headline">¶</a></h1>
+<h1>Steps config and data<a class="headerlink" href="#steps-config-and-data" title="Permalink to this headline">¶</a></h1>
 <p>Single steps can be run in isolation by providing the <code class="docutils literal notranslate"><span class="pre">./src/flistapp.py</span></code> with arguments that are step names. When omitted, the “defaultsteps” configuration from ‘./config.yaml’ is used.</p>
 <p>Since each step receives its input from the workspace directory, and writes its output to the workspace also, that directory can be seen as the “state” of the program.</p>
 <p>At the end of this document, the YAML file is listed which embodies i.a. the following graph and the information flow discussed in the following. In the following graph, input files that are not both input and output are shown, as well as the intermediate steps processing them. The config argument names are omitted for better cleanness. The tohtml step is omitted for now.</p>
@@ -175,32 +175,44 @@
 <ul class="simple">
 <li><p><strong>CT2scsv_{ct2,jct}_{en,de}</strong> (4 separate steps): processes the files that JCT and CT2 generate, into regular columnar CSV. Generates ids that are consistent across languages based on symmetry between english and german files.</p>
 <ul>
-<li><p>id_reference: the csv file that is used to create functionality entry IDs (for bridging languages)</p></li>
-<li><p>input       : the input path, output format of JCT/CT2 file (see below, “Data Formats”)</p></li>
-<li><p>output      : the output path: SCSV file (see below, “Data Formats”)</p></li>
+<li><p><em>id_reference</em>:  the csv file that is used to create functionality entry IDs (for bridging languages)</p></li>
+<li><p><em>input</em>: the input path, output format of JCT/CT2 file (see below, “Data Formats”)</p></li>
+<li><p><em>output</em>: the output path: SCSV file (see below, “Data Formats”)</p></li>
 </ul>
 </li>
-<li><p><strong>step.categories_{ct2,jct}_{en,de}</strong>: Assigns categories to SCSV files from JCT and CT2, based on script-extracted and used-feedback input.
-input  : SCSV file (see below, “Data Formats”)
-catfile: the “trunk” CSV file that maps ids to categories. Two columns: “id” and “category”. The category column must contain the english category string.
-feedbackfile: A file where the program writes entries that have yet to receive a category from user input. Possible interaction by the user with this file will be taken into account in the next run of the program.
-output : SCSV file (see below, “Data Formats”)</p></li>
-<li><p><strong>step.merge_{en,de}</strong>: Merges SCSV files into a single MCSV file, compounding by identical “functionality” column.
-input:</p>
+<li><p><strong>step.categories_{ct2,jct}_{en,de}</strong>: Assigns categories to SCSV files from JCT and CT2, based on script-extracted and used-feedback input.</p>
+<ul>
+<li><p><em>input</em>: SCSV file (see below, “Data Formats”)</p></li>
+<li><p><em>catfile</em>: the “trunk” CSV file that maps ids to categories. Two columns: “id” and “category”. The category column must contain the english category string.</p></li>
+<li><p><em>feedbackfile</em>: A file where the program writes entries that have yet to receive a category from user input. Possible interaction by the user with this file will be taken into account in the next run of the program.</p></li>
+<li><p><em>output</em>: SCSV file (see below, “Data Formats”)</p></li>
+</ul>
+</li>
+<li><p><strong>step.merge_{en,de}</strong>: Merges SCSV files into a single MCSV file, compounding by identical “functionality” column.</p>
+<ul>
+<li><p><em>input</em>:</p>
 <ul>
 <li><p>list</p></li>
 <li><p>of</p></li>
 <li><p>SCSV</p></li>
-<li><p>files (see below, “Data Formats”)
-output: MCSV file (see below, “Data Formats”)</p></li>
+<li><p>files (see below, “Data Formats”)</p></li>
 </ul>
 </li>
-<li><p><strong>step.tofinalform_en</strong>: Converts merged MCSV files into the form the database expects
-input: MCSV file (see below, “Data Formats”)
-output: SQL-Database-fitting CSV (see below, “Data Formats”)</p></li>
-<li><p><strong>step.tohtml</strong>: Converts merged MCSV files into a html page that is supposed to be the same as the eventual result on the cryptool.org home page
-input: MCSV file (see below, “Data Formats”)
-output: html page in the <code class="docutils literal notranslate"><span class="pre">./sphinx-doc</span></code> directory</p></li>
+<li><p><em>output</em>: MCSV file (see below, “Data Formats”)</p></li>
+</ul>
+</li>
+<li><p><strong>step.tofinalform_en</strong>: Converts merged MCSV files into the form the database expects</p>
+<ul>
+<li><p><em>input</em>: MCSV file (see below, “Data Formats”)</p></li>
+<li><p><em>output</em>: SQL-Database-fitting CSV (see below, “Data Formats”)</p></li>
+</ul>
+</li>
+<li><p><strong>step.tohtml</strong>: Converts merged MCSV files into a html page that is supposed to be the same as the eventual result on the cryptool.org home page</p>
+<ul>
+<li><p><em>input</em>: MCSV file (see below, “Data Formats”)</p></li>
+<li><p><em>output</em>: html page in the <code class="docutils literal notranslate"><span class="pre">./sphinx-doc</span></code> directory</p></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="section" id="data-formats">
