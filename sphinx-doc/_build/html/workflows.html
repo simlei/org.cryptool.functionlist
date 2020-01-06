@@ -162,15 +162,17 @@
 <h1>Workflows<a class="headerlink" href="#workflows" title="Permalink to this headline">¶</a></h1>
 <p>The “<strong>Main program step</strong>” in each workflow marks the step which is to be performed successfully (and should be included in the step sequence with its dependencies in the <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code>/command line arguments) for that workflow.</p>
 <p>For an overview of how the steps work together by default, see <a class="reference internal" href="config_data.html"><span class="doc">Steps Config and Data</span></a></p>
+<p>In the general case, simply running all steps from the <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code> would be the simplest approach. For specialized tasks, omit unnecessary steps; for this, consult [Steps Config and Data][config_data.md].</p>
 <div class="section" id="change-files-and-test-changes">
 <h2>Change files and test changes<a class="headerlink" href="#change-files-and-test-changes" title="Permalink to this headline">¶</a></h2>
-<p><strong>Main program step</strong>: <code class="docutils literal notranslate"><span class="pre">step.tohtml_{de,en}</span></code> for testing, and its dependencies</p>
-<p>Often, before releasing a new version of the functionality list to the website, the user would like to test if everything is in order with the manually-managed part of the <a class="reference external" href="datasources.html">data sources</a>.</p>
+<p>This describes how to see what the result of manually changed files look like. In general, this comes down to looking into the files that were generated as step results in <code class="docutils literal notranslate"><span class="pre">./ws</span></code>. However, there is a step that generates an interactive html page of the function list:</p>
+<p><strong>Main program step</strong>: <code class="docutils literal notranslate"><span class="pre">step.tohtml_{de,en}</span></code>; it generates a dynamic html page that emulates the eventual online result on cryptool.org.</p>
 <ul class="simple">
-<li><p>run <code class="docutils literal notranslate"><span class="pre">./src/flistapp.py</span></code> with the preconfigured configuration</p></li>
-<li><p>after the run completes without errors, check the HTML page <code class="docutils literal notranslate"><span class="pre">./ws/www/index.html</span></code> for an interactive (albeit mocked-up) version of the final result.</p></li>
+<li><p>run <code class="docutils literal notranslate"><span class="pre">./src/flistapp.py</span></code> with the preconfigured configuration, or step names as arguments, including <code class="docutils literal notranslate"><span class="pre">step.tohtml_{de,en}</span></code>.</p></li>
+<li><p>after the run completes without errors, check the HTML page <code class="docutils literal notranslate"><span class="pre">${step.tohtml_{de,en}.output}</span></code> for an interactive version of the final result. By default, this points to <code class="docutils literal notranslate"><span class="pre">./sphinx-doc/genFlistHtml/html_{de,en}/index.html</span></code>.</p></li>
 <li><p>change input files of the steps where necessary, repeat if necessary.</p></li>
 </ul>
+<p>Note, that the on-line version at <a class="reference external" href="https://simlei.github.io/org.cryptool.functionlist/sphinx-doc/genFlistHtml/index.html">https://simlei.github.io/org.cryptool.functionlist/sphinx-doc/genFlistHtml/index.html</a> can be tried out without running the program at all, but reflects only the output of the contributor that last pushed it to github.</p>
 </div>
 <div class="section" id="add-category-mappings-for-ct2-and-jct">
 <h2>Add category mappings for CT2 and JCT<a class="headerlink" href="#add-category-mappings-for-ct2-and-jct" title="Permalink to this headline">¶</a></h2>

@@ -4,15 +4,19 @@ The "**Main program step**" in each workflow marks the step which is to be perfo
 
 For an overview of how the steps work together by default, see [Steps Config and Data](config_data.md)
 
+In the general case, simply running all steps from the `config.yaml` would be the simplest approach. For specialized tasks, omit unnecessary steps; for this, consult [Steps Config and Data][config_data.md].
+
 ## Change files and test changes
 
-**Main program step**: `step.tohtml_{de,en}` for testing, and its dependencies
+This describes how to see what the result of manually changed files look like. In general, this comes down to looking into the files that were generated as step results in `./ws`. However, there is a step that generates an interactive html page of the function list:
 
-Often, before releasing a new version of the functionality list to the website, the user would like to test if everything is in order with the manually-managed part of the [data sources](datasources.html).
+**Main program step**: `step.tohtml_{de,en}`; it generates a dynamic html page that emulates the eventual online result on cryptool.org.
 
-- run `./src/flistapp.py` with the preconfigured configuration
-- after the run completes without errors, check the HTML page `./ws/www/index.html` for an interactive (albeit mocked-up) version of the final result.
+- run `./src/flistapp.py` with the preconfigured configuration, or step names as arguments, including `step.tohtml_{de,en}`.
+- after the run completes without errors, check the HTML page `${step.tohtml_{de,en}.output}` for an interactive version of the final result. By default, this points to `./sphinx-doc/genFlistHtml/html_{de,en}/index.html`.
 - change input files of the steps where necessary, repeat if necessary.
+
+Note, that the on-line version at [https://simlei.github.io/org.cryptool.functionlist/sphinx-doc/genFlistHtml/index.html](https://simlei.github.io/org.cryptool.functionlist/sphinx-doc/genFlistHtml/index.html) can be tried out without running the program at all, but reflects only the output of the contributor that last pushed it to github.
 
 ## Add category mappings for CT2 and JCT
 
