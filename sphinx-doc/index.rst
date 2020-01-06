@@ -24,6 +24,19 @@ Requirements and Installation
 
     > pip install -r <path-to-this-project>/requirements.txt
 
+Quickstart
+----------
+
+.. code-block:: bash
+    
+    git clone https://github.com/simlei/org.cryptool.functionlist
+    pip3 install -r ./org.cryptool.functionlist/requirements.txt
+    # now, open the project in PyCharm and run ./src/flistapp.py with a Python 3.8 interpreter, or proceed on the terminal as follows:
+    
+    cd org.cryptool.functionlist
+    export PYTHONPATH="$PWD/src:$PYTHONPATH"
+    ./src/flistapp.py 
+
 .. toctree::
    :caption: User Guide:
    :maxdepth: 2
