@@ -1,241 +1,241 @@
-JCT:dynamic:22ae8448;;JCT:A \ Block Ciphers \ DESede_CBC Modern Ciphers
-JCT:dynamic:a858587d;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ ADFGVX
-JCT:dynamic:f6c23600;;JCT:D \ Block Ciphers \ Rijndael \ AES128_CBC Modern Ciphers
-JCT:dynamic:6b468951;;JCT:D \ Block Ciphers \ Rijndael \ AES128_CFB Modern Ciphers
-JCT:dynamic:adde1e28;;JCT:D \ Block Ciphers \ Rijndael \ AES128_ECB Modern Ciphers
-JCT:dynamic:8080ce0c;;JCT:D \ Block Ciphers \ Rijndael \ AES128_OFB Modern Ciphers
-JCT:dynamic:656fc62f;;JCT:D \ Block Ciphers \ Rijndael \ AES192_CBC Modern Ciphers
-JCT:dynamic:2f4a3a4e;;JCT:D \ Block Ciphers \ Rijndael \ AES192_CFB Modern Ciphers
-JCT:dynamic:0618e8d2;;JCT:D \ Block Ciphers \ Rijndael \ AES192_ECB Modern Ciphers
-JCT:dynamic:15c1964e;;JCT:D \ Block Ciphers \ Rijndael \ AES192_OFB Modern Ciphers
-JCT:dynamic:c946cfec;;JCT:D \ Block Ciphers \ Rijndael \ AES256_CBC Modern Ciphers
-JCT:dynamic:aa3b098b;;JCT:D \ Block Ciphers \ Rijndael \ AES256_ECB Modern Ciphers
-JCT:dynamic:1766a12c;;JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB Modern Ciphers
-JCT:dynamic:1766a12c;;JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB Modern Ciphers
-JCT:dynamic:b82992d2;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Android Unlock Pattern (AUP)
-JCT:dynamic:2cb5d891;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Ant Colony Optimization
-JCT:dynamic:e257ca79;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Autokey Vigenère
-JCT:dynamic:494e8c0c;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Bifid
-JCT:dynamic:e851a7b4;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ BBSRandom
-JCT:dynamic:36bdcbde;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Caesar
-JCT:dynamic:fa96ccf2;;JCT:A \ Block Ciphers \ Camellia128_CBC Modern Ciphers
-JCT:dynamic:a8366772;;JCT:A \ Block Ciphers \ Camellia192_CBC Modern Ciphers
-JCT:dynamic:b23b00f5;;JCT:A \ Block Ciphers \ Camellia256_CBC Modern Ciphers
-JCT:dynamic:429aa57f;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES128
-JCT:dynamic:5e4f29f9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES192
-JCT:dynamic:5e07db12;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES256
-JCT:dynamic:ba8e5f46;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacCamellia
-JCT:dynamic:142bc24c;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacDESede
-JCT:dynamic:ddff7aaf;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacIDEA
-JCT:dynamic:789fffe0;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacMARS
-JCT:dynamic:8f42a9a5;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacMisty1
-JCT:dynamic:3d403f11;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC2
-JCT:dynamic:7973766f;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC5
-JCT:dynamic:db41c12d;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC6
-JCT:dynamic:e1c31db2;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacSAFER+
-JCT:dynamic:2b5ae26e;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ 
-JCT:dynamic:4093c479;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Certificate Verification
-JCT:dynamic:d2ed1909;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Chinese Remainder Theorem
-JCT:dynamic:4709bdb9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES128
-JCT:dynamic:3182228e;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES192
-JCT:dynamic:ef2007d2;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES256
-JCT:dynamic:1aa8d9eb;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacDESede
-JCT:dynamic:38b2cf6a;;JCT:A \ Signatures \ CMSS Digital Signatures \ PKI
-JCT:dynamic:7e3edd9c;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_1 Digital Signatures \ PKI
-JCT:dynamic:5c420cc3;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_2 Digital Signatures \ PKI
-JCT:dynamic:ef9eaf0f;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_3 Digital Signatures \ PKI
-JCT:dynamic:221531a8;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_4 Digital Signatures \ PKI
-JCT:dynamic:1b4bf548;;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_1 Digital Signatures \ PKI
-JCT:dynamic:57c00591;;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_3 Digital Signatures \ PKI
-JCT:dynamic:6e895169;;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_4 Digital Signatures \ PKI
-JCT:dynamic:b6dfc3b0;;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_1 Digital Signatures \ PKI
-JCT:dynamic:c36460d2;;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_2 Digital Signatures \ PKI
-JCT:dynamic:2f2b5236;;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_3 Digital Signatures \ PKI
-JCT:dynamic:5bf356db;10) Learning Aids and Visualizations;JCT:C \ Protocols \ Coin Flipping
-JCT:dynamic:ac3eb60b;10) Learning Aids and Visualizations;JCT:T \ Protocols \ Coin Flipping Protocol
-JCT:dynamic:8c62bc5e;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ DHA256
-JCT:dynamic:f6748ce3;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Differential Power Analysis \ Double and Add
-JCT:dynamic:95f01c77;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Diffie-Hellman Key Exchange (EC)
-JCT:dynamic:91f95874;13) Protocols;JCT:D \ Visuals \ Diffie-Hellman Key Exchange (EC)
-JCT:dynamic:69c349ce;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Signature Demonstration
-JCT:dynamic:fd9dddc6;11) Games;JCT:D \ Games \ Divider Game
-JCT:dynamic:88f0b764;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Double Box
-JCT:dynamic:a34fa534;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ Dragon
-JCT:dynamic:eda589af;4) Digital Signatures/PKI;JCT:A \ Signatures \ RAW \ DSA
-JCT:dynamic:711d7573;4) Digital Signatures/PKI;JCT:A \ Signatures \ RawECDSA
-JCT:dynamic:42824754;;JCT:A \ Signatures \ SHA1 \ ECDSA Digital Signatures \ PKI
-JCT:dynamic:9b354205;;JCT:A \ Signatures \ SHA224 \ ECDSA Digital Signatures \ PKI
-JCT:dynamic:a85bfffd;;JCT:A \ Signatures \ SHA256 \ ECDSA Digital Signatures \ PKI
-JCT:dynamic:ca57dfef;;JCT:A \ Signatures \ SHA384 \ ECDSA Digital Signatures \ PKI
-JCT:dynamic:a8a19d39;;JCT:A \ Signatures \ SHA512 \ ECDSA Digital Signatures \ PKI
-JCT:dynamic:955227b4;2) Modern Ciphers;JCT:A \ Hybrid Ciphers \ ECIES
-JCT:dynamic:56202fad;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ ECNR
-JCT:dynamic:241aa783;;JCT:A \ Asymmetric Block Ciphers \ ElGamal Modern Ciphers
-JCT:dynamic:5f490a67;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ ElGamal Cryptosystem
-JCT:dynamic:02b01d72;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ ECPRNG
-JCT:dynamic:b5447084;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Elliptic Curve Calculations
-JCT:dynamic:acc665fd;2) Modern Ciphers;JCT:D \ Visualizations \ RSA Cryptosystem
-JCT:dynamic:9528f64b;2) Modern Ciphers;JCT:D \ Visualizations \ Extended RSA Cryptosystem
-JCT:dynamic:1f4e4501;6) Classic Cryptanalysis;JCT:D \ Analysis \ Entropy Analysis
-JCT:dynamic:f687038c;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Extended Euclidean \ Reciprocal Subtraction
-JCT:dynamic:1c295db2;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Feige Fiat Shamir
-JCT:dynamic:acad669a;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Fiat Shamir
-JCT:dynamic:66011656;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ FORK256
-JCT:dynamic:eba25ff7;6) Classic Cryptanalysis;JCT:D \ Analysis \ Frequency Analysis
-JCT:dynamic:28452099;6) Classic Cryptanalysis;JCT:D \ Analysis \ Friedman Test
-JCT:dynamic:cd1bef92;;JCT:A \ Signatures \ GMSSwithSHA1 Digital Signatures \ PKI
-JCT:dynamic:7861086a;;JCT:A \ Signatures \ GMSSwithSHA224 Digital Signatures \ PKI
-JCT:dynamic:80650252;;JCT:A \ Signatures \ GMSSwithSHA256 Digital Signatures \ PKI
-JCT:dynamic:197a0d21;;JCT:A \ Signatures \ GMSSwithSHA384 Digital Signatures \ PKI
-JCT:dynamic:945087c7;;JCT:A \ Signatures \ GMSSwithSHA512 Digital Signatures \ PKI
-JCT:dynamic:f6ac8bab;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Graph Isomorphism
-JCT:dynamic:e46cb28a;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Grille
-JCT:dynamic:107f6108;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Hash Sensitivity
-JCT:dynamic:508b03bf;3) Hash and MAC Algorithms;Hash \ MD5
-JCT:dynamic:9779c84c;3) Hash and MAC Algorithms;Hash \ SHA
-JCT:dynamic:43389d96;3) Hash and MAC Algorithms;Hash \ SHA3-Candidates
-JCT:dynamic:30256dc4;3) Hash and MAC Algorithms;Messages Digests \ 
-JCT:dynamic:f9d5f204;;JCT:A \ Message Authentication Codes \ Hmac Hash and MAC Algorithms
-JCT:dynamic:ffeb5a32;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacDHA256
-JCT:dynamic:ce1e8772;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacFORK256
-JCT:dynamic:17970bf5;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacMD4
-JCT:dynamic:cd666c1d;;JCT:A \ Message Authentication Codes \ HmacMD5 Hash and MAC Algorithms
-JCT:dynamic:35f70f10;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD128
-JCT:dynamic:8d8f9cd7;;JCT:A \ Message Authentication Codes \ HmacRIPEMD160 Hash and MAC Algorithms
-JCT:dynamic:5f7e2224;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD256
-JCT:dynamic:e76ae5f7;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD320
-JCT:dynamic:980584a2;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA224
-JCT:dynamic:05d6e006;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA256
-JCT:dynamic:718e92f5;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA384
-JCT:dynamic:7de77df4;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA512
-JCT:dynamic:626ebacc;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Homomorphic Encryption
-JCT:dynamic:7849021b;9) Codings;JCT:D \ Visualizations \ Huffman Coding
-JCT:dynamic:b10f2d25;;JCT:D \ Block Ciphers \ IDEA_ECB Modern Ciphers
-JCT:dynamic:54a633e7;;JCT:D \ Block Ciphers \ IDEA_CBC Modern Ciphers
-JCT:dynamic:4dd4f97a;;JCT:D \ Block Ciphers \ IDEA_CFB Modern Ciphers
-JCT:dynamic:44feb827;;JCT:D \ Block Ciphers \ IDEA_OFB Modern Ciphers
-JCT:dynamic:3b02b1b7;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Inner States of the Data Encryption Standard (DES)
-JCT:dynamic:a6a09e99;;JCT:A \ Signatures \ IQDSA Digital Signatures \ PKI
-JCT:dynamic:b17b1a5a;;JCT:A \ Signatures \ RIPEMD160withIQDSA Digital Signatures \ PKI
-JCT:dynamic:513e4495;;JCT:A \ Signatures \ IQGQ Digital Signatures \ PKI
-JCT:dynamic:b17b1a5a;;JCT:A \ Signatures \ RIPEMD160withIQDSA Digital Signatures \ PKI
-JCT:dynamic:8c527d0e;;JCT:A \ Signatures \ IQRDSA Digital Signatures \ PKI
-JCT:dynamic:3ddd18e8;;JCT:A \ Signatures \ RIPEMD160withIQRDSA Digital Signatures \ PKI
-JCT:dynamic:a2a888a9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Kleptography
-JCT:dynamic:638c766d;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Merkle-Hellman Knapsack Cryptosystem
-JCT:dynamic:2db0b1ab;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ LFSR
-JCT:dynamic:4912cf29;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Magic Door
-JCT:dynamic:3672ba1f;2) Modern Ciphers;JCT:A \ Block Ciphers \ MARS
-JCT:dynamic:8dcab8fd;;JCT:A \ Hybrid Ciphers \ McElieceFujisakiCipher Modern Ciphers
-JCT:dynamic:4fcd0a21;;JCT:A \ Hybrid Ciphers \ McElieceKobaraImaiCipher Modern Ciphers
-JCT:dynamic:cbb0a4a1;;JCT:A \ Asymmetric Block Ciphers \ McEliecePKCS Modern Ciphers
-JCT:dynamic:ce00544f;;JCT:A \ Hybrid Ciphers \ McEliecePointchevalCipher Modern Ciphers
-JCT:dynamic:a05e3abd;;JCT:A \ Message Digests \ MD4 Hash and MAC Algorithms
-JCT:dynamic:a3fd16a8;;JCT:D \ Message Digests \ MD5 Hash and MAC Algorithms
-JCT:dynamic:811f76cb;;JCT:A \ Signatures \ MerkleOTSwithSHA1 Digital Signatures \ PKI
-JCT:dynamic:91f69ec5;;JCT:A \ Signatures \ MerkleOTSwithSHA256 Digital Signatures \ PKI
-JCT:dynamic:b6fc1ef0;;JCT:A \ Signatures \ MerkleOTSwithSHA384 Digital Signatures \ PKI
-JCT:dynamic:5fce68ae;;JCT:A \ Signatures \ MerkleOTSwithSHA512 Digital Signatures \ PKI
-JCT:dynamic:f4eda1c9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Merkle Signature Scheme (MerkleTree)
-JCT:dynamic:cadfcc05;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ MeRSA
-JCT:dynamic:0d763ce2;2) Modern Ciphers;JCT:A \ Signatures \ MeRSA
-JCT:dynamic:fd055a49;2) Modern Ciphers;JCT:A \ Block Ciphers \ Misty1
-JCT:dynamic:acc665fd;2) Modern Ciphers;JCT:D \ Visualizations \ RSA Cryptosystem
-JCT:dynamic:9528f64b;2) Modern Ciphers;JCT:D \ Visualizations \ Extended RSA Cryptosystem
-JCT:dynamic:6f583b92;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Multipartite Key Exchange
-JCT:dynamic:56190405;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ Niederreiter
-JCT:dynamic:8a966177;;JCT:A \ Signatures \ NiederreiterCFS Digital Signatures \ PKI
-JCT:dynamic:5afcfc6c;11) Games;JCT:D \ Games \ Number Shark
-JCT:dynamic:7b3146d3;;JCT:A \ Password-Based Ciphers \ PBES2 Hash and MAC Algorithms
-JCT:dynamic:0394bbb8;;JCT:A \ Password-Based Ciphers \ PbeWithMD5AndDES_CBC Hash and MAC Algorithms
-JCT:dynamic:cb4e01ef;;JCT:A \ Password-Based Ciphers \ PbeWithSHA1AndDES_CBC Hash and MAC Algorithms
-JCT:dynamic:f00a5f14;;JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd3_KeyTripleDES_CBC Hash and MAC Algorithms
-JCT:dynamic:62f40540;;JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd40BitRC2_CBC Hash and MAC Algorithms
-JCT:dynamic:d3b82233;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Playfair
-JCT:dynamic:b347abb0;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Public-Key Infrastructure
-JCT:dynamic:64a36c3c;;JCT:A \ Block Ciphers \ Block Ciphers \ RC2_CBC Modern Ciphers
-JCT:dynamic:27f3e94f;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ ARC4 \ Spritz
-JCT:dynamic:a8ad4408;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ ARC4 \ Spritz
-JCT:dynamic:2e20833f;2) Modern Ciphers;JCT:A \ Block Ciphers \ RC5
-JCT:dynamic:0681320c;2) Modern Ciphers;Block Ciphers \ RC6
-JCT:dynamic:88080673;;JCT:A \ Message Digests \ RIPEMD128 Hash and MAC Algorithms
-JCT:dynamic:4b61db1c;;JCT:A \ Message Digests \ RIPEMD160 Hash and MAC Algorithms
-JCT:dynamic:7908682d;;JCT:A \ Message Digests \ RIPEMD256 Hash and MAC Algorithms
-JCT:dynamic:9d32bc91;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ RIPEMD320
-JCT:dynamic:36bdcbde;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Caesar
-JCT:dynamic:95e8be69;;JCT:A \ Asymmetric Block Ciphers \ RSA Modern Ciphers
-JCT:dynamic:d3f80732;;JCT:A \ Asymmetric Block Ciphers \ RbRSA Modern Ciphers
-JCT:dynamic:37bb8ed2;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ RprimeRSA
-JCT:dynamic:d85882d1;4) Digital Signatures/PKI;JCT:A \ Signatures \ MD5 \ RSA \ RAW
-JCT:dynamic:1c13b2d7;;JCT:A \ Signatures \ MD5withRSA Digital Signatures \ PKI
-JCT:dynamic:b68d0dfe;;JCT:A \ Signatures \ RIPEMD160 \ RSA Digital Signatures \ PKI
-JCT:dynamic:dc8d1416;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160 \ RSA \ RAW
-JCT:dynamic:c5b69195;;JCT:A \ Signatures \ SHA1 \ RSA Digital Signatures \ PKI
-JCT:dynamic:e5cc707a;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ RSA \ RAW
-JCT:dynamic:fe6d783d;;JCT:A \ Signatures \ SHA224 \ RSA Digital Signatures \ PKI
-JCT:dynamic:3b705ee3;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA224 \ RSA \ RAW
-JCT:dynamic:8f46663f;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA256 \ RSA \ RAW
-JCT:dynamic:c6444871;;JCT:A \ Signatures \ SHA256withRSA Digital Signatures \ PKI
-JCT:dynamic:6bb166b5;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA384 \ RSA \ RAW
-JCT:dynamic:31149296;;JCT:A \ Signatures \ SHA384withRSA Digital Signatures \ PKI
-JCT:dynamic:2ec5c3cf;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA512 \ RSA \ RAW
-JCT:dynamic:679879ba;;JCT:A \ Signatures \ SHA512withRSA Digital Signatures \ PKI
-JCT:dynamic:afa13f01;;JCT:A \ Signatures \ RbRSA Digital Signatures \ PKI
-JCT:dynamic:942a5b1d;4) Digital Signatures/PKI;JCT:A \ Signatures \ RprimeRSA
-JCT:dynamic:acc665fd;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ RSA Cryptosystem
-JCT:dynamic:9528f64b;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Extended RSA Cryptosystem
-JCT:dynamic:8c5f80b7;4) Digital Signatures/PKI;JCT:A \ Algorithms \ Signatures \ RSASSA-PSS
-JCT:dynamic:90b3f512;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER+
-JCT:dynamic:5093a864;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER++
-JCT:dynamic:78ccafee;;JCT:A \ Block Ciphers \ Serpent128_CBC Modern Ciphers
-JCT:dynamic:d2f7dfba;;JCT:A \ Block Ciphers \ Serpent128_CFB Modern Ciphers
-JCT:dynamic:5f4765bc;;JCT:A \ Block Ciphers \ Serpent128_ECB Modern Ciphers
-JCT:dynamic:73dcec2a;;JCT:A \ Block Ciphers \ Serpent128_OFB Modern Ciphers
-JCT:dynamic:c2416822;;JCT:A \ Block Ciphers \ Serpent192_CBC Modern Ciphers
-JCT:dynamic:c2c2f2d3;;JCT:A \ Block Ciphers \ Serpent192_CFB Modern Ciphers
-JCT:dynamic:c7debda5;;JCT:A \ Block Ciphers \ Serpent192_ECB Modern Ciphers
-JCT:dynamic:6f7e9721;;JCT:A \ Block Ciphers \ Serpent192_OFB Modern Ciphers
-JCT:dynamic:2d09b082;;JCT:A \ Block Ciphers \ Serpent256_CBC Modern Ciphers
-JCT:dynamic:0984755e;;JCT:A \ Block Ciphers \ Serpent256_CFB Modern Ciphers
-JCT:dynamic:697f9e1d;;JCT:A \ Block Ciphers \ Serpent256_ECB Modern Ciphers
-JCT:dynamic:e09c4bb8;;JCT:A \ Block Ciphers \ Serpent256_OFB Modern Ciphers
-JCT:dynamic:2bdf42e0;3) Hash and MAC Algorithms;JCT:D \ Algorithms \ Hash \ SHA
-JCT:dynamic:f75a7dbc;;JCT:A \ Signatures \ SHAwithDSA Digital Signatures \ PKI
-JCT:dynamic:163abd93;;JCT:D \ Message Digests \ SHA1 Hash and MAC Algorithms
-JCT:dynamic:b009ab81;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ SHA1PRNG
-JCT:dynamic:ba98bd4f;;Message Digests \ SHA256 Hash and MAC Algorithms
-JCT:dynamic:2555c622;3) Hash and MAC Algorithms;JCT:D \ Algorithms \ Hash \ SHA3-Candidates
-JCT:dynamic:e44f8601;;JCT:A \ Message Digests \ SHA384 Hash and MAC Algorithms
-JCT:dynamic:5b5cfaab;;JCT:A \ Message Digests \ SHA512 Hash and MAC Algorithms
-JCT:dynamic:a3414186;2) Modern Ciphers;JCT:A \ Block Ciphers \ Shacal
-JCT:dynamic:0dfef464;2) Modern Ciphers;JCT:A \ Block Ciphers \ Shacal2
-JCT:dynamic:c3ddd51f;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Shamir's Secret Sharing
-JCT:dynamic:e906ed5b;13) Protocols;JCT:D \ Visuals \ Shamir's Secret Sharing
-JCT:dynamic:d6ae23a3;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Signature Verification
-JCT:dynamic:d0feb47b;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Simple Power Analysis \ Square and Multiply
-JCT:dynamic:48d9edac;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Shanks Babystep-Giantstep
-JCT:dynamic:1a36948e;4) Digital Signatures/PKI;JCT:A \ Signatures \ SSL_MD5andSHA1withRSA
-JCT:dynamic:3df6ce46;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ SSL \ TLS Handshake
-JCT:dynamic:e3907e68;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Substitution
-JCT:dynamic:d3a57be0;6) Classic Cryptanalysis;JCT:D \ Analysis \ Substitution Analysis
-JCT:dynamic:1f61c745;11) Games;JCT:D \ Games \ Sudoku-Solver
-JCT:dynamic:1477698f;;JCT:A \ Message Digests \ Tiger Hash and MAC Algorithms
-JCT:dynamic:f2812a88;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Transposition
-JCT:dynamic:f2812a88;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Transposition
-JCT:dynamic:2873349c;6) Classic Cryptanalysis;JCT:D \ Analysis \ Transposition Analysis
-JCT:dynamic:f86564ef;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TTmac128
-JCT:dynamic:83ea8a4b;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac160
-JCT:dynamic:f1362302;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac32
-JCT:dynamic:599262cb;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac64
-JCT:dynamic:bc31e176;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac96
-JCT:dynamic:a6d0cd03;2) Modern Ciphers;JCT:A \ Block Ciphers \ Twofish
-JCT:dynamic:7f76c240;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Verifiable Secret Sharing
-JCT:dynamic:5948d13f;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Vigenère
-JCT:dynamic:619e6946;6) Classic Cryptanalysis;JCT:D \ Analysis \ Vigenère Breaker
-JCT:dynamic:645e59b3;6) Classic Cryptanalysis;JCT:D \ Analysis \ Viterbi Analysis
-JCT:dynamic:b548e07d;10) Learning Aids and Visualizations;JCT:D \ Visuals \ Viterbi
-JCT:dynamic:a5cf2cf3;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ VSH
-JCT:dynamic:ce9516d1;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ WOTS \ WOTS+
-JCT:dynamic:c02fdab6;2) Modern Ciphers;JCT:D \ Algorithms \ XML Security \ 
-JCT:dynamic:8cb838f8;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ XOR
-JCT:dynamic:59b77c11;11) Games;JCT:D \ Games \ Zudo-Ku
+JCT:dynamic:d7ef3127;;JCT:A \ Block Ciphers \ DESede_CBC Modern Ciphers
+JCT:dynamic:9044ba69;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ ADFGVX
+JCT:dynamic:ca08b82e;;JCT:D \ Block Ciphers \ Rijndael \ AES128_CBC Modern Ciphers
+JCT:dynamic:6b93edcf;;JCT:D \ Block Ciphers \ Rijndael \ AES128_CFB Modern Ciphers
+JCT:dynamic:55af8f36;;JCT:D \ Block Ciphers \ Rijndael \ AES128_ECB Modern Ciphers
+JCT:dynamic:3be5e968;;JCT:D \ Block Ciphers \ Rijndael \ AES128_OFB Modern Ciphers
+JCT:dynamic:4f060ec4;;JCT:D \ Block Ciphers \ Rijndael \ AES192_CBC Modern Ciphers
+JCT:dynamic:0d8e7f56;;JCT:D \ Block Ciphers \ Rijndael \ AES192_CFB Modern Ciphers
+JCT:dynamic:bd4ed7fd;;JCT:D \ Block Ciphers \ Rijndael \ AES192_ECB Modern Ciphers
+JCT:dynamic:aa122acf;;JCT:D \ Block Ciphers \ Rijndael \ AES192_OFB Modern Ciphers
+JCT:dynamic:ccd89192;;JCT:D \ Block Ciphers \ Rijndael \ AES256_CBC Modern Ciphers
+JCT:dynamic:d8bf9f1c;;JCT:D \ Block Ciphers \ Rijndael \ AES256_ECB Modern Ciphers
+JCT:dynamic:33c01927;;JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB Modern Ciphers
+JCT:dynamic:33c01927;;JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB Modern Ciphers
+JCT:dynamic:43beab45;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Android Unlock Pattern (AUP)
+JCT:dynamic:8c0f0cc0;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Ant Colony Optimization
+JCT:dynamic:f75a4ab2;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Autokey Vigenère
+JCT:dynamic:37fe2735;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Bifid
+JCT:dynamic:d619210d;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ BBSRandom
+JCT:dynamic:ff4749b9;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Caesar
+JCT:dynamic:1e4255c3;;JCT:A \ Block Ciphers \ Camellia128_CBC Modern Ciphers
+JCT:dynamic:45e79df7;;JCT:A \ Block Ciphers \ Camellia192_CBC Modern Ciphers
+JCT:dynamic:903f060f;;JCT:A \ Block Ciphers \ Camellia256_CBC Modern Ciphers
+JCT:dynamic:7bdca310;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES128
+JCT:dynamic:92016ca0;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES192
+JCT:dynamic:3fcf4f9c;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacAES256
+JCT:dynamic:8009b298;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacCamellia
+JCT:dynamic:741b8095;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacDESede
+JCT:dynamic:5c91acc6;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacIDEA
+JCT:dynamic:d46280a8;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacMARS
+JCT:dynamic:e6056170;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacMisty1
+JCT:dynamic:21bec060;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC2
+JCT:dynamic:84d0d08e;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC5
+JCT:dynamic:1aa1be71;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacRC6
+JCT:dynamic:c85d0e53;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCmacSAFER+
+JCT:dynamic:ef5a7809;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ 
+JCT:dynamic:7587b998;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Certificate Verification
+JCT:dynamic:b3a156b0;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Chinese Remainder Theorem
+JCT:dynamic:bf2c22d4;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES128
+JCT:dynamic:cde85d1f;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES192
+JCT:dynamic:c3c22cdf;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacAES256
+JCT:dynamic:e50087ec;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CmacDESede
+JCT:dynamic:ecd356bc;;JCT:A \ Signatures \ CMSS Digital Signatures \ PKI
+JCT:dynamic:7fc02d57;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_1 Digital Signatures \ PKI
+JCT:dynamic:e8772cbb;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_2 Digital Signatures \ PKI
+JCT:dynamic:fba7cf74;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_3 Digital Signatures \ PKI
+JCT:dynamic:3d4f314d;;JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_4 Digital Signatures \ PKI
+JCT:dynamic:78651ba9;;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_1 Digital Signatures \ PKI
+JCT:dynamic:2376e426;;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_3 Digital Signatures \ PKI
+JCT:dynamic:0f7b1047;;JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_4 Digital Signatures \ PKI
+JCT:dynamic:4f1cb625;;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_1 Digital Signatures \ PKI
+JCT:dynamic:6e4f86f6;;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_2 Digital Signatures \ PKI
+JCT:dynamic:831bd95f;;JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_3 Digital Signatures \ PKI
+JCT:dynamic:efe87be8;10) Learning Aids and Visualizations;JCT:C \ Protocols \ Coin Flipping
+JCT:dynamic:b5e63f8e;10) Learning Aids and Visualizations;JCT:T \ Protocols \ Coin Flipping Protocol
+JCT:dynamic:b4d0d685;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ DHA256
+JCT:dynamic:83341ab9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Differential Power Analysis \ Double and Add
+JCT:dynamic:29addcb9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Diffie-Hellman Key Exchange (EC)
+JCT:dynamic:38361372;13) Protocols;JCT:D \ Visuals \ Diffie-Hellman Key Exchange (EC)
+JCT:dynamic:50b62f8d;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Signature Demonstration
+JCT:dynamic:e267ab03;11) Games;JCT:D \ Games \ Divider Game
+JCT:dynamic:5361903c;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Double Box
+JCT:dynamic:efbaef5d;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ Dragon
+JCT:dynamic:07d0dd64;4) Digital Signatures/PKI;JCT:A \ Signatures \ RAW \ DSA
+JCT:dynamic:5614bd53;4) Digital Signatures/PKI;JCT:A \ Signatures \ RawECDSA
+JCT:dynamic:de475f70;;JCT:A \ Signatures \ SHA1 \ ECDSA Digital Signatures \ PKI
+JCT:dynamic:80ed913b;;JCT:A \ Signatures \ SHA224 \ ECDSA Digital Signatures \ PKI
+JCT:dynamic:8334fd0a;;JCT:A \ Signatures \ SHA256 \ ECDSA Digital Signatures \ PKI
+JCT:dynamic:ea54ad10;;JCT:A \ Signatures \ SHA384 \ ECDSA Digital Signatures \ PKI
+JCT:dynamic:4d2b0a66;;JCT:A \ Signatures \ SHA512 \ ECDSA Digital Signatures \ PKI
+JCT:dynamic:2b2549ac;2) Modern Ciphers;JCT:A \ Hybrid Ciphers \ ECIES
+JCT:dynamic:35f378f7;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ ECNR
+JCT:dynamic:f70c72c5;;JCT:A \ Asymmetric Block Ciphers \ ElGamal Modern Ciphers
+JCT:dynamic:151d470b;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ ElGamal Cryptosystem
+JCT:dynamic:62aadc7d;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ ECPRNG
+JCT:dynamic:0f1cbd49;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Elliptic Curve Calculations
+JCT:dynamic:21e05cab;2) Modern Ciphers;JCT:D \ Visualizations \ RSA Cryptosystem
+JCT:dynamic:e506edc5;2) Modern Ciphers;JCT:D \ Visualizations \ Extended RSA Cryptosystem
+JCT:dynamic:d1ae9b15;6) Classic Cryptanalysis;JCT:D \ Analysis \ Entropy Analysis
+JCT:dynamic:993ac6ba;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Extended Euclidean \ Reciprocal Subtraction
+JCT:dynamic:12f927cc;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Feige Fiat Shamir
+JCT:dynamic:adce7a2f;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Fiat Shamir
+JCT:dynamic:a316ee7b;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ FORK256
+JCT:dynamic:2572f88a;6) Classic Cryptanalysis;JCT:D \ Analysis \ Frequency Analysis
+JCT:dynamic:4da7976d;6) Classic Cryptanalysis;JCT:D \ Analysis \ Friedman Test
+JCT:dynamic:38084ce0;;JCT:A \ Signatures \ GMSSwithSHA1 Digital Signatures \ PKI
+JCT:dynamic:95dec192;;JCT:A \ Signatures \ GMSSwithSHA224 Digital Signatures \ PKI
+JCT:dynamic:d57f9233;;JCT:A \ Signatures \ GMSSwithSHA256 Digital Signatures \ PKI
+JCT:dynamic:1228319b;;JCT:A \ Signatures \ GMSSwithSHA384 Digital Signatures \ PKI
+JCT:dynamic:69a4516c;;JCT:A \ Signatures \ GMSSwithSHA512 Digital Signatures \ PKI
+JCT:dynamic:96b7994c;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Graph Isomorphism
+JCT:dynamic:a24aaa9d;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Grille
+JCT:dynamic:59aead4a;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Hash Sensitivity
+JCT:dynamic:9292a526;3) Hash and MAC Algorithms;Hash \ MD5
+JCT:dynamic:cd234506;3) Hash and MAC Algorithms;Hash \ SHA
+JCT:dynamic:80b219d5;3) Hash and MAC Algorithms;Hash \ SHA3-Candidates
+JCT:dynamic:084e374f;3) Hash and MAC Algorithms;Messages Digests \ 
+JCT:dynamic:5b3b829c;;JCT:A \ Message Authentication Codes \ Hmac Hash and MAC Algorithms
+JCT:dynamic:94ec0ddd;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacDHA256
+JCT:dynamic:094de5c7;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacFORK256
+JCT:dynamic:d7071e5a;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacMD4
+JCT:dynamic:011aa46f;;JCT:A \ Message Authentication Codes \ HmacMD5 Hash and MAC Algorithms
+JCT:dynamic:2ee28f32;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD128
+JCT:dynamic:555636ec;;JCT:A \ Message Authentication Codes \ HmacRIPEMD160 Hash and MAC Algorithms
+JCT:dynamic:5ec474a8;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD256
+JCT:dynamic:0cdd6bce;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacRIPEMD320
+JCT:dynamic:e366638a;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA224
+JCT:dynamic:2aff3a1e;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA256
+JCT:dynamic:055deea4;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA384
+JCT:dynamic:1da46516;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ HmacSHA512
+JCT:dynamic:11a131cc;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Homomorphic Encryption
+JCT:dynamic:a642fe1d;9) Codings;JCT:D \ Visualizations \ Huffman Coding
+JCT:dynamic:c07b0d70;;JCT:D \ Block Ciphers \ IDEA_ECB Modern Ciphers
+JCT:dynamic:7b44a4e1;;JCT:D \ Block Ciphers \ IDEA_CBC Modern Ciphers
+JCT:dynamic:37ce905d;;JCT:D \ Block Ciphers \ IDEA_CFB Modern Ciphers
+JCT:dynamic:3a61e315;;JCT:D \ Block Ciphers \ IDEA_OFB Modern Ciphers
+JCT:dynamic:c1784e04;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Inner States of the Data Encryption Standard (DES)
+JCT:dynamic:d25ca3a1;;JCT:A \ Signatures \ IQDSA Digital Signatures \ PKI
+JCT:dynamic:cdba11d0;;JCT:A \ Signatures \ RIPEMD160withIQDSA Digital Signatures \ PKI
+JCT:dynamic:2c93cd89;;JCT:A \ Signatures \ IQGQ Digital Signatures \ PKI
+JCT:dynamic:cdba11d0;;JCT:A \ Signatures \ RIPEMD160withIQDSA Digital Signatures \ PKI
+JCT:dynamic:efb89c4b;;JCT:A \ Signatures \ IQRDSA Digital Signatures \ PKI
+JCT:dynamic:d34e1e39;;JCT:A \ Signatures \ RIPEMD160withIQRDSA Digital Signatures \ PKI
+JCT:dynamic:ea430cf7;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Kleptography
+JCT:dynamic:48528a90;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Merkle-Hellman Knapsack Cryptosystem
+JCT:dynamic:61f631ed;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ LFSR
+JCT:dynamic:007b3763;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Magic Door
+JCT:dynamic:f65f6588;2) Modern Ciphers;JCT:A \ Block Ciphers \ MARS
+JCT:dynamic:484df5e5;;JCT:A \ Hybrid Ciphers \ McElieceFujisakiCipher Modern Ciphers
+JCT:dynamic:7bee7794;;JCT:A \ Hybrid Ciphers \ McElieceKobaraImaiCipher Modern Ciphers
+JCT:dynamic:8d9dc6fd;;JCT:A \ Asymmetric Block Ciphers \ McEliecePKCS Modern Ciphers
+JCT:dynamic:bd70bded;;JCT:A \ Hybrid Ciphers \ McEliecePointchevalCipher Modern Ciphers
+JCT:dynamic:5ac341f2;;JCT:A \ Message Digests \ MD4 Hash and MAC Algorithms
+JCT:dynamic:120a8ad7;;JCT:D \ Message Digests \ MD5 Hash and MAC Algorithms
+JCT:dynamic:293c1e36;;JCT:A \ Signatures \ MerkleOTSwithSHA1 Digital Signatures \ PKI
+JCT:dynamic:ab3e0a0d;;JCT:A \ Signatures \ MerkleOTSwithSHA256 Digital Signatures \ PKI
+JCT:dynamic:83b0cf91;;JCT:A \ Signatures \ MerkleOTSwithSHA384 Digital Signatures \ PKI
+JCT:dynamic:017b99b5;;JCT:A \ Signatures \ MerkleOTSwithSHA512 Digital Signatures \ PKI
+JCT:dynamic:f3d54bba;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Merkle Signature Scheme (MerkleTree)
+JCT:dynamic:77907bdf;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ MeRSA
+JCT:dynamic:1eba6ea9;2) Modern Ciphers;JCT:A \ Signatures \ MeRSA
+JCT:dynamic:f2e949c3;2) Modern Ciphers;JCT:A \ Block Ciphers \ Misty1
+JCT:dynamic:21e05cab;2) Modern Ciphers;JCT:D \ Visualizations \ RSA Cryptosystem
+JCT:dynamic:e506edc5;2) Modern Ciphers;JCT:D \ Visualizations \ Extended RSA Cryptosystem
+JCT:dynamic:2078ce7b;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Multipartite Key Exchange
+JCT:dynamic:2f32d558;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ Niederreiter
+JCT:dynamic:583cbe20;;JCT:A \ Signatures \ NiederreiterCFS Digital Signatures \ PKI
+JCT:dynamic:54522294;11) Games;JCT:D \ Games \ Number Shark
+JCT:dynamic:a503b4c6;;JCT:A \ Password-Based Ciphers \ PBES2 Hash and MAC Algorithms
+JCT:dynamic:acb311eb;;JCT:A \ Password-Based Ciphers \ PbeWithMD5AndDES_CBC Hash and MAC Algorithms
+JCT:dynamic:2f6e3f72;;JCT:A \ Password-Based Ciphers \ PbeWithSHA1AndDES_CBC Hash and MAC Algorithms
+JCT:dynamic:55890739;;JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd3_KeyTripleDES_CBC Hash and MAC Algorithms
+JCT:dynamic:c782dc29;;JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd40BitRC2_CBC Hash and MAC Algorithms
+JCT:dynamic:b31ebcd4;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Playfair
+JCT:dynamic:847ded82;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Public-Key Infrastructure
+JCT:dynamic:6cfa7fba;;JCT:A \ Block Ciphers \ Block Ciphers \ RC2_CBC Modern Ciphers
+JCT:dynamic:11ea6f73;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ ARC4 \ Spritz
+JCT:dynamic:6bf04288;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ ARC4 \ Spritz
+JCT:dynamic:5a6ed84a;2) Modern Ciphers;JCT:A \ Block Ciphers \ RC5
+JCT:dynamic:e705753e;2) Modern Ciphers;Block Ciphers \ RC6
+JCT:dynamic:35808c8c;;JCT:A \ Message Digests \ RIPEMD128 Hash and MAC Algorithms
+JCT:dynamic:143336dc;;JCT:A \ Message Digests \ RIPEMD160 Hash and MAC Algorithms
+JCT:dynamic:a9503496;;JCT:A \ Message Digests \ RIPEMD256 Hash and MAC Algorithms
+JCT:dynamic:fcb171c3;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ RIPEMD320
+JCT:dynamic:ff4749b9;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Caesar
+JCT:dynamic:4381839c;;JCT:A \ Asymmetric Block Ciphers \ RSA Modern Ciphers
+JCT:dynamic:603bfaab;;JCT:A \ Asymmetric Block Ciphers \ RbRSA Modern Ciphers
+JCT:dynamic:076a5c47;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ RprimeRSA
+JCT:dynamic:12c330fc;4) Digital Signatures/PKI;JCT:A \ Signatures \ MD5 \ RSA \ RAW
+JCT:dynamic:bf8e2483;;JCT:A \ Signatures \ MD5withRSA Digital Signatures \ PKI
+JCT:dynamic:8b218f8a;;JCT:A \ Signatures \ RIPEMD160 \ RSA Digital Signatures \ PKI
+JCT:dynamic:293c3387;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160 \ RSA \ RAW
+JCT:dynamic:ea54f3e7;;JCT:A \ Signatures \ SHA1 \ RSA Digital Signatures \ PKI
+JCT:dynamic:b2adacad;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ RSA \ RAW
+JCT:dynamic:161e351b;;JCT:A \ Signatures \ SHA224 \ RSA Digital Signatures \ PKI
+JCT:dynamic:2ce2361f;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA224 \ RSA \ RAW
+JCT:dynamic:723a6558;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA256 \ RSA \ RAW
+JCT:dynamic:a1e3d80c;;JCT:A \ Signatures \ SHA256withRSA Digital Signatures \ PKI
+JCT:dynamic:b7dda061;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA384 \ RSA \ RAW
+JCT:dynamic:f516cb7a;;JCT:A \ Signatures \ SHA384withRSA Digital Signatures \ PKI
+JCT:dynamic:d933a8f2;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA512 \ RSA \ RAW
+JCT:dynamic:61e0b4b8;;JCT:A \ Signatures \ SHA512withRSA Digital Signatures \ PKI
+JCT:dynamic:927c684f;;JCT:A \ Signatures \ RbRSA Digital Signatures \ PKI
+JCT:dynamic:1ea2f541;4) Digital Signatures/PKI;JCT:A \ Signatures \ RprimeRSA
+JCT:dynamic:21e05cab;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ RSA Cryptosystem
+JCT:dynamic:e506edc5;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Extended RSA Cryptosystem
+JCT:dynamic:e4411232;4) Digital Signatures/PKI;JCT:A \ Algorithms \ Signatures \ RSASSA-PSS
+JCT:dynamic:fb139d80;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER+
+JCT:dynamic:a2289171;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER++
+JCT:dynamic:ab223fed;;JCT:A \ Block Ciphers \ Serpent128_CBC Modern Ciphers
+JCT:dynamic:bb6ff2e7;;JCT:A \ Block Ciphers \ Serpent128_CFB Modern Ciphers
+JCT:dynamic:6c709f31;;JCT:A \ Block Ciphers \ Serpent128_ECB Modern Ciphers
+JCT:dynamic:6af5faa6;;JCT:A \ Block Ciphers \ Serpent128_OFB Modern Ciphers
+JCT:dynamic:9c511133;;JCT:A \ Block Ciphers \ Serpent192_CBC Modern Ciphers
+JCT:dynamic:2e815c0d;;JCT:A \ Block Ciphers \ Serpent192_CFB Modern Ciphers
+JCT:dynamic:57b99a35;;JCT:A \ Block Ciphers \ Serpent192_ECB Modern Ciphers
+JCT:dynamic:a5394cc2;;JCT:A \ Block Ciphers \ Serpent192_OFB Modern Ciphers
+JCT:dynamic:b8986490;;JCT:A \ Block Ciphers \ Serpent256_CBC Modern Ciphers
+JCT:dynamic:91ca9525;;JCT:A \ Block Ciphers \ Serpent256_CFB Modern Ciphers
+JCT:dynamic:64a838ca;;JCT:A \ Block Ciphers \ Serpent256_ECB Modern Ciphers
+JCT:dynamic:b7cf3cea;;JCT:A \ Block Ciphers \ Serpent256_OFB Modern Ciphers
+JCT:dynamic:d6e54b71;3) Hash and MAC Algorithms;JCT:D \ Algorithms \ Hash \ SHA
+JCT:dynamic:1c9c45fe;;JCT:A \ Signatures \ SHAwithDSA Digital Signatures \ PKI
+JCT:dynamic:0f70f2b9;;JCT:D \ Message Digests \ SHA1 Hash and MAC Algorithms
+JCT:dynamic:5c32e4c9;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ SHA1PRNG
+JCT:dynamic:682c4142;;Message Digests \ SHA256 Hash and MAC Algorithms
+JCT:dynamic:0180fc38;3) Hash and MAC Algorithms;JCT:D \ Algorithms \ Hash \ SHA3-Candidates
+JCT:dynamic:7d0bfd3b;;JCT:A \ Message Digests \ SHA384 Hash and MAC Algorithms
+JCT:dynamic:7e44d518;;JCT:A \ Message Digests \ SHA512 Hash and MAC Algorithms
+JCT:dynamic:a923b7ab;2) Modern Ciphers;JCT:A \ Block Ciphers \ Shacal
+JCT:dynamic:3be6510c;2) Modern Ciphers;JCT:A \ Block Ciphers \ Shacal2
+JCT:dynamic:4f97bc88;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Shamir's Secret Sharing
+JCT:dynamic:34d1087b;13) Protocols;JCT:D \ Visuals \ Shamir's Secret Sharing
+JCT:dynamic:0f364fa9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Signature Verification
+JCT:dynamic:eb0b05cd;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Simple Power Analysis \ Square and Multiply
+JCT:dynamic:90a1a3e5;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Shanks Babystep-Giantstep
+JCT:dynamic:bb0e066b;4) Digital Signatures/PKI;JCT:A \ Signatures \ SSL_MD5andSHA1withRSA
+JCT:dynamic:b8c13008;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ SSL \ TLS Handshake
+JCT:dynamic:64c996d9;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Substitution
+JCT:dynamic:842ef797;6) Classic Cryptanalysis;JCT:D \ Analysis \ Substitution Analysis
+JCT:dynamic:1795f8e3;11) Games;JCT:D \ Games \ Sudoku-Solver
+JCT:dynamic:0ad00b59;;JCT:A \ Message Digests \ Tiger Hash and MAC Algorithms
+JCT:dynamic:a4c58e1b;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Transposition
+JCT:dynamic:a4c58e1b;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Transposition
+JCT:dynamic:478b8a08;6) Classic Cryptanalysis;JCT:D \ Analysis \ Transposition Analysis
+JCT:dynamic:adaaf4ed;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TTmac128
+JCT:dynamic:be1ea66a;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac160
+JCT:dynamic:101eab33;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac32
+JCT:dynamic:583aa8ba;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac64
+JCT:dynamic:39ba85b1;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ TwoTrackMac96
+JCT:dynamic:187e3824;2) Modern Ciphers;JCT:A \ Block Ciphers \ Twofish
+JCT:dynamic:1ec49b63;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Verifiable Secret Sharing
+JCT:dynamic:f1fbbc32;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Vigenère
+JCT:dynamic:289280e7;6) Classic Cryptanalysis;JCT:D \ Analysis \ Vigenère Breaker
+JCT:dynamic:8182a0ae;6) Classic Cryptanalysis;JCT:D \ Analysis \ Viterbi Analysis
+JCT:dynamic:be7be926;10) Learning Aids and Visualizations;JCT:D \ Visuals \ Viterbi
+JCT:dynamic:dbe2641b;3) Hash and MAC Algorithms;JCT:A \ Message Digests \ VSH
+JCT:dynamic:27d7be3c;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ WOTS \ WOTS+
+JCT:dynamic:1f7c32ec;2) Modern Ciphers;JCT:D \ Algorithms \ XML Security \ 
+JCT:dynamic:98070cdb;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ XOR
+JCT:dynamic:fdc5f89a;11) Games;JCT:D \ Games \ Zudo-Ku
