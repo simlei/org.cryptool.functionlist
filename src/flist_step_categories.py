@@ -84,7 +84,7 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
     for entry in dataset.rows:
         id = entry.id
         category = entry.category
-        if category != flist.SCSV_Entry.dynamic_category_notset():
+        if category != flist.SCSV_Entry.dynamic_category_notset(): # TODO: configurable?
             raise FlistException(f"SCSV file {input} is being assigned categories dynamically, but has category {category} which is not the 'needs category assignment' placeholder that was expected")
 
         category_from_input = map_category(df_cats_input, id)
@@ -112,7 +112,7 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
     implicitly("prog.logger").info(f"{catFromInputFileCounter} of {len(dataset.rows)} entries have been assigned categories based on their ids in {input}")
     implicitly("prog.logger").info(f"{catFromFeedbackCounter} of {len(dataset.rows)} entries have been assigned categories based on their ids in {feedbackfile}")
     if catFromFeedbackCounter > 0:
-        implicitly("prog.logger").info(f"[ NOTE ] when running the program with --resetWorkspace, the file {feedbackfile} will be overwritten by the prototypical workspace and the manual entries may be lost. Consider merging them with the corresponding file of {input} in ./ws-static!")
+        implicitly("prog.logger").info(f"[ NOTE ] when running the program with --initws, the file {feedbackfile} will be overwritten by the prototypical workspace and the manual entries may be lost. Consider merging them with the corresponding file of {input} in ./ws-static!")
 
     if has_unmatched_categories:
         api.implicitly("prog.logger").warning(f"[[ WARNING ]] : {len(df_writeback_feedback_missing)} entries in {input} could not be assigned categories. To remedy this, edit the categories manually in {feedbackfile}")
