@@ -418,11 +418,11 @@ RIPEMD160withIQDSA;[n.a.];
 CMSSwithSHA512andWinternitzOTS_1;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_1
 
-CMSSwithSHA256andWinternitzOTS_4;[n.a.];
-;[A];Signatures \ CMSSSignature \ CMSSwithSHA256andWinternitzOTS_4
-
 CMSSwithSHA512andWinternitzOTS_3;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_3
+
+CMSSwithSHA256andWinternitzOTS_4;[n.a.];
+;[A];Signatures \ CMSSSignature \ CMSSwithSHA256andWinternitzOTS_4
 
 CMSSwithSHA1andWinternitzOTS_1;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_1
@@ -439,11 +439,11 @@ CMSSwithSHA384andWinternitzOTS_3;[n.a.];
 CMSSwithSHA384andWinternitzOTS_4;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_4
 
-CMSSwithSHA384andWinternitzOTS_1;[n.a.];
-;[A];Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_1
-
 CMSSwithSHA384andWinternitzOTS_2;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_2
+
+CMSSwithSHA384andWinternitzOTS_1;[n.a.];
+;[A];Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_1
 
 CMSSwithSHA256andWinternitzOTS_1;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA256andWinternitzOTS_1
@@ -454,11 +454,11 @@ CMSSwithSHA1andWinternitzOTS_4;[n.a.];
 CMSSwithSHA1andWinternitzOTS_2;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_2
 
-CMSSwithSHA1andWinternitzOTS_3;[n.a.];
-;[A];Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_3
-
 CMSSwithSHA512andWinternitzOTS_4;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_4
+
+CMSSwithSHA1andWinternitzOTS_3;[n.a.];
+;[A];Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_3
 
 CMSS;[n.a.];
 ;[A];Signatures \ CMSSSignature \ CMSS
