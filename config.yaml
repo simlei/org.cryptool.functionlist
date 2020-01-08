@@ -66,38 +66,44 @@ step.CT2scsv_jct_de:
 
 
 step.categories_ct2_en:
+  translationfile: ${workspace}/data/categories.csv
   input  : ${workspace}/scsv_ct2_nocat_en.csv
-  catfile: ${workspace}/data/categories_ct2.csv
+  mapfile: ${workspace}/data/categories_ct2.csv
   feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
   output : ${workspace}/scsv_ct2_en.csv
 
 step.categories_ct2_de:
+  translationfile: ${workspace}/data/categories.csv
   input  : ${workspace}/scsv_ct2_nocat_de.csv
-  catfile: ${workspace}/data/categories_ct2.csv
+  mapfile: ${workspace}/data/categories_ct2.csv
   feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
   output : ${workspace}/scsv_ct2_de.csv
 
 step.categories_jct_en:
+  translationfile: ${workspace}/data/categories.csv
   input  : ${workspace}/scsv_jct_nocat_en.csv
-  catfile: ${workspace}/data/categories_jct.csv
+  mapfile: ${workspace}/data/categories_jct.csv
   feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_nofunc_en.csv
 
 step.categories_jct_de:
+  translationfile: ${workspace}/data/categories.csv
   input: ${workspace}/scsv_jct_nocat_de.csv
-  catfile: ${workspace}/data/categories_jct.csv
+  mapfile: ${workspace}/data/categories_jct.csv
   feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
-  output: ${workspace}/scsv_jct_de.csv
+  output: ${workspace}/scsv_jct_nofunc_de.csv
 
 step.functionalities_jct_en:
+  translationfile: ${workspace}/data/functionalities.csv
   input  : ${workspace}/scsv_jct_nocat_en.csv
-  catfile: ${workspace}/data/functionalities_jct.csv
+  mapfile: ${workspace}/data/functionalities_jct.csv
   feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_en.csv
 
-step.functionalities_jct_en:
+step.functionalities_jct_de:
+  translationfile: ${workspace}/data/functionalities.csv
   input  : ${workspace}/scsv_jct_nocat_de.csv
-  catfile: ${workspace}/data/functionalities_jct.csv
+  mapfile: ${workspace}/data/functionalities_jct.csv
   feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_de.csv
 

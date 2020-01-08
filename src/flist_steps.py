@@ -137,30 +137,44 @@ registerStep(CT2scsv_ct2_de)
 categories_ct2_en = FlistStep(
     name="categories_ct2_en", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="en")
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
 )
 registerStep(categories_ct2_en)
 
 categories_ct2_de = FlistStep(
     name="categories_ct2_de", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="de")
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
 )
 registerStep(categories_ct2_de)
 
 categories_jct_en = FlistStep(
     name="categories_jct_en", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="en")
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
 )
 registerStep(categories_jct_en)
 
 categories_jct_de = FlistStep(
     name="categories_jct_de", 
     callable = flist_step_categories.Add_Categories,
-    proto = bdict(input=None, catfile=None, output=None, feedbackfile=None, language="de")
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
 )
 registerStep(categories_jct_de)
+
+functionalities_jct_en = FlistStep(
+    name="categories_jct_en", 
+    callable = flist_step_categories.Add_Categories,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
+)
+registerStep(functionalities_jct_en)
+
+functionalities_jct_de = FlistStep(
+    name="categories_jct_de", 
+    callable = flist_step_categories.Add_Categories,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
+)
+registerStep(functionalities_jct_de)
 
 merge_en = FlistStep(
     name="merge_en",
