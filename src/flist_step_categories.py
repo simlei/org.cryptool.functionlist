@@ -17,9 +17,6 @@ import flist_api as api; from flist_api import implicitly
 
 import benedict; from benedict import benedict as bdict
 
-def get_category_file():
-    return implicitly("workspace").path / "data" / "categories.csv"
-
 def translate(translation_df: pandas.DataFrame, lang: str, category_en: str):
     for i,row in translation_df.iterrows():
         if row["en"] == category_en:

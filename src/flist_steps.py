@@ -6,6 +6,7 @@ import benedict; from benedict.dicts import benedict as bdict
 import flist_api as api; from flist_api import implicitly
 
 import plumbum; from plumbum.commands import BaseCommand
+import flist_colmap
 import flist_step_categories
 import flist_step_CT2scsv
 import flist_step_merge
@@ -136,42 +137,42 @@ registerStep(CT2scsv_ct2_de)
 
 categories_ct2_en = FlistStep(
     name="categories_ct2_en", 
-    callable = flist_step_categories.Add_Categories,
+    callable = flist_colmap.Map_Columns,
     proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
 )
 registerStep(categories_ct2_en)
 
 categories_ct2_de = FlistStep(
     name="categories_ct2_de", 
-    callable = flist_step_categories.Add_Categories,
+    callable = flist_colmap.Map_Columns,
     proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
 )
 registerStep(categories_ct2_de)
 
 categories_jct_en = FlistStep(
     name="categories_jct_en", 
-    callable = flist_step_categories.Add_Categories,
+    callable = flist_colmap.Map_Columns,
     proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
 )
 registerStep(categories_jct_en)
 
 categories_jct_de = FlistStep(
     name="categories_jct_de", 
-    callable = flist_step_categories.Add_Categories,
+    callable = flist_colmap.Map_Columns,
     proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
 )
 registerStep(categories_jct_de)
 
 functionalities_jct_en = FlistStep(
-    name="categories_jct_en", 
-    callable = flist_step_categories.Add_Categories,
+    name="functionalities_jct_en", 
+    callable = flist_colmap.Map_Columns,
     proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
 )
 registerStep(functionalities_jct_en)
 
 functionalities_jct_de = FlistStep(
-    name="categories_jct_de", 
-    callable = flist_step_categories.Add_Categories,
+    name="functionalities_jct_de", 
+    callable = flist_colmap.Map_Columns,
     proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
 )
 registerStep(functionalities_jct_de)

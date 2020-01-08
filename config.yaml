@@ -18,6 +18,8 @@
 # -  categories_ct2_en
 # -  categories_jct_de
 # -  categories_jct_en
+# -  functionalities_jct_en
+# -  functionalities_jct_de
 # -  merge_en
 # -  merge_de
 # -  tofinalform_en
@@ -37,6 +39,8 @@ defaultsteps:
   - categories_ct2_en
   - categories_jct_de
   - categories_jct_en
+  - functionalities_jct_en
+  - functionalities_jct_de
   - merge_en
   - merge_de
   - tofinalform_en
@@ -95,14 +99,14 @@ step.categories_jct_de:
 
 step.functionalities_jct_en:
   translationfile: ${workspace}/data/functionalities.csv
-  input  : ${workspace}/scsv_jct_nocat_en.csv
+  input  : ${workspace}/scsv_jct_nofunc_en.csv
   mapfile: ${workspace}/data/functionalities_jct.csv
   feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_en.csv
 
 step.functionalities_jct_de:
   translationfile: ${workspace}/data/functionalities.csv
-  input  : ${workspace}/scsv_jct_nocat_de.csv
+  input  : ${workspace}/scsv_jct_nofunc_de.csv
   mapfile: ${workspace}/data/functionalities_jct.csv
   feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_de.csv
