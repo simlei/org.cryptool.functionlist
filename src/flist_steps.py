@@ -106,6 +106,20 @@ init_workspace = FlistStep(
         )
 registerStep(init_workspace);
 
+ct2outputfilter_en = FlistStep(
+    name="ct2outputfilter_en",
+    callable = flist_step_outputfilter.PreprocessCT2,
+    proto = bdict(input=None, output=None, language="en")
+)
+registerStep(ct2outputfilter_en)
+
+ct2outputfilter_de = FlistStep(
+    name="ct2outputfilter_de",
+    callable = flist_step_outputfilter.PreprocessCT2,
+    proto = bdict(input=None, output=None, language="de")
+)
+registerStep(ct2outputfilter_de)
+
 CT2scsv_jct_en = FlistStep(
     name="CT2scsv_jct_en",
     callable = flist_step_CT2scsv.CreateCT2SCSV,
