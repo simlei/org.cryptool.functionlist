@@ -1,0 +1,1150 @@
+ADFGVX-Analyse-Komponente;K/T;
+;[K];Kryptoanalyse\ Generisch\ ADFGVX-Analyse-Komponente
+;[T];Kryptoanalyse\ Klassisch\ ADFGVX heuristische Analyse
+
+Alphabet-Permutierer;K/T;
+;[K];Werkzeuge\ Datenfluss\ Alphabet-Permutierer
+;[T];Kryptographie\ Klassisch\ Substitutions-Chiffre mit Passwort
+
+Camellia;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Camellia
+;[T];Kryptographie\ Modern\ Symmetrisch\ Camellia-Chiffre
+
+Zwischenablage-Eingabe;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Zwischenablage-Eingabe
+
+Zwischenablage-Ausgabe;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Zwischenablage-Ausgabe
+
+Konkatenation;K/T;
+;[K];Werkzeuge\ Sonstige\ Konkatenation
+;[T];Hash-Funktionen\ CRC Nullprobleme
+;[T];Hash-Funktionen\ HMAC
+;[T];Hash-Funktionen\ MD5-Kollisionsfinder
+;[T];Hash-Funktionen\ MD5 Salted-Hash-Vergleich
+
+W?rterbuch-Suche;K/T;
+;[K];Kryptoanalyse\ Generisch\ W?rterbuch-Suche
+;[T];Kryptoanalyse\ Klassisch\ Caesar Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Skytale Brute-Force-Analyse
+
+Achterbahn;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Achterbahn
+;[T];Kryptographie\ Modern\ Symmetrisch\ Achterbahn-Chiffre
+
+ADFGVX;K/T/W;
+;[K];Klassische Verfahren\ ADFGVX
+;[T];Kryptoanalyse\ Klassisch\ W?rterbuchangriff auf die ADFGVX-Chiffre
+;[T];Kryptographie\ Klassisch\ ADFGVX-Chiffre
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ ADFGVX
+
+Alphabete;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Alphabete
+
+Monoalphabetische Substitutionsanalyse;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Monoalphabetische Substitutionsanalyse
+;[T];Kryptoanalyse\ Klassisch\ ADFGVX heuristische Analyse
+;[T];Kryptoanalyse\ Klassisch\ Angriff auf die monoalphabetische Substitution
+;[T];Kryptoanalyse\ Klassisch\ Angriff auf die monoalphabetische Substitution mit beliebigem Geheimtextalphabet
+
+Berlekamp-Massey-Algorithmus;K/T;
+;[K];Kryptoanalyse\ Generisch\ Berlekamp-Massey-Algorithmus
+;[T];Mathematisch\ Berlekamp-Massey
+
+Parser f?r Boolesche Funktion;K;
+;[K];Werkzeuge\ Boolean\ Parser f?r Boolesche Funktion
+
+Caesar;K/T/W;
+;[K];Klassische Verfahren\ Caesar
+;[T];Kryptoanalyse\ Klassisch\ Caesar Analyse mittels Buchstabenh?ufigkeiten
+;[T];Kryptoanalyse\ Klassisch\ Caesar Brute-Force-Analyse
+;[T];Kryptographie\ Klassisch\ Caesar-Chiffre
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ Caesar
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Caesar
+
+Caesar-Analyse;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Caesar-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Caesar Analyse mittels Buchstabenh?ufigkeiten
+
+Taktgenerator;K;
+;[K];Werkzeuge\ Datenfluss\ Taktgenerator
+
+CRC;K/T;
+;[K];Hash-Funktionen\ CRC
+;[T];Hash-Funktionen\ CRC Nullprobleme
+;[T];Hash-Funktionen\ CRC
+
+Cube-Angriff;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Cube-Angriff
+;[T];Kryptoanalyse\ Modern\ Cube-Angriff auf Trivium
+
+DES-Visualisierung;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ DES-Visualisierung
+;[T];Kryptographie\ Modern\ Symmetrisch\ DES-Visualisierung
+
+Enigma;K/T/W;
+;[K];Klassische Verfahren\ Enigma
+;[T];Kryptoanalyse\ Klassisch\ Enigma-Analyse
+;[T];Kryptographie\ Klassisch\ Enigma-Chiffre
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ Enigma
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Enigma
+
+Enigma-Analyse;K;
+;[K];Kryptoanalyse\ Spezifisch\ Enigma-Analyse
+
+Fialka;K/T;
+;[K];Klassische Verfahren\ Fialka
+;[T];Kryptographie\ Klassisch\ Fialka ED Check
+;[T];Kryptographie\ Klassisch\ Fialka ED Mixed Mode Check
+;[T];Kryptographie\ Klassisch\ Fialka ED NumLock10 Check
+;[T];Kryptographie\ Klassisch\ Fialka Schl?sselausgabe
+;[T];Kryptographie\ Klassisch\ Fialka M-125-3 PROTON II
+;[T];Kryptographie\ Klassisch\ Fialka M-125 PROTON I
+
+Frequenzanalyse;K/T;
+;[K];Kryptoanalyse\ Generisch\ Frequenzanalyse
+;[T];Kryptoanalyse\ Klassisch\ Caesar Analyse mittels Buchstabenh?ufigkeiten
+;[T];Kryptoanalyse\ Klassisch\ Enigma-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Frequenzanalyse
+;[T];Kryptoanalyse\ Klassisch\ Statistiktests f?r klassische Chiffren
+
+HIGHT;K;
+;[K];Moderne Verfahren\ Symmetrisch\ HIGHT
+
+HMAC;K/T;
+;[K];Protokolle\ HMAC
+;[T];Hash-Funktionen\ HMAC
+
+IP-Frame-Generator;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ IP-Frame-Generator
+;[T];Protokolle\ WEP-Angriff
+
+Kasiski-Test;K;
+;[K];Kryptoanalyse\ Generisch\ Kasiski-Test
+
+LFSR;K;
+;[K];Werkzeuge\ Sonstige\ LFSR
+
+M-138;K/T;
+;[K];Klassische Verfahren\ M-138
+;[T];Kryptographie\ Klassisch\ M-138
+
+M-138 Analysewerkzeug;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ M-138 Analysewerkzeug
+;[T];Kryptoanalyse\ Klassisch\ Ciphertext-Only Angriff auf M-138
+;[T];Kryptoanalyse\ Klassisch\ Known-Plaintext Angriff auf M-138
+;[T];Kryptoanalyse\ Klassisch\ Partially-Known-Plaintext Angriff auf M-138
+
+MD5;K/T/W;
+;[K];Hash-Funktionen\ MD5
+;[T];Codes\ RSA-signierter QR-Code
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES mit PKCS#5
+;[T];Hash-Funktionen\ HMAC
+;[T];Hash-Funktionen\ MD5
+;[T];Hash-Funktionen\ MD5-Kollisionsfinder
+;[T];Hash-Funktionen\ MD5 Salted-Hash-Vergleich
+;[W];Kryptoanalyse\ Moderne Verschl?sselung\ Hash-Funktionen\ MD5
+
+NLFSR;K/T;
+;[K];Protokolle\ NLFSR
+;[T];Mathematisch\ Nichtlinear r?ckgekoppeltes Schieberegister (NLFSR)
+
+Playfair;K/T/W;
+;[K];Klassische Verfahren\ Playfair
+;[T];Kryptoanalyse\ Klassisch\ Playfair-Analyse
+;[T];Kryptographie\ Klassisch\ Playfair-Chiffre
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ Playfair
+
+Playfair-Analyse;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Playfair-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Playfair-Analyse
+
+AES-Visualisierung;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ AES-Visualisierung
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES-Visualisierung
+
+Array-Indizierer;K/T;
+;[K];Werkzeuge\ Datenfluss\ Array-Indizierer
+;[T];Hash-Funktionen\ W?rterbuch-Angriff auf einen Passwort-Hash-Wert
+
+Audio Input;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Audio Input
+
+Audio Output;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Audio Output
+
+Autokorrelation;K;
+;[K];Kryptoanalyse\ Generisch\ Autokorrelation
+
+Avalanche-Visualisierung;K/T;
+;[K];Werkzeuge\ Sonstige\ Avalanche-Visualisierung
+;[T];Kryptoanalyse\ Modern\ Avalanche (AES)
+;[T];Kryptoanalyse\ Modern\ Avalanche (klassische Verschl?sselungsverfahren)
+;[T];Kryptoanalyse\ Modern\ Avalanche (Vergleich klassischer Verschl?sselungsverfahren)
+;[T];Kryptoanalyse\ Modern\ Avalanche (DES)
+;[T];Kryptoanalyse\ Modern\ Avalanche (Hashverfahren)
+;[T];Kryptoanalyse\ Modern\ Avalanche (moderne Verschl?sselungsverfahren)
+
+BB84-Fehlerdetektor;K/T;
+;[K];Protokolle\ BB84-Fehlerdetektor
+;[T];Protokolle\ BB84-Schl?sselaustausch mit Lauschangriff
+
+BB84-Schl?sselgenerator;K/T;
+;[K];Protokolle\ BB84-Schl?sselgenerator
+;[T];Protokolle\ BB84-Schl?sselaustausch mit Lauschangriff
+;[T];Protokolle\ BB84-Schl?sselaustausch
+
+BB84-Mittelsmann;K/T;
+;[K];Protokolle\ BB84-Mittelsmann
+;[T];Protokolle\ BB84-Schl?sselaustausch mit Lauschangriff
+
+BB84-Photonenbasis-Generator;K/T;
+;[K];Protokolle\ BB84-Photonenbasis-Generator
+;[T];Protokolle\ BB84-Schl?sselaustausch mit Lauschangriff
+;[T];Protokolle\ BB84-Schl?sselaustausch
+
+BB84-Photonendecodierer;K/T;
+;[K];Protokolle\ BB84-Photonendecodierer
+;[T];Protokolle\ BB84-Schl?sselaustausch mit Lauschangriff
+;[T];Protokolle\ BB84-Schl?sselaustausch
+
+BB84-Photonencodierer;K/T;
+;[K];Protokolle\ BB84-Photonencodierer
+;[T];Protokolle\ BB84-Schl?sselaustausch mit Lauschangriff
+;[T];Protokolle\ BB84-Schl?sselaustausch
+
+BLAKE;K/T;
+;[K];Hash-Funktionen\ BLAKE
+;[T];Hash-Funktionen\ BLAKE
+;[T];Hash-Funktionen\ Passwort-Speicherung mittels Salted BLAKE-256
+;[T];Hash-Funktionen\ Passwort-Verifizierung mittels Salted BLAKE-256
+
+Blinde-Signatur-Generator;K/T;
+;[K];Moderne Verfahren\ Asymmetrisch\ Blinde-Signatur-Generator
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Blinde Signature Paillier
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Blinde Signatur RSA
+
+Blinde-Signatur-Verifizierer;K;
+;[K];Moderne Verfahren\ Asymmetrisch\ Blinde-Signatur-Verifizierer
+
+Bin?rer boolescher Operator;K/T;
+;[K];Werkzeuge\ Boolean\ Bin?rer boolescher Operator
+;[T];Mathematisch\ Boole'sche Werte
+
+Boolescher Wenn-Dann-Operator;K;
+;[K];Werkzeuge\ Boolean\ Boolescher Wenn-Dann-Operator
+
+Boolesche Eingabe;K/T;
+;[K];Werkzeuge\ Boolean\ Boolesche Eingabe
+;[T];Codes\ AES (CBC) mit PKCS#5 und IV, Ausgabe als QR-Code
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Wahlen)
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (CBC) mit PKCS#5 und IV
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (ECB) mit PKCS#5
+;[T];Mathematisch\ Boole'sche Werte
+;[T];Mathematisch\ ISAP Bit-Commitment-Verfahren
+;[T];Protokolle\ WEP-Angriff
+;[T];Werkzeuge\ Foto erstellen
+
+Boolescher Nicht-Operator;K;
+;[K];Werkzeuge\ Boolean\ Boolescher Nicht-Operator
+
+Boolesche Ausgabe;K/T;
+;[K];Werkzeuge\ Boolean\ Boolesche Ausgabe
+;[T];Codes\ ISBN-10 ?berpr?fung
+;[T];Codes\ ISBN-13 ?berpr?fung
+;[T];Codes\ RSA-signierter QR-Code
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Zahleneingabe)
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre mit Addition
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES mit PKCS#5
+;[T];Kryptographie\ Modern\ Symmetrisch\ DES Komplement-Eigenschaft
+;[T];Hash-Funktionen\ MD5-Kollisionsfinder
+;[T];Hash-Funktionen\ MD5 Salted-Hash-Vergleich
+;[T];Mathematisch\ Boole'sche Werte
+;[T];Mathematisch\ N?chstkleinere Primzahl
+;[T];Mathematisch\ Primzahltest
+;[T];Protokolle\ Coin-Flipping-Protokoll
+;[T];Protokolle\ Diffie-Hellman-Schl?sselaustausch
+;[T];Protokolle\ Dining Cryptographers-Protokoll
+;[T];Protokolle\ Yaos Million?rs-Problem-Protokoll
+;[T];Protokolle\ Zero Knowledge-Protokoll
+
+M?nzwurf;K/T;
+;[K];Protokolle\ M?nzwurf
+;[T];Protokolle\ Coin-Flipping-Protokoll
+
+Komparatoren;K/T;
+;[K];Werkzeuge\ Sonstige\ Komparatoren
+;[T];Codes\ ISBN-10 ?berpr?fung
+;[T];Codes\ ISBN-13 ?berpr?fung
+;[T];Kryptoanalyse\ Klassisch\ Caesar Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Skytale Brute-Force-Analyse
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Zahleneingabe)
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre mit Addition
+;[T];Protokolle\ Diffie-Hellman-Schl?sselaustausch
+
+Konvertierer;K;
+;[K];Werkzeuge\ Sonstige\ Konvertierer
+
+String-Decodierer;K;
+;[K];Werkzeuge\ Sonstige\ String-Decodierer
+
+String-Codierer;K;
+;[K];Werkzeuge\ Sonstige\ String-Codierer
+
+Kostenfunktion;K/T;
+;[K];Kryptoanalyse\ Generisch\ Kostenfunktion
+;[T];Kryptoanalyse\ Klassisch\ Transposition Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Crib-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Genetische Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Hill-Climbing-Analyse
+;[T];Kryptoanalyse\ Modern\ AES Analyse per Entropie (1)
+;[T];Kryptoanalyse\ Modern\ AES Known-Plaintext-Analyse (1)
+;[T];Kryptoanalyse\ Modern\ DES Analyse per Entropie
+;[T];Kryptoanalyse\ Modern\ DES Known-Plaintext-Analyse
+;[T];Kryptoanalyse\ Modern\ AES-Analyse per Entropie (2) - mit ver?nderbarem Klartext
+;[T];Kryptoanalyse\ Modern\ AES Known-Plaintext-Analyse (2)
+;[T];Kryptoanalyse\ Modern\ DES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ SDES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ Triple-DES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ SDES Analyse per Entropie
+;[T];Kryptoanalyse\ Modern\ SDES Known-Plaintext-Analyse
+
+Cramer-Shoup;K/T;
+;[K];Moderne Verfahren\ Asymmetrisch\ Cramer-Shoup
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Cramer-Shoup mit AES
+
+Cramer-Shoup Key Generator;K/T;
+;[K];Moderne Verfahren\ Asymmetrisch\ Cramer-Shoup Key Generator
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Cramer-Shoup mit AES
+
+AES;K/T/W;
+;[K];Moderne Verfahren\ Symmetrisch\ AES
+;[T];Codes\ AES (CBC) mit PKCS#5 und IV, Ausgabe als QR-Code
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Kryptoanalyse\ Modern\ AES Analyse per Entropie (1)
+;[T];Kryptoanalyse\ Modern\ AES Known-Plaintext-Analyse (1)
+;[T];Kryptoanalyse\ Modern\ CBC-Angriff
+;[T];Kryptoanalyse\ Modern\ AES-Analyse per Entropie (2) - mit ver?nderbarem Klartext
+;[T];Kryptoanalyse\ Modern\ AES Known-Plaintext-Analyse (2)
+;[T];Kryptoanalyse\ Modern\ Padding-Orakel-Angriff auf AES
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Cramer-Shoup mit AES
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES-Chiffre mit SHA-Hashwerten
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES-Verschl?sselung mit impliziter Konvertierung
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES-Chiffre (Dateieingabe)
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES mit PKCS#5
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (CBC) mit PKCS#5 und IV
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (ECB) mit PKCS#5
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES-Chiffre (Texteingabe)
+;[T];Werkzeuge\ Einfacher Video-Audio-Chat mit AES-Verschl?sselung
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+;[T];Werkzeuge\ Einfacher AES-Chat
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Symmetrische Verschl?sselungsverfahren\ AES
+
+DES;K/T/W;
+;[K];Moderne Verfahren\ Symmetrisch\ DES
+;[T];Kryptoanalyse\ Modern\ DES Analyse per Entropie
+;[T];Kryptoanalyse\ Modern\ DES Known-Plaintext-Analyse
+;[T];Kryptoanalyse\ Modern\ DES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ Triple-DES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ Padding-Orakel-Angriff auf DES
+;[T];Kryptographie\ Modern\ Symmetrisch\ Block-Modi von symmetrischen Chiffren
+;[T];Kryptographie\ Modern\ Symmetrisch\ DES-Chiffre
+;[T];Kryptographie\ Modern\ Symmetrisch\ DES Komplement-Eigenschaft
+;[T];Kryptographie\ Modern\ Symmetrisch\ Triple-DES-Chiffre
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Symmetrische Verschl?sselungsverfahren\ DES
+
+3DES;K;
+;[K];Moderne Verfahren\ Symmetrisch\ DES
+
+RC2;K/T/W;
+;[K];Moderne Verfahren\ Symmetrisch\ RC2
+;[T];Kryptoanalyse\ Modern\ DES Analyse per Entropie
+;[T];Kryptographie\ Modern\ Symmetrisch\ RC2-Chiffre
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Symmetrische Verschl?sselungsverfahren\ RC2
+
+RC4;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ RC4
+;[T];Kryptographie\ Modern\ Symmetrisch\ RC4-Chiffre
+
+SDES;K/T/W;
+;[K];Moderne Verfahren\ Symmetrisch\ SDES
+;[T];Kryptoanalyse\ Modern\ SDES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ SDES Analyse per Entropie
+;[T];Kryptoanalyse\ Modern\ SDES Known-Plaintext-Analyse
+;[T];Kryptographie\ Modern\ Symmetrisch\ SDES-Chiffre
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Symmetrische Verschl?sselungsverfahren\ SDES
+
+DKA-KeyRecovery;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ DKA-KeyRecovery
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (Tutorial Modus)
+
+DKA-Orakel;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ DKA-Orakel
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (Tutorial Modus)
+
+DKA-PfadFinder;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ DKA-PfadFinder
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (Tutorial Modus)
+
+DKA-PfadVisualisierer;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ DKA-PfadVisualisierer
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (Tutorial Modus)
+
+DKA-ToyCipher;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ DKA-ToyCipher
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 1 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 2 (Tutorial Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (automatischer Modus)
+;[T];Kryptoanalyse\ Modern\ Differenzielle Kryptoanalyse Tutorial 3 (Tutorial Modus)
+
+Dezimalisierung;K/T;
+;[K];Werkzeuge\ Sonstige\ Dezimalisierung
+;[T];Mathematisch\ Dezimalisierung
+;[T];Werkzeuge\ Zuf?llige Dezimalzahl
+
+DECODEClustererCaption;K;
+;[K];DECRYPT Projekt\ DECODEClustererCaption
+
+DECODE Entschl?sseler;K;
+;[K];DECRYPT Projekt\ DECODE Entschl?sseler
+
+DECODE-Downloader;K/T;
+;[K];DECRYPT Projekt\ DECODE-Downloader
+;[T];Werkzeuge\ Dokumente aus der DECODE-Datenbank herunterladen
+
+DecodeParserTesterCaption;K;
+;[K];DECRYPT Projekt\ DecodeParserTesterCaption
+
+DECODESymbolHeatmapCaption;K;
+;[K];DECRYPT Projekt\ DECODESymbolHeatmapCaption
+
+DECODE-Betrachter;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ DECODE-Betrachter
+;[T];Werkzeuge\ Dokumente aus der DECODE-Datenbank herunterladen
+
+DGK;K;
+;[K];Moderne Verfahren\ Asymmetrisch\ DGK
+
+DGK-Schl?sselgenerator;K;
+;[K];Moderne Verfahren\ Asymmetrisch\ DGK-Schl?sselgenerator
+
+Diskreter Logarithmus;K/T;
+;[K];Kryptoanalyse\ Generisch\ Diskreter Logarithmus
+;[T];Mathematisch\ Diskreter Logarithmus
+
+Formaterhaltende Verschl?sselung (FPE);K;
+;[K];Moderne Verfahren\ Symmetrisch\ Formaterhaltende Verschl?sselung (FPE)
+
+Grain v1;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Grain v1
+;[T];Kryptographie\ Modern\ Symmetrisch\ Grain v1-Chiffre
+
+Gr?stl;K/T;
+;[K];Hash-Funktionen\ Gr?stl
+;[T];Hash-Funktionen\ Gr?stl
+;[T];Hash-Funktionen\ Passwort-Speicherung mittels Salted Gr?stl-256
+;[T];Hash-Funktionen\ Passwort-Verifizierung mittels Salted Gr?stl-256
+
+HC128;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ HC128
+;[T];Kryptographie\ Modern\ Symmetrisch\ HC128-Chiffre
+
+Hill-Chiffre;K/T;
+;[K];Klassische Verfahren\ Hill-Chiffre
+;[T];Kryptographie\ Klassisch\ Hill-Chiffre
+
+HKDF SHA-256;K/T;
+;[K];Hash-Funktionen\ HKDF SHA-256
+;[T];Hash-Funktionen\ KDF Performance Vergleich (ohne Pr?sentation)
+;[T];Hash-Funktionen\ KDF Performance Vergleich (mit Pr?sentation)
+
+Homophoner Substitutionsanalysator;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Homophoner Substitutionsanalysator
+;[T];Kryptoanalyse\ Klassisch\ Homophone Substitutionsanalyse
+;[T];Kryptoanalyse\ Klassisch\ Zodiac-408-Analyse
+
+Huffman;K/T;
+;[K];Werkzeuge\ Sonstige\ Huffman
+;[T];Werkzeuge\ Huffman-Algorithmus (ASCII)
+;[T];Werkzeuge\ Huffman-Algorithmus (BMG, JPG)
+;[T];Werkzeuge\ Huffman-Algorithmus (UTF-8)
+
+BildHash;K/T;
+;[K];Hash-Funktionen\ BildHash
+;[T];Hash-Funktionen\ BildHash
+;[T];Hash-Funktionen\ BildHash -- Weichzeichnungs-Vergleich
+
+Bildverarbeitung;K;
+;[K];Werkzeuge\ Sonstige\ Bildverarbeitung
+
+Keccak;K/T;
+;[K];Hash-Funktionen\ Keccak
+;[T];Kryptographie\ Modern\ Symmetrisch\ Keccak-Chiffre
+;[T];Hash-Funktionen\ Keccak-Hash (SHA-3)
+;[T];Werkzeuge\ Keccak-Pseudozufallszahlengenerator (PRNG)
+
+KKDF SHA-256;K;
+;[K];Hash-Funktionen\ KKDF SHA-256
+
+KKDF SHAKE256;K;
+;[K];Hash-Funktionen\ KKDF SHAKE256
+
+L?nge;K/T;
+;[K];Werkzeuge\ Sonstige\ L?nge
+;[T];Hash-Funktionen\ W?rterbuch-Angriff auf einen Passwort-Hash-Wert
+
+M209;K/T;
+;[K];Klassische Verfahren\ M209
+;[T];Kryptographie\ Klassisch\ M209-Chiffre
+;[T];Kryptographie\ Klassisch\ M209-Chiffre Schl?sseleingabe
+
+MD5-Kollisionsgenerator;K/T;
+;[K];Hash-Funktionen\ MD5-Kollisionsgenerator
+;[T];Hash-Funktionen\ MD5-Kollisionsfinder
+
+Mickey 2;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Mickey 2
+;[T];Kryptographie\ Modern\ Symmetrisch\ Mickey 2-Chiffre
+
+Morsecode;K/T/W;
+;[K];Werkzeuge\ Sonstige\ Morsecode
+;[T];Codes\ Morsecode
+;[W];Codierungen\ Morsecode
+
+Network Capture;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Network Capture
+
+Netzwerk-Empf?nger;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Netzwerk-Empf?nger
+;[T];Protokolle\ Diffie-Hellman-Schl?sselaustausch ?ber Netzwerk
+;[T];Protokolle\ Heartbleed Test
+;[T];Protokolle\ HTTP Anfrage
+;[T];Protokolle\ Einfacher Webserver
+;[T];Protokolle\ Einfache Multi-Client-Kommunikation
+;[T];Werkzeuge\ Einfacher Video-Audio-Chat mit AES-Verschl?sselung
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+;[T];Werkzeuge\ Einfacher AES-Chat
+
+Netzwerk-Sender;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Netzwerk-Sender
+;[T];Protokolle\ Diffie-Hellman-Schl?sselaustausch ?ber Netzwerk
+;[T];Protokolle\ Heartbleed Test
+;[T];Protokolle\ Einfache Multi-Client-Kommunikation
+;[T];Werkzeuge\ Einfacher Video-Audio-Chat mit AES-Verschl?sselung
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+;[T];Werkzeuge\ Einfacher AES-Chat
+
+Zahleneingabe;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Zahleneingabe
+
+Rechenoperationen;K;
+;[K];Werkzeuge\ Sonstige\ Rechenoperationen
+
+Oblivious Transfer 1;K/T;
+;[K];Protokolle\ Oblivious Transfer 1
+;[T];Protokolle\ Oblivious Transfer-Protokoll (1 aus n)
+
+Oblivious Transfer 2;K/T;
+;[K];Protokolle\ Oblivious Transfer 2
+;[T];Protokolle\ Oblivious Transfer-Protokoll (1 aus n)
+
+Padding-Orakel;K/T;
+;[K];Werkzeuge\ Sonstige\ Padding-Orakel
+;[T];Kryptoanalyse\ Modern\ Padding-Orakel-Angriff auf AES
+;[T];Kryptoanalyse\ Modern\ Padding-Orakel-Angriff auf DES
+
+Padding-Orakel-Angriff;K/T;
+;[K];Werkzeuge\ Sonstige\ Padding-Orakel-Angriff
+;[T];Kryptoanalyse\ Modern\ Padding-Orakel-Angriff auf AES
+;[T];Kryptoanalyse\ Modern\ Padding-Orakel-Angriff auf DES
+
+Paillier;K/T;
+;[K];Moderne Verfahren\ Asymmetrisch\ Paillier
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Blinde Signature Paillier
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Blinde Signatur RSA
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Zahleneingabe)
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre mit Addition
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre mit Blinding
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Schl?sselgenerator
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Texteingabe)
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Wahlen)
+
+Paillier-Schl?sselgenerator;K/T;
+;[K];Moderne Verfahren\ Asymmetrisch\ Paillier-Schl?sselgenerator
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Zahleneingabe)
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre mit Addition
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre mit Blinding
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Schl?sselgenerator
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Texteingabe)
+;[T];Kryptographie\ Modern\ Asymmetrisch\ Paillier-Chiffre (Wahlen)
+
+Purple;K/T;
+;[K];Klassische Verfahren\ Purple
+;[T];Kryptographie\ Klassisch\ PURPLE-Chiffre
+
+Quadratisches Sieb;K/T;
+;[K];Kryptoanalyse\ Generisch\ Quadratisches Sieb
+;[T];Mathematisch\ Faktorisierung mit Quadratischem Sieb (QS)
+
+Rabbit;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Rabbit
+;[T];Kryptographie\ Modern\ Symmetrisch\ Rabbit-Chiffre
+
+Zufallszahlengenerator;K/T;
+;[K];Werkzeuge\ Sonstige\ Zufallszahlengenerator
+;[T];Werkzeuge\ Zufallszahlengeneratoren
+
+RSA;K/T/W;
+;[K];Moderne Verfahren\ Asymmetrisch\ RSA
+;[T];Codes\ RSA-signierter QR-Code
+;[T];Kryptographie\ Modern\ Asymmetrisch\ RSA-Chiffre
+;[T];Kryptographie\ Modern\ Asymmetrisch\ RSA-Entschl?sselung
+;[T];Kryptographie\ Modern\ Asymmetrisch\ RSA-Verschl?sselung
+;[T];Protokolle\ Yaos Million?rs-Problem-Protokoll
+;[W];Kryptoanalyse\ Moderne Verschl?sselung\ Asymmetrische Verschl?sselung\ RSA
+
+RSA-Schl?sselgenerator;K/T;
+;[K];Moderne Verfahren\ Asymmetrisch\ RSA-Schl?sselgenerator
+;[T];Codes\ RSA-signierter QR-Code
+;[T];Kryptographie\ Modern\ Asymmetrisch\ RSA-Chiffre
+;[T];Kryptographie\ Modern\ Asymmetrisch\ RSA-Entschl?sselung
+;[T];Kryptographie\ Modern\ Asymmetrisch\ RSA-Verschl?sselung
+;[T];Kryptographie\ Modern\ Asymmetrisch\ RSA-Schl?sselgenerator
+;[T];Protokolle\ Oblivious Transfer-Protokoll (1 aus n)
+;[T];Protokolle\ Yaos Million?rs-Problem-Protokoll
+
+Salsa20;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Salsa20
+;[T];Kryptographie\ Modern\ Symmetrisch\ Salsa20-Chiffre
+
+SAT-Solver;K/T;
+;[K];Werkzeuge\ Sonstige\ SAT-Solver
+;[T];Mathematisch\ SAT-Solver (Dateieingabe)
+;[T];Mathematisch\ SAT-Solver (Texteingabe)
+
+Sosemanuk;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Sosemanuk
+;[T];Kryptographie\ Modern\ Symmetrisch\ Sosemanuk-Chiffre
+
+Spanische Strip-Chiffre;K/T;
+;[K];Klassische Verfahren\ Spanische Strip-Chiffre
+;[T];Kryptographie\ Klassisch\ Spanische Strip-Chiffre
+
+Einf?ge-Steganographie;K/T;
+;[K];Steganographie\ Einf?ge-Steganographie
+;[T];Steganographie\ Steganographie Einsetzung Entschl?sselung
+;[T];Steganographie\ Steganographie Einsetzung Verschl?sselung
+;[T];Steganographie\ Steganographie Permutation Verschl?sselung
+
+LSB-Steganographie;K/T;
+;[K];Steganographie\ LSB-Steganographie
+;[T];Steganographie\ Steganographie Niedrigstwertiges Bit Entschl?sselung
+;[T];Steganographie\ Steganographie Niedrigstwertiges Bit Verschl?sselung
+;[T];Steganographie\ Steganographie Niedrigstwertiges Bit Daten?bertragung
+
+Permutations-Steganographie;K/T;
+;[K];Steganographie\ Permutations-Steganographie
+;[T];Steganographie\ Steganographie Permutation Entschl?sselung
+;[T];Steganographie\ Steganographie Permutation Bild?bertragung
+
+Lorenz SZ42;K;
+;[K];Klassische Verfahren\ Lorenz SZ42
+
+T-310;K/T;
+;[K];Klassische Verfahren\ T-310
+;[T];Kryptographie\ Klassisch\ T-310/50 Chiffriermaschine
+;[T];Kryptographie\ Klassisch\ T-310/51 Chiffriermaschine
+
+Passwortst?rke;K/T;
+;[K];Werkzeuge\ Sonstige\ Passwortst?rke
+;[T];Werkzeuge\ Passwortst?rke ermitteln
+
+Transkriptor;K/T;
+;[K];Kryptoanalyse\ Generisch\ Transkriptor
+;[T];Kryptoanalyse\ Klassisch\ Transkriptor im manuellen Modus
+;[T];Kryptoanalyse\ Klassisch\ Transkriptor im semi-automatischen Modus
+
+Variable lesen;K/T;
+;[K];Werkzeuge\ Datenfluss\ Variable lesen
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Protokolle\ Diffie-Hellman-Schl?sselaustausch
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+
+Variable speichern;K/T;
+;[K];Werkzeuge\ Datenfluss\ Variable speichern
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Protokolle\ Diffie-Hellman-Schl?sselaustausch
+;[T];Werkzeuge\ Einfacher Video-Audio-Chat mit AES-Verschl?sselung
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+
+Vernam;K;
+;[K];Klassische Verfahren\ Vernam
+
+Visueller Decodierer;K/T;
+;[K];Werkzeuge\ Sonstige\ Visueller Decodierer
+;[T];Codes\ AES (CBC) mit PKCS#5 und IV, Ausgabe als QR-Code
+;[T];Codes\ Decodiere QR-Code-Datei
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Codes\ RSA-signierter QR-Code
+;[T];Codes\ Einfache Erkennung optischer Codes
+
+Visueller Codierer;K/T;
+;[K];Werkzeuge\ Sonstige\ Visueller Codierer
+;[T];Codes\ AES (CBC) mit PKCS#5 und IV, Ausgabe als QR-Code
+;[T];Codes\ QR-Code erstellen
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Codes\ RSA-signierter QR-Code
+;[T];Codes\ VCard
+
+Wasserzeichen-Generator;K/T;
+;[K];Steganographie\ Wasserzeichen-Generator
+;[T];Steganographie\ Wasserzeichen-Erzeuger -- Unsichtbares Wasserzeichen
+;[T];Steganographie\ Wasserzeichen-Erzeuger -- Robustheit
+;[T];Steganographie\ Wasserzeichen-Erzeuger -- Sichtbares Wasserzeichen
+
+Kamera;K/T;
+;[K];Werkzeuge\ Sonstige\ Kamera
+;[T];Codes\ AES (CBC) mit PKCS#5 und IV, Ausgabe als QR-Code
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Codes\ Einfache Erkennung optischer Codes
+;[T];Werkzeuge\ Einfacher Video-Audio-Chat mit AES-Verschl?sselung
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+;[T];Werkzeuge\ Foto erstellen
+
+Yao 1;K/T;
+;[K];Protokolle\ Yao 1
+;[T];Protokolle\ Yaos Million?rs-Problem-Protokoll
+
+Yao 2;K/T;
+;[K];Protokolle\ Yao 2
+;[T];Protokolle\ Yaos Million?rs-Problem-Protokoll
+
+Yao 3;K/T;
+;[K];Protokolle\ Yao 3
+;[T];Protokolle\ Yaos Million?rs-Problem-Protokoll
+
+Zero-Knowledge-Beweiser;K/T;
+;[K];Protokolle\ Zero-Knowledge-Beweiser
+;[T];Protokolle\ Zero Knowledge-Protokoll
+
+Zero-Knowledge-Verifizierer;K/T;
+;[K];Protokolle\ Zero-Knowledge-Verifizierer
+;[T];Protokolle\ Zero Knowledge-Protokoll
+
+PRESENT;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ PRESENT
+;[T];Kryptographie\ Modern\ Symmetrisch\ PRESENT-Chiffre
+;[T];Werkzeuge\ Keccak-Pseudozufallszahlengenerator (PRNG)
+
+Primzahlgenerator;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Primzahlgenerator
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Mathematisch\ Primzahlgenerator
+;[T];Protokolle\ Diffie-Hellman-Schl?sselaustausch ?ber Netzwerk
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+
+Cryptanalytic Process Executor;K;
+;[K];Werkzeuge\ Sonstige\ Cryptanalytic Process Executor
+
+Fortschritt;K/T;
+;[K];Werkzeuge\ Sonstige\ Fortschritt
+;[T];Hash-Funktionen\ W?rterbuch-Angriff auf einen Passwort-Hash-Wert
+
+Skytale;K/T/W;
+;[K];Klassische Verfahren\ Skytale
+;[T];Kryptoanalyse\ Klassisch\ Skytale Brute-Force-Analyse
+;[T];Kryptographie\ Klassisch\ Skytale-Chiffre
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ Skytale
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Skytale
+
+Datenstrom-Vergleicher;K/T;
+;[K];Werkzeuge\ Sonstige\ Datenstrom-Vergleicher
+;[T];Codes\ RSA-signierter QR-Code
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES mit PKCS#5
+;[T];Kryptographie\ Modern\ Symmetrisch\ DES Komplement-Eigenschaft
+;[T];Hash-Funktionen\ W?rterbuch-Angriff auf einen Passwort-Hash-Wert
+;[T];Hash-Funktionen\ MD5-Kollisionsfinder
+;[T];Hash-Funktionen\ MD5 Salted-Hash-Vergleich
+;[T];Protokolle\ Coin-Flipping-Protokoll
+
+Substitution;K/T/W;
+;[K];Klassische Verfahren\ Substitution
+;[T];Kryptoanalyse\ Klassisch\ Angriff auf die monoalphabetische Substitution mit beliebigem Geheimtextalphabet
+;[T];Kryptographie\ Klassisch\ Homophone Substitutions-Chiffre und Nomenklatur -- Entschl?sselung
+;[T];Kryptographie\ Klassisch\ Homophone Substitutions-Chiffre und Nomenklatur -- Verschl?sselung
+;[T];Kryptographie\ Klassisch\ Navajo-Code
+;[T];Kryptographie\ Klassisch\ Substitutions-Chiffre
+;[T];Kryptographie\ Klassisch\ Substitutions-Chiffre mit Passwort
+;[T];Werkzeuge\ Text zerlegen
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ Substitution
+
+TEA;K/T/W;
+;[K];Moderne Verfahren\ Symmetrisch\ TEA
+;[T];Kryptographie\ Modern\ Symmetrisch\ TEA-Chiffre
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Symmetrische Verschl?sselungsverfahren\ TEA
+
+Texteingabe;K;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Texteingabe
+
+Trivium;K/T;
+;[K];Moderne Verfahren\ Symmetrisch\ Trivium
+;[T];Kryptoanalyse\ Modern\ Cube-Angriff auf Trivium
+
+Vigen?re;K/T/W;
+;[K];Klassische Verfahren\ Vigen?re
+;[T];Kryptoanalyse\ Klassisch\ Statistiktests f?r klassische Chiffren
+;[T];Kryptoanalyse\ Klassisch\ Vigen?re Analyse
+;[T];Kryptographie\ Klassisch\ Vigen?re-Chiffre
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ Vigen?re
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Vigen?re
+
+Vigen?re Analyzer;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Vigen?re Analyzer
+;[T];Kryptoanalyse\ Klassisch\ Kryptos K1 Analyse
+;[T];Kryptoanalyse\ Klassisch\ Kryptos K2 Analyse
+
+WEP-Protokoll;K/T;
+;[K];Protokolle\ WEP-Protokoll
+;[T];Protokolle\ WEP-Angriff
+
+Angriffe auf das WEP-Protokoll;K/T;
+;[K];Protokolle\ Angriffe auf das WEP-Protokoll
+;[T];Protokolle\ WEP-Angriff
+
+XOR;K/T/W;
+;[K];Klassische Verfahren\ XOR
+;[T];Kryptographie\ Klassisch\ One-Time-Pad-Demo
+;[T];Kryptographie\ Klassisch\ One-time-Pad-Fehlbenutzung
+;[T];Kryptographie\ Klassisch\ XOR-Chiffre
+;[T];Kryptographie\ Modern\ Symmetrisch\ DES Komplement-Eigenschaft
+;[T];Kryptographie\ Modern\ Symmetrisch\ Keccak-Chiffre
+;[T];Hash-Funktionen\ HMAC
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ XOR
+
+CSV-Leser;K;
+;[K];Werkzeuge\ Datenfluss\ CSV-Leser
+
+W?rterbuch;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ W?rterbuch
+;[T];Kryptoanalyse\ Klassisch\ Caesar Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Skytale Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Solitaire Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Wortmusteranalyse
+;[T];Hash-Funktionen\ W?rterbuch-Angriff auf einen Passwort-Hash-Wert
+
+Faktorisierer;K/T;
+;[K];Kryptoanalyse\ Generisch\ Faktorisierer
+;[T];Mathematisch\ Faktorisierung mit Probedivision (Brute-Force)
+
+Dateieingabe;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Dateieingabe
+;[T];Kryptoanalyse\ Klassisch\ Wortmusteranalyse mit selbstdefiniertem W?rterbuch
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES-Chiffre (Dateieingabe)
+;[T];Mathematisch\ SAT-Solver (Dateieingabe)
+;[T];Steganographie\ Steganographie Einsetzung Entschl?sselung
+;[T];Steganographie\ Steganographie Einsetzung Verschl?sselung
+;[T];Steganographie\ Steganographie Niedrigstwertiges Bit Entschl?sselung
+;[T];Steganographie\ Steganographie Niedrigstwertiges Bit Verschl?sselung
+;[T];Steganographie\ Steganographie Niedrigstwertiges Bit Daten?bertragung
+;[T];Steganographie\ Steganographie Permutation Verschl?sselung
+;[T];Steganographie\ Steganographie Permutation Bild?bertragung
+
+Dateiausgabe;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Dateiausgabe
+;[T];Steganographie\ Steganographie Einsetzung Verschl?sselung
+;[T];Steganographie\ Steganographie Niedrigstwertiges Bit Verschl?sselung
+;[T];Steganographie\ Steganographie Permutation Verschl?sselung
+
+Friedman-Test;K/T;
+;[K];Kryptoanalyse\ Generisch\ Friedman-Test
+;[T];Kryptoanalyse\ Klassisch\ Enigma-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Statistiktests f?r klassische Chiffren
+
+Gate;K/T;
+;[K];Werkzeuge\ Datenfluss\ Gate
+;[T];Codes\ AES (CBC) mit PKCS#5 und IV, Ausgabe als QR-Code
+;[T];Kryptoanalyse\ Klassisch\ Caesar Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Skytale Brute-Force-Analyse
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (CBC) mit PKCS#5 und IV
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (ECB) mit PKCS#5
+;[T];Hash-Funktionen\ W?rterbuch-Angriff auf einen Passwort-Hash-Wert
+;[T];Mathematisch\ Faktorisierung mit Probedivision (Brute-Force)
+;[T];Mathematisch\ Schleife (1)
+;[T];Mathematisch\ N?chstkleinere Primzahl
+;[T];Protokolle\ WEP-Angriff
+
+Hamming-Abstand;K/T;
+;[K];Werkzeuge\ Sonstige\ Hamming-Abstand
+;[T];Hash-Funktionen\ BildHash
+;[T];Hash-Funktionen\ BildHash -- Weichzeichnungs-Vergleich
+;[T];Mathematisch\ Hamming-Abstand
+
+IDP-Analyse;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ IDP-Analyse
+;[T];Kryptoanalyse\ Klassisch\ W?rterbuchangriff auf die doppelte Spaltentransposition
+
+Inc Dec;K/T;
+;[K];Werkzeuge\ Sonstige\ Inc Dec
+;[T];Kryptoanalyse\ Klassisch\ Caesar Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Skytale Brute-Force-Analyse
+;[T];Mathematisch\ Schleife (1)
+;[T];Protokolle\ WEP-Angriff
+;[T];Protokolle\ Yaos Million?rs-Problem-Protokoll
+
+ISAP Bit-Commitment-Verfahren;K/T;
+;[K];Protokolle\ ISAP Bit-Commitment-Verfahren
+;[T];Mathematisch\ ISAP Bit-Commitment-Verfahren
+
+Schl?sselsucher;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Schl?sselsucher
+;[T];Kryptoanalyse\ Modern\ AES Analyse per Entropie (1)
+;[T];Kryptoanalyse\ Modern\ AES Known-Plaintext-Analyse (1)
+;[T];Kryptoanalyse\ Modern\ DES Analyse per Entropie
+;[T];Kryptoanalyse\ Modern\ DES Known-Plaintext-Analyse
+;[T];Kryptoanalyse\ Modern\ AES-Analyse per Entropie (2) - mit ver?nderbarem Klartext
+;[T];Kryptoanalyse\ Modern\ AES Known-Plaintext-Analyse (2)
+;[T];Kryptoanalyse\ Modern\ DES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ SDES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ Triple-DES Brute-Force-Analyse
+;[T];Kryptoanalyse\ Modern\ SDES Analyse per Entropie
+;[T];Kryptoanalyse\ Modern\ SDES Known-Plaintext-Analyse
+
+Gitterbasierte Kryptographie;N;
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie\ Gitterbasierte Verschl?sselungssysteme\ GGH
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie\ Gitterbasierte Verschl?sselungssysteme\ LWE
+
+Gitterbasierte Kryptoanalyse;N;
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie\ Gitterbasierte Angriffe\ Merkle-Hellman Knapsack
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie\ Gitterbasierte Angriffe\ RSA (Angriff auf stereotype Nachrichten)
+
+Gitterbasierte Probleme;N;
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie\ K?rzester Vektor Problem (SVP)\ Gau?-Algorithmus
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie\ K?rzester Vektor Problem (SVP)\ LLL-Algorithmus
+;[N];Kryptotutorien\ Gitterbasierte Kryptographie\ N?chster Vektor Problem (CVP)\ Finde n?chsten Vektor
+
+Nihilist;K/T;
+;[K];Klassische Verfahren\ Nihilist
+;[T];Kryptographie\ Klassisch\ Nihilist-Chiffre
+
+Bildausgabe;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Bildausgabe
+;[T];Kryptographie\ Klassisch\ One-time-Pad-Fehlbenutzung
+;[T];Kryptographie\ Modern\ Symmetrisch\ Block-Modi von symmetrischen Chiffren
+;[T];Werkzeuge\ Einfacher Video-Audio-Chat mit AES-Verschl?sselung
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+;[T];Werkzeuge\ Foto erstellen
+
+Angriff auf PKCS#1;N;
+;[N];Kryptotutorien\ Angriff auf PKCS#1
+;[N];Kryptotutorien\ Angriff auf PKCS#1\ Angriff auf PKCS#1\ Bleichenbacher-Angriff
+;[N];Kryptotutorien\ Angriff auf PKCS#1\ Angriff auf PKCS#1\ Angriff mit k?rzeren Schl?sseln (K?hn)
+
+PKCS#5;K/T;
+;[K];Hash-Funktionen\ PKCS#5
+;[T];Codes\ AES (CBC) mit PKCS#5 und IV, Ausgabe als QR-Code
+;[T];Codes\ QR-Code-Verschl?sselung
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES mit PKCS#5
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (CBC) mit PKCS#5 und IV
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES (ECB) mit PKCS#5
+;[T];Werkzeuge\ Einfacher Video-Audio-Chat mit AES-Verschl?sselung
+;[T];Werkzeuge\ Diffie-Hellman AES-Video-Audio-Chat
+
+Die Welt der Primzahlen;N;
+;[N];Kryptotutorien\ Die Welt der Primzahlen
+
+Faktorisierung einer Zahl;N;
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Faktorisierung\ Probedivision
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Faktorisierung\ Quadratisches Sieb
+
+Primzahltests;N;
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Primzahltests\ Sieb des Eratosthenes
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Primzahltests\ Miller-Rabin-Test
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Primzahltests\ Sieb des Atkin
+
+Erzeugung von Primzahlen;N;
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Erzeugung von Primzahlen\ Erzeugung von Primzahlen
+
+Verteilung der Primzahlen;N;
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Verteilung der Primzahlen\ Zahlengerade
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Verteilung der Primzahlen\ Zahlengitter
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Verteilung der Primzahlen\ Anzahl der Primzahlen
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Verteilung der Primzahlen\ Ulam-Spirale
+
+Zahlentheorie;N;
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Zahlentheorie\ Potenzieren
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Zahlentheorie\ Zahlentheoretische Funktionen
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Zahlentheorie\ Primitivwurzeln
+;[N];Kryptotutorien\ Die Welt der Primzahlen\ Zahlentheorie\ Goldbach-Vermutung
+
+Primzahltest;K/T;
+;[K];Kryptoanalyse\ Generisch\ Primzahltest
+;[T];Mathematisch\ N?chstkleinere Primzahl
+;[T];Mathematisch\ Primzahltest
+
+RIPEMD160;K/T;
+;[K];Hash-Funktionen\ RIPEMD160
+;[T];Hash-Funktionen\ RIPEMD160
+
+SHA;K/T;
+;[K];Hash-Funktionen\ SHA
+;[T];Kryptographie\ Modern\ Symmetrisch\ AES-Chiffre mit SHA-Hashwerten
+;[T];Hash-Funktionen\ W?rterbuch-Angriff auf einen Passwort-Hash-Wert
+;[T];Hash-Funktionen\ PBKDF-1 (PKCS#5 2.0)
+;[T];Hash-Funktionen\ SHA-1 Kollision
+;[T];Hash-Funktionen\ SHA-1
+;[T];Hash-Funktionen\ SHA-256
+;[T];Protokolle\ Coin-Flipping-Protokoll
+;[T];Werkzeuge\ Einfacher AES-Chat
+
+SHA-1;K;
+;[K];Hash-Funktionen\ SHA
+
+SHA-256;K;
+;[K];Hash-Funktionen\ SHA
+
+SHA-384;K;
+;[K];Hash-Funktionen\ SHA
+
+SHA-512;K;
+;[K];Hash-Funktionen\ SHA
+
+Smartcard;K/T;
+;[K];Protokolle\ Smartcard
+;[T];Protokolle\ Kommunikation mit einer SmartCard
+
+Smartcard Interpreter;K/T;
+;[K];Protokolle\ Smartcard Interpreter
+;[T];Protokolle\ Kommunikation mit einer SmartCard
+
+Solitaire;K/T;
+;[K];Klassische Verfahren\ Solitaire
+;[T];Kryptographie\ Klassisch\ Solitaire-Chiffre
+
+Solitaire-Analyse;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Solitaire-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Solitaire Brute-Force-Analyse
+
+Splitter;K;
+;[K];Werkzeuge\ Datenfluss\ Splitter
+
+Zeichenketten-Operationen;K/T;
+;[K];Werkzeuge\ Sonstige\ Zeichenketten-Operationen
+;[T];Mathematisch\ Levenshtein-Distanz
+
+Textausgabe;K/T;
+;[K];Werkzeuge\ Daten-Ein-/Ausgabe\ Textausgabe
+;[T];Kryptoanalyse\ Klassisch\ Transkriptor im manuellen Modus
+;[T];Kryptoanalyse\ Klassisch\ Transkriptor im semi-automatischen Modus
+
+Tiger;K/T;
+;[K];Hash-Funktionen\ Tiger
+;[T];Hash-Funktionen\ Tiger
+
+Transposition;K/T/W;
+;[K];Klassische Verfahren\ Transposition
+;[T];Kryptoanalyse\ Klassisch\ Transposition Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Crib-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Genetische Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Hill-Climbing-Analyse
+;[T];Kryptographie\ Klassisch\ Transpositions-Chiffre
+;[W];Verschl?sselungsverfahren\ Klassische Verschl?sselungsverfahren\ Transposition
+
+Transpositions-Analyse;K/T;
+;[K];Kryptoanalyse\ Spezifisch\ Transpositions-Analyse
+;[T];Kryptoanalyse\ Klassisch\ W?rterbuchangriff auf die doppelte Spaltentransposition
+;[T];Kryptoanalyse\ Klassisch\ Transposition Brute-Force-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Crib-Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Genetische Analyse
+;[T];Kryptoanalyse\ Klassisch\ Transposition Hill-Climbing-Analyse
+
+Twofish;K/T/W;
+;[K];Moderne Verfahren\ Symmetrisch\ Twofish
+;[T];Kryptographie\ Modern\ Symmetrisch\ Twofish-Chiffre
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Symmetrische Verschl?sselungsverfahren\ Twofish
+
+Whirlpool;K/T;
+;[K];Hash-Funktionen\ Whirlpool
+;[T];Hash-Funktionen\ Whirlpool
+
+Wortmuster;K/T;
+;[K];Kryptoanalyse\ Generisch\ Wortmuster
+;[T];Kryptoanalyse\ Klassisch\ Wortmusteranalyse
+;[T];Kryptoanalyse\ Klassisch\ Wortmusteranalyse mit selbstdefiniertem W?rterbuch
+
+RSA-Verschl?sselung;W;
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Asymmetrische Verschl?sselungsverfahren\ RSA\ RSA-Verschl?sselung
+
+RSA-Entschl?sselung;W;
+;[W];Verschl?sselungsverfahren\ Moderne Verschl?sselungsverfahren\ Asymmetrische Verschl?sselungsverfahren\ RSA\ RSA-Entschl?sselung
+
+Monoalphabetische Substitution;W;
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Monoalphabetische Substitution
+
+Brute-force;W;
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Transposition\ Brute-force
+
+Genetisch;W;
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Transposition\ Genetisch
+
+Crib;W;
+;[W];Kryptoanalyse\ Klassische Verschl?sselung\ Transposition\ Crib
+
+Ciphertext-only;W;
+;[W];Kryptoanalyse\ Moderne Verschl?sselung\ Symmetrische Verschl?sselung\ AES\ Ciphertext-only
+;[W];Kryptoanalyse\ Moderne Verschl?sselung\ Symmetrische Verschl?sselung\ SDES\ Ciphertext-only
+
+Bekannter Klartext;W;
+;[W];Kryptoanalyse\ Moderne Verschl?sselung\ Symmetrische Verschl?sselung\ AES\ Bekannter Klartext
+;[W];Kryptoanalyse\ Moderne Verschl?sselung\ Symmetrische Verschl?sselung\ DES\ Bekannter Klartext
+;[W];Kryptoanalyse\ Moderne Verschl?sselung\ Symmetrische Verschl?sselung\ SDES\ Bekannter Klartext
+
+Primfaktorzerlegung;W;
+;[W];Mathematische Funktionen\ Primfaktorzerlegung
+
+Primzahl-Erzeugung;W;
+;[W];Mathematische Funktionen\ Primzahl-Operationen\ Primzahl-Erzeugung
+
+Codierung;W;
+;[W];Codierungen\ Codierung
+
+Erstelle visuellen Code;W;
+;[W];Codierungen\ Erstelle visuellen Code
+
+Decodiere visuellen Code;W;
+;[W];Codierungen\ Decodiere visuellen Code
+
+Verschl?sseln mit Passwort;W;
+;[W];Werkzeuge\ Verschl?sseln mit Passwort
+
+Passwort-St?rke;W;
+;[W];Werkzeuge\ Passwort-St?rke
+
+Heartbleed-Analyse;W;
+;[W];Werkzeuge\ Heartbleed-Analyse
+
+Zufallszahlen;W;
+;[W];Werkzeuge\ Zufallszahlen
+
