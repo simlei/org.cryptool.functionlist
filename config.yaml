@@ -31,20 +31,20 @@ defaultsteps:
   # - init_workspace # activate this if you want to re-create the workspace. Caution: overwrites ALL workspace files!
   - ct2outputfilter_en
   - ct2outputfilter_de
-  - CT2scsv_ct2_en
-  - CT2scsv_ct2_de
-  - CT2scsv_jct_en
-  - CT2scsv_jct_de
-  - categories_ct2_de
-  - categories_ct2_en
-  - categories_jct_de
-  - categories_jct_en
-  - merge_en
-  - merge_de
-  - tofinalform_en
-  - tofinalform_de
-  - tohtml_en
-  - tohtml_de
+  # - CT2scsv_ct2_en
+  # - CT2scsv_ct2_de
+  # - CT2scsv_jct_en
+  # - CT2scsv_jct_de
+  # - categories_ct2_de
+  # - categories_ct2_en
+  # - categories_jct_de
+  # - categories_jct_en
+  # - merge_en
+  # - merge_de
+  # - tofinalform_en
+  # - tofinalform_de
+  # - tohtml_en
+  # - tohtml_de
 
 step.ct2outputfilter_en:
   input: ${workspace}/data/en/scsv_generated/ct2.csv
