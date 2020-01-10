@@ -11,6 +11,7 @@ import flist_step_CT2scsv
 import flist_step_merge
 import flist_step_tofinalform
 import flist_step_tohtml
+import flist_step_outputfilter
 
 @dataclass
 class FlistStep:

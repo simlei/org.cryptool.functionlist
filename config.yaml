@@ -47,11 +47,11 @@ defaultsteps:
   # - tohtml_de
 
 step.ct2outputfilter_en:
-  input: ${workspace}/data/en/scsv_generated/ct2.csv
+  input: ${workspace}/data/en/scsv_generated/ct2VS_2020_01_07.csv
   output: ${workspace}/data/en/scsv_generated/ct2_corrected.csv
 
 step.ct2outputfilter_de:
-  input: ${workspace}/data/de/scsv_generated/ct2.csv
+  input: ${workspace}/data/de/scsv_generated/ct2VS_2020_01_07.csv
   output: ${workspace}/data/de/scsv_generated/ct2_corrected.csv
 
 step.CT2scsv_ct2_en:

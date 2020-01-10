@@ -25,6 +25,8 @@ def PreprocessCT2(input: Path, output: Path, language: str):
         with open(output, "w") as outputwriter:
             encountered1a=False
             encountered1b=False
+            fixed1a = None
+            fixed1b = None
             for line in lines:
                 # Filter 1a) block
                 if "SIGABA Known Plaintext;C;" in line:
@@ -35,6 +37,7 @@ def PreprocessCT2(input: Path, output: Path, language: str):
                     outputwriter.write(line)
                     continue;
                 if encountered1a:
+                    fixed1a = True
                     continue;
 
                 # Filter 1a) block
@@ -47,18 +50,24 @@ def PreprocessCT2(input: Path, output: Path, language: str):
                     outputwriter.write(line)
                     continue;
                 if encountered1b and ";[W];Cryptanalysis\\ Modern Encryption\\ Symmetric Encryption\\ DES\\ Ciphertext-only" in line:
+                    fixed1b = True
                     continue;
                 if encountered1b:
                     outputwriter.write(line)
                     continue;
 
                 outputwriter.write(line)
+            if fixed1a is None:
+                io.msg(f"[[ WARNING ]] when preprocessing CT2 files, did not encounter special case 1a as described in doc/ct2-generated-csv/incongruence.md . This may be a non-issue, though.")
+            if fixed1b is None:
+                io.msg(f"[[ WARNING ]] when preprocessing CT2 files, did not encounter special case 1b as described in doc/ct2-generated-csv/incongruence.md . This may be a non-issue, though.")
 
     elif language == "de":
         with open(input, "r") as inputreader:
             lines=inputreader.readlines()
         with open(output, "w") as outputwriter:
-            encountered2a=False
+            encountered2a=None
+            fixed2a=None
             for line in lines:
                 # Filter 2a) block
                 if "Ciphertext-only-Analyse;W;" in line:
@@ -68,10 +77,13 @@ def PreprocessCT2(input: Path, output: Path, language: str):
                     encountered2a = False
                     outputwriter.write(line)
                     continue;
-                if encountered1a:
+                if encountered2a:
+                    fixed2a = True
                     continue;
                 
                 outputwriter.write(line)
+        if fixed2a is None:
+            io.msg(f"[[ WARNING ]] when preprocessing CT2 files, did not encounter special case 2a as described in doc/ct2-generated-csv/incongruence.md . This may be a non-issue, though.")
         # 2a)
         # Ciphertext-only-Analyse;W;
         # ;[W];Kryptoanalyse\\ Moderne Verschlüsselung\\ Symmetrische Verschlüsselung\\ DES\\ Ciphertext-only-Analyse
