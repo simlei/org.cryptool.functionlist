@@ -1,4 +1,20 @@
-# These have been found to appear twice in the -GenerateFunctionList output
+# Misc
+
+## Glossary
+
+- "Functionality" vs "Path"
+    - "Functionality" should be understood as a shorthand for "Functionality cluster" or "umbrella term" and translates to the german "Oberbegriff"
+    - When referring to a specific thing, that a CrypTool offers to the user, prefer to refer to it as "Function", or better "Path" in the context of this project.
+    - The "Path" of a function is something like "CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1"
+- "Category" should not be confused with the german "Oberbegriff". It simply is one of the dozen (1-14+) categories into which functionalities are categorized to be filtered by. Currently, a functionality is in exactly one Category.
+
+# One path in CT2 corresponds to multiple functionalities
+
+Currently
+
+CT2 generates 
+
+## These have been found to appear twice in the -GenerateFunctionList output
 
 _vgl. ct2 output:_
 
