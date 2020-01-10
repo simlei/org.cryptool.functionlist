@@ -9,7 +9,8 @@
 # - {workspace_template} is resolved to the workspace template directory, {project}/ws-static (TODO: make configurable)
 
 # available steps are:
-# - init_workspace
+# -  ct2outputfilter_en
+# -  ct2outputfilter_de
 # -  CT2scsv_ct2_en
 # -  CT2scsv_ct2_de
 # -  CT2scsv_jct_en
@@ -28,30 +29,29 @@
 # This setting specifies the folder name of the main workspace. 
 
 defaultsteps:
-  # - init_workspace # activate this if you want to re-create the workspace. Caution: overwrites ALL workspace files!
   - ct2outputfilter_en
   - ct2outputfilter_de
-  # - CT2scsv_ct2_en
-  # - CT2scsv_ct2_de
-  # - CT2scsv_jct_en
-  # - CT2scsv_jct_de
-  # - categories_ct2_de
-  # - categories_ct2_en
-  # - categories_jct_de
-  # - categories_jct_en
-  # - merge_en
-  # - merge_de
-  # - tofinalform_en
-  # - tofinalform_de
-  # - tohtml_en
-  # - tohtml_de
+  - CT2scsv_ct2_en
+  - CT2scsv_ct2_de
+  - CT2scsv_jct_en
+  - CT2scsv_jct_de
+  - categories_ct2_de
+  - categories_ct2_en
+  - categories_jct_de
+  - categories_jct_en
+  - merge_en
+  - merge_de
+  - tofinalform_en
+  - tofinalform_de
+  - tohtml_en
+  - tohtml_de
 
 step.ct2outputfilter_en:
-  input: ${workspace}/data/en/scsv_generated/ct2VS_2020_01_07.csv
+  input: ${workspace}/data/en/scsv_generated/ct2.csv
   output: ${workspace}/data/en/scsv_generated/ct2_corrected.csv
 
 step.ct2outputfilter_de:
-  input: ${workspace}/data/de/scsv_generated/ct2VS_2020_01_07.csv
+  input: ${workspace}/data/de/scsv_generated/ct2.csv
   output: ${workspace}/data/de/scsv_generated/ct2_corrected.csv
 
 step.CT2scsv_ct2_en:
