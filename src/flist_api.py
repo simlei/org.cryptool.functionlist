@@ -144,7 +144,6 @@ class ContextProcessorYamlConfig:
     path: Path
 
     def load(self):
-        print(self.path)
         with open(self.path, "r") as input:
             try:
                 return yaml.load(input)
