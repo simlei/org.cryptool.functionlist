@@ -90,7 +90,7 @@ class FlistProg(ws.WSProg, api.Prog):
     def run_from_cmdline_call(self, argv: List[str] = None):
         try:
             super().run_from_cmdline_call(argv)
-        except BaseException as e:
+        except (io.FlistException or api.ApiException) as e:
             io.logFlistException(self.logger, e)
             exit(1)
 
