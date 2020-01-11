@@ -97,7 +97,7 @@ class FlistProg(ws.WSProg, api.Prog):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     stepchoices = [step.name for step in steps.allsteps]
-    parser.add_argument("steps", nargs="+", choices=stepchoices, help=f"step name sequence (of: {stepchoices}). When omitted, the defaultSteps from the config.yaml file are run.", metavar="STEPS")
+    parser.add_argument("steps", nargs="*", help=f"step name sequence (of: {stepchoices}). When omitted, the defaultSteps from the config.yaml file are run.", metavar="STEPS", default=[])
     parser.add_argument("--initws", action="store_const", const=True, default=False)
     
     parsed = parser.parse_args(sys.argv[1:])
