@@ -220,8 +220,8 @@ class MCSV_Entry(CSV_Entry):
 
     @staticmethod
     def processStartOfPath(path):
-        return path
-        # return [path[0][4:]] + path[1:]
+        # return path
+        return [path[0][4:]] + path[1:]
 
         # in the following is an example that replaces JCT:X with X where the 
         # path starts with that, and strips the first element from all other paths
