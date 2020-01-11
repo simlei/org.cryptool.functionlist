@@ -72,25 +72,27 @@ class FlistProg(ws.WSProg, api.Prog):
             print(f"Workspace could not be created at {self.ws.path}: {e}")
             sys.exit(100)
 
-        mainLogger    = logging.getLogger("Flist:Main")   ; mainLogger.setLevel (logging.INFO)
+        mainLogger = logging.getLogger("Flist:Main")   ; mainLogger.setLevel (logging.INFO)
         mainLogger.addHandler(logging.FileHandler(self.ws.path / "log.txt"))
         mainLogger.addHandler(logging.StreamHandler(sys.stderr))
         mainLogger.info(f"Logging also to {self.ws.path / 'log.txt'}")
         self.context.names["prog.logger"] = mainLogger
 
+        if(len(self.stepsToRun) == 0):
+            for step in [steps.getStep(name) for name in self.context.names["config.defaultsteps"]]:
+                self.context.names["state.currentStep"] = step.name
+                self.runStep(step)
+        else:
+            for step in self.stepsToRun:
+                self.context.names["state.currentStep"] = step.name
+                self.runStep(step)
+
+    def run_from_cmdline_call(self, argv: List[str] = None):
         try:
-            if(len(self.stepsToRun) == 0):
-                for step in [steps.getStep(name) for name in self.context.names["config.defaultsteps"]]:
-                    self.context.names["state.currentStep"] = step.name
-                    self.runStep(step)
-            else:
-                for step in self.stepsToRun:
-                    self.context.names["state.currentStep"] = step.name
-                    self.runStep(step)
-        except io.FlistException as e:
+            super().run_from_cmdline_call(argv)
+        except BaseException as e:
             io.logFlistException(self.logger, e)
             exit(1)
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
