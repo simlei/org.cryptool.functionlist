@@ -131,6 +131,7 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
     currentLine = 0
     currentRecord = Lineparser(input=input)
     currentRefRecord = Lineparser(input=id_reference)
+    seenIds=set()
     for line in lines:
         line = line.strip()
         if currentLine >= len(reference_lines):
@@ -162,7 +163,10 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
             currentResult.id = refResult.id
 
             # prepare for next record
-            resultDataset.rows.append(currentResult)
+            if not currentResult.id in seenIds:
+                seenIds.add(currentResult.id)
+                resultDataset.rows.append(currentResult)
 
+    resultDataset.get_columns
     resultDataset.write_csv(output)
 
