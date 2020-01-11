@@ -62,7 +62,7 @@ class Lineparser:
         return flist.SCSV_Entry.From_Dataframe_Row(df_row_dict)
 
 
-    def parse(self, line: str, nr: int) -> typing.List[flist.SCSV_Entry]:
+    def parse(self, line: str, nr: int) -> flist.SCSV_Entry:
 
         implicitly("prog.logger").debug(f"parsing {nr=} {line=} in file {self.input}")
         # an empty line: marks that a functionality record is complete. it is finalized and returned in this if-branch.
@@ -147,6 +147,7 @@ def CreateCT2SCSV(input: Path, output: Path, id_reference: Path, toolname: str):
         if currentResult:
             implicitly("prog.logger").debug(f"New parsed entry: {currentResult} with reference {refResult}")
             # prefix some fields with tool-specific info to match SCSV format (for legacy reasons)
+            currentResult.functionality = currentResult.path[-1]
             currentResult.category = flist.SCSV_Entry.dynamic_category_notset()
             currentResult.how_implemented = f"{toolname}:{currentResult.how_implemented}"
             currentResult.path.insert(0, currentResult.how_implemented)
