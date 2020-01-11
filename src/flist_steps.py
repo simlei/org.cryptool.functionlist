@@ -178,6 +178,20 @@ categories_jct_de = FlistStep(
 )
 registerStep(categories_jct_de)
 
+functionalities_ct2_en = FlistStep(
+    name="functionalities_ct2_en", 
+    callable = flist_colmap.Map_Columns,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
+)
+registerStep(functionalities_ct2_en)
+
+functionalities_ct2_de = FlistStep(
+    name="functionalities_ct2_de", 
+    callable = flist_colmap.Map_Columns,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
+)
+registerStep(functionalities_ct2_de)
+
 functionalities_jct_en = FlistStep(
     name="functionalities_jct_en", 
     callable = flist_colmap.Map_Columns,

@@ -41,6 +41,8 @@ defaultsteps:
   - categories_ct2_de
   - categories_jct_en
   - categories_jct_de
+  - functionalities_ct2_en
+  - functionalities_ct2_de
   - functionalities_jct_en
   - functionalities_jct_de
   - merge_en
@@ -84,14 +86,14 @@ step.categories_ct2_en:
   input  : ${workspace}/scsv_ct2_nocat_en.csv
   mapfile: ${workspace}/data/categories_ct2.csv
   feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
-  output : ${workspace}/scsv_ct2_en.csv
+  output : ${workspace}/scsv_ct2_nofunc_en.csv
 
 step.categories_ct2_de:
   translationfile: ${workspace}/data/categories.csv
   input  : ${workspace}/scsv_ct2_nocat_de.csv
   mapfile: ${workspace}/data/categories_ct2.csv
   feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
-  output : ${workspace}/scsv_ct2_de.csv
+  output : ${workspace}/scsv_ct2_nofunc_de.csv
 
 step.categories_jct_en:
   translationfile: ${workspace}/data/categories.csv
@@ -106,6 +108,20 @@ step.categories_jct_de:
   mapfile: ${workspace}/data/categories_jct.csv
   feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
   output: ${workspace}/scsv_jct_nofunc_de.csv
+
+step.functionalities_ct2_en:
+  translationfile: ${workspace}/data/functionalities.csv
+  input  : ${workspace}/scsv_ct2_nofunc_en.csv
+  mapfile: ${workspace}/data/functionalities_ct2.csv
+  feedbackfile: ${workspace}/data/functionalities_interaction_required_ct2.csv
+  output : ${workspace}/scsv_ct2_en.csv
+
+step.functionalities_ct2_de:
+  translationfile: ${workspace}/data/functionalities.csv
+  input  : ${workspace}/scsv_ct2_nofunc_de.csv
+  mapfile: ${workspace}/data/functionalities_ct2.csv
+  feedbackfile: ${workspace}/data/functionalities_interaction_required_ct2.csv
+  output : ${workspace}/scsv_ct2_de.csv
 
 step.functionalities_jct_en:
   translationfile: ${workspace}/data/functionalities.csv
