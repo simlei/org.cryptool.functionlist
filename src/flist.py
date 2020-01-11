@@ -220,13 +220,19 @@ class MCSV_Entry(CSV_Entry):
 
     @staticmethod
     def processStartOfPath(path):
-        if path[0].startswith("JCT"):
-            headReplacement = f"[{path[0][4:]}]"
-            replaced = list(path)
-            replaced[0] = headReplacement
-            return replaced
-        else:
-            return path[1:]
+        return path
+        # return [path[0][4:]] + path[1:]
+
+        # in the following is an example that replaces JCT:X with X where the 
+        # path starts with that, and strips the first element from all other paths
+
+        # if path[0].startswith("JCT"):
+        #     headReplacement = f"[{path[0][4:]}]"
+        #     replaced = list(path)
+        #     replaced[0] = headReplacement
+        #     return replaced
+        # else:
+        #     return path[1:]
 
     def filter_for_cryptoolstring(self, ctstring):
         return MCSV_Entry(
@@ -254,7 +260,7 @@ class MCSV_Entry(CSV_Entry):
         uniqd = uniq(ids)
         appended = MCSV_Entry.SEP_ids.join(uniqd)
         if (ids != uniqd):
-            raise io.FlistException(f"ids are not unique for {self}: {ids} != {uniqd}")
+            raise io.FlistException(f"ids are not unique: {ids=} != {uniqd=}")
         return appended
 
     @staticmethod
@@ -381,9 +387,9 @@ class FinalForm_Entry:
         how_implemented = dict()
         paths = dict()
         for ctid in ["CT1", "CT2", "CTO", "JCT"]:
-            filtered = mcsv.filter_for_cryptoolstring(ctid)
-            how_implemented[ctid] = MCSV_Entry.merge_how_implemented(filtered.how_implemented)
-            paths[ctid] = MCSV_Entry.merge_paths(filtered.paths)
+            pathfiltered = mcsv.filter_for_cryptoolstring(ctid)
+            how_implemented[ctid] = MCSV_Entry.merge_how_implemented(pathfiltered.how_implemented)
+            paths[ctid] = MCSV_Entry.merge_paths(pathfiltered.paths)
 
         return FinalForm_Entry(functionality, how_implemented, paths, categories)
 
@@ -475,62 +481,4 @@ def uniq(lst):
             result.append(el)
             seen.add(tuple(el))
     return result
-
-# ---- Transform csv utilities || outdated
-
-# @dataclass
-# class TransformRule:
-#     leftPattern: str
-#     funcReplacement: str
-#     prefix: str
-
-#     def IsDeletion(self):
-#         return funcReplacement == ""
-
-#     "returns None if the input is not of the correct form"
-
-#     @staticmethod
-#     def Parse(line):
-#         pat = r"^\s*(.*)\s+-->\s*([^;]*)(;.*)?"
-#         match = re.findall(pat, line)
-#         if match:
-#             groups = match[0]
-#             return TransformRule(groups[0], groups[1], groups[2])
-#         else:
-#             return None
-
-
-# @dataclass
-# class IniAssignment:
-#     key: str
-#     val: str
-
-#     @staticmethod
-#     def Parse(line):
-#         return None
-
-
-# def ParseMergeConfigFile():
-#     result = []
-#     with open(mergeConfigFile, "r") as fileIn:
-#         line = fileIn.readline()
-#         lineNo = 0
-#         commentLineRE = r"^\s*(#.*)?$"
-#         while line:
-#             lineNo = lineNo + 1
-
-#             if re.match(commentLineRE, line):
-#                 line = fileIn.readline()
-#                 continue
-
-#             line = line.strip()
-#             parsed = IniAssignment.Parse(line) or TransformRule.Parse(line)
-#             if parsed:
-#                 result.append(parsed)
-#             else:
-#                 print(f"Line #{lineNo} : {line} of {mergeConfigFile} could not be parsed", file=sys.stderr)
-#                 # return None
-
-#             line = fileIn.readline()
-
 
