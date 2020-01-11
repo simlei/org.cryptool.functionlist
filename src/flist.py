@@ -461,7 +461,7 @@ class FinalForm_Dataset(CSV_Dataset):
 
 def makeId(functionality_en:str, path:str, how_implemented:str):
     # payload = f"{functionality_en}{path}{how_implemented}"
-    payload = f"{path}"
+    payload = f"{path.lower()}" # hash of the pathname ignores case
     result = hashlib.md5(payload.encode()).hexdigest()[:8]
     return result
 
