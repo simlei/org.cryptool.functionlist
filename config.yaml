@@ -37,10 +37,10 @@ defaultsteps:
   - CT2scsv_ct2_de
   - CT2scsv_jct_en
   - CT2scsv_jct_de
-  - categories_ct2_de
   - categories_ct2_en
-  - categories_jct_de
+  - categories_ct2_de
   - categories_jct_en
+  - categories_jct_de
   - functionalities_jct_en
   - functionalities_jct_de
   - merge_en
@@ -120,12 +120,6 @@ step.functionalities_jct_de:
   mapfile: ${workspace}/data/functionalities_jct.csv
   feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_de.csv
-
-step.categories_jct_de:
-  input: ${workspace}/scsv_jct_nocat_de.csv
-  catfile: ${workspace}/data/categories_jct.csv
-  feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
-  output: ${workspace}/scsv_jct_de.csv
 
 step.merge_en:
   input: 
