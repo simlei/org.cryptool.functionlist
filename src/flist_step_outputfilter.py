@@ -34,7 +34,7 @@ def PreprocessCT2(input: Path, output: Path, language: str):
                     continue;
                 if encountered1a and len(line.strip()) == 0:
                     encountered1a = False
-                    outputwriter.write(line)
+                    # outputwriter.write(line)
                     continue;
                 if encountered1a:
                     fixed1a = True
@@ -75,7 +75,7 @@ def PreprocessCT2(input: Path, output: Path, language: str):
                     continue;
                 if encountered2a and len(line.strip()) == 0:
                     encountered2a = False
-                    outputwriter.write(line)
+                    # outputwriter.write(line)
                     continue;
                 if encountered2a:
                     fixed2a = True
