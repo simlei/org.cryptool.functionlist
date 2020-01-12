@@ -9,12 +9,12 @@
 # - {workspace_template} is resolved to the workspace template directory, {project}/ws-static (TODO: make configurable)
 
 # available steps are:
-# -  ct2outputfilter_en
 # -  ct2outputfilter_de
-# -  CT2scsv_ct2_en
+# -  ct2outputfilter_en
 # -  CT2scsv_ct2_de
-# -  CT2scsv_jct_en
+# -  CT2scsv_ct2_en
 # -  CT2scsv_jct_de
+# -  CT2scsv_jct_en
 # -  categories_ct2_de
 # -  categories_ct2_en
 # -  categories_jct_de
@@ -31,26 +31,26 @@
 # This setting specifies the folder name of the main workspace. 
 
 defaultsteps:
-  - ct2outputfilter_en
   - ct2outputfilter_de
-  - CT2scsv_ct2_en
+  - ct2outputfilter_en
   - CT2scsv_ct2_de
-  - CT2scsv_jct_en
+  - CT2scsv_ct2_en
   - CT2scsv_jct_de
-  - categories_ct2_en
+  - CT2scsv_jct_en
   - categories_ct2_de
-  - categories_jct_en
+  - categories_ct2_en
   - categories_jct_de
-  - functionalities_ct2_en
+  - categories_jct_en
   - functionalities_ct2_de
-  - functionalities_jct_en
+  - functionalities_ct2_en
   - functionalities_jct_de
-  - merge_en
+  - functionalities_jct_en
   - merge_de
-  - tofinalform_en
+  - merge_en
   - tofinalform_de
-  - tohtml_en
+  - tofinalform_en
   - tohtml_de
+  - tohtml_en
 
 step.ct2outputfilter_en:
   input: ${workspace}/data/en/scsv_generated/ct2.csv
@@ -81,13 +81,6 @@ step.CT2scsv_jct_de:
   output      : ${workspace}/scsv_jct_nocat_de.csv
 
 
-step.categories_ct2_en:
-  translationfile: ${workspace}/data/categories.csv
-  input  : ${workspace}/scsv_ct2_nocat_en.csv
-  mapfile: ${workspace}/data/categories_ct2.csv
-  feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
-  output : ${workspace}/scsv_ct2_nofunc_en.csv
-
 step.categories_ct2_de:
   translationfile: ${workspace}/data/categories.csv
   input  : ${workspace}/scsv_ct2_nocat_de.csv
@@ -95,12 +88,12 @@ step.categories_ct2_de:
   feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
   output : ${workspace}/scsv_ct2_nofunc_de.csv
 
-step.categories_jct_en:
+step.categories_ct2_en:
   translationfile: ${workspace}/data/categories.csv
-  input  : ${workspace}/scsv_jct_nocat_en.csv
-  mapfile: ${workspace}/data/categories_jct.csv
-  feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
-  output : ${workspace}/scsv_jct_nofunc_en.csv
+  input  : ${workspace}/scsv_ct2_nocat_en.csv
+  mapfile: ${workspace}/data/categories_ct2.csv
+  feedbackfile: ${workspace}/data/categories_interaction_required_ct2.csv
+  output : ${workspace}/scsv_ct2_nofunc_en.csv
 
 step.categories_jct_de:
   translationfile: ${workspace}/data/categories.csv
@@ -109,12 +102,12 @@ step.categories_jct_de:
   feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
   output: ${workspace}/scsv_jct_nofunc_de.csv
 
-step.functionalities_ct2_en:
-  translationfile: ${workspace}/data/functionalities.csv
-  input  : ${workspace}/scsv_ct2_nofunc_en.csv
-  mapfile: ${workspace}/data/functionalities_ct2.csv
-  feedbackfile: ${workspace}/data/functionalities_interaction_required_ct2.csv
-  output : ${workspace}/scsv_ct2_en.csv
+step.categories_jct_en:
+  translationfile: ${workspace}/data/categories.csv
+  input  : ${workspace}/scsv_jct_nocat_en.csv
+  mapfile: ${workspace}/data/categories_jct.csv
+  feedbackfile: ${workspace}/data/categories_interaction_required_jct.csv
+  output : ${workspace}/scsv_jct_nofunc_en.csv
 
 step.functionalities_ct2_de:
   translationfile: ${workspace}/data/functionalities.csv
@@ -123,12 +116,12 @@ step.functionalities_ct2_de:
   feedbackfile: ${workspace}/data/functionalities_interaction_required_ct2.csv
   output : ${workspace}/scsv_ct2_de.csv
 
-step.functionalities_jct_en:
+step.functionalities_ct2_en:
   translationfile: ${workspace}/data/functionalities.csv
-  input  : ${workspace}/scsv_jct_nofunc_en.csv
-  mapfile: ${workspace}/data/functionalities_jct.csv
-  feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
-  output : ${workspace}/scsv_jct_en.csv
+  input  : ${workspace}/scsv_ct2_nofunc_en.csv
+  mapfile: ${workspace}/data/functionalities_ct2.csv
+  feedbackfile: ${workspace}/data/functionalities_interaction_required_ct2.csv
+  output : ${workspace}/scsv_ct2_en.csv
 
 step.functionalities_jct_de:
   translationfile: ${workspace}/data/functionalities.csv
@@ -137,13 +130,12 @@ step.functionalities_jct_de:
   feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
   output : ${workspace}/scsv_jct_de.csv
 
-step.merge_en:
-  input: 
-    - ${workspace}/data/en/scsv_webdump/ct1.csv
-    - ${workspace}/data/en/scsv_webdump/cto.csv
-    - ${workspace}/scsv_ct2_en.csv
-    - ${workspace}/scsv_jct_en.csv
-  output: ${workspace}/all_merged_en.csv
+step.functionalities_jct_en:
+  translationfile: ${workspace}/data/functionalities.csv
+  input  : ${workspace}/scsv_jct_nofunc_en.csv
+  mapfile: ${workspace}/data/functionalities_jct.csv
+  feedbackfile: ${workspace}/data/functionalities_interaction_required_jct.csv
+  output : ${workspace}/scsv_jct_en.csv
 
 step.merge_de:
   input: 
@@ -153,20 +145,29 @@ step.merge_de:
     - ${workspace}/scsv_jct_de.csv
   output: ${workspace}/all_merged_de.csv
 
-step.tofinalform_en:
-  input: ${workspace}/all_merged_en.csv
-  output: ${workspace}/all_final_en.csv
+step.merge_en:
+  input: 
+    - ${workspace}/data/en/scsv_webdump/ct1.csv
+    - ${workspace}/data/en/scsv_webdump/cto.csv
+    - ${workspace}/scsv_ct2_en.csv
+    - ${workspace}/scsv_jct_en.csv
+  output: ${workspace}/all_merged_en.csv
 
 step.tofinalform_de:
   input: ${workspace}/all_merged_de.csv
   output: ${workspace}/all_final_de.csv
+
+step.tofinalform_en:
+  input: ${workspace}/all_merged_en.csv
+  output: ${workspace}/all_final_en.csv
+
+step.tohtml_de:
+  template_html: ${workspace}/data/de/html_template
+  input: ${workspace}/all_final_de.csv
+  output: ${project}/sphinx-doc/genFlistHtml/html_de/index.html
 
 step.tohtml_en:
   template_html: ${workspace}/data/en/html_template
   input: ${workspace}/all_final_en.csv
   output: ${project}/sphinx-doc/genFlistHtml/html_en/index.html
 
-step.tohtml_de:
-  template_html: ${workspace}/data/de/html_template
-  input: ${workspace}/all_final_de.csv
-  output: ${project}/sphinx-doc/genFlistHtml/html_de/index.html

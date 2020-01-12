@@ -17,11 +17,12 @@ import flist_api as api; from flist_api import implicitly
 
 import benedict; from benedict import benedict as bdict
 
-def translate(translationfile: Path, translation_df: pandas.DataFrame, lang: str, category_en: str):
+def translate(translationfile: Path, translation_df: pandas.DataFrame, lang: str, category_en: str) -> typing.Optional[str]:
     for i,row in translation_df.iterrows():
         if row["en"] == category_en:
             return row[lang]
-    raise io.FlistException(f"could not determine correct translation for category {category_en}; check that all categories in raw input files and all dynamically-attributed categories are maintained in the file {translationfile}")
+    return None
+    # raise io.FlistException(f"could not determine correct translation for category {category_en}; check that all categories in raw input files and all dynamically-attributed categories are maintained in the file {translationfile}")
 
 def map_column(colname: str, catmapping_df: pandas.DataFrame, id: str):
     # if "dd12" in id: implicitly("prog.logger").info(f"queried for {id}")
@@ -75,6 +76,7 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
     implicitly("prog.logger").debug(f"{feedbackfile=}")
     catFromFeedbackCounter = 0
     catFromInputFileCounter = 0
+    untranslatedCounter = 0
 
     # print(df_cats_input.to_string())
     for entry in dataset.rows:
@@ -98,7 +100,13 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
         if category_from_input or category_from_feedback:
             mapped_cat = category_from_input or category_from_feedback
             translated_mapped_cat = translate(translationfile, translations, language, mapped_cat)
-            entry.category = translated_mapped_cat
+            if not translated_mapped_cat:
+                # implicitly("prog.logger").info(f"could not determine translation for category {mapped_cat}; check that all categories in raw input files and all dynamically-attributed categories are maintained in the file {translationfile}")
+                if not language == "en":
+                    untranslatedCounter += 1
+                translated_mapped_cat = mapped_cat
+
+            entry.__setattr__(colname, translated_mapped_cat)
         else:
             df_writeback_feedback_missing = df_writeback_feedback_missing.append([{"id": entry.id, colname: blank_placeholder, "path": entry.to_dataframe_dictionary()["path"]}])
             has_unmatched_categories = True
@@ -107,6 +115,7 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
     df_writeback_feedback = df_writeback_feedback.append(df_writeback_feedback_missing)
     implicitly("prog.logger").info(f"{catFromInputFileCounter} of {len(dataset.rows)} entries have been assigned {colname}s based on their ids in {input}")
     implicitly("prog.logger").info(f"{catFromFeedbackCounter} of {len(dataset.rows)} entries have been assigned {colname}s based on their ids in {feedbackfile}")
+    implicitly("prog.logger").info(f"{untranslatedCounter} of {catFromFeedbackCounter+catFromInputFileCounter} {colname}s have NOT been translated by translationfile")
     if catFromFeedbackCounter > 0:
         implicitly("prog.logger").info(f"[ NOTE ] when running the program with --initws, the file {feedbackfile} will be overwritten by the prototypical workspace and the manual entries may be lost. Consider merging them with the corresponding file of {input} in ./ws-static!")
 
