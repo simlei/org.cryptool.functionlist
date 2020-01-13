@@ -1,4 +1,4 @@
-CT1:en:static:1;3DES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Triple DES…;2) Modern Ciphers
+CT1:./doc_old/misc/last-ws/data/html_template/template_index.html:                              <td class=" ">Digital Signatures, PKI\ en:static:1;3DES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Triple DES…;2) Modern Ciphers
 CT1:en:static:2;3DES Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Triple DES…;7) Modern Cryptanalysis
 CT1:en:static:3;ADFGVX;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ ADFGVX…;1) Classic Ciphers
 CT1:en:static:4;ADFGVX Analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ ADFGVX…;6) Classic Cryptanalysis
@@ -30,17 +30,17 @@ CT1:en:static:29;DESXL;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further
 CT1:en:static:30;DESXL Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ DESXL…;7) Modern Cryptanalysis
 CT1:en:static:31;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Diffie-Hellman Demonstration…;10) Learning Aids and Visualizations
 CT1:en:static:32;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Diffie-Hellman Demonstration…;13) Protocols
-CT1:en:static:33;Digital Signatures Visualization;CT1:X;CT1:X\ Digital Signatures\PKI\ Signature Demonstration (Signature Generation)…;10) Learning Aids and Visualizations
+CT1:en:static:33;Digital Signatures Visualization;CT1:X;CT1:X\ Digital Signatures, PKI\ Signature Demonstration (Signature Generation)…;10) Learning Aids and Visualizations
 CT1:en:static:34;Digital Signatures Visualization;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Signature Demonstration (Signature Generation)…;10) Learning Aids and Visualizations
-CT1:en:static:35;Display/Export Keys;CT1:X;CT1:X\ Digital Signatures/PKI\ Display/Export Keys…;4) Digital Signatures/PKI
-CT1:en:static:36;DSA;CT1:X;CT1:X\ Digital Signatures/PKI\ Sign Document...\ DSA;4) Digital Signatures/PKI
+CT1:en:static:35;Display/Export Keys;CT1:X;CT1:X\ Digital Signatures, PKI\ Display/Export Keys…;4) Digital Signatures, PKI
+CT1:en:static:36;DSA;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ DSA;4) Digital Signatures, PKI
 CT1:en:static:37;ECC-AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Hybrid\ ECC-AES…;2) Modern Ciphers
-CT1:en:static:38;ECDSA;CT1:X;CT1:X\ Digital Signatures/PKI\ Sign Document...\ ECSP-DSA;4) Digital Signatures/PKI
-CT1:en:static:39;ECNR;CT1:X;CT1:X\ Digital Signatures/PKI\ Sign Document...\ ECSP-NR;4) Digital Signatures/PKI
+CT1:en:static:38;ECDSA;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ ECSP-DSA;4) Digital Signatures, PKI
+CT1:en:static:39;ECNR;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ ECSP-NR;4) Digital Signatures, PKI
 CT1:en:static:40;Elliptic Curve Calculations Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\ Point Addition on Elliptic Curves…;10) Learning Aids and Visualizations
 CT1:en:static:41;Enigma Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Enigma…;10) Learning Aids and Visualizations
 CT1:en:static:42;Entropy;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Entropy;6) Classic Cryptanalysis
-CT1:en:static:43;Extract Signature;CT1:X;CT1:X\ Digital Signatures/PKI\ Extract Signature…;4) Digital Signatures/PKI
+CT1:en:static:43;Extract Signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Extract Signature…;4) Digital Signatures, PKI
 CT1:en:static:44;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…\ Brute-force;12) Prime numbers
 CT1:en:static:45;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…\ Brent;12) Prime numbers
 CT1:en:static:46;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…\ Pollard;12) Prime numbers
@@ -50,7 +50,7 @@ CT1:en:static:49;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA C
 CT1:en:static:50;FIPS PUB-140-1;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ FIPS PUB-140-1 Test Battery;7) Modern Cryptanalysis
 CT1:en:static:51;Frequency Test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Frequency Test...;6) Classic Cryptanalysis
 CT1:en:static:52;Frequency Test;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Floating Frequency;6) Classic Cryptanalysis
-CT1:en:static:53;Generate/Import Keys;CT1:X;CT1:X\ Digital Signatures/PKI\ Generate/Import Keys…;4) Digital Signatures/PKI
+CT1:en:static:53;Generate/Import Keys;CT1:X;CT1:X\ Digital Signatures, PKI\ Generate/Import Keys…;4) Digital Signatures, PKI
 CT1:en:static:54;Generation of Prime Numbers;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Miller-Rabin Test;12) Prime numbers
 CT1:en:static:55;Generation of Prime Numbers;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Solovay-Strassen Test;12) Prime numbers
 CT1:en:static:56;Generation of Prime Numbers;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ FermatTest;12) Prime numbers
@@ -134,7 +134,7 @@ CT1:en:static:133;Twofish Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric En
 CT1:en:static:134;Unzip;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Compress\ UnZip;9) Codings
 CT1:en:static:135;UU Decode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Decode;9) Codings
 CT1:en:static:136;UU Encode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Encode;9) Codings
-CT1:en:static:137;Verify Signature;CT1:X;CT1:X\ Digital Signatures/PKI\ Verify Signature…;4) Digital Signatures/PKI
+CT1:en:static:137;Verify Signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Verify Signature…;4) Digital Signatures, PKI
 CT1:en:static:138;Vernam;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Vernam\ OTP…;1) Classic Ciphers
 CT1:en:static:139;Vernam Analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ XOR / Vernam;6) Classic Cryptanalysis
 CT1:en:static:140;Vigenère;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Vigenère…;1) Classic Ciphers

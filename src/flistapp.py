@@ -79,13 +79,21 @@ class FlistProg(ws.WSProg, api.Prog):
         self.context.names["prog.logger"] = mainLogger
 
         if(len(self.stepsToRun) == 0):
-            for step in [steps.getStep(name) for name in self.context.names["config.defaultsteps"]]:
-                self.context.names["state.currentStep"] = step.name
-                self.runStep(step)
+            stepSequence = [steps.getStep(name) for name in self.context.names["config.defaultsteps"]]
         else:
-            for step in self.stepsToRun:
-                self.context.names["state.currentStep"] = step.name
-                self.runStep(step)
+            stepSequence = self.stepsToRun
+
+        skipping = True
+        if not self.skipUntil:
+            skipping = False
+        for step in stepSequence:
+            if step.name.startswith(self.skipUntil):
+                skipping = False
+            if skipping:
+                mainLogger.info(f"skipping {step.name}")
+                continue
+            self.context.names["state.currentStep"] = step.name
+            self.runStep(step)
 
     def run_from_cmdline_call(self, argv: List[str] = None):
         try:
@@ -98,7 +106,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     stepchoices = [step.name for step in steps.allsteps]
     parser.add_argument("steps", nargs="*", help=f"step name sequence (of: {stepchoices}). When omitted, the defaultSteps from the config.yaml file are run.", metavar="STEPS", default=[])
-    parser.add_argument("--initws", action="store_const", const=True, default=False)
+    parser.add_argument("--initws", action="store_const", const=True, default=False, help="initializes the workspace by copying the ws-static directory, then exits")
+    parser.add_argument("--skipUntil", action="store", default="", metavar="PREFIX", help="skip steps until PREFIX appears at the start of the current step name")
     
     parsed = parser.parse_args(sys.argv[1:])
     # exit(0)
@@ -109,5 +118,6 @@ if __name__ == "__main__":
     parsed.steps = [steps.getStep(stepname) for stepname in parsed.steps]
 
     prog = FlistProg(parsed.steps)
+    prog.skipUntil = parsed.skipUntil
     prog.run_from_cmdline_call([])
 

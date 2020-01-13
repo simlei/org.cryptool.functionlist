@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+bindir="$(readlink -f "$0")"; bindir="${bindir%/*}"
+maindir="${bindir%/*}"
+
+"$maindir/src/flistapp.py" "$@" 2>&1

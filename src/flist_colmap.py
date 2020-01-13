@@ -106,16 +106,16 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
                     untranslatedCounter += 1
                 translated_mapped_cat = mapped_cat
 
-            entry.__setattr__(colname, translated_mapped_cat)
+            setattr(entry, colname, translated_mapped_cat)
         else:
             df_writeback_feedback_missing = df_writeback_feedback_missing.append([{"id": entry.id, colname: blank_placeholder, "path": entry.to_dataframe_dictionary()["path"]}])
             has_unmatched_categories = True
 
     df_writeback_feedback = df_writeback_feedback.append(df_writeback_feedback_matched)
     df_writeback_feedback = df_writeback_feedback.append(df_writeback_feedback_missing)
-    implicitly("prog.logger").info(f"{catFromInputFileCounter} of {len(dataset.rows)} entries have been assigned {colname}s based on their ids in {input}")
+    implicitly("prog.logger").info(f"{catFromInputFileCounter} of {len(dataset.rows)} entries have been assigned {colname}s based on their ids in {mapfile}")
     implicitly("prog.logger").info(f"{catFromFeedbackCounter} of {len(dataset.rows)} entries have been assigned {colname}s based on their ids in {feedbackfile}")
-    implicitly("prog.logger").info(f"{untranslatedCounter} of {catFromFeedbackCounter+catFromInputFileCounter} {colname}s have NOT been translated by translationfile")
+    implicitly("prog.logger").info(f"{(catFromFeedbackCounter+catFromInputFileCounter)-untranslatedCounter} of {catFromFeedbackCounter+catFromInputFileCounter} {colname}s have been translated by {translationfile}")
     if catFromFeedbackCounter > 0:
         implicitly("prog.logger").info(f"[ NOTE ] when running the program with --initws, the file {feedbackfile} will be overwritten by the prototypical workspace and the manual entries may be lost. Consider merging them with the corresponding file of {input} in ./ws-static!")
 

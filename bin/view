@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+dir="$(readlink -f "$0")"; dir="${dir%/*}"; dir="${dir%/*}"
+/usr/bin/google-chrome "$dir/sphinx-doc/genFlistHtml/index.html" >/dev/null 2>&1 &

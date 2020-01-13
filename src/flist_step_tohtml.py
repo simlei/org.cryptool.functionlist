@@ -70,7 +70,7 @@ def generate_category_tags(dataset, template_html):
     all_categories = []
     for row in dataset.rows:
         cat = row.categories
-        if not cat.strip() in all_categories:
+        if not cat.strip() in all_categories and cat.strip() and not "does_not_contain_category" in cat:
             all_categories.append(cat.strip())
     tags=""
     result=""

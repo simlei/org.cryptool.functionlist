@@ -69,19 +69,19 @@ JCT:de:static:68;SHA-512;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA512;3) Has
 JCT:de:static:69;Tiger;A;JCT:A \ Algorithmen \ Hash-Funktionen \ Tiger;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:70;Two-Track MAC;A;JCT:A \ Algorithmen \ Authentifizierungscodes \ TwoTrackMaK \ ;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:71;VSH;A;JCT:A \ Algorithmen \ Hash-Funktionen \ VSH;3) Hashverfahren und Authentifizierungscodes
-JCT:de:static:72;CMSS;A;JCT:A \ Algorithmen \ Signaturen \ CMSSSignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:73;DSA;D;JCT:D \ Algorithmen \ Signatur \ DSA;4) Digitale Signatur/PKI
-JCT:de:static:74;DSA;A;JCT:A \ Algorithmen \ Signaturen \ DSASignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:75;ECDSA;A;JCT:A \ Algorithmen \ Signaturen \ ECDSASignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:76;ECNR;A;JCT:A \ Algorithmen \ Signaturen \ SHA1 \ ECNR;4) Digitale Signatur/PKI
-JCT:de:static:77;GMSS;A;JCT:A \ Algorithmen \ Signaturen \ GMSSSignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:78;IQDSA;A;JCT:A \ Algorithmen \ Signaturen \ IQDSASignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:79;IQGQ;A;JCT:A \ Algorithmen \ Signaturen \ IQGQSignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:80;IQRDSA;A;JCT:A \ Algorithmen \ Signaturen \ IQRDSASignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:81;Merkle OTS;A;JCT:A \ Algorithmen \ Signaturen \ MerkleOTSSignature \ ;4) Digitale Signatur/PKI
-JCT:de:static:82;Niederreiter CFS;A;JCT:A \ Algorithmen \ Signaturen \ NiederreiterCFS;4) Digitale Signatur/PKI
-JCT:de:static:83;RSASSA-PSS;A;JCT:A \ Algorithmen \ Signaturen \ RSASSA-PSS;4) Digitale Signatur/PKI
-JCT:de:static:84;SSL (MD5 und SHA1 mit RSA);A;JCT:A \ Algorithmen \ Signaturen \ SHA1 \ SSL_MD5andSHA1withRSA;4) Digitale Signatur/PKI
+JCT:de:static:72;CMSS;A;JCT:A \ Algorithmen \ Signaturen \ CMSSSignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:73;DSA;D;JCT:D \ Algorithmen \ Signatur \ DSA;4) Digitale Signatur, PKI
+JCT:de:static:74;DSA;A;JCT:A \ Algorithmen \ Signaturen \ DSASignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:75;ECDSA;A;JCT:A \ Algorithmen \ Signaturen \ ECDSASignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:76;ECNR;A;JCT:A \ Algorithmen \ Signaturen \ SHA1 \ ECNR;4) Digitale Signatur, PKI
+JCT:de:static:77;GMSS;A;JCT:A \ Algorithmen \ Signaturen \ GMSSSignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:78;IQDSA;A;JCT:A \ Algorithmen \ Signaturen \ IQDSASignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:79;IQGQ;A;JCT:A \ Algorithmen \ Signaturen \ IQGQSignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:80;IQRDSA;A;JCT:A \ Algorithmen \ Signaturen \ IQRDSASignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:81;Merkle OTS;A;JCT:A \ Algorithmen \ Signaturen \ MerkleOTSSignature \ ;4) Digitale Signatur, PKI
+JCT:de:static:82;Niederreiter CFS;A;JCT:A \ Algorithmen \ Signaturen \ NiederreiterCFS;4) Digitale Signatur, PKI
+JCT:de:static:83;RSASSA-PSS;A;JCT:A \ Algorithmen \ Signaturen \ RSASSA-PSS;4) Digitale Signatur, PKI
+JCT:de:static:84;SSL (MD5 und SHA1 mit RSA);A;JCT:A \ Algorithmen \ Signaturen \ SHA1 \ SSL_MD5andSHA1withRSA;4) Digitale Signatur, PKI
 JCT:de:static:85;Blum Blum Shub (B.B.S.) (PRNG);A;JCT:A \ Algorithmen \ Pseudo-Zufallsgeneratoren \ BBSRandom;5) Zufallszahlen-Generatoren
 JCT:de:static:86;Elliptische Kurven (PRNG);A;JCT:A \ Algorithmen \ Pseudo-Zufallsgeneratoren \ ECPRNG;5) Zufallszahlen-Generatoren
 JCT:de:static:87;SHA-1 (PRNG);D;JCT:D \ Algorithmen \ Zufallszahlengenerator \ SHA1;5) Zufallszahlen-Generatoren

@@ -28,19 +28,19 @@ DESXL;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESXL�
 DESXL Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESXL…;;;;7) Modern Cryptanalysis
 Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;X;;D;;Indiv. Procedures \ Protocols \ Diffie-Hellman Demonstration…;;[D] \ Visualizations \ Diffie-Hellman Key Exchange (EC) <br /> [D] \ Visuals \ Diffie-Hellman Key Exchange (EC);;10) Learning Aids and Visualizations
 Digital Signatures Visualization;X;;D;;Digital Signatures \ PKI \ Signature Demonstration (Signature Generation)… <br /> Indiv. Procedures \ RSA Cryptosystem \ Signature Demonstration (Signature Generation)…;;[D] \ Visualizations \ Signature Demonstration;;10) Learning Aids and Visualizations
-Display/Export Keys;X;;;;Digital Signatures \ PKI \ Display \ Export Keys…;;;;4) Digital Signatures/PKI
-DSA;X;;A;;Digital Signatures \ PKI \ Sign Document... \ DSA;;[A] \ Signatures \ Signatures \ RAW \ DSA;;4) Digital Signatures/PKI
+Display/Export Keys;X;;;;Digital Signatures \ PKI \ Display \ Export Keys…;;;;4) Digital Signatures, PKI
+DSA;X;;A;;Digital Signatures \ PKI \ Sign Document... \ DSA;;[A] \ Signatures \ Signatures \ RAW \ DSA;;4) Digital Signatures, PKI
 ECC-AES;X;;;;Encrypt \ Decrypt \ Hybrid \ ECC-AES…;;;;2) Modern Ciphers
-ECDSA;X;;A;;Digital Signatures \ PKI \ Sign Document... \ ECSP-DSA;;[A] \ Signatures \ Signatures \ RawECDSA <br /> [A] \ Signatures \ Signatures \ SHA1 \ ECDSA (OID: 1.2.840.10045.4.1) <br /> [A] \ Signatures \ Signatures \ SHA224 \ ECDSA (OID: 1.2.840.10045.4.3.1) <br /> [A] \ Signatures \ Signatures \ SHA256 \ ECDSA (OID: 1.2.840.10045.4.3.2) <br /> [A] \ Signatures \ Signatures \ SHA384 \ ECDSA (OID: 1.2.840.10045.4.3.3) <br /> [A] \ Signatures \ Signatures \ SHA512 \ ECDSA (OID: 1.2.840.10045.4.3.4);;4) Digital Signatures/PKI
-ECNR;X;;A;;Digital Signatures \ PKI \ Sign Document... \ ECSP-NR;;[A] \ Signatures \ SHA1 \ ECNR;;4) Digital Signatures/PKI
+ECDSA;X;;A;;Digital Signatures \ PKI \ Sign Document... \ ECSP-DSA;;[A] \ Signatures \ Signatures \ RawECDSA <br /> [A] \ Signatures \ Signatures \ SHA1 \ ECDSA (OID: 1.2.840.10045.4.1) <br /> [A] \ Signatures \ Signatures \ SHA224 \ ECDSA (OID: 1.2.840.10045.4.3.1) <br /> [A] \ Signatures \ Signatures \ SHA256 \ ECDSA (OID: 1.2.840.10045.4.3.2) <br /> [A] \ Signatures \ Signatures \ SHA384 \ ECDSA (OID: 1.2.840.10045.4.3.3) <br /> [A] \ Signatures \ Signatures \ SHA512 \ ECDSA (OID: 1.2.840.10045.4.3.4);;4) Digital Signatures, PKI
+ECNR;X;;A;;Digital Signatures \ PKI \ Sign Document... \ ECSP-NR;;[A] \ Signatures \ SHA1 \ ECNR;;4) Digital Signatures, PKI
 Elliptic Curve Calculations Visualization;X;;D;;Indiv. Procedures \ Number Theory - Interactive \ Point Addition on Elliptic Curves…;;[D] \ Visualizations \ Elliptic Curve Calculations;;10) Learning Aids and Visualizations
 Enigma Visualization;X;;;;Indiv. Procedures \ Visualization of Algorithms \ Enigma…;;;;10) Learning Aids and Visualizations
 Entropy;X;;D;;Analysis \ Tools for Analysis \ Entropy;;[D] \ Analysis \ Entropy Analysis;;6) Classic Cryptanalysis
-Extract Signature;X;;;;Digital Signatures \ PKI \ Extract Signature…;;;;4) Digital Signatures/PKI
+Extract Signature;X;;;;Digital Signatures \ PKI \ Extract Signature…;;;;4) Digital Signatures, PKI
 Factorization of a Number;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brute-force <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brent <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Pollard <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Williams <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Lenstra <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Quadratic Sieve;;;;12) Prime numbers
 FIPS PUB-140-1;X;;;;Analysis \ Analyze Randomness \ FIPS PUB-140-1 Test Battery;;;;7) Modern Cryptanalysis
 Frequency Test;X;;D;X;Analysis \ Analyze Randomness \ Frequency Test... <br /> Analysis \ Tools for Analysis \ Floating Frequency;;[D] \ Analysis \ Frequency Analysis;Cryptanalysis \ Frequency Analysis;6) Classic Cryptanalysis
-Generate/Import Keys;X;;;;Digital Signatures \ PKI \ Generate \ Import Keys…;;;;4) Digital Signatures/PKI
+Generate/Import Keys;X;;;;Digital Signatures \ PKI \ Generate \ Import Keys…;;;;4) Digital Signatures, PKI
 Generation of Prime Numbers;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Miller-Rabin Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Solovay-Strassen Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ FermatTest;;;;12) Prime numbers
 Hash Algorithms Visualization;X;;D;;Indiv Procedures \ Hash \ Hash Demonstration…;;[D] \ Visualizations \ Hash Sensitivity;;10) Learning Aids and Visualizations
 Hash Collisions;X;;;;Analysis \ Hash \ Attack on the Hash Value of the Digital Signature…;;;;7) Modern Cryptanalysis
@@ -109,7 +109,7 @@ Twofish Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Furth
 Unzip;X;;;;Indiv. Procedures \ Tools \ Compress \ UnZip;;;;9) Codings
 UU Decode;X;;;;Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Decode;;;;9) Codings
 UU Encode;X;;;;Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Encode;;;;9) Codings
-Verify Signature;X;;;;Digital Signatures \ PKI \ Verify Signature…;;;;4) Digital Signatures/PKI
+Verify Signature;X;;;;Digital Signatures \ PKI \ Verify Signature…;;;;4) Digital Signatures, PKI
 Vernam;X;;;;Encrypt \ Decrypt \ Symmetric (classic) \ Vernam \ OTP…;;;;1) Classic Ciphers
 Vernam Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ XOR \ Vernam;;;;6) Classic Cryptanalysis
 Vigenère;X;;D;X;Encrypt \ Decrypt \ Symmetric (classic) \ Vigenère…;;[D] \ Algorithms \ Classic \ Vigenère;Ciphers \ Vigenère;1) Classic Ciphers
@@ -156,7 +156,7 @@ Camellia;;;A;;;;[A] \ Block Ciphers \ Block Ciphers \ Camellia128_CBC (OID: 1.2.
 CBC MACs;;;A;;;;[A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacAES128 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacAES192 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacAES256 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacCamellia <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacDESede <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacIDEA <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacMARS <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacMisty1 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacRC2 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacRC5 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacRC6 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CBCmacSAFER+ <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \;;3) Hash and MAC Algorithms
 Certificate Verification;;;D;;;;[D] \ Visualizations \ Certificate Verification;;10) Learning Aids and Visualizations
 Cipher-Based MACs (CMAC);;;A;;;;[A] \ Message Authentication Codes \ Message Authentication Codes \ CmacAES128 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CmacAES192 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CmacAES256 <br /> [A] \ Message Authentication Codes \ Message Authentication Codes \ CmacDESede;;3) Hash and MAC Algorithms
-CMSS;;;A;;;;[A] \ Signatures \ Signatures \ CMSS (OID: 1.3.6.1.4.1.8301.3.1.3.2.6) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.1) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.2) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.3) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.4) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.5) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.7) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.8) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.9) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.10) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_3 (OID: 1.;;4) Digital Signatures/PKI
+CMSS;;;A;;;;[A] \ Signatures \ Signatures \ CMSS (OID: 1.3.6.1.4.1.8301.3.1.3.2.6) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.1) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.2) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.3) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA1andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.4) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.5) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_3 (OID: 1.3.6.1.4.1.8301.3.1.3.2.7) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA256andWinternitzOTS_4 (OID: 1.3.6.1.4.1.8301.3.1.3.2.8) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_1 (OID: 1.3.6.1.4.1.8301.3.1.3.2.9) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_2 (OID: 1.3.6.1.4.1.8301.3.1.3.2.10) <br /> [A] \ Signatures \ Signatures \ CMSSwithSHA384andWinternitzOTS_3 (OID: 1.;;4) Digital Signatures, PKI
 Coin Flipping Protocol;;;C\T;;;;[C] \ Protocols \ Coin Flipping <br /> [T] \ Protocols \ Coin Flipping Protocol;;10) Learning Aids and Visualizations
 DHA256;;;A;;;;[A] \ Message Digests \ DHA256;;3) Hash and MAC Algorithms
 Differential Power Analysis Visualization;;;D;;;;[D] \ Visualizations \ Differential Power Analysis \ Double and Add;;10) Learning Aids and Visualizations
@@ -173,14 +173,14 @@ Feige Fiat Shamir Visualization;;;D;;;;[D] \ Visualizations \ Feige Fiat Shamir;
 Fiat Shamir Visualization;;;D;;;;[D] \ Visualizations \ Fiat Shamir;;10) Learning Aids and Visualizations
 FORK-256;;;A;;;;[A] \ Message Digests \ FORK256;;3) Hash and MAC Algorithms
 Friedman Test;;;D;;;;[D] \ Analysis \ Friedman Test;;6) Classic Cryptanalysis
-GMSS;;;A;;;;[A] \ Signatures \ Signatures \ GMSSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.3.1) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA224 (OID: 1.3.6.1.4.1.8301.3.1.3.3.2) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.3.3) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.3.4) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.3.5);;4) Digital Signatures/PKI
+GMSS;;;A;;;;[A] \ Signatures \ Signatures \ GMSSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.3.1) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA224 (OID: 1.3.6.1.4.1.8301.3.1.3.3.2) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.3.3) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.3.4) <br /> [A] \ Signatures \ Signatures \ GMSSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.3.5);;4) Digital Signatures, PKI
 Graph Isomorphism Visualization;;;D;;;;[D] \ Visualizations \ Graph Isomorphism;;10) Learning Aids and Visualizations
 Grille Visualization;;;D;;;;[D] \ Visualizations \ Grille;;10) Learning Aids and Visualizations
 Homomorphic Encryption Visualization;;;D;;;;[D] \ Visualizations \ Homomorphic Encryption;;10) Learning Aids and Visualizations
 Inner States of the DES Visualization;;;D;;;;[D] \ Visualizations \ Inner States of the Data Encryption Standard (DES);;10) Learning Aids and Visualizations
-IQDSA;;;A;;;;[A] \ Signatures \ Signatures \ IQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.2) <br /> [A] \ Signatures \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3);;4) Digital Signatures/PKI
-IQGQ;;;A;;;;[A] \ Signatures \ Signatures \ IQGQ (OID: 1.3.6.1.4.1.8301.3.1.1.5) <br /> [A] \ Signatures \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3);;4) Digital Signatures/PKI
-IQRDSA;;;A;;;;[A] \ Signatures \ Signatures \ IQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.8) <br /> [A] \ Signatures \ Signatures \ RIPEMD160withIQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.9);;4) Digital Signatures/PKI
+IQDSA;;;A;;;;[A] \ Signatures \ Signatures \ IQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.2) <br /> [A] \ Signatures \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3);;4) Digital Signatures, PKI
+IQGQ;;;A;;;;[A] \ Signatures \ Signatures \ IQGQ (OID: 1.3.6.1.4.1.8301.3.1.1.5) <br /> [A] \ Signatures \ Signatures \ RIPEMD160withIQDSA (OID: 1.3.6.1.4.1.8301.3.1.1.3);;4) Digital Signatures, PKI
+IQRDSA;;;A;;;;[A] \ Signatures \ Signatures \ IQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.8) <br /> [A] \ Signatures \ Signatures \ RIPEMD160withIQRDSA (OID: 1.3.6.1.4.1.8301.3.1.1.9);;4) Digital Signatures, PKI
 Kleptography Visualization;;;D;;;;[D] \ Visualizations \ Kleptography;;10) Learning Aids and Visualizations
 Lattice-Based Attacks - Merkle-Hellman;;;D;;;;[D] \ Visualizations \ Merkle-Hellman Knapsack Cryptosystem;;10) Learning Aids and Visualizations
 LFSR;;;D;;;;[D] \ Algorithms \ Symmetric \ LFSR;;2) Modern Ciphers
@@ -189,23 +189,23 @@ McEliece Fujisaki;;;A;;;;[A] \ Hybrid Ciphers \ McElieceFujisakiCipher (OID: 1.3
 McEliece Kobara Imai;;;A;;;;[A] \ Hybrid Ciphers \ McElieceKobaraImaiCipher (OID: 1.3.6.1.4.1.8301.3.1.3.4.2.3);;2) Modern Ciphers
 McEliece PKCS;;;A;;;;[A] \ Asymmetric Block Ciphers \ McEliecePKCS (OID: 1.3.6.1.4.1.8301.3.1.3.4.1);;2) Modern Ciphers
 McEliece Pointcheval;;;A;;;;[A] \ Hybrid Ciphers \ McEliecePointchevalCipher (OID: 1.3.6.1.4.1.8301.3.1.3.4.2.2);;2) Modern Ciphers
-Merkle OTS;;;A;;;;[A] \ Signatures \ Signatures \ MerkleOTSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.1) <br /> [A] \ Signatures \ Signatures \ MerkleOTSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.2) <br /> [A] \ Signatures \ Signatures \ MerkleOTSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.3) <br /> [A] \ Signatures \ Signatures \ MerkleOTSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.4);;4) Digital Signatures/PKI
+Merkle OTS;;;A;;;;[A] \ Signatures \ Signatures \ MerkleOTSwithSHA1 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.1) <br /> [A] \ Signatures \ Signatures \ MerkleOTSwithSHA256 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.2) <br /> [A] \ Signatures \ Signatures \ MerkleOTSwithSHA384 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.3) <br /> [A] \ Signatures \ Signatures \ MerkleOTSwithSHA512 (OID: 1.3.6.1.4.1.8301.3.1.3.1.1.4);;4) Digital Signatures, PKI
 Merkle Signature Scheme (MSS, XMSS, XMSS_XT);;;D;;;;[D] \ Visualizations \ Merkle Signature Scheme (MerkleTree);;10) Learning Aids and Visualizations
 MeRSA;;;A;;;;[A] \ Asymmetric Block Ciphers \ MeRSA <br /> [A] \ Signatures \ MeRSA;;2) Modern Ciphers
 Misty-1 (Kasumi);;;A;;;;[A] \ Block Ciphers \ Misty1;;2) Modern Ciphers
 MpRSA;;;D;;;;[D] \ Visualizations \ RSA Cryptosystem <br /> [D] \ Visualizations \ Extended RSA Cryptosystem;;2) Modern Ciphers
 Multipartite Key Exchange Visualization;;;D;;;;[D] \ Visualizations \ Multipartite Key Exchange;;10) Learning Aids and Visualizations
 Niederreiter;;;A;;;;[A] \ Asymmetric Block Ciphers \ Niederreiter;;2) Modern Ciphers
-Niederreiter CFS;;;A;;;;[A] \ Signatures \ NiederreiterCFS (OID: 1.3.6.1.4.1.8301.3.1.3.4.3.2);;4) Digital Signatures/PKI
+Niederreiter CFS;;;A;;;;[A] \ Signatures \ NiederreiterCFS (OID: 1.3.6.1.4.1.8301.3.1.3.4.3.2);;4) Digital Signatures, PKI
 PKCS#5;;;A;;;;[A] \ Password-Based Ciphers \ PBES2 (OID: 1.2.840.113549.1.5.13) <br /> [A] \ Password-Based Ciphers \ PbeWithMD5AndDES_CBC (OID: 1.2.840.113549.1.5.3) <br /> [A] \ Password-Based Ciphers \ PbeWithSHA1AndDES_CBC (OID: 1.2.840.113549.1.5.10) <br /> [A] \ Password-Based Ciphers \ PbeWithSHAAnd3_KeyTripleDES_CBC (OID: 1.2.840.113549.1.12.1.3) <br /> [A] \ Password-Based Ciphers \ PbeWithSHAAnd40BitRC2_CBC (OID: 1.2.840.113549.1.12.1.6);;3) Hash and MAC Algorithms
 Public-Key Infrastructure;;;D;;;;[D] \ Visualizations \ Public-Key Infrastructure;;10) Learning Aids and Visualizations
 RC4 / Spritz;;;D;;;;[D] \ Visualizations \ ARC4 \ Spritz;;10) Learning Aids and Visualizations
 RC5;;;A;;;;[A] \ Block Ciphers \ RC5;;2) Modern Ciphers
-RSASSA-PSS;;;A;;;;[A] \ Algorithms \ Signatures \ RSASSA-PSS;;4) Digital Signatures/PKI
+RSASSA-PSS;;;A;;;;[A] \ Algorithms \ Signatures \ RSASSA-PSS;;4) Digital Signatures, PKI
 SAFER+;;;A;;;;[A] \ Block Ciphers \ SAFER+;;2) Modern Ciphers
 SAFER++;;;A;;;;[A] \ Block Ciphers \ SAFER++;;2) Modern Ciphers
 SHA;;;D;;;;[D] \ Algorithms \ Hash \ SHA;;3) Hash and MAC Algorithms
-SHA with DSA;;;A;;;;[A] \ Signatures \ Signatures \ SHAwithDSA (OID: 1.3.14.3.2.13);;4) Digital Signatures/PKI
+SHA with DSA;;;A;;;;[A] \ Signatures \ Signatures \ SHAwithDSA (OID: 1.3.14.3.2.13);;4) Digital Signatures, PKI
 SHA-1 (PRNG);;;A;;;;[A] \ Pseudo Random Number Generators \ SHA1PRNG;;5) Random Number Generators
 SHA-3 Candidates;;;D;;;;[D] \ Algorithms \ Hash \ SHA3-Candidates;;3) Hash and MAC Algorithms
 SHA-384;;;A;;;;[A] \ Message Digests \ SHA384 (OID: 2.16.840.1.101.3.4.2.2);;3) Hash and MAC Algorithms
@@ -214,7 +214,7 @@ Shacal2;;;A;;;;[A] \ Block Ciphers \ Shacal2;;2) Modern Ciphers
 Signatur Verification;;;D;;;;[D] \ Visualizations \ Signature Verification;;10) Learning Aids and Visualizations
 Simple Power Analysis Visualization;;;D;;;;[D] \ Visualizations \ Simple Power Analysis \ Square and Multiply;;10) Learning Aids and Visualizations
 Solving Discrete Logarithm with Babystep-Giantstep;;;D;;;;[D] \ Visualizations \ Shanks Babystep-Giantstep;;10) Learning Aids and Visualizations
-SSL (MD5 and SHA1 with RSA);;;A;;;;[A] \ Signatures \ SSL_MD5andSHA1withRSA;;4) Digital Signatures/PKI
+SSL (MD5 and SHA1 with RSA);;;A;;;;[A] \ Signatures \ SSL_MD5andSHA1withRSA;;4) Digital Signatures, PKI
 SSL/TLS Handshake;;;D;;;;[D] \ Visualizations \ SSL \ TLS Handshake;;10) Learning Aids and Visualizations
 Sudoku Solver;;;D;;;;[D] \ Games \ Sudoku-Solver;;11) Games
 Tiger;;;A;;;;[A] \ Message Digests \ Tiger (OID: 1.3.6.1.4.1.11591.12.2);;3) Hash and MAC Algorithms

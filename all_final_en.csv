@@ -28,19 +28,19 @@ DESXL;X;;;;Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESXL�
 DESXL Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESXL…;;;;7) Modern Cryptanalysis
 Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;X;;;;Indiv. Procedures \ Protocols \ Diffie-Hellman Demonstration…;;;;10) Learning Aids and Visualizations
 Digital Signatures Visualization;X;;;;Digital Signatures \ PKI \ Signature Demonstration (Signature Generation)… <br /> Indiv. Procedures \ RSA Cryptosystem \ Signature Demonstration (Signature Generation)…;;;;10) Learning Aids and Visualizations
-Display/Export Keys;X;;;;Digital Signatures \ PKI \ Display \ Export Keys…;;;;4) Digital Signatures/PKI
-DSA;X;;;;Digital Signatures \ PKI \ Sign Document... \ DSA;;;;4) Digital Signatures/PKI
+Display/Export Keys;X;;;;Digital Signatures \ PKI \ Display \ Export Keys…;;;;4) Digital Signatures, PKI
+DSA;X;;;;Digital Signatures \ PKI \ Sign Document... \ DSA;;;;4) Digital Signatures, PKI
 ECC-AES;X;;;;Encrypt \ Decrypt \ Hybrid \ ECC-AES…;;;;2) Modern Ciphers
-ECDSA;X;;;;Digital Signatures \ PKI \ Sign Document... \ ECSP-DSA;;;;4) Digital Signatures/PKI
-ECNR;X;;;;Digital Signatures \ PKI \ Sign Document... \ ECSP-NR;;;;4) Digital Signatures/PKI
+ECDSA;X;;;;Digital Signatures \ PKI \ Sign Document... \ ECSP-DSA;;;;4) Digital Signatures, PKI
+ECNR;X;;;;Digital Signatures \ PKI \ Sign Document... \ ECSP-NR;;;;4) Digital Signatures, PKI
 Elliptic Curve Calculations Visualization;X;;;;Indiv. Procedures \ Number Theory - Interactive \ Point Addition on Elliptic Curves…;;;;10) Learning Aids and Visualizations
 Enigma Visualization;X;;;;Indiv. Procedures \ Visualization of Algorithms \ Enigma…;;;;10) Learning Aids and Visualizations
 Entropy;X;;;;Analysis \ Tools for Analysis \ Entropy;;;;6) Classic Cryptanalysis
-Extract Signature;X;;;;Digital Signatures \ PKI \ Extract Signature…;;;;4) Digital Signatures/PKI
+Extract Signature;X;;;;Digital Signatures \ PKI \ Extract Signature…;;;;4) Digital Signatures, PKI
 Factorization of a Number;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brute-force <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brent <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Pollard <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Williams <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Lenstra <br /> Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Quadratic Sieve;;;;12) Prime numbers
 FIPS PUB-140-1;X;;;;Analysis \ Analyze Randomness \ FIPS PUB-140-1 Test Battery;;;;7) Modern Cryptanalysis
 Frequency Test;X;C;;X;Analysis \ Analyze Randomness \ Frequency Test... <br /> Analysis \ Tools for Analysis \ Floating Frequency;Cryptanalysis \ Generic \ Frequency Test;;Cryptanalysis \ Frequency Analysis;6) Classic Cryptanalysis
-Generate/Import Keys;X;;;;Digital Signatures \ PKI \ Generate \ Import Keys…;;;;4) Digital Signatures/PKI
+Generate/Import Keys;X;;;;Digital Signatures \ PKI \ Generate \ Import Keys…;;;;4) Digital Signatures, PKI
 Generation of Prime Numbers;X;;;;Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Miller-Rabin Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Solovay-Strassen Test <br /> Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ FermatTest;;;;12) Prime numbers
 Hash Algorithms Visualization;X;;;;Indiv Procedures \ Hash \ Hash Demonstration…;;;;10) Learning Aids and Visualizations
 Hash Collisions;X;;;;Analysis \ Hash \ Attack on the Hash Value of the Digital Signature…;;;;7) Modern Cryptanalysis
@@ -109,7 +109,7 @@ Twofish Brute-Force Attack;X;;;;Analysis \ Symmetric Encryption (modern) \ Furth
 Unzip;X;;;;Indiv. Procedures \ Tools \ Compress \ UnZip;;;;9) Codings
 UU Decode;X;;;;Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Decode;;;;9) Codings
 UU Encode;X;;;;Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Encode;;;;9) Codings
-Verify Signature;X;;;;Digital Signatures \ PKI \ Verify Signature…;;;;4) Digital Signatures/PKI
+Verify Signature;X;;;;Digital Signatures \ PKI \ Verify Signature…;;;;4) Digital Signatures, PKI
 Vernam;X;C;;;Encrypt \ Decrypt \ Symmetric (classic) \ Vernam \ OTP…;Classic Ciphers \ Vernam;;;1) Classic Ciphers
 Vernam Analysis;X;;;;Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ XOR \ Vernam;;;;6) Classic Cryptanalysis
 Vigenère;X;;;X;Encrypt \ Decrypt \ Symmetric (classic) \ Vigenère…;;;Ciphers \ Vigenère;1) Classic Ciphers

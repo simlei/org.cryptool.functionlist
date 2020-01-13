@@ -146,7 +146,7 @@ class ContextProcessorYamlConfig:
     def load(self):
         with open(self.path, "r") as input:
             try:
-                return yaml.load(input)
+                return yaml.safe_load(input)
             except Exception as e:
                 raise ApiException(f"YAML config {self.path} could not be loaded: {e}")
 

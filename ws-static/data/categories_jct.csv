@@ -61,15 +61,15 @@ JCT:dynamic:50b62f8d;10) Learning Aids and Visualizations;JCT:D \ Visualizations
 JCT:dynamic:e267ab03;11) Games;JCT:D \ Games \ Divider Game
 JCT:dynamic:5361903c;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Double Box
 JCT:dynamic:efbaef5d;2) Modern Ciphers;JCT:D \ Algorithms \ Symmetric \ Dragon
-JCT:dynamic:07d0dd64;4) Digital Signatures/PKI;JCT:A \ Signatures \ RAW \ DSA
-JCT:dynamic:5614bd53;4) Digital Signatures/PKI;JCT:A \ Signatures \ RawECDSA
+JCT:dynamic:07d0dd64;4) Digital Signatures, PKI;JCT:A \ Signatures \ RAW \ DSA
+JCT:dynamic:5614bd53;4) Digital Signatures, PKI;JCT:A \ Signatures \ RawECDSA
 JCT:dynamic:de475f70;;JCT:A \ Signatures \ SHA1 \ ECDSA Digital Signatures \ PKI
 JCT:dynamic:80ed913b;;JCT:A \ Signatures \ SHA224 \ ECDSA Digital Signatures \ PKI
 JCT:dynamic:8334fd0a;;JCT:A \ Signatures \ SHA256 \ ECDSA Digital Signatures \ PKI
 JCT:dynamic:ea54ad10;;JCT:A \ Signatures \ SHA384 \ ECDSA Digital Signatures \ PKI
 JCT:dynamic:4d2b0a66;;JCT:A \ Signatures \ SHA512 \ ECDSA Digital Signatures \ PKI
 JCT:dynamic:2b2549ac;2) Modern Ciphers;JCT:A \ Hybrid Ciphers \ ECIES
-JCT:dynamic:35f378f7;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ ECNR
+JCT:dynamic:35f378f7;4) Digital Signatures, PKI;JCT:A \ Signatures \ SHA1 \ ECNR
 JCT:dynamic:f70c72c5;;JCT:A \ Asymmetric Block Ciphers \ ElGamal Modern Ciphers
 JCT:dynamic:151d470b;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ ElGamal Cryptosystem
 JCT:dynamic:62aadc7d;5) Random Number Generators;JCT:A \ Pseudo Random Number Generators \ ECPRNG
@@ -166,25 +166,25 @@ JCT:dynamic:ff4749b9;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Caesar
 JCT:dynamic:4381839c;;JCT:A \ Asymmetric Block Ciphers \ RSA Modern Ciphers
 JCT:dynamic:603bfaab;;JCT:A \ Asymmetric Block Ciphers \ RbRSA Modern Ciphers
 JCT:dynamic:076a5c47;2) Modern Ciphers;JCT:A \ Asymmetric Block Ciphers \ RprimeRSA
-JCT:dynamic:12c330fc;4) Digital Signatures/PKI;JCT:A \ Signatures \ MD5 \ RSA \ RAW
+JCT:dynamic:12c330fc;4) Digital Signatures, PKI;JCT:A \ Signatures \ MD5 \ RSA \ RAW
 JCT:dynamic:bf8e2483;;JCT:A \ Signatures \ MD5withRSA Digital Signatures \ PKI
 JCT:dynamic:8b218f8a;;JCT:A \ Signatures \ RIPEMD160 \ RSA Digital Signatures \ PKI
-JCT:dynamic:293c3387;4) Digital Signatures/PKI;JCT:A \ Signatures \ RIPEMD160 \ RSA \ RAW
+JCT:dynamic:293c3387;4) Digital Signatures, PKI;JCT:A \ Signatures \ RIPEMD160 \ RSA \ RAW
 JCT:dynamic:ea54f3e7;;JCT:A \ Signatures \ SHA1 \ RSA Digital Signatures \ PKI
-JCT:dynamic:b2adacad;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA1 \ RSA \ RAW
+JCT:dynamic:b2adacad;4) Digital Signatures, PKI;JCT:A \ Signatures \ SHA1 \ RSA \ RAW
 JCT:dynamic:161e351b;;JCT:A \ Signatures \ SHA224 \ RSA Digital Signatures \ PKI
-JCT:dynamic:2ce2361f;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA224 \ RSA \ RAW
-JCT:dynamic:723a6558;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA256 \ RSA \ RAW
+JCT:dynamic:2ce2361f;4) Digital Signatures, PKI;JCT:A \ Signatures \ SHA224 \ RSA \ RAW
+JCT:dynamic:723a6558;4) Digital Signatures, PKI;JCT:A \ Signatures \ SHA256 \ RSA \ RAW
 JCT:dynamic:a1e3d80c;;JCT:A \ Signatures \ SHA256withRSA Digital Signatures \ PKI
-JCT:dynamic:b7dda061;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA384 \ RSA \ RAW
+JCT:dynamic:b7dda061;4) Digital Signatures, PKI;JCT:A \ Signatures \ SHA384 \ RSA \ RAW
 JCT:dynamic:f516cb7a;;JCT:A \ Signatures \ SHA384withRSA Digital Signatures \ PKI
-JCT:dynamic:d933a8f2;4) Digital Signatures/PKI;JCT:A \ Signatures \ SHA512 \ RSA \ RAW
+JCT:dynamic:d933a8f2;4) Digital Signatures, PKI;JCT:A \ Signatures \ SHA512 \ RSA \ RAW
 JCT:dynamic:61e0b4b8;;JCT:A \ Signatures \ SHA512withRSA Digital Signatures \ PKI
 JCT:dynamic:927c684f;;JCT:A \ Signatures \ RbRSA Digital Signatures \ PKI
-JCT:dynamic:1ea2f541;4) Digital Signatures/PKI;JCT:A \ Signatures \ RprimeRSA
+JCT:dynamic:1ea2f541;4) Digital Signatures, PKI;JCT:A \ Signatures \ RprimeRSA
 JCT:dynamic:21e05cab;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ RSA Cryptosystem
 JCT:dynamic:e506edc5;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Extended RSA Cryptosystem
-JCT:dynamic:e4411232;4) Digital Signatures/PKI;JCT:A \ Algorithms \ Signatures \ RSASSA-PSS
+JCT:dynamic:e4411232;4) Digital Signatures, PKI;JCT:A \ Algorithms \ Signatures \ RSASSA-PSS
 JCT:dynamic:fb139d80;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER+
 JCT:dynamic:a2289171;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER++
 JCT:dynamic:ab223fed;;JCT:A \ Block Ciphers \ Serpent128_CBC Modern Ciphers
@@ -214,7 +214,7 @@ JCT:dynamic:34d1087b;13) Protocols;JCT:D \ Visuals \ Shamir's Secret Sharing
 JCT:dynamic:0f364fa9;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Signature Verification
 JCT:dynamic:eb0b05cd;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Simple Power Analysis \ Square and Multiply
 JCT:dynamic:90a1a3e5;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ Shanks Babystep-Giantstep
-JCT:dynamic:bb0e066b;4) Digital Signatures/PKI;JCT:A \ Signatures \ SSL_MD5andSHA1withRSA
+JCT:dynamic:bb0e066b;4) Digital Signatures, PKI;JCT:A \ Signatures \ SSL_MD5andSHA1withRSA
 JCT:dynamic:b8c13008;10) Learning Aids and Visualizations;JCT:D \ Visualizations \ SSL \ TLS Handshake
 JCT:dynamic:64c996d9;1) Classic Ciphers;JCT:D \ Algorithms \ Classic \ Substitution
 JCT:dynamic:842ef797;6) Classic Cryptanalysis;JCT:D \ Analysis \ Substitution Analysis

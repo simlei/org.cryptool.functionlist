@@ -43,13 +43,13 @@ CT1:de:static:42;Schlüssel aus Passwort generieren (PKCS #5);X;CT1:X \ Einzelve
 CT1:de:static:43;SHA-1;X;CT1:X \ Einzelverfahren \ Hashverfahren \ SHA-1;3) Hashverfahren und Authentifizierungscodes
 CT1:de:static:44;SHA-256;X;CT1:X \ Einzelverfahren \ Hashverfahren \ SHA-256;3) Hashverfahren und Authentifizierungscodes
 CT1:de:static:45;SHA-512;X;CT1:X \ Einzelverfahren \ Hashverfahren \ SHA-512;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:46;DSA;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ DSA;4) Digitale Signatur/PKI
-CT1:de:static:47;ECDSA;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ ECSP-DSA;4) Digitale Signatur/PKI
-CT1:de:static:48;ECNR;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ ECSP-NR;4) Digitale Signatur/PKI
-CT1:de:static:49;Schlüssel anzeigen/exportieren;X;CT1:X \ Digitale Signaturen \ PKI \ Schlüssel anzeigen \ exportieren…;4) Digitale Signatur/PKI
-CT1:de:static:50;Schlüssel erzeugen/importieren;X;CT1:X \ Digitale Signaturen \ PKI \ Schlüssel erzeugen \ importieren…;4) Digitale Signatur/PKI
-CT1:de:static:51;Signatur überprüfen;X;CT1:X \ Digitale Signaturen \ PKI \ Signatur überprüfen…;4) Digitale Signatur/PKI
-CT1:de:static:52;Signatur extrahieren;X;CT1:X \ Digitale Signaturen \ PKI \ Signatur extrahieren…;4) Digitale Signatur/PKI
+CT1:de:static:46;DSA;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ DSA;4) Digitale Signatur, PKI
+CT1:de:static:47;ECDSA;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ ECSP-DSA;4) Digitale Signatur, PKI
+CT1:de:static:48;ECNR;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ ECSP-NR;4) Digitale Signatur, PKI
+CT1:de:static:49;Schlüssel anzeigen/exportieren;X;CT1:X \ Digitale Signaturen \ PKI \ Schlüssel anzeigen \ exportieren…;4) Digitale Signatur, PKI
+CT1:de:static:50;Schlüssel erzeugen/importieren;X;CT1:X \ Digitale Signaturen \ PKI \ Schlüssel erzeugen \ importieren…;4) Digitale Signatur, PKI
+CT1:de:static:51;Signatur überprüfen;X;CT1:X \ Digitale Signaturen \ PKI \ Signatur überprüfen…;4) Digitale Signatur, PKI
+CT1:de:static:52;Signatur extrahieren;X;CT1:X \ Digitale Signaturen \ PKI \ Signatur extrahieren…;4) Digitale Signatur, PKI
 CT1:de:static:53;Inverser Kongruenz-Generator (IKG) (PRNG);X;CT1:X \ Einzelverfahren \ Tools \ Zufallsdaten erzeugen…;5) Zufallszahlen-Generatoren
 CT1:de:static:54;Linearer Kongruenz-Generator (LKG) (PRNG);X;CT1:X \ Einzelverfahren \ Tools \ Zufallsdaten erzeugen…;5) Zufallszahlen-Generatoren
 CT1:de:static:55;X^2 (mod N) Zufallsgenerator (PRNG);X;CT1:X \ Einzelverfahren \ Tools \ Zufallsdaten erzeugen…;5) Zufallszahlen-Generatoren
