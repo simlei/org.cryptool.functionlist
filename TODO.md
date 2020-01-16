@@ -35,16 +35,6 @@ c) Misc
 
 #### Fragen
 
-- Eigennamen + "Cipher" etc, oder ohne suffix?
-- SHA-1, -2, T-151(?) v1 v2 etc, SHA 256, CRC-...? oder zusammen fassen (große Cluster...)
-
-- "MD5 Collisions" vs. standard alternatives (attack, analysis, ...)
-
-- "Applications" -- 
-    - Watermark creator?
-
-- PKCS1 Attack - früher (Kühn), (Bleichenbacher) unterteilt
-
 **Lattice**
 
 ++++ Lattice-Based Attacks - Merkle-Hellman
@@ -63,6 +53,55 @@ CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem 
 CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ LLL algorithm
 
 
+** Misc **
+
+- Eigennamen + "Cipher" etc, oder ohne suffix?
+- SHA-1, -2, T-151(?) v1 v2 etc, SHA 256, CRC-...? oder zusammen fassen (große Cluster...)
+
+- "MD5 Collisions" vs. standard alternatives (attack, analysis, ...)
+
+- "Applications" --> 
+    - Watermark creator?
+
+- PKCS1 Attack - früher (Kühn), (Bleichenbacher) unterteilt
+
+- Prime Number -> Prime number
+    Tutorial (nur der Ober-Menüpunkt "world of primes")
+    Test
+    Distribution
+
+- Gemischte Einordnung: habe es erst mal unter "QR" getan
+CT2:dynamic:7bf9e18a;QR code;CT2:T \ Codes \ QR Code Encryption
+CT2:dynamic:bb7249d8;<enter value here>;CT2:T \ Codes \ RSA signed QR code
+
+- Transposition double / single column zusammenfassen?
+
+- bisherige unklare unterscheidung zw. Analyse und Visualisierung:
+
+    bisher (in Visualisierung eingeordnet):
+
+    ```
+    CT2:en:static:37;Avalanche Visualization;CT2:C;CT2:C\ Tools\ Misc\ Avalanche Visualization;10) Learning Aids and Visualizations
+    CT2:en:static:38;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (AES);10) Learning Aids and Visualizations
+    CT2:en:static:39;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (classic ciphers);10) Learning Aids and Visualizations
+    CT2:en:static:40;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (compare classic ciphers);10) Learning Aids and Visualizations
+    CT2:en:static:41;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (DES);10) Learning Aids and Visualizations
+    CT2:en:static:42;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (hash functions);10) Learning Aids and Visualizations
+    CT2:en:static:43;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (modern ciphers);10) Learning Aids and Visualizations
+    ```
+    doch besser Analyse?
+
+    auch: "Avalanche Effect" stattdessen? (gerade so umgesetzt)
+
+- automatic mode != tutorial?
+CT2:dynamic:efd62fe7;Differential cryptanalysis Tutorial;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3
+CT2:dynamic:8551f5f9;Differential cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3 (automatic mode)
+
+- Oberbegriffe "T310 / 50" mit "T310" zusammen?
+
+- Oberbegriffe Paillier vs Paillier Cryptosystem
+
+- Oberbegriffe "Factorization with GNFS" vs "Factorization of a number"
 
 ### Functionality groups
 

@@ -181,14 +181,14 @@ JCT:dynamic:b99b634b;Merkle;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSw
 JCT:dynamic:6c15d97b;Merkle;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA1
 JCT:dynamic:ae896da6;Merkle;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA256
 JCT:dynamic:9044ba69;ADFGX / ADFGVX;JCT:D \ Algorithms \ Classic \ ADFGVX
-JCT:dynamic:2e6d9628;Vigenère;JCT:D \ Algorithms \ Classic \ Autokey-Vigenère
+JCT:dynamic:2e6d9628;Vigenère cipher;JCT:D \ Algorithms \ Classic \ Autokey-Vigenère
 JCT:dynamic:ff4749b9;Caesar;JCT:D \ Algorithms \ Classic \ Caesar
 JCT:dynamic:37fe2735;Bifid;JCT:D \ Algorithms \ Classic \ Bifid
 JCT:dynamic:5361903c;Double box;JCT:D \ Algorithms \ Classic \ Double Box
-JCT:dynamic:b31ebcd4;Playfair;JCT:D \ Algorithms \ Classic \ Playfair
+JCT:dynamic:b31ebcd4;Playfair cipher;JCT:D \ Algorithms \ Classic \ Playfair
 JCT:dynamic:64c996d9;Substitution;JCT:D \ Algorithms \ Classic \ Substitution
 JCT:dynamic:a4c58e1b;Transposition;JCT:D \ Algorithms \ Classic \ Transposition
-JCT:dynamic:f1fbbc32;Vigenère;JCT:D \ Algorithms \ Classic \ Vigenère
+JCT:dynamic:f1fbbc32;Vigenère cipher;JCT:D \ Algorithms \ Classic \ Vigenère
 JCT:dynamic:98070cdb;XOR;JCT:D \ Algorithms \ Classic \ XOR
 JCT:dynamic:be21c2db;MD5;JCT:D \ Algorithms \ Hash \ MD5
 JCT:dynamic:fa5faa16;AES;JCT:D \ Algorithms \ Symmetric \ AES
