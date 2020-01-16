@@ -2,6 +2,14 @@
 
 s. ./doc/TODO-func-group-maps.md
 
+### Categories
+
+```
+CT2:dynamic:b03e2260;<enter value here>;CT2:K \ Kryptoanalyse \ Generisch \ CryptAnalysisEvaluator
+CT2:dynamic:9cd98f7e;<enter value here>;CT2:K \ Kryptoanalyse \ Generisch \ EvaluationContainerInput
+CT2:dynamic:a44d2f22;<enter value here>;CT2:K \ Kryptoanalyse \ Generisch \ TestVectorGenerator
+```
+
 ### Functionality groups
 
 ADFGVX -> ADFGX / ADFGVX
