@@ -1,6 +1,6 @@
 # Misc
 
-see also doc/TODO-functionalities.md
+s. ./doc/TODO-func-group-maps.md
 
 ### Functionality groups
 
