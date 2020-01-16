@@ -1,0 +1,391 @@
+RSA
+AES
+Cost Function
+HMACs
+DES
+PKCS#5
+Visual Code
+CBC MACs
+Serpent
+Key Searcher
+Prime Number Test
+SHA
+Transposition Analysis
+CMSS
+Factorization of a Number
+Generation of Prime Numbers
+MD5
+Vigenère Analysis
+XOR
+BB84 Key Exchange
+Frequency Test
+Substitution
+Vigenère
+Oblivious Transfer Protocol
+Yao's Millionaire Problem
+Avalanche Visualization
+Fialka
+Paillier Cryptosystem
+Password Quality Visualization
+RIPEMD-160
+Scytale
+Simplified DES
+ECDSA
+ADFGVX
+Caesar
+Dictionary Search
+Enigma
+Huffman
+Number Theory
+Playfair
+RC2
+Rot-13
+Zero Knowledge Protocol
+Caesar Analysis
+Camellia
+Transposition (Single Column)
+Twofish
+Virtual Smartcard
+GMSS
+Hash Value of a File
+IDEA
+Two-Track MAC
+AES Brute-Force Attack
+Bit Commitment Scheme
+BLAKE
+Boolean Operator
+Coin Flipping Protocol
+Cramer-Shoup
+DES Brute-Force Attack
+Friedman Test
+Grøstl
+Hamming Distance
+Hill
+Insertion Steganography
+Least Significant Bit (LSB)
+M-138 Analyzer
+Morse Code
+Prime Distribution
+Prime Number Tutorial
+RC4
+SHA-3 (Keccak) (PRNG)
+Solitaire Analysis
+Watermark Creator
+Cipher-Based MACs (CMAC)
+Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization
+Merkle OTS
+Shamir's Secret Sharing Visualization
+3DES
+3DES Brute-Force Attack
+AES Visualization
+Autocorrelation
+Base 64 Decode
+Base 64 Encode
+Decimalization
+DES Visualization
+Enigma Attacker
+Entropy
+Homomorphic Encryption Visualization
+ImageHash
+LFSR
+M209
+Nihilist
+Padding Oracle
+Padding Oracle Attack against AES
+Permutation Steganography
+PRESENT
+RSA Attacks
+SAT Solver
+SDES Brute-Force Attack
+SHA-1
+SHA-256
+SHA-512
+Solitaire
+TEA
+Tiger
+Transcriptor Analysis
+Transposition (Double Column)
+Wired Equivalent Privacy (WEP)
+Word Pattern Analysis
+Digital Signatures Visualization
+Number Shark
+RSA Visualization
+Substitution Analysis
+Achterbahn
+Alphabet Permutator
+ASCII
+BB84 Key Exchange with Eavesdropping Attack
+Berlekamp-Massey Algorithm
+CRC-1/Partiy
+CRC-10
+CRC-11
+CRC-12/3GPP
+CRC-12/DECT
+CRC-14/DARC
+CRC-15
+CRC-15/MPT1327
+CRC-16
+CRC-16/AUG-CCITT
+CRC-16/BUYPASS
+CRC-16/CCITT-FALSE
+CRC-16/DDS-110
+CRC-16/DECT-R
+CRC-16/DECT-X
+CRC-16/DNP
+CRC-16/EN-13757
+CRC-16/GENIBUS
+CRC-16/IBM-SDLC
+CRC-16/MAXIM
+CRC-16/MCRF4XX
+CRC-16/RIELLO
+CRC-16/T10-DIF
+CRC-16/TELEDISK
+CRC-16/TMS37157
+CRC-16/USB
+CRC-24/FLEXRAY-A
+CRC-24/FLEXRAY-B
+CRC-24/OPENPGP
+CRC-3/ROHC
+CRC-31/PHILIPS
+CRC-32
+CRC-32/BZIP2
+CRC-32/MPEG-2
+CRC-32/POSIX
+CRC-32C
+CRC-32D
+CRC-32Q
+CRC-4/ITU
+CRC-40/GSM
+CRC-5/EPC
+CRC-5/ITU
+CRC-5/USB
+CRC-6/DARC
+CRC-6/ITU
+CRC-64
+CRC-64/1B
+CRC-64/Jones
+CRC-64/WE
+CRC-7
+CRC-7/ROHC
+CRC-8
+CRC-8/CCITT
+CRC-8/DARC
+CRC-8/EBU
+CRC-8/I-CODE
+CRC-8/ITU
+CRC-8/J1850
+CRC-8/MAXIM
+CRC-8/ROHC
+CRC-8/WCDMA
+CRC-A
+Cube Attack
+Dining Cryptographers Protocol
+Discrete Logarithm
+Dynamic Group Keying (DGK)
+Enigma Visualization
+General Number Field Sieve (GNFS)
+Grain v1
+HC128
+IDP Analyzer
+JAMCRC
+KERMIT
+Lattice-Based Attacks - Merkle-Hellman
+M-138
+MD5 Collisions
+Mickey 2
+MODBUS
+Monoalphabetic Substitution
+Navajo
+NLFSR
+Padding Oracle Attack against DES
+Purple
+Quadratic Sieve (QS)
+Rabbit
+RC2 Brute-Force Attack
+Rijndael
+Salsa20
+Scytale Analysis
+SHA-3 Candidates
+SHA-384
+Sosemanuk
+Spanish Strip Cipher
+String Operations
+T-310\50
+Vernam
+WEP Attack
+Whirlpool
+XFER
+XMODEM
+Autokey Vigenère
+Bifid
+Chinese Remainder Theorem Visualization
+DSA
+ECNR
+Elliptic Curve Calculations Visualization
+Enhanced RSA Crypto System (identities‚ multi-prime)
+Hash Algorithms Visualization
+IQDSA
+IQGQ
+IQRDSA
+MARS
+MD4
+MeRSA
+MpRSA
+RC6
+Homophone
+N-Gram Analysis
+Rail Fence
+Authentication Methods in Networks Visualization
+Secure Email (S/MIME) Visualization
+Alphabets
+Boolean Function Parser
+Clock
+Cyphermatrix (Experimental Cipher)
+Heartbleed analysis
+HIGHT
+Kasiski Test
+Lattice-Based Attacks - RSA
+Lattice-Based Cryptosystems - GGH
+Lattice-Based Cryptosystems - LWE
+Lattice-Based Problems - Closest Vector Problem (CVP)
+Lattice-Based Problems - Shortest Vector Problem (SVP) - Gauss
+Lattice-Based Problems - Shortest Vector Problem (SVP) - LLL
+Lorenz SZ42
+Network Receiver
+Network Sender
+Password Store Using Salted SHA-1
+Password Verification Using Salted SHA-1
+PKCS#1 Attack (Bleichenbacher) Visualization
+PKCS#1 Attack (Kuehn) Visualization
+PRESENT Visualization
+SHA-3 (Keccak)
+SHA-3 (Keccak) Streamcipher
+Stream Comparison
+Trivium
+Visual Decoder
+Visual Encoder
+Android Unlock Pattern (AUP) Visualization
+Ant Colony Optimization Visualization
+Blum Blum Shub (B.B.S.) (PRNG)
+Certificate Verification
+DHA256
+Differential Power Analysis Visualization
+Divider Game
+Double Box
+Dragon
+ECIES
+ElGamal
+ElGamal Visualization
+Elliptic Curve (PRNG)
+Extended Euclidian plus the method of mutual "exhaustion" (anthyphairesis = continually subtract the smaller from the larger) Visualization
+Feige Fiat Shamir Visualization
+Fiat Shamir Visualization
+FORK-256
+Graph Isomorphism Visualization
+Grille Visualization
+Inner States of the DES Visualization
+Kleptography Visualization
+Magic Door Visualization
+McEliece Fujisaki
+McEliece Kobara Imai
+McEliece PKCS
+McEliece Pointcheval
+Merkle Signature Scheme (MSS, XMSS, XMSS_XT)
+Misty-1 (Kasumi)
+Multipartite Key Exchange Visualization
+Niederreiter
+Niederreiter CFS
+Public-Key Infrastructure
+RC4 / Spritz
+RC5
+RSASSA-PSS
+SAFER+
+SAFER++
+SHA with DSA
+SHA-1 (PRNG)
+Shacal
+Shacal2
+Signatur Verification
+Simple Power Analysis Visualization
+Solving Discrete Logarithm with Babystep-Giantstep
+SSL (MD5 and SHA1 with RSA)
+SSL/TLS Handshake
+Sudoku Solver
+Verifiable Secret Sharing (VSS) Visualization
+Viterbi Analysis
+Viterbi Visualization
+VSH
+WOTS/WOTS+
+XML Security
+Zudo-Ku (Zero-Knowledge Proof)
+ADFGV
+Affine Cipher
+Alberti
+AMSCO
+Autokey Analysis
+Bacon
+Barcode Generator
+Beaufort
+Code 39
+Distributed AES Analysis
+Four Square
+Freemason
+Gronsfeld
+Kamasutra
+Larrabee
+Password Generator
+Pollux
+Polybius
+Porta
+Rotation
+Templar
+Trithemius
+ADFGVX Analysis
+ASN.1
+Atbash
+Byte Addition
+Byte Addition Analysis
+Caesar Visualization
+DESL
+DESL Brute-Force Attack
+DESX
+DESX Brute-Force Attack
+DESXL
+DESXL Brute-Force Attack
+Display/Export Keys
+ECC-AES
+Extract Signature
+FIPS PUB-140-1
+Generate/Import Keys
+Hash Collisions
+Hill Analysis
+Histogram
+IDEA Brute-Force Attack
+Inverse Congruence Generator (ICG) (PRNG)
+Key Generation from Password (PKCS#5)
+Length of a number
+Linear Congruence Generator (LCG) (PRNG)
+MARS Brute-Force Attack
+MD2
+Nihilist Visualization
+Periodicity Analysis
+Playfair Analysis
+Poker Test
+Randomness Visualization
+RC4 Brute-Force Attack
+RC6 Brute-Force Attack
+RSA-AES
+Runs Test
+Secude Library Random Number Generator
+Serial Test
+Serpent Brute-Force Attack
+Twofish Brute-Force Attack
+Unzip
+UU Decode
+UU Encode
+Verify Signature
+Vernam Analysis
+Vigenère Visualization
+Vitányi Analysis
+X^2 (mod N) (PRNG)
+Zip

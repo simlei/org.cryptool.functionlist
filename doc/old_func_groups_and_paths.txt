@@ -1,0 +1,1878 @@
+++++ RSA
+CT2:C \ Modern Ciphers \ Asymmetric \ RSA
+CT2:T \ Codes \ RSA signed QR code
+CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
+CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Decryption
+CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Encryption
+CT2:T \ Protocols \ Yao's Millionaire Problem
+CT2:W \ Cryptanalysis \ Modern Encryption \ Asymmetric Encryption \ RSA
+CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Decryption
+CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Encryption
+CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
+CT2:T \ Codes \ RSA signed QR code
+CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
+CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Key Generator
+CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:T \ Protocols \ Yao's Millionaire Problem
+JCT:A \ Asymmetric Block Ciphers \ RSA Modern Ciphers
+JCT:A \ Asymmetric Block Ciphers \ RbRSA Modern Ciphers
+JCT:A \ Asymmetric Block Ciphers \ RprimeRSA
+JCT:A \ Signatures \ MD5 \ RSA \ RAW
+JCT:A \ Signatures \ MD5withRSA Digital Signatures, PKI
+JCT:A \ Signatures \ RIPEMD160 \ RSA Digital Signatures, PKI
+JCT:A \ Signatures \ RIPEMD160 \ RSA \ RAW
+JCT:A \ Signatures \ SHA1 \ RSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA1 \ RSA \ RAW
+JCT:A \ Signatures \ SHA224 \ RSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA224 \ RSA \ RAW
+JCT:A \ Signatures \ SHA256 \ RSA \ RAW
+JCT:A \ Signatures \ SHA256withRSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA384 \ RSA \ RAW
+JCT:A \ Signatures \ SHA384withRSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA512 \ RSA \ RAW
+JCT:A \ Signatures \ SHA512withRSA Digital Signatures, PKI
+JCT:A \ Signatures \ RbRSA Digital Signatures, PKI
+JCT:A \ Signatures \ RprimeRSA
+CT1:X \ Encrypt \ Decrypt \ Asymmetric \ RSA 
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ 
+
+++++ AES
+CT2:C \ Modern Ciphers \ Symmetric \ AES
+CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
+CT2:T \ Codes \ QR Code Encryption
+CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
+CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
+CT2:T \ Cryptanalysis \ Modern \ CBC-Attack
+CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2)
+CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
+CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher (File Input)
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher (Text Input)
+JCT:D \ Block Ciphers \ Rijndael \ AES128_CBC Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES128_CFB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES128_ECB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES128_OFB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES192_CBC Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES192_CFB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES192_ECB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES192_OFB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES256_CBC Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES256_ECB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB Modern Ciphers
+JCT:D \ Block Ciphers \ Rijndael \ AES256_CFB Modern Ciphers
+CTO:X \ Highlights \ AES
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ AES (CBC)...
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ AES (self extracting)…
+
+++++ Cost Function
+CT2:C \ Cryptanalysis \ Generic \ Cost Function
+CT2:T \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis
+CT2:T \ Cryptanalysis \ Classical \ Transposition Crib Analysis
+CT2:T \ Cryptanalysis \ Classical \ Transposition Genetic Analysis
+CT2:T \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis
+CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
+CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
+CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
+CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2)
+CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
+CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
+CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
+
+++++ HMACs
+CT2:C \ Protocols \ HMAC
+CT2:T \ Hash Functions \ HMAC
+JCT:A \ Message Authentication Codes \ Hmac Hash and MAC Algorithms
+JCT:A \ Message Authentication Codes \ HmacDHA256
+JCT:A \ Message Authentication Codes \ HmacFORK256
+JCT:A \ Message Authentication Codes \ HmacMD4
+JCT:A \ Message Authentication Codes \ HmacMD5 Hash and MAC Algorithms
+JCT:A \ Message Authentication Codes \ HmacRIPEMD128
+JCT:A \ Message Authentication Codes \ HmacRIPEMD160 Hash and MAC Algorithms
+JCT:A \ Message Authentication Codes \ HmacRIPEMD256
+JCT:A \ Message Authentication Codes \ HmacRIPEMD320
+JCT:A \ Message Authentication Codes \ HmacSHA224
+JCT:A \ Message Authentication Codes \ HmacSHA256
+JCT:A \ Message Authentication Codes \ HmacSHA384
+JCT:A \ Message Authentication Codes \ HmacSHA512
+CT1:X \ Indiv. Procedures \ Hash \ Generation of HMACs…
+
+++++ DES
+CT2:C \ Modern Ciphers \ Symmetric \ DES
+CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
+CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
+CT2:T \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers
+CT2:T \ Cryptography \ Modern \ Symmetric \ DES Cipher
+CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
+CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
+CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ DES
+CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ DES \ Ciphertext-only
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ DES…
+
+++++ PKCS#5
+CT2:C \ Hash functions \ PKCS#5
+CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
+CT2:T \ Codes \ QR Code Encryption
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
+CT2:T \ Tools \ Simple Video and Audio Chat using AES encryption
+CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
+JCT:A \ Password-Based Ciphers \ PBES2 Hash and MAC Algorithms
+JCT:A \ Password-Based Ciphers \ PbeWithMD5AndDES_CBC Hash and MAC Algorithms
+JCT:A \ Password-Based Ciphers \ PbeWithSHA1AndDES_CBC Hash and MAC Algorithms
+JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd3_KeyTripleDES_CBC Hash and MAC Algorithms
+JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd40BitRC2_CBC Hash and MAC Algorithms
+
+++++ Visual Code
+CT2:C \ Tools \ Misc \ Visual Decoder
+CT2:C \ Tools \ Misc \ Visual Encoder
+CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
+CT2:T \ Codes \ Create QR Code
+CT2:T \ Codes \ QR Code Encryption
+CT2:T \ Codes \ RSA signed QR code
+CT2:T \ Codes \ VCard
+CT2:T \ Codes \ Decode QR code file
+CT2:T \ Codes \ QR Code Encryption
+CT2:T \ Codes \ RSA signed QR code
+CT2:T \ Codes \ Simple detection of optical codes
+CT2:W \ Codes \ Create visual code
+CT2:W \ Codes \ Decode visual code
+
+++++ CBC MACs
+JCT:A \ Message Authentication Codes \ CBCmacAES128
+JCT:A \ Message Authentication Codes \ CBCmacAES192
+JCT:A \ Message Authentication Codes \ CBCmacAES256
+JCT:A \ Message Authentication Codes \ CBCmacCamellia
+JCT:A \ Message Authentication Codes \ CBCmacDESede
+JCT:A \ Message Authentication Codes \ CBCmacIDEA
+JCT:A \ Message Authentication Codes \ CBCmacMARS
+JCT:A \ Message Authentication Codes \ CBCmacMisty1
+JCT:A \ Message Authentication Codes \ CBCmacRC2
+JCT:A \ Message Authentication Codes \ CBCmacRC5
+JCT:A \ Message Authentication Codes \ CBCmacRC6
+JCT:A \ Message Authentication Codes \ CBCmacSAFER+
+JCT:A \ Message Authentication Codes \ 
+
+++++ Serpent
+JCT:A \ Block Ciphers \ Serpent128_CBC Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent128_CFB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent128_ECB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent128_OFB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent192_CBC Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent192_CFB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent192_ECB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent192_OFB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent256_CBC Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent256_CFB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent256_ECB Modern Ciphers
+JCT:A \ Block Ciphers \ Serpent256_OFB Modern Ciphers
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ Serpent…
+
+++++ Key Searcher
+CT2:C \ Cryptanalysis \ Specific \ Key Searcher
+CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
+CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
+CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
+CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2)
+CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
+CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
+CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
+
+++++ Prime Number Test
+CT2:C \ Cryptanalysis \ Generic \ Prime Test
+CT2:T \ Mathematics \ Primes Test
+CT2:W \ Start \ Mathematical Functions \ Prime Operations \ Prime Number Test
+CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Sieve of Erastosthenes
+CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Miller-Rabin test
+CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Sieve of Atkin
+CT2:W \ Mathematical Functions \ Prime Factorization
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ Miller-Rabin Test
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ Fermat Test
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ Solovay-Strassen test
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… \ AKS test (deterministic procedure)
+
+++++ SHA
+CT2:C \ Hash functions \ SHA
+CT2:T \ Hash Functions \ SHA-1 Collision
+CT2:T \ Hash Functions \ SHA-1
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
+CT2:T \ Hash Functions \ Dictionary Attack
+CT2:T \ Hash Functions \ PBKDF-1 (PKCS#5 2.0)
+CT2:T \ Protocols \ Coin Flipping Protocol
+CT2:T \ Hash Functions \ SHA-256
+CT2:T \ Tools \ Password Generator
+CT2:T \ Tools \ Simple AES Chat
+JCT:D \ Algorithms \ Hash \ SHA
+
+++++ Transposition Analysis
+CT2:C \ Cryptanalysis \ Specific \ Transposition Analyzer
+CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
+CT2:T \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis
+CT2:T \ Cryptanalysis \ Classical \ Transposition Crib Analysis
+CT2:T \ Cryptanalysis \ Classical \ Transposition Genetic Analysis
+CT2:T \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis
+CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Brute-force
+CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Crib
+CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Genetic
+JCT:D \ Analysis \ Transposition Analysis
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Known Plaintext \ Single Column Transposition…
+
+++++ CMSS
+JCT:A \ Signatures \ CMSS Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_1 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_2 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_3 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA1andWinternitzOTS_4 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_1 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_3 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA256andWinternitzOTS_4 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_1 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_2 Digital Signatures, PKI
+JCT:A \ Signatures \ CMSSwithSHA384andWinternitzOTS_3 Digital Signatures, PKI
+
+++++ Factorization of a Number
+CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve
+CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force
+CT2:C \ Cryptanalysis \ Generic \ Factorizer
+CT2:T \ Mathematics \ Factorization with Trial Division (brute-force)
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brute-force
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Brent
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Pollard
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Williams
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Lenstra
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number… \ Quadratic Sieve
+
+++++ Generation of Prime Numbers
+CT2:C \ Tools \ Data input \ output \ Prime Generator
+CT2:T \ Codes \ QR Code Encryption
+CT2:T \ Mathematics \ Primes Generator
+CT2:T \ Protocols \ Diffie-Hellman Key-Exchange over network
+CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
+CT2:W \ Mathematical Functions \ Prime Operations \ Prime Number Generation
+CT2:N \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Miller-Rabin Test
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Solovay-Strassen Test
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ FermatTest
+
+++++ MD5
+CT2:C \ Hash functions \ MD5
+CT2:T \ Codes \ RSA signed QR code
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
+CT2:T \ Hash Functions \ HMAC
+CT2:T \ Hash Functions \ MD5
+CT2:T \ Hash Functions \ MD5 Collision Finder
+CT2:T \ Hash Functions \ MD5 Salted Hash Comparison
+CT2:W \ Cryptanalysis \ Modern Encryption \ Hash Functions \ MD5
+JCT:D \ Message Digests \ MD5 Hash and MAC Algorithms
+CT1:X \ Indiv. Procedures \ Hash \ MD5
+
+++++ Vigenère Analysis
+CT2:C \ Cryptanalysis \ Specific \ Vigenère Analyzer
+CT2:T \ Cryptanalysis \ Classical \ Kryptos K1 Analysis
+CT2:T \ Cryptanalysis \ Classical \ Kryptos K2 Analysis
+CT2:W \ Cryptanalysis \ Classic Encryption \ Vigenère
+CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+CT2:T \ Cryptanalysis \ Classical \ Vigenère Analysis
+JCT:D \ Analysis \ Vigenère Breaker
+CTO:X \ Cryptanalysis \ Break Vigenère
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Vigenère
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Vigenère (Analysis according to Schroedel)…
+
+++++ XOR
+CT2:C \ Classic Ciphers \ XOR
+CT2:T \ Cryptography \ Classical \ One Time Pad Demo
+CT2:T \ Cryptography \ Classical \ One Time Pad Misusage
+CT2:T \ Cryptography \ Classical \ XOR Cipher
+CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
+CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
+CT2:T \ Hash Functions \ HMAC
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ XOR
+JCT:D \ Algorithms \ Classic \ XOR
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ XOR…
+
+++++ BB84 Key Exchange
+CT2:T \ Protocols \ BB84 Key Exchange
+CT2:C \ Protocols \ BB84 Error Detector
+CT2:C \ Protocols \ BB84 Key Generator
+CT2:C \ Protocols \ BB84 Man in the Middle
+CT2:C \ Protocols \ BB84 Photon Decoder
+CT2:C \ Protocols \ BB84 Photon Encoder
+CT2:C \ Protocols \ BB84 Photonbase Generator
+CT2:T \ Protocols \ BB84 Key Exchange
+CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
+
+++++ Frequency Test
+CT2:C \ Cryptanalysis \ Generic \ Frequency Test
+CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
+CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
+CT2:T \ Cryptanalysis \ Classical \ Frequency Analysis
+CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+JCT:D \ Analysis \ Frequency Analysis
+CTO:X \ Cryptanalysis \ Frequency Analysis
+CT1:X \ Analysis \ Analyze Randomness \ Frequency Test...
+CT1:X \ Analysis \ Tools for Analysis \ Floating Frequency
+
+++++ Substitution
+CT2:C \ Classic Ciphers \ Substitution
+CT2:T \ Cryptography \ Classical \ Navajo Code
+CT2:T \ Cryptography \ Classical \ Substitution Cipher
+CT2:T \ Cryptography \ Classical \ Substitution Cipher using a password
+CT2:T \ Tools \ Split a text
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Substitution
+JCT:D \ Algorithms \ Classic \ Substitution
+CTO:X \ Ciphers \ Monoalphabetic Substitution
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Substitution \ Atbash…
+
+++++ Vigenère
+CT2:C \ Classic Ciphers \ Vigenère
+CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+CT2:T \ Cryptanalysis \ Classical \ Vigenère Analysis
+CT2:T \ Cryptography \ Classical \ Vigenère Cipher
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Vigenère
+CT2:W \ Cryptanalysis \ Classic Encryption \ Vigenère
+JCT:D \ Algorithms \ Classic \ Vigenère
+CTO:X \ Ciphers \ Vigenère
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Vigenère…
+
+++++ Oblivious Transfer Protocol
+CT2:C \ Protocols \ Oblivious Transfer 1
+CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:C \ Protocols \ Oblivious Transfer 2
+CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:C \ Protocols \ Oblivious Transfer 1
+CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:C \ Protocols \ Oblivious Transfer 2
+CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+
+++++ Yao's Millionaire Problem
+CT2:C \ Protocols \ Yao 1
+CT2:C \ Protocols \ Yao 2
+CT2:C \ Protocols \ Yao 3
+CT2:T \ Protocols \ Yao's Millionaire Problem
+CT2:C \ Protocols \ Yao 1
+CT2:C \ Protocols \ Yao 2
+CT2:C \ Protocols \ Yao 3
+CT2:T \ Protocols \ Yao's Millionaire Problem
+
+++++ Avalanche Visualization
+CT2:C \ Tools \ Misc \ Avalanche Visualization
+CT2:T \ Cryptanalysis \ Modern \ Avalanche (AES)
+CT2:T \ Cryptanalysis \ Modern \ Avalanche (classic ciphers)
+CT2:T \ Cryptanalysis \ Modern \ Avalanche (compare classic ciphers)
+CT2:T \ Cryptanalysis \ Modern \ Avalanche (DES)
+CT2:T \ Cryptanalysis \ Modern \ Avalanche (hash functions)
+CT2:T \ Cryptanalysis \ Modern \ Avalanche (modern ciphers)
+
+++++ Fialka
+CT2:C \ Classic Ciphers \ Fialka
+CT2:T \ Cryptography \ Classical \ Fialka ED Check
+CT2:T \ Cryptography \ Classical \ Fialka ED Mixed Mode Check
+CT2:T \ Cryptography \ Classical \ Fialka ED NumLock10 Check
+CT2:T \ Cryptography \ Classical \ Fialka Key Output
+CT2:T \ Cryptography \ Classical \ Fialka M-125-3 PROTON II
+CT2:T \ Cryptography \ Classical \ Fialka M-125 PROTON I
+
+++++ Paillier Cryptosystem
+CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting)
+
+++++ Password Quality Visualization
+CT2:C \ Tools \ Misc \ PasswordStrength
+CT2:T \ Tools \ Password Generator
+CT2:T \ Tools \ Check Password Strength
+CT2:W \ Tools \ Password Strength
+CTO:X \ Highlights \ Password Check
+CT1:X \ Indiv. Procedures \ Tools \ Password Quality Meter...
+CT1:X \ Indiv. Procedures \ Tools \ Password Entropy...
+
+++++ RIPEMD-160
+CT2:C \ Hash functions \ RIPEMD160
+CT2:T \ Hash Functions \ RIPEMD160
+JCT:A \ Message Digests \ RIPEMD128 Hash and MAC Algorithms
+JCT:A \ Message Digests \ RIPEMD160 Hash and MAC Algorithms
+JCT:A \ Message Digests \ RIPEMD256 Hash and MAC Algorithms
+JCT:A \ Message Digests \ RIPEMD320
+CT1:X \ Indiv. Procedures \ Hash \ RIPEMD-160
+
+++++ Scytale
+CT2:C \ Classic Ciphers \ Scytale
+CT2:T \ Cryptanalysis \ Classical \ Scytale Brute-force Analysis
+CT2:T \ Cryptography \ Classical \ Scytale Cipher
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Scytale
+CT2:W \ Cryptanalysis \ Classic Encryption \ Scytale
+CTO:X \ Ciphers \ Scytale
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Scytale \ Rail Fence…
+
+++++ Simplified DES
+CT2:C \ Modern Ciphers \ Symmetric \ SDES
+CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
+CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
+CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
+CT2:T \ Cryptography \ Modern \ Symmetric \ SDES Cipher
+CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ SDES
+CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES \ Ciphertext-only
+
+++++ ECDSA
+JCT:A \ Signatures \ RawECDSA
+JCT:A \ Signatures \ SHA1 \ ECDSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA224 \ ECDSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA256 \ ECDSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA384 \ ECDSA Digital Signatures, PKI
+JCT:A \ Signatures \ SHA512 \ ECDSA Digital Signatures, PKI
+CT1:X \ Digital Signatures, PKI \ Sign Document... \ ECSP-DSA
+
+++++ ADFGVX
+CT2:C \ Classic Ciphers \ ADFGVX
+CT2:T \ Cryptanalysis \ Classical \ ADFGVX Cipher dictionary attack
+CT2:T \ Cryptography \ Classical \ ADFGVX Cipher
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ ADFGVX
+JCT:D \ Algorithms \ Classic \ ADFGVX
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ ADFGVX…
+
+++++ Caesar
+CT2:C \ Classic Ciphers \ Caesar
+CT2:T \ Cryptography \ Classical \ Caesar Cipher
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Caesar
+JCT:D \ Algorithms \ Classic \ Caesar
+CTO:X \ Ciphers \ Caesar \ Rot-13
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Caesar \ Rot-13…
+
+++++ Dictionary Search
+CT2:C \ Tools \ Data input \ output \ Dictionary
+CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
+CT2:T \ Cryptanalysis \ Classical \ Scytale Brute-force Analysis
+CT2:T \ Cryptanalysis \ Classical \ Solitaire Brute-force Analysis
+CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis
+CT2:T \ Hash Functions \ Dictionary Attack
+
+++++ Enigma
+CT2:C \ Classic Ciphers \ Enigma
+CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
+CT2:T \ Cryptography \ Classical \ Enigma Cipher Machine
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Enigma
+CT2:W \ Cryptanalysis \ Classic Encryption \ Enigma
+CTO:X \ Ciphers \ Enigma
+
+++++ Huffman
+CT2:C \ Tools \ Misc \ Huffman
+CT2:T \ Tools \ Huffman's algorithm (ASCII)
+CT2:T \ Tools \ Huffman's algorithm (BMG, JPG)
+CT2:T \ Tools \ Huffman's algorithm (UTF-8)
+JCT:D \ Visualizations \ Huffman Coding
+CTO:X \ Codings \ Huffman
+
+++++ Number Theory
+CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture
+CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering
+CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions
+CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots
+CT1:X \ Indiv. Procedures \ Number Theory - Interactive \ 
+CT1:X \ Indiv. Procedures \ Number Theory - Interactive \ Generic t-adic-NAF Key Generator
+
+++++ Playfair
+CT2:C \ Classic Ciphers \ Playfair
+CT2:T \ Cryptography \ Classical \ Playfair Cipher
+CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Playfair
+JCT:D \ Algorithms \ Classic \ Playfair
+CTO:X \ Ciphers \ Playfair
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Playfair…
+
+++++ RC2
+CT2:C \ Modern Ciphers \ Symmetric \ RC2
+CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:T \ Cryptography \ Modern \ Symmetric \ RC2 Cipher
+CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ RC2
+JCT:A \ Block Ciphers \ Block Ciphers \ RC2_CBC Modern Ciphers
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ RC2…
+
+++++ Rot-13
+CT2:C \ Classic Ciphers \ Caesar
+CT2:T \ Cryptography \ Classical \ CaesarCipher
+CT2:W \ Start \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Caesar
+JCT:D \ Algorithms \ Classic \ Caesar
+CTO:X \ Ciphers \ Caesar \ Rot-13
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Caesar \ Rot-13…
+
+++++ Zero Knowledge Protocol
+CT2:C \ Protocols \ Zero Knowledge Prover
+CT2:C \ Protocols \ Zero Knowledge Verifier
+CT2:T \ Protocols \ Zero Knowledge Protocol
+CT2:C \ Protocols \ Zero Knowledge Prover
+CT2:C \ Protocols \ Zero Knowledge Verifier
+CT2:T \ Protocols \ Zero Knowledge Protocol
+
+++++ Caesar Analysis
+CT2:C \ Cryptanalysis \ Specific \ Caesar Analyzer
+CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
+CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
+CT2:W \ Cryptanalysis \ Classic Encryption \ Caesar
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Caesar
+
+++++ Camellia
+CT2:C \ Modern Ciphers \ Symmetric \ Camellia
+CT2:T \ Cryptography \ Modern \ Symmetric \ Camellia Cipher
+JCT:A \ Block Ciphers \ Camellia128_CBC Modern Ciphers
+JCT:A \ Block Ciphers \ Camellia192_CBC Modern Ciphers
+JCT:A \ Block Ciphers \ Camellia256_CBC Modern Ciphers
+
+++++ Transposition (Single Column)
+CT2:C \ Classic Ciphers \ Transposition
+CT2:T \ Cryptography \ Classical \ Transposition Cipher
+JCT:D \ Algorithms \ Classic \ Transposition
+CTO:X \ Ciphers \ Transposition
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Permutation \ Transposition…
+
+++++ Twofish
+CT2:C \ Modern Ciphers \ Symmetric \ Twofish
+CT2:T \ Cryptography \ Modern \ Symmetric \ Twofish Cipher
+CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ Twofish
+JCT:A \ Block Ciphers \ Twofish
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ Twofish…
+
+++++ Virtual Smartcard
+CT2:C \ Protocols \ Smartcard
+CT2:T \ Protocols \ Communication with a SmartCard
+CT2:C \ Protocols \ Smartcard
+CT2:T \ Protocols \ Communication with a SmartCard
+CT2:C \ Protocols \ Smartcard Interpreter
+
+++++ GMSS
+JCT:A \ Signatures \ GMSSwithSHA1 Digital Signatures, PKI
+JCT:A \ Signatures \ GMSSwithSHA224 Digital Signatures, PKI
+JCT:A \ Signatures \ GMSSwithSHA256 Digital Signatures, PKI
+JCT:A \ Signatures \ GMSSwithSHA384 Digital Signatures, PKI
+JCT:A \ Signatures \ GMSSwithSHA512 Digital Signatures, PKI
+
+++++ Hash Value of a File
+Hash \ MD5
+Hash \ SHA
+Hash \ SHA3-Candidates
+Messages Digests \ 
+CT1:X \ Indiv. Procedures \ Hash \ Hash Value of a File…
+
+++++ IDEA
+JCT:D \ Block Ciphers \ IDEA_ECB Modern Ciphers
+JCT:D \ Block Ciphers \ IDEA_CBC Modern Ciphers
+JCT:D \ Block Ciphers \ IDEA_CFB Modern Ciphers
+JCT:D \ Block Ciphers \ IDEA_OFB Modern Ciphers
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ IDEA…
+
+++++ Two-Track MAC
+JCT:A \ Message Authentication Codes \ TTmac128
+JCT:A \ Message Authentication Codes \ TwoTrackMac160
+JCT:A \ Message Authentication Codes \ TwoTrackMac32
+JCT:A \ Message Authentication Codes \ TwoTrackMac64
+JCT:A \ Message Authentication Codes \ TwoTrackMac96
+
+++++ AES Brute-Force Attack
+CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:T \ Cryptanalysis \ Modern \ AES*
+CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES*
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ AES (CBC)…
+
+++++ Bit Commitment Scheme
+CT2:C \ Protocols \ Bit Commitment Scheme
+CT2:T \ Mathematics \ ISAP Bit Commitment Scheme
+CT2:C \ Protocols \ BitCommitmentScheme
+CT2:T \ Mathematics \ ISAP Bit Commitment Scheme
+
+++++ BLAKE
+CT2:C \ Hash functions \ BLAKE
+CT2:T \ Hash Functions \ BLAKE
+CT2:T \ Hash Functions \ Password storage using salted BLAKE-256
+CT2:T \ Hash Functions \ Password verification using salted BLAKE-256
+
+++++ Boolean Operator
+CT2:C \ Tools \ Boolean \ Boolean Binary Operator
+CT2:T \ Mathematics \ Booleans
+CT2:C \ Tools \ Boolean \ Boolean If-Else Operator
+CT2:C \ Tools \ Boolean \ Boolean Not Operator
+
+++++ Coin Flipping Protocol
+CT2:C \ Protocols \ Coin Flipping
+CT2:T \ Protocols \ Coin Flipping Protocol
+JCT:C \ Protocols \ Coin Flipping
+JCT:T \ Protocols \ Coin Flipping Protocol
+
+++++ Cramer-Shoup
+CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
+CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup Key Generator
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
+
+++++ DES Brute-Force Attack
+CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:T \ Cryptanalysis \ Modern \ DES*
+CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ DES*
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ DES…
+
+++++ Friedman Test
+CT2:C \ Cryptanalysis \ Generic \ Friedman Test
+CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
+CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+JCT:D \ Analysis \ Friedman Test
+
+++++ Grøstl
+CT2:C \ Hash functions \ Grøstl
+CT2:T \ Hash Functions \ Grøstl
+CT2:T \ Hash Functions \ Password storage using salted Grøstl-256
+CT2:T \ Hash Functions \ Password verification using salted Grøstl-256
+
+++++ Hamming Distance
+CT2:C \ Tools \ Misc \ HammingDistance
+CT2:T \ Hash Functions \ ImageHash
+CT2:T \ Hash Functions \ ImageHash -- smooth comparison
+CT2:T \ Mathematics \ Hamming Distance
+
+++++ Hill
+CT2:C \ Classic Ciphers \ Hill Cipher
+CT2:T \ Cryptography \ Classical \ Hill Cipher
+CTO:X \ Ciphers \ Hill
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Hill…
+
+++++ Insertion Steganography
+CT2:C \ Steganography \ Insertion Steganography
+CT2:T \ Steganography \ Steganography Insertion Decryption
+CT2:T \ Steganography \ Steganography Insertion Encryption
+CT2:T \ Steganography \ Steganography Permutation Encryption
+
+++++ Least Significant Bit (LSB)
+CT2:C \ Steganography \ LSB Steganography
+CT2:T \ Steganography \ Steganography Least Significant Bit Decryption
+CT2:T \ Steganography \ Steganography Least Significant Bit Encryption
+CT2:T \ Steganography \ Steganography Least Significant Bit Data Transfer
+
+++++ M-138 Analyzer
+CT2:C \ Cryptanalysis \ Specific \ M-138 Analyzer
+CT2:T \ Cryptanalysis \ Classical \ M-138 Ciphertext only Attack
+CT2:T \ Cryptanalysis \ Classical \ M-138 Known-Plaintext Attack
+CT2:T \ Cryptanalysis \ Classical \ M-138 Partially Known-Plaintext Attack
+
+++++ Morse Code
+CT2:C \ Tools \ Misc \ Morse Code
+CT2:T \ Codes \ Morse code
+CT2:W \ Codes \ Morse code
+CTO:X \ Codings \ Morse code
+
+++++ Prime Distribution
+CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number line
+CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number grid
+CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number of primes
+CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Ulam's spiral
+
+++++ Prime Number Tutorial
+CT2:N \ Crypto Tutorials \ World of Primes
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test…
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers…
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number…
+
+++++ RC4
+CT2:C \ Modern Ciphers \ Symmetric \ RC4
+CT2:T \ Cryptography \ Modern \ Symmetric \ RC4 Cipher
+JCT:D \ Algorithms \ Symmetric \ ARC4 \ Spritz
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ RC4…
+
+++++ SHA-3 (Keccak) (PRNG)
+CT2:C \ Hash functions \ Keccak
+CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
+CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
+CT2:T \ Tools \ Keccak PRNG
+
+++++ Solitaire Analysis
+CT2:C \ Cryptanalysis \ Specific \ SolitaireAnalyser
+CT2:T \ Cryptanalysis \ Classical \ Solitaire Brute-force Analysis
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Solitaire...
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Manual Analysis \ Solitaire…
+
+++++ Watermark Creator
+CT2:C \ Steganography \ Watermark Creator
+CT2:T \ Steganography \ Watermark Creator -- invisible watermark
+CT2:T \ Steganography \ Watermark Creator -- Robustness
+CT2:T \ Steganography \ Watermark Creator -- visible watermark
+
+++++ Cipher-Based MACs (CMAC)
+JCT:A \ Message Authentication Codes \ CmacAES128
+JCT:A \ Message Authentication Codes \ CmacAES192
+JCT:A \ Message Authentication Codes \ CmacAES256
+JCT:A \ Message Authentication Codes \ CmacDESede
+
+++++ Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization
+JCT:D \ Visualizations \ Diffie-Hellman Key Exchange (EC)
+JCT:D \ Visuals \ Diffie-Hellman Key Exchange (EC)
+CT1:X \ Indiv. Procedures \ Protocols \ Diffie-Hellman Demonstration…
+CT1:X \ Indiv. Procedures \ Protocols \ Diffie-Hellman Demonstration…
+
+++++ Merkle OTS
+JCT:A \ Signatures \ MerkleOTSwithSHA1 Digital Signatures, PKI
+JCT:A \ Signatures \ MerkleOTSwithSHA256 Digital Signatures, PKI
+JCT:A \ Signatures \ MerkleOTSwithSHA384 Digital Signatures, PKI
+JCT:A \ Signatures \ MerkleOTSwithSHA512 Digital Signatures, PKI
+
+++++ Shamir's Secret Sharing Visualization
+JCT:D \ Visualizations \ Shamir's Secret Sharing
+JCT:D \ Visuals \ Shamir's Secret Sharing
+CT1:X \ Indiv. Procedures \ Secret Sharing Demonstration (Shamir)…
+CT1:X \ Indiv. Procedures \ Secret Sharing Demonstration (Shamir)…
+
+++++ 3DES
+CT2:C \ Modern Ciphers \ Symmetric \ DES
+JCT:A \ Block Ciphers \ DESede_CBC Modern Ciphers
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Triple DES…
+
+++++ 3DES Brute-Force Attack
+CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Triple DES…
+
+++++ AES Visualization
+CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
+CT1:X \ Indiv. Procedures \ Visualization of Algorithms \ AES \ 
+
+++++ Autocorrelation
+CT2:C \ Cryptanalysis \ Generic \ Autocorrelation
+CTO:X \ Cryptanalysis \ Autocorrelation
+CT1:X \ Analysis \ Tools for Analysis \ Autocorrelation
+
+++++ Base 64 Decode
+CT2:W \ Codes \ Encoding
+CTO:X \ Codings \ Base64
+CT1:X \ Indiv. Procedures \ Tools \ Codes \ Base64 Encode \ Decode \ Base64 Decode
+
+++++ Base 64 Encode
+CT2:W \ Codes \ Encoding
+CTO:X \ Codings \ Base64
+CT1:X \ Indiv. Procedures \ Tools \ Codes \ Base64 Encode \ Decode \ Base64 Encode
+
+++++ Decimalization
+CT2:C \ Tools \ Misc \ Decimalization
+CT2:T \ Mathematics \ Decimalization
+CT2:T \ Tools \ Random Decimal Number
+
+++++ DES Visualization
+CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
+CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
+CT1:X \ Indiv. Procedures \ Visualization of Algorithms \ DES…
+
+++++ Enigma Attacker
+CT2:C \ Cryptanalysis \ Specific \ Enigma
+CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
+CT2:W \ Start \ Cryptanalysis \ Classic Encryption \ Enigma
+
+++++ Entropy
+CT2:C \ Cryptanalysis \ Generic \ Cost Function
+JCT:D \ Analysis \ Entropy Analysis
+CT1:X \ Analysis \ Tools for Analysis \ Entropy
+
+++++ Homomorphic Encryption Visualization
+CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
+CT2:T \ Cryptography \ Modern \ Asymmetric \ Pailier*
+JCT:D \ Visualizations \ Homomorphic Encryption
+
+++++ ImageHash
+CT2:C \ Hash functions \ ImageHash
+CT2:T \ Hash Functions \ ImageHash
+CT2:T \ Hash Functions \ ImageHash -- smooth comparison
+
+++++ LFSR
+CT2:C \ Protocols \ LFSR
+CT2:T \ Mathematics \ Linear Feedback Shift Register (LFSR)
+JCT:D \ Algorithms \ Symmetric \ LFSR
+
+++++ M209
+CT2:C \ Classic Ciphers \ M209
+CT2:T \ Cryptography \ Classical \ M209 Cipher Machine
+CT2:T \ Cryptography \ Classical \ M209 Key Setup
+
+++++ Nihilist
+CT2:C \ Classic Ciphers \ Nihilist
+CT2:T \ Cryptography \ Classical \ Nihilist Cipher
+CTO:X \ Ciphers \ Nihilist
+
+++++ Padding Oracle
+CT2:C \ Tools \ Misc \ Padding Oracle
+CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
+CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
+
+++++ Padding Oracle Attack against AES
+CT2:C \ Tools \ Misc \ Padding Oracle Attack
+CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
+CT2:C \ Tools \ Misc \ Padding Oracle Attack
+
+++++ Permutation Steganography
+CT2:C \ Steganography \ Permutation Steganography
+CT2:T \ Steganography \ Steganography Permutation Decryption
+CT2:T \ Steganography \ Steganography Permutation Image Transfer
+
+++++ PRESENT
+CT2:C \ Modern Ciphers \ Symmetric \ PRESENT
+CT2:T \ Cryptography \ Modern \ Symmetric \ PRESENT Cipher
+CT2:T \ Tools \ Keccak PRNG
+
+++++ RSA Attacks
+CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Asymmetric Encryption \ RSA
+CT1:X \ Analysis \ Asymmetric Encryption \ Lattice-Based Attacks on RSA... \ 
+CT1:X \ Analysis \ Asymmetric Encryption \ Side-Channel Attack on "Textbook RSA"…
+
+++++ SAT Solver
+CT2:C \ Tools \ Misc \ SAT Solver
+CT2:T \ Mathematics \ SAT Solver (File Input)
+CT2:T \ Mathematics \ SAT Solver (Text Input)
+
+++++ SDES Brute-Force Attack
+CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:T \ Cryptanalysis \ Modern \ SDES*
+CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES*
+
+++++ SHA-1
+CT2:C \ Hash functions \ SHA
+JCT:D \ Message Digests \ SHA1 Hash and MAC Algorithms
+CT1:X \ Indiv. Procedures \ Hash \ SHA-1
+
+++++ SHA-256
+CT2:C \ Hash functions \ SHA
+Message Digests \ SHA256 Hash and MAC Algorithms
+CT1:X \ Indiv. Procedures \ Hash \ SHA-256
+
+++++ SHA-512
+CT2:C \ Hash functions \ SHA
+JCT:A \ Message Digests \ SHA512 Hash and MAC Algorithms
+CT1:X \ Indiv. Procedures \ Hash \ SHA-512
+
+++++ Solitaire
+CT2:C \ Classic Ciphers \ Solitaire
+CT2:T \ Cryptography \ Classical \ Solitaire Cipher
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Solitaire…
+
+++++ TEA
+CT2:C \ Modern Ciphers \ Symmetric \ TEA
+CT2:T \ Cryptography \ Modern \ Symmetric \ TEA Cipher
+CT2:W \ Start \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ TEA
+
+++++ Tiger
+CT2:C \ Hash Functions \ Tiger
+CT2:T \ Hash Functions \ Tiger
+JCT:A \ Message Digests \ Tiger Hash and MAC Algorithms
+
+++++ Transcriptor Analysis
+CT2:C \ Cryptanalysis \ Generic \ Transcriptor
+CT2:T \ Cryptanalysis \ Classical \ Transcriptor -- manual mode
+CT2:T \ Cryptanalysis \ Classical \ Transcriptor -- semi-automatic mode
+
+++++ Transposition (Double Column)
+CT2:C \ Classic Ciphers \ Transposition
+JCT:D \ Algorithms \ Classic \ Transposition
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Permutation \ Transposition…
+
+++++ Wired Equivalent Privacy (WEP)
+CT2:C \ Protocols \ WEP Protocol
+CT2:T \ Protocols \ WEP Attack
+CT2:C \ Protocols \ WEP Protocol
+
+++++ Word Pattern Analysis
+CT2:C \ Cryptanalysis \ Generic \ Word Patterns
+CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis
+CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis with self-defined dictionary
+
+++++ Digital Signatures Visualization
+JCT:D \ Visualizations \ Signature Demonstration
+CT1:X \ Digital Signatures, PKI \ Signature Demonstration (Signature Generation)…
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ Signature Demonstration (Signature Generation)…
+
+++++ Number Shark
+JCT:D \ Games \ Number Shark
+CTO:X \ Highlights \ Taxman
+CT1:X \ Indiv. Procedures \ Educational Games \ Number Shark
+
+++++ RSA Visualization
+JCT:D \ Visualizations \ RSA Cryptosystem
+JCT:D \ Visualizations \ Extended RSA Cryptosystem
+CT1:X \ Indiv. Procedures \ RSA Cryptosystem \ 
+
+++++ Substitution Analysis
+JCT:D \ Analysis \ Substitution Analysis
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Substitution...
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Manual Analysis \ Substitution…
+
+++++ Achterbahn
+CT2:C \ Modern Ciphers \ Symmetric \ Achterbahn
+CT2:T \ Cryptography \ Modern \ Symmetric \ Achterbahn Cipher
+
+++++ Alphabet Permutator
+CT2:C \ Tools \ Data flow \ Alphabet Permutator
+CT2:T \ Cryptography \ Classical \ Substitution Cipher using a password
+
+++++ ASCII
+CT2:W \ Codes \ Encoding
+CTO:X \ Codings \ ASCII
+
+++++ BB84 Key Exchange with Eavesdropping Attack
+CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
+CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
+
+++++ Berlekamp-Massey Algorithm
+CT2:C \ Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm
+CT2:T \ Mathematics \ Berlekamp-Massey
+
+++++ CRC-1/Partiy
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-10
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-11
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-12/3GPP
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-12/DECT
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-14/DARC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-15
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-15/MPT1327
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/AUG-CCITT
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/BUYPASS
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/CCITT-FALSE
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/DDS-110
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/DECT-R
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/DECT-X
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/DNP
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/EN-13757
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/GENIBUS
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/IBM-SDLC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/MAXIM
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/MCRF4XX
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/RIELLO
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/T10-DIF
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/TELEDISK
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/TMS37157
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-16/USB
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-24/FLEXRAY-A
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-24/FLEXRAY-B
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-24/OPENPGP
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-3/ROHC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-31/PHILIPS
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-32
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-32/BZIP2
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-32/MPEG-2
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-32/POSIX
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-32C
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-32D
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-32Q
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-4/ITU
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-40/GSM
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-5/EPC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-5/ITU
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-5/USB
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-6/DARC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-6/ITU
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-64
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-64/1B
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-64/Jones
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-64/WE
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-7
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-7/ROHC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/CCITT
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/DARC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/EBU
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/I-CODE
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/ITU
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/J1850
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/MAXIM
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/ROHC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-8/WCDMA
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ CRC-A
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ Cube Attack
+CT2:C \ Cryptanalysis \ Specific \ Cube Attack
+CT2:T \ Cryptanalysis \ Modern \ Cube Attack on Trivium
+
+++++ Dining Cryptographers Protocol
+CT2:T \ Protocols \ Dining Cryptographers Protocol
+CT2:T \ Protocols \ Dining Cryptographers Protocol
+
+++++ Discrete Logarithm
+CT2:C \ Cryptanalysis \ Generic \ Discrete Logarithm
+CT2:T \ Mathematics \ Discrete Logarithm
+
+++++ Dynamic Group Keying (DGK)
+CT2:C \ Modern Ciphers \ Asymmetric \ DGK
+CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
+
+++++ Enigma Visualization
+CT2:C \ Classic Ciphers \ Enigma
+CT1:X \ Indiv. Procedures \ Visualization of Algorithms \ Enigma…
+
+++++ General Number Field Sieve (GNFS)
+CT2:C \ Cryptanalysis \ Generic \ General Number Field Sieve
+CT2:T \ Mathematics \ Factorization with General Number Field Sieve (GNFS)
+
+++++ Grain v1
+CT2:C \ Modern Ciphers \ Symmetric \ Grain v1
+CT2:T \ Cryptography \ Modern \ Symmetric \ Grain v1 Cipher
+
+++++ HC128
+CT2:C \ Modern Ciphers \ Symmetric \ HC128
+CT2:T \ Cryptography \ Modern \ Symmetric \ HC128 Cipher
+
+++++ IDP Analyzer
+CT2:C \ Cryptanalysis \ Specific \ IDP Analyzer
+CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
+
+++++ JAMCRC
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ KERMIT
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ Lattice-Based Attacks - Merkle-Hellman
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ Merkle-Hellman Knapsack
+JCT:D \ Visualizations \ Merkle-Hellman Knapsack Cryptosystem
+
+++++ M-138
+CT2:C \ Classic Ciphers \ M-138
+CT2:T \ Cryptography \ Classical \ M-138
+
+++++ MD5 Collisions
+CT2:C \ Hash functions \ MD5 Collider
+CT2:T \ Hash Functions \ MD5 Collision Finder
+
+++++ Mickey 2
+CT2:C \ Modern Ciphers \ Symmetric \ Mickey 2
+CT2:T \ Cryptography \ Modern \ Symmetric \ Mickey2 Cipher
+
+++++ MODBUS
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ Monoalphabetic Substitution
+CT2:C \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer
+CT2:T \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer
+
+++++ Navajo
+CT2:T \ Cryptography \ Classical \ Navajo Code
+CTO:X \ Ciphers \ Navajo
+
+++++ NLFSR
+CT2:C \ Protocols \ NLFSR
+CT2:T \ Mathematics \ Non-Linear Feedback Shift Register (NLFSR)
+
+++++ Padding Oracle Attack against DES
+CT2:C \ Tools \ Misc \ Padding Oracle Attack
+CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
+
+++++ Purple
+CT2:C \ Classic Ciphers \ Purple
+CT2:T \ Cryptography \ Classical \ PURPLE Cipher Machine
+
+++++ Quadratic Sieve (QS)
+CT2:C \ Cryptanalysis \ Generic \ Quadratic Sieve (QS)
+CT2:T \ Mathematics \ Factorization with Quadratic Sieve
+
+++++ Rabbit
+CT2:C \ Modern Ciphers \ Symmetric \ Rabbit
+CT2:T \ Cryptography \ Modern \ Symmetric \ Rabbit Cipher
+
+++++ RC2 Brute-Force Attack
+CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ RC2…
+
+++++ Rijndael
+CT2:C \ Modern Ciphers \ Symmetric \ AES
+CT2:T \ Cryptography \ Modern \ Symmetric \ AES*
+
+++++ Salsa20
+CT2:C \ Modern Ciphers \ Symmetric \ Salsa20
+CT2:T \ Cryptography \ Modern \ Symmetric \ Salsa20 Cipher
+
+++++ Scytale Analysis
+CT2:T \ Cryptanalysis \ Scytale Brute-force Analysis
+CT2:W \ Start \ Cryptanalysis \ Classic Encryption \ Scytale
+
+++++ SHA-3 Candidates
+CT2:C \ Hash functions \ SHA
+JCT:D \ Algorithms \ Hash \ SHA3-Candidates
+
+++++ SHA-384
+CT2:C \ Hash functions \ SHA
+JCT:A \ Message Digests \ SHA384 Hash and MAC Algorithms
+
+++++ Sosemanuk
+CT2:C \ Modern Ciphers \ Symmetric \ Sosemanuk
+CT2:T \ Cryptography \ Modern \ Symmetric \ Sosemanuk Cipher
+
+++++ Spanish Strip Cipher
+CT2:C \ Classic Ciphers \ Spanish Strip Cipher
+CT2:T \ Cryptography \ Classical \ Spanish Strip Cipher
+
+++++ String Operations
+CT2:C \ Tools \ Misc \ String Operations
+CT2:T \ Mathematics \ Levenshtein Distance
+
+++++ T-310\50
+CT2:C \ Classic Ciphers \ T-310 \ 50
+CT2:T \ Cryptography \ Classical \ T310 \ 50 Cipher Machine
+
+++++ Vernam
+CT2:C \ Classic Ciphers \ Vernam
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Vernam \ OTP…
+
+++++ WEP Attack
+CT2:C \ Protocols \ Attacks on the WEP protocol
+CT2:T \ Protocols \ WEP Attack
+
+++++ Whirlpool
+CT2:C \ Hash Functions \ Whirlpool
+CT2:T \ Hash Functions \ Whirlpool
+
+++++ XFER
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ XMODEM
+CT2:C \ Hash Functions \ CRC
+CT2:T \ Hash Functions \ CRC
+
+++++ Autokey Vigenère
+JCT:D \ Algorithms \ Classic \ Autokey Vigenère
+CTO:X \ Ciphers \ Autokey
+
+++++ Bifid
+JCT:D \ Algorithms \ Classic \ Bifid
+CTO:X \ Ciphers \ Bifid
+
+++++ Chinese Remainder Theorem Visualization
+JCT:D \ Visualizations \ Chinese Remainder Theorem
+CT1:X \ Indiv. Procedures \ Chinese Remainder Theorem Applications \ 
+
+++++ DSA
+JCT:A \ Signatures \ RAW \ DSA
+CT1:X \ Digital Signatures, PKI \ Sign Document... \ DSA
+
+++++ ECNR
+JCT:A \ Signatures \ SHA1 \ ECNR
+CT1:X \ Digital Signatures, PKI \ Sign Document... \ ECSP-NR
+
+++++ Elliptic Curve Calculations Visualization
+JCT:D \ Visualizations \ Elliptic Curve Calculations
+CT1:X \ Indiv. Procedures \ Number Theory - Interactive \ Point Addition on Elliptic Curves…
+
+++++ Enhanced RSA Crypto System (identities‚ multi-prime)
+JCT:D \ Visualizations \ RSA Cryptosystem
+JCT:D \ Visualizations \ Extended RSA Cryptosystem
+
+++++ Hash Algorithms Visualization
+JCT:D \ Visualizations \ Hash Sensitivity
+CT1:X \ Indiv Procedures \ Hash \ Hash Demonstration…
+
+++++ IQDSA
+JCT:A \ Signatures \ IQDSA Digital Signatures, PKI
+JCT:A \ Signatures \ RIPEMD160withIQDSA Digital Signatures, PKI
+
+++++ IQGQ
+JCT:A \ Signatures \ IQGQ Digital Signatures, PKI
+JCT:A \ Signatures \ RIPEMD160withIQDSA Digital Signatures, PKI
+
+++++ IQRDSA
+JCT:A \ Signatures \ IQRDSA Digital Signatures, PKI
+JCT:A \ Signatures \ RIPEMD160withIQRDSA Digital Signatures, PKI
+
+++++ MARS
+JCT:A \ Block Ciphers \ MARS
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ MARS…
+
+++++ MD4
+JCT:A \ Message Digests \ MD4 Hash and MAC Algorithms
+CT1:X \ Indiv. Procedures \ Hash \ MD4
+
+++++ MeRSA
+JCT:A \ Asymmetric Block Ciphers \ MeRSA
+JCT:A \ Signatures \ MeRSA
+
+++++ MpRSA
+JCT:D \ Visualizations \ RSA Cryptosystem
+JCT:D \ Visualizations \ Extended RSA Cryptosystem
+
+++++ RC6
+Block Ciphers \ RC6
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ RC6…
+
+++++ Homophone
+CTO:X \ Ciphers \ Homophonic
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Homophone…
+
+++++ N-Gram Analysis
+CTO:X \ Cryptanalysis \ N-Gram Analysis
+CT1:X \ Analysis \ Tools for Analysis \ N-Gram…
+
+++++ Rail Fence
+CTO:X \ Ciphers \ Zigzag (Rail Fence)
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Scytale \ Rail Fence…
+
+++++ Authentication Methods in Networks Visualization
+CT1:X \ Indiv. Procedures \ Protocols \ Network Authentication…
+CT1:X \ Indiv. Procedures \ Protocols \ Network Authentication…
+
+++++ Secure Email (S/MIME) Visualization
+CT1:X \ Indiv. Procedures \ Protocols \ Secure E-Mail with S \ MIME…
+CT1:X \ Indiv. Procedures \ Protocols \ Secure E-Mail with S \ MIME…
+
+++++ Alphabets
+CT2:C \ Tools \ Data input \ output \ Alphabets
+
+++++ Boolean Function Parser
+CT2:C \ Tools \ Boolean \ Boolean Function Parser
+
+++++ Clock
+CT2:C \ Tools \ Data flow \ Clock
+
+++++ Cyphermatrix (Experimental Cipher)
+NOT in official release version (but on additional plugin's site)
+
+++++ Heartbleed analysis
+CT2:W \ Tools \ Heartbleed analysis
+
+++++ HIGHT
+CT2:C \ Modern Ciphers \ Symmetric \ HIGHT
+
+++++ Kasiski Test
+CT2:C \ Cryptanalysis \ Generic \ Kasiski Test
+
+++++ Lattice-Based Attacks - RSA
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ RSA (Coppersmith's attack)
+
+++++ Lattice-Based Cryptosystems - GGH
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ GGH
+
+++++ Lattice-Based Cryptosystems - LWE
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ LWE
+
+++++ Lattice-Based Problems - Closest Vector Problem (CVP)
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Closest Vector Problem (CVP) \ Find closest vector
+
+++++ Lattice-Based Problems - Shortest Vector Problem (SVP) - Gauss
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm
+
+++++ Lattice-Based Problems - Shortest Vector Problem (SVP) - LLL
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ LLL algorithm
+
+++++ Lorenz SZ42
+CT2:C \ Classic Ciphers \ Lorenz SZ42
+
+++++ Network Receiver
+CT2:C \ Tools \ Data input \ output \ Network Receiver
+
+++++ Network Sender
+CT2:C \ Tools \ Data input \ output \ Network Sender
+
+++++ Password Store Using Salted SHA-1
+CT2:T \ Hash Functions \ Password store using salted SHA-1
+
+++++ Password Verification Using Salted SHA-1
+CT2:T \ Hash Functions \ Password verification using salted SHA-1
+
+++++ PKCS#1 Attack (Bleichenbacher) Visualization
+CT2:N \ Crypto Tutorials \ Attack on PKCS#1 \ Attacks on PKCS#1 \ Bleichenbacher attack
+
+++++ PKCS#1 Attack (Kuehn) Visualization
+CT2:N \ Crypto Tutorials \ Attack on PKCS#1 \ Attacks on PKCS#1 \ Attack with shorter keys (Kuehn)
+
+++++ PRESENT Visualization
+CT2:C \ Modern Ciphers \ Symmetric \ PRESENT
+
+++++ SHA-3 (Keccak)
+CT2:C \ Hash functions \ SHA
+
+++++ SHA-3 (Keccak) Streamcipher
+CT2:T \ Cryptography \ Modern Ciphers \ Symmetric \ Keccak Streamcipher
+
+++++ Stream Comparison
+CT2:C \ Tools \ Misc \ Stream Comparator
+
+++++ Trivium
+CT2:C \ Modern Ciphers \ Symmetric \ Trivium
+
+++++ Visual Decoder
+CT2:C \ Tools \ Misc \ Visual Decoder
+
+++++ Visual Encoder
+CT2:C \ Tools \ Misc \ Visual Encoder
+
+++++ Android Unlock Pattern (AUP) Visualization
+JCT:D \ Visualizations \ Android Unlock Pattern (AUP)
+
+++++ Ant Colony Optimization Visualization
+JCT:D \ Visualizations \ Ant Colony Optimization
+
+++++ Blum Blum Shub (B.B.S.) (PRNG)
+JCT:A \ Pseudo Random Number Generators \ BBSRandom
+
+++++ Certificate Verification
+JCT:D \ Visualizations \ Certificate Verification
+
+++++ DHA256
+JCT:A \ Message Digests \ DHA256
+
+++++ Differential Power Analysis Visualization
+JCT:D \ Visualizations \ Differential Power Analysis \ Double and Add
+
+++++ Divider Game
+JCT:D \ Games \ Divider Game
+
+++++ Double Box
+JCT:D \ Algorithms \ Classic \ Double Box
+
+++++ Dragon
+JCT:D \ Algorithms \ Symmetric \ Dragon
+
+++++ ECIES
+JCT:A \ Hybrid Ciphers \ ECIES
+
+++++ ElGamal
+JCT:A \ Asymmetric Block Ciphers \ ElGamal Modern Ciphers
+
+++++ ElGamal Visualization
+JCT:D \ Visualizations \ ElGamal Cryptosystem
+
+++++ Elliptic Curve (PRNG)
+JCT:A \ Pseudo Random Number Generators \ ECPRNG
+
+++++ Extended Euclidian plus the method of mutual "exhaustion" (anthyphairesis = continually subtract the smaller from the larger) Visualization
+JCT:D \ Visualizations \ Extended Euclidean \ Reciprocal Subtraction
+
+++++ Feige Fiat Shamir Visualization
+JCT:D \ Visualizations \ Feige Fiat Shamir
+
+++++ Fiat Shamir Visualization
+JCT:D \ Visualizations \ Fiat Shamir
+
+++++ FORK-256
+JCT:A \ Message Digests \ FORK256
+
+++++ Graph Isomorphism Visualization
+JCT:D \ Visualizations \ Graph Isomorphism
+
+++++ Grille Visualization
+JCT:D \ Visualizations \ Grille
+
+++++ Inner States of the DES Visualization
+JCT:D \ Visualizations \ Inner States of the Data Encryption Standard (DES)
+
+++++ Kleptography Visualization
+JCT:D \ Visualizations \ Kleptography
+
+++++ Magic Door Visualization
+JCT:D \ Visualizations \ Magic Door
+
+++++ McEliece Fujisaki
+JCT:A \ Hybrid Ciphers \ McElieceFujisakiCipher Modern Ciphers
+
+++++ McEliece Kobara Imai
+JCT:A \ Hybrid Ciphers \ McElieceKobaraImaiCipher Modern Ciphers
+
+++++ McEliece PKCS
+JCT:A \ Asymmetric Block Ciphers \ McEliecePKCS Modern Ciphers
+
+++++ McEliece Pointcheval
+JCT:A \ Hybrid Ciphers \ McEliecePointchevalCipher Modern Ciphers
+
+++++ Merkle Signature Scheme (MSS, XMSS, XMSS_XT)
+JCT:D \ Visualizations \ Merkle Signature Scheme (MerkleTree)
+
+++++ Misty-1 (Kasumi)
+JCT:A \ Block Ciphers \ Misty1
+
+++++ Multipartite Key Exchange Visualization
+JCT:D \ Visualizations \ Multipartite Key Exchange
+
+++++ Niederreiter
+JCT:A \ Asymmetric Block Ciphers \ Niederreiter
+
+++++ Niederreiter CFS
+JCT:A \ Signatures \ NiederreiterCFS Digital Signatures, PKI
+
+++++ Public-Key Infrastructure
+JCT:D \ Visualizations \ Public-Key Infrastructure
+
+++++ RC4 / Spritz
+JCT:D \ Visualizations \ ARC4 \ Spritz
+
+++++ RC5
+JCT:A \ Block Ciphers \ RC5
+
+++++ RSASSA-PSS
+JCT:A \ Algorithms \ Signatures \ RSASSA-PSS
+
+++++ SAFER+
+JCT:A \ Block Ciphers \ SAFER+
+
+++++ SAFER++
+JCT:A \ Block Ciphers \ SAFER++
+
+++++ SHA with DSA
+JCT:A \ Signatures \ SHAwithDSA Digital Signatures, PKI
+
+++++ SHA-1 (PRNG)
+JCT:A \ Pseudo Random Number Generators \ SHA1PRNG
+
+++++ Shacal
+JCT:A \ Block Ciphers \ Shacal
+
+++++ Shacal2
+JCT:A \ Block Ciphers \ Shacal2
+
+++++ Signatur Verification
+JCT:D \ Visualizations \ Signature Verification
+
+++++ Simple Power Analysis Visualization
+JCT:D \ Visualizations \ Simple Power Analysis \ Square and Multiply
+
+++++ Solving Discrete Logarithm with Babystep-Giantstep
+JCT:D \ Visualizations \ Shanks Babystep-Giantstep
+
+++++ SSL (MD5 and SHA1 with RSA)
+JCT:A \ Signatures \ SSL_MD5andSHA1withRSA
+
+++++ SSL/TLS Handshake
+JCT:D \ Visualizations \ SSL \ TLS Handshake
+
+++++ Sudoku Solver
+JCT:D \ Games \ Sudoku-Solver
+
+++++ Verifiable Secret Sharing (VSS) Visualization
+JCT:D \ Visualizations \ Verifiable Secret Sharing
+
+++++ Viterbi Analysis
+JCT:D \ Analysis \ Viterbi Analysis
+
+++++ Viterbi Visualization
+JCT:D \ Visuals \ Viterbi
+
+++++ VSH
+JCT:A \ Message Digests \ VSH
+
+++++ WOTS/WOTS+
+JCT:D \ Visualizations \ WOTS \ WOTS+
+
+++++ XML Security
+JCT:D \ Algorithms \ XML Security \ 
+
+++++ Zudo-Ku (Zero-Knowledge Proof)
+JCT:D \ Games \ Zudo-Ku
+
+++++ ADFGV
+CTO:X \ Ciphers \ ADFGVX
+
+++++ Affine Cipher
+CTO:X \ Ciphers \ Multiplicative
+
+++++ Alberti
+CTO:X \ Ciphers \ Alberti
+
+++++ AMSCO
+CTO:X \ Ciphers \ AMSCO
+
+++++ Autokey Analysis
+CTO:X \ Cryptanalysis \ Break Autokey
+
+++++ Bacon
+CTO:X \ Codings \ Bacon
+
+++++ Barcode Generator
+CTO:X \ Codings \ Barcode Generator
+
+++++ Beaufort
+CTO:X \ Ciphers \ Beaufort
+
+++++ Code 39
+CTO:X \ Codings \ Code39
+
+++++ Distributed AES Analysis
+CTO:X \ Cryptanalysis \ Distributed AES Analysis
+
+++++ Four Square
+CTO:X \ Ciphers \ Four-Square
+
+++++ Freemason
+CTO:X \ Ciphers \ Freemason
+
+++++ Gronsfeld
+CTO:X \ Ciphers \ Gronsfeld
+
+++++ Kamasutra
+CTO:X \ Ciphers \ Kamasutra
+
+++++ Larrabee
+CTO:X \ Ciphers \ Larrabee
+
+++++ Password Generator
+CTO:X \ Highlights \ Password Generator
+
+++++ Pollux
+CTO:X \ Ciphers \ Pollux
+
+++++ Polybius
+CTO:X \ Ciphers \ Polybius
+
+++++ Porta
+CTO:X \ Ciphers \ Porta
+
+++++ Rotation
+CTO:X \ Ciphers \ Rotation
+
+++++ Templar
+CTO:X \ Ciphers \ Templar
+
+++++ Trithemius
+CTO:X \ Ciphers \ Trithemius
+
+++++ ADFGVX Analysis
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ ADFGVX…
+
+++++ ASN.1
+CT1:X \ Indiv. Procedures \ Tools \ Codes \ Decode ASN.1 Code of a Document
+
+++++ Atbash
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Substitution \ Atbash…
+
+++++ Byte Addition
+CT1:X \ Encrypt \ Decrypt \ Symmetric (classic) \ Byte Addition…
+
+++++ Byte Addition Analysis
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Byte Addition
+
+++++ Caesar Visualization
+CT1:X \ Indiv. Procedures \ Visualization of Algorithms \ Caesar…
+
+++++ DESL
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESL…
+
+++++ DESL Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESL…
+
+++++ DESX
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESX…
+
+++++ DESX Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESX…
+
+++++ DESXL
+CT1:X \ Encrypt \ Decrypt \ Symmetric (modern) \ Further Algorithms \ DESXL…
+
+++++ DESXL Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ DESXL…
+
+++++ Display/Export Keys
+CT1:X \ Digital Signatures, PKI \ Display \ Export Keys…
+
+++++ ECC-AES
+CT1:X \ Encrypt \ Decrypt \ Hybrid \ ECC-AES…
+
+++++ Extract Signature
+CT1:X \ Digital Signatures, PKI \ Extract Signature…
+
+++++ FIPS PUB-140-1
+CT1:X \ Analysis \ Analyze Randomness \ FIPS PUB-140-1 Test Battery
+
+++++ Generate/Import Keys
+CT1:X \ Digital Signatures, PKI \ Generate \ Import Keys…
+
+++++ Hash Collisions
+CT1:X \ Analysis \ Hash \ Attack on the Hash Value of the Digital Signature…
+
+++++ Hill Analysis
+CT1:X \ Analysis \ Symmetric encryption (classic) \ Known Plaintext \ Hill…
+
+++++ Histogram
+CT1:X \ Analysis \ Tools for Analysis \ Histogram
+
+++++ IDEA Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ IDEA…
+
+++++ Inverse Congruence Generator (ICG) (PRNG)
+CT1:X \ Indiv. Procedures \ Tools \ Generate Random Numbers…
+
+++++ Key Generation from Password (PKCS#5)
+CT1:X \ Indiv. Procedures \ Hash \ Key Generation from Password (PKCS #5)…
+
+++++ Length of a number
+CT1:X \ Indiv. Procedures \ Tools \ Length of a number…
+
+++++ Linear Congruence Generator (LCG) (PRNG)
+CT1:X \ Indiv. Procedures \ Tools \ Generate Random Numbers…
+
+++++ MARS Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ MARS…
+
+++++ MD2
+CT1:X \ Indiv. Procedures \ Hash \ MD2
+
+++++ Nihilist Visualization
+CT1:X \ Indiv. Procedures \ Visualization of Algorithms \ Nihilist…
+
+++++ Periodicity Analysis
+CT1:X \ Analysis \ Tools for Analysis \ Periodicity
+
+++++ Playfair Analysis
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Manual Analysis \ Playfair…
+
+++++ Poker Test
+CT1:X \ Analysis \ Analyze Randomness \ Poker Test…
+
+++++ Randomness Visualization
+CT1:X \ Analysis \ Analyze Randomness \ 3D Visualization…
+
+++++ RC4 Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ RC4…
+
+++++ RC6 Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ RC6…
+
+++++ RSA-AES
+CT1:X \ Encrypt \ Decrypt \ Hybrid \ RSA-AES…
+
+++++ Runs Test
+CT1:X \ Analysis \ Analyze Randomness \ Runs Test…
+
+++++ Secude Library Random Number Generator
+CT1:X \ Indiv. Procedures \ Tools \ Generate Random Numbers…
+
+++++ Serial Test
+CT1:X \ Analysis \ Analyze Randomness \ Serial Test…
+
+++++ Serpent Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ Serpent…
+
+++++ Twofish Brute-Force Attack
+CT1:X \ Analysis \ Symmetric Encryption (modern) \ Further Algorithms \ Twofish…
+
+++++ Unzip
+CT1:X \ Indiv. Procedures \ Tools \ Compress \ UnZip
+
+++++ UU Decode
+CT1:X \ Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Decode
+
+++++ UU Encode
+CT1:X \ Indiv. Procedures \ Tools \ Codes \ UU Encode \ Decode \ UU Encode
+
+++++ Verify Signature
+CT1:X \ Digital Signatures, PKI \ Verify Signature…
+
+++++ Vernam Analysis
+CT1:X \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ XOR \ Vernam
+
+++++ Vigenère Visualization
+CT1:X \ Indiv. Procedures \ Visualization of Algorithms \ Vigenère…
+
+++++ Vitányi Analysis
+CT1:X \ Analysis \ Analyze Randomness \ Vitányi
+
+++++ X^2 (mod N) (PRNG)
+CT1:X \ Indiv. Procedures \ Tools \ Generate Random Numbers…
+
+++++ Zip
+CT1:X \ Indiv. Procedures \ Tools \ Compress \ Zip
+
