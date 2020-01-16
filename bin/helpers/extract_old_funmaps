@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+
+import sys
+import pandas
+
+import pathlib ; from pathlib  import Path
+import flist
+
+import hashlib
+
+scsv_frame_ct2 = flist.SCSV_Dataset.Dataframe_From_Files([Path(__file__).parent.parent.parent / "ws-static/data/en/scsv_webdump/ct2.csv"])
+
+def scsv_dump_file(tool, language):
+    return Path(__file__).parent.parent.parent / f"ws-static/data/{language}/scsv_webdump/{tool.lower()}.csv"
+
+def scsv_reference_file(tool):
+    return scsv_dump_file(tool, "en")
+
+def category_table_output_ws_static(tool, language):
+    return Path(__file__).parent.parent.parent / f"ws-static/data/categories_{tool.lower()}.csv"
+
+def category_table_output(tool, language):
+    return Path(__file__).parent.parent.parent / f"ws/data/categories_{tool.lower()}.csv"
+
+def load_legacy_and_infer_ids(tool, language) -> flist.SCSV_Dataset:
+    file = scsv_dump_file(tool, language)
+    referenceFile = scsv_reference_file(tool)
+
+    dataset = flist.SCSV_Dataset.From_Dataframe(flist.SCSV_Dataset.Dataframe_From_Files([file]))
+    dataset_reference = flist.SCSV_Dataset.From_Dataframe(flist.SCSV_Dataset.Dataframe_From_Files([referenceFile]))
+    if len(dataset_reference.rows) != len(dataset.rows):
+        raise io.FlistException(f"could not extract legacy categories for {file} automatically: reference file {referenceFile} has a mismatching number of entries.")
+
+    entryIdx = 0
+    for referenceEntry in dataset_reference.rows:
+        # print(f"dbg: inferring {referenceEntry}")
+        referenceEntry.infer_id_from_fields(tool)
+        dataset.rows[entryIdx].id = referenceEntry.id
+        entryIdx += 1
+
+    return dataset
+
+def legacy_scsv_to_catref(scsv: flist.SCSV_Dataset) -> pandas.DataFrame:
+    df = scsv.to_dataframe()
+    # df = df.drop(columns="path")
+    df = df.drop(columns="how_implemented")
+    df = df.drop(columns="functionality")
+    return df
+
+
+def extract_catref_file_in_wsstatic(tool, language):
+    legacy_with_ids = load_legacy_and_infer_ids(tool, language)
+    catref_df = legacy_scsv_to_catref(legacy_with_ids)
+    output_wsstatic = category_table_output_ws_static(tool, language)
+    output = category_table_output(tool, language)
+    catref_df.to_csv(output_wsstatic, sep=flist.CSV_SEP, index=False, header=False, columns = ["id", "category", "path"])
+    print(f"written to {output_wsstatic}")
+    catref_df.to_csv(output, sep=flist.CSV_SEP, index=False, header=False, columns = ["id", "category", "path"])
+    print(f"written to {output}")
+
+def extract_funmaps_in_wsstatic(tool, language):
+    """
+    returns a list of pairs: (functionality, [pathelements])
+    """
+    dataset = load_legacy_and_infer_ids(tool, language)
+    # dataframe = dataset.to_dataframe()
+    return [(entry["functionality"], entry["path"]) for entry in dataset.get_dataframe_dictionaries()]
+
+def extract_funmaps_in_feedback(file):
+    dataframe = pandas.read_csv(file, sep=";", header=None, names=["id", "fun", "pathstr"], keep_default_na=False)
+    # print(dataframe)
+    dataframe = dataframe[~ dataframe["fun"].str.contains("enter value here")]
+    return list(dataframe.drop(labels="id", axis=1).itertuples(index=False))
+                                
+
+# extract_catref_file_in_wsstatic(tool = "CT2", language = "en")
+# extract_catref_file_in_wsstatic(tool = "JCT", language = "en")
+
+# extract_funmaps_in_wsstatic("CT2", "en")
+dumped = []
+# dumped += extract_funmaps_in_wsstatic("CT2", "en")
+# dumped += extract_funmaps_in_wsstatic("JCT", "en")
+# dumped += extract_funmaps_in_wsstatic("CTO", "en")
+# dumped += extract_funmaps_in_wsstatic("CT1", "en")
+
+mapped = []
+mapped += extract_funmaps_in_feedback(Path(__file__).parent.parent.parent / "ws-static/data/functionalities_interaction_required_jct.csv")
+mapped += extract_funmaps_in_feedback(Path(__file__).parent.parent.parent / "ws-static/data/functionalities_interaction_required_ct2.csv")
+
+all = []
+all += dumped
+all += mapped
+
+by_name = dict()
+for fun,path in all:
+    if not fun in by_name:
+        lst = []
+    else:
+        lst = by_name[fun]
+
+    lst += [path]
+    by_name[fun] = lst
+
+by_name_sorted = sorted(by_name.items(), key=lambda x: len(x[1]), reverse=True)
+# print("\n".join([str(el) for el in sorted(by_name.items(), key=lambda x: len(x[1]), reverse=True)]))
+
+def fname(sth):
+    return str(sth).replace("/", "")
+
+
+caching = True
+cachefolder = Path(__file__).parent / ".cache"
+if caching:
+    cachefolder.mkdir(parents = True, exist_ok = True)
+
+if "--list" in sys.argv:
+    print("\n".join([el[0] for el in by_name_sorted]))
+
+if "--for" in sys.argv:
+    # print(by_name_sorted)
+    # print([el[1] for el in by_name_sorted])
+    hval = hashlib.md5(str(mapped).encode()).hexdigest()[:16]
+    forName = sys.argv[sys.argv.index("--for") + 1]
+    if caching:
+        if Path(cachefolder / f"for-{hval}").exists():
+            print(f"reading cached {hval}...")
+            with open(cachefolder / f"for-{hval}" / f"{fname(forName)}" ) as cached:
+                print(cached.read())
+        else:
+            print(f"creating cache for {hval}...")
+            (cachefolder / f"for-{hval}").mkdir(exist_ok = True)
+            result = ""
+            for name,paths in by_name_sorted:
+                with open(cachefolder / f"for-{hval}" / f"{fname(name)}", "w") as cachefile:
+                    cachefile.write("\n".join(paths))
+                if name == forName:
+                    result = "\n".join(paths)
+            print(result)
+    else:
+        hits = [el[1] for el in by_name_sorted if el[0] == forName]
+        print("\n".join(hits[0] if len(hits) > 0 else []))
+
+if "--all" in sys.argv:
+    for el in by_name_sorted:
+        print(f"++++ {el[0]}")
+        print("\n".join(el[1]))
+        print("")
+    
+
+
+
+# with open("/home/simon/sandbox/featurelist/ct_functionlist/ws-static/categories_ct2_en.csv", "wb") as opened:
+#     for entry in scsv_ct2.
+
