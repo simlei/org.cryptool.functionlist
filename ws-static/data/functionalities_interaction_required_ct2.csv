@@ -117,7 +117,7 @@ CT2:dynamic:d51a8199;Encryption;CT2:W \ Tools \ Encrypt with password
 CT2:dynamic:c827e60b;Heartbleed;CT2:W \ Tools \ Heartbleed analysis
 CT2:dynamic:79ca2a79;Passwords;CT2:W \ Tools \ Password Strength
 CT2:dynamic:56d09a3c;Data flow;CT2:W \ Tools \ Random numbers
-CT2:dynamic:5eb1c3f8;Cylinder Cipher;CT2:C \ Classic Ciphers \ Cylinder Cipher
+CT2:dynamic:5eb1c3f8;Cylinder cipher;CT2:C \ Classic Ciphers \ Cylinder Cipher
 CT2:dynamic:7676e9c5;Enigma;CT2:C \ Classic Ciphers \ Enigma
 CT2:dynamic:2507ff9a;Fialka;CT2:C \ Classic Ciphers \ Fialka
 CT2:dynamic:26258a0c;Hill cipher;CT2:C \ Classic Ciphers \ Hill Cipher
@@ -129,7 +129,7 @@ CT2:dynamic:ca84a5a9;Playfair Cipher;CT2:C \ Classic Ciphers \ Playfair
 CT2:dynamic:da91683b;Purple;CT2:C \ Classic Ciphers \ Purple
 CT2:dynamic:4277e266;Scytale;CT2:C \ Classic Ciphers \ Scytale
 CT2:dynamic:b312e6fc;Solitaire;CT2:C \ Classic Ciphers \ Solitaire
-CT2:dynamic:04dcec57;Spanish Strip Cipher;CT2:C \ Classic Ciphers \ Spanish Strip Cipher
+CT2:dynamic:04dcec57;Spanish Strip cipher;CT2:C \ Classic Ciphers \ Spanish Strip Cipher
 CT2:dynamic:ee5d7603;Substitution;CT2:C \ Classic Ciphers \ Substitution
 CT2:dynamic:5eb192a6;T-310;CT2:C \ Classic Ciphers \ T-310
 CT2:dynamic:98353e86;T-316;CT2:C \ Classic Ciphers \ T-316
@@ -164,7 +164,7 @@ CT2:dynamic:28789d4c;M-138 Analysis;CT2:C \ Cryptanalysis \ Specific \ M-138 Ana
 CT2:dynamic:9c8873bb;Playfair Analysis;CT2:C \ Cryptanalysis \ Specific \ Playfair Analyzer
 CT2:dynamic:ffb56bfd;Feistel Attack;CT2:C \ Cryptanalysis \ Specific \ Slide Attack on Feistel Cipher
 CT2:dynamic:2bad8d77;Solitaire Analysis;CT2:C \ Cryptanalysis \ Specific \ Solitaire Analyzer
-CT2:dynamic:a28eb5ae;Spanish Strip Cipher Analysis;CT2:C \ Cryptanalysis \ Specific \ Spanish Strip Cipher Analyzer
+CT2:dynamic:a28eb5ae;Spanish Strip cipher Analysis;CT2:C \ Cryptanalysis \ Specific \ Spanish Strip Cipher Analyzer
 CT2:dynamic:724c9bc1;Transposition Analysis;CT2:C \ Cryptanalysis \ Specific \ Transposition Analyzer
 CT2:dynamic:2bfd17c5;Vigenère Analysis;CT2:C \ Cryptanalysis \ Specific \ Vigenère Analyzer
 CT2:dynamic:822aae4c;BLAKE;CT2:C \ Hash functions \ BLAKE
@@ -349,7 +349,7 @@ CT2:dynamic:b1310ed9;Playfair cipher;CT2:T \ Cryptography \ Classical \ Playfair
 CT2:dynamic:1758f158;Purple;CT2:T \ Cryptography \ Classical \ PURPLE Cipher Machine
 CT2:dynamic:1122b2dc;Scytale;CT2:T \ Cryptography \ Classical \ Scytale Cipher
 CT2:dynamic:147686ec;Solitaire;CT2:T \ Cryptography \ Classical \ Solitaire Cipher
-CT2:dynamic:6b7a8f82;Spanish Strip Cipher;CT2:T \ Cryptography \ Classical \ Spanish Strip Cipher
+CT2:dynamic:6b7a8f82;Spanish Strip cipher;CT2:T \ Cryptography \ Classical \ Spanish Strip Cipher
 CT2:dynamic:535fe8cb;Substitution;CT2:T \ Cryptography \ Classical \ Substitution Cipher
 CT2:dynamic:b092d3d0;T-310 / 50;CT2:T \ Cryptography \ Classical \ T-310 \ 50 Cipher Machine
 CT2:dynamic:a99a4ffa;T-310 / 51;CT2:T \ Cryptography \ Classical \ T-310 \ 51 Cipher Machine
@@ -406,7 +406,7 @@ CT2:dynamic:d36a5f14;General Number Field Sieve (GNFS);CT2:T \ Experimental \ Fa
 CT2:dynamic:af6c864f;Factorization of a Number;CT2:T \ Experimental \ Factorization with NFSFactorizer
 CT2:dynamic:e0c35294;SIGABA Analysis;CT2:T \ Experimental \ SIGABA bruteforce Analysis
 CT2:dynamic:734b4e59;SIGABA Analysis;CT2:T \ Experimental \ SIGABA contraposition Analysis
-CT2:dynamic:ef11eb22;Spanish Strip Cipher Analysis;CT2:T \ Experimental \ Spanish Strip Cipher Analyzer
+CT2:dynamic:ef11eb22;Spanish Strip cipher Analysis;CT2:T \ Experimental \ Spanish Strip Cipher Analyzer
 CT2:dynamic:b78d06b0;<enter value here>later;CT2:T \ Experimental \ Webhits for a hash value
 CT2:dynamic:97db6592;BLAKE;CT2:T \ Hash Functions \ BLAKE
 CT2:dynamic:427a0fbf;CRC;CT2:T \ Hash Functions \ CRC
