@@ -180,11 +180,11 @@ JCT:dynamic:f62f0116;Merkle;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSw
 JCT:dynamic:b99b634b;Merkle;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA384
 JCT:dynamic:6c15d97b;Merkle;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA1
 JCT:dynamic:ae896da6;Merkle;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA256
-JCT:dynamic:9044ba69;ADFGVX;JCT:D \ Algorithms \ Classic \ ADFGVX
+JCT:dynamic:9044ba69;ADFGX / ADFGVX;JCT:D \ Algorithms \ Classic \ ADFGVX
 JCT:dynamic:2e6d9628;Vigenère;JCT:D \ Algorithms \ Classic \ Autokey-Vigenère
 JCT:dynamic:ff4749b9;Caesar;JCT:D \ Algorithms \ Classic \ Caesar
 JCT:dynamic:37fe2735;Bifid;JCT:D \ Algorithms \ Classic \ Bifid
-JCT:dynamic:5361903c;Double Box;JCT:D \ Algorithms \ Classic \ Double Box
+JCT:dynamic:5361903c;Double box;JCT:D \ Algorithms \ Classic \ Double Box
 JCT:dynamic:b31ebcd4;Playfair;JCT:D \ Algorithms \ Classic \ Playfair
 JCT:dynamic:64c996d9;Substitution;JCT:D \ Algorithms \ Classic \ Substitution
 JCT:dynamic:a4c58e1b;Transposition;JCT:D \ Algorithms \ Classic \ Transposition
@@ -204,14 +204,14 @@ JCT:dynamic:61f631ed;LFSR;JCT:D \ Algorithms \ Symmetric \ LFSR
 JCT:dynamic:d1ae9b15;Entropy analysis;JCT:D \ Analysis \ Entropy Analysis
 JCT:dynamic:deffa21b;Grille analysis;JCT:D \ Analysis \ Grille Analysis
 JCT:dynamic:2572f88a;Frequency analysis;JCT:D \ Analysis \ Frequency Analysis
-JCT:dynamic:4da7976d;Friedman Test;JCT:D \ Analysis \ Friedman Test
+JCT:dynamic:4da7976d;Friedman test;JCT:D \ Analysis \ Friedman Test
 JCT:dynamic:842ef797;Substitution analysis;JCT:D \ Analysis \ Substitution Analysis
 JCT:dynamic:478b8a08;Transposition analysis;JCT:D \ Analysis \ Transposition Analysis
 JCT:dynamic:289280e7;Vigenère analysis;JCT:D \ Analysis \ Vigenère Breaker
 JCT:dynamic:8182a0ae;Viterbi analysis;JCT:D \ Analysis \ Viterbi Analysis
 JCT:dynamic:e267ab03;Divider game;JCT:D \ Games \ Divider Game
 JCT:dynamic:54522294;Number Shark;JCT:D \ Games \ Number Shark
-JCT:dynamic:1795f8e3;Sudoku-Solver;JCT:D \ Games \ Sudoku-Solver
+JCT:dynamic:1795f8e3;Sudoku solver;JCT:D \ Games \ Sudoku-Solver
 JCT:dynamic:fdc5f89a;Zudo-Ku;JCT:D \ Games \ Zudo-Ku
 JCT:dynamic:6f50c2ae;Key exchange;JCT:D \ Visuals \ Multipartite Key Exchange
 JCT:dynamic:5d1c69c7;Ant Colony Optimization;JCT:D \ Visuals \ Ant Colony Optimization (ACO)
@@ -224,9 +224,9 @@ JCT:dynamic:3e6726e0;EC calculations;JCT:D \ Visuals \ Elliptic Curve Calculatio
 JCT:dynamic:38361372;Key exchange;JCT:D \ Visuals \ Diffie-Hellman Key Exchange (EC)
 JCT:dynamic:aa1ab63d;Reciprocal subtraction;JCT:D \ Visuals \ Extended Euclidean \ Reciprocal Subtraction
 JCT:dynamic:0716e6ad;Grille;JCT:D \ Visuals \ Grille
-JCT:dynamic:b785dcbb;Hash Sensitivity;JCT:D \ Visuals \ Hash Sensitivity
+JCT:dynamic:b785dcbb;Hash sensitivity;JCT:D \ Visuals \ Hash Sensitivity
 JCT:dynamic:eef1761d;Homomorphic encryption;JCT:D \ Visuals \ Homomorphic Encryption (HE)
-JCT:dynamic:58604450;Huffman coding;JCT:D \ Visuals \ Huffman Coding
+JCT:dynamic:58604450;Huffman;JCT:D \ Visuals \ Huffman Coding
 JCT:dynamic:f9e79ec3;Public-key infrastructure;JCT:D \ Visuals \ Public-Key Infrastructure
 JCT:dynamic:94ef1bf3;Kleptography;JCT:D \ Visuals \ Kleptography
 JCT:dynamic:6df576ac;Knapsack;JCT:D \ Visuals \ Merkle-Hellman Knapsack Cryptosystem

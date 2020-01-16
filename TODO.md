@@ -1,5 +1,73 @@
 # Misc
 
+# Functionality groups
+
+## Doc
+
+**Naming schemes**
+
+- "XYZ" - Anwendung des Verfahrens XYZ
+- "XYZ META", XYZ als tragendes Verfahren in META (zB MAC)
+- "XYZ Analysis" - Brechen von XYZ als Hauptfunktion
+
+a) Aber ich würde Visualisierung und Analyse nicht vereinen.
+Man kann es sogar erweitern, dass Cipher und Analysis jeweils mit einem
+angehängten "Visual" einen neuen Oberbegriff ergeben. Es gibt also
+zusätzlich:
+
+- "XYZ Visual" - Visualsierung von XYZ
+
+==> CT2 [C] Classic Ciphers\ Enigma kann unter 2 Oberbegriffen stehen:
+     - Enigma
+     - Enigma Visual  (denn es gibt einen Präsentationsmodus dazu)
+
+
+b) Protocols and Formats like TLS, PKCS: auch ein extra Oberbegriff.
+==> PKCS#1 Attack Visual
+
+c) Misc
+
+- "AES Brute-Force Attack" in "AES Analysis" umbenennen?
+- Typische Abkürzungen sollten beim Oberbegriff dabei sein:
+   Ant Colony Optimization  ==>  Ant Colony Optimization (ACO)
+   Homomorphic encryption  ==>  Homomorphic encryption (HE)
+   Verifiable secret sharing  ==>  Verifiable secret sharing (VSS)
+
+#### Fragen
+
+- Eigennamen + "Cipher" etc, oder ohne suffix?
+- SHA-1, -2, T-151(?) v1 v2 etc, SHA 256, CRC-...? oder zusammen fassen (große Cluster...)
+
+- "MD5 Collisions" vs. standard alternatives (attack, analysis, ...)
+
+- "Applications" -- 
+    - Watermark creator?
+
+- PKCS1 Attack - früher (Kühn), (Bleichenbacher) unterteilt
+
+**Lattice**
+
+++++ Lattice-Based Attacks - Merkle-Hellman
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ Merkle-Hellman Knapsack
+++++ Lattice-Based Attacks - RSA
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ RSA (Coppersmith's attack)
+++++ Lattice-Based Cryptosystems - GGH
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ GGH
+++++ Lattice-Based Cryptosystems - LWE
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ LWE
+++++ Lattice-Based Problems - Closest Vector Problem (CVP)
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Closest Vector Problem (CVP) \ Find closest vector
+++++ Lattice-Based Problems - Shortest Vector Problem (SVP) - Gauss
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm
+++++ Lattice-Based Problems - Shortest Vector Problem (SVP) - LLL
+CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ LLL algorithm
+
+
+
+### Functionality groups
+
+ADFGVX -> ADFGX / ADFGVX
+
 ## Glossary
 
 - "Functionality" vs "Path"
