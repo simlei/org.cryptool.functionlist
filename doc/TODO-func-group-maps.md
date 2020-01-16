@@ -37,7 +37,7 @@ c) Misc
 ## Fragen Naming schemes
 
 **Lattice**
-
+```
 ++++ Lattice-Based Attacks - Merkle-Hellman
 CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ Merkle-Hellman Knapsack
 ++++ Lattice-Based Attacks - RSA
@@ -52,7 +52,7 @@ CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Closest Vector Problem (
 CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm
 ++++ Lattice-Based Problems - Shortest Vector Problem (SVP) - LLL
 CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ LLL algorithm
-
+```
 
 ** Misc **
 
