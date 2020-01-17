@@ -1,6 +1,6 @@
 CTO:de:static:1;ADFGVX;X;CTO:X \ Klassische Chiffren \ ADFGVX;1) Klassische Chiffren
 CTO:de:static:2;Affine Chiffre;X;CTO:X \ Klassische Chiffren \ Multiplikativ;1) Klassische Chiffren
-CTO:de:static:3;Alberti;X;CTO:X \ Klassische Chiffren \ Alberti;1) Klassische Chiffren
+CTO:de:static:3;Alberti cipher;X;CTO:X \ Klassische Chiffren \ Alberti;1) Klassische Chiffren
 CTO:de:static:4;AMSCO;X;CTO:X \ Klassische Chiffren \ AMSCO;1) Klassische Chiffren
 CTO:de:static:5;Autokey-Vigenère;X;CTO:X \ Klassische Chiffren \ Autokey;1) Klassische Chiffren
 CTO:de:static:6;Beaufort;X;CTO:X \ Klassische Chiffren \ Beaufort;1) Klassische Chiffren

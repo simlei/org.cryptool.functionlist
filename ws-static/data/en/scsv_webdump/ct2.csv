@@ -1,4 +1,4 @@
-CT2:en:static:1;3DES;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ DES;2) Modern Ciphers
+CT2:en:static:1;Triple DES;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ DES;2) Modern Ciphers
 CT2:en:static:2;3DES Brute-Force Attack;CT2:C;CT2:C\ Cryptanalysis\ Specific\ KeySearcher;7) Modern Cryptanalysis
 CT2:en:static:3;3DES Brute-Force Attack;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Triple DES Brute-force Analysis;7) Modern Cryptanalysis
 CT2:en:static:4;Achterbahn;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Achterbahn;2) Modern Ciphers
@@ -34,13 +34,13 @@ CT2:en:static:33;Alphabet Permutator;CT2:T;CT2:T\ Cryptography\ Classical\ Subst
 CT2:en:static:34;Alphabets;CT2:C;CT2:C\ Tools\ Data input/output\ Alphabets;6) Classic Cryptanalysis
 CT2:en:static:35;ASCII;CT2:W;CT2:W\ Codes\ Encoding;9) Codings
 CT2:en:static:36;Autocorrelation;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Autocorrelation;6) Classic Cryptanalysis
-CT2:en:static:37;Avalanche Visualization;CT2:C;CT2:C\ Tools\ Misc\ Avalanche Visualization;10) Learning Aids and Visualizations
-CT2:en:static:38;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (AES);10) Learning Aids and Visualizations
-CT2:en:static:39;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (classic ciphers);10) Learning Aids and Visualizations
-CT2:en:static:40;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (compare classic ciphers);10) Learning Aids and Visualizations
-CT2:en:static:41;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (DES);10) Learning Aids and Visualizations
-CT2:en:static:42;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (hash functions);10) Learning Aids and Visualizations
-CT2:en:static:43;Avalanche Visualization;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (modern ciphers);10) Learning Aids and Visualizations
+CT2:en:static:37;Avalanche effect;CT2:C;CT2:C\ Tools\ Misc\ Avalanche Visualization;10) Learning Aids and Visualizations
+CT2:en:static:38;Avalanche effect;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (AES);10) Learning Aids and Visualizations
+CT2:en:static:39;Avalanche effect;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (classic ciphers);10) Learning Aids and Visualizations
+CT2:en:static:40;Avalanche effect;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (compare classic ciphers);10) Learning Aids and Visualizations
+CT2:en:static:41;Avalanche effect;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (DES);10) Learning Aids and Visualizations
+CT2:en:static:42;Avalanche effect;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (hash functions);10) Learning Aids and Visualizations
+CT2:en:static:43;Avalanche effect;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Avalanche (modern ciphers);10) Learning Aids and Visualizations
 CT2:en:static:44;Base 64 Decode;CT2:W;CT2:W\ Codes\ Encoding;9) Codings
 CT2:en:static:45;Base 64 Encode;CT2:W;CT2:W\ Codes\ Encoding;9) Codings
 CT2:en:static:46;BB84 Key Exchange;CT2:T;CT2:T\ Protocols\ BB84 Key Exchange;10) Learning Aids and Visualizations
@@ -54,8 +54,8 @@ CT2:en:static:53;BB84 Key Exchange;CT2:T;CT2:T\ Protocols\ BB84 Key Exchange;13)
 CT2:en:static:54;BB84 Key Exchange;CT2:T;CT2:T\ Protocols\ BB84 Key Exchange with eavesdropping attack;13) Protocols
 CT2:en:static:55;BB84 Key Exchange with Eavesdropping Attack;CT2:T;CT2:T\ Protocols\ BB84 Key Exchange with eavesdropping attack;10) Learning Aids and Visualizations
 CT2:en:static:56;BB84 Key Exchange with Eavesdropping Attack;CT2:T;CT2:T\ Protocols\ BB84 Key Exchange with eavesdropping attack;13) Protocols
-CT2:en:static:57;Berlekamp-Massey Algorithm;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Berlekamp-Massey Algorithm;7) Modern Cryptanalysis
-CT2:en:static:58;Berlekamp-Massey Algorithm;CT2:T;CT2:T\ Mathematics\ Berlekamp-Massey;7) Modern Cryptanalysis
+CT2:en:static:57;Berlekamp-Massey algorithm;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Berlekamp-Massey Algorithm;7) Modern Cryptanalysis
+CT2:en:static:58;Berlekamp-Massey algorithm;CT2:T;CT2:T\ Mathematics\ Berlekamp-Massey;7) Modern Cryptanalysis
 CT2:en:static:59;Bit Commitment Scheme;CT2:C;CT2:C\ Protocols\ Bit Commitment Scheme;7) Modern Cryptanalysis
 CT2:en:static:60;Bit Commitment Scheme;CT2:T;CT2:T\ Mathematics\ ISAP Bit Commitment Scheme;7) Modern Cryptanalysis
 CT2:en:static:61;Bit Commitment Scheme;CT2:C;CT2:C\ Protocols\ BitCommitmentScheme;13) Protocols
@@ -547,8 +547,8 @@ CT2:en:static:546;Solitaire Analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Solit
 CT2:en:static:547;Solitaire Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Solitaire Brute-force Analysis;6) Classic Cryptanalysis
 CT2:en:static:548;Sosemanuk;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Sosemanuk;2) Modern Ciphers
 CT2:en:static:549;Sosemanuk;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Sosemanuk Cipher;2) Modern Ciphers
-CT2:en:static:550;Spanish Strip Cipher;CT2:C;CT2:C\ Classic Ciphers\ Spanish Strip Cipher;1) Classic Ciphers
-CT2:en:static:551;Spanish Strip Cipher;CT2:T;CT2:T\ Cryptography\ Classical\ Spanish Strip Cipher;1) Classic Ciphers
+CT2:en:static:550;Spanish strip cipher;CT2:C;CT2:C\ Classic Ciphers\ Spanish Strip Cipher;1) Classic Ciphers
+CT2:en:static:551;Spanish strip cipher;CT2:T;CT2:T\ Cryptography\ Classical\ Spanish Strip Cipher;1) Classic Ciphers
 CT2:en:static:552;Stream Comparison;CT2:C;CT2:C\ Tools\ Misc\ Stream Comparator;6) Classic Cryptanalysis
 CT2:en:static:553;String Operations;CT2:C;CT2:C\ Tools\ Misc\ String Operations;14) Tools
 CT2:en:static:554;String Operations;CT2:T;CT2:T\ Mathematics\ Levenshtein Distance;14) Tools

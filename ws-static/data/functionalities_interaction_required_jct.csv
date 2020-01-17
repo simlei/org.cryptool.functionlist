@@ -112,7 +112,7 @@ JCT:dynamic:88b441b6;TripleDES;JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd3_K
 JCT:dynamic:dfb1caba;DES;JCT:A \ Password-Based Ciphers \ PbeWithSHA1AndDES_CBC
 JCT:dynamic:af57f332;DES;JCT:A \ Password-Based Ciphers \ PbeWithMD5AndDES_CBC
 JCT:dynamic:5c32e4c9;SHA;JCT:A \ Pseudo Random Number Generators \ SHA1PRNG
-JCT:dynamic:d619210d;Blum Blum Shub;JCT:A \ Pseudo Random Number Generators \ BBSRandom
+JCT:dynamic:d619210d;Blum Blum Shub (BBS) PRNG;JCT:A \ Pseudo Random Number Generators \ BBSRandom
 JCT:dynamic:62aadc7d;EC PRNG;JCT:A \ Pseudo Random Number Generators \ ECPRNG
 JCT:dynamic:35f378f7;EC NR signature;JCT:A \ Signatures \ SHA1 \ ECNR
 JCT:dynamic:1ea2f541;RSA signature;JCT:A \ Signatures \ RprimeRSA
@@ -210,12 +210,12 @@ JCT:dynamic:54522294;Number Shark;JCT:D \ Games \ Number Shark
 JCT:dynamic:1795f8e3;Sudoku solver;JCT:D \ Games \ Sudoku-Solver
 JCT:dynamic:fdc5f89a;Zudo-Ku;JCT:D \ Games \ Zudo-Ku
 JCT:dynamic:6f50c2ae;Key exchange;JCT:D \ Visuals \ Multipartite Key Exchange
-JCT:dynamic:5d1c69c7;Ant Colony Optimization;JCT:D \ Visuals \ Ant Colony Optimization (ACO)
+JCT:dynamic:5d1c69c7;Ant Colony Optimization (ACO);JCT:D \ Visuals \ Ant Colony Optimization (ACO)
 JCT:dynamic:3f9dad15;RC4;JCT:D \ Visuals \ ARC4 \ Spritz
 JCT:dynamic:318822af;Android Unlock Pattern;JCT:D \ Visuals \ Android Unlock Pattern (AUP)
 JCT:dynamic:1bc82ad7;Shanks Babystep-Giantstep;JCT:D \ Visuals \ Shanks Babystep-Giantstep
-JCT:dynamic:b142e4ea;Chinese Remainder Theorem;JCT:D \ Visuals \ Chinese Remainder Theorem (CRT)
-JCT:dynamic:282e23f8;Certificate Verification;JCT:D \ Visuals \ Certificate Verification
+JCT:dynamic:b142e4ea;Chinese remainder theorem (CRT);JCT:D \ Visuals \ Chinese Remainder Theorem (CRT)
+JCT:dynamic:282e23f8;Certificate verification;JCT:D \ Visuals \ Certificate Verification
 JCT:dynamic:d7e0a4b8;DES;JCT:D \ Visuals \ Inner States of the Data Encryption Standard (DES)
 JCT:dynamic:3e6726e0;EC calculations;JCT:D \ Visuals \ Elliptic Curve Calculations
 JCT:dynamic:38361372;Key exchange;JCT:D \ Visuals \ Diffie-Hellman Key Exchange (EC)

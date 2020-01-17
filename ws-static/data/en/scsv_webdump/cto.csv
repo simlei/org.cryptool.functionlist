@@ -1,7 +1,7 @@
 CTO:en:static:1;ADFGV;CTO:X;CTO:X\ Ciphers\ ADFGVX;1) Classic Ciphers
 CTO:en:static:2;AES;CTO:X;CTO:X\ Highlights\ AES;2) Modern Ciphers
-CTO:en:static:3;Affine Cipher;CTO:X;CTO:X\ Ciphers\ Multiplicative;1) Classic Ciphers
-CTO:en:static:4;Alberti;CTO:X;CTO:X\ Ciphers\ Alberti;1) Classic Ciphers
+CTO:en:static:3;Affine cipher;CTO:X;CTO:X\ Ciphers\ Multiplicative;1) Classic Ciphers
+CTO:en:static:4;Alberti cipher;CTO:X;CTO:X\ Ciphers\ Alberti;1) Classic Ciphers
 CTO:en:static:5;AMSCO;CTO:X;CTO:X\ Ciphers\ AMSCO;1) Classic Ciphers
 CTO:en:static:6;ASCII;CTO:X;CTO:X\ Codings\ ASCII;9) Codings
 CTO:en:static:7;Autocorrelation;CTO:X;CTO:X\ Cryptanalysis\ Autocorrelation;6) Classic Cryptanalysis

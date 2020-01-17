@@ -15,7 +15,7 @@ CT1:de:static:14;Transposition (zwei-stufige Spaltentransposition) (Doppelwürfe
 CT1:de:static:15;Vernam;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Vernam \ OTP…;1) Klassische Chiffren
 CT1:de:static:16;Vigenère;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Vigenère…;1) Klassische Chiffren
 CT1:de:static:17;XOR;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ XOR…;1) Klassische Chiffren
-CT1:de:static:18;3DES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Triple DES…;2) Moderne Chiffren
+CT1:de:static:18;Triple DES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Triple DES…;2) Moderne Chiffren
 CT1:de:static:19;AES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Rijndael (AES)…;2) Moderne Chiffren
 CT1:de:static:20;AES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ AES (selbstextrahierend)…;2) Moderne Chiffren
 CT1:de:static:21;DES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ DES…;2) Moderne Chiffren
@@ -81,7 +81,7 @@ CT1:de:static:80;DES Brute-Force-Angriff;X;CT1:X \ Analyse \ Symmetrische Versch
 CT1:de:static:81;DESL Brute-Force-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESL…;7) Moderne Kryptoanalyse
 CT1:de:static:82;DESX Brute-Force-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESX…;7) Moderne Kryptoanalyse
 CT1:de:static:83;DESXL Brute-Force-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESXL…;7) Moderne Kryptoanalyse
-CT1:de:static:84;FIPS PUB-140-1;X;CT1:X \ Analyse \ Zufallsanalyse \ FIPS PUB-140-1 Testbatterie;7) Moderne Kryptoanalyse
+CT1:de:static:84;FIPS PUB-140-1 PRNG test;X;CT1:X \ Analyse \ Zufallsanalyse \ FIPS PUB-140-1 Testbatterie;7) Moderne Kryptoanalyse
 CT1:de:static:85;Hash-Kollisionen;X;CT1:X \ Analyse \ Hashverfahren \ Angriff auf den Hashwert der digitalen Signatur…;7) Moderne Kryptoanalyse
 CT1:de:static:86;IDEA Brute-Force-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ IDEA…;7) Moderne Kryptoanalyse
 CT1:de:static:87;MARS Brute-Force-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ MARS…;7) Moderne Kryptoanalyse

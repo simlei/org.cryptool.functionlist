@@ -1,4 +1,3 @@
-CT1:./doc_old/misc/last-ws/data/html_template/template_index.html:                              <td class=" ">Digital Signatures, PKI\ en:static:1;3DES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Triple DES…;2) Modern Ciphers
 CT1:en:static:2;3DES Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Triple DES…;7) Modern Cryptanalysis
 CT1:en:static:3;ADFGVX;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ ADFGVX…;1) Classic Ciphers
 CT1:en:static:4;ADFGVX Analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ ADFGVX…;6) Classic Cryptanalysis
@@ -47,7 +46,7 @@ CT1:en:static:46;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA C
 CT1:en:static:47;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…\ Williams;12) Prime numbers
 CT1:en:static:48;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…\ Lenstra;12) Prime numbers
 CT1:en:static:49;Factorization of a Number;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…\ Quadratic Sieve;12) Prime numbers
-CT1:en:static:50;FIPS PUB-140-1;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ FIPS PUB-140-1 Test Battery;7) Modern Cryptanalysis
+CT1:en:static:50;FIPS PUB-140-1 PRNG test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ FIPS PUB-140-1 Test Battery;7) Modern Cryptanalysis
 CT1:en:static:51;Frequency Test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Frequency Test...;6) Classic Cryptanalysis
 CT1:en:static:52;Frequency Test;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Floating Frequency;6) Classic Cryptanalysis
 CT1:en:static:53;Generate/Import Keys;CT1:X;CT1:X\ Digital Signatures, PKI\ Generate/Import Keys…;4) Digital Signatures, PKI

@@ -1,4 +1,4 @@
-JCT:en:static:1;3DES;JCT:A;JCT:A\ Block Ciphers\ DESede_CBC Modern Ciphers
+JCT:en:static:1;Triple DES;JCT:A;JCT:A\ Block Ciphers\ DESede_CBC Modern Ciphers
 JCT:en:static:2;ADFGVX;JCT:D;JCT:D\ Algorithms\ Classic\ ADFGVX;1) Classic Ciphers
 JCT:en:static:3;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES128_CBC Modern Ciphers
 JCT:en:static:4;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES128_CFB Modern Ciphers
@@ -16,7 +16,7 @@ JCT:en:static:15;Android Unlock Pattern (AUP) Visualization;JCT:D;JCT:D\ Visuali
 JCT:en:static:16;Ant Colony Optimization Visualization;JCT:D;JCT:D\ Visualizations\ Ant Colony Optimization;10) Learning Aids and Visualizations
 JCT:en:static:17;Autokey Vigenère;JCT:D;JCT:D\ Algorithms\ Classic\ Autokey Vigenère;1) Classic Ciphers
 JCT:en:static:18;Bifid;JCT:D;JCT:D\ Algorithms\ Classic\ Bifid;1) Classic Ciphers
-JCT:en:static:19;Blum Blum Shub (B.B.S.) (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ BBSRandom;5) Random Number Generators
+JCT:en:static:19;Blum Blum Shub (BBS) PRNG;JCT:A;JCT:A\ Pseudo Random Number Generators\ BBSRandom;5) Random Number Generators
 JCT:en:static:20;Caesar;JCT:D;JCT:D\ Algorithms\ Classic\ Caesar;1) Classic Ciphers
 JCT:en:static:21;Camellia;JCT:A;JCT:A\ Block Ciphers\ Camellia128_CBC Modern Ciphers
 JCT:en:static:22;Camellia;JCT:A;JCT:A\ Block Ciphers\ Camellia192_CBC Modern Ciphers
@@ -34,7 +34,7 @@ JCT:en:static:33;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ CBCmacRC5;3
 JCT:en:static:34;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ CBCmacRC6;3) Hash and MAC Algorithms
 JCT:en:static:35;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ CBCmacSAFER+;3) Hash and MAC Algorithms
 JCT:en:static:36;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\;3) Hash and MAC Algorithms
-JCT:en:static:37;Certificate Verification;JCT:D;JCT:D\ Visualizations\ Certificate Verification;10) Learning Aids and Visualizations
+JCT:en:static:37;Certificate verification;JCT:D;JCT:D\ Visualizations\ Certificate Verification;10) Learning Aids and Visualizations
 JCT:en:static:38;Chinese Remainder Theorem Visualization;JCT:D;JCT:D\ Visualizations\ Chinese Remainder Theorem;10) Learning Aids and Visualizations
 JCT:en:static:39;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ CmacAES128;3) Hash and MAC Algorithms
 JCT:en:static:40;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ CmacAES192;3) Hash and MAC Algorithms

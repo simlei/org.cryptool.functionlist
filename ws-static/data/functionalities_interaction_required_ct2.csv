@@ -1,7 +1,7 @@
 CT2:dynamic:6823a28a;ADFGX / ADFGVX;CT2:C \ Classic Ciphers \ ADFGVX
 CT2:dynamic:b405cb53;Caesar;CT2:C \ Classic Ciphers \ Caesar
 CT2:dynamic:b017cd08;ADFGX / ADFGVX;CT2:C \ Cryptanalysis \ Generic \ ADFGVX Analyzer
-CT2:dynamic:dd1c1bf3;Berlekamp-Massey Algorithm;CT2:C \ Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm
+CT2:dynamic:dd1c1bf3;Berlekamp-Massey algorithm;CT2:C \ Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm
 CT2:dynamic:389d93d7;Caesar Analysis;CT2:C \ Cryptanalysis \ Specific \ Caesar Analyzer
 CT2:dynamic:4395a6d1;Substitution Analysis;CT2:C \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer
 CT2:dynamic:b65cc114;Achterbahn;CT2:C \ Modern Ciphers \ Symmetric \ Achterbahn
@@ -96,7 +96,7 @@ CT2:dynamic:75413309;CRC;CT2:T \ Hash Functions \ CRC Null problems
 CT2:dynamic:1ba2d2b7;HMAC;CT2:T \ Hash Functions \ HMAC
 CT2:dynamic:e2cd4fb9;MD5;CT2:T \ Hash Functions \ MD5 Collision Finder
 CT2:dynamic:23c8350f;MD5;CT2:T \ Hash Functions \ MD5 Salted Hash Comparison
-CT2:dynamic:00f08d6d;Berlekamp-Massey Algorithm;CT2:T \ Mathematics \ Berlekamp-Massey
+CT2:dynamic:00f08d6d;Berlekamp-Massey algorithm;CT2:T \ Mathematics \ Berlekamp-Massey
 CT2:dynamic:7b0f6a95;Passwords;CT2:T \ Tools \ Check Password Strength
 CT2:dynamic:76ba1834;Application;CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
 CT2:dynamic:f56e061e;DECODE;CT2:T \ Tools \ Download documents from the DECODE database
@@ -129,7 +129,7 @@ CT2:dynamic:ca84a5a9;Playfair Cipher;CT2:C \ Classic Ciphers \ Playfair
 CT2:dynamic:da91683b;Purple;CT2:C \ Classic Ciphers \ Purple
 CT2:dynamic:4277e266;Scytale;CT2:C \ Classic Ciphers \ Scytale
 CT2:dynamic:b312e6fc;Solitaire;CT2:C \ Classic Ciphers \ Solitaire
-CT2:dynamic:04dcec57;Spanish Strip cipher;CT2:C \ Classic Ciphers \ Spanish Strip Cipher
+CT2:dynamic:04dcec57;Spanish strip cipher;CT2:C \ Classic Ciphers \ Spanish Strip Cipher
 CT2:dynamic:ee5d7603;Substitution;CT2:C \ Classic Ciphers \ Substitution
 CT2:dynamic:5eb192a6;T-310;CT2:C \ Classic Ciphers \ T-310
 CT2:dynamic:98353e86;T-316;CT2:C \ Classic Ciphers \ T-316
@@ -164,7 +164,7 @@ CT2:dynamic:28789d4c;M-138 Analysis;CT2:C \ Cryptanalysis \ Specific \ M-138 Ana
 CT2:dynamic:9c8873bb;Playfair Analysis;CT2:C \ Cryptanalysis \ Specific \ Playfair Analyzer
 CT2:dynamic:ffb56bfd;Feistel Attack;CT2:C \ Cryptanalysis \ Specific \ Slide Attack on Feistel Cipher
 CT2:dynamic:2bad8d77;Solitaire Analysis;CT2:C \ Cryptanalysis \ Specific \ Solitaire Analyzer
-CT2:dynamic:a28eb5ae;Spanish Strip cipher Analysis;CT2:C \ Cryptanalysis \ Specific \ Spanish Strip Cipher Analyzer
+CT2:dynamic:a28eb5ae;Spanish strip cipher analysis;CT2:C \ Cryptanalysis \ Specific \ Spanish Strip Cipher Analyzer
 CT2:dynamic:724c9bc1;Transposition Analysis;CT2:C \ Cryptanalysis \ Specific \ Transposition Analyzer
 CT2:dynamic:2bfd17c5;Vigenère Analysis;CT2:C \ Cryptanalysis \ Specific \ Vigenère Analyzer
 CT2:dynamic:822aae4c;BLAKE;CT2:C \ Hash functions \ BLAKE
@@ -241,8 +241,8 @@ CT2:dynamic:f5e52680;Insertion Steganography;CT2:C \ Steganography \ Insertion S
 CT2:dynamic:0a563b6f;LSB Steganography;CT2:C \ Steganography \ LSB Steganography
 CT2:dynamic:cca82098;Permutation Steganography;CT2:C \ Steganography \ Permutation Steganography
 CT2:dynamic:240447b3;Watermark Creator;CT2:C \ Steganography \ Watermark Creator
-CT2:dynamic:703acac0;Avalanche Visualization;CT2:C \ Tools \ Misc \ Avalanche Visualization
-CT2:dynamic:14d5b694;Blockmode Visualizer;CT2:C \ Tools \ Misc \ Blockmode Visualizer
+CT2:dynamic:703acac0;Avalanche effect;CT2:C \ Tools \ Misc \ Avalanche Visualization
+CT2:dynamic:14d5b694;Block mode visualizer;CT2:C \ Tools \ Misc \ Blockmode Visualizer
 CT2:dynamic:f83d7ed8;PKCS#1 Attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1
 CT2:dynamic:03459821;PKCS#1 Attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Attack with shorter keys (Kuehn)
 CT2:dynamic:e8080fd3;PKCS#1 Attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Bleichenbacher attack
@@ -282,12 +282,12 @@ CT2:dynamic:7bdf6ef5;AES Analysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis 
 CT2:dynamic:d5c757a1;AES Analysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2) – with changeable plaintext
 CT2:dynamic:61be0ffb;AES Analysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
 CT2:dynamic:17127af1;AES Analysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
-CT2:dynamic:1e0c925a;Avalanche Effect Analysis;CT2:T \ Cryptanalysis \ Modern \ Avalanche (AES)
-CT2:dynamic:9e60b7cb;Avalanche Effect Analysis;CT2:T \ Cryptanalysis \ Modern \ Avalanche (classic ciphers)
-CT2:dynamic:26bb554f;Avalanche Effect Analysis;CT2:T \ Cryptanalysis \ Modern \ Avalanche (compare classic ciphers)
-CT2:dynamic:b1793d73;Avalanche Effect Analysis;CT2:T \ Cryptanalysis \ Modern \ Avalanche (DES)
-CT2:dynamic:02cc5d34;Avalanche Effect Analysis;CT2:T \ Cryptanalysis \ Modern \ Avalanche (hash functions)
-CT2:dynamic:540a2268;Avalanche Effect Analysis;CT2:T \ Cryptanalysis \ Modern \ Avalanche (modern ciphers)
+CT2:dynamic:1e0c925a;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (AES)
+CT2:dynamic:9e60b7cb;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (classic ciphers)
+CT2:dynamic:26bb554f;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (compare classic ciphers)
+CT2:dynamic:b1793d73;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (DES)
+CT2:dynamic:02cc5d34;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (hash functions)
+CT2:dynamic:540a2268;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (modern ciphers)
 CT2:dynamic:73cd9960;CBC Attack;CT2:T \ Cryptanalysis \ Modern \ CBC-Attack
 CT2:dynamic:d84565bd;Trivium Attack;CT2:T \ Cryptanalysis \ Modern \ Cube Attack on Trivium
 CT2:dynamic:d20d7fe3;DES Analysis;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
@@ -329,7 +329,7 @@ CT2:dynamic:b1310ed9;Playfair cipher;CT2:T \ Cryptography \ Classical \ Playfair
 CT2:dynamic:1758f158;Purple;CT2:T \ Cryptography \ Classical \ PURPLE Cipher Machine
 CT2:dynamic:1122b2dc;Scytale;CT2:T \ Cryptography \ Classical \ Scytale Cipher
 CT2:dynamic:147686ec;Solitaire;CT2:T \ Cryptography \ Classical \ Solitaire Cipher
-CT2:dynamic:6b7a8f82;Spanish Strip cipher;CT2:T \ Cryptography \ Classical \ Spanish Strip Cipher
+CT2:dynamic:6b7a8f82;Spanish strip cipher;CT2:T \ Cryptography \ Classical \ Spanish Strip Cipher
 CT2:dynamic:535fe8cb;Substitution;CT2:T \ Cryptography \ Classical \ Substitution Cipher
 CT2:dynamic:b092d3d0;T-310 / 50;CT2:T \ Cryptography \ Classical \ T-310 \ 50 Cipher Machine
 CT2:dynamic:a99a4ffa;T-310 / 51;CT2:T \ Cryptography \ Classical \ T-310 \ 51 Cipher Machine
@@ -356,7 +356,7 @@ CT2:dynamic:c28aaa61;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES 
 CT2:dynamic:f6737dae;AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion
 CT2:dynamic:a51724fb;AES Visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
 CT2:dynamic:1e45ca9f;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
-CT2:dynamic:998a6b86;Blockmode;CT2:T \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers
+CT2:dynamic:998a6b86;Block mode;CT2:T \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers
 CT2:dynamic:4c9dfd8b;DES;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Cipher
 CT2:dynamic:df11aae3;DES;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
 CT2:dynamic:abe71ce5;DES Visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
@@ -374,7 +374,7 @@ CT2:dynamic:3445c236;Sosemanuk;CT2:T \ Cryptography \ Modern \ Symmetric \ Sosem
 CT2:dynamic:bd4eac56;TEA;CT2:T \ Cryptography \ Modern \ Symmetric \ TEA Cipher
 CT2:dynamic:af5a9271;TripleDES;CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
 CT2:dynamic:64857ba4;Twofish;CT2:T \ Cryptography \ Modern \ Symmetric \ Twofish Cipher
-CT2:dynamic:7935241d;Blockmode Visualizer;CT2:T \ Experimental \ Blockmode Visualizer
+CT2:dynamic:7935241d;Block mode visualizer;CT2:T \ Experimental \ Blockmode Visualizer
 CT2:dynamic:5e7de1a6;CypherMatrix;CT2:T \ Experimental \ CypherMatrix Cipher
 CT2:dynamic:b09f171e;CypherMatrix;CT2:T \ Experimental \ CypherMatrix Cipher (File Input)
 CT2:dynamic:93ff7e36;Encrypted VM;CT2:T \ Experimental \ Encrypted VM (Machine Code Output)
@@ -385,7 +385,7 @@ CT2:dynamic:d36a5f14;General Number Field Sieve (GNFS);CT2:T \ Experimental \ Fa
 CT2:dynamic:af6c864f;Factorization of a Number;CT2:T \ Experimental \ Factorization with NFSFactorizer
 CT2:dynamic:e0c35294;SIGABA Analysis;CT2:T \ Experimental \ SIGABA bruteforce Analysis
 CT2:dynamic:734b4e59;SIGABA Analysis;CT2:T \ Experimental \ SIGABA contraposition Analysis
-CT2:dynamic:ef11eb22;Spanish Strip cipher Analysis;CT2:T \ Experimental \ Spanish Strip Cipher Analyzer
+CT2:dynamic:ef11eb22;Spanish strip cipher analysis;CT2:T \ Experimental \ Spanish Strip Cipher Analyzer
 CT2:dynamic:97db6592;BLAKE;CT2:T \ Hash Functions \ BLAKE
 CT2:dynamic:427a0fbf;CRC;CT2:T \ Hash Functions \ CRC
 CT2:dynamic:4b42ed9a;Dictionary Search;CT2:T \ Hash Functions \ Dictionary Attack on a password hash value
