@@ -64,13 +64,13 @@ def extract_funmaps_in_wsstatic(tool, language):
     """
     dataset = load_legacy_and_infer_ids(tool, language)
     # dataframe = dataset.to_dataframe()
-    return [(entry["functionality"], entry["path"]) for entry in dataset.get_dataframe_dictionaries()]
+    return [(entry["functionality"], entry["path"] + f"    (old_{tool}_{language})") for entry in dataset.get_dataframe_dictionaries()]
 
 def extract_funmaps_in_feedback(file):
     dataframe = pandas.read_csv(file, sep=";", header=None, names=["id", "fun", "pathstr"], keep_default_na=False)
     # print(dataframe)
     dataframe = dataframe[~ dataframe["fun"].str.contains("enter value here")]
-    return list(dataframe.drop(labels="id", axis=1).itertuples(index=False))
+    return [(el[0], el[1] + f"    ({file.name})") for el in dataframe.drop(labels="id", axis=1).itertuples(index=False)]
                                 
 
 # extract_catref_file_in_wsstatic(tool = "CT2", language = "en")
@@ -80,8 +80,8 @@ def extract_funmaps_in_feedback(file):
 dumped = []
 # dumped += extract_funmaps_in_wsstatic("CT2", "en")
 # dumped += extract_funmaps_in_wsstatic("JCT", "en")
-# dumped += extract_funmaps_in_wsstatic("CTO", "en")
-# dumped += extract_funmaps_in_wsstatic("CT1", "en")
+dumped += extract_funmaps_in_wsstatic("CTO", "en")
+dumped += extract_funmaps_in_wsstatic("CT1", "en")
 
 mapped = []
 mapped += extract_funmaps_in_feedback(Path(__file__).parent.parent.parent / "ws-static/data/functionalities_interaction_required_jct.csv")
@@ -116,6 +116,10 @@ if caching:
 if "--list" in sys.argv:
     print("\n".join([el[0] for el in by_name_sorted]))
 
+if "--list-with" in sys.argv:
+    term = sys.argv[sys.argv.index("--list-with") + 1]
+    print("\n".join([el[0] for el in by_name_sorted if term.lower() in el[0].lower()]))
+
 if "--for" in sys.argv:
     # print(by_name_sorted)
     # print([el[1] for el in by_name_sorted])
@@ -146,7 +150,14 @@ if "--all" in sys.argv:
         print("\n".join(el[1]))
         print("")
     
-
+if "--all-with" in sys.argv:
+    term = sys.argv[sys.argv.index("--all-with") + 1]
+    for el in by_name_sorted:
+        if not term.lower() in el[0].lower(): continue
+        print(f"++++ {el[0]}")
+        print("\n".join(el[1]))
+        print("")
+    
 
 
 # with open("/home/simon/sandbox/featurelist/ct_functionlist/ws-static/categories_ct2_en.csv", "wb") as opened:
