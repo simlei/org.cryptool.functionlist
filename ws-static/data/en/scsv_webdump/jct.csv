@@ -35,7 +35,7 @@ JCT:en:static:34;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ CBCmacRC6;3
 JCT:en:static:35;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\ CBCmacSAFER+;3) Hash and MAC Algorithms
 JCT:en:static:36;CBC MACs;JCT:A;JCT:A\ Message Authentication Codes\;3) Hash and MAC Algorithms
 JCT:en:static:37;Certificate verification;JCT:D;JCT:D\ Visualizations\ Certificate Verification;10) Learning Aids and Visualizations
-JCT:en:static:38;Chinese Remainder Theorem Visualization;JCT:D;JCT:D\ Visualizations\ Chinese Remainder Theorem;10) Learning Aids and Visualizations
+JCT:en:static:38;Chinese remainder theorem (CRT) visualization;JCT:D;JCT:D\ Visualizations\ Chinese Remainder Theorem;10) Learning Aids and Visualizations
 JCT:en:static:39;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ CmacAES128;3) Hash and MAC Algorithms
 JCT:en:static:40;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ CmacAES192;3) Hash and MAC Algorithms
 JCT:en:static:41;Cipher-Based MACs (CMAC);JCT:A;JCT:A\ Message Authentication Codes\ CmacAES256;3) Hash and MAC Algorithms
@@ -81,7 +81,7 @@ JCT:en:static:80;Extended Euclidian plus the method of mutual "exhaustion" (anth
 JCT:en:static:81;Feige Fiat Shamir Visualization;JCT:D;JCT:D\ Visualizations\ Feige Fiat Shamir;10) Learning Aids and Visualizations
 JCT:en:static:82;Fiat Shamir Visualization;JCT:D;JCT:D\ Visualizations\ Fiat Shamir;10) Learning Aids and Visualizations
 JCT:en:static:83;FORK-256;JCT:A;JCT:A\ Message Digests\ FORK256;3) Hash and MAC Algorithms
-JCT:en:static:84;Frequency Test;JCT:D;JCT:D\ Analysis\ Frequency Analysis;6) Classic Cryptanalysis
+JCT:en:static:84;Frequency test;JCT:D;JCT:D\ Analysis\ Frequency Analysis;6) Classic Cryptanalysis
 JCT:en:static:85;Friedman Test;JCT:D;JCT:D\ Analysis\ Friedman Test;6) Classic Cryptanalysis
 JCT:en:static:86;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA1 Digital Signatures, PKI
 JCT:en:static:87;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA224 Digital Signatures, PKI
@@ -201,9 +201,9 @@ JCT:en:static:200;Serpent;JCT:A;JCT:A\ Block Ciphers\ Serpent256_ECB Modern Ciph
 JCT:en:static:201;Serpent;JCT:A;JCT:A\ Block Ciphers\ Serpent256_OFB Modern Ciphers
 JCT:en:static:202;SHA;JCT:D;JCT:D\ Algorithms\ Hash\ SHA;3) Hash and MAC Algorithms
 JCT:en:static:203;SHA with DSA;JCT:A;JCT:A\ Signatures\ SHAwithDSA Digital Signatures, PKI
-JCT:en:static:204;SHA-1;JCT:D;JCT:D\ Message Digests\ SHA1 Hash and MAC Algorithms
+JCT:en:static:204;SHA;JCT:D;JCT:D\ Message Digests\ SHA1 Hash and MAC Algorithms
 JCT:en:static:205;SHA-1 (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ SHA1PRNG;5) Random Number Generators
-JCT:en:static:206;SHA-256;JCT:D\A;Message Digests\ SHA256 Hash and MAC Algorithms
+JCT:en:static:206;SHA;JCT:D\A;Message Digests\ SHA256 Hash and MAC Algorithms
 JCT:en:static:207;SHA-3 Candidates;JCT:D;JCT:D\ Algorithms\ Hash\ SHA3-Candidates;3) Hash and MAC Algorithms
 JCT:en:static:208;SHA-384;JCT:A;JCT:A\ Message Digests\ SHA384 Hash and MAC Algorithms
 JCT:en:static:209;SHA-512;JCT:A;JCT:A\ Message Digests\ SHA512 Hash and MAC Algorithms
@@ -217,12 +217,12 @@ JCT:en:static:216;Solving Discrete Logarithm with Babystep-Giantstep;JCT:D;JCT:D
 JCT:en:static:217;SSL (MD5 and SHA1 with RSA);JCT:A;JCT:A\ Signatures\ SSL_MD5andSHA1withRSA;4) Digital Signatures, PKI
 JCT:en:static:218;SSL/TLS Handshake;JCT:D;JCT:D\ Visualizations\ SSL/TLS Handshake;10) Learning Aids and Visualizations
 JCT:en:static:219;Substitution;JCT:D;JCT:D\ Algorithms\ Classic\ Substitution;1) Classic Ciphers
-JCT:en:static:220;Substitution Analysis;JCT:D;JCT:D\ Analysis\ Substitution Analysis;6) Classic Cryptanalysis
+JCT:en:static:220;Substitution analysis;JCT:D;JCT:D\ Analysis\ Substitution Analysis;6) Classic Cryptanalysis
 JCT:en:static:221;Sudoku Solver;JCT:D;JCT:D\ Games\ Sudoku-Solver;11) Games
 JCT:en:static:222;Tiger;JCT:A;JCT:A\ Message Digests\ Tiger Hash and MAC Algorithms
-JCT:en:static:223;Transposition (Double Column);JCT:D;JCT:D\ Algorithms\ Classic\ Transposition;1) Classic Ciphers
-JCT:en:static:224;Transposition (Single Column);JCT:D;JCT:D\ Algorithms\ Classic\ Transposition;1) Classic Ciphers
-JCT:en:static:225;Transposition Analysis;JCT:D;JCT:D\ Analysis\ Transposition Analysis;6) Classic Cryptanalysis
+JCT:en:static:223;Transposition (single and double column);JCT:D;JCT:D\ Algorithms\ Classic\ Transposition;1) Classic Ciphers
+JCT:en:static:224;Transposition (single and double column);JCT:D;JCT:D\ Algorithms\ Classic\ Transposition;1) Classic Ciphers
+JCT:en:static:225;Transposition analysis;JCT:D;JCT:D\ Analysis\ Transposition Analysis;6) Classic Cryptanalysis
 JCT:en:static:226;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TTmac128;3) Hash and MAC Algorithms
 JCT:en:static:227;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTrackMac160;3) Hash and MAC Algorithms
 JCT:en:static:228;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTrackMac32;3) Hash and MAC Algorithms
@@ -231,7 +231,7 @@ JCT:en:static:230;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTr
 JCT:en:static:231;Twofish;JCT:A;JCT:A\ Block Ciphers\ Twofish;2) Modern Ciphers
 JCT:en:static:232;Verifiable Secret Sharing (VSS) Visualization;JCT:D;JCT:D\ Visualizations\ Verifiable Secret Sharing;10) Learning Aids and Visualizations
 JCT:en:static:233;Vigenère;JCT:D;JCT:D\ Algorithms\ Classic\ Vigenère;1) Classic Ciphers
-JCT:en:static:234;Vigenère Analysis;JCT:D;JCT:D\ Analysis\ Vigenère Breaker;6) Classic Cryptanalysis
+JCT:en:static:234;Vigenère analysis;JCT:D;JCT:D\ Analysis\ Vigenère Breaker;6) Classic Cryptanalysis
 JCT:en:static:235;Viterbi Analysis;JCT:D;JCT:D\ Analysis\ Viterbi Analysis;6) Classic Cryptanalysis
 JCT:en:static:236;Viterbi Visualization;JCT:D;JCT:D\ Visuals\ Viterbi;10) Learning Aids and Visualizations
 JCT:en:static:237;VSH;JCT:A;JCT:A\ Message Digests\ VSH;3) Hash and MAC Algorithms

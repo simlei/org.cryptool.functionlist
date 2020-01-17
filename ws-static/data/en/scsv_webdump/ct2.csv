@@ -72,31 +72,31 @@ CT2:en:static:71;Boolean Operator;CT2:C;CT2:C\ Tools\ Boolean\ Boolean Not Opera
 CT2:en:static:72;Caesar;CT2:C;CT2:C\ Classic Ciphers\ Caesar;1) Classic Ciphers
 CT2:en:static:73;Caesar;CT2:T;CT2:T\ Cryptography\ Classical\ Caesar Cipher;1) Classic Ciphers
 CT2:en:static:74;Caesar;CT2:W;CT2:W\ Encryption/Decryption\ Classic Encryption/Decryption\ Caesar;1) Classic Ciphers
-CT2:en:static:75;Caesar Analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Caesar Analyzer;6) Classic Cryptanalysis
-CT2:en:static:76;Caesar Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Analysis using character frequencies;6) Classic Cryptanalysis
-CT2:en:static:77;Caesar Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Brute-force Analysis;6) Classic Cryptanalysis
-CT2:en:static:78;Caesar Analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Caesar;6) Classic Cryptanalysis
+CT2:en:static:75;Caesar analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Caesar Analyzer;6) Classic Cryptanalysis
+CT2:en:static:76;Caesar analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Analysis using character frequencies;6) Classic Cryptanalysis
+CT2:en:static:77;Caesar analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Brute-force Analysis;6) Classic Cryptanalysis
+CT2:en:static:78;Caesar analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Caesar;6) Classic Cryptanalysis
 CT2:en:static:79;Camellia;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Camellia;2) Modern Ciphers
 CT2:en:static:80;Camellia;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Camellia Cipher;2) Modern Ciphers
 CT2:en:static:81;Clock;CT2:C;CT2:C\ Tools\ Data flow\ Clock;14) Tools
 CT2:en:static:82;Coin Flipping Protocol;CT2:C;CT2:C\ Protocols\ Coin Flipping;10) Learning Aids and Visualizations
 CT2:en:static:83;Coin Flipping Protocol;CT2:T;CT2:T\ Protocols\ Coin Flipping Protocol;13) Protocols
-CT2:en:static:84;Cost Function;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Cost Function;7) Modern Cryptanalysis
-CT2:en:static:85;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Brute-force Analysis;7) Modern Cryptanalysis
-CT2:en:static:86;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Crib Analysis;7) Modern Cryptanalysis
-CT2:en:static:87;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Genetic Analysis;7) Modern Cryptanalysis
-CT2:en:static:88;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Hill Climbing Analysis;7) Modern Cryptanalysis
-CT2:en:static:89;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (1);7) Modern Cryptanalysis
-CT2:en:static:90;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (1);7) Modern Cryptanalysis
-CT2:en:static:91;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Analysis using Entropy;7) Modern Cryptanalysis
-CT2:en:static:92;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Known-Plaintext Analysis;7) Modern Cryptanalysis
-CT2:en:static:93;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (2);7) Modern Cryptanalysis
-CT2:en:static:94;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (2);7) Modern Cryptanalysis
-CT2:en:static:95;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Brute-force Analysis;7) Modern Cryptanalysis
-CT2:en:static:96;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Brute-force Analysis;7) Modern Cryptanalysis
-CT2:en:static:97;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Triple DES Brute-force Analysis;7) Modern Cryptanalysis
-CT2:en:static:98;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Analysis using Entropy;7) Modern Cryptanalysis
-CT2:en:static:99;Cost Function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Known-Plaintext Analysis;7) Modern Cryptanalysis
+CT2:en:static:84;Cost function;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Cost Function;7) Modern Cryptanalysis
+CT2:en:static:85;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Brute-force Analysis;7) Modern Cryptanalysis
+CT2:en:static:86;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Crib Analysis;7) Modern Cryptanalysis
+CT2:en:static:87;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Genetic Analysis;7) Modern Cryptanalysis
+CT2:en:static:88;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Hill Climbing Analysis;7) Modern Cryptanalysis
+CT2:en:static:89;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (1);7) Modern Cryptanalysis
+CT2:en:static:90;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (1);7) Modern Cryptanalysis
+CT2:en:static:91;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Analysis using Entropy;7) Modern Cryptanalysis
+CT2:en:static:92;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Known-Plaintext Analysis;7) Modern Cryptanalysis
+CT2:en:static:93;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (2);7) Modern Cryptanalysis
+CT2:en:static:94;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (2);7) Modern Cryptanalysis
+CT2:en:static:95;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Brute-force Analysis;7) Modern Cryptanalysis
+CT2:en:static:96;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Brute-force Analysis;7) Modern Cryptanalysis
+CT2:en:static:97;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Triple DES Brute-force Analysis;7) Modern Cryptanalysis
+CT2:en:static:98;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Analysis using Entropy;7) Modern Cryptanalysis
+CT2:en:static:99;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Known-Plaintext Analysis;7) Modern Cryptanalysis
 CT2:en:static:100;Cramer-Shoup;CT2:C;CT2:C\ Modern Ciphers\ Asymmetric\ Cramer-Shoup;2) Modern Ciphers
 CT2:en:static:101;Cramer-Shoup;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Cramer-Shoup with AES;2) Modern Ciphers
 CT2:en:static:102;Cramer-Shoup;CT2:C;CT2:C\ Modern Ciphers\ Asymmetric\ Cramer-Shoup Key Generator;2) Modern Ciphers
@@ -248,16 +248,16 @@ CT2:en:static:247;DES Brute-Force Attack;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES
 CT2:en:static:248;DES Brute-Force Attack;CT2:W;CT2:W\ Start\ Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ DES*;7) Modern Cryptanalysis
 CT2:en:static:249;DES Visualization;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ DESVisualization;10) Learning Aids and Visualizations
 CT2:en:static:250;DES Visualization;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ DES Visualization;10) Learning Aids and Visualizations
-CT2:en:static:251;Dictionary Search;CT2:C;CT2:C\ Tools\ Data input/output\ Dictionary;6) Classic Cryptanalysis
-CT2:en:static:252;Dictionary Search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Brute-force Analysis;6) Classic Cryptanalysis
-CT2:en:static:253;Dictionary Search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Scytale Brute-force Analysis;6) Classic Cryptanalysis
-CT2:en:static:254;Dictionary Search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Solitaire Brute-force Analysis;6) Classic Cryptanalysis
-CT2:en:static:255;Dictionary Search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Wordpattern Analysis;6) Classic Cryptanalysis
-CT2:en:static:256;Dictionary Search;CT2:T;CT2:T\ Hash Functions\ Dictionary Attack;6) Classic Cryptanalysis
-CT2:en:static:257;Dining Cryptographers Protocol;CT2:T;CT2:T\ Protocols\ Dining Cryptographers Protocol;10) Learning Aids and Visualizations
-CT2:en:static:258;Dining Cryptographers Protocol;CT2:T;CT2:T\ Protocols\ Dining Cryptographers Protocol;13) Protocols
-CT2:en:static:259;Discrete Logarithm;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Discrete Logarithm;7) Modern Cryptanalysis
-CT2:en:static:260;Discrete Logarithm;CT2:T;CT2:T\ Mathematics\ Discrete Logarithm;7) Modern Cryptanalysis
+CT2:en:static:251;Dictionary search;CT2:C;CT2:C\ Tools\ Data input/output\ Dictionary;6) Classic Cryptanalysis
+CT2:en:static:252;Dictionary search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Brute-force Analysis;6) Classic Cryptanalysis
+CT2:en:static:253;Dictionary search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Scytale Brute-force Analysis;6) Classic Cryptanalysis
+CT2:en:static:254;Dictionary search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Solitaire Brute-force Analysis;6) Classic Cryptanalysis
+CT2:en:static:255;Dictionary search;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Wordpattern Analysis;6) Classic Cryptanalysis
+CT2:en:static:256;Dictionary search;CT2:T;CT2:T\ Hash Functions\ Dictionary Attack;6) Classic Cryptanalysis
+CT2:en:static:257;Dining cryptographers protocol;CT2:T;CT2:T\ Protocols\ Dining Cryptographers Protocol;10) Learning Aids and Visualizations
+CT2:en:static:258;Dining cryptographers protocol;CT2:T;CT2:T\ Protocols\ Dining Cryptographers Protocol;13) Protocols
+CT2:en:static:259;Discrete logarithm;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Discrete Logarithm;7) Modern Cryptanalysis
+CT2:en:static:260;Discrete logarithm;CT2:T;CT2:T\ Mathematics\ Discrete Logarithm;7) Modern Cryptanalysis
 CT2:en:static:261;Dynamic Group Keying (DGK);CT2:C;CT2:C\ Modern Ciphers\ Asymmetric\ DGK;2) Modern Ciphers
 CT2:en:static:262;Dynamic Group Keying (DGK);CT2:C;CT2:C\ Modern Ciphers\ Asymmetric\ DGK Key Generator;2) Modern Ciphers
 CT2:en:static:263;Enigma;CT2:C;CT2:C\ Classic Ciphers\ Enigma;1) Classic Ciphers
@@ -270,10 +270,10 @@ CT2:en:static:269;Enigma Attacker;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Enigma 
 CT2:en:static:270;Enigma Attacker;CT2:W;CT2:W\ Start\ Cryptanalysis\ Classic Encryption\ Enigma;6) Classic Cryptanalysis
 CT2:en:static:271;Enigma Visualization;CT2:C;CT2:C\ Classic Ciphers\ Enigma;10) Learning Aids and Visualizations
 CT2:en:static:272;Entropy;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Cost Function;6) Classic Cryptanalysis
-CT2:en:static:273;Factorization of a Number;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Factorization\ Quadratic Sieve;12) Prime numbers
-CT2:en:static:274;Factorization of a Number;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Factorization\ Brute-force;12) Prime numbers
-CT2:en:static:275;Factorization of a Number;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Factorizer;12) Prime numbers
-CT2:en:static:276;Factorization of a Number;CT2:T;CT2:T\ Mathematics\ Factorization with Trial Division (brute-force);12) Prime numbers
+CT2:en:static:273;Factorization of a number;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Factorization\ Quadratic Sieve;12) Prime numbers
+CT2:en:static:274;Factorization of a number;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Factorization\ Brute-force;12) Prime numbers
+CT2:en:static:275;Factorization of a number;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Factorizer;12) Prime numbers
+CT2:en:static:276;Factorization of a number;CT2:T;CT2:T\ Mathematics\ Factorization with Trial Division (brute-force);12) Prime numbers
 CT2:en:static:277;Fialka;CT2:C;CT2:C\ Classic Ciphers\ Fialka;6) Classic Cryptanalysis
 CT2:en:static:278;Fialka;CT2:T;CT2:T\ Cryptography\ Classical\ Fialka ED Check;6) Classic Cryptanalysis
 CT2:en:static:279;Fialka;CT2:T;CT2:T\ Cryptography\ Classical\ Fialka ED Mixed Mode Check;6) Classic Cryptanalysis
@@ -281,33 +281,33 @@ CT2:en:static:280;Fialka;CT2:T;CT2:T\ Cryptography\ Classical\ Fialka ED NumLock
 CT2:en:static:281;Fialka;CT2:T;CT2:T\ Cryptography\ Classical\ Fialka Key Output;6) Classic Cryptanalysis
 CT2:en:static:282;Fialka;CT2:T;CT2:T\ Cryptography\ Classical\ Fialka M-125-3 PROTON II;6) Classic Cryptanalysis
 CT2:en:static:283;Fialka;CT2:T;CT2:T\ Cryptography\ Classical\ Fialka M-125 PROTON I;6) Classic Cryptanalysis
-CT2:en:static:284;Frequency Test;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Frequency Test;6) Classic Cryptanalysis
-CT2:en:static:285;Frequency Test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Analysis using character frequencies;6) Classic Cryptanalysis
-CT2:en:static:286;Frequency Test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Enigma Analysis;6) Classic Cryptanalysis
-CT2:en:static:287;Frequency Test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Frequency Analysis;6) Classic Cryptanalysis
-CT2:en:static:288;Frequency Test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers;6) Classic Cryptanalysis
+CT2:en:static:284;Frequency test;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Frequency Test;6) Classic Cryptanalysis
+CT2:en:static:285;Frequency test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Caesar Analysis using character frequencies;6) Classic Cryptanalysis
+CT2:en:static:286;Frequency test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Enigma Analysis;6) Classic Cryptanalysis
+CT2:en:static:287;Frequency test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Frequency Analysis;6) Classic Cryptanalysis
+CT2:en:static:288;Frequency test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers;6) Classic Cryptanalysis
 CT2:en:static:289;Friedman Test;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Friedman Test;6) Classic Cryptanalysis
 CT2:en:static:290;Friedman Test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Enigma Analysis;6) Classic Cryptanalysis
 CT2:en:static:291;Friedman Test;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers;6) Classic Cryptanalysis
-CT2:en:static:292;General Number Field Sieve (GNFS);CT2:C;CT2:C\ Cryptanalysis\ Generic\ General Number Field Sieve;7) Modern Cryptanalysis
-CT2:en:static:293;General Number Field Sieve (GNFS);CT2:T;CT2:T\ Mathematics\ Factorization with General Number Field Sieve (GNFS);7) Modern Cryptanalysis
-CT2:en:static:294;Generation of Prime Numbers;CT2:C;CT2:C\ Tools\ Data input/output\ Prime Generator;12) Prime numbers
-CT2:en:static:295;Generation of Prime Numbers;CT2:T;CT2:T\ Codes\ QR Code Encryption;12) Prime numbers
-CT2:en:static:296;Generation of Prime Numbers;CT2:T;CT2:T\ Mathematics\ Primes Generator;12) Prime numbers
-CT2:en:static:297;Generation of Prime Numbers;CT2:T;CT2:T\ Protocols\ Diffie-Hellman Key-Exchange over network;12) Prime numbers
-CT2:en:static:298;Generation of Prime Numbers;CT2:T;CT2:T\ Tools\ Diffie-Hellman AES Video Audio Chat;12) Prime numbers
-CT2:en:static:299;Generation of Prime Numbers;CT2:W;CT2:W\ Mathematical Functions\ Prime Operations\ Prime Number Generation;12) Prime numbers
-CT2:en:static:300;Generation of Prime Numbers;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Generation of primes\ Generation of primes;12) Prime numbers
-CT2:en:static:301;Grain v1;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Grain v1;2) Modern Ciphers
-CT2:en:static:302;Grain v1;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Grain v1 Cipher;2) Modern Ciphers
+CT2:en:static:292;Factorization of a number;CT2:C;CT2:C\ Cryptanalysis\ Generic\ General Number Field Sieve;7) Modern Cryptanalysis
+CT2:en:static:293;Factorization of a number;CT2:T;CT2:T\ Mathematics\ Factorization with General Number Field Sieve (GNFS);7) Modern Cryptanalysis
+CT2:en:static:294;Primes;CT2:C;CT2:C\ Tools\ Data input/output\ Prime Generator;12) Prime numbers
+CT2:en:static:295;Primes;CT2:T;CT2:T\ Codes\ QR Code Encryption;12) Prime numbers
+CT2:en:static:296;Primes;CT2:T;CT2:T\ Mathematics\ Primes Generator;12) Prime numbers
+CT2:en:static:297;Primes;CT2:T;CT2:T\ Protocols\ Diffie-Hellman Key-Exchange over network;12) Prime numbers
+CT2:en:static:298;Primes;CT2:T;CT2:T\ Tools\ Diffie-Hellman AES Video Audio Chat;12) Prime numbers
+CT2:en:static:299;Primes;CT2:W;CT2:W\ Mathematical Functions\ Prime Operations\ Prime Number Generation;12) Prime numbers
+CT2:en:static:300;Primes;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Generation of primes\ Generation of primes;12) Prime numbers
+CT2:en:static:301;Grain;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Grain v1;2) Modern Ciphers
+CT2:en:static:302;Grain;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Grain v1 Cipher;2) Modern Ciphers
 CT2:en:static:303;Grøstl;CT2:C;CT2:C\ Hash functions\ Grøstl;3) Hash and MAC Algorithms
 CT2:en:static:304;Grøstl;CT2:T;CT2:T\ Hash Functions\ Grøstl;3) Hash and MAC Algorithms
 CT2:en:static:305;Grøstl;CT2:T;CT2:T\ Hash Functions\ Password storage using salted Grøstl-256;3) Hash and MAC Algorithms
 CT2:en:static:306;Grøstl;CT2:T;CT2:T\ Hash Functions\ Password verification using salted Grøstl-256;3) Hash and MAC Algorithms
-CT2:en:static:307;Hamming Distance;CT2:C;CT2:C\ Tools\ Misc\ HammingDistance;9) Codings
-CT2:en:static:308;Hamming Distance;CT2:T;CT2:T\ Hash Functions\ ImageHash;9) Codings
-CT2:en:static:309;Hamming Distance;CT2:T;CT2:T\ Hash Functions\ ImageHash -- smooth comparison;9) Codings
-CT2:en:static:310;Hamming Distance;CT2:T;CT2:T\ Mathematics\ Hamming Distance;9) Codings
+CT2:en:static:307;Hamming distance;CT2:C;CT2:C\ Tools\ Misc\ HammingDistance;9) Codings
+CT2:en:static:308;Hamming distance;CT2:T;CT2:T\ Hash Functions\ ImageHash;9) Codings
+CT2:en:static:309;Hamming distance;CT2:T;CT2:T\ Hash Functions\ ImageHash -- smooth comparison;9) Codings
+CT2:en:static:310;Hamming distance;CT2:T;CT2:T\ Mathematics\ Hamming Distance;9) Codings
 CT2:en:static:311;HC128;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ HC128;2) Modern Ciphers
 CT2:en:static:312;HC128;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ HC128 Cipher;2) Modern Ciphers
 CT2:en:static:313;Heartbleed analysis;CT2:W;CT2:W\ Tools\ Heartbleed analysis;7) Modern Cryptanalysis
@@ -327,27 +327,27 @@ CT2:en:static:326;IDP Analyzer;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Dictionary
 CT2:en:static:327;ImageHash;CT2:C;CT2:C\ Hash functions\ ImageHash;3) Hash and MAC Algorithms
 CT2:en:static:328;ImageHash;CT2:T;CT2:T\ Hash Functions\ ImageHash;3) Hash and MAC Algorithms
 CT2:en:static:329;ImageHash;CT2:T;CT2:T\ Hash Functions\ ImageHash -- smooth comparison;3) Hash and MAC Algorithms
-CT2:en:static:330;Insertion Steganography;CT2:C;CT2:C\ Steganography\ Insertion Steganography;8) Steganography
-CT2:en:static:331;Insertion Steganography;CT2:T;CT2:T\ Steganography\ Steganography Insertion Decryption;8) Steganography
-CT2:en:static:332;Insertion Steganography;CT2:T;CT2:T\ Steganography\ Steganography Insertion Encryption;8) Steganography
-CT2:en:static:333;Insertion Steganography;CT2:T;CT2:T\ Steganography\ Steganography Permutation Encryption;8) Steganography
+CT2:en:static:330;Steganography;CT2:C;CT2:C\ Steganography\ Insertion Steganography;8) Steganography
+CT2:en:static:331;Steganography;CT2:T;CT2:T\ Steganography\ Steganography Insertion Decryption;8) Steganography
+CT2:en:static:332;Steganography;CT2:T;CT2:T\ Steganography\ Steganography Insertion Encryption;8) Steganography
+CT2:en:static:333;Steganography;CT2:T;CT2:T\ Steganography\ Steganography Permutation Encryption;8) Steganography
 CT2:en:static:334;JAMCRC;CT2:C;CT2:C\ Hash Functions\ CRC;3) Hash and MAC Algorithms
 CT2:en:static:335;JAMCRC;CT2:T;CT2:T\ Hash Functions\ CRC;3) Hash and MAC Algorithms
 CT2:en:static:336;Kasiski Test;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Kasiski Test;6) Classic Cryptanalysis
 CT2:en:static:337;KERMIT;CT2:C;CT2:C\ Hash Functions\ CRC;3) Hash and MAC Algorithms
 CT2:en:static:338;KERMIT;CT2:T;CT2:T\ Hash Functions\ CRC;3) Hash and MAC Algorithms
-CT2:en:static:339;Key Searcher;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Key Searcher;7) Modern Cryptanalysis
-CT2:en:static:340;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (1);7) Modern Cryptanalysis
-CT2:en:static:341;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (1);7) Modern Cryptanalysis
-CT2:en:static:342;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Analysis using Entropy;7) Modern Cryptanalysis
-CT2:en:static:343;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Known-Plaintext Analysis;7) Modern Cryptanalysis
-CT2:en:static:344;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (2);7) Modern Cryptanalysis
-CT2:en:static:345;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (2);7) Modern Cryptanalysis
-CT2:en:static:346;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Brute-force Analysis;7) Modern Cryptanalysis
-CT2:en:static:347;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Brute-force Analysis;7) Modern Cryptanalysis
-CT2:en:static:348;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Triple DES Brute-force Analysis;7) Modern Cryptanalysis
-CT2:en:static:349;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Analysis using Entropy;7) Modern Cryptanalysis
-CT2:en:static:350;Key Searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Known-Plaintext Analysis;7) Modern Cryptanalysis
+CT2:en:static:339;Key searcher;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Key Searcher;7) Modern Cryptanalysis
+CT2:en:static:340;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (1);7) Modern Cryptanalysis
+CT2:en:static:341;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (1);7) Modern Cryptanalysis
+CT2:en:static:342;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Analysis using Entropy;7) Modern Cryptanalysis
+CT2:en:static:343;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Known-Plaintext Analysis;7) Modern Cryptanalysis
+CT2:en:static:344;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Analysis using Entropy (2);7) Modern Cryptanalysis
+CT2:en:static:345;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (2);7) Modern Cryptanalysis
+CT2:en:static:346;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ DES Brute-force Analysis;7) Modern Cryptanalysis
+CT2:en:static:347;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Brute-force Analysis;7) Modern Cryptanalysis
+CT2:en:static:348;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Triple DES Brute-force Analysis;7) Modern Cryptanalysis
+CT2:en:static:349;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Analysis using Entropy;7) Modern Cryptanalysis
+CT2:en:static:350;Key searcher;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES Known-Plaintext Analysis;7) Modern Cryptanalysis
 CT2:en:static:351;Lattice-Based Attacks - Merkle-Hellman;CT2:N;CT2:N\ Crypto tutorials\ Lattice-based cryptography\ Lattice-based cryptanalysis\ Merkle-Hellman Knapsack;10) Learning Aids and Visualizations
 CT2:en:static:352;Lattice-Based Attacks - RSA;CT2:N;CT2:N\ Crypto tutorials\ Lattice-based cryptography\ Lattice-based cryptanalysis\ RSA (Coppersmith's attack);10) Learning Aids and Visualizations
 CT2:en:static:353;Lattice-Based Cryptosystems - GGH;CT2:N;CT2:N\ Crypto tutorials\ Lattice-based cryptography\ Lattice-based cryptography\ GGH;10) Learning Aids and Visualizations
@@ -379,8 +379,8 @@ CT2:en:static:378;MD5;CT2:T;CT2:T\ Hash Functions\ MD5;3) Hash and MAC Algorithm
 CT2:en:static:379;MD5;CT2:T;CT2:T\ Hash Functions\ MD5 Collision Finder;3) Hash and MAC Algorithms
 CT2:en:static:380;MD5;CT2:T;CT2:T\ Hash Functions\ MD5 Salted Hash Comparison;3) Hash and MAC Algorithms
 CT2:en:static:381;MD5;CT2:W;CT2:W\ Cryptanalysis\ Modern Encryption\ Hash Functions\ MD5;3) Hash and MAC Algorithms
-CT2:en:static:382;MD5 Collisions;CT2:C;CT2:C\ Hash functions\ MD5 Collider;7) Modern Cryptanalysis
-CT2:en:static:383;MD5 Collisions;CT2:T;CT2:T\ Hash Functions\ MD5 Collision Finder;7) Modern Cryptanalysis
+CT2:en:static:382;MD5 attack (collisions);CT2:C;CT2:C\ Hash functions\ MD5 Collider;7) Modern Cryptanalysis
+CT2:en:static:383;MD5 attack (collisions);CT2:T;CT2:T\ Hash Functions\ MD5 Collision Finder;7) Modern Cryptanalysis
 CT2:en:static:384;Mickey 2;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Mickey 2;2) Modern Ciphers
 CT2:en:static:385;Mickey 2;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Mickey2 Cipher;2) Modern Ciphers
 CT2:en:static:386;MODBUS;CT2:C;CT2:C\ Hash Functions\ CRC;3) Hash and MAC Algorithms
@@ -401,14 +401,14 @@ CT2:en:static:400;Number Theory;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ 
 CT2:en:static:401;Number Theory;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Number theory\ Powering;10) Learning Aids and Visualizations
 CT2:en:static:402;Number Theory;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Number theory\ Number-theoretic functions;10) Learning Aids and Visualizations
 CT2:en:static:403;Number Theory;CT2:N;CT2:N\ Crypto tutorials\ World of Primes\ Number theory\ Primitive roots;10) Learning Aids and Visualizations
-CT2:en:static:404;Oblivious Transfer Protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 1;10) Learning Aids and Visualizations
-CT2:en:static:405;Oblivious Transfer Protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);10) Learning Aids and Visualizations
-CT2:en:static:406;Oblivious Transfer Protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 2;10) Learning Aids and Visualizations
-CT2:en:static:407;Oblivious Transfer Protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);10) Learning Aids and Visualizations
-CT2:en:static:408;Oblivious Transfer Protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 1;13) Protocols
-CT2:en:static:409;Oblivious Transfer Protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);13) Protocols
-CT2:en:static:410;Oblivious Transfer Protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 2;13) Protocols
-CT2:en:static:411;Oblivious Transfer Protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);13) Protocols
+CT2:en:static:404;Oblivious transfer protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 1;10) Learning Aids and Visualizations
+CT2:en:static:405;Oblivious transfer protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);10) Learning Aids and Visualizations
+CT2:en:static:406;Oblivious transfer protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 2;10) Learning Aids and Visualizations
+CT2:en:static:407;Oblivious transfer protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);10) Learning Aids and Visualizations
+CT2:en:static:408;Oblivious transfer protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 1;13) Protocols
+CT2:en:static:409;Oblivious transfer protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);13) Protocols
+CT2:en:static:410;Oblivious transfer protocol;CT2:C;CT2:C\ Protocols\ Oblivious Transfer 2;13) Protocols
+CT2:en:static:411;Oblivious transfer protocol;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);13) Protocols
 CT2:en:static:412;Padding Oracle;CT2:C;CT2:C\ Tools\ Misc\ Padding Oracle;7) Modern Cryptanalysis
 CT2:en:static:413;Padding Oracle;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Padding Oracle Attack on AES;7) Modern Cryptanalysis
 CT2:en:static:414;Padding Oracle;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Padding Oracle Attack on DES;7) Modern Cryptanalysis
@@ -417,22 +417,22 @@ CT2:en:static:416;Padding Oracle Attack against AES;CT2:T;CT2:T\ Cryptanalysis\ 
 CT2:en:static:417;Padding Oracle Attack against AES;CT2:C;CT2:C\ Tools\ Misc\ Padding Oracle Attack;7) Modern Cryptanalysis
 CT2:en:static:418;Padding Oracle Attack against DES;CT2:C;CT2:C\ Tools\ Misc\ Padding Oracle Attack;7) Modern Cryptanalysis
 CT2:en:static:419;Padding Oracle Attack against DES;CT2:T;CT2:T\ Cryptanalysis\ Modern\ Padding Oracle Attack on DES;7) Modern Cryptanalysis
-CT2:en:static:420;Paillier Cryptosystem;CT2:C;CT2:C\ Modern Ciphers\ Asymmetric\ Paillier;2) Modern Ciphers
-CT2:en:static:421;Paillier Cryptosystem;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Number Input);2) Modern Ciphers
-CT2:en:static:422;Paillier Cryptosystem;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Addition;2) Modern Ciphers
-CT2:en:static:423;Paillier Cryptosystem;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Blinding;2) Modern Ciphers
-CT2:en:static:424;Paillier Cryptosystem;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Key Generator;2) Modern Ciphers
-CT2:en:static:425;Paillier Cryptosystem;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Text Input);2) Modern Ciphers
-CT2:en:static:426;Paillier Cryptosystem;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Voting);2) Modern Ciphers
+CT2:en:static:420;Paillier signature;CT2:C;CT2:C\ Modern Ciphers\ Asymmetric\ Paillier;2) Modern Ciphers
+CT2:en:static:421;Paillier signature;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Number Input);2) Modern Ciphers
+CT2:en:static:422;Paillier signature;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Addition;2) Modern Ciphers
+CT2:en:static:423;Paillier signature;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Blinding;2) Modern Ciphers
+CT2:en:static:424;Paillier signature;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Key Generator;2) Modern Ciphers
+CT2:en:static:425;Paillier signature;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Text Input);2) Modern Ciphers
+CT2:en:static:426;Paillier signature;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Voting);2) Modern Ciphers
 CT2:en:static:427;Password Quality Visualization;CT2:C;CT2:C\ Tools\ Misc\ PasswordStrength;10) Learning Aids and Visualizations
 CT2:en:static:428;Password Quality Visualization;CT2:T;CT2:T\ Tools\ Password Generator;10) Learning Aids and Visualizations
 CT2:en:static:429;Password Quality Visualization;CT2:T;CT2:T\ Tools\ Check Password Strength;10) Learning Aids and Visualizations
 CT2:en:static:430;Password Quality Visualization;CT2:W;CT2:W\ Tools\ Password Strength;10) Learning Aids and Visualizations
 CT2:en:static:431;Password Store Using Salted SHA-1;CT2:T;CT2:T\ Hash Functions\ Password store using salted SHA-1;3) Hash and MAC Algorithms
 CT2:en:static:432;Password Verification Using Salted SHA-1;CT2:T;CT2:T\ Hash Functions\ Password verification using salted SHA-1;3) Hash and MAC Algorithms
-CT2:en:static:433;Permutation Steganography;CT2:C;CT2:C\ Steganography\ Permutation Steganography;8) Steganography
-CT2:en:static:434;Permutation Steganography;CT2:T;CT2:T\ Steganography\ Steganography Permutation Decryption;8) Steganography
-CT2:en:static:435;Permutation Steganography;CT2:T;CT2:T\ Steganography\ Steganography Permutation Image Transfer;8) Steganography
+CT2:en:static:433;Steganography;CT2:C;CT2:C\ Steganography\ Permutation Steganography;8) Steganography
+CT2:en:static:434;Steganography;CT2:T;CT2:T\ Steganography\ Steganography Permutation Decryption;8) Steganography
+CT2:en:static:435;Steganography;CT2:T;CT2:T\ Steganography\ Steganography Permutation Image Transfer;8) Steganography
 CT2:en:static:436;PKCS#1 Attack (Bleichenbacher) Visualization;CT2:N;CT2:N\ Crypto Tutorials\ Attack on PKCS#1\ Attacks on PKCS#1\ Bleichenbacher attack;10) Learning Aids and Visualizations
 CT2:en:static:437;PKCS#1 Attack (Kuehn) Visualization;CT2:N;CT2:N\ Crypto Tutorials\ Attack on PKCS#1\ Attacks on PKCS#1\ Attack with shorter keys (Kuehn);10) Learning Aids and Visualizations
 CT2:en:static:438;PKCS#5;CT2:C;CT2:C\ Hash functions\ PKCS#5;3) Hash and MAC Algorithms
@@ -454,18 +454,18 @@ CT2:en:static:453;Prime Distribution;CT2:N;CT2:N\ Crypto Tutorials\ World of Pri
 CT2:en:static:454;Prime Distribution;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Distribution of Primes\ Number grid;12) Prime numbers
 CT2:en:static:455;Prime Distribution;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Distribution of Primes\ Number of primes;12) Prime numbers
 CT2:en:static:456;Prime Distribution;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Distribution of Primes\ Ulam's spiral;12) Prime numbers
-CT2:en:static:457;Prime Number Test;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Prime Test;12) Prime numbers
-CT2:en:static:458;Prime Number Test;CT2:T;CT2:T\ Mathematics\ Primes Test;12) Prime numbers
-CT2:en:static:459;Prime Number Test;CT2:W;CT2:W\ Start\ Mathematical Functions\ Prime Operations\ Prime Number Test;12) Prime numbers
-CT2:en:static:460;Prime Number Test;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Primality Test\ Sieve of Erastosthenes;12) Prime numbers
-CT2:en:static:461;Prime Number Test;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Primality Test\ Miller-Rabin test;12) Prime numbers
-CT2:en:static:462;Prime Number Test;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Primality Test\ Sieve of Atkin;12) Prime numbers
-CT2:en:static:463;Prime Number Test;CT2:W;CT2:W\ Mathematical Functions\ Prime Factorization;12) Prime numbers
+CT2:en:static:457;Primes test;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Prime Test;12) Prime numbers
+CT2:en:static:458;Primes test;CT2:T;CT2:T\ Mathematics\ Primes Test;12) Prime numbers
+CT2:en:static:459;Primes test;CT2:W;CT2:W\ Start\ Mathematical Functions\ Prime Operations\ Prime Number Test;12) Prime numbers
+CT2:en:static:460;Primes test;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Primality Test\ Sieve of Erastosthenes;12) Prime numbers
+CT2:en:static:461;Primes test;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Primality Test\ Miller-Rabin test;12) Prime numbers
+CT2:en:static:462;Primes test;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes\ Primality Test\ Sieve of Atkin;12) Prime numbers
+CT2:en:static:463;Primes test;CT2:W;CT2:W\ Mathematical Functions\ Prime Factorization;12) Prime numbers
 CT2:en:static:464;Prime Number Tutorial;CT2:N;CT2:N\ Crypto Tutorials\ World of Primes;12) Prime numbers
 CT2:en:static:465;Purple;CT2:C;CT2:C\ Classic Ciphers\ Purple;1) Classic Ciphers
 CT2:en:static:466;Purple;CT2:T;CT2:T\ Cryptography\ Classical\ PURPLE Cipher Machine;1) Classic Ciphers
-CT2:en:static:467;Quadratic Sieve (QS);CT2:C;CT2:C\ Cryptanalysis\ Generic\ Quadratic Sieve (QS);7) Modern Cryptanalysis
-CT2:en:static:468;Quadratic Sieve (QS);CT2:T;CT2:T\ Mathematics\ Factorization with Quadratic Sieve;7) Modern Cryptanalysis
+CT2:en:static:467;Factorization of a number;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Quadratic Sieve (QS);7) Modern Cryptanalysis
+CT2:en:static:468;Factorization of a number;CT2:T;CT2:T\ Mathematics\ Factorization with Quadratic Sieve;7) Modern Cryptanalysis
 CT2:en:static:469;Rabbit;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Rabbit;2) Modern Ciphers
 CT2:en:static:470;Rabbit;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Rabbit Cipher;2) Modern Ciphers
 CT2:en:static:471;RC2;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ RC2;2) Modern Ciphers
@@ -497,7 +497,7 @@ CT2:en:static:496;RSA;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ RSA Cipher;
 CT2:en:static:497;RSA;CT2:T;CT2:T\ Cryptography\ Modern\ Asymmetric\ RSA Key Generator;2) Modern Ciphers
 CT2:en:static:498;RSA;CT2:T;CT2:T\ Protocols\ Oblivious Transfer Protocol (1 out of n);2) Modern Ciphers
 CT2:en:static:499;RSA;CT2:T;CT2:T\ Protocols\ Yao's Millionaire Problem;2) Modern Ciphers
-CT2:en:static:500;RSA Attacks;CT2:W;CT2:W\ Start\ Cryptanalysis\ Modern Encryption\ Asymmetric Encryption\ RSA;7) Modern Cryptanalysis
+CT2:en:static:500;RSA attack;CT2:W;CT2:W\ Start\ Cryptanalysis\ Modern Encryption\ Asymmetric Encryption\ RSA;7) Modern Cryptanalysis
 CT2:en:static:501;Salsa20;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Salsa20;2) Modern Ciphers
 CT2:en:static:502;Salsa20;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Salsa20 Cipher;2) Modern Ciphers
 CT2:en:static:503;SAT Solver;CT2:C;CT2:C\ Tools\ Misc\ SAT Solver;10) Learning Aids and Visualizations
@@ -508,8 +508,8 @@ CT2:en:static:507;Scytale;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Scytale Brute-f
 CT2:en:static:508;Scytale;CT2:T;CT2:T\ Cryptography\ Classical\ Scytale Cipher;1) Classic Ciphers
 CT2:en:static:509;Scytale;CT2:W;CT2:W\ Encryption/Decryption\ Classic Encryption/Decryption\ Scytale;1) Classic Ciphers
 CT2:en:static:510;Scytale;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Scytale;1) Classic Ciphers
-CT2:en:static:511;Scytale Analysis;CT2:T;CT2:T\ Cryptanalysis\ Scytale Brute-force Analysis;6) Classic Cryptanalysis
-CT2:en:static:512;Scytale Analysis;CT2:W;CT2:W\ Start\ Cryptanalysis\ Classic Encryption\ Scytale;6) Classic Cryptanalysis
+CT2:en:static:511;Scytale analysis;CT2:T;CT2:T\ Cryptanalysis\ Scytale Brute-force Analysis;6) Classic Cryptanalysis
+CT2:en:static:512;Scytale analysis;CT2:W;CT2:W\ Start\ Cryptanalysis\ Classic Encryption\ Scytale;6) Classic Cryptanalysis
 CT2:en:static:513;SDES Brute-Force Attack;CT2:C;CT2:C\ Cryptanalysis\ Specific\ KeySearcher;7) Modern Cryptanalysis
 CT2:en:static:514;SDES Brute-Force Attack;CT2:T;CT2:T\ Cryptanalysis\ Modern\ SDES*;7) Modern Cryptanalysis
 CT2:en:static:515;SDES Brute-Force Attack;CT2:W;CT2:W\ Start\ Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ SDES*;7) Modern Cryptanalysis
@@ -523,8 +523,8 @@ CT2:en:static:522;SHA;CT2:T;CT2:T\ Protocols\ Coin Flipping Protocol;3) Hash and
 CT2:en:static:523;SHA;CT2:T;CT2:T\ Hash Functions\ SHA-256;3) Hash and MAC Algorithms
 CT2:en:static:524;SHA;CT2:T;CT2:T\ Tools\ Password Generator;3) Hash and MAC Algorithms
 CT2:en:static:525;SHA;CT2:T;CT2:T\ Tools\ Simple AES Chat;3) Hash and MAC Algorithms
-CT2:en:static:526;SHA-1;CT2:C;CT2:C\ Hash functions\ SHA;3) Hash and MAC Algorithms
-CT2:en:static:527;SHA-256;CT2:C;CT2:C\ Hash functions\ SHA;3) Hash and MAC Algorithms
+CT2:en:static:526;SHA;CT2:C;CT2:C\ Hash functions\ SHA;3) Hash and MAC Algorithms
+CT2:en:static:527;SHA;CT2:C;CT2:C\ Hash functions\ SHA;3) Hash and MAC Algorithms
 CT2:en:static:528;SHA-3 (Keccak);CT2:C;CT2:C\ Hash functions\ SHA;3) Hash and MAC Algorithms
 CT2:en:static:529;SHA-3 (Keccak) (PRNG);CT2:C;CT2:C\ Hash functions\ Keccak;5) Random Number Generators
 CT2:en:static:530;SHA-3 (Keccak) (PRNG);CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Keccak Cipher;5) Random Number Generators
@@ -543,8 +543,8 @@ CT2:en:static:542;Simplified DES;CT2:W;CT2:W\ Encryption/Decryption\ Modern Encr
 CT2:en:static:543;Simplified DES;CT2:W;CT2:W\ Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ SDES\ Ciphertext-only;2) Modern Ciphers
 CT2:en:static:544;Solitaire;CT2:C;CT2:C\ Classic Ciphers\ Solitaire;1) Classic Ciphers
 CT2:en:static:545;Solitaire;CT2:T;CT2:T\ Cryptography\ Classical\ Solitaire Cipher;1) Classic Ciphers
-CT2:en:static:546;Solitaire Analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ SolitaireAnalyser;6) Classic Cryptanalysis
-CT2:en:static:547;Solitaire Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Solitaire Brute-force Analysis;6) Classic Cryptanalysis
+CT2:en:static:546;Solitaire analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ SolitaireAnalyser;6) Classic Cryptanalysis
+CT2:en:static:547;Solitaire analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Solitaire Brute-force Analysis;6) Classic Cryptanalysis
 CT2:en:static:548;Sosemanuk;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Sosemanuk;2) Modern Ciphers
 CT2:en:static:549;Sosemanuk;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Sosemanuk Cipher;2) Modern Ciphers
 CT2:en:static:550;Spanish strip cipher;CT2:C;CT2:C\ Classic Ciphers\ Spanish Strip Cipher;1) Classic Ciphers
@@ -558,28 +558,28 @@ CT2:en:static:557;Substitution;CT2:T;CT2:T\ Cryptography\ Classical\ Substitutio
 CT2:en:static:558;Substitution;CT2:T;CT2:T\ Cryptography\ Classical\ Substitution Cipher using a password;1) Classic Ciphers
 CT2:en:static:559;Substitution;CT2:T;CT2:T\ Tools\ Split a text;1) Classic Ciphers
 CT2:en:static:560;Substitution;CT2:W;CT2:W\ Encryption/Decryption\ Classic Encryption/Decryption\ Substitution;1) Classic Ciphers
-CT2:en:static:561;T-310\50;CT2:C;CT2:C\ Classic Ciphers\ T-310\50;1) Classic Ciphers
-CT2:en:static:562;T-310\50;CT2:T;CT2:T\ Cryptography\ Classical\ T310/50 Cipher Machine;1) Classic Ciphers
+CT2:en:static:561;T-310;CT2:C;CT2:C\ Classic Ciphers\ T-310\50;1) Classic Ciphers
+CT2:en:static:562;T-310;CT2:T;CT2:T\ Cryptography\ Classical\ T310/50 Cipher Machine;1) Classic Ciphers
 CT2:en:static:563;TEA;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ TEA;2) Modern Ciphers
 CT2:en:static:564;TEA;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ TEA Cipher;2) Modern Ciphers
 CT2:en:static:565;TEA;CT2:W;CT2:W\ Start\ Encryption/Decryption\ Modern Encryption/Decryption\ Symmetric Encryption/Decryption\ TEA;2) Modern Ciphers
 CT2:en:static:566;Tiger;CT2:C;CT2:C\ Hash Functions\ Tiger;3) Hash and MAC Algorithms
 CT2:en:static:567;Tiger;CT2:T;CT2:T\ Hash Functions\ Tiger;3) Hash and MAC Algorithms
-CT2:en:static:568;Transcriptor Analysis;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Transcriptor;6) Classic Cryptanalysis
-CT2:en:static:569;Transcriptor Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transcriptor -- manual mode;6) Classic Cryptanalysis
-CT2:en:static:570;Transcriptor Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transcriptor -- semi-automatic mode;6) Classic Cryptanalysis
-CT2:en:static:571;Transposition (Double Column);CT2:C;CT2:C\ Classic Ciphers\ Transposition;1) Classic Ciphers
-CT2:en:static:572;Transposition (Single Column);CT2:C;CT2:C\ Classic Ciphers\ Transposition;1) Classic Ciphers
-CT2:en:static:573;Transposition (Single Column);CT2:T;CT2:T\ Cryptography\ Classical\ Transposition Cipher;1) Classic Ciphers
-CT2:en:static:574;Transposition Analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Transposition Analyzer;6) Classic Cryptanalysis
-CT2:en:static:575;Transposition Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Dictionary attack on the Double Columnar Transposition Cipher;6) Classic Cryptanalysis
-CT2:en:static:576;Transposition Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Brute-force Analysis;6) Classic Cryptanalysis
-CT2:en:static:577;Transposition Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Crib Analysis;6) Classic Cryptanalysis
-CT2:en:static:578;Transposition Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Genetic Analysis;6) Classic Cryptanalysis
-CT2:en:static:579;Transposition Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Hill Climbing Analysis;6) Classic Cryptanalysis
-CT2:en:static:580;Transposition Analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Transposition\ Brute-force;6) Classic Cryptanalysis
-CT2:en:static:581;Transposition Analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Transposition\ Crib;6) Classic Cryptanalysis
-CT2:en:static:582;Transposition Analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Transposition\ Genetic;6) Classic Cryptanalysis
+CT2:en:static:568;Transcriptor analysis;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Transcriptor;6) Classic Cryptanalysis
+CT2:en:static:569;Transcriptor analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transcriptor -- manual mode;6) Classic Cryptanalysis
+CT2:en:static:570;Transcriptor analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transcriptor -- semi-automatic mode;6) Classic Cryptanalysis
+CT2:en:static:571;Transposition (single and double column);CT2:C;CT2:C\ Classic Ciphers\ Transposition;1) Classic Ciphers
+CT2:en:static:572;Transposition (single and double column);CT2:C;CT2:C\ Classic Ciphers\ Transposition;1) Classic Ciphers
+CT2:en:static:573;Transposition (single and double column);CT2:T;CT2:T\ Cryptography\ Classical\ Transposition Cipher;1) Classic Ciphers
+CT2:en:static:574;Transposition analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Transposition Analyzer;6) Classic Cryptanalysis
+CT2:en:static:575;Transposition analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Dictionary attack on the Double Columnar Transposition Cipher;6) Classic Cryptanalysis
+CT2:en:static:576;Transposition analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Brute-force Analysis;6) Classic Cryptanalysis
+CT2:en:static:577;Transposition analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Crib Analysis;6) Classic Cryptanalysis
+CT2:en:static:578;Transposition analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Genetic Analysis;6) Classic Cryptanalysis
+CT2:en:static:579;Transposition analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Hill Climbing Analysis;6) Classic Cryptanalysis
+CT2:en:static:580;Transposition analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Transposition\ Brute-force;6) Classic Cryptanalysis
+CT2:en:static:581;Transposition analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Transposition\ Crib;6) Classic Cryptanalysis
+CT2:en:static:582;Transposition analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Transposition\ Genetic;6) Classic Cryptanalysis
 CT2:en:static:583;Trivium;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Trivium;2) Modern Ciphers
 CT2:en:static:584;Twofish;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Twofish;2) Modern Ciphers
 CT2:en:static:585;Twofish;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Twofish Cipher;2) Modern Ciphers
@@ -591,12 +591,12 @@ CT2:en:static:590;Vigenère;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Vigenère Ana
 CT2:en:static:591;Vigenère;CT2:T;CT2:T\ Cryptography\ Classical\ Vigenère Cipher;1) Classic Ciphers
 CT2:en:static:592;Vigenère;CT2:W;CT2:W\ Encryption/Decryption\ Classic Encryption/Decryption\ Vigenère;1) Classic Ciphers
 CT2:en:static:593;Vigenère;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Vigenère;1) Classic Ciphers
-CT2:en:static:594;Vigenère Analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Vigenère Analyzer;6) Classic Cryptanalysis
-CT2:en:static:595;Vigenère Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Kryptos K1 Analysis;6) Classic Cryptanalysis
-CT2:en:static:596;Vigenère Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Kryptos K2 Analysis;6) Classic Cryptanalysis
-CT2:en:static:597;Vigenère Analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Vigenère;6) Classic Cryptanalysis
-CT2:en:static:598;Vigenère Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers;6) Classic Cryptanalysis
-CT2:en:static:599;Vigenère Analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Vigenère Analysis;6) Classic Cryptanalysis
+CT2:en:static:594;Vigenère analysis;CT2:C;CT2:C\ Cryptanalysis\ Specific\ Vigenère Analyzer;6) Classic Cryptanalysis
+CT2:en:static:595;Vigenère analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Kryptos K1 Analysis;6) Classic Cryptanalysis
+CT2:en:static:596;Vigenère analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Kryptos K2 Analysis;6) Classic Cryptanalysis
+CT2:en:static:597;Vigenère analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\ Vigenère;6) Classic Cryptanalysis
+CT2:en:static:598;Vigenère analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers;6) Classic Cryptanalysis
+CT2:en:static:599;Vigenère analysis;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Vigenère Analysis;6) Classic Cryptanalysis
 CT2:en:static:600;Virtual Smartcard;CT2:C;CT2:C\ Protocols\ Smartcard;10) Learning Aids and Visualizations
 CT2:en:static:601;Virtual Smartcard;CT2:T;CT2:T\ Protocols\ Communication with a SmartCard;10) Learning Aids and Visualizations
 CT2:en:static:602;Virtual Smartcard;CT2:C;CT2:C\ Protocols\ Smartcard;13) Protocols
@@ -643,17 +643,17 @@ CT2:en:static:642;XOR;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ DES Compleme
 CT2:en:static:643;XOR;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Keccak Cipher;1) Classic Ciphers
 CT2:en:static:644;XOR;CT2:T;CT2:T\ Hash Functions\ HMAC;1) Classic Ciphers
 CT2:en:static:645;XOR;CT2:W;CT2:W\ Encryption/Decryption\ Classic Encryption/Decryption\ XOR;1) Classic Ciphers
-CT2:en:static:646;Yao's Millionaire Problem;CT2:C;CT2:C\ Protocols\ Yao 1;10) Learning Aids and Visualizations
-CT2:en:static:647;Yao's Millionaire Problem;CT2:C;CT2:C\ Protocols\ Yao 2;10) Learning Aids and Visualizations
-CT2:en:static:648;Yao's Millionaire Problem;CT2:C;CT2:C\ Protocols\ Yao 3;10) Learning Aids and Visualizations
-CT2:en:static:649;Yao's Millionaire Problem;CT2:T;CT2:T\ Protocols\ Yao's Millionaire Problem;10) Learning Aids and Visualizations
-CT2:en:static:650;Yao's Millionaire Problem;CT2:C;CT2:C\ Protocols\ Yao 1;13) Protocols
-CT2:en:static:651;Yao's Millionaire Problem;CT2:C;CT2:C\ Protocols\ Yao 2;13) Protocols
-CT2:en:static:652;Yao's Millionaire Problem;CT2:C;CT2:C\ Protocols\ Yao 3;13) Protocols
-CT2:en:static:653;Yao's Millionaire Problem;CT2:T;CT2:T\ Protocols\ Yao's Millionaire Problem;13) Protocols
-CT2:en:static:654;Zero Knowledge Protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Prover;10) Learning Aids and Visualizations
-CT2:en:static:655;Zero Knowledge Protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Verifier;10) Learning Aids and Visualizations
-CT2:en:static:656;Zero Knowledge Protocol;CT2:T;CT2:T\ Protocols\ Zero Knowledge Protocol;10) Learning Aids and Visualizations
-CT2:en:static:657;Zero Knowledge Protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Prover;13) Protocols
-CT2:en:static:658;Zero Knowledge Protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Verifier;13) Protocols
-CT2:en:static:659;Zero Knowledge Protocol;CT2:T;CT2:T\ Protocols\ Zero Knowledge Protocol;13) Protocols
+CT2:en:static:646;Yao's millionaire problem (protocol);CT2:C;CT2:C\ Protocols\ Yao 1;10) Learning Aids and Visualizations
+CT2:en:static:647;Yao's millionaire problem (protocol);CT2:C;CT2:C\ Protocols\ Yao 2;10) Learning Aids and Visualizations
+CT2:en:static:648;Yao's millionaire problem (protocol);CT2:C;CT2:C\ Protocols\ Yao 3;10) Learning Aids and Visualizations
+CT2:en:static:649;Yao's millionaire problem (protocol);CT2:T;CT2:T\ Protocols\ Yao's Millionaire Problem;10) Learning Aids and Visualizations
+CT2:en:static:650;Yao's millionaire problem (protocol);CT2:C;CT2:C\ Protocols\ Yao 1;13) Protocols
+CT2:en:static:651;Yao's millionaire problem (protocol);CT2:C;CT2:C\ Protocols\ Yao 2;13) Protocols
+CT2:en:static:652;Yao's millionaire problem (protocol);CT2:C;CT2:C\ Protocols\ Yao 3;13) Protocols
+CT2:en:static:653;Yao's millionaire problem (protocol);CT2:T;CT2:T\ Protocols\ Yao's Millionaire Problem;13) Protocols
+CT2:en:static:654;Zero knowledge protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Prover;10) Learning Aids and Visualizations
+CT2:en:static:655;Zero knowledge protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Verifier;10) Learning Aids and Visualizations
+CT2:en:static:656;Zero knowledge protocol;CT2:T;CT2:T\ Protocols\ Zero Knowledge Protocol;10) Learning Aids and Visualizations
+CT2:en:static:657;Zero knowledge protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Prover;13) Protocols
+CT2:en:static:658;Zero knowledge protocol;CT2:C;CT2:C\ Protocols\ Zero Knowledge Verifier;13) Protocols
+CT2:en:static:659;Zero knowledge protocol;CT2:T;CT2:T\ Protocols\ Zero Knowledge Protocol;13) Protocols

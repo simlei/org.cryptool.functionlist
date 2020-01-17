@@ -56,11 +56,11 @@ JCT:dynamic:e97242cd;AES MAC;JCT:A \ Message Authentication Codes \ CMac \ CmacA
 JCT:dynamic:c7174f9b;DES MAC;JCT:A \ Message Authentication Codes \ CMac \ CmacDESede
 JCT:dynamic:a032e41c;AES MAC;JCT:A \ Message Authentication Codes \ CMac \ CmacAES256
 JCT:dynamic:2bafda12;Tiger MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacTiger
-JCT:dynamic:9d6e4434;MD5 MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacMD5
+JCT:dynamic:9d6e4434;MD5;JCT:A \ Message Authentication Codes \ HMac \ HmacMD5
 JCT:dynamic:8e00d1c0;FORK MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacFORK256
 JCT:dynamic:e14fe0f9;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA512
 JCT:dynamic:9240899d;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA224
-JCT:dynamic:ebfe1f7b;MD4 MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacMD4
+JCT:dynamic:ebfe1f7b;MD4;JCT:A \ Message Authentication Codes \ HMac \ HmacMD4
 JCT:dynamic:69439a41;RIPEMD MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacRIPEMD256
 JCT:dynamic:bdfa3d61;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA256
 JCT:dynamic:86dcba7a;RIPEMD MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacRIPEMD128
@@ -180,7 +180,7 @@ JCT:dynamic:37fe2735;Bifid;JCT:D \ Algorithms \ Classic \ Bifid
 JCT:dynamic:5361903c;Double box;JCT:D \ Algorithms \ Classic \ Double Box
 JCT:dynamic:b31ebcd4;Playfair cipher;JCT:D \ Algorithms \ Classic \ Playfair
 JCT:dynamic:64c996d9;Substitution;JCT:D \ Algorithms \ Classic \ Substitution
-JCT:dynamic:a4c58e1b;Transposition;JCT:D \ Algorithms \ Classic \ Transposition
+JCT:dynamic:a4c58e1b;Transposition (single and double column);JCT:D \ Algorithms \ Classic \ Transposition
 JCT:dynamic:f1fbbc32;Vigenère cipher;JCT:D \ Algorithms \ Classic \ Vigenère
 JCT:dynamic:98070cdb;XOR;JCT:D \ Algorithms \ Classic \ XOR
 JCT:dynamic:1b95999b;RSA;JCT:D \ Algorithms \ Asymmetric \ RSA
@@ -191,7 +191,7 @@ JCT:dynamic:b6bf6b4a;RC6;JCT:D \ Algorithms \ Symmetric \ RC6
 JCT:dynamic:c5fdafb5;IDEA;JCT:D \ Algorithms \ Symmetric \ IDEA
 JCT:dynamic:edbf7df7;DSA;JCT:D \ Algorithms \ Signature \ DSA
 JCT:dynamic:551a2e2b;ElGamal;JCT:D \ Algorithms \ Asymmetric \ ElGamal
-JCT:dynamic:3a974932;MD5 MAC;JCT:D \ Algorithms \ MAC \ HMacMD5
+JCT:dynamic:3a974932;MD5;JCT:D \ Algorithms \ MAC \ HMacMD5
 JCT:dynamic:210c36b2;SHA;JCT:D \ Algorithms \ Random Number Generator \ SHA1
 JCT:dynamic:0180fc38;SHA;JCT:D \ Algorithms \ Hash \ SHA3-Candidates
 JCT:dynamic:11ea6f73;RC4;JCT:D \ Algorithms \ Symmetric \ ARC4 \ Spritz
@@ -199,7 +199,7 @@ JCT:dynamic:efbaef5d;Dragon;JCT:D \ Algorithms \ Symmetric \ Dragon
 JCT:dynamic:61f631ed;LFSR;JCT:D \ Algorithms \ Symmetric \ LFSR
 JCT:dynamic:d1ae9b15;Entropy analysis;JCT:D \ Analysis \ Entropy Analysis
 JCT:dynamic:deffa21b;Grille analysis;JCT:D \ Analysis \ Grille Analysis
-JCT:dynamic:2572f88a;Frequency analysis;JCT:D \ Analysis \ Frequency Analysis
+JCT:dynamic:2572f88a;Frequency test;JCT:D \ Analysis \ Frequency Analysis
 JCT:dynamic:4da7976d;Friedman test;JCT:D \ Analysis \ Friedman Test
 JCT:dynamic:842ef797;Substitution analysis;JCT:D \ Analysis \ Substitution Analysis
 JCT:dynamic:478b8a08;Transposition analysis;JCT:D \ Analysis \ Transposition Analysis
@@ -214,7 +214,7 @@ JCT:dynamic:5d1c69c7;Ant Colony Optimization (ACO);JCT:D \ Visuals \ Ant Colony 
 JCT:dynamic:3f9dad15;RC4;JCT:D \ Visuals \ ARC4 \ Spritz
 JCT:dynamic:318822af;Android Unlock Pattern;JCT:D \ Visuals \ Android Unlock Pattern (AUP)
 JCT:dynamic:1bc82ad7;Shanks Babystep-Giantstep;JCT:D \ Visuals \ Shanks Babystep-Giantstep
-JCT:dynamic:b142e4ea;Chinese remainder theorem (CRT);JCT:D \ Visuals \ Chinese Remainder Theorem (CRT)
+JCT:dynamic:b142e4ea;Chinese remainder theorem (CRT) visualization;JCT:D \ Visuals \ Chinese Remainder Theorem (CRT)
 JCT:dynamic:282e23f8;Certificate verification;JCT:D \ Visuals \ Certificate Verification
 JCT:dynamic:d7e0a4b8;DES;JCT:D \ Visuals \ Inner States of the Data Encryption Standard (DES)
 JCT:dynamic:3e6726e0;EC calculations;JCT:D \ Visuals \ Elliptic Curve Calculations
@@ -234,14 +234,14 @@ JCT:dynamic:82e834d1;RSA;JCT:D \ Visuals \ RSA Cryptosystem
 JCT:dynamic:34d1087b;Shamir's secret sharing;JCT:D \ Visuals \ Shamir's Secret Sharing
 JCT:dynamic:a141d9b3;Differential power analysis;JCT:D \ Visuals \ Differential Power Analysis \ Double and Add
 JCT:dynamic:918dd522;Square and multiply;JCT:D \ Visuals \ Simple Power Analysis \ Square and Multiply
-JCT:dynamic:d46f3846;Signature demonstration;JCT:D \ Visuals \ Signature Demonstration
+JCT:dynamic:d46f3846;Signature visual;JCT:D \ Visuals \ Signature Demonstration
 JCT:dynamic:84091de0;Signature verification;JCT:D \ Visuals \ Signature Verification
 JCT:dynamic:eee60b06;SPHINCS;JCT:D \ Visuals \ SPHINCS Signature
 JCT:dynamic:889a952b;SPHINCS;JCT:D \ Visuals \ SPHINCS+ Signature
 JCT:dynamic:b50f7d80;TLS handshake;JCT:D \ Visuals \ SSL \ TLS Handshake
-JCT:dynamic:bd1957c1;Verifiable secret sharing;JCT:D \ Visuals \ Verifiable Secret Sharing
+JCT:dynamic:bd1957c1;Verifiable secret sharing (VSS);JCT:D \ Visuals \ Verifiable Secret Sharing
 JCT:dynamic:7f14e2c5;WOTS;JCT:D \ Visuals \ WOTS \ WOTS+
-JCT:dynamic:d70ca54a;Magic door;JCT:D \ Visuals \ Magic Door
+JCT:dynamic:d70ca54a;Magic door visual;JCT:D \ Visuals \ Magic Door
 JCT:dynamic:2202c448;Fiat Shamir;JCT:D \ Visuals \ Fiat Shamir
 JCT:dynamic:f593772b;Fiat Shamir;JCT:D \ Visuals \ Feige Fiat Shamir
 JCT:dynamic:a3d4505d;Graph isomorphism;JCT:D \ Visuals \ Graph Isomorphism

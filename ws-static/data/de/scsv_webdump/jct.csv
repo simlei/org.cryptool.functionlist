@@ -60,9 +60,9 @@ JCT:de:static:59;MD5;D;JCT:D \ Algorithmen \ Hash \ MD5;3) Hashverfahren und Aut
 JCT:de:static:60;MD5;A;JCT:A \ Algorithmen \ Hash-Funktionen \ MD5;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:61;PKCS#5;A;JCT:A \ Algorithmen \ Passwortbasierte Chiffren \ ;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:62;RIPEMD-160;A;JCT:A \ Algorithmen \ Hash-Funktionen \ RIPEMD;3) Hashverfahren und Authentifizierungscodes
-JCT:de:static:63;SHA-1;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA;3) Hashverfahren und Authentifizierungscodes
-JCT:de:static:64;SHA-256;D;JCT:D \ Algorithmen \ Hash \ SHA;3) Hashverfahren und Authentifizierungscodes
-JCT:de:static:65;SHA-256;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA256;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:63;SHA;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:64;SHA;D;JCT:D \ Algorithmen \ Hash \ SHA;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:65;SHA;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA256;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:66;SHA-384;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA384;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:67;SHA-3-Kandidaten;D;JCT:D \ Algorithmen \ Hash \ SHA3-Kandidaten;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:68;SHA-512;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA512;3) Hashverfahren und Authentifizierungscodes
