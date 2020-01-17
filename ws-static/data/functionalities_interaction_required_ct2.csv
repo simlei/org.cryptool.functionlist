@@ -147,22 +147,22 @@ CT2:dynamic:9eda4758;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \
 CT2:dynamic:afdf251b;Kasiski Test;CT2:C \ Cryptanalysis \ Generic \ Kasiski's Test
 CT2:dynamic:08c130c6;Primes test;CT2:C \ Cryptanalysis \ Generic \ Prime Test
 CT2:dynamic:6b598e80;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \ Quadratic Sieve
-CT2:dynamic:94329868;A5 Attack;CT2:C \ Cryptanalysis \ Specific \ A5 Attack
-CT2:dynamic:64e47c1a;Cube Attack;CT2:C \ Cryptanalysis \ Specific \ Cube Attack
+CT2:dynamic:94329868;A5 attack;CT2:C \ Cryptanalysis \ Specific \ A5 Attack
+CT2:dynamic:64e47c1a;Cube attack;CT2:C \ Cryptanalysis \ Specific \ Cube Attack
 CT2:dynamic:acb12b05;Differential cryptanalysis (DCA);CT2:C \ Cryptanalysis \ Specific \ DCA KeyRecovery
 CT2:dynamic:684add32;Differential cryptanalysis (DCA);CT2:C \ Cryptanalysis \ Specific \ DCA Oracle
 CT2:dynamic:68e62348;Differential cryptanalysis (DCA);CT2:C \ Cryptanalysis \ Specific \ DCA PathFinder
 CT2:dynamic:1eb44a78;Differential cryptanalysis (DCA);CT2:C \ Cryptanalysis \ Specific \ DCA PathVisualizer
 CT2:dynamic:45594869;Differential cryptanalysis (DCA);CT2:C \ Cryptanalysis \ Specific \ DCA ToyCipher
-CT2:dynamic:767cdf73;Enigma Attack;CT2:C \ Cryptanalysis \ Specific \ Enigma Analyzer
-CT2:dynamic:854df8cb;Grain Attack;CT2:C \ Cryptanalysis \ Specific \ GrainV0 Attack
-CT2:dynamic:cb183245;Grain Attack;CT2:C \ Cryptanalysis \ Specific \ Grain V1 Attack
+CT2:dynamic:767cdf73;Enigma attack;CT2:C \ Cryptanalysis \ Specific \ Enigma Analyzer
+CT2:dynamic:854df8cb;Grain attack;CT2:C \ Cryptanalysis \ Specific \ GrainV0 Attack
+CT2:dynamic:cb183245;Grain attack;CT2:C \ Cryptanalysis \ Specific \ Grain V1 Attack
 CT2:dynamic:d50a9965;Homophonic substitution analysis;CT2:C \ Cryptanalysis \ Specific \ Homophonic Substitution Analyzer
 CT2:dynamic:6cc1425b;IDP analysis;CT2:C \ Cryptanalysis \ Specific \ IDP Analyzer
 CT2:dynamic:f1a1b796;Key searcher;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
 CT2:dynamic:28789d4c;M-138 attack;CT2:C \ Cryptanalysis \ Specific \ M-138 Analyzer
 CT2:dynamic:9c8873bb;Playfair analysis;CT2:C \ Cryptanalysis \ Specific \ Playfair Analyzer
-CT2:dynamic:ffb56bfd;Feistel Attack;CT2:C \ Cryptanalysis \ Specific \ Slide Attack on Feistel Cipher
+CT2:dynamic:ffb56bfd;Feistel attack;CT2:C \ Cryptanalysis \ Specific \ Slide Attack on Feistel Cipher
 CT2:dynamic:2bad8d77;Solitaire analysis;CT2:C \ Cryptanalysis \ Specific \ Solitaire Analyzer
 CT2:dynamic:a28eb5ae;Spanish strip cipher analysis;CT2:C \ Cryptanalysis \ Specific \ Spanish Strip Cipher Analyzer
 CT2:dynamic:724c9bc1;Transposition analysis;CT2:C \ Cryptanalysis \ Specific \ Transposition Analyzer
@@ -191,9 +191,9 @@ CT2:dynamic:c835779e;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA
 CT2:dynamic:0ab14b2e;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
 CT2:dynamic:d2203b62;A5;CT2:C \ Modern Ciphers \ Symmetric \ A5
 CT2:dynamic:99d09343;AES;CT2:C \ Modern Ciphers \ Symmetric \ AES
-CT2:dynamic:cea0f204;AES Visualization;CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
+CT2:dynamic:cea0f204;AES visualization;CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
 CT2:dynamic:cf86ce31;DES;CT2:C \ Modern Ciphers \ Symmetric \ DES
-CT2:dynamic:b6e0ce42;DES Visualization;CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
+CT2:dynamic:b6e0ce42;DES visualization;CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
 CT2:dynamic:3c764f26;FEAL;CT2:C \ Modern Ciphers \ Symmetric \ FEAL
 CT2:dynamic:7b51c6e9;Feistel;CT2:C \ Modern Ciphers \ Symmetric \ Feistel Cipher
 CT2:dynamic:5f184770;Format preserving encryption (FPE);CT2:C \ Modern Ciphers \ Symmetric \ Format Preserving Encryption (FPE)
@@ -209,23 +209,23 @@ CT2:dynamic:73373b32;RC2;CT2:C \ Modern Ciphers \ Symmetric \ RC2
 CT2:dynamic:e6e79e45;RC4;CT2:C \ Modern Ciphers \ Symmetric \ RC4
 CT2:dynamic:303cfcd5;Salsa20;CT2:C \ Modern Ciphers \ Symmetric \ Salsa20
 CT2:dynamic:06be1b56;SDES;CT2:C \ Modern Ciphers \ Symmetric \ SDES
-CT2:dynamic:06cad5a0;TREYFER Attack;CT2:C \ Modern Ciphers \ Symmetric \ Slide Attack on TREYFER
+CT2:dynamic:06cad5a0;TREYFER attack;CT2:C \ Modern Ciphers \ Symmetric \ Slide Attack on TREYFER
 CT2:dynamic:9bfbd6f2;Sosemanuk;CT2:C \ Modern Ciphers \ Symmetric \ Sosemanuk
 CT2:dynamic:2ce07521;TEA;CT2:C \ Modern Ciphers \ Symmetric \ TEA
 CT2:dynamic:036fcd8b;TREYFER;CT2:C \ Modern Ciphers \ Symmetric \ TREYFER
 CT2:dynamic:cdaf359d;Trivium;CT2:C \ Modern Ciphers \ Symmetric \ Trivium
 CT2:dynamic:9565abfc;Twofish;CT2:C \ Modern Ciphers \ Symmetric \ Twofish
-CT2:dynamic:bd235841;WEP Attack;CT2:C \ Protocols \ Attacks on the WEP protocol
+CT2:dynamic:bd235841;WEP attack;CT2:C \ Protocols \ Attacks on the WEP protocol
 CT2:dynamic:2aff12db;BB84;CT2:C \ Protocols \ BB84 Error Detector
 CT2:dynamic:39155289;BB84;CT2:C \ Protocols \ BB84 Key Generator
-CT2:dynamic:c68b2faa;BB84 Attack;CT2:C \ Protocols \ BB84 Man in the Middle
+CT2:dynamic:c68b2faa;BB84 attack;CT2:C \ Protocols \ BB84 Man in the Middle
 CT2:dynamic:3d2651cd;BB84;CT2:C \ Protocols \ BB84 Photonbase Generator
 CT2:dynamic:85a1839a;BB84;CT2:C \ Protocols \ BB84 Photon Decoder
 CT2:dynamic:d2368a3c;BB84;CT2:C \ Protocols \ BB84 Photon Encoder
 CT2:dynamic:f1acc4b7;Coin Flipping;CT2:C \ Protocols \ Coin Flipping
 CT2:dynamic:d923b0a4;HMAC;CT2:C \ Protocols \ HMAC
 CT2:dynamic:3aac8f45;ISAP bit commitment scheme;CT2:C \ Protocols \ ISAP Bit Commitment Scheme
-CT2:dynamic:b2f6b1f3;Man-in-the-middle Attack;CT2:C \ Protocols \ ManInTheMiddle
+CT2:dynamic:b2f6b1f3;Man-in-the-middle attack;CT2:C \ Protocols \ ManInTheMiddle
 CT2:dynamic:2f64b9e6;NLFSR;CT2:C \ Protocols \ NLFSR
 CT2:dynamic:2ebae299;Oblivious transfer protocol;CT2:C \ Protocols \ Oblivious Transfer 1
 CT2:dynamic:f60cd05e;Oblivious transfer protocol;CT2:C \ Protocols \ Oblivious Transfer 2
@@ -243,9 +243,9 @@ CT2:dynamic:cca82098;Steganography;CT2:C \ Steganography \ Permutation Steganogr
 CT2:dynamic:240447b3;Watermark Creator;CT2:C \ Steganography \ Watermark Creator
 CT2:dynamic:703acac0;Avalanche effect;CT2:C \ Tools \ Misc \ Avalanche Visualization
 CT2:dynamic:14d5b694;Block mode visualizer;CT2:C \ Tools \ Misc \ Blockmode Visualizer
-CT2:dynamic:f83d7ed8;PKCS#1 Attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1
-CT2:dynamic:03459821;PKCS#1 Attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Attack with shorter keys (Kuehn)
-CT2:dynamic:e8080fd3;PKCS#1 Attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Bleichenbacher attack
+CT2:dynamic:f83d7ed8;PKCS#1 attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1
+CT2:dynamic:03459821;PKCS#1 attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Attack with shorter keys (Kuehn)
+CT2:dynamic:e8080fd3;PKCS#1 attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Bleichenbacher attack
 CT2:dynamic:8bf79846;QR code;CT2:T \ Codes \ Create QR Code
 CT2:dynamic:ce612ab7;QR code;CT2:T \ Codes \ Decode QR code file
 CT2:dynamic:81208b59;ISBN;CT2:T \ Codes \ ISBN-10 Check
@@ -262,9 +262,9 @@ CT2:dynamic:81d754aa;Frequency test;CT2:T \ Cryptanalysis \ Classical \ Frequenc
 CT2:dynamic:2f48311b;Homophonic substitution analysis;CT2:T \ Cryptanalysis \ Classical \ Homophonic Substitution Analysis
 CT2:dynamic:02ba8964;Kryptos K1 analysis;CT2:T \ Cryptanalysis \ Classical \ Kryptos K1 Analysis
 CT2:dynamic:29ec528a;Kryptos K2 analysis;CT2:T \ Cryptanalysis \ Classical \ Kryptos K2 Analysis
-CT2:dynamic:ed360328;M-138 Attack;CT2:T \ Cryptanalysis \ Classical \ M-138 Ciphertext only Attack
-CT2:dynamic:789bec19;M-138 Attack;CT2:T \ Cryptanalysis \ Classical \ M-138 Known-Plaintext Attack
-CT2:dynamic:724db784;M-138 Attack;CT2:T \ Cryptanalysis \ Classical \ M-138 Partially-Known Plaintext Attack
+CT2:dynamic:ed360328;M-138 attack;CT2:T \ Cryptanalysis \ Classical \ M-138 Ciphertext only Attack
+CT2:dynamic:789bec19;M-138 attack;CT2:T \ Cryptanalysis \ Classical \ M-138 Known-Plaintext Attack
+CT2:dynamic:724db784;M-138 attack;CT2:T \ Cryptanalysis \ Classical \ M-138 Partially-Known Plaintext Attack
 CT2:dynamic:d1d02228;Playfair analysis;CT2:T \ Cryptanalysis \ Classical \ Playfair Analysis
 CT2:dynamic:d44d9a93;Scytale analysis;CT2:T \ Cryptanalysis \ Classical \ Scytale Brute-force Analysis
 CT2:dynamic:91fcee38;Solitaire analysis;CT2:T \ Cryptanalysis \ Classical \ Solitaire Brute-force Analysis
@@ -288,8 +288,8 @@ CT2:dynamic:26bb554f;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche
 CT2:dynamic:b1793d73;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (DES)
 CT2:dynamic:02cc5d34;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (hash functions)
 CT2:dynamic:540a2268;Avalanche effect;CT2:T \ Cryptanalysis \ Modern \ Avalanche (modern ciphers)
-CT2:dynamic:73cd9960;CBC Attack;CT2:T \ Cryptanalysis \ Modern \ CBC-Attack
-CT2:dynamic:d84565bd;Trivium Attack;CT2:T \ Cryptanalysis \ Modern \ Cube Attack on Trivium
+CT2:dynamic:73cd9960;CBC attack;CT2:T \ Cryptanalysis \ Modern \ CBC-Attack
+CT2:dynamic:d84565bd;Trivium attack;CT2:T \ Cryptanalysis \ Modern \ Cube Attack on Trivium
 CT2:dynamic:d20d7fe3;DES analysis;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
 CT2:dynamic:d73d81e7;DES analysis;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
 CT2:dynamic:6ca8ae28;DES analysis;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
@@ -354,12 +354,12 @@ CT2:dynamic:7a097bfc;AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher 
 CT2:dynamic:0a3235df;AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
 CT2:dynamic:c28aaa61;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
 CT2:dynamic:f6737dae;AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion
-CT2:dynamic:a51724fb;AES Visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
+CT2:dynamic:a51724fb;AES visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
 CT2:dynamic:1e45ca9f;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
 CT2:dynamic:998a6b86;Block mode;CT2:T \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers
 CT2:dynamic:4c9dfd8b;DES;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Cipher
 CT2:dynamic:df11aae3;DES;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
-CT2:dynamic:abe71ce5;DES Visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
+CT2:dynamic:abe71ce5;DES visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
 CT2:dynamic:5fb4642c;Grain;CT2:T \ Cryptography \ Modern \ Symmetric \ Grain v1 Cipher
 CT2:dynamic:ef00311c;HC128;CT2:T \ Cryptography \ Modern \ Symmetric \ HC128 Cipher
 CT2:dynamic:d0a4f459;Keccak;CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
@@ -421,7 +421,7 @@ CT2:dynamic:0a96b9d6;Primes test;CT2:T \ Mathematics \ Primes Test
 CT2:dynamic:f3fa4d7f;SAT solver;CT2:T \ Mathematics \ SAT Solver (File Input)
 CT2:dynamic:1c6afb49;SAT solver;CT2:T \ Mathematics \ SAT Solver (Text Input)
 CT2:dynamic:612ecc23;BB84 key exchange;CT2:T \ Protocols \ BB84 Key Exchange
-CT2:dynamic:3ac30993;BB84 key exchange Attack;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
+CT2:dynamic:3ac30993;BB84 key exchange attack;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
 CT2:dynamic:a27248d4;Coin Flipping Protocol;CT2:T \ Protocols \ Coin Flipping Protocol
 CT2:dynamic:5ac7eb49;Virtual Smartcard;CT2:T \ Protocols \ Communication with a SmartCard
 CT2:dynamic:df766f5f;Diffie-Hellman key exchange (DH);CT2:T \ Protocols \ Diffie-Hellman Key-Exchange
@@ -432,7 +432,7 @@ CT2:dynamic:9dc867ec;HTTP protocol;CT2:T \ Protocols \ HTTP Request
 CT2:dynamic:3bd0df61;Oblivious transfer protocol;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
 CT2:dynamic:765b9a28;Simple Multi Client Communication;CT2:T \ Protocols \ Simple Multi Client Communication
 CT2:dynamic:fce2f6a4;Simple Webserver;CT2:T \ Protocols \ Simple Webserver
-CT2:dynamic:56b2ff86;WEP Attack;CT2:T \ Protocols \ WEP Attack
+CT2:dynamic:56b2ff86;WEP attack;CT2:T \ Protocols \ WEP Attack
 CT2:dynamic:75ffe28d;Yao's millionaire problem (protocol);CT2:T \ Protocols \ Yao's Millionaire Problem Protocol
 CT2:dynamic:a9739be4;Zero knowledge protocol;CT2:T \ Protocols \ Zero Knowledge Protocol
 CT2:dynamic:e7a87581;Watermark Creator;CT2:T \ Steganography \ Watermark Creator -- invisible watermark

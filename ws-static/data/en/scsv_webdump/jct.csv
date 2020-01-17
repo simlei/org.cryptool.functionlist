@@ -12,8 +12,8 @@ JCT:en:static:11;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES256_CBC Modern Cip
 JCT:en:static:12;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES256_ECB Modern Ciphers
 JCT:en:static:13;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES256_CFB Modern Ciphers
 JCT:en:static:14;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES256_CFB Modern Ciphers
-JCT:en:static:15;Android Unlock Pattern (AUP) Visualization;JCT:D;JCT:D\ Visualizations\ Android Unlock Pattern (AUP);10) Learning Aids and Visualizations
-JCT:en:static:16;Ant Colony Optimization Visualization;JCT:D;JCT:D\ Visualizations\ Ant Colony Optimization;10) Learning Aids and Visualizations
+JCT:en:static:15;Android Unlock Pattern (AUP) visualization;JCT:D;JCT:D\ Visualizations\ Android Unlock Pattern (AUP);10) Learning Aids and Visualizations
+JCT:en:static:16;Ant Colony Optimization visualization;JCT:D;JCT:D\ Visualizations\ Ant Colony Optimization;10) Learning Aids and Visualizations
 JCT:en:static:17;Autokey Vigenère;JCT:D;JCT:D\ Algorithms\ Classic\ Autokey Vigenère;1) Classic Ciphers
 JCT:en:static:18;Bifid;JCT:D;JCT:D\ Algorithms\ Classic\ Bifid;1) Classic Ciphers
 JCT:en:static:19;Blum Blum Shub (BBS) PRNG;JCT:A;JCT:A\ Pseudo Random Number Generators\ BBSRandom;5) Random Number Generators
@@ -54,10 +54,10 @@ JCT:en:static:53;CMSS;JCT:A;JCT:A\ Signatures\ CMSSwithSHA384andWinternitzOTS_3 
 JCT:en:static:54;Coin Flipping Protocol;JCT:C;JCT:C\ Protocols\ Coin Flipping;10) Learning Aids and Visualizations
 JCT:en:static:55;Coin Flipping Protocol;JCT:T;JCT:T\ Protocols\ Coin Flipping Protocol;10) Learning Aids and Visualizations
 JCT:en:static:56;DHA256;JCT:A;JCT:A\ Message Digests\ DHA256;3) Hash and MAC Algorithms
-JCT:en:static:57;Differential Power Analysis Visualization;JCT:D;JCT:D\ Visualizations\ Differential Power Analysis / Double and Add;10) Learning Aids and Visualizations
-JCT:en:static:58;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;JCT:D;JCT:D\ Visualizations\ Diffie-Hellman Key Exchange (EC);10) Learning Aids and Visualizations
-JCT:en:static:59;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;JCT:D;JCT:D\ Visuals\ Diffie-Hellman Key Exchange (EC);13) Protocols
-JCT:en:static:60;Digital Signatures Visualization;JCT:D;JCT:D\ Visualizations\ Signature Demonstration;10) Learning Aids and Visualizations
+JCT:en:static:57;Differential Power Analysis visualization;JCT:D;JCT:D\ Visualizations\ Differential Power Analysis / Double and Add;10) Learning Aids and Visualizations
+JCT:en:static:58;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visualization;JCT:D;JCT:D\ Visualizations\ Diffie-Hellman Key Exchange (EC);10) Learning Aids and Visualizations
+JCT:en:static:59;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visualization;JCT:D;JCT:D\ Visuals\ Diffie-Hellman Key Exchange (EC);13) Protocols
+JCT:en:static:60;Digital Signatures visualization;JCT:D;JCT:D\ Visualizations\ Signature Demonstration;10) Learning Aids and Visualizations
 JCT:en:static:61;Divider Game;JCT:D;JCT:D\ Games\ Divider Game;11) Games
 JCT:en:static:62;Double Box;JCT:D;JCT:D\ Algorithms\ Classic\ Double Box;1) Classic Ciphers
 JCT:en:static:63;Dragon;JCT:D;JCT:D\ Algorithms\ Symmetric\ Dragon;2) Modern Ciphers
@@ -71,15 +71,15 @@ JCT:en:static:70;ECDSA;JCT:A;JCT:A\ Signatures\ SHA512/ECDSA Digital Signatures,
 JCT:en:static:71;ECIES;JCT:A;JCT:A\ Hybrid Ciphers\ ECIES;2) Modern Ciphers
 JCT:en:static:72;ECNR;JCT:A;JCT:A\ Signatures\ SHA1/ECNR;4) Digital Signatures, PKI
 JCT:en:static:73;ElGamal;JCT:A;JCT:A\ Asymmetric Block Ciphers\ ElGamal Modern Ciphers
-JCT:en:static:74;ElGamal Visualization;JCT:D;JCT:D\ Visualizations\ ElGamal Cryptosystem;10) Learning Aids and Visualizations
+JCT:en:static:74;ElGamal visualization;JCT:D;JCT:D\ Visualizations\ ElGamal Cryptosystem;10) Learning Aids and Visualizations
 JCT:en:static:75;Elliptic Curve (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ ECPRNG;5) Random Number Generators
-JCT:en:static:76;Elliptic Curve Calculations Visualization;JCT:D;JCT:D\ Visualizations\ Elliptic Curve Calculations;10) Learning Aids and Visualizations
+JCT:en:static:76;Elliptic Curve Calculations visualization;JCT:D;JCT:D\ Visualizations\ Elliptic Curve Calculations;10) Learning Aids and Visualizations
 JCT:en:static:77;Enhanced RSA Crypto System (identities‚ multi-prime);JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;2) Modern Ciphers
 JCT:en:static:78;Enhanced RSA Crypto System (identities‚ multi-prime);JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;2) Modern Ciphers
 JCT:en:static:79;Entropy;JCT:D;JCT:D\ Analysis\ Entropy Analysis;6) Classic Cryptanalysis
-JCT:en:static:80;Extended Euclidian plus the method of mutual "exhaustion" (anthyphairesis = continually subtract the smaller from the larger) Visualization;JCT:D;JCT:D\ Visualizations\ Extended Euclidean / Reciprocal Subtraction;10) Learning Aids and Visualizations
-JCT:en:static:81;Feige Fiat Shamir Visualization;JCT:D;JCT:D\ Visualizations\ Feige Fiat Shamir;10) Learning Aids and Visualizations
-JCT:en:static:82;Fiat Shamir Visualization;JCT:D;JCT:D\ Visualizations\ Fiat Shamir;10) Learning Aids and Visualizations
+JCT:en:static:80;Extended Euclidian plus the method of mutual "exhaustion" (anthyphairesis = continually subtract the smaller from the larger) visualization;JCT:D;JCT:D\ Visualizations\ Extended Euclidean / Reciprocal Subtraction;10) Learning Aids and Visualizations
+JCT:en:static:81;Feige Fiat Shamir visualization;JCT:D;JCT:D\ Visualizations\ Feige Fiat Shamir;10) Learning Aids and Visualizations
+JCT:en:static:82;Fiat Shamir visualization;JCT:D;JCT:D\ Visualizations\ Fiat Shamir;10) Learning Aids and Visualizations
 JCT:en:static:83;FORK-256;JCT:A;JCT:A\ Message Digests\ FORK256;3) Hash and MAC Algorithms
 JCT:en:static:84;Frequency test;JCT:D;JCT:D\ Analysis\ Frequency Analysis;6) Classic Cryptanalysis
 JCT:en:static:85;Friedman Test;JCT:D;JCT:D\ Analysis\ Friedman Test;6) Classic Cryptanalysis
@@ -88,9 +88,9 @@ JCT:en:static:87;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA224 Digital Signatures
 JCT:en:static:88;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA256 Digital Signatures, PKI
 JCT:en:static:89;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA384 Digital Signatures, PKI
 JCT:en:static:90;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA512 Digital Signatures, PKI
-JCT:en:static:91;Graph Isomorphism Visualization;JCT:D;JCT:D\ Visualizations\ Graph Isomorphism;10) Learning Aids and Visualizations
-JCT:en:static:92;Grille Visualization;JCT:D;JCT:D\ Visualizations\ Grille;10) Learning Aids and Visualizations
-JCT:en:static:93;Hash Algorithms Visualization;JCT:D;JCT:D\ Visualizations\ Hash Sensitivity;10) Learning Aids and Visualizations
+JCT:en:static:91;Graph Isomorphism visualization;JCT:D;JCT:D\ Visualizations\ Graph Isomorphism;10) Learning Aids and Visualizations
+JCT:en:static:92;Grille visualization;JCT:D;JCT:D\ Visualizations\ Grille;10) Learning Aids and Visualizations
+JCT:en:static:93;Hash Algorithms visualization;JCT:D;JCT:D\ Visualizations\ Hash Sensitivity;10) Learning Aids and Visualizations
 JCT:en:static:94;Hash Value of a File;JCT:D\A;Hash\MD5;3) Hash and MAC Algorithms
 JCT:en:static:95;Hash Value of a File;JCT:D\A;Hash\SHA;3) Hash and MAC Algorithms
 JCT:en:static:96;Hash Value of a File;JCT:D\A;Hash\SHA3-Candidates;3) Hash and MAC Algorithms
@@ -108,23 +108,23 @@ JCT:en:static:107;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA224;3)
 JCT:en:static:108;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA256;3) Hash and MAC Algorithms
 JCT:en:static:109;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA384;3) Hash and MAC Algorithms
 JCT:en:static:110;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA512;3) Hash and MAC Algorithms
-JCT:en:static:111;Homomorphic Encryption Visualization;JCT:D;JCT:D\ Visualizations\ Homomorphic Encryption;10) Learning Aids and Visualizations
+JCT:en:static:111;Homomorphic Encryption visualization;JCT:D;JCT:D\ Visualizations\ Homomorphic Encryption;10) Learning Aids and Visualizations
 JCT:en:static:112;Huffman;JCT:D;JCT:D\ Visualizations\ Huffman Coding;9) Codings
 JCT:en:static:113;IDEA;JCT:D;JCT:D\ Block Ciphers\ IDEA_ECB Modern Ciphers
 JCT:en:static:114;IDEA;JCT:D;JCT:D\ Block Ciphers\ IDEA_CBC Modern Ciphers
 JCT:en:static:115;IDEA;JCT:D;JCT:D\ Block Ciphers\ IDEA_CFB Modern Ciphers
 JCT:en:static:116;IDEA;JCT:D;JCT:D\ Block Ciphers\ IDEA_OFB Modern Ciphers
-JCT:en:static:117;Inner States of the DES Visualization;JCT:D;JCT:D\ Visualizations\ Inner States of the Data Encryption Standard (DES);10) Learning Aids and Visualizations
+JCT:en:static:117;Inner States of the DES visualization;JCT:D;JCT:D\ Visualizations\ Inner States of the Data Encryption Standard (DES);10) Learning Aids and Visualizations
 JCT:en:static:118;IQDSA;JCT:A;JCT:A\ Signatures\ IQDSA Digital Signatures, PKI
 JCT:en:static:119;IQDSA;JCT:A;JCT:A\ Signatures\ RIPEMD160withIQDSA Digital Signatures, PKI
 JCT:en:static:120;IQGQ;JCT:A;JCT:A\ Signatures\ IQGQ Digital Signatures, PKI
 JCT:en:static:121;IQGQ;JCT:A;JCT:A\ Signatures\ RIPEMD160withIQDSA Digital Signatures, PKI
 JCT:en:static:122;IQRDSA;JCT:A;JCT:A\ Signatures\ IQRDSA Digital Signatures, PKI
 JCT:en:static:123;IQRDSA;JCT:A;JCT:A\ Signatures\ RIPEMD160withIQRDSA Digital Signatures, PKI
-JCT:en:static:124;Kleptography Visualization;JCT:D;JCT:D\ Visualizations\ Kleptography;10) Learning Aids and Visualizations
+JCT:en:static:124;Kleptography visualization;JCT:D;JCT:D\ Visualizations\ Kleptography;10) Learning Aids and Visualizations
 JCT:en:static:125;Lattice-Based Attacks - Merkle-Hellman;JCT:D;JCT:D\ Visualizations\ Merkle-Hellman Knapsack Cryptosystem;10) Learning Aids and Visualizations
 JCT:en:static:126;LFSR;JCT:D;JCT:D\ Algorithms\ Symmetric\ LFSR;2) Modern Ciphers
-JCT:en:static:127;Magic Door Visualization;JCT:D;JCT:D\ Visualizations\ Magic Door;10) Learning Aids and Visualizations
+JCT:en:static:127;Magic Door visualization;JCT:D;JCT:D\ Visualizations\ Magic Door;10) Learning Aids and Visualizations
 JCT:en:static:128;MARS;JCT:A;JCT:A\ Block Ciphers\ MARS;2) Modern Ciphers
 JCT:en:static:129;McEliece Fujisaki;JCT:A;JCT:A\ Hybrid Ciphers\ McElieceFujisakiCipher Modern Ciphers
 JCT:en:static:130;McEliece Kobara Imai;JCT:A;JCT:A\ Hybrid Ciphers\ McElieceKobaraImaiCipher Modern Ciphers
@@ -142,7 +142,7 @@ JCT:en:static:141;MeRSA;JCT:A;JCT:A\ Signatures\ MeRSA;2) Modern Ciphers
 JCT:en:static:142;Misty-1 (Kasumi);JCT:A;JCT:A\ Block Ciphers\ Misty1;2) Modern Ciphers
 JCT:en:static:143;MpRSA;JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;2) Modern Ciphers
 JCT:en:static:144;MpRSA;JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;2) Modern Ciphers
-JCT:en:static:145;Multipartite Key Exchange Visualization;JCT:D;JCT:D\ Visualizations\ Multipartite Key Exchange;10) Learning Aids and Visualizations
+JCT:en:static:145;Multipartite Key Exchange visualization;JCT:D;JCT:D\ Visualizations\ Multipartite Key Exchange;10) Learning Aids and Visualizations
 JCT:en:static:146;Niederreiter;JCT:A;JCT:A\ Asymmetric Block Ciphers\ Niederreiter;2) Modern Ciphers
 JCT:en:static:147;Niederreiter CFS;JCT:A;JCT:A\ Signatures\ NiederreiterCFS Digital Signatures, PKI
 JCT:en:static:148;Number Shark;JCT:D;JCT:D\ Games\ Number Shark;11) Games
@@ -182,8 +182,8 @@ JCT:en:static:181;RSA;JCT:A;JCT:A\ Signatures\ SHA512/RSA/RAW;4) Digital Signatu
 JCT:en:static:182;RSA;JCT:A;JCT:A\ Signatures\ SHA512withRSA Digital Signatures, PKI
 JCT:en:static:183;RSA;JCT:A;JCT:A\ Signatures\ RbRSA Digital Signatures, PKI
 JCT:en:static:184;RSA;JCT:A;JCT:A\ Signatures\ RprimeRSA;4) Digital Signatures, PKI
-JCT:en:static:185;RSA Visualization;JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;10) Learning Aids and Visualizations
-JCT:en:static:186;RSA Visualization;JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;10) Learning Aids and Visualizations
+JCT:en:static:185;RSA visualization;JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;10) Learning Aids and Visualizations
+JCT:en:static:186;RSA visualization;JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;10) Learning Aids and Visualizations
 JCT:en:static:187;RSASSA-PSS;JCT:A;JCT:A\ Algorithms\ Signatures\ RSASSA-PSS;4) Digital Signatures, PKI
 JCT:en:static:188;SAFER+;JCT:A;JCT:A\ Block Ciphers\ SAFER+;2) Modern Ciphers
 JCT:en:static:189;SAFER++;JCT:A;JCT:A\ Block Ciphers\ SAFER++;2) Modern Ciphers
@@ -209,10 +209,10 @@ JCT:en:static:208;SHA-384;JCT:A;JCT:A\ Message Digests\ SHA384 Hash and MAC Algo
 JCT:en:static:209;SHA-512;JCT:A;JCT:A\ Message Digests\ SHA512 Hash and MAC Algorithms
 JCT:en:static:210;Shacal;JCT:A;JCT:A\ Block Ciphers\ Shacal;2) Modern Ciphers
 JCT:en:static:211;Shacal2;JCT:A;JCT:A\ Block Ciphers\ Shacal2;2) Modern Ciphers
-JCT:en:static:212;Shamir's Secret Sharing Visualization;JCT:D;JCT:D\ Visualizations\ Shamir's Secret Sharing;10) Learning Aids and Visualizations
-JCT:en:static:213;Shamir's Secret Sharing Visualization;JCT:D;JCT:D\ Visuals\ Shamir's Secret Sharing;13) Protocols
+JCT:en:static:212;Shamir's Secret Sharing visualization;JCT:D;JCT:D\ Visualizations\ Shamir's Secret Sharing;10) Learning Aids and Visualizations
+JCT:en:static:213;Shamir's Secret Sharing visualization;JCT:D;JCT:D\ Visuals\ Shamir's Secret Sharing;13) Protocols
 JCT:en:static:214;Signatur Verification;JCT:D;JCT:D\ Visualizations\ Signature Verification;10) Learning Aids and Visualizations
-JCT:en:static:215;Simple Power Analysis Visualization;JCT:D;JCT:D\ Visualizations\ Simple Power Analysis / Square and Multiply;10) Learning Aids and Visualizations
+JCT:en:static:215;Simple Power Analysis visualization;JCT:D;JCT:D\ Visualizations\ Simple Power Analysis / Square and Multiply;10) Learning Aids and Visualizations
 JCT:en:static:216;Solving Discrete Logarithm with Babystep-Giantstep;JCT:D;JCT:D\ Visualizations\ Shanks Babystep-Giantstep;10) Learning Aids and Visualizations
 JCT:en:static:217;SSL (MD5 and SHA1 with RSA);JCT:A;JCT:A\ Signatures\ SSL_MD5andSHA1withRSA;4) Digital Signatures, PKI
 JCT:en:static:218;SSL/TLS Handshake;JCT:D;JCT:D\ Visualizations\ SSL/TLS Handshake;10) Learning Aids and Visualizations
@@ -229,11 +229,11 @@ JCT:en:static:228;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTr
 JCT:en:static:229;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTrackMac64;3) Hash and MAC Algorithms
 JCT:en:static:230;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTrackMac96;3) Hash and MAC Algorithms
 JCT:en:static:231;Twofish;JCT:A;JCT:A\ Block Ciphers\ Twofish;2) Modern Ciphers
-JCT:en:static:232;Verifiable Secret Sharing (VSS) Visualization;JCT:D;JCT:D\ Visualizations\ Verifiable Secret Sharing;10) Learning Aids and Visualizations
+JCT:en:static:232;Verifiable Secret Sharing (VSS) visualization;JCT:D;JCT:D\ Visualizations\ Verifiable Secret Sharing;10) Learning Aids and Visualizations
 JCT:en:static:233;Vigenère;JCT:D;JCT:D\ Algorithms\ Classic\ Vigenère;1) Classic Ciphers
 JCT:en:static:234;Vigenère analysis;JCT:D;JCT:D\ Analysis\ Vigenère Breaker;6) Classic Cryptanalysis
 JCT:en:static:235;Viterbi Analysis;JCT:D;JCT:D\ Analysis\ Viterbi Analysis;6) Classic Cryptanalysis
-JCT:en:static:236;Viterbi Visualization;JCT:D;JCT:D\ Visuals\ Viterbi;10) Learning Aids and Visualizations
+JCT:en:static:236;Viterbi visualization;JCT:D;JCT:D\ Visuals\ Viterbi;10) Learning Aids and Visualizations
 JCT:en:static:237;VSH;JCT:A;JCT:A\ Message Digests\ VSH;3) Hash and MAC Algorithms
 JCT:en:static:238;WOTS/WOTS+;JCT:D;JCT:D\ Visualizations\ WOTS/WOTS+;10) Learning Aids and Visualizations
 JCT:en:static:239;XML Security;JCT:D;JCT:D\ Algorithms\ XML Security\;2) Modern Ciphers

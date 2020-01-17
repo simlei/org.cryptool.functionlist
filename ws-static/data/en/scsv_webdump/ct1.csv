@@ -1,14 +1,14 @@
-CT1:en:static:2;3DES Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Triple DES…;7) Modern Cryptanalysis
+CT1:en:static:2;3DES attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Triple DES…;7) Modern Cryptanalysis
 CT1:en:static:3;ADFGVX;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ ADFGVX…;1) Classic Ciphers
 CT1:en:static:4;ADFGVX analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ ADFGVX…;6) Classic Cryptanalysis
 CT1:en:static:5;AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ AES (CBC)...;2) Modern Ciphers
 CT1:en:static:6;AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ AES (self extracting)…;2) Modern Ciphers
-CT1:en:static:7;AES Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ AES (CBC)…;7) Modern Cryptanalysis
-CT1:en:static:8;AES Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ AES\;10) Learning Aids and Visualizations
+CT1:en:static:7;AES attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ AES (CBC)…;7) Modern Cryptanalysis
+CT1:en:static:8;AES visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ AES\;10) Learning Aids and Visualizations
 CT1:en:static:9;ASN.1;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Decode ASN.1 Code of a Document;9) Codings
 CT1:en:static:10;Atbash;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Substitution / Atbash…;1) Classic Ciphers
-CT1:en:static:11;Authentication Methods in Networks Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Network Authentication…;10) Learning Aids and Visualizations
-CT1:en:static:12;Authentication Methods in Networks Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Network Authentication…;13) Protocols
+CT1:en:static:11;Authentication Methods in Networks visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Network Authentication…;10) Learning Aids and Visualizations
+CT1:en:static:12;Authentication Methods in Networks visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Network Authentication…;13) Protocols
 CT1:en:static:13;Autocorrelation;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Autocorrelation;6) Classic Cryptanalysis
 CT1:en:static:14;Base 64 Decode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Base64 Encode/Decode\ Base64 Decode;9) Codings
 CT1:en:static:15;Base 64 Encode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Base64 Encode/Decode\ Base64 Encode;9) Codings
@@ -16,28 +16,28 @@ CT1:en:static:16;Byte Addition;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)
 CT1:en:static:17;Byte Addition analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Byte Addition;6) Classic Cryptanalysis
 CT1:en:static:18;Caesar;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Caesar / Rot-13…;1) Classic Ciphers
 CT1:en:static:19;Caesar analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Caesar;6) Classic Cryptanalysis
-CT1:en:static:20;Caesar Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Caesar…;10) Learning Aids and Visualizations
+CT1:en:static:20;Caesar visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Caesar…;10) Learning Aids and Visualizations
 CT1:en:static:21;Chinese remainder theorem (CRT) visualization;CT1:X;CT1:X\ Indiv. Procedures\ Chinese Remainder Theorem Applications\;10) Learning Aids and Visualizations
 CT1:en:static:22;DES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ DES…;2) Modern Ciphers
-CT1:en:static:23;DES Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ DES…;7) Modern Cryptanalysis
-CT1:en:static:24;DES Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ DES…;10) Learning Aids and Visualizations
+CT1:en:static:23;DES attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ DES…;7) Modern Cryptanalysis
+CT1:en:static:24;DES visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ DES…;10) Learning Aids and Visualizations
 CT1:en:static:25;DESL;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ DESL…;2) Modern Ciphers
-CT1:en:static:26;DESL Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ DESL…;7) Modern Cryptanalysis
+CT1:en:static:26;DESL attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ DESL…;7) Modern Cryptanalysis
 CT1:en:static:27;DESX;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ DESX…;2) Modern Ciphers
-CT1:en:static:28;DESX Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ DESX…;7) Modern Cryptanalysis
+CT1:en:static:28;DESX attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ DESX…;7) Modern Cryptanalysis
 CT1:en:static:29;DESXL;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ DESXL…;2) Modern Ciphers
-CT1:en:static:30;DESXL Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ DESXL…;7) Modern Cryptanalysis
-CT1:en:static:31;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Diffie-Hellman Demonstration…;10) Learning Aids and Visualizations
-CT1:en:static:32;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Diffie-Hellman Demonstration…;13) Protocols
-CT1:en:static:33;Digital Signatures Visualization;CT1:X;CT1:X\ Digital Signatures, PKI\ Signature Demonstration (Signature Generation)…;10) Learning Aids and Visualizations
-CT1:en:static:34;Digital Signatures Visualization;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Signature Demonstration (Signature Generation)…;10) Learning Aids and Visualizations
+CT1:en:static:30;DESXL attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ DESXL…;7) Modern Cryptanalysis
+CT1:en:static:31;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Diffie-Hellman Demonstration…;10) Learning Aids and Visualizations
+CT1:en:static:32;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Diffie-Hellman Demonstration…;13) Protocols
+CT1:en:static:33;Digital Signatures visualization;CT1:X;CT1:X\ Digital Signatures, PKI\ Signature Demonstration (Signature Generation)…;10) Learning Aids and Visualizations
+CT1:en:static:34;Digital Signatures visualization;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Signature Demonstration (Signature Generation)…;10) Learning Aids and Visualizations
 CT1:en:static:35;Display/Export Keys;CT1:X;CT1:X\ Digital Signatures, PKI\ Display/Export Keys…;4) Digital Signatures, PKI
 CT1:en:static:36;DSA;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ DSA;4) Digital Signatures, PKI
 CT1:en:static:37;ECC-AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Hybrid\ ECC-AES…;2) Modern Ciphers
 CT1:en:static:38;ECDSA;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ ECSP-DSA;4) Digital Signatures, PKI
 CT1:en:static:39;ECNR;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ ECSP-NR;4) Digital Signatures, PKI
-CT1:en:static:40;Elliptic Curve Calculations Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\ Point Addition on Elliptic Curves…;10) Learning Aids and Visualizations
-CT1:en:static:41;Enigma Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Enigma…;10) Learning Aids and Visualizations
+CT1:en:static:40;Elliptic Curve Calculations visualization;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\ Point Addition on Elliptic Curves…;10) Learning Aids and Visualizations
+CT1:en:static:41;Enigma visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Enigma…;10) Learning Aids and Visualizations
 CT1:en:static:42;Entropy;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Entropy;6) Classic Cryptanalysis
 CT1:en:static:43;Extract Signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Extract Signature…;4) Digital Signatures, PKI
 CT1:en:static:44;Factorization of a number;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…\ Brute-force;12) Prime numbers
@@ -53,7 +53,7 @@ CT1:en:static:53;Generate/Import Keys;CT1:X;CT1:X\ Digital Signatures, PKI\ Gene
 CT1:en:static:54;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Miller-Rabin Test;12) Prime numbers
 CT1:en:static:55;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Solovay-Strassen Test;12) Prime numbers
 CT1:en:static:56;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ FermatTest;12) Prime numbers
-CT1:en:static:57;Hash Algorithms Visualization;CT1:X;CT1:X\ Indiv Procedures\ Hash\ Hash Demonstration…;10) Learning Aids and Visualizations
+CT1:en:static:57;Hash Algorithms visualization;CT1:X;CT1:X\ Indiv Procedures\ Hash\ Hash Demonstration…;10) Learning Aids and Visualizations
 CT1:en:static:58;Hash Collisions;CT1:X;CT1:X\ Analysis\ Hash\ Attack on the Hash Value of the Digital Signature…;7) Modern Cryptanalysis
 CT1:en:static:59;Hash Value of a File;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ Hash Value of a File…;3) Hash and MAC Algorithms
 CT1:en:static:60;Hill;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Hill…;1) Classic Ciphers
@@ -62,23 +62,23 @@ CT1:en:static:62;Histogram;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Histogram;
 CT1:en:static:63;HMACs;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ Generation of HMACs…;3) Hash and MAC Algorithms
 CT1:en:static:64;Homophone;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Homophone…;1) Classic Ciphers
 CT1:en:static:65;IDEA;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ IDEA…;2) Modern Ciphers
-CT1:en:static:66;IDEA Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ IDEA…;7) Modern Cryptanalysis
+CT1:en:static:66;IDEA attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ IDEA…;7) Modern Cryptanalysis
 CT1:en:static:67;Inverse Congruence Generator (ICG) (PRNG);CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Generate Random Numbers…;5) Random Number Generators
 CT1:en:static:68;Key Generation from Password (PKCS#5);CT1:X;CT1:X\ Indiv. Procedures\ Hash\ Key Generation from Password (PKCS #5)…;3) Hash and MAC Algorithms
 CT1:en:static:69;Length of a number;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Length of a number…;10) Learning Aids and Visualizations
 CT1:en:static:70;Linear Congruence Generator (LCG) (PRNG);CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Generate Random Numbers…;5) Random Number Generators
 CT1:en:static:71;MARS;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ MARS…;2) Modern Ciphers
-CT1:en:static:72;MARS Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ MARS…;7) Modern Cryptanalysis
+CT1:en:static:72;MARS attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ MARS…;7) Modern Cryptanalysis
 CT1:en:static:73;MD2;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ MD2;3) Hash and MAC Algorithms
 CT1:en:static:74;MD4;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ MD4;3) Hash and MAC Algorithms
 CT1:en:static:75;MD5;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ MD5;3) Hash and MAC Algorithms
 CT1:en:static:76;N-Gram analysis;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ N-Gram…;6) Classic Cryptanalysis
-CT1:en:static:77;Nihilist Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Nihilist…;10) Learning Aids and Visualizations
+CT1:en:static:77;Nihilist visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Nihilist…;10) Learning Aids and Visualizations
 CT1:en:static:78;Number Shark;CT1:X;CT1:X\ Indiv. Procedures\ Educational Games\ Number Shark;11) Games
 CT1:en:static:79;Number Theory;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\;10) Learning Aids and Visualizations
 CT1:en:static:80;Number Theory;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\ Generic t-adic-NAF Key Generator;10) Learning Aids and Visualizations
-CT1:en:static:81;Password Quality Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Quality Meter...;10) Learning Aids and Visualizations
-CT1:en:static:82;Password Quality Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Entropy...;10) Learning Aids and Visualizations
+CT1:en:static:81;Password Quality visualization;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Quality Meter...;10) Learning Aids and Visualizations
+CT1:en:static:82;Password Quality visualization;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Entropy...;10) Learning Aids and Visualizations
 CT1:en:static:83;Periodicity analysis;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Periodicity;6) Classic Cryptanalysis
 CT1:en:static:84;Playfair;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Playfair…;1) Classic Ciphers
 CT1:en:static:85;Playfair analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Manual Analysis\ Playfair…;6) Classic Cryptanalysis
@@ -91,34 +91,34 @@ CT1:en:static:91;Prime Number Tutorial;CT1:X;CT1:X\ Indiv. Procedures\ RSA Crypt
 CT1:en:static:92;Prime Number Tutorial;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…;12) Prime numbers
 CT1:en:static:93;Prime Number Tutorial;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…;12) Prime numbers
 CT1:en:static:94;Rail Fence;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Scytale / Rail Fence…;1) Classic Ciphers
-CT1:en:static:95;Randomness Visualization;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ 3D Visualization…;10) Learning Aids and Visualizations
+CT1:en:static:95;Randomness visualization;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ 3D Visualization…;10) Learning Aids and Visualizations
 CT1:en:static:96;RC2;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ RC2…;2) Modern Ciphers
-CT1:en:static:97;RC2 Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ RC2…;7) Modern Cryptanalysis
+CT1:en:static:97;RC2 attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ RC2…;7) Modern Cryptanalysis
 CT1:en:static:98;RC4;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ RC4…;2) Modern Ciphers
-CT1:en:static:99;RC4 Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ RC4…;7) Modern Cryptanalysis
+CT1:en:static:99;RC4 attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ RC4…;7) Modern Cryptanalysis
 CT1:en:static:100;RC6;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ RC6…;2) Modern Ciphers
-CT1:en:static:101;RC6 Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ RC6…;7) Modern Cryptanalysis
+CT1:en:static:101;RC6 attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ RC6…;7) Modern Cryptanalysis
 CT1:en:static:102;RIPEMD-160;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ RIPEMD-160;3) Hash and MAC Algorithms
 CT1:en:static:103;Rot-13;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Caesar / Rot-13…;1) Classic Ciphers
 CT1:en:static:104;RSA;CT1:X;CT1:X\ Encrypt/Decrypt\ Asymmetric\ RSA ;2) Modern Ciphers
 CT1:en:static:105;RSA;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\;2) Modern Ciphers
 CT1:en:static:106;RSA attack;CT1:X;CT1:X\ Analysis\ Asymmetric Encryption\ Lattice-Based Attacks on RSA...\;7) Modern Cryptanalysis
 CT1:en:static:107;RSA attack;CT1:X;CT1:X\ Analysis\ Asymmetric Encryption\ Side-Channel Attack on "Textbook RSA"…;7) Modern Cryptanalysis
-CT1:en:static:108;RSA Visualization;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\;10) Learning Aids and Visualizations
+CT1:en:static:108;RSA visualization;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\;10) Learning Aids and Visualizations
 CT1:en:static:109;RSA-AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Hybrid\ RSA-AES…;2) Modern Ciphers
 CT1:en:static:110;Runs Test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Runs Test…;6) Classic Cryptanalysis
 CT1:en:static:111;Scytale;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Scytale / Rail Fence…;1) Classic Ciphers
 CT1:en:static:112;Secude Library Random Number Generator;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Generate Random Numbers…;5) Random Number Generators
-CT1:en:static:113;Secure Email (S/MIME) Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Secure E-Mail with S/MIME…;10) Learning Aids and Visualizations
-CT1:en:static:114;Secure Email (S/MIME) Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Secure E-Mail with S/MIME…;13) Protocols
+CT1:en:static:113;Secure Email (S/MIME) visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Secure E-Mail with S/MIME…;10) Learning Aids and Visualizations
+CT1:en:static:114;Secure Email (S/MIME) visualization;CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Secure E-Mail with S/MIME…;13) Protocols
 CT1:en:static:115;Serial Test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Serial Test…;7) Modern Cryptanalysis
 CT1:en:static:116;Serpent;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ Serpent…;2) Modern Ciphers
-CT1:en:static:117;Serpent Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ Serpent…;7) Modern Cryptanalysis
+CT1:en:static:117;Serpent attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ Serpent…;7) Modern Cryptanalysis
 CT1:en:static:118;SHA;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ SHA-1;3) Hash and MAC Algorithms
 CT1:en:static:119;SHA;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ SHA-256;3) Hash and MAC Algorithms
 CT1:en:static:120;SHA-512;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ SHA-512;3) Hash and MAC Algorithms
-CT1:en:static:121;Shamir's Secret Sharing Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;10) Learning Aids and Visualizations
-CT1:en:static:122;Shamir's Secret Sharing Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;13) Protocols
+CT1:en:static:121;Shamir's Secret Sharing visualization;CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;10) Learning Aids and Visualizations
+CT1:en:static:122;Shamir's Secret Sharing visualization;CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;13) Protocols
 CT1:en:static:123;Solitaire;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Solitaire…;1) Classic Ciphers
 CT1:en:static:124;Solitaire analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Solitaire...;6) Classic Cryptanalysis
 CT1:en:static:125;Solitaire analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Manual Analysis\ Solitaire…;6) Classic Cryptanalysis
@@ -129,7 +129,7 @@ CT1:en:static:129;Transposition (single and double column);CT1:X;CT1:X\ Encrypt/
 CT1:en:static:130;Transposition (single and double column);CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Permutation / Transposition…;1) Classic Ciphers
 CT1:en:static:131;Transposition analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Known Plaintext\ Single Column Transposition…;6) Classic Cryptanalysis
 CT1:en:static:132;Twofish;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ Twofish…;2) Modern Ciphers
-CT1:en:static:133;Twofish Brute-Force Attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ Twofish…;7) Modern Cryptanalysis
+CT1:en:static:133;Twofish attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ Twofish…;7) Modern Cryptanalysis
 CT1:en:static:134;Unzip;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Compress\ UnZip;9) Codings
 CT1:en:static:135;UU Decode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Decode;9) Codings
 CT1:en:static:136;UU Encode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Encode;9) Codings
@@ -139,7 +139,7 @@ CT1:en:static:139;Vernam analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (c
 CT1:en:static:140;Vigenère;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Vigenère…;1) Classic Ciphers
 CT1:en:static:141;Vigenère analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Vigenère;6) Classic Cryptanalysis
 CT1:en:static:142;Vigenère analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Vigenère (Analysis according to Schroedel)…;6) Classic Cryptanalysis
-CT1:en:static:143;Vigenère Visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Vigenère…;10) Learning Aids and Visualizations
+CT1:en:static:143;Vigenère visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Vigenère…;10) Learning Aids and Visualizations
 CT1:en:static:144;Vitányi analysis;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Vitányi;7) Modern Cryptanalysis
 CT1:en:static:145;X^2 (mod N) (PRNG);CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Generate Random Numbers…;5) Random Number Generators
 CT1:en:static:146;XOR;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ XOR…;1) Classic Ciphers
