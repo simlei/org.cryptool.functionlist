@@ -54,7 +54,7 @@ CT1:en:static:54;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Genera
 CT1:en:static:55;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Solovay-Strassen Test;12) Prime numbers
 CT1:en:static:56;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ FermatTest;12) Prime numbers
 CT1:en:static:57;Hash Algorithms visualization;CT1:X;CT1:X\ Indiv Procedures\ Hash\ Hash Demonstration…;10) Learning Aids and Visualizations
-CT1:en:static:58;Hash Collisions;CT1:X;CT1:X\ Analysis\ Hash\ Attack on the Hash Value of the Digital Signature…;7) Modern Cryptanalysis
+CT1:en:static:58;Hash attack (collisions);CT1:X;CT1:X\ Analysis\ Hash\ Attack on the Hash Value of the Digital Signature…;7) Modern Cryptanalysis
 CT1:en:static:59;Hash Value of a File;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ Hash Value of a File…;3) Hash and MAC Algorithms
 CT1:en:static:60;Hill;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Hill…;1) Classic Ciphers
 CT1:en:static:61;Hill analysis;CT1:X;CT1:X\ Analysis\ Symmetric encryption (classic)\ Known Plaintext\ Hill…;6) Classic Cryptanalysis

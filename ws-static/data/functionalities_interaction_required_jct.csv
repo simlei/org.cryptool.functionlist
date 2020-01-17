@@ -114,7 +114,7 @@ JCT:dynamic:af57f332;DES;JCT:A \ Password-Based Ciphers \ PbeWithMD5AndDES_CBC
 JCT:dynamic:5c32e4c9;SHA;JCT:A \ Pseudo Random Number Generators \ SHA1PRNG
 JCT:dynamic:d619210d;Blum Blum Shub (BBS) PRNG;JCT:A \ Pseudo Random Number Generators \ BBSRandom
 JCT:dynamic:62aadc7d;EC PRNG;JCT:A \ Pseudo Random Number Generators \ ECPRNG
-JCT:dynamic:35f378f7;EC NR signature;JCT:A \ Signatures \ SHA1 \ ECNR
+JCT:dynamic:35f378f7;ECNR signature;JCT:A \ Signatures \ SHA1 \ ECNR
 JCT:dynamic:1ea2f541;RSA signature;JCT:A \ Signatures \ RprimeRSA
 JCT:dynamic:1eba6ea9;RSA signature;JCT:A \ Signatures \ MeRSA
 JCT:dynamic:8a8c5d52;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ RIPEMD160 \ RSA

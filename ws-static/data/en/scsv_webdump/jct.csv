@@ -51,8 +51,8 @@ JCT:en:static:50;CMSS;JCT:A;JCT:A\ Signatures\ CMSSwithSHA256andWinternitzOTS_4 
 JCT:en:static:51;CMSS;JCT:A;JCT:A\ Signatures\ CMSSwithSHA384andWinternitzOTS_1 Digital Signatures, PKI
 JCT:en:static:52;CMSS;JCT:A;JCT:A\ Signatures\ CMSSwithSHA384andWinternitzOTS_2 Digital Signatures, PKI
 JCT:en:static:53;CMSS;JCT:A;JCT:A\ Signatures\ CMSSwithSHA384andWinternitzOTS_3 Digital Signatures, PKI
-JCT:en:static:54;Coin Flipping Protocol;JCT:C;JCT:C\ Protocols\ Coin Flipping;10) Learning Aids and Visualizations
-JCT:en:static:55;Coin Flipping Protocol;JCT:T;JCT:T\ Protocols\ Coin Flipping Protocol;10) Learning Aids and Visualizations
+JCT:en:static:54;Coin flipping protocol;JCT:C;JCT:C\ Protocols\ Coin Flipping;10) Learning Aids and Visualizations
+JCT:en:static:55;Coin flipping protocol;JCT:T;JCT:T\ Protocols\ Coin Flipping Protocol;10) Learning Aids and Visualizations
 JCT:en:static:56;DHA256;JCT:A;JCT:A\ Message Digests\ DHA256;3) Hash and MAC Algorithms
 JCT:en:static:57;Differential Power Analysis visualization;JCT:D;JCT:D\ Visualizations\ Differential Power Analysis / Double and Add;10) Learning Aids and Visualizations
 JCT:en:static:58;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visualization;JCT:D;JCT:D\ Visualizations\ Diffie-Hellman Key Exchange (EC);10) Learning Aids and Visualizations

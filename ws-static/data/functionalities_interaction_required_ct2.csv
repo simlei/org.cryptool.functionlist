@@ -222,7 +222,7 @@ CT2:dynamic:c68b2faa;BB84 attack;CT2:C \ Protocols \ BB84 Man in the Middle
 CT2:dynamic:3d2651cd;BB84;CT2:C \ Protocols \ BB84 Photonbase Generator
 CT2:dynamic:85a1839a;BB84;CT2:C \ Protocols \ BB84 Photon Decoder
 CT2:dynamic:d2368a3c;BB84;CT2:C \ Protocols \ BB84 Photon Encoder
-CT2:dynamic:f1acc4b7;Coin Flipping;CT2:C \ Protocols \ Coin Flipping
+CT2:dynamic:f1acc4b7;Coin flipping;CT2:C \ Protocols \ Coin Flipping
 CT2:dynamic:d923b0a4;HMAC;CT2:C \ Protocols \ HMAC
 CT2:dynamic:3aac8f45;ISAP bit commitment scheme;CT2:C \ Protocols \ ISAP Bit Commitment Scheme
 CT2:dynamic:b2f6b1f3;Man-in-the-middle attack;CT2:C \ Protocols \ ManInTheMiddle
@@ -252,7 +252,7 @@ CT2:dynamic:81208b59;ISBN;CT2:T \ Codes \ ISBN-10 Check
 CT2:dynamic:c1144ed6;ISBN;CT2:T \ Codes \ ISBN-13 Check
 CT2:dynamic:3e2734cc;Morse code;CT2:T \ Codes \ Morse code
 CT2:dynamic:7bf9e18a;QR code;CT2:T \ Codes \ QR Code Encryption
-CT2:dynamic:bb7249d8;QR code || RSA;CT2:T \ Codes \ RSA signed QR code
+CT2:dynamic:bb7249d8;QR code;CT2:T \ Codes \ RSA signed QR code
 CT2:dynamic:2c08290f;Visual code;CT2:T \ Codes \ Simple detection of optical codes
 CT2:dynamic:f5c1b6f4;VCard;CT2:T \ Codes \ VCard
 CT2:dynamic:a5cd5390;Caesar analysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
@@ -422,7 +422,7 @@ CT2:dynamic:f3fa4d7f;SAT solver;CT2:T \ Mathematics \ SAT Solver (File Input)
 CT2:dynamic:1c6afb49;SAT solver;CT2:T \ Mathematics \ SAT Solver (Text Input)
 CT2:dynamic:612ecc23;BB84 key exchange;CT2:T \ Protocols \ BB84 Key Exchange
 CT2:dynamic:3ac30993;BB84 key exchange attack;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
-CT2:dynamic:a27248d4;Coin Flipping Protocol;CT2:T \ Protocols \ Coin Flipping Protocol
+CT2:dynamic:a27248d4;Coin flipping protocol;CT2:T \ Protocols \ Coin Flipping Protocol
 CT2:dynamic:5ac7eb49;Virtual Smartcard;CT2:T \ Protocols \ Communication with a SmartCard
 CT2:dynamic:df766f5f;Diffie-Hellman key exchange (DH);CT2:T \ Protocols \ Diffie-Hellman Key-Exchange
 CT2:dynamic:e5439cef;Diffie-Hellman key exchange (DH);CT2:T \ Protocols \ Diffie-Hellman Key-Exchange over network
@@ -499,7 +499,7 @@ CT2:dynamic:85d76478;Primes test;CT2:N \ Crypto tutorials \ World of Primes \ Pr
 CT2:dynamic:56aa421b;PKCS#5 AES;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
 CT2:dynamic:af261e38;Classical ciphers analysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
 CT2:dynamic:79f8d1f9;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
-CT2:dynamic:b78d06b0;Web;CT2:T \ Experimental \ Webhits for a hash value
+CT2:dynamic:b78d06b0;Webhits for a hash value;CT2:T \ Experimental \ Webhits for a hash value
 CT2:dynamic:7a28d19c;Basics template;CT2:T \ Mathematics \ Booleans
 CT2:dynamic:e09bfa66;Basics template;CT2:T \ Mathematics \ Loop (1)
 CT2:dynamic:3361f4ed;Steganography;CT2:T \ Steganography \ Steganography Insertion Decryption
@@ -514,7 +514,7 @@ CT2:dynamic:cd7ceca9;Key derivation function (KDF);CT2:C \ Hash functions \ HKDF
 CT2:dynamic:79c0e4cc;Key derivation function (KDF);CT2:C \ Hash functions \ KKDF SHA-256
 CT2:dynamic:3cd9e5ac;Key derivation function (KDF);CT2:C \ Hash functions \ KKDF SHAKE256
 CT2:dynamic:bdcd691b;SOAP;CT2:C \ Protocols \ SoapMessage
-CT2:dynamic:9890cbfd;Web Service;CT2:C \ Protocols \ WebService
+CT2:dynamic:9890cbfd;WebService;CT2:C \ Protocols \ WebService
 CT2:dynamic:66573448;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \ NFS Factorizer
 CT2:dynamic:7ab976df;Transcriptor analysis;CT2:C \ Cryptanalysis \ Generic \ Transcriptor
 CT2:dynamic:3a211673;Specific cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Alg.Attack: Compute annihilators

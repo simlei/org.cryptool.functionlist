@@ -79,8 +79,8 @@ CT2:en:static:78;Caesar analysis;CT2:W;CT2:W\ Cryptanalysis\ Classic Encryption\
 CT2:en:static:79;Camellia;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Camellia;2) Modern Ciphers
 CT2:en:static:80;Camellia;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Camellia Cipher;2) Modern Ciphers
 CT2:en:static:81;Clock;CT2:C;CT2:C\ Tools\ Data flow\ Clock;14) Tools
-CT2:en:static:82;Coin Flipping Protocol;CT2:C;CT2:C\ Protocols\ Coin Flipping;10) Learning Aids and Visualizations
-CT2:en:static:83;Coin Flipping Protocol;CT2:T;CT2:T\ Protocols\ Coin Flipping Protocol;13) Protocols
+CT2:en:static:82;Coin flipping protocol;CT2:C;CT2:C\ Protocols\ Coin Flipping;10) Learning Aids and Visualizations
+CT2:en:static:83;Coin flipping protocol;CT2:T;CT2:T\ Protocols\ Coin Flipping Protocol;13) Protocols
 CT2:en:static:84;Cost function;CT2:C;CT2:C\ Cryptanalysis\ Generic\ Cost Function;7) Modern Cryptanalysis
 CT2:en:static:85;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Brute-force Analysis;7) Modern Cryptanalysis
 CT2:en:static:86;Cost function;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Transposition Crib Analysis;7) Modern Cryptanalysis
