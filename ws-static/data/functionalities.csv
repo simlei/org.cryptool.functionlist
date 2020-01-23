@@ -5,6 +5,7 @@ Data input;Dateneingabe
 Primes;Primzahlen
 Steganography;Steganographie
 Factorization of a number;Faktorisierung
+Transposition (single and double column);Transposition (einfache und doppelte Spalten)
 Transposition analysis;Transpositionsanalyse
 Paillier signature;Paillier Signatur
 DECODE database;DECODE Datenbank
@@ -114,3 +115,5 @@ Classical ciphers analysis;Klassische Verfahren - Analyse
 Webhits for a hash value;Webtreffer für einen Hashwert
 Spanish strip cipher analysis;Spanische Streifenchiffre - Analyse
 Spanish strip cipher;Spanische Streifenchiffre
+Double box;Dopelkasten
+Key exchange;Schlüsselaustausch
