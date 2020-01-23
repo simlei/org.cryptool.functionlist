@@ -1,0 +1,48 @@
+ADFGX / ADFGVX
+Affine Chiffre
+Alberti cipher => Alberti-Chiffre
+AMSCO
+Autokey-Vigenère
+Beaufort
+Bifid
+Caesar
+Enigma
+Four-Square
+Freimaurer
+Gartenzaun
+Gronsfeld
+Hill cipher => Hill-Chiffre
+Homophonic substitution cipher ==> Homophone Substitutionschiffre
+Kamasutra
+Larrabee
+Navajo code
+Nihilist cipher => Nihilist-Chiffre
+Playfair cipher => Playfair-Chiffre
+Pollux
+Polybius
+Porta
+Rot-13
+Rotation
+Skytale
+Substitution
+Templer
+Transposition (ein-stufige Spaltentransposition) ==> Transposition (einfache und doppelte Spalten)
+Trithemius
+Vigenère-Chiffre
+AES
+Autokorrelation
+Häufigkeitsanalyse
+N-Gramm-Analyse
+Vigenère-Analyse
+ASCII
+Bacon
+Barcode-Generator
+Base 64 decodieren => Base 64
+Base 64 encodieren => Base 64
+Code 39
+Huffman
+Morse code
+Matrix-Bildschirmschoner-Visualisierung
+Passwortqualität-Visualisierung
+Zahlenhai
+

@@ -69,7 +69,7 @@ CT2:dynamic:ab8544b7;Padding oracle attack (POA);CT2:C \ Tools \ Misc \ Padding 
 CT2:dynamic:6e7a5d4c;Padding oracle attack (POA);CT2:C \ Tools \ Misc \ Padding Oracle Attack
 CT2:dynamic:bdb5fbf5;Passwords;CT2:C \ Tools \ Misc \ PasswordStrength
 CT2:dynamic:19209629;Misc;CT2:C \ Tools \ Misc \ Progress
-CT2:dynamic:141c44b7;PRNG;CT2:C \ Tools \ Misc \ Random Number Generator
+CT2:dynamic:141c44b7;Pseudo random number generator (PRNG);CT2:C \ Tools \ Misc \ Random Number Generator
 CT2:dynamic:7491f335;Misc;CT2:C \ Tools \ Misc \ SAT Solver
 CT2:dynamic:e4eb8008;SIGABA;CT2:C \ Tools \ Misc \ Sigaba
 CT2:dynamic:472c4a23;SIGABA;CT2:C \ Tools \ Misc \ SigabaBruteforce
@@ -105,7 +105,7 @@ CT2:dynamic:62c1f476;Huffman;CT2:T \ Tools \ Huffman's algorithm (BMG, JPG)
 CT2:dynamic:e24a967f;Huffman;CT2:T \ Tools \ Huffman's algorithm (UTF-8)
 CT2:dynamic:070870b6;Keccak;CT2:T \ Tools \ Keccak pseudorandom number generator (PRNG)
 CT2:dynamic:a085109c;Data input;CT2:T \ Tools \ Random Decimal Number
-CT2:dynamic:7b404ab3;PRNG;CT2:T \ Tools \ Random number generators
+CT2:dynamic:7b404ab3;Pseudo random number generator (PRNG);CT2:T \ Tools \ Random number generators
 CT2:dynamic:16e78af0;Application;CT2:T \ Tools \ Simple AES Chat
 CT2:dynamic:79850b59;Application;CT2:T \ Tools \ Simple Video and Audio Chat using AES encryption
 CT2:dynamic:052ca244;Data flow;CT2:T \ Tools \ Split a text
@@ -144,7 +144,7 @@ CT2:dynamic:77fd3a14;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \
 CT2:dynamic:d426821b;Frequency test;CT2:C \ Cryptanalysis \ Generic \ Frequency Test
 CT2:dynamic:0d325f1f;Friedman test;CT2:C \ Cryptanalysis \ Generic \ Friedman Test
 CT2:dynamic:9eda4758;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \ General Number Field Sieve
-CT2:dynamic:afdf251b;Kasiski Test;CT2:C \ Cryptanalysis \ Generic \ Kasiski's Test
+CT2:dynamic:afdf251b;Kasiski test;CT2:C \ Cryptanalysis \ Generic \ Kasiski's Test
 CT2:dynamic:08c130c6;Primes test;CT2:C \ Cryptanalysis \ Generic \ Prime Test
 CT2:dynamic:6b598e80;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \ Quadratic Sieve
 CT2:dynamic:94329868;A5 attack;CT2:C \ Cryptanalysis \ Specific \ A5 Attack
@@ -222,15 +222,15 @@ CT2:dynamic:c68b2faa;BB84 attack;CT2:C \ Protocols \ BB84 Man in the Middle
 CT2:dynamic:3d2651cd;BB84;CT2:C \ Protocols \ BB84 Photonbase Generator
 CT2:dynamic:85a1839a;BB84;CT2:C \ Protocols \ BB84 Photon Decoder
 CT2:dynamic:d2368a3c;BB84;CT2:C \ Protocols \ BB84 Photon Encoder
-CT2:dynamic:f1acc4b7;Coin flipping;CT2:C \ Protocols \ Coin Flipping
+CT2:dynamic:f1acc4b7;Coin flipping protocol;CT2:C \ Protocols \ Coin Flipping
 CT2:dynamic:d923b0a4;HMAC;CT2:C \ Protocols \ HMAC
 CT2:dynamic:3aac8f45;ISAP bit commitment scheme;CT2:C \ Protocols \ ISAP Bit Commitment Scheme
 CT2:dynamic:b2f6b1f3;Man-in-the-middle attack;CT2:C \ Protocols \ ManInTheMiddle
 CT2:dynamic:2f64b9e6;NLFSR;CT2:C \ Protocols \ NLFSR
 CT2:dynamic:2ebae299;Oblivious transfer protocol;CT2:C \ Protocols \ Oblivious Transfer 1
 CT2:dynamic:f60cd05e;Oblivious transfer protocol;CT2:C \ Protocols \ Oblivious Transfer 2
-CT2:dynamic:bb3369e5;Virtual Smartcard;CT2:C \ Protocols \ Smartcard
-CT2:dynamic:78678735;Virtual Smartcard;CT2:C \ Protocols \ Smartcard Interpreter
+CT2:dynamic:bb3369e5;Virtual smartcard;CT2:C \ Protocols \ Smartcard
+CT2:dynamic:78678735;Virtual smartcard;CT2:C \ Protocols \ Smartcard Interpreter
 CT2:dynamic:cdd977b0;WEP;CT2:C \ Protocols \ WEP protocol
 CT2:dynamic:c68b4ffe;Yao's millionaire problem (protocol);CT2:C \ Protocols \ Yao 1
 CT2:dynamic:58fdbf01;Yao's millionaire problem (protocol);CT2:C \ Protocols \ Yao 2
@@ -240,7 +240,7 @@ CT2:dynamic:31205cf2;Zero knowledge protocol;CT2:C \ Protocols \ Zero Knowledge 
 CT2:dynamic:f5e52680;Steganography;CT2:C \ Steganography \ Insertion Steganography
 CT2:dynamic:0a563b6f;Steganography;CT2:C \ Steganography \ LSB Steganography
 CT2:dynamic:cca82098;Steganography;CT2:C \ Steganography \ Permutation Steganography
-CT2:dynamic:240447b3;Watermark Creator;CT2:C \ Steganography \ Watermark Creator
+CT2:dynamic:240447b3;Watermark creator;CT2:C \ Steganography \ Watermark Creator
 CT2:dynamic:703acac0;Avalanche effect;CT2:C \ Tools \ Misc \ Avalanche Visualization
 CT2:dynamic:14d5b694;Block mode visualizer;CT2:C \ Tools \ Misc \ Blockmode Visualizer
 CT2:dynamic:f83d7ed8;PKCS#1 attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1
@@ -293,15 +293,15 @@ CT2:dynamic:d84565bd;Trivium attack;CT2:T \ Cryptanalysis \ Modern \ Cube Attack
 CT2:dynamic:d20d7fe3;DES analysis;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
 CT2:dynamic:d73d81e7;DES analysis;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
 CT2:dynamic:6ca8ae28;DES analysis;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
-CT2:dynamic:1bf13fcd;Differential cryptanalysis visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1
+CT2:dynamic:1bf13fcd;Differential cryptanalysis (DCA) visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1
 CT2:dynamic:795e8949;Differential cryptanalysis (DCA);CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1 (automatic mode)
-CT2:dynamic:c08be9d1;Differential cryptanalysis visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1 (tutorial mode)
-CT2:dynamic:6f0254d5;Differential cryptanalysis visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 2
+CT2:dynamic:c08be9d1;Differential cryptanalysis (DCA) visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1 (tutorial mode)
+CT2:dynamic:6f0254d5;Differential cryptanalysis (DCA) visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 2
 CT2:dynamic:5583b8d0;Differential cryptanalysis (DCA);CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 2 (automatic mode)
-CT2:dynamic:a09de055;Differential cryptanalysis visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 2 (tutorial mode)
-CT2:dynamic:efd62fe7;Differential cryptanalysis visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3
+CT2:dynamic:a09de055;Differential cryptanalysis (DCA) visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 2 (tutorial mode)
+CT2:dynamic:efd62fe7;Differential cryptanalysis (DCA) visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3
 CT2:dynamic:8551f5f9;Differential cryptanalysis (DCA);CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3 (automatic mode)
-CT2:dynamic:73666a5e;Differential cryptanalysis visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3 (tutorial mode)
+CT2:dynamic:73666a5e;Differential cryptanalysis (DCA) visual;CT2:T \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3 (tutorial mode)
 CT2:dynamic:60b1af77;Padding oracle attack (POA);CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
 CT2:dynamic:ec647442;Padding oracle attack (POA);CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
 CT2:dynamic:022949f5;SDES analysis;CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
@@ -372,7 +372,7 @@ CT2:dynamic:9bec0df3;Salsa20;CT2:T \ Cryptography \ Modern \ Symmetric \ Salsa20
 CT2:dynamic:78f0001a;SDES;CT2:T \ Cryptography \ Modern \ Symmetric \ SDES Cipher
 CT2:dynamic:3445c236;Sosemanuk;CT2:T \ Cryptography \ Modern \ Symmetric \ Sosemanuk Cipher
 CT2:dynamic:bd4eac56;TEA;CT2:T \ Cryptography \ Modern \ Symmetric \ TEA Cipher
-CT2:dynamic:af5a9271;TripleDES;CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
+CT2:dynamic:af5a9271;Triple DES;CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
 CT2:dynamic:64857ba4;Twofish;CT2:T \ Cryptography \ Modern \ Symmetric \ Twofish Cipher
 CT2:dynamic:7935241d;Block mode visualizer;CT2:T \ Experimental \ Blockmode Visualizer
 CT2:dynamic:5e7de1a6;CypherMatrix;CT2:T \ Experimental \ CypherMatrix Cipher
@@ -392,9 +392,9 @@ CT2:dynamic:4b42ed9a;Dictionary search;CT2:T \ Hash Functions \ Dictionary Attac
 CT2:dynamic:a82319ed;Grøstl;CT2:T \ Hash Functions \ Grøstl
 CT2:dynamic:2166f1e9;ImageHash;CT2:T \ Hash Functions \ ImageHash
 CT2:dynamic:a607f3e6;ImageHash;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
-CT2:dynamic:f2c23b74;KDF Performance Comparison;CT2:T \ Hash Functions \ KDF Performance Comparison (without presentation)
-CT2:dynamic:cd9c28ff;KDF Performance Comparison;CT2:T \ Hash Functions \ KDF Performance Comparison (with presentation)
-CT2:dynamic:8f9832bd;Keccak Hash;CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
+CT2:dynamic:f2c23b74;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (without presentation)
+CT2:dynamic:cd9c28ff;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (with presentation)
+CT2:dynamic:8f9832bd;Keccak hash;CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
 CT2:dynamic:94cfc039;MD5;CT2:T \ Hash Functions \ MD5
 CT2:dynamic:941ba2ed;BLAKE password storage;CT2:T \ Hash Functions \ Password storage using salted BLAKE-256
 CT2:dynamic:aa8de6fd;BLAKE password storage;CT2:T \ Hash Functions \ Password verification using salted BLAKE-256
@@ -423,21 +423,21 @@ CT2:dynamic:1c6afb49;SAT solver;CT2:T \ Mathematics \ SAT Solver (Text Input)
 CT2:dynamic:612ecc23;BB84 key exchange;CT2:T \ Protocols \ BB84 Key Exchange
 CT2:dynamic:3ac30993;BB84 key exchange attack;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
 CT2:dynamic:a27248d4;Coin flipping protocol;CT2:T \ Protocols \ Coin Flipping Protocol
-CT2:dynamic:5ac7eb49;Virtual Smartcard;CT2:T \ Protocols \ Communication with a SmartCard
+CT2:dynamic:5ac7eb49;Virtual smartcard;CT2:T \ Protocols \ Communication with a SmartCard
 CT2:dynamic:df766f5f;Diffie-Hellman key exchange (DH);CT2:T \ Protocols \ Diffie-Hellman Key-Exchange
 CT2:dynamic:e5439cef;Diffie-Hellman key exchange (DH);CT2:T \ Protocols \ Diffie-Hellman Key-Exchange over network
 CT2:dynamic:cb7b5999;Dining cryptographers protocol;CT2:T \ Protocols \ Dining Cryptographers Protocol
 CT2:dynamic:6d8f1007;Heartbleed analysis;CT2:T \ Protocols \ Heartbleed Test
 CT2:dynamic:9dc867ec;HTTP protocol;CT2:T \ Protocols \ HTTP Request
 CT2:dynamic:3bd0df61;Oblivious transfer protocol;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
-CT2:dynamic:765b9a28;Simple Multi Client Communication;CT2:T \ Protocols \ Simple Multi Client Communication
-CT2:dynamic:fce2f6a4;Simple Webserver;CT2:T \ Protocols \ Simple Webserver
+CT2:dynamic:765b9a28;Simple multi-client communication;CT2:T \ Protocols \ Simple Multi Client Communication
+CT2:dynamic:fce2f6a4;Simple webserver;CT2:T \ Protocols \ Simple Webserver
 CT2:dynamic:56b2ff86;WEP attack;CT2:T \ Protocols \ WEP Attack
 CT2:dynamic:75ffe28d;Yao's millionaire problem (protocol);CT2:T \ Protocols \ Yao's Millionaire Problem Protocol
 CT2:dynamic:a9739be4;Zero knowledge protocol;CT2:T \ Protocols \ Zero Knowledge Protocol
-CT2:dynamic:e7a87581;Watermark Creator;CT2:T \ Steganography \ Watermark Creator -- invisible watermark
-CT2:dynamic:4e1ae8fe;Watermark Creator;CT2:T \ Steganography \ Watermark Creator -- Robustness
-CT2:dynamic:26a1314e;Watermark Creator;CT2:T \ Steganography \ Watermark Creator -- visible watermark
+CT2:dynamic:e7a87581;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- invisible watermark
+CT2:dynamic:4e1ae8fe;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- Robustness
+CT2:dynamic:26a1314e;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- visible watermark
 CT2:dynamic:1700114a;Visual code;CT2:W \ Codes \ Create visual code
 CT2:dynamic:4d44e23e;Visual code;CT2:W \ Codes \ Decode visual code
 CT2:dynamic:9f80a735;Encoding;CT2:W \ Codes \ Encoding
@@ -500,8 +500,8 @@ CT2:dynamic:56aa421b;PKCS#5 AES;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, ou
 CT2:dynamic:af261e38;Classical ciphers analysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
 CT2:dynamic:79f8d1f9;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
 CT2:dynamic:b78d06b0;Webhits for a hash value;CT2:T \ Experimental \ Webhits for a hash value
-CT2:dynamic:7a28d19c;Basics template;CT2:T \ Mathematics \ Booleans
-CT2:dynamic:e09bfa66;Basics template;CT2:T \ Mathematics \ Loop (1)
+CT2:dynamic:7a28d19c;Math template;CT2:T \ Mathematics \ Booleans
+CT2:dynamic:e09bfa66;Math template;CT2:T \ Mathematics \ Loop (1)
 CT2:dynamic:3361f4ed;Steganography;CT2:T \ Steganography \ Steganography Insertion Decryption
 CT2:dynamic:3f20fc52;Steganography;CT2:T \ Steganography \ Steganography Insertion Encryption
 CT2:dynamic:a87036af;Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Data Transfer
@@ -525,9 +525,9 @@ CT2:dynamic:d7fd42e7;DECODE database;CT2:C \ DECRYPT Project \ DECODE Decipherer
 CT2:dynamic:de50b4fa;DECODE database;CT2:C \ DECRYPT Project \ DECODE Downloader
 CT2:dynamic:3dc62c99;DECODE database;CT2:C \ DECRYPT Project \ DecodeParserTesterCaption
 CT2:dynamic:251fd098;DECODE database;CT2:C \ DECRYPT Project \ DECODESymbolHeatmapCaption
-CT2:dynamic:b03e2260;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ CryptAnalysisEvaluator
-CT2:dynamic:9cd98f7e;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ EvaluationContainerInput
-CT2:dynamic:a44d2f22;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ TestVectorGenerator
-CT2:dynamic:23c0aae4;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ Word Patterns
-CT2:dynamic:66b44f04;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ Contains
+CT2:dynamic:23c0aae4;Word pattern analysis;CT2:C \ Cryptanalysis \ Generic \ Word Patterns
+CT2:dynamic:66b44f04;Tools;CT2:C \ Cryptanalysis \ Generic \ Contains
+CT2:dynamic:b03e2260;Tools;CT2:C \ Cryptanalysis \ Generic \ CryptAnalysisEvaluator
+CT2:dynamic:9cd98f7e;Tools;CT2:C \ Cryptanalysis \ Generic \ EvaluationContainerInput
+CT2:dynamic:a44d2f22;Tools;CT2:C \ Cryptanalysis \ Generic \ TestVectorGenerator
 

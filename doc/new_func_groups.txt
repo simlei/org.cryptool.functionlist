@@ -2,179 +2,179 @@ Data flow
 AES
 RSA signature
 Data input
+Primes
 RSA
 Winternitz
-Serpent
 SHA
+Serpent
+Steganography
+Factorization of a number
 DES
+Transposition analysis
+Differential cryptanalysis (DCA)
+Paillier signature
+MD5
+DECODE database
 Fialka
-Transposition Analysis
+Avalanche effect
 AES MAC
+RIPEMD
 DSA signature
 ECDSA
 ADFGX / ADFGVX
 Misc
-AES Analysis
-Avalanche Effect Analysis
-Differential cryptanalysis Tutorial
-Paillier Cryptosystem
-Camellia
+AES analysis
+Differential cryptanalysis (DCA) visual
+Lattice visual
 RC2
-TwoTrack MAC
+Camellia
 IDEA
-RIPEMD
+TwoTrack MAC
 GMSS
+Merkle signature
 Vigenère cipher
 Caesar
 Substitution
-MD5
+Transposition (single and double column)
+Substitution analysis
 Huffman
 Bitcoin
-Differential computational analysis (DCA)
+Primes test
 BB84
-SDES Analysis
+SDES analysis
+Key derivation function (KDF)
+Twofish
 SHA MAC
 RIPEMD MAC
-Twofish
-Merkle
-Transposition
+Playfair cipher
 XOR
 RC4
+Vigenère analysis
 CypherMatrix
-Factorization of a Number
+Padding oracle attack (POA)
+M-138 attack
 Blind signature
-Watermark Creator
-DES Analysis
+Yao's millionaire problem (protocol)
+Watermark creator
+QR code
+DES analysis
+PKCS#5 AES
 Encrypted VM
 ElGamal
 McEliece
 Tiger
-Playfair cipher
-Caesar Analysis
-Substitution Analysis
-Prime numbers
+Frequency test
+Caesar analysis
 Morse code
 Passwords
-CRC
+Cyclic redundancy check (CRC)
 Application
 Keccak
 Enigma
 M209
 Scytale
-Vigenère Analysis
+T-310
+Enigma attack
 ImageHash
 Cramer-Shoup
+Grain
 SDES
 TEA
-Oblivious Transfer Protocol
-Virtual Smartcard
-Yao's Millionaire Problem
-Zero Knowledge Protocol
-PKCS#1 Attack
-QR code
+Oblivious transfer protocol
+Virtual smartcard
+Zero knowledge protocol
+PKCS#1 attack
 Visual code
-M-138 Attack
-Differential cryptanalysis
+Transcriptor analysis
+Word pattern analysis
+Specific cryptanalysis
+Analysis tools
+Niederreiter
 RC6
-DES MAC
-TripleDES
-MD5 MAC
-SAFER MAC
-Shacal MAC
 Shacal
 SAFER
-Niederreiter
+DES MAC
+SAFER MAC
+Shacal MAC
 MD
+Triple DES
 GQ signature
 LFSR
-Frequency analysis
 Friedman test
-Substitution analysis
 Key exchange
 SPHINCS
 Fiat Shamir
-Berlekamp-Massey Algorithm
+Berlekamp-Massey algorithm
 Achterbahn
-DECODE
-Padding Oracle Attack (POA)
-PRNG
-Sigaba
+Pseudo random number generator (PRNG)
+SIGABA
 HMAC
 Hill cipher
 M-138
 Nihilist cipher
 Purple
 Solitaire
-Spanish Strip cipher
-Discrete Logarithm
-General Number Field Sieve (GNFS)
-Prime number test
-Quadratic Sieve (QS)
-Grain Attack
-Homophonic substitution Analysis
-Playfair Analysis
-Solitaire Analysis
-Spanish Strip cipher Analysis
+Spanish strip cipher
+Discrete logarithm
+Grain attack
+Homophonic substitution analysis
+Playfair analysis
+Solitaire analysis
+Spanish strip cipher analysis
 BLAKE
 Grøstl
 Whirlpool
 DGK
-Paillier
-AES Visualization
-DES Visualization
-Grain
+AES visualization
+DES visualization
 HC128
 Mickey 2
 PRESENT
 Rabbit
 Salsa20
 Sosemanuk
-WEP Attack
-ISAP Bit Commitment Scheme
+WEP attack
+Coin flipping protocol
+ISAP bit commitment scheme
 NLFSR
-Blockmode Visualizer
+Block mode visualizer
 ISBN
-Enigma Analysis
-Scytale Analysis
-Transcriptor Analysis
-Wordpattern Analysis
-Padding Oracle Attack
-Homophonic Substitution cipher
-One-time pad
-PKCS#5 AES
-SIGABA Analysis
-KDF Performance Comparison
+Scytale analysis
+Homophonic substitution cipher
+One-time pad (OTP)
+SIGABA analysis
 BLAKE password storage
 Grøstl password storage
-SHA-1
 SAT solver
 Diffie-Hellman key exchange (DH)
+Lattice attack
+Math template
 McEliece signature
-RC2 MAC
-RC6 MAC
 RC5
-RC5 MAC
+MARS
+Misty
+ECIES
 Tiger MAC
 FORK MAC
-MD4 MAC
-MAC General
+MD4
+MAC general
 DHA MAC
 Serpent MAC
+RC5 MAC
+RC6 MAC
+RC2 MAC
 IDEA MAC
 Misty MAC
 MARS MAC
 Camellia MAC
 Twofish MAC
-MARS
-Misty
-ECIES
 DHA
 VSH
 FORK
 PBES2
-Blum Blum Shub
+Blum Blum Shub (BBS) PRNG
 EC PRNG
-EC NR signature
+ECNR signature
 CMSS
 Bifid
 Double box
@@ -182,18 +182,16 @@ DSA
 Dragon
 Entropy analysis
 Grille analysis
-Transposition analysis
-Vigenère analysis
 Viterbi analysis
 Divider game
 Number Shark
 Sudoku solver
 Zudo-Ku
-Ant Colony Optimization
-Android Unlock Pattern
+Ant Colony Optimization (ACO)
+Android Unlock Pattern (AUP)
 Shanks Babystep-Giantstep
-Chinese Remainder Theorem
-Certificate Verification
+Chinese remainder theorem (CRT) visualization
+Certificate verification
 EC calculations
 Reciprocal subtraction
 Grille
@@ -202,90 +200,74 @@ Homomorphic encryption
 Public-key infrastructure
 Kleptography
 Knapsack
-Merkle signature
 Shamir's secret sharing
 Differential power analysis
 Square and multiply
-Signature demonstration
+Signature visual
 Signature verification
 TLS handshake
-Verifiable secret sharing
+Verifiable secret sharing (VSS)
 WOTS
-Magic door
+Magic door visual
 Graph isomorphism
 Alphabet
-ADFGX / ADFGVX Analysis
+ADFGVX analysis
 Encryption
 Heartbleed
 Cylinder cipher
 Lorenz SZ42
-Playfair Cipher
-T-310
 T-316
 Vernam
 Autocorrelation
-Cost Function
-Frequency Test
-Kasiski Test
-A5 Attack
-Cube Attack
-Enigma Attack
-IDP Analysis
-Key Searcher
-M-138 Analysis
-Feistel Attack
-MD5 Collisions
+Cost function
+Kasiski test
+A5 attack
+Cube attack
+IDP analysis
+Key searcher
+Feistel attack
+MD5 attack (collisions)
 PKCS#5
 A5
 FEAL
 Feistel
-Format Preserving Encryption (FPE)
+Format preserving encryption (FPE)
 HIGHT
 MiniTreyfer
-TREYFER Attack
+TREYFER attack
 TREYFER
 Trivium
-BB84 Attack
-Coin Flipping
-Man-in-the-middle Attack
+BB84 attack
+Man-in-the-middle attack
 WEP
-Insertion Steganography
-LSB Steganography
-Permutation Steganography
-Avalanche Visualization
-QR code || RSA
 VCard
-Transposition (Double Column)
-Kryptos K1 Analysis
-Kryptos K2 Analysis
-Zodiac-408 Analysis
-CBC Attack
-Trivium Attack
-Triple DES Analysis
+Kryptos K1 analysis
+Kryptos K2 analysis
+Zodiac-408 analysis
+CBC attack
+Trivium attack
+Triple DES analysis
 Navajo code
-T-310 / 50
-T-310 / 51
-Blockmode
-Grain v1
-Dictionary Search
-Keccak Hash
+Block mode
+Dictionary search
+Keccak hash
 PBKDF-1 (PKCS#5 2.0)
-RIPEMD160
-SHA-256
 Decimalization
-Hamming Distance
-Levenshtein Distance
+Hamming distance
+Levenshtein distance
 BB84 key exchange
-BB84 key exchange Attack
-Coin Flipping Protocol
-Dining Cryptographers Protocol
-Heartbleed Analysis
-HTTP
-Simple Multi Client Communication
-Simple Webserver
-Yao's Millionaire Problem Protocol
+BB84 key exchange attack
+Dining cryptographers protocol
+Heartbleed analysis
+HTTP protocol
+Simple multi-client communication
+Simple webserver
 Encoding
-Crib Analysis
-RSA Analysis
-MD5 Analysis
-Generation of Prime Numbers
+Crib analysis
+RSA attack
+MD5 analysis
+Classical ciphers analysis
+Webhits for a hash value
+SOAP
+WebService
+Tools

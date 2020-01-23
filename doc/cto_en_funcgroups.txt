@@ -1,0 +1,50 @@
+ADFGV
+AES
+Affine cipher
+Alberti cipher
+AMSCO
+ASCII
+Autocorrelation
+Autokey analysis
+Autokey Vigenère
+Bacon
+Barcode generator
+Base 64
+Base 64
+Beaufort
+Bifid
+Caesar
+Code 39
+Distributed AES analysis
+Enigma
+Four Square
+Freemason
+Frequency test
+Gronsfeld
+Hill cipher
+Homophonic substitution cipher
+Huffman
+Kamasutra
+Larrabee
+Morse code
+N-gram analysis
+Navajo code
+Nihilist cipher
+Number Shark
+Password Generator
+Password Quality visualization
+Playfair cipher
+Pollux
+Polybius
+Porta
+Rail fence
+Rot-13
+Rotation
+Scytale
+Substitution
+Templar
+Transposition (single and double column)
+Trithemius
+Vigenère cipher
+Vigenère analysis
+

@@ -78,14 +78,16 @@ def extract_funmaps_in_feedback(file):
 
 # extract_funmaps_in_wsstatic("CT2", "en")
 dumped = []
-# dumped += extract_funmaps_in_wsstatic("CT2", "en")
-# dumped += extract_funmaps_in_wsstatic("JCT", "en")
-dumped += extract_funmaps_in_wsstatic("CTO", "en")
-dumped += extract_funmaps_in_wsstatic("CT1", "en")
+if "--old" in sys.argv:
+    dumped += extract_funmaps_in_wsstatic("CT2", "en")
+    dumped += extract_funmaps_in_wsstatic("JCT", "en")
+    dumped += extract_funmaps_in_wsstatic("CTO", "en")
+    dumped += extract_funmaps_in_wsstatic("CT1", "en")
 
 mapped = []
-mapped += extract_funmaps_in_feedback(Path(__file__).parent.parent.parent / "ws-static/data/functionalities_interaction_required_jct.csv")
-mapped += extract_funmaps_in_feedback(Path(__file__).parent.parent.parent / "ws-static/data/functionalities_interaction_required_ct2.csv")
+if "--new" in sys.argv:
+    mapped += extract_funmaps_in_feedback(Path(__file__).parent.parent.parent / "ws-static/data/functionalities_interaction_required_jct.csv")
+    mapped += extract_funmaps_in_feedback(Path(__file__).parent.parent.parent / "ws-static/data/functionalities_interaction_required_ct2.csv")
 
 all = []
 all += dumped

@@ -1,14 +1,14 @@
-JCT:de:static:1;ADFGVX;D;JCT:D \ Algorithmen \ Klassisch \ ADFGVX;1) Klassische Chiffren
+JCT:de:static:1;ADFGX / ADFGVX;D;JCT:D \ Algorithmen \ Klassisch \ ADFGVX;1) Klassische Chiffren
 JCT:de:static:2;Autokey-Vigenère;D;JCT:D \ Algorithmen \ Klassisch \ Autokey-Vigenère;1) Klassische Chiffren
 JCT:de:static:3;Bifid;D;JCT:D \ Algorithmen \ Klassisch \ Bifid-Verfahren;1) Klassische Chiffren
 JCT:de:static:4;Caesar;D;JCT:D \ Algorithmen \ Klassisch \ Caesar;1) Klassische Chiffren
 JCT:de:static:5;Doppelkasten;D;JCT:D \ Algorithmen \ Klassisch \ Doppelkasten;1) Klassische Chiffren
-JCT:de:static:6;Playfair;D;JCT:D \ Algorithmen \ Klassisch \ Playfair;1) Klassische Chiffren
+JCT:de:static:6;Playfair-Chiffre;D;JCT:D \ Algorithmen \ Klassisch \ Playfair;1) Klassische Chiffren
 JCT:de:static:7;Rot-13;D;JCT:D \ Algorithmen \ Klassisch \ Caesar;1) Klassische Chiffren
 JCT:de:static:8;Substitution;D;JCT:D \ Algorithmen \ Klassisch \ Substitution;1) Klassische Chiffren
-JCT:de:static:9;Transposition (ein-stufige Spaltentransposition);D;JCT:D \ Algorithmen \ Klassisch \ Transposition;1) Klassische Chiffren
-JCT:de:static:10;Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel);D;JCT:D \ Algorithmen \ Klassisch \ Transposition;1) Klassische Chiffren
-JCT:de:static:11;Vigenère;D;JCT:D \ Algorithmen \ Klassisch \ Vigenère;1) Klassische Chiffren
+JCT:de:static:9;Transposition (einfache und doppelte Spalten);D;JCT:D \ Algorithmen \ Klassisch \ Transposition;1) Klassische Chiffren
+JCT:de:static:10;Transposition (einfache und doppelte Spalten);D;JCT:D \ Algorithmen \ Klassisch \ Transposition;1) Klassische Chiffren
+JCT:de:static:11;Vigenère-Chiffre;D;JCT:D \ Algorithmen \ Klassisch \ Vigenère;1) Klassische Chiffren
 JCT:de:static:12;XOR;D;JCT:D \ Algorithmen \ Klassisch \ XOR;1) Klassische Chiffren
 JCT:de:static:13;Triple DES;A;JCT:A \ Algorithmen \ Blockchiffren \ DESede;2) Moderne Chiffren
 JCT:de:static:14;AES;D;JCT:D \ Algorithmen \ Symmetrisch \ AES;2) Moderne Chiffren
@@ -53,8 +53,8 @@ JCT:de:static:52;Hashwert einer Datei;D;JCT:D \ Algorithmen \ Hash \ MD5;3) Hash
 JCT:de:static:53;Hashwert einer Datei;D;JCT:D \ Algorithmen \ Hash \ SHA;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:54;Hashwert einer Datei;D;JCT:D \ Algorithmen \ Hash \ SHA3-Kandidaten;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:55;Hashwert einer Datei;A;JCT:A \ Hash-Funktionen \ ;3) Hashverfahren und Authentifizierungscodes
-JCT:de:static:56;HMACs;D;JCT:D \ Algorithmen \ MAK \ HMacMD5;3) Hashverfahren und Authentifizierungscodes
-JCT:de:static:57;HMACs;A;JCT:A \ Algorithmen \ Authentifizierungscodes \ HMaK \ ;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:56;HMAC;D;JCT:D \ Algorithmen \ MAK \ HMacMD5;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:57;HMAC;A;JCT:A \ Algorithmen \ Authentifizierungscodes \ HMaK \ ;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:58;MD4;A;JCT:A \ Algorithmen \ Hash-Funktionen \ MD4;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:59;MD5;D;JCT:D \ Algorithmen \ Hash \ MD5;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:60;MD5;A;JCT:A \ Algorithmen \ Hash-Funktionen \ MD5;3) Hashverfahren und Authentifizierungscodes
@@ -65,7 +65,7 @@ JCT:de:static:64;SHA;D;JCT:D \ Algorithmen \ Hash \ SHA;3) Hashverfahren und Aut
 JCT:de:static:65;SHA;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA256;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:66;SHA-384;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA384;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:67;SHA-3-Kandidaten;D;JCT:D \ Algorithmen \ Hash \ SHA3-Kandidaten;3) Hashverfahren und Authentifizierungscodes
-JCT:de:static:68;SHA-512;A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA512;3) Hashverfahren und Authentifizierungscodes
+JCT:de:static:68;SHA [nur CT1];A;JCT:A \ Algorithmen \ Hash-Funktionen \ SHA512;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:69;Tiger;A;JCT:A \ Algorithmen \ Hash-Funktionen \ Tiger;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:70;Two-Track MAC;A;JCT:A \ Algorithmen \ Authentifizierungscodes \ TwoTrackMaK \ ;3) Hashverfahren und Authentifizierungscodes
 JCT:de:static:71;VSH;A;JCT:A \ Algorithmen \ Hash-Funktionen \ VSH;3) Hashverfahren und Authentifizierungscodes

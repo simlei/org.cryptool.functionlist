@@ -1,5 +1,5 @@
 JCT:en:static:1;Triple DES;JCT:A;JCT:A\ Block Ciphers\ DESede_CBC Modern Ciphers
-JCT:en:static:2;ADFGVX;JCT:D;JCT:D\ Algorithms\ Classic\ ADFGVX;1) Classic Ciphers
+JCT:en:static:2;ADFGX / ADFGVX;JCT:D;JCT:D\ Algorithms\ Classic\ ADFGVX;1) Classic Ciphers
 JCT:en:static:3;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES128_CBC Modern Ciphers
 JCT:en:static:4;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES128_CFB Modern Ciphers
 JCT:en:static:5;AES;JCT:D;JCT:D\ Block Ciphers\ Rijndael\ AES128_ECB Modern Ciphers
@@ -57,7 +57,7 @@ JCT:en:static:56;DHA256;JCT:A;JCT:A\ Message Digests\ DHA256;3) Hash and MAC Alg
 JCT:en:static:57;Differential Power Analysis visualization;JCT:D;JCT:D\ Visualizations\ Differential Power Analysis / Double and Add;10) Learning Aids and Visualizations
 JCT:en:static:58;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visualization;JCT:D;JCT:D\ Visualizations\ Diffie-Hellman Key Exchange (EC);10) Learning Aids and Visualizations
 JCT:en:static:59;Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visualization;JCT:D;JCT:D\ Visuals\ Diffie-Hellman Key Exchange (EC);13) Protocols
-JCT:en:static:60;Digital Signatures visualization;JCT:D;JCT:D\ Visualizations\ Signature Demonstration;10) Learning Aids and Visualizations
+JCT:en:static:60;Signature visual;JCT:D;JCT:D\ Visualizations\ Signature Demonstration;10) Learning Aids and Visualizations
 JCT:en:static:61;Divider Game;JCT:D;JCT:D\ Games\ Divider Game;11) Games
 JCT:en:static:62;Double Box;JCT:D;JCT:D\ Algorithms\ Classic\ Double Box;1) Classic Ciphers
 JCT:en:static:63;Dragon;JCT:D;JCT:D\ Algorithms\ Symmetric\ Dragon;2) Modern Ciphers
@@ -73,7 +73,7 @@ JCT:en:static:72;ECNR;JCT:A;JCT:A\ Signatures\ SHA1/ECNR;4) Digital Signatures, 
 JCT:en:static:73;ElGamal;JCT:A;JCT:A\ Asymmetric Block Ciphers\ ElGamal Modern Ciphers
 JCT:en:static:74;ElGamal visualization;JCT:D;JCT:D\ Visualizations\ ElGamal Cryptosystem;10) Learning Aids and Visualizations
 JCT:en:static:75;Elliptic Curve (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ ECPRNG;5) Random Number Generators
-JCT:en:static:76;Elliptic Curve Calculations visualization;JCT:D;JCT:D\ Visualizations\ Elliptic Curve Calculations;10) Learning Aids and Visualizations
+JCT:en:static:76;EC calculations visual;JCT:D;JCT:D\ Visualizations\ Elliptic Curve Calculations;10) Learning Aids and Visualizations
 JCT:en:static:77;Enhanced RSA Crypto System (identities‚ multi-prime);JCT:D;JCT:D\ Visualizations\ RSA Cryptosystem;2) Modern Ciphers
 JCT:en:static:78;Enhanced RSA Crypto System (identities‚ multi-prime);JCT:D;JCT:D\ Visualizations\ Extended RSA Cryptosystem;2) Modern Ciphers
 JCT:en:static:79;Entropy;JCT:D;JCT:D\ Analysis\ Entropy Analysis;6) Classic Cryptanalysis
@@ -90,24 +90,24 @@ JCT:en:static:89;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA384 Digital Signatures
 JCT:en:static:90;GMSS;JCT:A;JCT:A\ Signatures\ GMSSwithSHA512 Digital Signatures, PKI
 JCT:en:static:91;Graph Isomorphism visualization;JCT:D;JCT:D\ Visualizations\ Graph Isomorphism;10) Learning Aids and Visualizations
 JCT:en:static:92;Grille visualization;JCT:D;JCT:D\ Visualizations\ Grille;10) Learning Aids and Visualizations
-JCT:en:static:93;Hash Algorithms visualization;JCT:D;JCT:D\ Visualizations\ Hash Sensitivity;10) Learning Aids and Visualizations
-JCT:en:static:94;Hash Value of a File;JCT:D\A;Hash\MD5;3) Hash and MAC Algorithms
-JCT:en:static:95;Hash Value of a File;JCT:D\A;Hash\SHA;3) Hash and MAC Algorithms
-JCT:en:static:96;Hash Value of a File;JCT:D\A;Hash\SHA3-Candidates;3) Hash and MAC Algorithms
-JCT:en:static:97;Hash Value of a File;JCT:D\A;Messages Digests\;3) Hash and MAC Algorithms
-JCT:en:static:98;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ Hmac Hash and MAC Algorithms
-JCT:en:static:99;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacDHA256;3) Hash and MAC Algorithms
-JCT:en:static:100;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacFORK256;3) Hash and MAC Algorithms
-JCT:en:static:101;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacMD4;3) Hash and MAC Algorithms
-JCT:en:static:102;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacMD5 Hash and MAC Algorithms
-JCT:en:static:103;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD128;3) Hash and MAC Algorithms
-JCT:en:static:104;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD160 Hash and MAC Algorithms
-JCT:en:static:105;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD256;3) Hash and MAC Algorithms
-JCT:en:static:106;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD320;3) Hash and MAC Algorithms
-JCT:en:static:107;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA224;3) Hash and MAC Algorithms
-JCT:en:static:108;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA256;3) Hash and MAC Algorithms
-JCT:en:static:109;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA384;3) Hash and MAC Algorithms
-JCT:en:static:110;HMACs;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA512;3) Hash and MAC Algorithms
+JCT:en:static:93;Hash algorithms visual;JCT:D;JCT:D\ Visualizations\ Hash Sensitivity;10) Learning Aids and Visualizations
+JCT:en:static:94;Hash value of a file;JCT:D\A;Hash\MD5;3) Hash and MAC Algorithms
+JCT:en:static:95;Hash value of a file;JCT:D\A;Hash\SHA;3) Hash and MAC Algorithms
+JCT:en:static:96;Hash value of a file;JCT:D\A;Hash\SHA3-Candidates;3) Hash and MAC Algorithms
+JCT:en:static:97;Hash value of a file;JCT:D\A;Messages Digests\;3) Hash and MAC Algorithms
+JCT:en:static:98;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ Hmac Hash and MAC Algorithms
+JCT:en:static:99;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacDHA256;3) Hash and MAC Algorithms
+JCT:en:static:100;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacFORK256;3) Hash and MAC Algorithms
+JCT:en:static:101;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacMD4;3) Hash and MAC Algorithms
+JCT:en:static:102;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacMD5 Hash and MAC Algorithms
+JCT:en:static:103;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD128;3) Hash and MAC Algorithms
+JCT:en:static:104;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD160 Hash and MAC Algorithms
+JCT:en:static:105;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD256;3) Hash and MAC Algorithms
+JCT:en:static:106;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacRIPEMD320;3) Hash and MAC Algorithms
+JCT:en:static:107;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA224;3) Hash and MAC Algorithms
+JCT:en:static:108;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA256;3) Hash and MAC Algorithms
+JCT:en:static:109;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA384;3) Hash and MAC Algorithms
+JCT:en:static:110;HMAC;JCT:A;JCT:A\ Message Authentication Codes\ HmacSHA512;3) Hash and MAC Algorithms
 JCT:en:static:111;Homomorphic Encryption visualization;JCT:D;JCT:D\ Visualizations\ Homomorphic Encryption;10) Learning Aids and Visualizations
 JCT:en:static:112;Huffman;JCT:D;JCT:D\ Visualizations\ Huffman Coding;9) Codings
 JCT:en:static:113;IDEA;JCT:D;JCT:D\ Block Ciphers\ IDEA_ECB Modern Ciphers
@@ -151,7 +151,7 @@ JCT:en:static:150;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithMD5AndDES_C
 JCT:en:static:151;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithSHA1AndDES_CBC Hash and MAC Algorithms
 JCT:en:static:152;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithSHAAnd3_KeyTripleDES_CBC Hash and MAC Algorithms
 JCT:en:static:153;PKCS#5;JCT:A;JCT:A\ Password-Based Ciphers\ PbeWithSHAAnd40BitRC2_CBC Hash and MAC Algorithms
-JCT:en:static:154;Playfair;JCT:D;JCT:D\ Algorithms\ Classic\ Playfair;1) Classic Ciphers
+JCT:en:static:154;Playfair cipher;JCT:D;JCT:D\ Algorithms\ Classic\ Playfair;1) Classic Ciphers
 JCT:en:static:155;Public-Key Infrastructure;JCT:D;JCT:D\ Visualizations\ Public-Key Infrastructure;10) Learning Aids and Visualizations
 JCT:en:static:156;RC2;JCT:A;JCT:A\ Block Ciphers\ Block Ciphers\ RC2_CBC Modern Ciphers
 JCT:en:static:157;RC4;JCT:D;JCT:D\ Algorithms\ Symmetric\ ARC4/Spritz;2) Modern Ciphers
@@ -206,11 +206,11 @@ JCT:en:static:205;SHA-1 (PRNG);JCT:A;JCT:A\ Pseudo Random Number Generators\ SHA
 JCT:en:static:206;SHA;JCT:D\A;Message Digests\ SHA256 Hash and MAC Algorithms
 JCT:en:static:207;SHA-3 Candidates;JCT:D;JCT:D\ Algorithms\ Hash\ SHA3-Candidates;3) Hash and MAC Algorithms
 JCT:en:static:208;SHA-384;JCT:A;JCT:A\ Message Digests\ SHA384 Hash and MAC Algorithms
-JCT:en:static:209;SHA-512;JCT:A;JCT:A\ Message Digests\ SHA512 Hash and MAC Algorithms
+JCT:en:static:209;SHA [nur CT1];JCT:A;JCT:A\ Message Digests\ SHA512 Hash and MAC Algorithms
 JCT:en:static:210;Shacal;JCT:A;JCT:A\ Block Ciphers\ Shacal;2) Modern Ciphers
 JCT:en:static:211;Shacal2;JCT:A;JCT:A\ Block Ciphers\ Shacal2;2) Modern Ciphers
-JCT:en:static:212;Shamir's Secret Sharing visualization;JCT:D;JCT:D\ Visualizations\ Shamir's Secret Sharing;10) Learning Aids and Visualizations
-JCT:en:static:213;Shamir's Secret Sharing visualization;JCT:D;JCT:D\ Visuals\ Shamir's Secret Sharing;13) Protocols
+JCT:en:static:212;Shamir's secret sharing visual;JCT:D;JCT:D\ Visualizations\ Shamir's Secret Sharing;10) Learning Aids and Visualizations
+JCT:en:static:213;Shamir's secret sharing visual;JCT:D;JCT:D\ Visuals\ Shamir's Secret Sharing;13) Protocols
 JCT:en:static:214;Signatur Verification;JCT:D;JCT:D\ Visualizations\ Signature Verification;10) Learning Aids and Visualizations
 JCT:en:static:215;Simple Power Analysis visualization;JCT:D;JCT:D\ Visualizations\ Simple Power Analysis / Square and Multiply;10) Learning Aids and Visualizations
 JCT:en:static:216;Solving Discrete Logarithm with Babystep-Giantstep;JCT:D;JCT:D\ Visualizations\ Shanks Babystep-Giantstep;10) Learning Aids and Visualizations
@@ -230,7 +230,7 @@ JCT:en:static:229;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTr
 JCT:en:static:230;Two-Track MAC;JCT:A;JCT:A\ Message Authentication Codes\ TwoTrackMac96;3) Hash and MAC Algorithms
 JCT:en:static:231;Twofish;JCT:A;JCT:A\ Block Ciphers\ Twofish;2) Modern Ciphers
 JCT:en:static:232;Verifiable Secret Sharing (VSS) visualization;JCT:D;JCT:D\ Visualizations\ Verifiable Secret Sharing;10) Learning Aids and Visualizations
-JCT:en:static:233;Vigenère;JCT:D;JCT:D\ Algorithms\ Classic\ Vigenère;1) Classic Ciphers
+JCT:en:static:233;Vigenère cipher;JCT:D;JCT:D\ Algorithms\ Classic\ Vigenère;1) Classic Ciphers
 JCT:en:static:234;Vigenère analysis;JCT:D;JCT:D\ Analysis\ Vigenère Breaker;6) Classic Cryptanalysis
 JCT:en:static:235;Viterbi Analysis;JCT:D;JCT:D\ Analysis\ Viterbi Analysis;6) Classic Cryptanalysis
 JCT:en:static:236;Viterbi visualization;JCT:D;JCT:D\ Visuals\ Viterbi;10) Learning Aids and Visualizations

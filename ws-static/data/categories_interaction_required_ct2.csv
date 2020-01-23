@@ -174,6 +174,6 @@ CT2:dynamic:3dc62c99;14) Tools;CT2:C \ DECRYPT Project \ DecodeParserTesterCapti
 CT2:dynamic:251fd098;14) Tools;CT2:C \ DECRYPT Project \ DECODESymbolHeatmapCaption
 CT2:dynamic:77ef87d8;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ One-time Pad Demo
 CT2:dynamic:222cb937;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ One-time Pad Misusage
-CT2:dynamic:b03e2260;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ CryptAnalysisEvaluator
-CT2:dynamic:9cd98f7e;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ EvaluationContainerInput
-CT2:dynamic:a44d2f22;<enter value here>;CT2:C \ Cryptanalysis \ Generic \ TestVectorGenerator
+CT2:dynamic:b03e2260;14) Tools;CT2:C \ Cryptanalysis \ Generic \ CryptAnalysisEvaluator
+CT2:dynamic:9cd98f7e;14) Tools;CT2:C \ Cryptanalysis \ Generic \ EvaluationContainerInput
+CT2:dynamic:a44d2f22;14) Tools;CT2:C \ Cryptanalysis \ Generic \ TestVectorGenerator

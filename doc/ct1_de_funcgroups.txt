@@ -1,0 +1,146 @@
+ADFGX / ADFGVX
+Atbash
+Byteweise Addition
+Caesar
+Gartenzaun
+Hill cipher => Hill-Chiffre
+Homophonic substitution cipher ==> Homophone Substitutionschiffre
+Playfair cipher => Playfair-Chiffre
+Rot-13
+Skytale
+Solitaire
+Substitution
+Transposition (ein-stufige Spaltentransposition) => Transposition (einfache und doppelte Spalten)
+Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) ==> Transposition (einfache und doppelte Spalten)
+Vernam
+Vigenère cipher ==> Vigenère-Chiffre
+XOR
+Triple DES
+AES
+AES
+DES
+DESL
+DESX
+DESXL
+ECC-AES
+IDEA
+MARS
+RC2
+RC4
+RC6
+RSA
+RSA
+RSA-AES
+Serpent
+Twofish
+Hashwert einer Datei
+HMAC
+MD2
+MD4
+MD5
+RIPEMD-160
+Schlüssel aus Passwort generieren (PKCS #5)
+SHA
+SHA
+SHA [nur CT1] => SHA
+DSA
+ECDSA
+ECNR
+Schlüssel anzeigen/exportieren
+Schlüssel erzeugen/importieren
+Signatur überprüfen => Signatur verifizieren
+Signatur extrahieren
+Inverser Kongruenz-Generator (IKG) (PRNG)
+Linearer Kongruenz-Generator (LKG) (PRNG)
+X^2 (mod N) Zufallsgenerator (PRNG)
+Zufallsgenerator der Secude-Bibliothek
+ADFGVX-Analyse
+Autokorrelation
+Byteweise Addition-Analyse
+Caesar-Analyse
+Entropie
+Häufigkeitsanalyse
+Häufigkeitsanalyse
+Hill-Analyse
+Histogramm
+N-Gramm-Analyse
+Periodizitäts-Analyse
+Playfair-Analyse
+Runs-Test
+Solitaire-Analyse
+Solitaire-Analyse
+Substitutions-Analyse
+Substitutions-Analyse
+Transpositions-Analyse
+Vernam-Analyse
+Vigenère-Analyse
+Vigenère-Analyse
+3DES Brute-Force-Angriff ==> 3DES-Angriff
+AES Brute-Force-Angriff ==> AES-Angriff
+DES Brute-Force-Angriff ==> DES-Angriff
+DESL Brute-Force-Angriff ==> DESL-Angriff
+DESX Brute-Force-Angriff ==> DESX-Angriff
+DESXL Brute-Force-Angriff ==> DESXL-Angriff
+PRNG test ==> PRNG-Test
+Hash-Kollisionen
+IDEA Brute-Force-Angriff ==> IDEA-Angriff
+MARS Brute-Force-Angriff ==> MARS-Angriff
+Poker-Test
+RC2 Brute-Force-Angriff ==> RC2-Angriff
+RC4 Brute-Force-Angriff ==> RC4-Angriff
+RC6 Brute-Force-Angriff ==> RC6-Angriff
+RSA-Angriff
+RSA-Angriff
+RSA-Angriff
+Serial-Test
+Serpent Brute-Force-Angriff ==> Serpent-Angriff
+Twofish Brute-Force-Angriff ==> Twofish-Angriff
+Vitányi-Analyse
+ASN.1
+Base 64 decodieren => Base 64
+Base 64 encodieren => Base 64
+Zip/Unzip
+UU decodieren => UU decodieren/encodieren
+UU encodieren => UU decodieren/encodieren
+Zip/Unzip
+AES-Visualisierung
+Authentifizierungsverfahren im Netz-Visualisierung
+Caesar-Visualisierung
+Chinesischer Restsatz-Visualisierung
+DES-Visualisierung
+Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy)-Visualisierung
+Digitale Signatur-Visualisierung
+Digitale Signatur-Visualisierung
+Elliptische Kurvenberechnung-Visualisierung
+Enigma-Visualisierung
+Hash-Algorithmen-Visualisierung
+Nihilist-Visualisierung
+Passwortqualität-Visualisierung
+Passwortqualität-Visualisierung
+RSA-Visualisierung
+Shamir's Secret Sharing-Visualisierung
+Sichere E-Mail (S/MIME)-Visualisierung
+Vigenère-Visualisierung
+Zahlentheorie
+Zufall-Visualisierung
+Zahlenhai
+Faktorisierung einer Zahl
+Faktorisierung einer Zahl
+Faktorisierung einer Zahl
+Faktorisierung einer Zahl
+Faktorisierung einer Zahl
+Faktorisierung einer Zahl
+Generierung von Primzahlen
+Generierung von Primzahlen
+Generierung von Primzahlen
+Primzahl-Test
+Primzahl-Test
+Primzahl-Test
+Primzahl-Test
+Primzahl-Tutorial
+Primzahl-Tutorial
+Primzahl-Tutorial
+Authentifizierungsverfahren im Netz-Visualisierung
+Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy)-Visualisierung
+Shamir's Secret Sharing-Visualisierung
+Sichere E-Mail (S/MIME)-Visualisierung

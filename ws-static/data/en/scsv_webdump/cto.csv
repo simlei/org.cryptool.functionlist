@@ -8,9 +8,9 @@ CTO:en:static:7;Autocorrelation;CTO:X;CTO:X\ Cryptanalysis\ Autocorrelation;6) C
 CTO:en:static:8;Autokey analysis;CTO:X;CTO:X\ Cryptanalysis\ Break Autokey;6) Classic Cryptanalysis
 CTO:en:static:9;Autokey Vigenère;CTO:X;CTO:X\ Ciphers\ Autokey;1) Classic Ciphers
 CTO:en:static:10;Bacon;CTO:X;CTO:X\ Codings\ Bacon;9) Codings
-CTO:en:static:11;Barcode Generator;CTO:X;CTO:X\ Codings\ Barcode Generator;9) Codings
-CTO:en:static:12;Base 64 Decode;CTO:X;CTO:X\ Codings\ Base64;9) Codings
-CTO:en:static:13;Base 64 Encode;CTO:X;CTO:X\ Codings\ Base64;9) Codings
+CTO:en:static:11;Barcode generator;CTO:X;CTO:X\ Codings\ Barcode Generator;9) Codings
+CTO:en:static:12;Base 64;CTO:X;CTO:X\ Codings\ Base64;9) Codings
+CTO:en:static:13;Base 64;CTO:X;CTO:X\ Codings\ Base64;9) Codings
 CTO:en:static:14;Beaufort;CTO:X;CTO:X\ Ciphers\ Beaufort;1) Classic Ciphers
 CTO:en:static:15;Bifid;CTO:X;CTO:X\ Ciphers\ Bifid;1) Classic Ciphers
 CTO:en:static:16;Caesar;CTO:X;CTO:X\ Ciphers\ Caesar / Rot-13;1) Classic Ciphers
@@ -21,23 +21,23 @@ CTO:en:static:20;Four Square;CTO:X;CTO:X\ Ciphers\ Four-Square;1) Classic Cipher
 CTO:en:static:21;Freemason;CTO:X;CTO:X\ Ciphers\ Freemason;1) Classic Ciphers
 CTO:en:static:22;Frequency test;CTO:X;CTO:X\ Cryptanalysis\ Frequency Analysis;6) Classic Cryptanalysis
 CTO:en:static:23;Gronsfeld;CTO:X;CTO:X\ Ciphers\ Gronsfeld;1) Classic Ciphers
-CTO:en:static:24;Hill;CTO:X;CTO:X\ Ciphers\ Hill;1) Classic Ciphers
-CTO:en:static:25;Homophone;CTO:X;CTO:X\ Ciphers\ Homophonic;1) Classic Ciphers
+CTO:en:static:24;Hill cipher;CTO:X;CTO:X\ Ciphers\ Hill;1) Classic Ciphers
+CTO:en:static:25;Homophonic substitution cipher;CTO:X;CTO:X\ Ciphers\ Homophonic;1) Classic Ciphers
 CTO:en:static:26;Huffman;CTO:X;CTO:X\ Codings\ Huffman;9) Codings
 CTO:en:static:27;Kamasutra;CTO:X;CTO:X\ Ciphers\ Kamasutra;1) Classic Ciphers
 CTO:en:static:28;Larrabee;CTO:X;CTO:X\ Ciphers\ Larrabee;1) Classic Ciphers
-CTO:en:static:29;Morse Code;CTO:X;CTO:X\ Codings\ Morse code;9) Codings
-CTO:en:static:30;N-Gram analysis;CTO:X;CTO:X\ Cryptanalysis\ N-Gram Analysis;6) Classic Cryptanalysis
-CTO:en:static:31;Navajo;CTO:X;CTO:X\ Ciphers\ Navajo;1) Classic Ciphers
-CTO:en:static:32;Nihilist;CTO:X;CTO:X\ Ciphers\ Nihilist;1) Classic Ciphers
+CTO:en:static:29;Morse code;CTO:X;CTO:X\ Codings\ Morse code;9) Codings
+CTO:en:static:30;N-gram analysis;CTO:X;CTO:X\ Cryptanalysis\ N-Gram Analysis;6) Classic Cryptanalysis
+CTO:en:static:31;Navajo code;CTO:X;CTO:X\ Ciphers\ Navajo;1) Classic Ciphers
+CTO:en:static:32;Nihilist cipher;CTO:X;CTO:X\ Ciphers\ Nihilist;1) Classic Ciphers
 CTO:en:static:33;Number Shark;CTO:X;CTO:X\ Highlights\ Taxman;11) Games
 CTO:en:static:34;Password Generator;CTO:X;CTO:X\ Highlights\ Password Generator;14) Tools
 CTO:en:static:35;Password Quality visualization;CTO:X;CTO:X\ Highlights\ Password Check;10) Learning Aids and Visualizations
-CTO:en:static:36;Playfair;CTO:X;CTO:X\ Ciphers\ Playfair;1) Classic Ciphers
+CTO:en:static:36;Playfair cipher;CTO:X;CTO:X\ Ciphers\ Playfair;1) Classic Ciphers
 CTO:en:static:37;Pollux;CTO:X;CTO:X\ Ciphers\ Pollux;1) Classic Ciphers
 CTO:en:static:38;Polybius;CTO:X;CTO:X\ Ciphers\ Polybius;1) Classic Ciphers
 CTO:en:static:39;Porta;CTO:X;CTO:X\ Ciphers\ Porta;1) Classic Ciphers
-CTO:en:static:40;Rail Fence;CTO:X;CTO:X\ Ciphers\ Zigzag (Rail Fence);1) Classic Ciphers
+CTO:en:static:40;Rail fence;CTO:X;CTO:X\ Ciphers\ Zigzag (Rail Fence);1) Classic Ciphers
 CTO:en:static:41;Rot-13;CTO:X;CTO:X\ Ciphers\ Caesar / Rot-13;1) Classic Ciphers
 CTO:en:static:42;Rotation;CTO:X;CTO:X\ Ciphers\ Rotation;1) Classic Ciphers
 CTO:en:static:43;Scytale;CTO:X;CTO:X\ Ciphers\ Scytale;1) Classic Ciphers
@@ -45,5 +45,5 @@ CTO:en:static:44;Substitution;CTO:X;CTO:X\ Ciphers\ Monoalphabetic Substitution;
 CTO:en:static:45;Templar;CTO:X;CTO:X\ Ciphers\ Templar;1) Classic Ciphers
 CTO:en:static:46;Transposition (single and double column);CTO:X;CTO:X\ Ciphers\ Transposition;1) Classic Ciphers
 CTO:en:static:47;Trithemius;CTO:X;CTO:X\ Ciphers\ Trithemius;1) Classic Ciphers
-CTO:en:static:48;Vigenère;CTO:X;CTO:X\ Ciphers\ Vigenère;1) Classic Ciphers
+CTO:en:static:48;Vigenère cipher;CTO:X;CTO:X\ Ciphers\ Vigenère;1) Classic Ciphers
 CTO:en:static:49;Vigenère analysis;CTO:X;CTO:X\ Cryptanalysis\ Break Vigenère;6) Classic Cryptanalysis

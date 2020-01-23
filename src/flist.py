@@ -221,18 +221,13 @@ class MCSV_Entry(CSV_Entry):
     @staticmethod
     def processStartOfPath(path):
         # return path
-        return [path[0][4:]] + path[1:]
-
-        # in the following is an example that replaces JCT:X with X where the 
-        # path starts with that, and strips the first element from all other paths
-
-        # if path[0].startswith("JCT"):
-        #     headReplacement = f"[{path[0][4:]}]"
-        #     replaced = list(path)
-        #     replaced[0] = headReplacement
-        #     return replaced
-        # else:
-        #     return path[1:]
+        # return [path[0][4:]] + path[1:]
+        tool_letter = path[0][4:]
+        # print(tool_letter)
+        if tool_letter == "X":
+            return path[1:]
+        else:
+            return [f"[{tool_letter}] " + path[1]] + path[2:]
 
     def filter_for_cryptoolstring(self, ctstring):
         return MCSV_Entry(

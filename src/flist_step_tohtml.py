@@ -35,7 +35,11 @@ def substituteFileToStr(infilePath, **kwargs):
     with open(infilePath, "r") as infile:
         while replaced := infile.readline():
             for k,v in kwargs.items():
+                # if k == "odd_even":
+                #     print(f"orig: {replaced}")
                 replaced = replaced.replace("${"+k+"}", v)
+                # if k == "odd_even":
+                #     print(f"replaced with {v=}: {replaced}")
             builder = builder + replaced
     return builder
 

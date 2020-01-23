@@ -1,0 +1,231 @@
+Zur Funktionsliste: (erledigt) /*{{{*/
+================
+
+0) > Es bliebe dann also nur die Mail von
+     > Hr Schneider oder Schellenberg zum fertig machen.
+Falls die nicht antworten, schreiben Sie doch zusätzlich noch an Volker
+Simon.
+
+
+
+1) Funktions-Oberbegriffe von Einträgen in [1] und in der Live html
+
+a) Live html
+
+TripleDES  ==>  Triple DES
+3DES attack  ==>  Triple DES analysis
+   [für CT1 zu ändern]
+
+ADFGV  ==>  ADFGX / ADFGVX
+     [für CTO]
+ADFGVX  ==>    ADFGX / ADFGVX
+     [für CT1]
+
+Android Unlock Pattern  ==>  Android Unlock Pattern (AUP)
+
+Authentication Methods in Networks visualization ==> Authentication methods in networks visual
+
+
+Barcode Generator  ==>  Barcode generator
+   [nur für CTO]
+
+Base 64 Decode  ==>  Base 64
+Base 64 Encode  ==>  Base 64
+
+Basics template  ==>  Math template
+
+Coin flipping  ==>  Coin flipping protocol
+
+Differential cryptanalysis visual  ==>  Differential cryptanalysis (DCA) visual
+
+
+Digital Signatures visualization  ==>  Signature visual
+     [nur für CT1]
+Extract Signature  ==>  Signature extraction
+     [nur für CT1]
+Verify Signature  ==>  Signature verification
+    [nur für CT1]
+
+
+Elliptic Curve Calculations visualization  ==>  EC calculations visual
+  [nur für CT1]
+
+Enigma visualization  ==>  Enigma visual
+
+Generate/Import Keys  ==>  Generate/Import keys
+     [nur für CT1]
+
+Hash Algorithms visualization  ==>  Hash algorithms visual
+     [nur für CT1]
+
+Hash Value of a File  ==>  Hash value of a file
+     [nur für CT1]
+
+Hill  ==>  Hill cipher
+      [nur für CT1]
+
+HMACs  ==>  HMAC
+     [nur für CT1]
+
+Homophone  ==>  Homophonic substitution cipher
+     [nur für CT1]
+
+
+Inverse Congruence Generator (ICG) (PRNG) ==> Inverse congruence generator (ICG) (PRNG)
+     [nur für CT1]
+
+Linear Congruence Generator (LCG) (PRNG) ==> Linear congruence generator (LCG) (PRNG)
+     [nur für CT1]
+
+
+
+KDF Performance Comparison  ==>  Key derivation function (KDF)
+
+Kasiski Test  ==>  Kasiski test
+
+Keccak Hash  ==>  Keccak hash
+
+Key Generation from Password (PKCS#5)  ==>  Key generation from password (PKCS#5)
+     [nur für CT1]
+
+MAC General  ==>  MAC general
+
+Merkle  ==>  Merkle signature
+    [nur für JCT]
+
+Morse Code  ==>  Morse code
+     [nur für CTO]
+
+N-Gram analysis  ==>  N-gram analysis
+     [nur für CT1]
+
+Navajo  ==>  Navajo code
+
+Nihilist  ==>  Nihilist cipher
+     [nur CTO]
+
+Nihilist visualization  ==>  Nihilist visual
+     [nur CT1]
+
+
+Number Theory  ==>  Number theory
+     [nur CT1]
+
+
+Playfair  ==>  Playfair cipher
+      [nur CT1]
+
+Rail Fence  ==>  Rail fence
+     [nur CT1]
+
+
+Randomness visualization  ==>  Randomness visual
+       [nur CT1]
+
+PRNG  ==>  Pseudo random number generator (PRNG)
+
+FIPS PUB-140-1 PRNG test  ==>  PRNG test
+     [nur CT1]
+Poker Test  ==>  PRNG test
+     [nur CT1]
+Runs Test  ==>  PRNG test
+     [nur CT1]
+Serial Test  ==>  PRNG test
+     [nur CT1]
+
+Secude Library Random Number Generator ==> Pseudo random number generator (PRNG)
+     [nur CT1]
+
+
+Secure Email (S/MIME) visualization ==> Secure email (S/MIME) visual
+     [nur CT1]
+
+SHA-512  ==>  SHA
+
+
+Shamir''s Secret Sharing visualization ==> Shamir''s secret sharing visual
+     [nur CT1]
+
+Simple Multi Client Communication  ==>  Simple multi-client communication
+
+Simple Webserver  ==>  Simple webserver
+
+
+UU Decode  ==>  UU Decode/Encode
+UU Encode  ==>  UU Decode/Encode
+
+
+Vigenère  ==>  Vigenère cipher
+    [nur für CT1]
+
+Vigenère visualization  ==>  Vigenère visual
+    [nur für CT1]
+
+Virtual Smartcard  ==>  Virtual smartcard
+
+Watermark Creator  ==>  Watermark creator
+
+Word Patterns  ==>  Word pattern analysis
+
+Unzip  ==>  Zip/Unzip
+
+
+Zip  ==>  Zip/Unzip
+
+/*}}}*/
+
+
+
+TODO: nachfragen:
+o.k. so?:
+    Oberbegriffe:
+    CT2:dynamic:b03e2260;Tools;CT2:C \ Cryptanalysis \ Generic \ CryptAnalysisEvaluator
+    CT2:dynamic:9cd98f7e;Tools;CT2:C \ Cryptanalysis \ Generic \ EvaluationContainerInput
+    CT2:dynamic:a44d2f22;Tools;CT2:C \ Cryptanalysis \ Generic \ TestVectorGenerator
+    Kategorien:
+    CT2:dynamic:b03e2260;14) Tools;CT2:C \ Cryptanalysis \ Generic \ CryptAnalysisEvaluator
+    CT2:dynamic:9cd98f7e;14) Tools;CT2:C \ Cryptanalysis \ Generic \ EvaluationContainerInput
+    CT2:dynamic:a44d2f22;14) Tools;CT2:C \ Cryptanalysis \ Generic \ TestVectorGenerator
+
+Erledigt: b) Einträgen in/*{{{*/
+ [1]
+
+CT2:C \ Cryptanalysis \ Generic\ Contains  ==> Tools
+CT2:C \ Cryptanalysis \ Generic\ Word Patterns  ==>  Word pattern analysis
+
+
+2) __Kategorien__-Oberbegriffe von Einträgen in
+ [2]
+
+
+/*}}}*/
+
+3) Genereller Fehler
+Wenn Sie Ihre live html mit dem CTP/*{{{*/
+(https://www.cryptool.org/en/ctp-documentation/functionvolume)
+vergleichen, sehen Sie,/*}}}*/
+Erledigt: a) dass in den Pfaden für CT2 und CTO jeweils ein X \ davor steht, das da nicht hingehört:/*{{{*/
+    X \ Encrypt \ Decrypt \ Symmetric (modern) \ AES (CBC)...
+    ==>
+    Encrypt \ Decrypt \ Symmetric (modern) \ AES (CBC)...
+
+   X \ Highlights \ AES
+   ==>
+   Highlights \ AES/*}}}*/
+Erledigt: b) dass bei den Pfaden von CT2 und JCT die eckigen Klammern verloren gingen (und bei JCT ist das AES einmal zuviel -- path_aes.png){{{
+    C \ Modern Ciphers\ Symmetric\ AES  ==>  [C] Modern Ciphers\
+Symmetric\ AES
+
+    A \ Block Ciphers\ Rijndael\ AES \ AES128_ECB
+    ==>
+    [A] Block Ciphers\ Rijndael\ AES128_ECB/*}}}*/
+/*{{{*/
+Ich nehme an, dass da Ihr Parser zugeschlagen hat.
+
+Die Bedeutung von X bzw. [A] oder [C] steht unten auf der Seite in der
+Legende.
+
+
+
+/*}}}*/
+Erledigt: 4) Außerdem fiel mir auf, dass die Tabelle auf dem CTP die Zeilen abwechselnd weiß und grau darstellt.  In der life html ist das noch etwas willkürlich

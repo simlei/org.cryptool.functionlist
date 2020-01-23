@@ -33,3 +33,352 @@ BB84 Key Exchange Attack;BB84 key exchange Attack
 Spanish Strip Cipher;Spanish Strip cipher
 Spanish Strip Cipher Analysis;Spanish Strip cipher Analysis
 Cylinder Cipher;Cylinder cipher
+Spanish Strip;Spanish strip
+Spanish Strip;
+Spanish Strip;Spanish strip
+Spanish Strip;Spanish strip
+Spanish Strip;Spanish strip
+Spanish Strip;Spanish strip
+Spanish Strip;Spanish strip
+3DES;Triple DES
+Affine Chiffre;Affine chiffre
+Klassische Chiffren;Affine chiffre
+Ant Colony Optimization;Ant Colony Optimization (ACO)
+Affine Cipher;Affine cipher
+Alberti;Alberti cipher
+Avalanche Effect Analysis;Avalanche effect
+Berlekamp-Massey Algorithm;Berlekamp-Massey algorithm
+Blockmode;Block mode
+Blum Blum Shub;Blum Blum Shub (BBS) PRNG
+FIPS PUB-140-1;FIPS PUB-140-1 PRNG test
+Certificate Verification;Certificate verification
+Chinese Remainder Theorem;Chinese remainder theorem (CRT)
+Coin Flipping;Coin flipping protocol
+Dining Cryptographers Protocol;Dining cryptographers protocol
+Oblivious Transfer Protocol;Oblivious transfer protocol
+Oblivious Transfer Protocol;Oblivious transfer protocol
+Yao's Millionaire Problem;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem Protocol;Yao's millionaire problem
+Yao's Millionaire Problem Protocol;Yao's millionaire problem (protocol)
+Zero Knowledge Protocol;Zero knowledge protocol
+Cost Function;Cost function
+Yao's Millionaire Problem;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem Protocol;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem Protocol;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem Protocol;Yao's millionaire problem (protocol)
+3DES;Triple DES
+Ant Colony Optimization;Ant Colony Optimization (ACO)
+Affine Cipher;Affine cipher
+Alberti;Alberti cipher
+Avalanche Effect Analysis;Avalanche effect
+Berlekamp-Massey Algorithm;Berlekamp-Massey algorithm
+Blockmode;Block mode
+Blum Blum Shub;Blum Blum Shub (BBS) PRNG
+FIPS PUB-140-1;FIPS PUB-140-1 PRNG test
+Certificate Verification;Certificate verification
+Chinese Remainder Theorem;Chinese remainder theorem (CRT)
+Coin Flipping;Coin flipping protocol
+Dining Cryptographers Protocol;Dining cryptographers protocol
+Oblivious Transfer Protocol;Oblivious transfer protocol
+Zero Knowledge Protocol;Zero knowledge protocol
+Cost Function;Cost function
+CRC;Cyclic redundancy check (CRC)
+DECODE;DECODE database
+Dictionary Search;Dictionary search
+Differential computational analysis (DCA);Differential cryptanalysis (DCA)
+Differential cryptanalysis;Differential cryptanalysis (DCA)
+Differential cryptanalysis Tutorial;Differential cryptanalysis visual
+Discrete Logarithm;Discrete logarithm
+Enigma Analysis;Enigma attack
+Factorization of a Number;Factorization of a number
+General Number Field Sieve (GNFS);Factorization of a number
+Quadratic Sieve (QS);Factorization of a number
+Generation of Prime Numbers;Primes
+Prime numbers;Primes
+Prime number test;Primes test
+Format Preserving Encryption (FPE);Format preserving encryption (FPE)
+Frequency analysis;Frequency test
+Frequency Test;Frequency test
+Grain v1;Grain
+Hamming Distance;Hamming distance
+Levenshtein Distance;Levenshtein distance
+Homophonic Substitution cipher;Homophonic substitution cipher
+HTTP;HTTP protocol
+Insertion Steganography;Steganography
+LSB Steganography;Steganography
+Permutation Steganography;Steganography
+ISAP Bit Commitment Scheme;ISAP bit commitment scheme
+Key Searcher;Key searcher
+M-138 Analysis;M-138 attack
+Magic door;Magic door visual
+MD4 MAC;MD4
+MD5 MAC;MD5
+MD5 Collisions;MD5 attack (collisions)
+One-time pad;One-time pad (OTP)
+Padding Oracle Attack;Padding oracle attack (POA)
+Padding Oracle Attack (POA);Padding oracle attack (POA)
+Paillier Cryptosystem;Paillier
+Paillier;Paillier signature
+Playfair Cipher;Playfair cipher
+RIPEMD160;RIPEMD
+SHA-1;SHA
+SHA-256;SHA
+T-310[^;]*50;T-310
+T-310[^;]*51;T-310
+Transposition;Transposition (single and double column)
+Transposition (Double Column);Transposition (single and double column)
+Sigaba;SIGABA
+Signature demonstration;Signature visual
+Verifiable secret sharing;Verifiable secret sharing (VSS)
+Wordpattern Analysis;Word pattern analysis
+RSA (Coppersmith's attack);RSA attack
+RSA Attacks;RSA attack
+RSA Analysis;RSA attack
+Spanish Strip cipher;Spanish strip cipher
+3DES;Triple DES
+Ant Colony Optimization;Ant Colony Optimization (ACO)
+Ant Colony Optimization Visualization;Ant Colony Optimization (ACO) visualization
+Affine Cipher;Affine cipher
+Alberti;Alberti cipher
+Alberti;Alberti cipher
+Avalanche Effect Analysis;Avalanche effect
+Berlekamp-Massey Algorithm;Berlekamp-Massey algorithm
+Blockmode;Block mode
+Blum Blum Shub;Blum Blum Shub (BBS) PRNG
+Blum Blum Shub;Blum Blum Shub (BBS) PRNG
+FIPS PUB-140-1;FIPS PUB-140-1 PRNG test
+Certificate Verification;Certificate verification
+Chinese Remainder Theorem;Chinese remainder theorem (CRT)
+Chinese Remainder Theorem;Chinese remainder theorem (CRT) visualization
+Spanish Strip cipher;Spanish strip cipher
+Spanish Strip cipher;Spanish strip cipher
+Spanish Strip cipher Analysis;Spanish strip cipher analysis
+3DES;Triple DES
+Ant Colony Optimization;Ant Colony Optimization (ACO)
+Affine Cipher;Affine cipher
+Alberti;Alberti cipher
+Avalanche Effect Analysis;Avalanche effect
+Avalanche Visualization;Avalanche effect
+Berlekamp-Massey Algorithm;Berlekamp-Massey algorithm
+Blockmode;Block mode
+Blockmode Visualizer;Block mode visualizer
+Blum Blum Shub;Blum Blum Shub (BBS) PRNG
+FIPS PUB-140-1;FIPS PUB-140-1 PRNG test
+Certificate Verification;Certificate verification
+Chinese Remainder Theorem;Chinese remainder theorem (CRT)
+Chinese Remainder Theorem;Chinese remainder theorem (CRT)
+Chinese Remainder Theorem Visualization;Chinese remainder theorem (CRT) visualization
+Dining Cryptographers Protocol;Dining cryptographers protocol
+Oblivious Transfer Protocol;Oblivious transfer protocol
+Yao's Millionaire Problem;Yao's millionaire problem (protocol)
+Yao's Millionaire Problem Protocol;Yao's millionaire problem (protocol)
+Zero Knowledge Protocol;Zero knowledge protocol
+Cost Function;Cost function
+CRC;Cyclic redundancy check (CRC)
+DECODE;DECODE database
+Dictionary Search;Dictionary search
+DECODE;DECODE database
+Dictionary Search;Dictionary search
+Differential computational analysis (DCA);Differential cryptanalysis (DCA)
+Differential cryptanalysis;Differential cryptanalysis (DCA)
+Differential cryptanalysis Tutorial;Differential cryptanalysis visual
+Discrete Logarithm;Discrete logarithm
+Enigma Analysis;Enigma attack
+Factorization of a Number;Factorization of a number
+General Number Field Sieve (GNFS);Factorization of a number
+Quadratic Sieve (QS);Factorization of a number
+Generation of Prime Numbers;Primes
+Prime numbers;Primes
+Prime number test;Primes test
+Format Preserving Encryption (FPE);Format preserving encryption (FPE)
+Frequency analysis;Frequency test
+Frequency Test;Frequency test
+Grain v1;Grain
+Hamming Distance;Hamming distance
+Levenshtein Distance;Levenshtein distance
+Homophonic Substitution cipher;Homophonic substitution cipher
+HTTP;HTTP protocol
+Insertion Steganography;Steganography
+LSB Steganography;Steganography
+Permutation Steganography;Steganography
+ISAP Bit Commitment Scheme;ISAP bit commitment scheme
+Key Searcher;Key searcher
+M-138 Analysis;M-138 attack
+Magic door;Magic door visual
+MD4 MAC;MD4
+MD5 MAC;MD5
+MD5 Collisions;MD5 attack (collisions)
+One-time pad;One-time pad (OTP)
+Padding Oracle Attack;Padding oracle attack (POA)
+Padding Oracle Attack (POA);Padding oracle attack (POA)
+Paillier Cryptosystem;Paillier
+Paillier;Paillier signature
+Playfair Cipher;Playfair cipher
+RIPEMD160;RIPEMD
+SHA-1;SHA
+SHA-256;SHA
+T-310[^;]*50;T-310
+T-310[^;]*51;T-310
+Transposition;Transposition (single and double column)
+Transposition (Double Column);Transposition (single and double column)
+Sigaba;SIGABA
+Signature demonstration;Signature visual
+Verifiable secret sharing;Verifiable secret sharing (VSS)
+Wordpattern Analysis;Word pattern analysis
+RSA (Coppersmith's attack);RSA attack
+RSA Attacks;RSA attack
+RSA Analysis;RSA attack
+Transposition Analysis;Transposition analysis
+Transposition (Single Column);Transposition (single and double column)
+SIGABA Analysis;SIGABA analysis
+Homophonic substitution Analysis;Homophonic substitution analysis
+Scytale Analysis;Scytale analysis
+Vigenère Analysis;Vigenère analysis
+AES Analysis;AES analysis
+Substitution Analysis;Substitution analysis
+SDES Analysis;SDES analysis
+SDES Analysis;SDES analysis
+Caesar Analysis;Caesar analysis
+Solitaire Analysis;Solitaire analysis
+DES Analysis;DES analysis
+Playfair Analysis;Playfair analysis
+Playfair Analysis;Playfair analysis
+Transcriptor Analysis;Transcriptor analysis
+N-Gram Analysis;N-Gram analysis
+Autokey Analysis;Autokey analysis
+Distributed AES Analysis;Distributed AES analysis
+ADFGVX Analysis;ADFGVX analysis
+Byte Addition Analysis;Byte Addition analysis
+Hill Analysis;Hill analysis
+Periodicity Analysis;Periodicity analysis
+Vernam Analysis;Vernam analysis
+Vitányi Analysis;Vitányi analysis
+ADFGX / ADFGVX Analysis;ADFGX / ADFGVX analysis
+ADFGX / ADFGVX Analysis;ADFGVX analysis
+IDP Analysis;IDP analysis
+Kryptos K1 Analysis;Kryptos K1 analysis
+Kryptos K2 Analysis;Kryptos K2 analysis
+Zodiac-408 Analysis;Zodiac-408 analysis
+Triple DES Analysis;Triple DES analysis
+Heartbleed Analysis;Heartbleed analysis
+Crib Analysis;Crib analysis
+MD5 Analysis;MD5 analysis
+\([^;]*\)Attack;\1attack
+\([^;]*\)brute-force attack;\1attack
+\([^;]*\)Visualization;\1visualization
+Hash Algorithms visualization;Hash algorithms visualization
+Coin Flipping Protocol;Coin flipping protocol
+Coin Flipping;Coin flipping
+EC NR signature;ECNR signature
+Hash Collisions;Hash attack (collisions)
+TripleDES;Triple DES
+TripleDES;Triple DES
+3DES attack;Triple DES analysis
+ADFGV;ADFGX / ADFGVX
+ADFGVX;ADFGX / ADFGVX
+ADFGVX;ADFGX / ADFGVX
+Android Unlock Pattern;Android Unlock Pattern (AUP)
+Authentication Methods in Networks visualization;Authentication methods in networks visual
+Barcode Generator;Barcode generator
+Base 64 Decode;Base 64
+Base 64 Encode;Base 64
+Basics template;Math template
+Coin flipping;Coin flipping protocol
+Differential cryptanalysis visual;Differential cryptanalysis (DCA) visual
+Digital Signatures visualization;Signature visual
+Extract Signature;Signature extraction
+Verify Signature;Signature verification
+Elliptic Curve Calculations visualization;EC calculations visual
+Enigma visualization;Enigma visual
+Generate/Import Keys;Generate/Import keys
+Hash Algorithms visualization;Hash algorithms visual
+Hash Value of a File;Hash value of a file
+Hill;Hill cipher
+HMACs;HMAC
+Homophone;Homophonic substitution cipher
+Inverse Congruence Generator (ICG) (PRNG);Inverse congruence generator (ICG) (PRNG)
+Linear Congruence Generator (LCG) (PRNG);Linear congruence generator (LCG) (PRNG)
+KDF Performance Comparison;Key derivation function (KDF)
+Kasiski Test;Kasiski test
+Keccak Hash;Keccak hash
+Key Generation from Password (PKCS#5);Key generation from password (PKCS#5)
+MAC General;MAC general
+Merkle;Merkle signature
+Morse Code;Morse code
+N-Gram analysis;N-gram analysis
+Navajo;Navajo code
+Nihilist;Nihilist cipher
+Nihilist visualization;Nihilist visual
+Number Theory;Number theory
+Playfair;Playfair cipher
+Rail Fence;Rail fence
+Randomness visualization;Randomness visual
+PRNG;Pseudo random number generator (PRNG)
+FIPS PUB-140-1 PRNG test;PRNG test
+Poker Test;PRNG test
+Runs Test;PRNG test
+Serial Test;PRNG test
+Secude Library Random Number Generator;Pseudo random number generator (PRNG)
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+Poker Test;PRNG test
+Runs Test;PRNG test
+Serial Test;PRNG test
+Secude Library Random Number Generator;Pseudo random number generator (PRNG)
+Secure Email (S/MIME) visualization;Secure email (S/MIME) visual
+SHA-512;SHA [nur CT1]
+Shamir's Secret Sharing visualization;Shamir's secret sharing visual
+Simple Multi Client Communication;Simple multi-client communication
+Simple Webserver;Simple webserver
+UU Decode;UU Decode/Encode
+UU Encode;UU Decode/Encode
+Vigenère;Vigenère cipher
+Vigenère visualization;Vigenère visual
+Virtual Smartcard;Virtual smartcard
+Watermark Creator;Watermark creator
+Word Patterns;Word pattern analysis
+Unzip;Zip/Unzip
+Zip;Zip/Unzip
+SHA [nur CT1];SHA
+Homophonic substitution cipher;Homophone Substitutionschiffre
+Hill cipher;Hill-Chiffre
+Playfair cipher;Playfair-Chiffre
+Transposition (ein-stufige Spaltentransposition);Transposition (einfache und doppelte Spalten)
+Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel);Transposition (einfache und doppelte Spalten)
+Vigenère cipher;Vigenère-Chiffre
+SHA [nur CT1];SHA
+Signatur überprüfen;Signatur verifizieren
+3DES Brute-Force-Angriff;3DES-Angriff
+AES Brute-Force-Angriff;AES-Angriff
+DES Brute-Force-Angriff;DES-Angriff
+DESL Brute-Force-Angriff;DESL-Angriff
+DESX Brute-Force-Angriff;DESX-Angriff
+DESXL Brute-Force-Angriff;DESXL-Angriff
+PRNG test;PRNG-Test
+IDEA Brute-Force-Angriff;IDEA-Angriff
+MARS Brute-Force-Angriff;MARS-Angriff
+RC2 Brute-Force-Angriff;RC2-Angriff
+RC4 Brute-Force-Angriff;RC4-Angriff
+RC6 Brute-Force-Angriff;RC6-Angriff
+Serpent Brute-Force-Angriff;Serpent-Angriff
+Twofish Brute-Force-Angriff;Twofish-Angriff
+Base 64 decodieren;Base 64
+Base 64 encodieren;Base 64
+UU decodieren;UU decodieren/encodieren
+UU encodieren;UU decodieren/encodieren
+Alberti cipher;Alberti-Chiffre
+Hill cipher;Hill-Chiffre
+Homophonic substitution cipher;Homophone Substitutionschiffre
+Nihilist cipher;Nihilist-Chiffre
+Playfair cipher;Playfair-Chiffre
+Transposition (ein-stufige Spaltentransposition);Transposition (einfache und doppelte Spalten)
+Base 64 decodieren;Base 64
+Base 64 encodieren;Base 64

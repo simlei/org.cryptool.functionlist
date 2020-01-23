@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-/home/simon/sandbox/featurelist/ct_functionlist/bin/helpers/extract_old_funmaps --list > ./doc/${1}_func_groups.txt
-/home/simon/sandbox/featurelist/ct_functionlist/bin/helpers/extract_old_funmaps --all > ./doc/${1}_func_groups_and_paths.txt
+/home/simon/sandbox/featurelist/ct_functionlist/bin/helpers/extract_old_funmaps --new --list > ./doc/new_func_groups.txt
+/home/simon/sandbox/featurelist/ct_functionlist/bin/helpers/extract_old_funmaps --new --all > ./doc/new_func_groups_and_paths.txt

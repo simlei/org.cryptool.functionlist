@@ -1,0 +1,157 @@
+Oblivious transfer protocol
+AES
+RSA
+Winternitz
+SHA
+Serpent
+DES
+Differential cryptanalysis (DCA)
+MD5
+Fialka
+AES MAC
+RIPEMD
+ECDSA
+ADFGX / ADFGVX
+RC2
+Camellia
+IDEA
+TwoTrack MAC
+GMSS
+Caesar
+Substitution
+Transposition (single and double column)
+Huffman
+Bitcoin
+BB84
+Key derivation function (KDF)
+Twofish
+SHA MAC
+RIPEMD MAC
+XOR
+RC4
+CypherMatrix
+Padding oracle attack (POA)
+Yao's millionaire problem (protocol)
+QR code
+PKCS#5 AES
+ElGamal
+McEliece
+Tiger
+Keccak
+Enigma
+M209
+Scytale
+T-310
+Enigma attack
+ImageHash
+Cramer-Shoup
+Grain
+SDES
+TEA
+Zero knowledge protocol
+PKCS#1 attack
+Niederreiter
+RC6
+Shacal
+SAFER
+DES MAC
+SAFER MAC
+Shacal MAC
+MD
+Triple DES
+LFSR
+Key exchange
+SPHINCS
+Fiat Shamir
+Achterbahn
+SIGABA
+HMAC
+M-138
+Purple
+Solitaire
+Discrete logarithm
+Grain attack
+BLAKE
+Grøstl
+Whirlpool
+DGK
+HC128
+Mickey 2
+PRESENT
+Rabbit
+Salsa20
+Sosemanuk
+WEP attack
+Coin flipping protocol
+NLFSR
+ISBN
+One-time pad (OTP)
+BLAKE password storage
+Grøstl password storage
+SAT solver
+Diffie-Hellman key exchange (DH)
+Lattice attack
+Math template
+RC5
+MARS
+Misty
+ECIES
+Tiger MAC
+FORK MAC
+MD4
+MAC general
+DHA MAC
+Serpent MAC
+RC5 MAC
+RC6 MAC
+RC2 MAC
+IDEA MAC
+Misty MAC
+MARS MAC
+Camellia MAC
+Twofish MAC
+DHA
+VSH
+FORK
+PBES2
+Blum Blum Shub (BBS) PRNG
+EC PRNG
+CMSS
+Bifid
+Double box
+DSA
+Dragon
+Zudo-Ku
+Shanks Babystep-Giantstep
+Grille
+Shamir's secret sharing
+TLS handshake
+Verifiable secret sharing (VSS)
+WOTS
+Alphabet
+Heartbleed
+Lorenz SZ42
+T-316
+Vernam
+PKCS#5
+A5
+FEAL
+Feistel
+Format preserving encryption (FPE)
+HIGHT
+MiniTreyfer
+TREYFER attack
+TREYFER
+Trivium
+BB84 attack
+Man-in-the-middle attack
+WEP
+VCard
+Navajo code
+Keccak hash
+PBKDF-1 (PKCS#5 2.0)
+Dining cryptographers protocol
+HTTP protocol
+Encoding
+SOAP
+WebService

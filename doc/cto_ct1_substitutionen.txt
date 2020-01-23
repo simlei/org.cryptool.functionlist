@@ -1,0 +1,40 @@
+
+ct1_de:
+
+Hill cipher => Hill-Chiffre
+Homophonic substitution cipher ==> Homophone Substitutionschiffre
+Playfair cipher => Playfair-Chiffre
+Transposition (ein-stufige Spaltentransposition) => Transposition (einfache und doppelte Spalten)
+Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) ==> Transposition (einfache und doppelte Spalten)
+Vigenère cipher ==> Vigenère-Chiffre
+SHA [nur CT1] => SHA
+Signatur überprüfen => Signatur verifizieren
+3DES Brute-Force-Angriff ==> 3DES-Angriff
+AES Brute-Force-Angriff ==> AES-Angriff
+DES Brute-Force-Angriff ==> DES-Angriff
+DESL Brute-Force-Angriff ==> DESL-Angriff
+DESX Brute-Force-Angriff ==> DESX-Angriff
+DESXL Brute-Force-Angriff ==> DESXL-Angriff
+PRNG test ==> PRNG-Test
+IDEA Brute-Force-Angriff ==> IDEA-Angriff
+MARS Brute-Force-Angriff ==> MARS-Angriff
+RC2 Brute-Force-Angriff ==> RC2-Angriff
+RC4 Brute-Force-Angriff ==> RC4-Angriff
+RC6 Brute-Force-Angriff ==> RC6-Angriff
+Serpent Brute-Force-Angriff ==> Serpent-Angriff
+Twofish Brute-Force-Angriff ==> Twofish-Angriff
+Base 64 decodieren => Base 64
+Base 64 encodieren => Base 64
+UU decodieren => UU decodieren/encodieren
+UU encodieren => UU decodieren/encodieren
+
+cto_de:
+
+Alberti cipher => Alberti-Chiffre
+Hill cipher => Hill-Chiffre
+Homophonic substitution cipher ==> Homophone Substitutionschiffre
+Nihilist cipher => Nihilist-Chiffre
+Playfair cipher => Playfair-Chiffre
+Transposition (ein-stufige Spaltentransposition) ==> Transposition (einfache und doppelte Spalten)
+Base 64 decodieren => Base 64
+Base 64 encodieren => Base 64
