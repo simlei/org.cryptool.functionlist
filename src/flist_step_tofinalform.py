@@ -27,5 +27,4 @@ def CreateFinalForm(input: Path, output: Path):
     dataframe = flist.MCSV_Dataset.Dataframe_From_Files(inputs)
     mcsv_set = flist.MCSV_Dataset.From_Dataframe(dataframe)
     finalForm = flist.FinalForm_Dataset.From_MCSV(mcsv_set)
-
     finalForm.write_csv(output)

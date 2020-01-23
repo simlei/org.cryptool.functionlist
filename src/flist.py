@@ -415,7 +415,8 @@ class FinalForm_Entry:
 
 @dataclass
 class FinalForm_Dataset(CSV_Dataset):
-    COLUMNS = ["functionality",
+    COLUMNS = ["categories",
+               "functionality",
                "how_implemented_CT1",
                "how_implemented_CT2",
                "how_implemented_JCT",
@@ -423,9 +424,15 @@ class FinalForm_Dataset(CSV_Dataset):
                "paths_CT1",
                "paths_CT2",
                "paths_JCT",
-               "paths_CTO",
-               "categories"]
+               "paths_CTO"
+               ]
     rows: List[FinalForm_Entry] = field(default_factory=list)
+
+    def write_csv(self, outfile):
+        df = self.to_dataframe()
+        df.insert(0, "ID", range(len(self.rows)))
+        df.to_csv(outfile, sep=CSV_SEP, index=False, header=False)
+        io.msg(f"written CSV output to {outfile}")
 
     def get_rows(self):
         return [row.to_dataframe_row() for row in self.rows]
