@@ -76,7 +76,7 @@ CT1:de:static:75;Vernam-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselun
 CT1:de:static:76;Vigenère-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ Vigenère;6) Klassische Kryptoanalyse
 CT1:de:static:77;Vigenère-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ Vigenère (Analyse nach Schrödel)…;6) Klassische Kryptoanalyse
 CT1:de:static:78;3DES-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Triple DES…;7) Moderne Kryptoanalyse
-CT1:de:static:79;AES-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Rijndael (AES)…;7) Moderne Kryptoanalyse
+CT1:de:static:79;AES-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Rijndael (AES)…;7) Moderne Kryptoanalyse
 CT1:de:static:80;DES-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ DES…;7) Moderne Kryptoanalyse
 CT1:de:static:81;DESL-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESL…;7) Moderne Kryptoanalyse
 CT1:de:static:82;DESX-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESX…;7) Moderne Kryptoanalyse
@@ -124,12 +124,12 @@ CT1:de:static:123;Vigenère-Visualisierung;X;CT1:X \ Einzelverfahren \ Visualisi
 CT1:de:static:124;Zahlentheorie;X;CT1:X \ Einzelverfahren \ Zahlentheorie interaktiv \ ;10) Lernhilfen und Visualisierungen
 CT1:de:static:125;Zufall-Visualisierung;X;CT1:X \ Analyse \ Zufallsanalyse \ 3D-Visualisierung…;10) Lernhilfen und Visualisierungen
 CT1:de:static:126;Zahlenhai;X;CT1:X \ Einzelverfahren \ Lernspiele \ Der Zahlenhai;11) Spiele
-CT1:de:static:127;Faktorisierung einer Zahl;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Brute-Force;12) Primzahlen
-CT1:de:static:128;Faktorisierung einer Zahl;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Brent;12) Primzahlen
-CT1:de:static:129;Faktorisierung einer Zahl;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Pollard;12) Primzahlen
-CT1:de:static:130;Faktorisierung einer Zahl;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Williams;12) Primzahlen
-CT1:de:static:131;Faktorisierung einer Zahl;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Lenstra;12) Primzahlen
-CT1:de:static:132;Faktorisierung einer Zahl;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Quadratisches Sieb;12) Primzahlen
+CT1:de:static:127;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Brute-Force;12) Primzahlen
+CT1:de:static:128;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Brent;12) Primzahlen
+CT1:de:static:129;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Pollard;12) Primzahlen
+CT1:de:static:130;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Williams;12) Primzahlen
+CT1:de:static:131;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Lenstra;12) Primzahlen
+CT1:de:static:132;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Quadratisches Sieb;12) Primzahlen
 CT1:de:static:133;Generierung von Primzahlen;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahlen generieren… \ Miller-Rabin-Test;12) Primzahlen
 CT1:de:static:134;Generierung von Primzahlen;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Solovay-Strassen-Test;12) Primzahlen
 CT1:de:static:135;Generierung von Primzahlen;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Fermat-Test;12) Primzahlen

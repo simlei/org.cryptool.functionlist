@@ -8,22 +8,23 @@ Factorization of a number;Faktorisierung
 Transposition (single and double column);Transposition (einfache und doppelte Spalten)
 Transposition analysis;Transpositionsanalyse
 Paillier signature;Paillier Signatur
-DECODE database;DECODE Datenbank
+DECODE database;DECODE-Datenbank
 Avalanche effect;Avalanche-Effekt
 DSA signature;DSA Signatur
 Misc;Verschiedene
 AES analysis;AES-Analyse
-Differential cryptanalysis (DCA) visual;Differenzielle Kryptanalyse (DCA) Visualisierung
-Lattice visual;Lattice Visualisierung
+Differential cryptanalysis (DCA) visual;Differenzielle Kryptanalyse (DCA) - Visualisierung
+Lattice visual;Lattice-Visualisierung
+Lattice attack;Lattice-Angriff
 Merkle signature;Merkle Signatur
 Vigenère cipher;Vigenère-Chiffre
 Substitution analysis;Substitutionsanalyse
-Primes test;Primzahlentest
+Primes test;Primzahl-Test
 SDES analysis;SDES-Analyse
 Playfair cipher;Playfair-Chiffre
 Vigenère analysis;Vigenère-Analyse
 M-138 attack;M-138-Angriff
-Blind signature;Blind Signatur
+Blind signature;Blinde Signatur
 Watermark creator;Wasserzeichen erstellen
 DES analysis;DES-Analyse
 Encrypted VM;Verschlüsselte VM
@@ -48,10 +49,10 @@ Nihilist cipher;Nihilist-Chiffre
 Homophonic substitution analysis;Homophonische Substitutionsanalyse
 Playfair analysis;Playfair-Analyse
 Solitaire analysis;Solitaire-Analyse
-AES visualization;AES Visualisierung
-DES visualization;DES Visualisierung
+AES visualization;AES-Visualisierung
+DES visualization;DES-Visualisierung
 ISAP bit commitment scheme;ISAP Bit-Commitment-Verfahren
-Block mode visualizer;Block mode Visualisierung
+Block mode visualizer;Block mode - Visualisierung
 Scytale analysis;Scytale-Analyse
 Homophonic substitution cipher;Homophonische Substitutionschiffre
 SIGABA analysis;SIGABA-Analyse
@@ -65,7 +66,7 @@ Number Shark;Zahlenhai
 Sudoku solver;Sudoku-Solver
 Ant Colony Optimization (ACO);Ameisenalgorithmus (ACO)
 Android Unlock Pattern (AUP);Android Entsperrmuster (AUP)
-Chinese remainder theorem (CRT) visualization;Chinese remainder theorem (CRT) Visualisierung
+Chinese remainder theorem (CRT) visualization;Chinese remainder theorem (CRT) - Visualisierung
 Certificate verification;Zertifikatsverifizierung
 EC calculations;EC-Berechnungen
 Reciprocal subtraction;Reziproke Substraktion
@@ -76,9 +77,9 @@ Kleptography;Kleptographie
 Knapsack;Rucksackproblem
 Differential power analysis;Differential power analysis
 Square and multiply;Binäre Exponentiation
-Signature visual;Signatur Visualisierung
+Signature visual;Signatur-Visualisierung
 Signature verification;Signatur-Verifizierung
-Magic door visual;Magic door Visualisierung
+Magic door visual;Magic door - Visualisierung
 Graph isomorphism;Graphisomorphismus
 ADFGVX analysis;ADFGVX-Analyse
 Encryption;Verschlüsselung
@@ -105,6 +106,7 @@ Hamming distance;Hamming-Abstand
 Levenshtein distance;Levenshtein-Abstand
 BB84 key exchange;BB84 Schlüsselaustausch
 BB84 key exchange attack;BB84 Schlüsselaustausch - Angriff
+BB84 attack;BB84-Angriff
 Heartbleed analysis;Heartbleed-Analyse
 Simple multi-client communication;Simple Kommunikation mit mehreren Clients
 Simple webserver;Einfacher Webserver
@@ -117,3 +119,4 @@ Spanish strip cipher analysis;Spanische Streifenchiffre - Analyse
 Spanish strip cipher;Spanische Streifenchiffre
 Double box;Dopelkasten
 Key exchange;Schlüsselaustausch
+BLAKE password storage;BLAKE Passwortspeicherung

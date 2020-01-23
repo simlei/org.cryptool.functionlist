@@ -115,7 +115,7 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
     df_writeback_feedback = df_writeback_feedback.append(df_writeback_feedback_missing)
     implicitly("prog.logger").info(f"{catFromInputFileCounter} of {len(dataset.rows)} entries have been assigned {colname}s based on their ids in {mapfile}")
     implicitly("prog.logger").info(f"{catFromFeedbackCounter} of {len(dataset.rows)} entries have been assigned {colname}s based on their ids in {feedbackfile}")
-    implicitly("prog.logger").info(f"{(catFromFeedbackCounter+catFromInputFileCounter)-untranslatedCounter} of {catFromFeedbackCounter+catFromInputFileCounter} {colname}s have no direct translations in {translationfile}")
+    implicitly("prog.logger").info(f"{(catFromFeedbackCounter+catFromInputFileCounter)-untranslatedCounter} of {catFromFeedbackCounter+catFromInputFileCounter} {colname}s have direct translations in {translationfile}, the rest inherits the english version")
     if catFromFeedbackCounter > 0:
         implicitly("prog.logger").info(f"[ NOTE ] when running the program with --initws, the file {feedbackfile} will be overwritten by the prototypical workspace and the manual entries may be lost. Consider merging them with the corresponding file of {input} in ./ws-static!")
 

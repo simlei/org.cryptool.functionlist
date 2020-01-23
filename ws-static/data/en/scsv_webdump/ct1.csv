@@ -3,7 +3,7 @@ CT1:en:static:3;ADFGX / ADFGVX;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)
 CT1:en:static:4;ADFGVX analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ ADFGVX…;6) Classic Cryptanalysis
 CT1:en:static:5;AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ AES (CBC)...;2) Modern Ciphers
 CT1:en:static:6;AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ AES (self extracting)…;2) Modern Ciphers
-CT1:en:static:7;AES attack;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ AES (CBC)…;7) Modern Cryptanalysis
+CT1:en:static:7;AES analysis;CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ AES (CBC)…;7) Modern Cryptanalysis
 CT1:en:static:8;AES visualization;CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ AES\;10) Learning Aids and Visualizations
 CT1:en:static:9;ASN.1;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Decode ASN.1 Code of a Document;9) Codings
 CT1:en:static:10;Atbash;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Substitution / Atbash…;1) Classic Ciphers
