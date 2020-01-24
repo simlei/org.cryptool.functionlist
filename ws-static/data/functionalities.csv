@@ -120,3 +120,9 @@ Spanish strip cipher;Spanische Streifenchiffre
 Double box;Dopelkasten
 Key exchange;Schlüsselaustausch
 BLAKE password storage;BLAKE Passwortspeicherung
+TREYFER attack;TREYFER-Angriff
+WEP attack;WEP-Angriff
+Enigma attack;Enigma-Angriff
+Grain attack;Grain-Angriff
+Padding oracle attack (POA);Padding Oracle - Angriff (POA)
+Man-in-the-middle attack;Man-in-the-middle-Angriff
