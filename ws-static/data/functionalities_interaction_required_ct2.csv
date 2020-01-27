@@ -133,7 +133,7 @@ CT2:dynamic:04dcec57;Spanish strip cipher;CT2:C \ Classic Ciphers \ Spanish Stri
 CT2:dynamic:ee5d7603;Substitution;CT2:C \ Classic Ciphers \ Substitution
 CT2:dynamic:5eb192a6;T-310;CT2:C \ Classic Ciphers \ T-310
 CT2:dynamic:98353e86;T-316;CT2:C \ Classic Ciphers \ T-316
-CT2:dynamic:124798f3;Transposition (single and double column);CT2:C \ Classic Ciphers \ Transposition
+CT2:dynamic:124798f3;Transposition (single column transposition);CT2:C \ Classic Ciphers \ Transposition
 CT2:dynamic:4a790717;Vernam;CT2:C \ Classic Ciphers \ Vernam
 CT2:dynamic:a5998c23;Vigenère cipher;CT2:C \ Classic Ciphers \ Vigenère
 CT2:dynamic:552c714b;XOR;CT2:C \ Classic Ciphers \ XOR
@@ -191,9 +191,9 @@ CT2:dynamic:c835779e;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA
 CT2:dynamic:0ab14b2e;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
 CT2:dynamic:d2203b62;A5;CT2:C \ Modern Ciphers \ Symmetric \ A5
 CT2:dynamic:99d09343;AES;CT2:C \ Modern Ciphers \ Symmetric \ AES
-CT2:dynamic:cea0f204;AES visualization;CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
+CT2:dynamic:cea0f204;AES visual;CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
 CT2:dynamic:cf86ce31;DES;CT2:C \ Modern Ciphers \ Symmetric \ DES
-CT2:dynamic:b6e0ce42;DES visualization;CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
+CT2:dynamic:b6e0ce42;DES visual;CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
 CT2:dynamic:3c764f26;FEAL;CT2:C \ Modern Ciphers \ Symmetric \ FEAL
 CT2:dynamic:7b51c6e9;Feistel;CT2:C \ Modern Ciphers \ Symmetric \ Feistel Cipher
 CT2:dynamic:5f184770;Format preserving encryption (FPE);CT2:C \ Modern Ciphers \ Symmetric \ Format Preserving Encryption (FPE)
@@ -242,7 +242,7 @@ CT2:dynamic:0a563b6f;Steganography;CT2:C \ Steganography \ LSB Steganography
 CT2:dynamic:cca82098;Steganography;CT2:C \ Steganography \ Permutation Steganography
 CT2:dynamic:240447b3;Watermark creator;CT2:C \ Steganography \ Watermark Creator
 CT2:dynamic:703acac0;Avalanche effect;CT2:C \ Tools \ Misc \ Avalanche Visualization
-CT2:dynamic:14d5b694;Block mode visualizer;CT2:C \ Tools \ Misc \ Blockmode Visualizer
+CT2:dynamic:14d5b694;Block mode visual;CT2:C \ Tools \ Misc \ Blockmode Visualizer
 CT2:dynamic:f83d7ed8;PKCS#1 attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1
 CT2:dynamic:03459821;PKCS#1 attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Attack with shorter keys (Kuehn)
 CT2:dynamic:e8080fd3;PKCS#1 attack;CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Bleichenbacher attack
@@ -256,7 +256,7 @@ CT2:dynamic:bb7249d8;QR code;CT2:T \ Codes \ RSA signed QR code
 CT2:dynamic:2c08290f;Visual code;CT2:T \ Codes \ Simple detection of optical codes
 CT2:dynamic:f5c1b6f4;VCard;CT2:T \ Codes \ VCard
 CT2:dynamic:a5cd5390;Caesar analysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
-CT2:dynamic:c48408d1;Transposition (single and double column);CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
+CT2:dynamic:c48408d1;Transposition (double column transposition);CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
 CT2:dynamic:39986255;Enigma attack;CT2:T \ Cryptanalysis \ Classical \ Enigma Analyzer
 CT2:dynamic:81d754aa;Frequency test;CT2:T \ Cryptanalysis \ Classical \ Frequency Analysis
 CT2:dynamic:2f48311b;Homophonic substitution analysis;CT2:T \ Cryptanalysis \ Classical \ Homophonic Substitution Analysis
@@ -333,7 +333,7 @@ CT2:dynamic:6b7a8f82;Spanish strip cipher;CT2:T \ Cryptography \ Classical \ Spa
 CT2:dynamic:535fe8cb;Substitution;CT2:T \ Cryptography \ Classical \ Substitution Cipher
 CT2:dynamic:b092d3d0;T-310;CT2:T \ Cryptography \ Classical \ T-310 \ 50 Cipher Machine
 CT2:dynamic:a99a4ffa;T-310;CT2:T \ Cryptography \ Classical \ T-310 \ 51 Cipher Machine
-CT2:dynamic:4f09fa61;Transposition (single and double column);CT2:T \ Cryptography \ Classical \ Transposition Cipher
+CT2:dynamic:4f09fa61;Transposition (single column transposition);CT2:T \ Cryptography \ Classical \ Transposition Cipher
 CT2:dynamic:b0520d55;Vigenère cipher;CT2:T \ Cryptography \ Classical \ Vigenère Cipher
 CT2:dynamic:88da03f8;XOR;CT2:T \ Cryptography \ Classical \ XOR Cipher
 CT2:dynamic:6ff88973;Blind signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Blind Signature Paillier
@@ -354,12 +354,12 @@ CT2:dynamic:7a097bfc;AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher 
 CT2:dynamic:0a3235df;AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
 CT2:dynamic:c28aaa61;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
 CT2:dynamic:f6737dae;AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion
-CT2:dynamic:a51724fb;AES visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
+CT2:dynamic:a51724fb;AES visual;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
 CT2:dynamic:1e45ca9f;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
 CT2:dynamic:998a6b86;Block mode;CT2:T \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers
 CT2:dynamic:4c9dfd8b;DES;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Cipher
 CT2:dynamic:df11aae3;DES;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
-CT2:dynamic:abe71ce5;DES visualization;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
+CT2:dynamic:abe71ce5;DES visual;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
 CT2:dynamic:5fb4642c;Grain;CT2:T \ Cryptography \ Modern \ Symmetric \ Grain v1 Cipher
 CT2:dynamic:ef00311c;HC128;CT2:T \ Cryptography \ Modern \ Symmetric \ HC128 Cipher
 CT2:dynamic:d0a4f459;Keccak;CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
@@ -374,7 +374,7 @@ CT2:dynamic:3445c236;Sosemanuk;CT2:T \ Cryptography \ Modern \ Symmetric \ Sosem
 CT2:dynamic:bd4eac56;TEA;CT2:T \ Cryptography \ Modern \ Symmetric \ TEA Cipher
 CT2:dynamic:af5a9271;Triple DES;CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
 CT2:dynamic:64857ba4;Twofish;CT2:T \ Cryptography \ Modern \ Symmetric \ Twofish Cipher
-CT2:dynamic:7935241d;Block mode visualizer;CT2:T \ Experimental \ Blockmode Visualizer
+CT2:dynamic:7935241d;Block mode visual;CT2:T \ Experimental \ Blockmode Visualizer
 CT2:dynamic:5e7de1a6;CypherMatrix;CT2:T \ Experimental \ CypherMatrix Cipher
 CT2:dynamic:b09f171e;CypherMatrix;CT2:T \ Experimental \ CypherMatrix Cipher (File Input)
 CT2:dynamic:93ff7e36;Encrypted VM;CT2:T \ Experimental \ Encrypted VM (Machine Code Output)
@@ -460,7 +460,7 @@ CT2:dynamic:6486905a;Enigma;CT2:W \ Encryption \ Decryption \ Classic Encryption
 CT2:dynamic:d374627f;Playfair cipher;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Playfair
 CT2:dynamic:54c4d93d;Scytale;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Scytale
 CT2:dynamic:06cb38a8;Substitution;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Substitution
-CT2:dynamic:c95a4bea;Transposition (single and double column);CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Transposition
+CT2:dynamic:c95a4bea;Transposition (single column transposition);CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Transposition
 CT2:dynamic:4bbbe502;Vigenère cipher;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Vigenère
 CT2:dynamic:5541390c;XOR;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ XOR
 CT2:dynamic:87cd68ab;RSA;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Decryption

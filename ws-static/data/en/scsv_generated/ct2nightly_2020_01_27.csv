@@ -1,0 +1,1151 @@
+﻿ADFGVX Analyzer;C/T;
+;[C];Cryptanalysis\ Generic\ ADFGVX Analyzer
+;[T];Cryptanalysis\ Classical\ ADFGVX heuristic analysis
+
+Alphabet Permutator;C/T;
+;[C];Tools\ Data flow\ Alphabet Permutator
+;[T];Cryptography\ Classical\ Substitution Cipher using a password
+
+Camellia;C/T;
+;[C];Modern Ciphers\ Symmetric\ Camellia
+;[T];Cryptography\ Modern\ Symmetric\ Camellia Cipher
+
+Clipboard Input;C;
+;[C];Tools\ Data input/output\ Clipboard Input
+
+Clipboard Output;C;
+;[C];Tools\ Data input/output\ Clipboard Output
+
+Concatenate;C/T;
+;[C];Tools\ Misc\ Concatenate
+;[T];Hash Functions\ CRC Null problems
+;[T];Hash Functions\ HMAC
+;[T];Hash Functions\ MD5 Collision Finder
+;[T];Hash Functions\ MD5 Salted Hash Comparison
+
+Contains;C/T;
+;[C];Cryptanalysis\ Generic\ Contains
+;[T];Cryptanalysis\ Classical\ Caesar Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Scytale Brute-force Analysis
+
+Achterbahn;C/T;
+;[C];Modern Ciphers\ Symmetric\ Achterbahn
+;[T];Cryptography\ Modern\ Symmetric\ Achterbahn Cipher
+
+ADFGVX;C/T/W;
+;[C];Classic Ciphers\ ADFGVX
+;[T];Cryptanalysis\ Classical\ ADFGVX dictionary attack
+;[T];Cryptography\ Classical\ ADFGVX Cipher
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ ADFGVX
+
+Alphabets;C;
+;[C];Tools\ Data input/output\ Alphabets
+
+Monoalphabetic Substitution Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ Monoalphabetic Substitution Analyzer
+;[T];Cryptanalysis\ Classical\ ADFGVX heuristic analysis
+;[T];Cryptanalysis\ Classical\ Monoalphabetic Substitution Analyzer
+;[T];Cryptanalysis\ Classical\ Monoalphabetic Substitution Analyzer with arbitrary Ciphertext Alphabet
+
+Berlekamp-Massey Algorithm;C/T;
+;[C];Cryptanalysis\ Generic\ Berlekamp-Massey Algorithm
+;[T];Mathematics\ Berlekamp-Massey
+
+Boolean Function Parser;C;
+;[C];Tools\ Boolean\ Boolean Function Parser
+
+Caesar;C/T/W;
+;[C];Classic Ciphers\ Caesar
+;[T];Cryptanalysis\ Classical\ Caesar Analysis using character frequencies
+;[T];Cryptanalysis\ Classical\ Caesar Brute-force Analysis
+;[T];Cryptography\ Classical\ Caesar Cipher
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ Caesar
+;[W];Cryptanalysis\ Classic Encryption\ Caesar
+
+Caesar Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ Caesar Analyzer
+;[T];Cryptanalysis\ Classical\ Caesar Analysis using character frequencies
+
+Clock;C;
+;[C];Tools\ Data flow\ Clock
+
+CRC;C/T;
+;[C];Hash functions\ CRC
+;[T];Hash Functions\ CRC Null problems
+;[T];Hash Functions\ CRC
+
+Cube Attack;C/T;
+;[C];Cryptanalysis\ Specific\ Cube Attack
+;[T];Cryptanalysis\ Modern\ Cube Attack on Trivium
+
+DESVisualization;C/T;
+;[C];Modern Ciphers\ Symmetric\ DESVisualization
+;[T];Cryptography\ Modern\ Symmetric\ DES Visualization
+
+Enigma;C/T/W;
+;[C];Classic Ciphers\ Enigma
+;[T];Cryptanalysis\ Classical\ Enigma Analyzer
+;[T];Cryptography\ Classical\ Enigma Cipher Machine
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ Enigma
+;[W];Cryptanalysis\ Classic Encryption\ Enigma
+
+Enigma Analyzer;C;
+;[C];Cryptanalysis\ Specific\ Enigma Analyzer
+
+Fialka;C/T;
+;[C];Classic Ciphers\ Fialka
+;[T];Cryptography\ Classical\ Fialka ED Check
+;[T];Cryptography\ Classical\ Fialka ED Mixed Mode Check
+;[T];Cryptography\ Classical\ Fialka ED NumLock10 Check
+;[T];Cryptography\ Classical\ Fialka Key Output
+;[T];Cryptography\ Classical\ Fialka M-125-3 PROTON II
+;[T];Cryptography\ Classical\ Fialka M-125 PROTON I
+
+Frequency Test;C/T;
+;[C];Cryptanalysis\ Generic\ Frequency Test
+;[T];Cryptanalysis\ Classical\ Caesar Analysis using character frequencies
+;[T];Cryptanalysis\ Classical\ Enigma Analyzer
+;[T];Cryptanalysis\ Classical\ Frequency Analysis
+;[T];Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers
+
+HIGHT;C;
+;[C];Modern Ciphers\ Symmetric\ HIGHT
+
+HMAC;C/T;
+;[C];Protocols\ HMAC
+;[T];Hash Functions\ HMAC
+
+IP Frame Generator;C/T;
+;[C];Tools\ Data input/output\ IP Frame Generator
+;[T];Protocols\ WEP Attack
+
+Kasiski's Test;C;
+;[C];Cryptanalysis\ Generic\ Kasiski's Test
+
+LFSR;C;
+;[C];Tools\ Misc\ LFSR
+
+M-138;C/T;
+;[C];Classic Ciphers\ M-138
+;[T];Cryptography\ Classical\ M-138
+
+M-138 Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ M-138 Analyzer
+;[T];Cryptanalysis\ Classical\ M-138 Ciphertext only Attack
+;[T];Cryptanalysis\ Classical\ M-138 Known-Plaintext Attack
+;[T];Cryptanalysis\ Classical\ M-138 Partially-Known Plaintext Attack
+
+MD5;C/T/W;
+;[C];Hash functions\ MD5
+;[T];Codes\ RSA signed QR code
+;[T];Cryptography\ Modern\ Symmetric\ AES with PKCS#5
+;[T];Hash Functions\ HMAC
+;[T];Hash Functions\ MD5
+;[T];Hash Functions\ MD5 Collision Finder
+;[T];Hash Functions\ MD5 Salted Hash Comparison
+;[W];Cryptanalysis\ Modern Encryption\ Hash Functions\ MD5
+
+NLFSR;C/T;
+;[C];Protocols\ NLFSR
+;[T];Mathematics\ Non-Linear Feedback Shift Register (NLFSR)
+
+Playfair;C/T/W;
+;[C];Classic Ciphers\ Playfair
+;[T];Cryptanalysis\ Classical\ Playfair Analysis
+;[T];Cryptography\ Classical\ Playfair Cipher
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ Playfair
+
+Playfair Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ Playfair Analyzer
+;[T];Cryptanalysis\ Classical\ Playfair Analysis
+
+AES Visualization;C/T;
+;[C];Modern Ciphers\ Symmetric\ AES Visualization
+;[T];Cryptography\ Modern\ Symmetric\ AES Visualization
+
+Array Indexer;C/T;
+;[C];Tools\ Data flow\ Array Indexer
+;[T];Hash Functions\ Dictionary Attack on a password hash value
+
+Audio Input;C;
+;[C];Tools\ Data input/output\ Audio Input
+
+Audio Output;C;
+;[C];Tools\ Data input/output\ Audio Output
+
+Autocorrelation;C;
+;[C];Cryptanalysis\ Generic\ Autocorrelation
+
+Avalanche Visualization;C/T;
+;[C];Tools\ Misc\ Avalanche Visualization
+;[T];Cryptanalysis\ Modern\ Avalanche (AES)
+;[T];Cryptanalysis\ Modern\ Avalanche (classic ciphers)
+;[T];Cryptanalysis\ Modern\ Avalanche (compare classic ciphers)
+;[T];Cryptanalysis\ Modern\ Avalanche (DES)
+;[T];Cryptanalysis\ Modern\ Avalanche (hash functions)
+;[T];Cryptanalysis\ Modern\ Avalanche (modern ciphers)
+
+BB84 Error Detector;C/T;
+;[C];Protocols\ BB84 Error Detector
+;[T];Protocols\ BB84 Key Exchange with eavesdropping attack
+
+BB84 Key Generator;C/T;
+;[C];Protocols\ BB84 Key Generator
+;[T];Protocols\ BB84 Key Exchange with eavesdropping attack
+;[T];Protocols\ BB84 Key Exchange
+
+BB84 Man in the Middle;C/T;
+;[C];Protocols\ BB84 Man in the Middle
+;[T];Protocols\ BB84 Key Exchange with eavesdropping attack
+
+BB84 Photonbase Generator;C/T;
+;[C];Protocols\ BB84 Photonbase Generator
+;[T];Protocols\ BB84 Key Exchange with eavesdropping attack
+;[T];Protocols\ BB84 Key Exchange
+
+BB84 Photon Decoder;C/T;
+;[C];Protocols\ BB84 Photon Decoder
+;[T];Protocols\ BB84 Key Exchange with eavesdropping attack
+;[T];Protocols\ BB84 Key Exchange
+
+BB84 Photon Encoder;C/T;
+;[C];Protocols\ BB84 Photon Encoder
+;[T];Protocols\ BB84 Key Exchange with eavesdropping attack
+;[T];Protocols\ BB84 Key Exchange
+
+BLAKE;C/T;
+;[C];Hash functions\ BLAKE
+;[T];Hash Functions\ BLAKE
+;[T];Hash Functions\ Password storage using salted BLAKE-256
+;[T];Hash Functions\ Password verification using salted BLAKE-256
+
+Blind Signature Generator;C/T;
+;[C];Modern Ciphers\ Asymmetric\ Blind Signature Generator
+;[T];Cryptography\ Modern\ Asymmetric\ Blind Signature Paillier
+;[T];Cryptography\ Modern\ Asymmetric\ Blind Signature RSA
+
+Blind Signature Verifier;C;
+;[C];Modern Ciphers\ Asymmetric\ Blind Signature Verifier
+
+Boolean Binary Operator;C/T;
+;[C];Tools\ Boolean\ Boolean Binary Operator
+;[T];Mathematics\ Booleans
+
+Boolean If-Else Operator;C;
+;[C];Tools\ Boolean\ Boolean If-Else Operator
+
+Boolean Input;C/T;
+;[C];Tools\ Boolean\ Boolean Input
+;[T];Codes\ AES (CBC) with PKCS#5 and IV, output as QR Code
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Voting)
+;[T];Cryptography\ Modern\ Symmetric\ AES (CBC) with PKCS#5 and IV
+;[T];Cryptography\ Modern\ Symmetric\ AES (ECB) with PKCS#5
+;[T];Mathematics\ Booleans
+;[T];Mathematics\ ISAP Bit Commitment Scheme
+;[T];Protocols\ WEP Attack
+;[T];Tools\ Take a Picture using the webcam
+
+Boolean Not Operator;C;
+;[C];Tools\ Boolean\ Boolean Not Operator
+
+Boolean Output;C/T;
+;[C];Tools\ Boolean\ Boolean Output
+;[T];Codes\ ISBN-10 Check
+;[T];Codes\ ISBN-13 Check
+;[T];Codes\ RSA signed QR code
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Number Input)
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Addition
+;[T];Cryptography\ Modern\ Symmetric\ AES with PKCS#5
+;[T];Cryptography\ Modern\ Symmetric\ DES Complementation Property
+;[T];Hash Functions\ MD5 Collision Finder
+;[T];Hash Functions\ MD5 Salted Hash Comparison
+;[T];Mathematics\ Booleans
+;[T];Mathematics\ Next Smaller Prime Number
+;[T];Mathematics\ Primes Test
+;[T];Protocols\ Coin Flipping Protocol
+;[T];Protocols\ Diffie-Hellman Key-Exchange
+;[T];Protocols\ Dining Cryptographers Protocol
+;[T];Protocols\ Yao's Millionaire Problem Protocol
+;[T];Protocols\ Zero Knowledge Protocol
+
+Coin Flipping;C/T;
+;[C];Protocols\ Coin Flipping
+;[T];Protocols\ Coin Flipping Protocol
+
+Comparators;C/T;
+;[C];Tools\ Misc\ Comparators
+;[T];Codes\ ISBN-10 Check
+;[T];Codes\ ISBN-13 Check
+;[T];Cryptanalysis\ Classical\ Caesar Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Scytale Brute-force Analysis
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Number Input)
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Addition
+;[T];Protocols\ Diffie-Hellman Key-Exchange
+
+Converter;C;
+;[C];Tools\ Misc\ Converter
+
+String Decoder;C;
+;[C];Tools\ Misc\ String Decoder
+
+String Encoder;C;
+;[C];Tools\ Misc\ String Encoder
+
+Cost Function;C/T;
+;[C];Cryptanalysis\ Generic\ Cost Function
+;[T];Cryptanalysis\ Classical\ Transposition Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Crib Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Genetic Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Hill Climbing Analysis
+;[T];Cryptanalysis\ Modern\ AES Analysis using Entropy (1)
+;[T];Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (1)
+;[T];Cryptanalysis\ Modern\ DES Analysis using Entropy
+;[T];Cryptanalysis\ Modern\ DES Known-Plaintext Analysis
+;[T];Cryptanalysis\ Modern\ AES Analysis using Entropy (2) – with changeable plaintext
+;[T];Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (2)
+;[T];Cryptanalysis\ Modern\ DES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ SDES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ Triple DES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ SDES Analysis using Entropy
+;[T];Cryptanalysis\ Modern\ SDES Known-Plaintext Analysis
+
+Cramer-Shoup;C/T;
+;[C];Modern Ciphers\ Asymmetric\ Cramer-Shoup
+;[T];Cryptography\ Modern\ Asymmetric\ Cramer-Shoup with AES
+
+Cramer-Shoup Key Generator;C/T;
+;[C];Modern Ciphers\ Asymmetric\ Cramer-Shoup Key Generator
+;[T];Cryptography\ Modern\ Asymmetric\ Cramer-Shoup with AES
+
+AES;C/T/W;
+;[C];Modern Ciphers\ Symmetric\ AES
+;[T];Codes\ AES (CBC) with PKCS#5 and IV, output as QR Code
+;[T];Codes\ QR Code Encryption
+;[T];Cryptanalysis\ Modern\ AES Analysis using Entropy (1)
+;[T];Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (1)
+;[T];Cryptanalysis\ Modern\ CBC-Attack
+;[T];Cryptanalysis\ Modern\ AES Analysis using Entropy (2) – with changeable plaintext
+;[T];Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (2)
+;[T];Cryptanalysis\ Modern\ Padding Oracle Attack on AES
+;[T];Cryptography\ Modern\ Asymmetric\ Cramer-Shoup with AES
+;[T];Cryptography\ Modern\ Symmetric\ AES Cipher with SHA hashes
+;[T];Cryptography\ Modern\ Symmetric\ AES encryption with implicit conversion
+;[T];Cryptography\ Modern\ Symmetric\ AES Cipher (File Input)
+;[T];Cryptography\ Modern\ Symmetric\ AES with PKCS#5
+;[T];Cryptography\ Modern\ Symmetric\ AES (CBC) with PKCS#5 and IV
+;[T];Cryptography\ Modern\ Symmetric\ AES (ECB) with PKCS#5
+;[T];Cryptography\ Modern\ Symmetric\ AES Cipher (Text Input)
+;[T];Tools\ Simple Video and Audio Chat using AES encryption
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+;[T];Tools\ Simple AES Chat
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Symmetric Encryption/Decryption\ AES
+
+DES;C/T/W;
+;[C];Modern Ciphers\ Symmetric\ DES
+;[T];Cryptanalysis\ Modern\ DES Analysis using Entropy
+;[T];Cryptanalysis\ Modern\ DES Known-Plaintext Analysis
+;[T];Cryptanalysis\ Modern\ DES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ Triple DES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ Padding Oracle Attack on DES
+;[T];Cryptography\ Modern\ Symmetric\ Block Modes of Symmetric Ciphers
+;[T];Cryptography\ Modern\ Symmetric\ DES Cipher
+;[T];Cryptography\ Modern\ Symmetric\ DES Complementation Property
+;[T];Cryptography\ Modern\ Symmetric\ Triple DES Cipher
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Symmetric Encryption/Decryption\ DES
+
+3DES;C;
+;[C];Modern Ciphers\ Symmetric\ DES
+
+RC2;C/T/W;
+;[C];Modern Ciphers\ Symmetric\ RC2
+;[T];Cryptanalysis\ Modern\ DES Analysis using Entropy
+;[T];Cryptography\ Modern\ Symmetric\ RC2 Cipher
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Symmetric Encryption/Decryption\ RC2
+
+RC4;C/T;
+;[C];Modern Ciphers\ Symmetric\ RC4
+;[T];Cryptography\ Modern\ Symmetric\ RC4 Cipher
+
+SDES;C/T/W;
+;[C];Modern Ciphers\ Symmetric\ SDES
+;[T];Cryptanalysis\ Modern\ SDES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ SDES Analysis using Entropy
+;[T];Cryptanalysis\ Modern\ SDES Known-Plaintext Analysis
+;[T];Cryptography\ Modern\ Symmetric\ SDES Cipher
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Symmetric Encryption/Decryption\ SDES
+
+DCA KeyRecovery;C/T;
+;[C];Cryptanalysis\ Specific\ DCA KeyRecovery
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (tutorial mode)
+
+DCA Oracle;C/T;
+;[C];Cryptanalysis\ Specific\ DCA Oracle
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (tutorial mode)
+
+DCA PathFinder;C/T;
+;[C];Cryptanalysis\ Specific\ DCA PathFinder
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (tutorial mode)
+
+DCA PathVisualizer;C/T;
+;[C];Cryptanalysis\ Specific\ DCA PathVisualizer
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (tutorial mode)
+
+DCA ToyCipher;C/T;
+;[C];Cryptanalysis\ Specific\ DCA ToyCipher
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 1 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 2 (tutorial mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (automatic mode)
+;[T];Cryptanalysis\ Modern\ Differential Cryptanalysis Tutorial 3 (tutorial mode)
+
+Decimalization;C/T;
+;[C];Tools\ Misc\ Decimalization
+;[T];Mathematics\ Decimalization
+;[T];Tools\ Random Decimal Number
+
+DECODEClustererCaption;C;
+;[C];DECRYPT Project\ DECODEClustererCaption
+
+DECODE Decipherer;C;
+;[C];DECRYPT Project\ DECODE Decipherer
+
+DECODE Downloader;C/T;
+;[C];DECRYPT Project\ DECODE Downloader
+;[T];Tools\ Download documents from the DECODE database
+
+DecodeParserTesterCaption;C;
+;[C];DECRYPT Project\ DecodeParserTesterCaption
+
+DECODESymbolHeatmapCaption;C;
+;[C];DECRYPT Project\ DECODESymbolHeatmapCaption
+
+DECODE Viewer;C/T;
+;[C];Tools\ Data input/output\ DECODE Viewer
+;[T];Tools\ Download documents from the DECODE database
+
+DGK;C;
+;[C];Modern Ciphers\ Asymmetric\ DGK
+
+DGK Key Generator;C;
+;[C];Modern Ciphers\ Asymmetric\ DGK Key Generator
+
+Discrete Logarithm;C/T;
+;[C];Cryptanalysis\ Generic\ Discrete Logarithm
+;[T];Mathematics\ Discrete Logarithm
+
+Format Preserving Encryption (FPE);C;
+;[C];Modern Ciphers\ Symmetric\ Format Preserving Encryption (FPE)
+
+Grain v1;C/T;
+;[C];Modern Ciphers\ Symmetric\ Grain v1
+;[T];Cryptography\ Modern\ Symmetric\ Grain v1 Cipher
+
+Grøstl;C/T;
+;[C];Hash functions\ Grøstl
+;[T];Hash Functions\ Grøstl
+;[T];Hash Functions\ Password storage using salted Grøstl-256
+;[T];Hash Functions\ Password verification using salted Grøstl-256
+
+HC128;C/T;
+;[C];Modern Ciphers\ Symmetric\ HC128
+;[T];Cryptography\ Modern\ Symmetric\ HC128 Cipher
+
+Hill Cipher;C/T;
+;[C];Classic Ciphers\ Hill Cipher
+;[T];Cryptography\ Classical\ Hill Cipher
+
+HKDF SHA-256;C/T;
+;[C];Hash functions\ HKDF SHA-256
+;[T];Hash Functions\ KDF Performance Comparison (without presentation)
+;[T];Hash Functions\ KDF Performance Comparison (with presentation)
+
+Homophonic Substitution Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ Homophonic Substitution Analyzer
+;[T];Cryptanalysis\ Classical\ Homophonic Substitution Analysis
+;[T];Cryptanalysis\ Classical\ Zodiac-408 Analysis
+
+Huffman;C/T;
+;[C];Tools\ Misc\ Huffman
+;[T];Tools\ Huffman's algorithm (ASCII)
+;[T];Tools\ Huffman's algorithm (BMG, JPG)
+;[T];Tools\ Huffman's algorithm (UTF-8)
+
+ImageHash;C/T;
+;[C];Hash functions\ ImageHash
+;[T];Hash Functions\ ImageHash
+;[T];Hash Functions\ ImageHash -- smooth comparison
+
+ImageProcessor;C;
+;[C];Tools\ Misc\ ImageProcessor
+
+Keccak;C/T;
+;[C];Hash functions\ Keccak
+;[T];Cryptography\ Modern\ Symmetric\ Keccak Cipher
+;[T];Hash Functions\ Keccak Hash (SHA-3)
+;[T];Tools\ Keccak pseudorandom number generator (PRNG)
+
+KKDF SHA-256;C;
+;[C];Hash functions\ KKDF SHA-256
+
+KKDF SHAKE256;C;
+;[C];Hash functions\ KKDF SHAKE256
+
+Length;C/T;
+;[C];Tools\ Misc\ Length
+;[T];Hash Functions\ Dictionary Attack on a password hash value
+
+M209;C/T;
+;[C];Classic Ciphers\ M209
+;[T];Cryptography\ Classical\ M209 Cipher Machine
+;[T];Cryptography\ Classical\ M209 Key Setup
+
+MD5 Collider;C/T;
+;[C];Hash functions\ MD5 Collider
+;[T];Hash Functions\ MD5 Collision Finder
+
+Mickey 2;C/T;
+;[C];Modern Ciphers\ Symmetric\ Mickey 2
+;[T];Cryptography\ Modern\ Symmetric\ Mickey 2 Cipher
+
+Morse Code;C/T/W;
+;[C];Tools\ Misc\ Morse Code
+;[T];Codes\ Morse code
+;[W];Codes\ Morse Code
+
+Network Capture;C;
+;[C];Tools\ Data input/output\ Network Capture
+
+Network Receiver;C/T;
+;[C];Tools\ Data input/output\ Network Receiver
+;[T];Protocols\ Diffie-Hellman Key-Exchange over network
+;[T];Protocols\ Heartbleed Test
+;[T];Protocols\ HTTP Request
+;[T];Protocols\ Simple Webserver
+;[T];Protocols\ Simple Multi Client Communication
+;[T];Tools\ Simple Video and Audio Chat using AES encryption
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+;[T];Tools\ Simple AES Chat
+
+Network Sender;C/T;
+;[C];Tools\ Data input/output\ Network Sender
+;[T];Protocols\ Diffie-Hellman Key-Exchange over network
+;[T];Protocols\ Heartbleed Test
+;[T];Protocols\ Simple Multi Client Communication
+;[T];Tools\ Simple Video and Audio Chat using AES encryption
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+;[T];Tools\ Simple AES Chat
+
+Number Input;C;
+;[C];Tools\ Data input/output\ Number Input
+
+Number Operation;C;
+;[C];Tools\ Misc\ Number Operation
+
+Oblivious Transfer 1;C/T;
+;[C];Protocols\ Oblivious Transfer 1
+;[T];Protocols\ Oblivious Transfer Protocol (1 out of n)
+
+Oblivious Transfer 2;C/T;
+;[C];Protocols\ Oblivious Transfer 2
+;[T];Protocols\ Oblivious Transfer Protocol (1 out of n)
+
+Padding Oracle;C/T;
+;[C];Tools\ Misc\ Padding Oracle
+;[T];Cryptanalysis\ Modern\ Padding Oracle Attack on AES
+;[T];Cryptanalysis\ Modern\ Padding Oracle Attack on DES
+
+Padding Oracle Attack;C/T;
+;[C];Tools\ Misc\ Padding Oracle Attack
+;[T];Cryptanalysis\ Modern\ Padding Oracle Attack on AES
+;[T];Cryptanalysis\ Modern\ Padding Oracle Attack on DES
+
+Paillier;C/T;
+;[C];Modern Ciphers\ Asymmetric\ Paillier
+;[T];Cryptography\ Modern\ Asymmetric\ Blind Signature Paillier
+;[T];Cryptography\ Modern\ Asymmetric\ Blind Signature RSA
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Number Input)
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Addition
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Blinding
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Key Generator
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Text Input)
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Voting)
+
+Paillier Key Generator;C/T;
+;[C];Modern Ciphers\ Asymmetric\ Paillier Key Generator
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Number Input)
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Addition
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher with Blinding
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Key Generator
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Text Input)
+;[T];Cryptography\ Modern\ Asymmetric\ Paillier Cipher (Voting)
+
+Purple;C/T;
+;[C];Classic Ciphers\ Purple
+;[T];Cryptography\ Classical\ PURPLE Cipher Machine
+
+Quadratic Sieve;C/T;
+;[C];Cryptanalysis\ Generic\ Quadratic Sieve
+;[T];Mathematics\ Factorization with Quadratic Sieve (QS)
+
+Rabbit;C/T;
+;[C];Modern Ciphers\ Symmetric\ Rabbit
+;[T];Cryptography\ Modern\ Symmetric\ Rabbit Cipher
+
+Random Number Generator;C/T;
+;[C];Tools\ Misc\ Random Number Generator
+;[T];Tools\ Random number generators
+
+RSA;C/T/W;
+;[C];Modern Ciphers\ Asymmetric\ RSA
+;[T];Codes\ RSA signed QR code
+;[T];Cryptography\ Modern\ Asymmetric\ RSA Cipher
+;[T];Cryptography\ Modern\ Asymmetric\ RSA Decryption
+;[T];Cryptography\ Modern\ Asymmetric\ RSA Encryption
+;[T];Protocols\ Yao's Millionaire Problem Protocol
+;[W];Cryptanalysis\ Modern Encryption\ Asymmetric Encryption\ RSA
+
+RSA Key Generator;C/T;
+;[C];Modern Ciphers\ Asymmetric\ RSA Key Generator
+;[T];Codes\ RSA signed QR code
+;[T];Cryptography\ Modern\ Asymmetric\ RSA Cipher
+;[T];Cryptography\ Modern\ Asymmetric\ RSA Decryption
+;[T];Cryptography\ Modern\ Asymmetric\ RSA Encryption
+;[T];Cryptography\ Modern\ Asymmetric\ RSA Key Generator
+;[T];Protocols\ Oblivious Transfer Protocol (1 out of n)
+;[T];Protocols\ Yao's Millionaire Problem Protocol
+
+Salsa20;C/T;
+;[C];Modern Ciphers\ Symmetric\ Salsa20
+;[T];Cryptography\ Modern\ Symmetric\ Salsa20 Cipher
+
+SAT Solver;C/T;
+;[C];Tools\ Misc\ SAT Solver
+;[T];Mathematics\ SAT Solver (File Input)
+;[T];Mathematics\ SAT Solver (Text Input)
+
+Sosemanuk;C/T;
+;[C];Modern Ciphers\ Symmetric\ Sosemanuk
+;[T];Cryptography\ Modern\ Symmetric\ Sosemanuk Cipher
+
+Spanish Strip Cipher;C/T;
+;[C];Classic Ciphers\ Spanish Strip Cipher
+;[T];Cryptography\ Classical\ Spanish Strip Cipher
+
+Insertion Steganography;C/T;
+;[C];Steganography\ Insertion Steganography
+;[T];Steganography\ Steganography Insertion Decryption
+;[T];Steganography\ Steganography Insertion Encryption
+;[T];Steganography\ Steganography Permutation Encryption
+
+LSB Steganography;C/T;
+;[C];Steganography\ LSB Steganography
+;[T];Steganography\ Steganography Least Significant Bit Decryption
+;[T];Steganography\ Steganography Least Significant Bit Encryption
+;[T];Steganography\ Steganography Least Significant Bit Data Transfer
+
+Permutation Steganography;C/T;
+;[C];Steganography\ Permutation Steganography
+;[T];Steganography\ Steganography Permutation Decryption
+;[T];Steganography\ Steganography Permutation Image Transfer
+
+Lorenz SZ42;C;
+;[C];Classic Ciphers\ Lorenz SZ42
+
+T-310;C/T;
+;[C];Classic Ciphers\ T-310
+;[T];Cryptography\ Classical\ T-310/50 Cipher Machine
+;[T];Cryptography\ Classical\ T-310/51 Cipher Machine
+
+PasswordStrength;C/T;
+;[C];Tools\ Misc\ PasswordStrength
+;[T];Tools\ Check Password Strength
+
+Transcriptor;C/T;
+;[C];Cryptanalysis\ Generic\ Transcriptor
+;[T];Cryptanalysis\ Classical\ Transcriptor -- manual mode
+;[T];Cryptanalysis\ Classical\ Transcriptor -- semi-automatic mode
+
+Variable Load;C/T;
+;[C];Tools\ Data flow\ Variable Load
+;[T];Codes\ QR Code Encryption
+;[T];Protocols\ Diffie-Hellman Key-Exchange
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+
+Variable Store;C/T;
+;[C];Tools\ Data flow\ Variable Store
+;[T];Codes\ QR Code Encryption
+;[T];Protocols\ Diffie-Hellman Key-Exchange
+;[T];Tools\ Simple Video and Audio Chat using AES encryption
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+
+Vernam;C;
+;[C];Classic Ciphers\ Vernam
+
+Visual Decoder;C/T;
+;[C];Tools\ Misc\ Visual Decoder
+;[T];Codes\ AES (CBC) with PKCS#5 and IV, output as QR Code
+;[T];Codes\ Decode QR code file
+;[T];Codes\ QR Code Encryption
+;[T];Codes\ RSA signed QR code
+;[T];Codes\ Simple detection of optical codes
+
+Visual Encoder;C/T;
+;[C];Tools\ Misc\ Visual Encoder
+;[T];Codes\ AES (CBC) with PKCS#5 and IV, output as QR Code
+;[T];Codes\ Create QR Code
+;[T];Codes\ QR Code Encryption
+;[T];Codes\ RSA signed QR code
+;[T];Codes\ VCard
+
+Watermark Creator;C/T;
+;[C];Steganography\ Watermark Creator
+;[T];Steganography\ Watermark Creator -- invisible watermark
+;[T];Steganography\ Watermark Creator -- Robustness
+;[T];Steganography\ Watermark Creator -- visible watermark
+
+Camera;C/T;
+;[C];Tools\ Misc\ Camera
+;[T];Codes\ AES (CBC) with PKCS#5 and IV, output as QR Code
+;[T];Codes\ QR Code Encryption
+;[T];Codes\ Simple detection of optical codes
+;[T];Tools\ Simple Video and Audio Chat using AES encryption
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+;[T];Tools\ Take a Picture using the webcam
+
+Yao 1;C/T;
+;[C];Protocols\ Yao 1
+;[T];Protocols\ Yao's Millionaire Problem Protocol
+
+Yao 2;C/T;
+;[C];Protocols\ Yao 2
+;[T];Protocols\ Yao's Millionaire Problem Protocol
+
+Yao 3;C/T;
+;[C];Protocols\ Yao 3
+;[T];Protocols\ Yao's Millionaire Problem Protocol
+
+Zero Knowledge Prover;C/T;
+;[C];Protocols\ Zero Knowledge Prover
+;[T];Protocols\ Zero Knowledge Protocol
+
+Zero Knowledge Verifier;C/T;
+;[C];Protocols\ Zero Knowledge Verifier
+;[T];Protocols\ Zero Knowledge Protocol
+
+PRESENT;C/T;
+;[C];Modern Ciphers\ Symmetric\ PRESENT
+;[T];Cryptography\ Modern\ Symmetric\ PRESENT Cipher
+;[T];Tools\ Keccak pseudorandom number generator (PRNG)
+
+Prime Generator;C/T;
+;[C];Tools\ Data input/output\ Prime Generator
+;[T];Codes\ QR Code Encryption
+;[T];Mathematics\ Primes Generator
+;[T];Protocols\ Diffie-Hellman Key-Exchange over network
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+
+Cryptanalytic Process Executor;C;
+;[C];Tools\ Misc\ Cryptanalytic Process Executor
+
+Progress;C/T;
+;[C];Tools\ Misc\ Progress
+;[T];Hash Functions\ Dictionary Attack on a password hash value
+
+Scytale;C/T/W;
+;[C];Classic Ciphers\ Scytale
+;[T];Cryptanalysis\ Classical\ Scytale Brute-force Analysis
+;[T];Cryptography\ Classical\ Scytale Cipher
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ Scytale
+;[W];Cryptanalysis\ Classic Encryption\ Scytale
+
+Stream Comparator;C/T;
+;[C];Tools\ Misc\ Stream Comparator
+;[T];Codes\ RSA signed QR code
+;[T];Cryptography\ Modern\ Symmetric\ AES with PKCS#5
+;[T];Cryptography\ Modern\ Symmetric\ DES Complementation Property
+;[T];Hash Functions\ Dictionary Attack on a password hash value
+;[T];Hash Functions\ MD5 Collision Finder
+;[T];Hash Functions\ MD5 Salted Hash Comparison
+;[T];Protocols\ Coin Flipping Protocol
+
+Substitution;C/T/W;
+;[C];Classic Ciphers\ Substitution
+;[T];Cryptanalysis\ Classical\ Monoalphabetic Substitution Analyzer with arbitrary Ciphertext Alphabet
+;[T];Cryptography\ Classical\ Homophonic Substitution Cipher and Nomenclature -- Decryption
+;[T];Cryptography\ Classical\ Homophonic Substitution Cipher and Nomenclature -- Encryption
+;[T];Cryptography\ Classical\ Navajo Code
+;[T];Cryptography\ Classical\ Substitution Cipher
+;[T];Cryptography\ Classical\ Substitution Cipher using a password
+;[T];Tools\ Split a text
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ Substitution
+
+TEA;C/T/W;
+;[C];Modern Ciphers\ Symmetric\ TEA
+;[T];Cryptography\ Modern\ Symmetric\ TEA Cipher
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Symmetric Encryption/Decryption\ TEA
+
+Text Input;C;
+;[C];Tools\ Data input/output\ Text Input
+
+Trivium;C/T;
+;[C];Modern Ciphers\ Symmetric\ Trivium
+;[T];Cryptanalysis\ Modern\ Cube Attack on Trivium
+
+Vigenère;C/T/W;
+;[C];Classic Ciphers\ Vigenère
+;[T];Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers
+;[T];Cryptanalysis\ Classical\ Vigenère Analysis
+;[T];Cryptography\ Classical\ Vigenère Cipher
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ Vigenère
+;[W];Cryptanalysis\ Classic Encryption\ Vigenère
+
+Vigenère Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ Vigenère Analyzer
+;[T];Cryptanalysis\ Classical\ Kryptos K1 Analysis
+;[T];Cryptanalysis\ Classical\ Kryptos K2 Analysis
+
+WEP protocol;C/T;
+;[C];Protocols\ WEP protocol
+;[T];Protocols\ WEP Attack
+
+Attacks on the WEP protocol;C/T;
+;[C];Protocols\ Attacks on the WEP protocol
+;[T];Protocols\ WEP Attack
+
+XOR;C/T/W;
+;[C];Classic Ciphers\ XOR
+;[T];Cryptography\ Classical\ One-time Pad Demo
+;[T];Cryptography\ Classical\ One-time Pad Misusage
+;[T];Cryptography\ Classical\ XOR Cipher
+;[T];Cryptography\ Modern\ Symmetric\ DES Complementation Property
+;[T];Cryptography\ Modern\ Symmetric\ Keccak Cipher
+;[T];Hash Functions\ HMAC
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ XOR
+
+CSVReader;C;
+;[C];Tools\ Data flow\ CSVReader
+
+Dictionary;C/T;
+;[C];Tools\ Data input/output\ Dictionary
+;[T];Cryptanalysis\ Classical\ Caesar Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Scytale Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Solitaire Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Wordpattern Analysis
+;[T];Hash Functions\ Dictionary Attack on a password hash value
+
+Factorizer;C/T;
+;[C];Cryptanalysis\ Generic\ Factorizer
+;[T];Mathematics\ Factorization with Trial Division (brute-force)
+
+File Input;C/T;
+;[C];Tools\ Data input/output\ File Input
+;[T];Cryptanalysis\ Classical\ Wordpattern Analysis with self-defined dictionary
+;[T];Cryptography\ Modern\ Symmetric\ AES Cipher (File Input)
+;[T];Mathematics\ SAT Solver (File Input)
+;[T];Steganography\ Steganography Insertion Decryption
+;[T];Steganography\ Steganography Insertion Encryption
+;[T];Steganography\ Steganography Least Significant Bit Decryption
+;[T];Steganography\ Steganography Least Significant Bit Encryption
+;[T];Steganography\ Steganography Least Significant Bit Data Transfer
+;[T];Steganography\ Steganography Permutation Encryption
+;[T];Steganography\ Steganography Permutation Image Transfer
+
+File Output;C/T;
+;[C];Tools\ Data input/output\ File Output
+;[T];Steganography\ Steganography Insertion Encryption
+;[T];Steganography\ Steganography Least Significant Bit Encryption
+;[T];Steganography\ Steganography Permutation Encryption
+
+Friedman Test;C/T;
+;[C];Cryptanalysis\ Generic\ Friedman Test
+;[T];Cryptanalysis\ Classical\ Enigma Analyzer
+;[T];Cryptanalysis\ Classical\ Statistic Tests for Classical Ciphers
+
+Gate;C/T;
+;[C];Tools\ Data flow\ Gate
+;[T];Codes\ AES (CBC) with PKCS#5 and IV, output as QR Code
+;[T];Cryptanalysis\ Classical\ Caesar Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Scytale Brute-force Analysis
+;[T];Cryptography\ Modern\ Symmetric\ AES (CBC) with PKCS#5 and IV
+;[T];Cryptography\ Modern\ Symmetric\ AES (ECB) with PKCS#5
+;[T];Hash Functions\ Dictionary Attack on a password hash value
+;[T];Mathematics\ Factorization with Trial Division (brute-force)
+;[T];Mathematics\ Loop (1)
+;[T];Mathematics\ Next Smaller Prime Number
+;[T];Protocols\ WEP Attack
+
+HammingDistance;C/T;
+;[C];Tools\ Misc\ HammingDistance
+;[T];Hash Functions\ ImageHash
+;[T];Hash Functions\ ImageHash -- smooth comparison
+;[T];Mathematics\ Hamming Distance
+
+IDP Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ IDP Analyzer
+;[T];Cryptanalysis\ Classical\ Dictionary attack on the Double Columnar Transposition Cipher
+
+Inc Dec;C/T;
+;[C];Tools\ Misc\ Inc Dec
+;[T];Cryptanalysis\ Classical\ Caesar Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Scytale Brute-force Analysis
+;[T];Mathematics\ Loop (1)
+;[T];Protocols\ WEP Attack
+;[T];Protocols\ Yao's Millionaire Problem Protocol
+
+ISAP Bit Commitment Scheme;C/T;
+;[C];Protocols\ ISAP Bit Commitment Scheme
+;[T];Mathematics\ ISAP Bit Commitment Scheme
+
+KeySearcher;C/T;
+;[C];Cryptanalysis\ Specific\ KeySearcher
+;[T];Cryptanalysis\ Modern\ AES Analysis using Entropy (1)
+;[T];Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (1)
+;[T];Cryptanalysis\ Modern\ DES Analysis using Entropy
+;[T];Cryptanalysis\ Modern\ DES Known-Plaintext Analysis
+;[T];Cryptanalysis\ Modern\ AES Analysis using Entropy (2) – with changeable plaintext
+;[T];Cryptanalysis\ Modern\ AES Known-Plaintext Analysis (2)
+;[T];Cryptanalysis\ Modern\ DES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ SDES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ Triple DES Brute-force Analysis
+;[T];Cryptanalysis\ Modern\ SDES Analysis using Entropy
+;[T];Cryptanalysis\ Modern\ SDES Known-Plaintext Analysis
+
+Lattice-based cryptography;N;
+;[N];Crypto tutorials\ Lattice-based cryptography
+;[N];Crypto tutorials\ Lattice-based cryptography\ Lattice-based cryptography\ GGH
+;[N];Crypto tutorials\ Lattice-based cryptography\ Lattice-based cryptography\ LWE
+
+Lattice-based cryptanalysis;N;
+;[N];Crypto tutorials\ Lattice-based cryptography\ Lattice-based cryptanalysis\ Merkle-Hellman Knapsack
+;[N];Crypto tutorials\ Lattice-based cryptography\ Lattice-based cryptanalysis\ RSA (Coppersmith's attack)
+
+Lattice-based problems;N;
+;[N];Crypto tutorials\ Lattice-based cryptography\ Shortest Vector Problem (SVP)\ Gauss algorithm
+;[N];Crypto tutorials\ Lattice-based cryptography\ Shortest Vector Problem (SVP)\ LLL algorithm
+;[N];Crypto tutorials\ Lattice-based cryptography\ Closest Vector Problem (CVP)\ Find closest vector
+
+Nihilist;C/T;
+;[C];Classic Ciphers\ Nihilist
+;[T];Cryptography\ Classical\ Nihilist Cipher
+
+Picture Output;C/T;
+;[C];Tools\ Data input/output\ Picture Output
+;[T];Cryptography\ Classical\ One-time Pad Misusage
+;[T];Cryptography\ Modern\ Symmetric\ Block Modes of Symmetric Ciphers
+;[T];Tools\ Simple Video and Audio Chat using AES encryption
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+;[T];Tools\ Take a Picture using the webcam
+
+Attack on PKCS#1;N;
+;[N];Crypto tutorials\ Attack on PKCS#1
+;[N];Crypto tutorials\ Attack on PKCS#1\ Attack on PKCS#1\ Bleichenbacher attack
+;[N];Crypto tutorials\ Attack on PKCS#1\ Attack on PKCS#1\ Attack with shorter keys (Kuehn)
+
+PKCS#5;C/T;
+;[C];Hash functions\ PKCS#5
+;[T];Codes\ AES (CBC) with PKCS#5 and IV, output as QR Code
+;[T];Codes\ QR Code Encryption
+;[T];Cryptography\ Modern\ Symmetric\ AES with PKCS#5
+;[T];Cryptography\ Modern\ Symmetric\ AES (CBC) with PKCS#5 and IV
+;[T];Cryptography\ Modern\ Symmetric\ AES (ECB) with PKCS#5
+;[T];Tools\ Simple Video and Audio Chat using AES encryption
+;[T];Tools\ Diffie-Hellman AES Video Audio Chat
+
+World of Primes;N;
+;[N];Crypto tutorials\ World of Primes
+
+Factorization of a number;N;
+;[N];Crypto tutorials\ World of Primes\ Factorization\ Brute-force
+;[N];Crypto tutorials\ World of Primes\ Factorization\ Quadratic Sieve
+
+Primality test;N;
+;[N];Crypto tutorials\ World of Primes\ Primality test\ Sieve of Eratosthenes
+;[N];Crypto tutorials\ World of Primes\ Primality test\ Miller-Rabin test
+;[N];Crypto tutorials\ World of Primes\ Primality test\ Sieve of Atkin
+
+Generation of primes;N;
+;[N];Crypto tutorials\ World of Primes\ Generation of primes\ Generation of primes
+
+Distribution of primes;N;
+;[N];Crypto tutorials\ World of Primes\ Distribution of primes\ Number line
+;[N];Crypto tutorials\ World of Primes\ Distribution of primes\ Number grid
+;[N];Crypto tutorials\ World of Primes\ Distribution of primes\ Number of primes
+;[N];Crypto tutorials\ World of Primes\ Distribution of primes\ Ulam's spiral
+
+Number theory;N;
+;[N];Crypto tutorials\ World of Primes\ Number theory\ Powering
+;[N];Crypto tutorials\ World of Primes\ Number theory\ Number-theoretic functions
+;[N];Crypto tutorials\ World of Primes\ Number theory\ Primitive roots
+;[N];Crypto tutorials\ World of Primes\ Number theory\ Goldbach's conjecture
+
+Prime Test;C/T;
+;[C];Cryptanalysis\ Generic\ Prime Test
+;[T];Mathematics\ Next Smaller Prime Number
+;[T];Mathematics\ Primes Test
+
+RIPEMD160;C/T;
+;[C];Hash functions\ RIPEMD160
+;[T];Hash Functions\ RIPEMD160
+
+SHA;C/T;
+;[C];Hash functions\ SHA
+;[T];Cryptography\ Modern\ Symmetric\ AES Cipher with SHA hashes
+;[T];Hash Functions\ Dictionary Attack on a password hash value
+;[T];Hash Functions\ PBKDF-1 (PKCS#5 2.0)
+;[T];Hash Functions\ SHA-1 Collision
+;[T];Hash Functions\ SHA-1
+;[T];Hash Functions\ SHA-256
+;[T];Protocols\ Coin Flipping Protocol
+;[T];Tools\ Simple AES Chat
+
+SHA-1;C;
+;[C];Hash functions\ SHA
+
+SHA-256;C;
+;[C];Hash functions\ SHA
+
+SHA-384;C;
+;[C];Hash functions\ SHA
+
+SHA-512;C;
+;[C];Hash functions\ SHA
+
+Smartcard;C/T;
+;[C];Protocols\ Smartcard
+;[T];Protocols\ Communication with a SmartCard
+
+Smartcard Interpreter;C/T;
+;[C];Protocols\ Smartcard Interpreter
+;[T];Protocols\ Communication with a SmartCard
+
+Solitaire;C/T;
+;[C];Classic Ciphers\ Solitaire
+;[T];Cryptography\ Classical\ Solitaire Cipher
+
+Solitaire Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ Solitaire Analyzer
+;[T];Cryptanalysis\ Classical\ Solitaire Brute-force Analysis
+
+Splitter;C;
+;[C];Tools\ Data flow\ Splitter
+
+String Operations;C/T;
+;[C];Tools\ Misc\ String Operations
+;[T];Mathematics\ Levenshtein Distance
+
+Text Output;C/T;
+;[C];Tools\ Data input/output\ Text Output
+;[T];Cryptanalysis\ Classical\ Transcriptor -- manual mode
+;[T];Cryptanalysis\ Classical\ Transcriptor -- semi-automatic mode
+
+Tiger;C/T;
+;[C];Hash functions\ Tiger
+;[T];Hash Functions\ Tiger
+
+Transposition;C/T/W;
+;[C];Classic Ciphers\ Transposition
+;[T];Cryptanalysis\ Classical\ Transposition Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Crib Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Genetic Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Hill Climbing Analysis
+;[T];Cryptography\ Classical\ Transposition Cipher
+;[W];Encryption/Decryption\ Classic Encryption/Decryption\ Transposition
+
+Transposition Analyzer;C/T;
+;[C];Cryptanalysis\ Specific\ Transposition Analyzer
+;[T];Cryptanalysis\ Classical\ Dictionary attack on the Double Columnar Transposition Cipher
+;[T];Cryptanalysis\ Classical\ Transposition Brute-force Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Crib Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Genetic Analysis
+;[T];Cryptanalysis\ Classical\ Transposition Hill Climbing Analysis
+
+Twofish;C/T/W;
+;[C];Modern Ciphers\ Symmetric\ Twofish
+;[T];Cryptography\ Modern\ Symmetric\ Twofish Cipher
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Symmetric Encryption/Decryption\ Twofish
+
+Whirlpool;C/T;
+;[C];Hash functions\ Whirlpool
+;[T];Hash Functions\ Whirlpool
+
+Word Patterns;C/T;
+;[C];Cryptanalysis\ Generic\ Word Patterns
+;[T];Cryptanalysis\ Classical\ Wordpattern Analysis
+;[T];Cryptanalysis\ Classical\ Wordpattern Analysis with self-defined dictionary
+
+RSA Encryption;W;
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Asymmetric Encryption/Decryption\ RSA\ RSA Encryption
+
+RSA Decryption;W;
+;[W];Encryption/Decryption\ Modern Encryption/Decryption\ Asymmetric Encryption/Decryption\ RSA\ RSA Decryption
+
+Monoalphabetic Substitution;W;
+;[W];Cryptanalysis\ Classic Encryption\ Monoalphabetic Substitution
+
+Brute-force;W;
+;[W];Cryptanalysis\ Classic Encryption\ Transposition\ Brute-force
+
+Genetic;W;
+;[W];Cryptanalysis\ Classic Encryption\ Transposition\ Genetic
+
+Crib;W;
+;[W];Cryptanalysis\ Classic Encryption\ Transposition\ Crib
+
+Ciphertext-only;W;
+;[W];Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ AES\ Ciphertext-only
+;[W];Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ DES\ Ciphertext-only
+;[W];Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ SDES\ Ciphertext-only
+
+Known plaintext;W;
+;[W];Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ AES\ Known plaintext
+;[W];Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ DES\ Known plaintext
+;[W];Cryptanalysis\ Modern Encryption\ Symmetric Encryption\ SDES\ Known plaintext
+
+Prime Factorization;W;
+;[W];Mathematical Functions\ Prime Factorization
+
+Prime Number Generation;W;
+;[W];Mathematical Functions\ Prime Operations\ Prime Number Generation
+
+Encoding;W;
+;[W];Codes\ Encoding
+
+Create visual code;W;
+;[W];Codes\ Create visual code
+
+Decode visual code;W;
+;[W];Codes\ Decode visual code
+
+Encrypt with password;W;
+;[W];Tools\ Encrypt with password
+
+Password Strength;W;
+;[W];Tools\ Password Strength
+
+Heartbleed analysis;W;
+;[W];Tools\ Heartbleed analysis
+
+Random numbers;W;
+;[W];Tools\ Random numbers
+

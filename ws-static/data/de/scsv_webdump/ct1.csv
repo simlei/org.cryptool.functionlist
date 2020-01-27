@@ -1,146 +1,148 @@
-CT1:de:static:1;ADFGX / ADFGVX;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ ADFGVX…;1) Klassische Chiffren
-CT1:de:static:2;Atbash;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Substitution \ Atbash…;1) Klassische Chiffren
-CT1:de:static:3;Byteweise Addition;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Byteweise Addition…;1) Klassische Chiffren
-CT1:de:static:4;Caesar;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Caesar \ Rot-13…;1) Klassische Chiffren
-CT1:de:static:5;Gartenzaun;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Skytale \ Gartenzaun…;1) Klassische Chiffren
-CT1:de:static:6;Hill-Chiffre;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Hill…;1) Klassische Chiffren
-CT1:de:static:7;Homophone Substitutionschiffre;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Homophone…;1) Klassische Chiffren
-CT1:de:static:8;Playfair-Chiffre;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Playfair…;1) Klassische Chiffren
-CT1:de:static:9;Rot-13;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Caesar \ Rot-13…;1) Klassische Chiffren
-CT1:de:static:10;Skytale;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Skytale \ Gartenzaun…;1) Klassische Chiffren
-CT1:de:static:11;Solitaire;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Solitaire…;1) Klassische Chiffren
-CT1:de:static:12;Substitution;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Substitution \ Atbash…;1) Klassische Chiffren
-CT1:de:static:13;Transposition (einfache und doppelte Spalten);X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Permutation \ Transposition…;1) Klassische Chiffren
-CT1:de:static:14;Transposition (einfache und doppelte Spalten);X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Permutation \ Transposition…;1) Klassische Chiffren
-CT1:de:static:15;Vernam;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Vernam \ OTP…;1) Klassische Chiffren
-CT1:de:static:16;Vigenère-Chiffre;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ Vigenère…;1) Klassische Chiffren
-CT1:de:static:17;XOR;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (klassisch) \ XOR…;1) Klassische Chiffren
-CT1:de:static:18;Triple DES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Triple DES…;2) Moderne Chiffren
-CT1:de:static:19;AES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Rijndael (AES)…;2) Moderne Chiffren
-CT1:de:static:20;AES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ AES (selbstextrahierend)…;2) Moderne Chiffren
-CT1:de:static:21;DES;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ DES…;2) Moderne Chiffren
-CT1:de:static:22;DESL;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Weitere Algorithmen \ DESL…;2) Moderne Chiffren
-CT1:de:static:23;DESX;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Weitere Algorithmen \ DESX…;2) Moderne Chiffren
-CT1:de:static:24;DESXL;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Weitere Algorithmen \ DESXL…;2) Moderne Chiffren
-CT1:de:static:25;ECC-AES;X;CT1:X \ Ver- \ Entschlüsseln \ Hybrid \ RSA-ECC;2) Moderne Chiffren
-CT1:de:static:26;IDEA;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ IDEA…;2) Moderne Chiffren
-CT1:de:static:27;MARS;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Weitere Algorithmen \ MARS…;2) Moderne Chiffren
-CT1:de:static:28;RC2;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ RC2…;2) Moderne Chiffren
-CT1:de:static:29;RC4;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ RC4…;2) Moderne Chiffren
-CT1:de:static:30;RC6;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Weitere Algorithmen \ RC6…;2) Moderne Chiffren
-CT1:de:static:31;RSA;X;CT1:X \ Ver- \ Entschlüsseln \ Asymmetrisch \ RSA;2) Moderne Chiffren
-CT1:de:static:32;RSA;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem;2) Moderne Chiffren
-CT1:de:static:33;RSA-AES;X;CT1:X \ Ver- \ Entschlüsseln \ Hybrid \ RSA-AES;2) Moderne Chiffren
-CT1:de:static:34;Serpent;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Weitere Algorithmen \ Serpent…;2) Moderne Chiffren
-CT1:de:static:35;Twofish;X;CT1:X \ Ver- \ Entschlüsseln \ Symmetrisch (modern) \ Weitere Algorithmen \ Twofish…;2) Moderne Chiffren
-CT1:de:static:36;Hashwert einer Datei;X;CT1:X \ Einzelverfahren \ Hashverfahren \ Hashwert einer Datei…;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:37;HMAC;X;CT1:X \ Einzelverfahren \ Hashverfahren \ Generieren von HMACs…;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:38;MD2;X;CT1:X \ Einzelverfahren \ Hashverfahren \ MD2;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:39;MD4;X;CT1:X \ Einzelverfahren \ Hashverfahren \ MD4;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:40;MD5;X;CT1:X \ Einzelverfahren \ Hashverfahren \ MD5;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:41;RIPEMD-160;X;CT1:X \ Einzelverfahren \ Hashverfahren \ RIPEMD-160;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:42;Schlüssel aus Passwort generieren (PKCS #5);X;CT1:X \ Einzelverfahren \ Hashverfahren \ Schlüssel aus Passwort generieren (PKCS #5)…;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:43;SHA;X;CT1:X \ Einzelverfahren \ Hashverfahren \ SHA-1;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:44;SHA;X;CT1:X \ Einzelverfahren \ Hashverfahren \ SHA-256;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:45;SHA;X;CT1:X \ Einzelverfahren \ Hashverfahren \ SHA-512;3) Hashverfahren und Authentifizierungscodes
-CT1:de:static:46;DSA;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ DSA;4) Digitale Signatur, PKI
-CT1:de:static:47;ECDSA;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ ECSP-DSA;4) Digitale Signatur, PKI
-CT1:de:static:48;ECNR;X;CT1:X \ Digitale Signaturen \ PKI \ Dokument signieren… \ ECSP-NR;4) Digitale Signatur, PKI
-CT1:de:static:49;Schlüssel anzeigen/exportieren;X;CT1:X \ Digitale Signaturen \ PKI \ Schlüssel anzeigen \ exportieren…;4) Digitale Signatur, PKI
-CT1:de:static:50;Schlüssel erzeugen/importieren;X;CT1:X \ Digitale Signaturen \ PKI \ Schlüssel erzeugen \ importieren…;4) Digitale Signatur, PKI
-CT1:de:static:51;Signatur verifizieren;X;CT1:X \ Digitale Signaturen \ PKI \ Signatur überprüfen…;4) Digitale Signatur, PKI
-CT1:de:static:52;Signatur extrahieren;X;CT1:X \ Digitale Signaturen \ PKI \ Signatur extrahieren…;4) Digitale Signatur, PKI
-CT1:de:static:53;Inverser Kongruenz-Generator (IKG) (PRNG);X;CT1:X \ Einzelverfahren \ Tools \ Zufallsdaten erzeugen…;5) Zufallszahlen-Generatoren
-CT1:de:static:54;Linearer Kongruenz-Generator (LKG) (PRNG);X;CT1:X \ Einzelverfahren \ Tools \ Zufallsdaten erzeugen…;5) Zufallszahlen-Generatoren
-CT1:de:static:55;X^2 (mod N) Zufallsgenerator (PRNG);X;CT1:X \ Einzelverfahren \ Tools \ Zufallsdaten erzeugen…;5) Zufallszahlen-Generatoren
-CT1:de:static:56;Zufallsgenerator der Secude-Bibliothek;X;CT1:X \ Einzelverfahren \ Tools \ Zufallsdaten erzeugen…;5) Zufallszahlen-Generatoren
-CT1:de:static:57;ADFGVX-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ ADFGVX…;6) Klassische Kryptoanalyse
-CT1:de:static:58;Autokorrelation;X;CT1:X \ Werkzeuge zur Analyse \ Autokorrelation;6) Klassische Kryptoanalyse
-CT1:de:static:59;Byteweise Addition-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ Byteweise Addition;6) Klassische Kryptoanalyse
-CT1:de:static:60;Caesar-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ Caesar;6) Klassische Kryptoanalyse
-CT1:de:static:61;Entropie;X;CT1:X \ Werkzeuge zur Analyse \ Entropie;6) Klassische Kryptoanalyse
-CT1:de:static:62;Häufigkeitsanalyse;X;CT1:X \ Analyse \ Zufallsanalyse \ Frequency-Test…;6) Klassische Kryptoanalyse
-CT1:de:static:63;Häufigkeitsanalyse;X;CT1:X \ Analyse \ Werkzeuge zur Analyse \ Gleitende Häufigkeit;6) Klassische Kryptoanalyse
-CT1:de:static:64;Hill-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Known Plaintext \ Hill…;6) Klassische Kryptoanalyse
-CT1:de:static:65;Histogramm;X;CT1:X \ Analyse \ Werkzeuge zur Analyse \ Histogramm;6) Klassische Kryptoanalyse
-CT1:de:static:66;N-Gramm-Analyse;X;CT1:X \ Analyse \ Werkzeuge zur Analyse \ N-Gramm…;6) Klassische Kryptoanalyse
-CT1:de:static:67;Periodizitäts-Analyse;X;CT1:X \ Analyse \ Werkzeuge zur Analyse \ Periode;6) Klassische Kryptoanalyse
-CT1:de:static:68;Playfair-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Manuelle Analyse \ Playfair…;6) Klassische Kryptoanalyse
-CT1:de:static:69;Runs-Test;X;CT1:X \ Analyse \ Zufallsanalyse \ Runs-Test…;6) Klassische Kryptoanalyse
-CT1:de:static:70;Solitaire-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Manuelle Analyse \ Solitaire…;6) Klassische Kryptoanalyse
-CT1:de:static:71;Solitaire-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-only \ Solitaire…;6) Klassische Kryptoanalyse
-CT1:de:static:72;Substitutions-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Manuelle Analyse \ Substitution…;6) Klassische Kryptoanalyse
-CT1:de:static:73;Substitutions-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-only \ Substitution…;6) Klassische Kryptoanalyse
-CT1:de:static:74;Transpositions-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Known Plaintext \ Einstufige Spaltentransposition…;6) Klassische Kryptoanalyse
-CT1:de:static:75;Vernam-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ XOR \ Vernam;6) Klassische Kryptoanalyse
-CT1:de:static:76;Vigenère-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ Vigenère;6) Klassische Kryptoanalyse
-CT1:de:static:77;Vigenère-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (klassisch) \ Ciphertext-Only \ Vigenère (Analyse nach Schrödel)…;6) Klassische Kryptoanalyse
-CT1:de:static:78;3DES-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Triple DES…;7) Moderne Kryptoanalyse
-CT1:de:static:79;AES-Analyse;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Rijndael (AES)…;7) Moderne Kryptoanalyse
-CT1:de:static:80;DES-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ DES…;7) Moderne Kryptoanalyse
-CT1:de:static:81;DESL-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESL…;7) Moderne Kryptoanalyse
-CT1:de:static:82;DESX-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESX…;7) Moderne Kryptoanalyse
-CT1:de:static:83;DESXL-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ DESXL…;7) Moderne Kryptoanalyse
-CT1:de:static:84;PRNG-Test;X;CT1:X \ Analyse \ Zufallsanalyse \ FIPS PUB-140-1 Testbatterie;7) Moderne Kryptoanalyse
-CT1:de:static:85;Hash-Kollisionen;X;CT1:X \ Analyse \ Hashverfahren \ Angriff auf den Hashwert der digitalen Signatur…;7) Moderne Kryptoanalyse
-CT1:de:static:86;IDEA-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ IDEA…;7) Moderne Kryptoanalyse
-CT1:de:static:87;MARS-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ MARS…;7) Moderne Kryptoanalyse
-CT1:de:static:88;Poker-Test;X;CT1:X \ Analyse \ Zufallsanalyse \ Poker-Test…;7) Moderne Kryptoanalyse
-CT1:de:static:89;RC2-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ RC2…;7) Moderne Kryptoanalyse
-CT1:de:static:90;RC4-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ RC4…;7) Moderne Kryptoanalyse
-CT1:de:static:91;RC6-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ RC6…;7) Moderne Kryptoanalyse
-CT1:de:static:92;RSA-Angriff;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Gitterbasierte Angriffe auf RSA \ ;7) Moderne Kryptoanalyse
-CT1:de:static:93;RSA-Angriff;X;CT1:X \ Analyse \ Asymmetrische Verfahren \ Gitterbasierte Angriffe auf RSA \ ;7) Moderne Kryptoanalyse
-CT1:de:static:94;RSA-Angriff;X;"CT1:X \ Analyse \ Asymmetrische Verfahren \ Seitenkanalangriff auf ""Textbook-RSA""…";7) Moderne Kryptoanalyse
-CT1:de:static:95;Serial-Test;X;CT1:X \ Analyse \ Zufallsanalyse \ Serial-Test…;7) Moderne Kryptoanalyse
-CT1:de:static:96;Serpent-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ Serpent…;7) Moderne Kryptoanalyse
-CT1:de:static:97;Twofish-Angriff;X;CT1:X \ Analyse \ Symmetrische Verschlüsselung (modern) \ Weitere Algorithmen \ Twofish…;7) Moderne Kryptoanalyse
-CT1:de:static:98;Vitányi-Analyse;X;CT1:X \ Analyse \ Zufallsanalyse \ Vitányi;7) Moderne Kryptoanalyse
-CT1:de:static:99;ASN.1;X;CT1:X \ Einzelverfahren \ Tools \ Codierungen \ ASN.1-Decodieren eines Dokuments;9) Kodierungen
-CT1:de:static:100;Base 64;X;CT1:X \ Einzelverfahren \ Tools \ Codierungen \ Base64-Codierung \ Decodierung \ Base64 decodieren;9) Kodierungen
-CT1:de:static:101;Base 64;X;CT1:X \ Einzelverfahren \ Tools \ Codierungen \ Base64-Codierung \ Decodierung \ Base64 codieren;9) Kodierungen
-CT1:de:static:102;Zip/Unzip;X;CT1:X \ Einzelverfahren \ Tools \ Codierungen \ Komprimieren \ UnZip;9) Kodierungen
-CT1:de:static:103;UU decodieren/encodieren;X;CT1:X \ Einzelverfahren \ Tools \ Codierungen \ UU-Codierung \ Decodierung \ UU decodieren;9) Kodierungen
-CT1:de:static:104;UU decodieren/encodieren;X;CT1:X \ Einzelverfahren \ Tools \ Codierungen \ UU-Codierung \ Decodierung \ UU codieren;9) Kodierungen
-CT1:de:static:105;Zip/Unzip;X;CT1:X \ Einzelverfahren \ Tools \ Codierungen \ Komprimieren \ Zip;9) Kodierungen
-CT1:de:static:106;AES-Visualisierung;X;CT1:X \ Einzelverfahren \ Visualisierung von Algorithmen \ AES…;10) Lernhilfen und Visualisierungen
-CT1:de:static:107;Authentifizierungsverfahren im Netz - Visualisierung;X;CT1:X \ Einzelverfahren \ Protokolle \ Authentifizierungsverfahren im Netz…;10) Lernhilfen und Visualisierungen
-CT1:de:static:108;Caesar-Visualisierung;X;CT1:X \ Einzelverfahren \ Visualisierung von Algorithmen \ Caesar…;10) Lernhilfen und Visualisierungen
-CT1:de:static:109;Chinesischer Restsatz - Visualisierung;X;CT1:X \ Einzelverfahren \ Anwendungen des Chinesischen Restsatzes \ ;10) Lernhilfen und Visualisierungen
-CT1:de:static:110;DES-Visualisierung;X;CT1:X \ Einzelverfahren \ Visualisierung von Algorithmen \ DES…;10) Lernhilfen und Visualisierungen
-CT1:de:static:111;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy) - Visualisierung;X;CT1:X \ Einzelverfahren \ Protokolle \ Diffie-Hellman-Demo…;10) Lernhilfen und Visualisierungen
-CT1:de:static:112;Digitale Signatur - Visualisierung;X;CT1:X \ Digitale Signaturen \ PKI \ Signaturdemo (Signaturerzeugung)…;10) Lernhilfen und Visualisierungen
-CT1:de:static:113;Digitale Signatur - Visualisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Signaturdemo (Signaturerzeugung)…;10) Lernhilfen und Visualisierungen
-CT1:de:static:114;Elliptische Kurvenberechnung - Visualisierung;X;CT1:X \ Einzelverfahren \ Zahlentheorie interaktiv \ Punktaddition auf Elliptischen Kurven…;10) Lernhilfen und Visualisierungen
-CT1:de:static:115;Enigma-Visualisierung;X;CT1:X \ Einzelverfahren \ Visualisierung von Algorithmen \ Enigma…;10) Lernhilfen und Visualisierungen
-CT1:de:static:116;Hash-Algorithmen - Visualisierung;X;CT1:X \ Einzelverfahren \ Hashverfahren \ Hashwert einer Datei…;10) Lernhilfen und Visualisierungen
-CT1:de:static:117;Nihilist-Visualisierung;X;CT1:X \ Einzelverfahren \ Visualisierung von Algorithmen \ Nihilist…;10) Lernhilfen und Visualisierungen
-CT1:de:static:118;Passwortqualität-Visualisierung;X;CT1:X \ Einzelverfahren \ Tools \ Passwort-Qualitätsmesser…;10) Lernhilfen und Visualisierungen
-CT1:de:static:119;Passwortqualität-Visualisierung;X;CT1:X \ Einzelverfahren \ Tools \ Passwort-Entropie…;10) Lernhilfen und Visualisierungen
-CT1:de:static:120;RSA-Visualisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ ;10) Lernhilfen und Visualisierungen
-CT1:de:static:121;Shamir's Secret Sharing - Visualisierung;X;CT1:X \ Einzelverfahren \ Secret-Sharing-Demo (nach Shamir)…;10) Lernhilfen und Visualisierungen
-CT1:de:static:122;Sichere E-Mail (S/MIME) - Visualisierung;X;CT1:X \ Einzelverfahren \ Protokolle \ Sichere E-Mail mit S \ MIME…;10) Lernhilfen und Visualisierungen
-CT1:de:static:123;Vigenère-Visualisierung;X;CT1:X \ Einzelverfahren \ Visualisierung von Algorithmen \ Vigenère…;10) Lernhilfen und Visualisierungen
-CT1:de:static:124;Zahlentheorie;X;CT1:X \ Einzelverfahren \ Zahlentheorie interaktiv \ ;10) Lernhilfen und Visualisierungen
-CT1:de:static:125;Zufall-Visualisierung;X;CT1:X \ Analyse \ Zufallsanalyse \ 3D-Visualisierung…;10) Lernhilfen und Visualisierungen
-CT1:de:static:126;Zahlenhai;X;CT1:X \ Einzelverfahren \ Lernspiele \ Der Zahlenhai;11) Spiele
-CT1:de:static:127;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Brute-Force;12) Primzahlen
-CT1:de:static:128;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Brent;12) Primzahlen
-CT1:de:static:129;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Pollard;12) Primzahlen
-CT1:de:static:130;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Williams;12) Primzahlen
-CT1:de:static:131;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Lenstra;12) Primzahlen
-CT1:de:static:132;Faktorisierung;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Quadratisches Sieb;12) Primzahlen
-CT1:de:static:133;Generierung von Primzahlen;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahlen generieren… \ Miller-Rabin-Test;12) Primzahlen
-CT1:de:static:134;Generierung von Primzahlen;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Solovay-Strassen-Test;12) Primzahlen
-CT1:de:static:135;Generierung von Primzahlen;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl… \ Fermat-Test;12) Primzahlen
-CT1:de:static:136;Primzahl-Test;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahltest… \ Miller-Rabin-Test;12) Primzahlen
-CT1:de:static:137;Primzahl-Test;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahltest… \ Fermat-Test;12) Primzahlen
-CT1:de:static:138;Primzahl-Test;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahltest… \ Solovay-Strassen-Test;12) Primzahlen
-CT1:de:static:139;Primzahl-Test;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahltest… \ AKS-Test (deterministisches Verfahren);12) Primzahlen
-CT1:de:static:140;Primzahl-Tutorial;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahltest…;12) Primzahlen
-CT1:de:static:141;Primzahl-Tutorial;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Primzahlen generieren...;12) Primzahlen
-CT1:de:static:142;Primzahl-Tutorial;X;CT1:X \ Einzelverfahren \ RSA-Kryptosystem \ Faktorisieren einer Zahl…;12) Primzahlen
-CT1:de:static:143;Authentifizierungsverfahren im Netz - Visualisierung;X;CT1:X \ Einzelverfahren \ Protokolle \ Authentifizierungsverfahren im Netz…;13) Protokolle
-CT1:de:static:144;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy) - Visualisierung;X;CT1:X \ Einzelverfahren \ Protokolle \ Diffie-Hellman-Demo…;13) Protokolle
-CT1:de:static:145;Shamir's Secret Sharing - Visualisierung;X;CT1:X \ Einzelverfahren \ Secret-Sharing-Demo (nach Shamir)…;13) Protokolle
-CT1:de:static:146;Sichere E-Mail (S/MIME) - Visualisierung;X;CT1:X \ Einzelverfahren \ Protokolle \ Sichere E-Mail mit S \ MIME…;13) Protokolle
+CT1:de:static:1;ADFGX / ADFGVX;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ ADFGVX...;1) Klassische Chiffren
+CT1:de:static:5;Atbash;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Substitution / Atbash...;1) Klassische Chiffren
+CT1:de:static:9;Byteweise Addition;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Byteweise Addition...;1) Klassische Chiffren
+CT1:de:static:10;Caesar;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Caesar / Rot-13...;1) Klassische Chiffren
+CT1:de:static:16;Gartenzaun;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Skytale / Gartenzaun...;1) Klassische Chiffren
+CT1:de:static:18;Hill-Chiffre;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Hill...;1) Klassische Chiffren
+CT1:de:static:19;Homophone Substitutionschiffre;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Homophone...;1) Klassische Chiffren
+CT1:de:static:27;Playfair-Chiffre;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Playfair...;1) Klassische Chiffren
+CT1:de:static:32;Rot-13;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Caesar / Rot-13...;1) Klassische Chiffren
+CT1:de:static:34;Skytale;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Skytale / Gartenzaun...;1) Klassische Chiffren
+CT1:de:static:35;Solitaire;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Solitaire...;1) Klassische Chiffren
+CT1:de:static:37;Substitution;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Substitution / Atbash...;1) Klassische Chiffren
+CT1:de:static:40;Transposition (einfache und doppelte Spalten);CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Permutation / Transposition...;1) Klassische Chiffren
+CT1:de:static:41;Transposition (einfache und doppelte Spalten);CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Permutation / Transposition...;1) Klassische Chiffren
+CT1:de:static:43;Vernam;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Vernam / OTP...;1) Klassische Chiffren
+CT1:de:static:44;Vigenère-Chiffre;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ Vigenère...;1) Klassische Chiffren
+CT1:de:static:45;XOR;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (klassisch)\ XOR...;1) Klassische Chiffren
+CT1:de:static:47;Triple DES;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ Triple DES...;2) Moderne Chiffren
+CT1:de:static:49;AES;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ AES (CBC)...;2) Moderne Chiffren
+CT1:de:static:50;AES;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ AES (selbstextrahierend)...;2) Moderne Chiffren
+CT1:de:static:52;DES;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ DES...;2) Moderne Chiffren
+CT1:de:static:53;DESL;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ Weitere Algorithmen\ DESL...;2) Moderne Chiffren
+CT1:de:static:54;DESX;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ Weitere Algorithmen\ DESX...;2) Moderne Chiffren
+CT1:de:static:55;DESXL;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ Weitere Algorithmen\ DESXL...;2) Moderne Chiffren
+CT1:de:static:58;ECC-AES;CT1:X;CT1:X \ Ver-/Entschlüsseln\ Hybrid\ RSA-ECC;2) Moderne Chiffren
+CT1:de:static:65;IDEA;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ IDEA...;2) Moderne Chiffren
+CT1:de:static:67;MARS;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ Weitere Algorithmen\ MARS...;2) Moderne Chiffren
+CT1:de:static:81;RC2;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ RC2...;2) Moderne Chiffren
+CT1:de:static:82;RC4;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ RC4...;2) Moderne Chiffren
+CT1:de:static:84;RC6;CT1:X;CT1:X \ Ver-/Entschlüsseln\Symmetrisch (modern)\ Weitere Algorithmen\ RC6...;2) Moderne Chiffren
+CT1:de:static:86;RSA;CT1:X;CT1:X \ Ver-/Entschlüsseln\ Asymmetrisch\RSA;2) Moderne Chiffren
+CT1:de:static:87;RSA;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem;2) Moderne Chiffren
+CT1:de:static:88;RSA-AES;CT1:X;CT1:X \ Ver-/Entschlüsseln\ Hybrid\ RSA-AES;2) Moderne Chiffren
+CT1:de:static:91;Serpent;CT1:X;CT1:X \ Ver-/Entschlüsseln\ Symmetrisch (modern)\ Weitere Algorithmen\ Serpent...;2) Moderne Chiffren
+CT1:de:static:99;Twofish;CT1:X;CT1:X \ Ver-/Entschlüsseln\ Symmetrisch (modern)\ Weitere Algorithmen\ Twofish...;2) Moderne Chiffren
+CT1:de:static:173;Hashwert einer Datei;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ Hashwert einer Datei...;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:174;HMAC;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ Generieren von HMACs...;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:177;MD2;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ MD2;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:178;MD4;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ MD4;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:179;MD5;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ MD5;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:184;RIPEMD;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ RIPEMD-160;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:185;Schlüssel aus Passwort generieren (PKCS #5);CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ Schlüssel aus Passwort generieren (PKCS #5)...;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:187;SHA;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ SHA-1;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:188;SHA;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ SHA-256;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:192;SHA;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ SHA-512;3) Hashverfahren und Authentifizierungscodes
+CT1:de:static:201;DSA;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Dokument signieren...\ DSA;4) Digitale Signatur/PKI
+CT1:de:static:202;ECDSA;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Dokument signieren...\ ECSP-DSA;4) Digitale Signatur/PKI
+CT1:de:static:203;ECNR;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Dokument signieren...\ ECSP-NR;4) Digitale Signatur/PKI
+CT1:de:static:213;Schlüssel anzeigen/exportieren;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Schlüssel anzeigen/exportieren...;4) Digitale Signatur/PKI
+CT1:de:static:214;Schlüssel erzeugen/importieren;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Schlüssel erzeugen/importieren...;4) Digitale Signatur/PKI
+CT1:de:static:215;Signatur verifizieren;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Signatur überprüfen...;4) Digitale Signatur/PKI
+CT1:de:static:216;Signatur extrahieren;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Signatur extrahieren...;4) Digitale Signatur/PKI
+CT1:de:static:221;Inverser Kongruenz-Generator (IKG) (PRNG);CT1:X;CT1:X \ Einzelverfahren\ Tools\ Zufallsdaten erzeugen...;5) Zufallszahlen-Generatoren
+CT1:de:static:222;Linearer Kongruenz-Generator (LKG) (PRNG);CT1:X;CT1:X \ Einzelverfahren\ Tools\ Zufallsdaten erzeugen...;5) Zufallszahlen-Generatoren
+CT1:de:static:225;X^2 (mod N) Zufallsgenerator (PRNG);CT1:X;CT1:X \ Einzelverfahren\ Tools\ Zufallsdaten erzeugen...;5) Zufallszahlen-Generatoren
+CT1:de:static:228;Zufallsgenerator der Secude-Bibliothek;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Zufallsdaten erzeugen...;5) Zufallszahlen-Generatoren
+CT1:de:static:230;ADFGVX-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-Only\ ADFGVX...;6) Klassische Kryptoanalyse
+CT1:de:static:234;Autokorrelation;CT1:X;CT1:X \ Werkzeuge zur Analyse\ Autokorrelation;6) Klassische Kryptoanalyse
+CT1:de:static:235;Byteweise Addition -- Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-Only\ Byteweise Addition;6) Klassische Kryptoanalyse
+CT1:de:static:236;Caesar-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-Only\ Caesar;6) Klassische Kryptoanalyse
+CT1:de:static:240;Entropie;CT1:X;CT1:X \ Werkzeuge zur Analyse\ Entropie;6) Klassische Kryptoanalyse
+CT1:de:static:242;Häufigkeits-Analyse;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Frequency-Test...;6) Klassische Kryptoanalyse
+CT1:de:static:243;Häufigkeits-Analyse;CT1:X;CT1:X \ Analyse\ Werkzeuge zur Analyse\ Gleitende Häufigkeit;6) Klassische Kryptoanalyse
+CT1:de:static:244;Hill-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Known Plaintext\ Hill...;6) Klassische Kryptoanalyse
+CT1:de:static:245;Histogramm;CT1:X;CT1:X \ Analyse\ Werkzeuge zur Analyse\ Histogramm;6) Klassische Kryptoanalyse
+CT1:de:static:249;N-Gramm-Analyse;CT1:X;CT1:X \ Analyse\ Werkzeuge zur Analyse\ N-Gramm...;6) Klassische Kryptoanalyse
+CT1:de:static:250;Periodizitäts-Analyse;CT1:X;CT1:X \ Analyse\ Werkzeuge zur Analyse\ Periode;6) Klassische Kryptoanalyse
+CT1:de:static:251;Playfair-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Manuelle Analyse\ Playfair...;6) Klassische Kryptoanalyse
+CT1:de:static:252;Runs-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Runs-Test...;6) Klassische Kryptoanalyse
+CT1:de:static:254;Solitaire-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Manuelle Analyse\ Solitaire...;6) Klassische Kryptoanalyse
+CT1:de:static:255;Solitaire-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-only\ Solitaire...;6) Klassische Kryptoanalyse
+CT1:de:static:256;Substitutions-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Manuelle Analyse\ Substitution...;6) Klassische Kryptoanalyse
+CT1:de:static:257;Substitutions-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-only\ Substitution...;6) Klassische Kryptoanalyse
+CT1:de:static:258;Transpositions-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Known Plaintext\ Einstufige Spaltentransposition...;6) Klassische Kryptoanalyse
+CT1:de:static:259;Vernam-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-Only\ XOR / Vernam;6) Klassische Kryptoanalyse
+CT1:de:static:260;Vigenère-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-Only\ Vigenère;6) Klassische Kryptoanalyse
+CT1:de:static:261;Vigenère-Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Ciphertext-Only\ Vigenère (Analyse nach Schrödel)...;6) Klassische Kryptoanalyse
+CT1:de:static:264;Triple DES -- Analyse;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Triple DES...;7) Moderne Kryptoanalyse
+CT1:de:static:266;AES-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ AES (CBC)...;7) Moderne Kryptoanalyse
+CT1:de:static:271;DES-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ DES...;7) Moderne Kryptoanalyse
+CT1:de:static:272;DESL-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Weitere Algorithmen\ DESL...;7) Moderne Kryptoanalyse
+CT1:de:static:273;DESX-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Weitere Algorithmen\ DESX...;7) Moderne Kryptoanalyse
+CT1:de:static:274;DESXL-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Weitere Algorithmen\ DESXL...;7) Moderne Kryptoanalyse
+CT1:de:static:276;FIPS PUB-140-1;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ FIPS PUB-140-1 Testbatterie;7) Moderne Kryptoanalyse
+CT1:de:static:277;Hash-Kollisionen;CT1:X;CT1:X \ Analyse\ Hashverfahren\ Angriff auf den Hashwert der digitalen Signatur...;7) Moderne Kryptoanalyse
+CT1:de:static:279;IDEA-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ IDEA...;7) Moderne Kryptoanalyse
+CT1:de:static:281;MARS-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Weitere Algorithmen\ MARS...;7) Moderne Kryptoanalyse
+CT1:de:static:286;Poker-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Poker-Test...;7) Moderne Kryptoanalyse
+CT1:de:static:288;RC2-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ RC2...;7) Moderne Kryptoanalyse
+CT1:de:static:289;RC4-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ RC4...;7) Moderne Kryptoanalyse
+CT1:de:static:290;RC6-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Weitere Algorithmen\ RC6...;7) Moderne Kryptoanalyse
+CT1:de:static:291;RSA-Angriff;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Gitterbasierte Angriffe auf RSA;7) Moderne Kryptoanalyse
+CT1:de:static:292;RSA-Angriff;CT1:X;CT1:X \ Analyse\ Asymmetrische Verfahren\ Gitterbasierte Angriffe auf RSA;7) Moderne Kryptoanalyse
+CT1:de:static:293;RSA-Angriff;CT1:X;CT1:X \ Analyse\ Asymmetrische Verfahren\ Seitenkanalangriff auf "Textbook-RSA"...;7) Moderne Kryptoanalyse
+CT1:de:static:294;Serial-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Serial-Test...;7) Moderne Kryptoanalyse
+CT1:de:static:295;Serpent-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Weitere Algorithmen\ Serpent...;7) Moderne Kryptoanalyse
+CT1:de:static:296;Twofish-Angriff;CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ Weitere Algorithmen\ Twofish...;7) Moderne Kryptoanalyse
+CT1:de:static:298;Vitányi-Analyse;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Vitányi;7) Moderne Kryptoanalyse
+CT1:de:static:308;ASN.1;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ ASN.1-Decodieren eines Dokuments;9) Kodierungen
+CT1:de:static:311;Base 64;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ Base64-Codierung/Decodierung\ Base64 decodieren;9) Kodierungen
+CT1:de:static:312;Base 64;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ Base64-Codierung/Decodierung\ Base64 codieren;9) Kodierungen
+CT1:de:static:318;Unzip;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ Komprimieren\ UnZip;9) Kodierungen
+CT1:de:static:319;UU decodieren/encodieren;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ UU-Codierung/Decodierung\ UU decodieren;9) Kodierungen
+CT1:de:static:320;UU decodieren/encodieren;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ UU-Codierung/Decodierung\ UU codieren;9) Kodierungen
+CT1:de:static:323;Zip;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ Komprimieren\ Zip;9) Kodierungen
+CT1:de:static:325;AES-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Visualisierung von Algorithmen\ AES...;10) Lernhilfen und Visualisierungen
+CT1:de:static:328;Authentifizierungsverfahren im Netz -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Authentifizierungsverfahren im Netz...;10) Lernhilfen und Visualisierungen
+CT1:de:static:331;Caesar-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Visualisierung von Algorithmen\ Caesar...;10) Lernhilfen und Visualisierungen
+CT1:de:static:332;Chinesischer Restsatz -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Anwendungen des Chinesischen Restsatzes\;10) Lernhilfen und Visualisierungen
+CT1:de:static:334;DES-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Visualisierung von Algorithmen\ DES...;10) Lernhilfen und Visualisierungen
+CT1:de:static:337;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy) -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Diffie-Hellman-Demo...;10) Lernhilfen und Visualisierungen
+CT1:de:static:338;Digitale Signatur -- Visualisierung;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Signaturdemo (Signaturerzeugung)...;10) Lernhilfen und Visualisierungen
+CT1:de:static:339;Digitale Signatur -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Signaturdemo (Signaturerzeugung)...;10) Lernhilfen und Visualisierungen
+CT1:de:static:341;Elliptische Kurvenberechnung -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Zahlentheorie interaktiv\ Punktaddition auf Elliptischen Kurven...;10) Lernhilfen und Visualisierungen
+CT1:de:static:342;Enigma-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Visualisierung von Algorithmen\ Enigma...;10) Lernhilfen und Visualisierungen
+CT1:de:static:355;Hash-Algorithmen -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Hashverfahren\ Hashwert einer Datei...;10) Lernhilfen und Visualisierungen
+CT1:de:static:359;Länge einer Zahl;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Länge einer Zahl;10) Lernhilfen und Visualisierungen
+CT1:de:static:366;Nihilist-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Visualisierung von Algorithmen\ Nihilist...;10) Lernhilfen und Visualisierungen
+CT1:de:static:368;Passwortqualität-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Passwort-Qualitätsmesser...;10) Lernhilfen und Visualisierungen
+CT1:de:static:369;Passwortqualität-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Passwort-Entropie...;10) Lernhilfen und Visualisierungen
+CT1:de:static:374;RSA-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\;10) Lernhilfen und Visualisierungen
+CT1:de:static:376;Shamir's Secret Sharing -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Secret-Sharing-Demo (nach Shamir)...;10) Lernhilfen und Visualisierungen
+CT1:de:static:377;Sichere E-Mail (S/MIME) -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Sichere E-Mail mit S/MIME...;10) Lernhilfen und Visualisierungen
+CT1:de:static:382;Vigenère-Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Visualisierung von Algorithmen\ Vigenère...;10) Lernhilfen und Visualisierungen
+CT1:de:static:387;Zahlentheorie;CT1:X;CT1:X \ Einzelverfahren\ Zahlentheorie interaktiv\;10) Lernhilfen und Visualisierungen
+CT1:de:static:388;Zahlentheorie;CT1:X;CT1:X \ Einzelverfahren\ Zahlentheorie interaktiv\ Generischer t-adic-NAF-Schlüsselgenerator;10) Lernhilfen und Visualisierungen
+CT1:de:static:390;Zufall-Visualisierung;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ 3D-Visualisierung...;10) Lernhilfen und Visualisierungen
+CT1:de:static:394;Zahlenhai;CT1:X;CT1:X \ Einzelverfahren\ Lernspiele\ Der Zahlenhai;11) Spiele
+CT1:de:static:397;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Brute-Force;12) Primzahlen
+CT1:de:static:398;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Brent;12) Primzahlen
+CT1:de:static:399;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Pollard;12) Primzahlen
+CT1:de:static:400;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Williams;12) Primzahlen
+CT1:de:static:401;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Lenstra;12) Primzahlen
+CT1:de:static:402;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Quadratisches Sieb;12) Primzahlen
+CT1:de:static:403;Generierung von Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahlen generieren...\ Miller-Rabin-Test;12) Primzahlen
+CT1:de:static:404;Generierung von Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Solovay-Strassen-Test;12) Primzahlen
+CT1:de:static:405;Generierung von Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Fermat-Test;12) Primzahlen
+CT1:de:static:407;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ Miller-Rabin-Test;12) Primzahlen
+CT1:de:static:408;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ Fermat-Test;12) Primzahlen
+CT1:de:static:409;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ Solovay-Strassen-Test;12) Primzahlen
+CT1:de:static:410;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ AKS-Test (deterministisches Verfahren);12) Primzahlen
+CT1:de:static:412;Primzahl-Tutorial;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...;12) Primzahlen
+CT1:de:static:413;Primzahl-Tutorial;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahlen generieren...;12) Primzahlen
+CT1:de:static:414;Primzahl-Tutorial;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...;12) Primzahlen
+CT1:de:static:418;Authentifizierungsverfahren im Netz -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Authentifizierungsverfahren im Netz...;13) Protokolle
+CT1:de:static:424;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy) -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Diffie-Hellman-Demo...;13) Protokolle
+CT1:de:static:429;Shamir's Secret Sharing -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Secret-Sharing-Demo (nach Shamir)...;13) Protokolle
+CT1:de:static:431;Sichere E-Mail (S/MIME) -- Visualisierung;CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Sichere E-Mail mit S/MIME...;13) Protokolle

@@ -1,0 +1,48 @@
+CTO:de:static:1;ADFGVX;CTO:X;Klassische Chiffren\ ADFGVX;1) Klassische Chiffren
+CTO:de:static:2;Affine Chiffre;CTO:X;Klassische Chiffren\ Multiplikativ;1) Klassische Chiffren
+CTO:de:static:3;Alberti;CTO:X;Klassische Chiffren\ Alberti;1) Klassische Chiffren
+CTO:de:static:4;AMSCO;CTO:X;Klassische Chiffren\ AMSCO;1) Klassische Chiffren
+CTO:de:static:6;Autokey-Vigenère;CTO:X;Klassische Chiffren\ Autokey;1) Klassische Chiffren
+CTO:de:static:7;Beaufort;CTO:X;Klassische Chiffren\ Beaufort;1) Klassische Chiffren
+CTO:de:static:8;Bifid;CTO:X;Klassische Chiffren\ Bifid;1) Klassische Chiffren
+CTO:de:static:10;Caesar;CTO:X;Klassische Chiffren\ Caesar / Rot-13;1) Klassische Chiffren
+CTO:de:static:12;Enigma;CTO:X;Klassische Chiffren\ Enigma;1) Klassische Chiffren
+CTO:de:static:14;Four-Square;CTO:X;Klassische Chiffren\ Four-Square;1) Klassische Chiffren
+CTO:de:static:15;Freimaurer;CTO:X;Klassische Chiffren\ Freimaurer;1) Klassische Chiffren
+CTO:de:static:16;Gartenzaun;CTO:X;Klassische Chiffren\ Zigzag (Jägerzaun);1) Klassische Chiffren
+CTO:de:static:17;Gronsfeld;CTO:X;Klassische Chiffren\ Gronsfeld;1) Klassische Chiffren
+CTO:de:static:18;Hill;CTO:X;Klassische Chiffren\ Hill;1) Klassische Chiffren
+CTO:de:static:19;Homophone;CTO:X;Klassische Chiffren\ Homophone;1) Klassische Chiffren
+CTO:de:static:20;Kamasutra;CTO:X;Klassische Chiffren\ Kamasutra;1) Klassische Chiffren
+CTO:de:static:21;Larrabee;CTO:X;Klassische Chiffren\ Larrabee;1) Klassische Chiffren
+CTO:de:static:25;Navajo;CTO:X;Klassische Chiffren\ Navajo;1) Klassische Chiffren
+CTO:de:static:26;Nihilist;CTO:X;Klassische Chiffren\ Nihilisten;1) Klassische Chiffren
+CTO:de:static:27;Playfair;CTO:X;Klassische Chiffren\ Playfair;1) Klassische Chiffren
+CTO:de:static:28;Pollux;CTO:X;Klassische Chiffren\ Pollux;1) Klassische Chiffren
+CTO:de:static:29;Polybius;CTO:X;Klassische Chiffren\ Polybius;1) Klassische Chiffren
+CTO:de:static:30;Porta;CTO:X;Klassische Chiffren\ Porta;1) Klassische Chiffren
+CTO:de:static:32;Rot-13;CTO:X;Klassische Chiffren\ Caesar / Rot-13;1) Klassische Chiffren
+CTO:de:static:33;Rotation;CTO:X;Klassische Chiffren\ Rotation;1) Klassische Chiffren
+CTO:de:static:34;Skytale;CTO:X;Klassische Chiffren\ Skytale;1) Klassische Chiffren
+CTO:de:static:37;Substitution;CTO:X;Klassische Chiffren\ Monoalphabetische Substitution;1) Klassische Chiffren
+CTO:de:static:39;Templer;CTO:X;Klassische Chiffren\ Templer;1) Klassische Chiffren
+CTO:de:static:40;Transposition (ein-stufige Spaltentransposition);CTO:X;Klassische Chiffren\ Transposition;1) Klassische Chiffren
+CTO:de:static:42;Trithemius;CTO:X;Klassische Chiffren\ Trithemius;1) Klassische Chiffren
+CTO:de:static:44;Vigenère;CTO:X;Klassische Chiffren\ Vigenère;1) Klassische Chiffren
+CTO:de:static:49;AES;CTO:X;Highlights\ AES;2) Moderne Chiffren
+CTO:de:static:233;Autokey-Analyse;CTO:X;Kryptoanalyse\ Knacke Autokey;6) Klassische Kryptoanalyse
+CTO:de:static:234;Autokorrelation;CTO:X;Kryptoanalyse\ Autokorrelation;6) Klassische Kryptoanalyse
+CTO:de:static:242;Häufigkeitsanalyse;CTO:X;Kryptoanalyse\ Häufigkeitsanalyse;6) Klassische Kryptoanalyse
+CTO:de:static:249;N-Gramm-Analyse;CTO:X;Kryptoanalyse\ n-Gramm-Analyse;6) Klassische Kryptoanalyse
+CTO:de:static:259;Vigenère-Analyse;CTO:X;Kryptoanalyse\ Knacke Vigenère;6) Klassische Kryptoanalyse
+CTO:de:static:297;Verteilte AES-Analyse;CTO:X;Kryptoanalyse\ Verteilte AES-Analyse;7) Moderne Kryptoanalyse
+CTO:de:static:307;ASCII;CTO:X;Kodierungen\ ASCII;9) Kodierungen
+CTO:de:static:309;Bacon;CTO:X;Kodierungen\ Bacon;9) Kodierungen
+CTO:de:static:310;Barcode-Generator;CTO:X;Kodierungen\ Barcode-Generator;9) Kodierungen
+CTO:de:static:311;Base 64 decodieren;CTO:X;Kodierungen\ Base64;9) Kodierungen
+CTO:de:static:312;Base 64 encodieren;CTO:X;Kodierungen\ Base64;9) Kodierungen
+CTO:de:static:313;Code 39;CTO:X;Kodierungen\ Code39;9) Kodierungen
+CTO:de:static:316;Huffman;CTO:X;Kodierungen\ Huffman;9) Kodierungen
+CTO:de:static:317;Morse Code;CTO:X;Kodierungen\ Morsecode;9) Kodierungen
+CTO:de:static:368;Passwortqualität-Visualisierung;CTO:X;Highlights\ Passwort-Check;10) Lernhilfen und Visualisierungen
+CTO:de:static:424;Passwort-Generator;CTO:X;Highlights\ Passwort-Generator;14) Werkzeuge

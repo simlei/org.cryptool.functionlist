@@ -500,9 +500,9 @@ CT2:en:static:499;RSA;CT2:T;CT2:T\ Protocols\ Yao's Millionaire Problem;2) Moder
 CT2:en:static:500;RSA attack;CT2:W;CT2:W\ Start\ Cryptanalysis\ Modern Encryption\ Asymmetric Encryption\ RSA;7) Modern Cryptanalysis
 CT2:en:static:501;Salsa20;CT2:C;CT2:C\ Modern Ciphers\ Symmetric\ Salsa20;2) Modern Ciphers
 CT2:en:static:502;Salsa20;CT2:T;CT2:T\ Cryptography\ Modern\ Symmetric\ Salsa20 Cipher;2) Modern Ciphers
-CT2:en:static:503;SAT Solver;CT2:C;CT2:C\ Tools\ Misc\ SAT Solver;10) Learning Aids and Visualizations
-CT2:en:static:504;SAT Solver;CT2:T;CT2:T\ Mathematics\ SAT Solver (File Input);10) Learning Aids and Visualizations
-CT2:en:static:505;SAT Solver;CT2:T;CT2:T\ Mathematics\ SAT Solver (Text Input);10) Learning Aids and Visualizations
+CT2:en:static:503;SAT-Solver;CT2:C;CT2:C\ Tools\ Misc\ SAT Solver;10) Learning Aids and Visualizations
+CT2:en:static:504;SAT-Solver;CT2:T;CT2:T\ Mathematics\ SAT Solver (File Input);10) Learning Aids and Visualizations
+CT2:en:static:505;SAT-Solver;CT2:T;CT2:T\ Mathematics\ SAT Solver (Text Input);10) Learning Aids and Visualizations
 CT2:en:static:506;Scytale;CT2:C;CT2:C\ Classic Ciphers\ Scytale;1) Classic Ciphers
 CT2:en:static:507;Scytale;CT2:T;CT2:T\ Cryptanalysis\ Classical\ Scytale Brute-force Analysis;1) Classic Ciphers
 CT2:en:static:508;Scytale;CT2:T;CT2:T\ Cryptography\ Classical\ Scytale Cipher;1) Classic Ciphers

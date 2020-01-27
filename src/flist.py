@@ -220,14 +220,19 @@ class MCSV_Entry(CSV_Entry):
 
     @staticmethod
     def processStartOfPath(path):
+        # print(f"processing {path}")
         # return path
         # return [path[0][4:]] + path[1:]
         tool_letter = path[0][4:]
         # print(tool_letter)
         if tool_letter == "X":
-            return path[1:]
+            result = path[1:]
+            # print(f"returning {result}")
+            return result
         else:
-            return [f"[{tool_letter}] " + path[1]] + path[2:]
+            result = [f"[{tool_letter}] " + path[1]] + path[2:]
+            # print(f"returning {result}")
+            return result
 
     def filter_for_cryptoolstring(self, ctstring):
         return MCSV_Entry(

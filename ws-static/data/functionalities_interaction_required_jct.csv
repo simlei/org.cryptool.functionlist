@@ -180,7 +180,7 @@ JCT:dynamic:37fe2735;Bifid;JCT:D \ Algorithms \ Classic \ Bifid
 JCT:dynamic:5361903c;Double box;JCT:D \ Algorithms \ Classic \ Double Box
 JCT:dynamic:b31ebcd4;Playfair cipher;JCT:D \ Algorithms \ Classic \ Playfair
 JCT:dynamic:64c996d9;Substitution;JCT:D \ Algorithms \ Classic \ Substitution
-JCT:dynamic:a4c58e1b;Transposition (single and double column);JCT:D \ Algorithms \ Classic \ Transposition
+JCT:dynamic:a4c58e1b;Transposition (single column transposition);JCT:D \ Algorithms \ Classic \ Transposition
 JCT:dynamic:f1fbbc32;Vigenère cipher;JCT:D \ Algorithms \ Classic \ Vigenère
 JCT:dynamic:98070cdb;XOR;JCT:D \ Algorithms \ Classic \ XOR
 JCT:dynamic:1b95999b;RSA;JCT:D \ Algorithms \ Asymmetric \ RSA
@@ -214,7 +214,7 @@ JCT:dynamic:5d1c69c7;Ant Colony Optimization (ACO);JCT:D \ Visuals \ Ant Colony 
 JCT:dynamic:3f9dad15;RC4;JCT:D \ Visuals \ ARC4 \ Spritz
 JCT:dynamic:318822af;Android Unlock Pattern (AUP);JCT:D \ Visuals \ Android Unlock Pattern (AUP)
 JCT:dynamic:1bc82ad7;Shanks Babystep-Giantstep;JCT:D \ Visuals \ Shanks Babystep-Giantstep
-JCT:dynamic:b142e4ea;Chinese remainder theorem (CRT) visualization;JCT:D \ Visuals \ Chinese Remainder Theorem (CRT)
+JCT:dynamic:b142e4ea;Chinese remainder theorem (CRT) visual;JCT:D \ Visuals \ Chinese Remainder Theorem (CRT)
 JCT:dynamic:282e23f8;Certificate verification;JCT:D \ Visuals \ Certificate Verification
 JCT:dynamic:d7e0a4b8;DES;JCT:D \ Visuals \ Inner States of the Data Encryption Standard (DES)
 JCT:dynamic:3e6726e0;EC calculations;JCT:D \ Visuals \ Elliptic Curve Calculations

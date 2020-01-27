@@ -5,15 +5,16 @@ Data input;Dateneingabe
 Primes;Primzahlen
 Steganography;Steganographie
 Factorization of a number;Faktorisierung
-Transposition (single and double column);Transposition (einfache und doppelte Spalten)
-Transposition analysis;Transpositionsanalyse
+Transposition (single column transposition);Transposition (ein-stufige Spaltentransposition)
+Transposition (double column transposition);Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
+Transposition analysis;Transpositions-Analyse
 Paillier signature;Paillier Signatur
 DECODE database;DECODE-Datenbank
 Avalanche effect;Avalanche-Effekt
 DSA signature;DSA Signatur
 Misc;Verschiedene
 AES analysis;AES-Analyse
-Differential cryptanalysis (DCA) visual;Differenzielle Kryptanalyse (DCA) - Visualisierung
+Differential cryptanalysis (DCA) visual;Differenzielle Kryptanalyse (DCA) -- Visualisierung
 Lattice visual;Lattice-Visualisierung
 Lattice attack;Lattice-Angriff
 Merkle signature;Merkle Signatur
@@ -46,15 +47,15 @@ Berlekamp-Massey algorithm;Berlekamp-Massey-Algorithmus
 Pseudo random number generator (PRNG);Pseudozufallszahlengenerator (PRNG)
 Hill cipher;Hill-Chiffre
 Nihilist cipher;Nihilist-Chiffre
-Homophonic substitution analysis;Homophonische Substitutionsanalyse
+Homophonic substitution analysis;Homophonische Substitutions-Analyse
 Playfair analysis;Playfair-Analyse
 Solitaire analysis;Solitaire-Analyse
-AES visualization;AES-Visualisierung
-DES visualization;DES-Visualisierung
+AES visual;AES-Visualisierung
+DES visual;DES-Visualisierung
 ISAP bit commitment scheme;ISAP Bit-Commitment-Verfahren
-Block mode visualizer;Block mode - Visualisierung
+mode visual;Blockmodus -- Visualisierung
 Scytale analysis;Scytale-Analyse
-Homophonic substitution cipher;Homophonische Substitutionschiffre
+Homophonic substitution cipher;Homophonische Substitutions-Chiffre
 SIGABA analysis;SIGABA-Analyse
 McEliece signature;McEliece Signatur
 ECNR signature;ECNR Signatur
@@ -66,7 +67,7 @@ Number Shark;Zahlenhai
 Sudoku solver;Sudoku-Solver
 Ant Colony Optimization (ACO);Ameisenalgorithmus (ACO)
 Android Unlock Pattern (AUP);Android Entsperrmuster (AUP)
-Chinese remainder theorem (CRT) visualization;Chinese remainder theorem (CRT) - Visualisierung
+Chinese remainder theorem (CRT) visual;Chinese remainder theorem (CRT) -- Visualisierung
 Certificate verification;Zertifikatsverifizierung
 EC calculations;EC-Berechnungen
 Reciprocal subtraction;Reziproke Substraktion
@@ -79,7 +80,7 @@ Differential power analysis;Differential power analysis
 Square and multiply;Binäre Exponentiation
 Signature visual;Signatur-Visualisierung
 Signature verification;Signatur-Verifizierung
-Magic door visual;Magic door - Visualisierung
+Magic door visual;Magic door -- Visualisierung
 Graph isomorphism;Graphisomorphismus
 ADFGVX analysis;ADFGVX-Analyse
 Encryption;Verschlüsselung
@@ -93,19 +94,19 @@ IDP analysis;IDP-Analyse
 Key searcher;Schlüsselsuche
 Feistel attack;Feistel-Angriff
 MD5 attack (collisions);MD5-Angriff (Kollisionen)
-Kryptos K1 analysis;Kryptos K1 - Analyse
-Kryptos K2 analysis;Kryptos K2 - Analyse
-Zodiac-408 analysis;Zodiac-408 - Analyse
+Kryptos K1 analysis;Kryptos K1 -- Analyse
+Kryptos K2 analysis;Kryptos K2 -- Analyse
+Zodiac-408 analysis;Zodiac-408 -- Analyse
 CBC attack;CBC-Angriff
 Trivium attack;Trivium-Angriff
-Triple DES analysis;Triple DES - Analyse
+Triple DES analysis;Triple DES -- Analyse
 Block mode;Blockmodus
 Dictionary search;Wörterbuchsuche
 Decimalization;Dezimalisierung
 Hamming distance;Hamming-Abstand
 Levenshtein distance;Levenshtein-Abstand
 BB84 key exchange;BB84 Schlüsselaustausch
-BB84 key exchange attack;BB84 Schlüsselaustausch - Angriff
+BB84 key exchange attack;BB84 Schlüsselaustausch -- Angriff
 BB84 attack;BB84-Angriff
 Heartbleed analysis;Heartbleed-Analyse
 Simple multi-client communication;Simple Kommunikation mit mehreren Clients
@@ -113,9 +114,9 @@ Simple webserver;Einfacher Webserver
 Crib analysis;Crib-Analyse
 RSA attack;RSA-Angriff
 MD5 analysis;MD5-Analyse
-Classical ciphers analysis;Klassische Verfahren - Analyse
+Classical ciphers analysis;Klassische Verfahren -- Analyse
 Webhits for a hash value;Webtreffer für einen Hashwert
-Spanish strip cipher analysis;Spanische Streifenchiffre - Analyse
+Spanish strip cipher analysis;Spanische Streifenchiffre -- Analyse
 Spanish strip cipher;Spanische Streifenchiffre
 Double box;Dopelkasten
 Key exchange;Schlüsselaustausch
@@ -124,5 +125,7 @@ TREYFER attack;TREYFER-Angriff
 WEP attack;WEP-Angriff
 Enigma attack;Enigma-Angriff
 Grain attack;Grain-Angriff
-Padding oracle attack (POA);Padding Oracle - Angriff (POA)
+Padding oracle attack (POA);Padding Oracle -- Angriff (POA)
 Man-in-the-middle attack;Man-in-the-middle-Angriff
+PKCS#1 attack;PKCS#1-Angriff
+Classical ciphers -- analysis;Klassische Verfahren -- Analyse

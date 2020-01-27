@@ -47,8 +47,8 @@ defaultsteps:
   - functionalities_jct_en
   - merge_de
   - merge_en
-  - tofinalform_de
   - tofinalform_en
+  - tofinalform_de
   - tohtml_de
   - tohtml_en
 

@@ -1,56 +1,76 @@
+core-developer sln
+
+Raus: 
+- bitcoin
+- blockmode / <space>mode/modus
+- CypherMatrix
+- nfs/gnfs factorizer
+- SIGABA-Analyse
+- Verschlüsselte VM
+- webtreffer
+
 # TODO von ganz oben
+
+## offen @ 27.01.
+
+
+- Online bringen (Fehler mit de/Pfaden)
+- Änderung in CT1 erforderlich, Test was passiert, wenn sich Pfad ändert
+- ??: s. screenshot
+
+Später
+- Datenbanken migrieren
 
 ## Format: 
 
-- "XXX-Analyse"  (also mit Bindestrich) also Caesar-Analyse, Transpositions-Analyse, ...
-- "X Y -- Analyse"
-- Ja, bitte vereinheitlichen. "visual" gefällt mir besser, aber Hauptsache einheitlich.
+[x] - "XXX-Analyse"  (also mit Bindestrich) also Caesar-Analyse, Transpositions-Analyse, ...
+[x] - "X Y -- Analyse"
+[x] - Ja, bitte vereinheitlichen. "visual" gefällt mir besser, aber Hauptsache einheitlich.
 
 ** Fallbeispiele **
 
-- Magic door - Visualisierung ==> Magic door -- Visualisierung
-- Matrix-Bildschirmschoner-Visualisierung ==> Matrix-Bildschirmschoner -- Visualisierung
-- "Matrix"-Zeile die nicht mehr in CTO drin ist
+[x] - Magic door - Visualisierung ==> Magic door -- Visualisierung
+[x] - Matrix-Bildschirmschoner-Visualisierung ==> Matrix-Bildschirmschoner -- Visualisierung
+[x] - "Matrix"-Zeile die nicht mehr in CTO drin ist
 
 
 ## Inhalt:
 
-- Transposition analysis;Transpositions-Analyse
-- Homophonic substitution analysis;Homophone Substitutions-Analyse
-- Kryptos K1 analysis;Kryptos K1 -- Analyse
-- Kryptos K2 analysis;Kryptos K2 -- Analyse
-- Classical ciphers -- analysis;Klassische Verfahren -- Analyse
-- Homophonic substitution cipher ==> Homophone Substitutions-Chiffre
-- Bitte die ff. beiden lassen (also nicht zusammenfassen)
+[x] - Transposition analysis;Transpositions-Analyse
+[x] - Homophonic substitution analysis;Homophone Substitutions-Analyse
+[x] - Kryptos K1 analysis;Kryptos K1 -- Analyse
+[x] - Kryptos K2 analysis;Kryptos K2 -- Analyse
+[x] - Classical ciphers -- analysis;Klassische Verfahren -- Analyse
+[x] - Homophonic substitution cipher ==> Homophone Substitutions-Chiffre
+[x] - Bitte die ff. beiden lassen (also nicht zusammenfassen)
+    [x] Transposition (ein-stufige Spaltentransposition)
+    [x] Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
+[x] - 3DES Brute-Force-Angriff ==> 3DES-Angriff
+[x] - AES Brute-Force-Angriff ==> AES-Angriff
+[x] - DES Brute-Force-Angriff ==> DES-Angriff
+[x] - DESL Brute-Force-Angriff ==> DESL-Angriff
+[x] - DESX Brute-Force-Angriff ==> DESX-Angriff
+[x] - DESXL Brute-Force-Angriff ==> DESXL-Angriff
+[x] - 3DES und Triple-DES müssen wir bei den Funktionsnamen auch noch zusammen fassen.
+[x] - Base 64 decodieren => Base 64 decodieren/encodieren
+[x] - Base 64 encodieren => Base 64 decodieren/encodieren
+[x] - Eindeutschen: PKCS#1 attack  -->  PKCS#1-Angriff
+
+[x] SAT solver  ==>  SAT-Solver
+
+- [x] Bitte die ff. beiden lassen (also nicht zusammenfassen)
     - Transposition (ein-stufige Spaltentransposition)
     - Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
-- 3DES Brute-Force-Angriff ==> 3DES-Angriff
-- AES Brute-Force-Angriff ==> AES-Angriff
-- DES Brute-Force-Angriff ==> DES-Angriff
-- DESL Brute-Force-Angriff ==> DESL-Angriff
-- DESX Brute-Force-Angriff ==> DESX-Angriff
-- DESXL Brute-Force-Angriff ==> DESXL-Angriff
-- 3DES und Triple-DES müssen wir bei den Funktionsnamen auch noch zusammen fassen.
-- Base 64 decodieren => Base 64 decodieren/encodieren
-- Base 64 encodieren => Base 64 decodieren/encodieren
-- Verändern: [N] Kryptotutorien \ Angriff auf PKCS#1 \ Angriff auf PKCS#1 \ Bleichenbacher-Angriff =>
-    -        [N] Kryptotutorien \ Angriff auf PKCS#1 \ Angriffe auf PKCS#1 \ Bleichenbacher-Angriff
-- Verändern: [N] Kryptotutorien \ Angriff auf PKCS#1 \ Angriff auf PKCS#1 \ Angriff mit kürzeren Schlüsseln (Kühn) ==>
-    -        [N] Kryptotutorien \ Angriff auf PKCS#1 \ Angriffe auf PKCS#1 \ Angriff mit kürzeren Schlüsseln (Kühn)   
-- Eindeutschen: PKCS#1 attack  -->  PKCS#1-Angriff
-
-SAT solver  ==>  SAT-Solver
-
+- [x] 3DES und Triple-DES müssen wir bei den Funktionsnamen auch noch zusammen fassen.
 
 ## Issues jetzt:
 
-- CT1/O Datensatz neu lesen für DE. Bsp das weg sein muss: "Matrix-Bildschirmschoner-Visualisierung"
-- Früher hatten wir (wie es in der Legende unten steht) in Spalte 2
-(CT1) und 5 (CTO) jeweils ein x, wenn es einen Pfad gab. Dieses x haben
-Sie verloren.
+[x] - CT1/O Datensatz neu lesen für DE. Bsp das weg sein muss: "Matrix-Bildschirmschoner-Visualisierung"
+[x] - Replay aller Anpassungen die auf dem alten de_ Dump passiert sind
+[x] - Früher hatten wir (wie es in der Legende unten steht) in Spalte 2 (CT1) und 5 (CTO) jeweils ein x, wenn es einen Pfad gab. Dieses x haben Sie verloren.
 
 ## Issues später:
 
-- "3DES" filtering geht nicht
-- 368 Zeilen gefunden, die dem Auswahlkriterium entsprechen. ==> 368 Zeilen mit xxx Einträgen gefunden, die dem Auswahlkriterium entsprechen.
+[x] - "3DES" filtering geht nicht
+[x] - 368 Zeilen gefunden, die dem Auswahlkriterium entsprechen. ==> 368 Zeilen mit xxx Einträgen gefunden, die dem Auswahlkriterium entsprechen.
 
