@@ -25,6 +25,25 @@ import flist_io as io
 
 CSV_SEP = ";"
 
+# ---- Id formation
+
+def makeId_OLD(functionality_en:str, path:str, how_implemented:str):
+    payload = f"{path.lower()}" # hash of the pathname ignores case
+    result = hashlib.md5(payload.encode()).hexdigest()[:8]
+    return result
+def makeId_NEW(functionality_en:str, path:str, how_implemented:str):
+    # payload = f"{functionality_en}{path}{how_implemented}"
+    payload = re.sub("[^A-Za-z0-9]", "", path.lower())
+    result = hashlib.md5(payload.encode()).hexdigest()[:8]
+    return result
+def makeId(functionality_en:str, path:str, how_implemented:str):
+    # payload = f"{functionality_en}{path}{how_implemented}"
+    payload = re.sub("[^A-Za-z0-9]", "", path.lower())
+    result = hashlib.md5(payload.encode()).hexdigest()[:8]
+    return result
+
+
+
 
 # CSV infrastructure
 
@@ -126,7 +145,7 @@ class SCSV_Entry(CSV_Entry):
             id=row["id"],
             functionality=row["functionality"],
             how_implemented=row["how_implemented"],
-            path=re.split(r"\s*[\\/]\s*", row["path"]),
+            path=re.split(r"\s*[\\]\s*", row["path"]),
             category=row["category"]
         )
 
@@ -139,9 +158,9 @@ class SCSV_Entry(CSV_Entry):
             "category": self.category
         }
     
-    def infer_id_from_fields(self, tool: str):
+    def infer_id_from_fields(self, tool: str, idfun=makeId):
         scsv_file_repr = self.to_dataframe_dictionary()
-        self.id = tool + ":dynamic:" + makeId(scsv_file_repr["functionality"], scsv_file_repr["path"], scsv_file_repr["how_implemented"])
+        self.id = tool + ":dynamic:" + idfun(scsv_file_repr["functionality"], scsv_file_repr["path"], scsv_file_repr["how_implemented"])
 
 
 @dataclass
@@ -207,7 +226,7 @@ class Merged_Functionality():
 @dataclass
 class MCSV_Entry(CSV_Entry):
     SEP_ids = "+"
-    SEP_how_implemented = "\\"
+    SEP_how_implemented = "/"
     SEP_paths = " <br /> "
     SEP_categories = " <br \>"
     SEP_pathelement = " \\ "
@@ -222,7 +241,7 @@ class MCSV_Entry(CSV_Entry):
     def processStartOfPath(path):
         # print(f"processing {path}")
         # return path
-        # return [path[0][4:]] + path[1:]
+        return [f"[{path[0][4:]}]"] + path[1:]
         tool_letter = path[0][4:]
         # print(tool_letter)
         if tool_letter == "X":
@@ -469,14 +488,6 @@ class FinalForm_Dataset(CSV_Dataset):
     def Dataframe_From_Files(files):
         return CSV_Dataset.Dataframe_From_Files(files, FinalForm_Dataset.COLUMNS)
 
-
-# ---- Id formation
-
-def makeId(functionality_en:str, path:str, how_implemented:str):
-    # payload = f"{functionality_en}{path}{how_implemented}"
-    payload = f"{path.lower()}" # hash of the pathname ignores case
-    result = hashlib.md5(payload.encode()).hexdigest()[:8]
-    return result
 
 # --- utilities
 

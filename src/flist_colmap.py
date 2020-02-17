@@ -22,7 +22,22 @@ def translate(translationfile: Path, translation_df: pandas.DataFrame, lang: str
         if row["en"] == category_en:
             return row[lang]
     return None
-    # raise io.FlistException(f"could not determine correct translation for category {category_en}; check that all categories in raw input files and all dynamically-attributed categories are maintained in the file {translationfile}")
+
+def id_diff_and_map_column(colname: str, catmapping_df: pandas.DataFrame, id: str, entry: flist.SCSV_Entry) -> typing.Optional[str]:
+    outputfile = "/home/simon/sandbox/featurelist/ct_functionlist/idmap.txt"
+    __id = entry.id
+    entry.infer_id_from_fields(id[0:3], flist.makeId_OLD)
+    oldid = entry.id
+    entry.infer_id_from_fields(id[0:3], flist.makeId_NEW)
+    newid  = entry.id
+    entry.id = __id
+    with open(outputfile, "a") as out:
+        out.writelines([ f"{oldid} {newid}" ])
+        print(f"{oldid} {newid}\n")
+    for i,row in catmapping_df.iterrows():
+        if row["id"] == id:
+            return row[colname]
+    return None
 
 def map_column(colname: str, catmapping_df: pandas.DataFrame, id: str):
     # if "dd12" in id: implicitly("prog.logger").info(f"queried for {id}")
@@ -34,7 +49,12 @@ def map_column(colname: str, catmapping_df: pandas.DataFrame, id: str):
 blank_placeholder = "<enter value here>"
 blank_disappears  = "<>"
 
-def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path, language: str, feedbackfile: Path, output: Path):
+
+
+def Dispatch_Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path, language: str, feedbackfile: Path, output: Path, id_diff=False):
+    Map_Columns(colname, translationfile, input, mapfile, language, feedbackfile, output, os.environ.get("FLIST_IDMAP") or id_diff)
+
+def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path, language: str, feedbackfile: Path, output: Path, id_diff=False):
     if not input.is_file():
         raise io.FlistException(f"file {input} does not exist")
     if not mapfile.is_file():
@@ -87,6 +107,8 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
 
         category_from_input = map_column(colname, df_cats_input, id)
         category_from_feedback = map_column(colname, df_cats_feedback, id)
+        if id_diff:
+            id_diff_and_map_column(colname, df_cats_feedback, id, entry)
         implicitly("prog.logger").debug(f"getting cat for {id}")
         implicitly("prog.logger").debug(f"{category_from_input=}, {category_from_feedback=}")
 
@@ -100,8 +122,8 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
         if category_from_input or category_from_feedback:
             mapped_cat = category_from_input or category_from_feedback
             translated_mapped_cat = translate(translationfile, translations, language, mapped_cat)
+
             if not translated_mapped_cat:
-                # implicitly("prog.logger").info(f"could not determine translation for category {mapped_cat}; check that all categories in raw input files and all dynamically-attributed categories are maintained in the file {translationfile}")
                 if not language == "en":
                     untranslatedCounter += 1
                 translated_mapped_cat = mapped_cat

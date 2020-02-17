@@ -1,45 +1,46 @@
 en;de
 Data flow;Datenfluss
 RSA signature;RSA Signatur
-Data input;Dateneingabe
+Data input/output;Datenein- und ausgabe
 Primes;Primzahlen
 Steganography;Steganographie
 Factorization of a number;Faktorisierung
 Transposition (single column transposition);Transposition (ein-stufige Spaltentransposition)
 Transposition (double column transposition);Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
-Transposition analysis;Transpositions-Analyse
+Transposition (double column transposition) -- [attack];Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) [Angriff]
+Transposition [analysis];Transposition [Analyse]
 Paillier signature;Paillier Signatur
 DECODE database;DECODE-Datenbank
 Avalanche effect;Avalanche-Effekt
-DSA signature;DSA Signatur
+DSA signature;DSA-Signatur
 Misc;Verschiedene
-AES analysis;AES-Analyse
-Differential cryptanalysis (DCA) visual;Differenzielle Kryptanalyse (DCA) -- Visualisierung
-Lattice visual;Lattice-Visualisierung
-Lattice attack;Lattice-Angriff
+AES [analysis];AES [Analyse]
+Differential cryptanalysis (DCA) [visual];Differenzielle Kryptanalyse (DCA) [Visualisierung]
+Lattice [visual];Lattice-Visualisierung
+Lattice [attack];Lattice [Angriff]
 Merkle signature;Merkle Signatur
 Vigenère cipher;Vigenère-Chiffre
-Substitution analysis;Substitutionsanalyse
+Substitution [analysis];Substitutions [Analyse]
 Primes test;Primzahl-Test
-SDES analysis;SDES-Analyse
+SDES [analysis];SDES [Analyse]
 Playfair cipher;Playfair-Chiffre
-Vigenère analysis;Vigenère-Analyse
-M-138 attack;M-138-Angriff
+Vigenère [analysis];Vigenère [Analyse]
+M-138 [attack];M-138 [Angriff]
 Blind signature;Blinde Signatur
 Watermark creator;Wasserzeichen erstellen
-DES analysis;DES-Analyse
+DES [analysis];DES [Analyse]
 Encrypted VM;Verschlüsselte VM
 Tools;Werkzeuge
 Frequency test;Häufigkeitstest
-Caesar analysis;Caesar-Analyse
+Caesar [analysis];Caesar [Analyse]
 Morse code;Morse-Code
 Passwords;Passwörter
 Cyclic redundancy check (CRC);Zyklische Redundanzprüfung (CRC)
-Application;Anwendung
+Secure Chat -- Applied Cryptography;Sicherer Chat -- Angewendete Kryptographie
 Virtual smartcard;Virtuelle Smartcard
 Visual code;Visueller Code
-Transcriptor analysis;Transcriptor-Analyse
-Word pattern analysis;Wortmuster-Analyse
+Transcriptor [analysis];Transcriptor [Analyse]
+Word pattern [analysis];Wortmuster [Analyse]
 Specific cryptanalysis;Spezifische Kryptanalyse
 GQ signature;GQ Signatur
 Friedman test;Friedman-Test
@@ -47,85 +48,94 @@ Berlekamp-Massey algorithm;Berlekamp-Massey-Algorithmus
 Pseudo random number generator (PRNG);Pseudozufallszahlengenerator (PRNG)
 Hill cipher;Hill-Chiffre
 Nihilist cipher;Nihilist-Chiffre
-Homophonic substitution analysis;Homophonische Substitutions-Analyse
-Playfair analysis;Playfair-Analyse
-Solitaire analysis;Solitaire-Analyse
-AES visual;AES-Visualisierung
-DES visual;DES-Visualisierung
+Homophonic substitution [analysis];Homophonische Substitutions [Analyse]
+Playfair [analysis];Playfair [Analyse]
+Solitaire [analysis];Solitaire [Analyse]
+AES [visual];AES-Visualisierung
+DES [visual];DES-Visualisierung
 ISAP bit commitment scheme;ISAP Bit-Commitment-Verfahren
-mode visual;Blockmodus -- Visualisierung
-Scytale analysis;Scytale-Analyse
+mode [visual];Blockmodus [Visualisierung]
+Scytale [analysis];Scytale [Analyse]
 Homophonic substitution cipher;Homophonische Substitutions-Chiffre
-SIGABA analysis;SIGABA-Analyse
+SIGABA [analysis];SIGABA [Analyse]
 McEliece signature;McEliece Signatur
-ECNR signature;ECNR Signatur
-Entropy analysis;Entropie-Analyse
-Grille analysis;Grille-Analyse
-Viterbi analysis;Viterbi-Analyse
+ECNR signature;ECNR-Signatur
+Entropy [analysis];Entropie [Analyse]
+Grille [analysis];Grille [Analyse]
+Viterbi [analysis];Viterbi [Analyse]
 Divider game;Teilerspiel
 Number Shark;Zahlenhai
 Sudoku solver;Sudoku-Solver
 Ant Colony Optimization (ACO);Ameisenalgorithmus (ACO)
 Android Unlock Pattern (AUP);Android Entsperrmuster (AUP)
-Chinese remainder theorem (CRT) visual;Chinese remainder theorem (CRT) -- Visualisierung
+Chinese remainder theorem (CRT) [visual];Chinese remainder theorem (CRT) [Visualisierung]
 Certificate verification;Zertifikatsverifizierung
 EC calculations;EC-Berechnungen
 Reciprocal subtraction;Reziproke Substraktion
-Hash sensitivity;Hash-Sensitivität
+Hash algorithms [visual];Hash-Algorithmen [Visualisierung]
 Homomorphic encryption;Homomorphische Verschlüsselung
 Public-key infrastructure;Public-Key-Infrastruktur
 Kleptography;Kleptographie
 Knapsack;Rucksackproblem
-Differential power analysis;Differential power analysis
+Differential power [analysis];Differential power  [Analyse]
 Square and multiply;Binäre Exponentiation
-Signature visual;Signatur-Visualisierung
+Signature [visual];Signatur-Visualisierung
 Signature verification;Signatur-Verifizierung
-Magic door visual;Magic door -- Visualisierung
+Magic door [visual];Magic door [Visualisierung]
 Graph isomorphism;Graphisomorphismus
-ADFGVX analysis;ADFGVX-Analyse
+ADFGVX [analysis];ADFGVX [Analyse]
 Encryption;Verschlüsselung
 Cylinder cipher;Cylinder-Chiffre
 Autocorrelation;Autokorrelation
 Cost function;Kostenfunktion
 Kasiski test;Kasiski-Test
-A5 attack;A5-Angriff
-Cube attack;Cube-Angriff
-IDP analysis;IDP-Analyse
+A5 [attack];A5 [Angriff]
+Cube [attack];Cube [Angriff]
+IDP [analysis];IDP [Analyse]
 Key searcher;Schlüsselsuche
-Feistel attack;Feistel-Angriff
-MD5 attack (collisions);MD5-Angriff (Kollisionen)
-Kryptos K1 analysis;Kryptos K1 -- Analyse
-Kryptos K2 analysis;Kryptos K2 -- Analyse
-Zodiac-408 analysis;Zodiac-408 -- Analyse
-CBC attack;CBC-Angriff
-Trivium attack;Trivium-Angriff
-Triple DES analysis;Triple DES -- Analyse
+Feistel [attack];Feistel [Angriff]
+MD5 attack (collisions);MD5 [Angriff] (Kollisionen)
+Kryptos K1 [analysis];Kryptos K1 [Analyse]
+Kryptos K2 [analysis];Kryptos K2 [Analyse]
+Zodiac-408 [analysis];Zodiac-408 [Analyse]
+CBC [attack];CBC [Angriff]
+Trivium [attack];Trivium [Angriff]
+Triple DES [analysis];Triple DES [Analyse]
 Block mode;Blockmodus
-Dictionary search;Wörterbuchsuche
+Dictionary [attack];Wörterbuchsuche
 Decimalization;Dezimalisierung
 Hamming distance;Hamming-Abstand
 Levenshtein distance;Levenshtein-Abstand
-BB84 key exchange;BB84 Schlüsselaustausch
-BB84 key exchange attack;BB84 Schlüsselaustausch -- Angriff
-BB84 attack;BB84-Angriff
-Heartbleed analysis;Heartbleed-Analyse
+BB84 key exchange;Schlüsselaustausch (BB84)
+BB84 key exchange [attack];Schlüsselaustausch (BB84) [Angriff]
+BB84 [attack];BB84 [Angriff]
+Heartbleed [analysis];Heartbleed [Analyse]
 Simple multi-client communication;Simple Kommunikation mit mehreren Clients
 Simple webserver;Einfacher Webserver
-Crib analysis;Crib-Analyse
-RSA attack;RSA-Angriff
-MD5 analysis;MD5-Analyse
-Classical ciphers analysis;Klassische Verfahren -- Analyse
+Crib [analysis];Crib [Analyse]
+RSA [attack];RSA [Angriff]
+MD5 [analysis];MD5 [Analyse]
+Classical ciphers [analysis];Klassische Verfahren [Analyse]
 Webhits for a hash value;Webtreffer für einen Hashwert
-Spanish strip cipher analysis;Spanische Streifenchiffre -- Analyse
+Spanish strip cipher [analysis];Spanische Streifenchiffre [Analyse]
 Spanish strip cipher;Spanische Streifenchiffre
 Double box;Dopelkasten
-Key exchange;Schlüsselaustausch
-BLAKE password storage;BLAKE Passwortspeicherung
-TREYFER attack;TREYFER-Angriff
-WEP attack;WEP-Angriff
-Enigma attack;Enigma-Angriff
-Grain attack;Grain-Angriff
-Padding oracle attack (POA);Padding Oracle -- Angriff (POA)
-Man-in-the-middle attack;Man-in-the-middle-Angriff
-PKCS#1 attack;PKCS#1-Angriff
-Classical ciphers -- analysis;Klassische Verfahren -- Analyse
+Key exchange (multipartite);Schlüsselaustausch (multipartit)
+Key exchange (Diffie-Hellman DH);Schlüsselaustausch (Diffie-Hellman DH)
+TREYFER [attack];TREYFER [Angriff]
+WEP [attack];WEP [Angriff]
+Enigma [attack];Enigma [Angriff]
+Grain [attack];Grain [Angriff]
+Padding oracle attack (POA);Padding Oracle [Angriff] (POA)
+Man-in-the-middle [attack];Man-in-the-middle [Angriff]
+PKCS#1 [attack];PKCS#1 [Angriff]
+Classical ciphers -- [analysis];Klassische Verfahren [Analyse]
+DES [analysis];DES  [Analyse]
+DESL [analysis];DESL  [Analyse]
+DESX [analysis];DESX  [Analyse]
+DGK (Homomorphic Encryption);DGK (Homomorphische Verschlüsselung)
+GMSS signature;GMSS-Signatur
+SAT solver;SAT solver
+Password quality [visual];Passwortqualität [Visualisierung]
+Format preserving encryption (FPE);Formatbewahrende Verschlüsselung (FPE)
+Password hash (SHA-1);Passworthash (SHA-1)

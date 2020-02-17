@@ -21,28 +21,28 @@ CTO:de:static:27;Playfair-Chiffre;CTO:X;CTO:X \ Klassische Chiffren\ Playfair;1)
 CTO:de:static:28;Pollux;CTO:X;CTO:X \ Klassische Chiffren\ Pollux;1) Klassische Chiffren
 CTO:de:static:29;Polybius;CTO:X;CTO:X \ Klassische Chiffren\ Polybius;1) Klassische Chiffren
 CTO:de:static:30;Porta;CTO:X;CTO:X \ Klassische Chiffren\ Porta;1) Klassische Chiffren
-CTO:de:static:32;Rot-13;CTO:X;CTO:X \ Klassische Chiffren\ Caesar / Rot-13;1) Klassische Chiffren
+CTO:de:static:32;Caesar;CTO:X;CTO:X \ Klassische Chiffren\ Caesar / Rot-13;1) Klassische Chiffren
 CTO:de:static:33;Rotation;CTO:X;CTO:X \ Klassische Chiffren\ Rotation;1) Klassische Chiffren
 CTO:de:static:34;Skytale;CTO:X;CTO:X \ Klassische Chiffren\ Skytale;1) Klassische Chiffren
 CTO:de:static:37;Substitution;CTO:X;CTO:X \ Klassische Chiffren\ Monoalphabetische Substitution;1) Klassische Chiffren
 CTO:de:static:39;Templer;CTO:X;CTO:X \ Klassische Chiffren\ Templer;1) Klassische Chiffren
-CTO:de:static:40;Transposition (einfache und doppelte Spalten);CTO:X;CTO:X \ Klassische Chiffren\ Transposition;1) Klassische Chiffren
+CTO:de:static:40;Transposition (ein-stufige Spaltentransposition);CTO:X;CTO:X \ Klassische Chiffren\ Transposition;1) Klassische Chiffren
 CTO:de:static:42;Trithemius;CTO:X;CTO:X \ Klassische Chiffren\ Trithemius;1) Klassische Chiffren
 CTO:de:static:44;Vigenère-Chiffre;CTO:X;CTO:X \ Klassische Chiffren\ Vigenère;1) Klassische Chiffren
 CTO:de:static:49;AES;CTO:X;CTO:X \ Highlights\ AES;2) Moderne Chiffren
-CTO:de:static:233;Autokey-Analyse;CTO:X;CTO:X \ Kryptoanalyse\ Knacke Autokey;6) Klassische Kryptoanalyse
+CTO:de:static:233;Autokey [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ Knacke Autokey;6) Klassische Kryptoanalyse
 CTO:de:static:234;Autokorrelation;CTO:X;CTO:X \ Kryptoanalyse\ Autokorrelation;6) Klassische Kryptoanalyse
-CTO:de:static:242;Häufigkeits-Analyse;CTO:X;CTO:X \ Kryptoanalyse\ Häufigkeitsanalyse;6) Klassische Kryptoanalyse
-CTO:de:static:249;N-Gramm-Analyse;CTO:X;CTO:X \ Kryptoanalyse\ n-Gramm-Analyse;6) Klassische Kryptoanalyse
-CTO:de:static:259;Vigenère-Analyse;CTO:X;CTO:X \ Kryptoanalyse\ Knacke Vigenère;6) Klassische Kryptoanalyse
-CTO:de:static:297;Verteilte AES-Analyse;CTO:X;CTO:X \ Kryptoanalyse\ Verteilte AES-Analyse;7) Moderne Kryptoanalyse
+CTO:de:static:242;Häufigkeits [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ Häufigkeitsanalyse;6) Klassische Kryptoanalyse
+CTO:de:static:249;N-Gramm [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ n-Gramm-Analyse;6) Klassische Kryptoanalyse
+CTO:de:static:259;Vigenère [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ Knacke Vigenère;6) Klassische Kryptoanalyse
+CTO:de:static:297;Verteilte AES [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ Verteilte AES-Analyse;7) Moderne Kryptoanalyse
 CTO:de:static:307;ASCII;CTO:X;CTO:X \ Kodierungen\ ASCII;9) Kodierungen
 CTO:de:static:309;Bacon;CTO:X;CTO:X \ Kodierungen\ Bacon;9) Kodierungen
 CTO:de:static:310;Barcode-Generator;CTO:X;CTO:X \ Kodierungen\ Barcode-Generator;9) Kodierungen
-CTO:de:static:311;Base 64;CTO:X;CTO:X \ Kodierungen\ Base64;9) Kodierungen
-CTO:de:static:312;Base 64;CTO:X;CTO:X \ Kodierungen\ Base64;9) Kodierungen
+CTO:de:static:311;Base 64 Encoding/Decoding;CTO:X;CTO:X \ Kodierungen\ Base64;9) Kodierungen
+CTO:de:static:312;Base 64 Encoding/Decoding;CTO:X;CTO:X \ Kodierungen\ Base64;9) Kodierungen
 CTO:de:static:313;Code 39;CTO:X;CTO:X \ Kodierungen\ Code39;9) Kodierungen
 CTO:de:static:316;Huffman;CTO:X;CTO:X \ Kodierungen\ Huffman;9) Kodierungen
 CTO:de:static:317;Morse code;CTO:X;CTO:X \ Kodierungen\ Morsecode;9) Kodierungen
-CTO:de:static:368;Passwortqualität-Visualisierung;CTO:X;CTO:X \ Highlights\ Passwort-Check;10) Lernhilfen und Visualisierungen
+CTO:de:static:368;Passwortqualität [Visualisierung];CTO:X;CTO:X \ Highlights\ Passwort-Check;10) Lernhilfen und Visualisierungen
 CTO:de:static:424;Passwort-Generator;CTO:X;CTO:X \ Highlights\ Passwort-Generator;14) Werkzeuge

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefile
+export FLIST_IDMAP=1
+dir="$(dirname "$(readlink -f "$0")")"
+[[ -f "$dir/../idmap.txt" ]] && rm "$dir/../idmap.txt"
+"$dir/app"
+
+"$@"

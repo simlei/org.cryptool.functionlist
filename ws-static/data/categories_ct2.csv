@@ -1,659 +1,659 @@
-CT2:dynamic:cf86ce31;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ DES
-CT2:dynamic:f1a1b796;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
-CT2:dynamic:be45eaba;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
-CT2:dynamic:b65cc114;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Achterbahn
-CT2:dynamic:005f9b98;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Achterbahn Cipher
-CT2:dynamic:6823a28a;1) Classic Ciphers;CT2:C \ Classic Ciphers \ ADFGVX
+CT2:dynamic:7107f823;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ DES
+CT2:dynamic:6ecfa366;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:dynamic:a85673d5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:dynamic:c2144b97;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Achterbahn
+CT2:dynamic:573ce150;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Achterbahn Cipher
+CT2:dynamic:df53c191;1) Classic Ciphers;CT2:C \ Classic Ciphers \ ADFGVX
 CT2:dynamic:700b6d41;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ ADFGVX Cipher dictionary attack
-CT2:dynamic:8f4f26c2;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ ADFGVX Cipher
-CT2:dynamic:3a0d02ad;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ ADFGVX
-CT2:dynamic:99d09343;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ AES
-CT2:dynamic:56aa421b;2) Modern Ciphers;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
-CT2:dynamic:7bf9e18a;2) Modern Ciphers;CT2:T \ Codes \ QR Code Encryption
-CT2:dynamic:7bdf6ef5;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
-CT2:dynamic:61be0ffb;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
-CT2:dynamic:73cd9960;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ CBC-Attack
+CT2:dynamic:cf84eb83;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ ADFGVX Cipher
+CT2:dynamic:0fac6e5c;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ ADFGVX
+CT2:dynamic:bec5ea8e;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ AES
+CT2:dynamic:8422d4a8;2) Modern Ciphers;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
+CT2:dynamic:ff26068d;2) Modern Ciphers;CT2:T \ Codes \ QR Code Encryption
+CT2:dynamic:4ec49b37;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
+CT2:dynamic:16b4e535;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
+CT2:dynamic:52dd0947;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ CBC-Attack
 CT2:dynamic:83564435;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2)
-CT2:dynamic:17127af1;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
-CT2:dynamic:60b1af77;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
-CT2:dynamic:b0f0214d;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
-CT2:dynamic:0a3235df;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
-CT2:dynamic:f6737dae;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion
-CT2:dynamic:bd9f507c;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher (File Input)
-CT2:dynamic:1e45ca9f;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
-CT2:dynamic:79f8d1f9;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
-CT2:dynamic:c28aaa61;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
-CT2:dynamic:7a097bfc;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher (Text Input)
-CT2:dynamic:f1a1b796;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:dynamic:8a60556f;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
+CT2:dynamic:d066fe8d;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
+CT2:dynamic:2018f99f;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
+CT2:dynamic:30bcc28d;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
+CT2:dynamic:eb5dc93e;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion
+CT2:dynamic:39f98258;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher (File Input)
+CT2:dynamic:22c9485e;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
+CT2:dynamic:428d96db;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
+CT2:dynamic:924c9641;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
+CT2:dynamic:54aacd63;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher (Text Input)
+CT2:dynamic:6ecfa366;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
 CT2:dynamic:9f7c49b5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES*
 CT2:dynamic:16d4a394;7) Modern Cryptanalysis;CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES*
-CT2:dynamic:cea0f204;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
-CT2:dynamic:a51724fb;10) Learning Aids and Visualizations;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
-CT2:dynamic:88c11f4b;6) Classic Cryptanalysis;CT2:C \ Tools \ Data flow \ Alphabet Permutator
-CT2:dynamic:10b0af8e;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Substitution Cipher using a password
-CT2:dynamic:7c08b8e9;6) Classic Cryptanalysis;CT2:C \ Tools \ Data input \ output \ Alphabets
-CT2:dynamic:9f80a735;9) Codings;CT2:W \ Codes \ Encoding
-CT2:dynamic:a0cfedfb;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Autocorrelation
-CT2:dynamic:703acac0;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ Avalanche Visualization
-CT2:dynamic:1e0c925a;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (AES)
-CT2:dynamic:9e60b7cb;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (classic ciphers)
-CT2:dynamic:26bb554f;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (compare classic ciphers)
-CT2:dynamic:b1793d73;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (DES)
-CT2:dynamic:02cc5d34;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (hash functions)
-CT2:dynamic:540a2268;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (modern ciphers)
-CT2:dynamic:9f80a735;9) Codings;CT2:W \ Codes \ Encoding
-CT2:dynamic:9f80a735;9) Codings;CT2:W \ Codes \ Encoding
-CT2:dynamic:612ecc23;10) Learning Aids and Visualizations;CT2:T \ Protocols \ BB84 Key Exchange
-CT2:dynamic:2aff12db;13) Protocols;CT2:C \ Protocols \ BB84 Error Detector
-CT2:dynamic:39155289;13) Protocols;CT2:C \ Protocols \ BB84 Key Generator
-CT2:dynamic:c68b2faa;13) Protocols;CT2:C \ Protocols \ BB84 Man in the Middle
-CT2:dynamic:85a1839a;13) Protocols;CT2:C \ Protocols \ BB84 Photon Decoder
-CT2:dynamic:d2368a3c;13) Protocols;CT2:C \ Protocols \ BB84 Photon Encoder
-CT2:dynamic:3d2651cd;13) Protocols;CT2:C \ Protocols \ BB84 Photonbase Generator
-CT2:dynamic:612ecc23;13) Protocols;CT2:T \ Protocols \ BB84 Key Exchange
-CT2:dynamic:3ac30993;13) Protocols;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
-CT2:dynamic:3ac30993;10) Learning Aids and Visualizations;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
-CT2:dynamic:3ac30993;13) Protocols;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
-CT2:dynamic:dd1c1bf3;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm
-CT2:dynamic:00f08d6d;7) Modern Cryptanalysis;CT2:T \ Mathematics \ Berlekamp-Massey
+CT2:dynamic:ba917b7a;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Symmetric \ AES Visualization
+CT2:dynamic:275811cf;10) Learning Aids and Visualizations;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Visualization
+CT2:dynamic:db8f35b5;6) Classic Cryptanalysis;CT2:C \ Tools \ Data flow \ Alphabet Permutator
+CT2:dynamic:84dacfd4;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Substitution Cipher using a password
+CT2:dynamic:9e827a56;6) Classic Cryptanalysis;CT2:C \ Tools \ Data input \ output \ Alphabets
+CT2:dynamic:d106fa29;9) Codings;CT2:W \ Codes \ Encoding
+CT2:dynamic:f47a5e2c;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Autocorrelation
+CT2:dynamic:ff0dd677;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ Avalanche Visualization
+CT2:dynamic:2ceb85ce;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (AES)
+CT2:dynamic:487b3570;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (classic ciphers)
+CT2:dynamic:a335aaff;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (compare classic ciphers)
+CT2:dynamic:b5a8e831;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (DES)
+CT2:dynamic:78506994;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (hash functions)
+CT2:dynamic:e1ce73a6;10) Learning Aids and Visualizations;CT2:T \ Cryptanalysis \ Modern \ Avalanche (modern ciphers)
+CT2:dynamic:d106fa29;9) Codings;CT2:W \ Codes \ Encoding
+CT2:dynamic:d106fa29;9) Codings;CT2:W \ Codes \ Encoding
+CT2:dynamic:6bfd9e05;10) Learning Aids and Visualizations;CT2:T \ Protocols \ BB84 Key Exchange
+CT2:dynamic:48464514;13) Protocols;CT2:C \ Protocols \ BB84 Error Detector
+CT2:dynamic:862152d0;13) Protocols;CT2:C \ Protocols \ BB84 Key Generator
+CT2:dynamic:2cb48106;13) Protocols;CT2:C \ Protocols \ BB84 Man in the Middle
+CT2:dynamic:817d3b1e;13) Protocols;CT2:C \ Protocols \ BB84 Photon Decoder
+CT2:dynamic:0523d060;13) Protocols;CT2:C \ Protocols \ BB84 Photon Encoder
+CT2:dynamic:0c9e3370;13) Protocols;CT2:C \ Protocols \ BB84 Photonbase Generator
+CT2:dynamic:6bfd9e05;13) Protocols;CT2:T \ Protocols \ BB84 Key Exchange
+CT2:dynamic:4849fe47;13) Protocols;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
+CT2:dynamic:4849fe47;10) Learning Aids and Visualizations;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
+CT2:dynamic:4849fe47;13) Protocols;CT2:T \ Protocols \ BB84 Key Exchange with eavesdropping attack
+CT2:dynamic:77afa2cc;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm
+CT2:dynamic:906d70bf;7) Modern Cryptanalysis;CT2:T \ Mathematics \ Berlekamp-Massey
 CT2:dynamic:d2758241;7) Modern Cryptanalysis;CT2:C \ Protocols \ Bit Commitment Scheme
-CT2:dynamic:7652c9eb;7) Modern Cryptanalysis;CT2:T \ Mathematics \ ISAP Bit Commitment Scheme
+CT2:dynamic:08115411;7) Modern Cryptanalysis;CT2:T \ Mathematics \ ISAP Bit Commitment Scheme
 CT2:dynamic:9c75fba1;13) Protocols;CT2:C \ Protocols \ BitCommitmentScheme
-CT2:dynamic:7652c9eb;13) Protocols;CT2:T \ Mathematics \ ISAP Bit Commitment Scheme
-CT2:dynamic:822aae4c;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ BLAKE
-CT2:dynamic:97db6592;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ BLAKE
-CT2:dynamic:941ba2ed;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password storage using salted BLAKE-256
-CT2:dynamic:aa8de6fd;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password verification using salted BLAKE-256
-CT2:dynamic:857d0a77;14) Tools;CT2:C \ Tools \ Boolean \ Boolean Function Parser
-CT2:dynamic:d4f93dec;14) Tools;CT2:C \ Tools \ Boolean \ Boolean Binary Operator
-CT2:dynamic:7a28d19c;14) Tools;CT2:T \ Mathematics \ Booleans
-CT2:dynamic:86043104;14) Tools;CT2:C \ Tools \ Boolean \ Boolean If-Else Operator
-CT2:dynamic:8ce782f6;14) Tools;CT2:C \ Tools \ Boolean \ Boolean Not Operator
-CT2:dynamic:b405cb53;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Caesar
-CT2:dynamic:a86c5f7f;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Caesar Cipher
-CT2:dynamic:86adff31;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Caesar
-CT2:dynamic:389d93d7;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Caesar Analyzer
-CT2:dynamic:2ed0e587;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
-CT2:dynamic:a5cd5390;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
-CT2:dynamic:4b23729b;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Caesar
-CT2:dynamic:e0fd139a;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Camellia
-CT2:dynamic:da08242c;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Camellia Cipher
-CT2:dynamic:2718902f;14) Tools;CT2:C \ Tools \ Data flow \ Clock
-CT2:dynamic:f1acc4b7;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Coin Flipping
-CT2:dynamic:a27248d4;13) Protocols;CT2:T \ Protocols \ Coin Flipping Protocol
-CT2:dynamic:6799f728;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Cost Function
-CT2:dynamic:4b8a0803;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis
-CT2:dynamic:7e9f7b99;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Crib Analysis
-CT2:dynamic:ba19b61d;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Genetic Analysis
-CT2:dynamic:94f814a1;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis
-CT2:dynamic:7bdf6ef5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
-CT2:dynamic:61be0ffb;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
-CT2:dynamic:d20d7fe3;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
-CT2:dynamic:6ca8ae28;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
+CT2:dynamic:08115411;13) Protocols;CT2:T \ Mathematics \ ISAP Bit Commitment Scheme
+CT2:dynamic:02cbc531;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ BLAKE
+CT2:dynamic:0e2d21d1;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ BLAKE
+CT2:dynamic:794f15b7;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password storage using salted BLAKE-256
+CT2:dynamic:51a0bd50;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password verification using salted BLAKE-256
+CT2:dynamic:3b3dccb5;14) Tools;CT2:C \ Tools \ Boolean \ Boolean Function Parser
+CT2:dynamic:7f442e72;14) Tools;CT2:C \ Tools \ Boolean \ Boolean Binary Operator
+CT2:dynamic:6c794f0b;14) Tools;CT2:T \ Mathematics \ Booleans
+CT2:dynamic:79f6a048;14) Tools;CT2:C \ Tools \ Boolean \ Boolean If-Else Operator
+CT2:dynamic:d86fdbad;14) Tools;CT2:C \ Tools \ Boolean \ Boolean Not Operator
+CT2:dynamic:de7ab596;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Caesar
+CT2:dynamic:4d3e5d06;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Caesar Cipher
+CT2:dynamic:abfbe5ed;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Caesar
+CT2:dynamic:4d5c9d1c;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Caesar Analyzer
+CT2:dynamic:87965491;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
+CT2:dynamic:3c431f31;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
+CT2:dynamic:be99be1e;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Caesar
+CT2:dynamic:c02c923f;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Camellia
+CT2:dynamic:80156663;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Camellia Cipher
+CT2:dynamic:54b6a60a;14) Tools;CT2:C \ Tools \ Data flow \ Clock
+CT2:dynamic:65d9e7b9;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Coin Flipping
+CT2:dynamic:0d6cc2ea;13) Protocols;CT2:T \ Protocols \ Coin Flipping Protocol
+CT2:dynamic:0bcdffdd;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Cost Function
+CT2:dynamic:140ecd94;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis
+CT2:dynamic:89929fb1;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Crib Analysis
+CT2:dynamic:b9f939b4;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Genetic Analysis
+CT2:dynamic:2eb47312;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis
+CT2:dynamic:4ec49b37;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
+CT2:dynamic:16b4e535;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
+CT2:dynamic:01c2c292;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:dynamic:9ebef244;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
 CT2:dynamic:83564435;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2)
-CT2:dynamic:17127af1;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
-CT2:dynamic:d73d81e7;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
-CT2:dynamic:ce9b41b2;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
-CT2:dynamic:be45eaba;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
-CT2:dynamic:022949f5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
-CT2:dynamic:2c0e7089;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
-CT2:dynamic:61c83201;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup
-CT2:dynamic:b0f0214d;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
-CT2:dynamic:20105fc7;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup Key Generator
-CT2:dynamic:b0f0214d;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:64e47c1a;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Cube Attack
-CT2:dynamic:d84565bd;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Cube Attack on Trivium
+CT2:dynamic:8a60556f;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
+CT2:dynamic:a079a64a;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
+CT2:dynamic:7ce91c8c;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
+CT2:dynamic:a85673d5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:dynamic:2d9fac55;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
+CT2:dynamic:681fcae9;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
+CT2:dynamic:f320c8b9;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup
+CT2:dynamic:2018f99f;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
+CT2:dynamic:cfc872f1;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup Key Generator
+CT2:dynamic:2018f99f;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:8cb9cba6;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Cube Attack
+CT2:dynamic:4a772367;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Cube Attack on Trivium
 CT2:dynamic:f72e71ed;6) Classic Cryptanalysis;NOT in official release version (but on additional plugin's site)
-CT2:dynamic:1ce5e61c;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ Decimalization
-CT2:dynamic:d2b268dd;10) Learning Aids and Visualizations;CT2:T \ Mathematics \ Decimalization
-CT2:dynamic:a085109c;10) Learning Aids and Visualizations;CT2:T \ Tools \ Random Decimal Number
-CT2:dynamic:cf86ce31;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ DES
-CT2:dynamic:d20d7fe3;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
-CT2:dynamic:6ca8ae28;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
-CT2:dynamic:d73d81e7;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
-CT2:dynamic:be45eaba;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
-CT2:dynamic:ec647442;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
-CT2:dynamic:998a6b86;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers
-CT2:dynamic:4c9dfd8b;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Cipher
-CT2:dynamic:df11aae3;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
-CT2:dynamic:af5a9271;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
-CT2:dynamic:91728f56;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ DES
+CT2:dynamic:e1351121;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ Decimalization
+CT2:dynamic:28affbe7;10) Learning Aids and Visualizations;CT2:T \ Mathematics \ Decimalization
+CT2:dynamic:d37d0c74;10) Learning Aids and Visualizations;CT2:T \ Tools \ Random Decimal Number
+CT2:dynamic:7107f823;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ DES
+CT2:dynamic:01c2c292;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:dynamic:9ebef244;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
+CT2:dynamic:a079a64a;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
+CT2:dynamic:a85673d5;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:dynamic:383536da;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
+CT2:dynamic:8193e714;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers
+CT2:dynamic:14ff8bbc;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Cipher
+CT2:dynamic:a4f749cc;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
+CT2:dynamic:a1baf81c;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
+CT2:dynamic:df6cac56;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ DES
 CT2:dynamic:f61100b5;2) Modern Ciphers;CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ DES \ Ciphertext-only
-CT2:dynamic:f1a1b796;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:dynamic:6ecfa366;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
 CT2:dynamic:397613d0;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES*
 CT2:dynamic:1802724c;7) Modern Cryptanalysis;CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ DES*
-CT2:dynamic:b6e0ce42;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
-CT2:dynamic:abe71ce5;10) Learning Aids and Visualizations;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
-CT2:dynamic:a8107e15;6) Classic Cryptanalysis;CT2:C \ Tools \ Data input \ output \ Dictionary
-CT2:dynamic:a5cd5390;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
-CT2:dynamic:d44d9a93;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Scytale Brute-force Analysis
-CT2:dynamic:91fcee38;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Solitaire Brute-force Analysis
-CT2:dynamic:1165c47d;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis
+CT2:dynamic:df98fd55;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Symmetric \ DESVisualization
+CT2:dynamic:a3d6cc4e;10) Learning Aids and Visualizations;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
+CT2:dynamic:62698589;6) Classic Cryptanalysis;CT2:C \ Tools \ Data input \ output \ Dictionary
+CT2:dynamic:3c431f31;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
+CT2:dynamic:09103be1;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Scytale Brute-force Analysis
+CT2:dynamic:245b6ee9;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Solitaire Brute-force Analysis
+CT2:dynamic:545d06b6;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis
 CT2:dynamic:c2d89ce4;6) Classic Cryptanalysis;CT2:T \ Hash Functions \ Dictionary Attack
-CT2:dynamic:cb7b5999;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Dining Cryptographers Protocol
-CT2:dynamic:cb7b5999;13) Protocols;CT2:T \ Protocols \ Dining Cryptographers Protocol
-CT2:dynamic:61bba405;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Discrete Logarithm
-CT2:dynamic:c636ccc3;7) Modern Cryptanalysis;CT2:T \ Mathematics \ Discrete Logarithm
-CT2:dynamic:44a584ad;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ DGK
-CT2:dynamic:583b8483;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
-CT2:dynamic:7676e9c5;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Enigma
+CT2:dynamic:5c570de3;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Dining Cryptographers Protocol
+CT2:dynamic:5c570de3;13) Protocols;CT2:T \ Protocols \ Dining Cryptographers Protocol
+CT2:dynamic:aac6c95b;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Discrete Logarithm
+CT2:dynamic:540a9444;7) Modern Cryptanalysis;CT2:T \ Mathematics \ Discrete Logarithm
+CT2:dynamic:9c0e63f8;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ DGK
+CT2:dynamic:9445f2b0;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
+CT2:dynamic:b90ee365;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Enigma
 CT2:dynamic:6bd83d66;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
-CT2:dynamic:ea376d74;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Enigma Cipher Machine
-CT2:dynamic:6486905a;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Enigma
-CT2:dynamic:d52a0852;1) Classic Ciphers;CT2:W \ Cryptanalysis \ Classic Encryption \ Enigma
+CT2:dynamic:f086d69c;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Enigma Cipher Machine
+CT2:dynamic:047a7e5a;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Enigma
+CT2:dynamic:763babf1;1) Classic Ciphers;CT2:W \ Cryptanalysis \ Classic Encryption \ Enigma
 CT2:dynamic:bd715e1b;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Enigma
 CT2:dynamic:6bd83d66;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
 CT2:dynamic:8e2436e0;6) Classic Cryptanalysis;CT2:W \ Start \ Cryptanalysis \ Classic Encryption \ Enigma
-CT2:dynamic:7676e9c5;10) Learning Aids and Visualizations;CT2:C \ Classic Ciphers \ Enigma
-CT2:dynamic:6799f728;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Cost Function
-CT2:dynamic:fdaefe2e;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve
-CT2:dynamic:63a5c149;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force
-CT2:dynamic:77fd3a14;12) Prime numbers;CT2:C \ Cryptanalysis \ Generic \ Factorizer
-CT2:dynamic:f553a379;12) Prime numbers;CT2:T \ Mathematics \ Factorization with Trial Division (brute-force)
-CT2:dynamic:2507ff9a;6) Classic Cryptanalysis;CT2:C \ Classic Ciphers \ Fialka
-CT2:dynamic:bcfefb08;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka ED Check
-CT2:dynamic:352d92af;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka ED Mixed Mode Check
-CT2:dynamic:adc2ab3a;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka ED NumLock10 Check
-CT2:dynamic:ef9a0e35;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka Key Output
-CT2:dynamic:0a37e85f;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka M-125-3 PROTON II
-CT2:dynamic:96bb192e;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka M-125 PROTON I
-CT2:dynamic:d426821b;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Frequency Test
-CT2:dynamic:2ed0e587;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
+CT2:dynamic:b90ee365;10) Learning Aids and Visualizations;CT2:C \ Classic Ciphers \ Enigma
+CT2:dynamic:0bcdffdd;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Cost Function
+CT2:dynamic:5dc80c8d;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve
+CT2:dynamic:72e2365e;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force
+CT2:dynamic:31db148d;12) Prime numbers;CT2:C \ Cryptanalysis \ Generic \ Factorizer
+CT2:dynamic:8d09be5b;12) Prime numbers;CT2:T \ Mathematics \ Factorization with Trial Division (brute-force)
+CT2:dynamic:a1bd543d;6) Classic Cryptanalysis;CT2:C \ Classic Ciphers \ Fialka
+CT2:dynamic:577d7cc2;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka ED Check
+CT2:dynamic:7c171bb3;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka ED Mixed Mode Check
+CT2:dynamic:adbd6d2e;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka ED NumLock10 Check
+CT2:dynamic:bf55a73a;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka Key Output
+CT2:dynamic:1510f738;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka M-125-3 PROTON II
+CT2:dynamic:84b882a2;6) Classic Cryptanalysis;CT2:T \ Cryptography \ Classical \ Fialka M-125 PROTON I
+CT2:dynamic:8e123245;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Frequency Test
+CT2:dynamic:87965491;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
 CT2:dynamic:6bd83d66;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
-CT2:dynamic:81d754aa;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Frequency Analysis
-CT2:dynamic:af261e38;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
-CT2:dynamic:0d325f1f;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Friedman Test
+CT2:dynamic:07f3ff64;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Frequency Analysis
+CT2:dynamic:1e4e5830;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+CT2:dynamic:38022c01;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Friedman Test
 CT2:dynamic:6bd83d66;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Enigma Analysis
-CT2:dynamic:af261e38;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+CT2:dynamic:1e4e5830;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
 CT2:dynamic:9eda4758;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ General Number Field Sieve
 CT2:dynamic:6614b857;7) Modern Cryptanalysis;CT2:T \ Mathematics \ Factorization with General Number Field Sieve (GNFS)
-CT2:dynamic:c695b3ae;12) Prime numbers;CT2:C \ Tools \ Data input \ output \ Prime Generator
-CT2:dynamic:7bf9e18a;12) Prime numbers;CT2:T \ Codes \ QR Code Encryption
-CT2:dynamic:a6fc9e32;12) Prime numbers;CT2:T \ Mathematics \ Primes Generator
-CT2:dynamic:e5439cef;12) Prime numbers;CT2:T \ Protocols \ Diffie-Hellman Key-Exchange over network
-CT2:dynamic:76ba1834;12) Prime numbers;CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
-CT2:dynamic:01312ef1;12) Prime numbers;CT2:W \ Mathematical Functions \ Prime Operations \ Prime Number Generation
-CT2:dynamic:786a9c03;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes
-CT2:dynamic:2bf16c9e;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Grain v1
-CT2:dynamic:5fb4642c;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Grain v1 Cipher
-CT2:dynamic:cb0c4408;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ Grøstl
-CT2:dynamic:a82319ed;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Grøstl
-CT2:dynamic:3e012930;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password storage using salted Grøstl-256
-CT2:dynamic:477e2b17;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password verification using salted Grøstl-256
-CT2:dynamic:caf073e1;9) Codings;CT2:C \ Tools \ Misc \ HammingDistance
-CT2:dynamic:2166f1e9;9) Codings;CT2:T \ Hash Functions \ ImageHash
-CT2:dynamic:a607f3e6;9) Codings;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
-CT2:dynamic:89aaadf2;9) Codings;CT2:T \ Mathematics \ Hamming Distance
-CT2:dynamic:de38de21;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ HC128
-CT2:dynamic:ef00311c;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ HC128 Cipher
-CT2:dynamic:c827e60b;7) Modern Cryptanalysis;CT2:W \ Tools \ Heartbleed analysis
-CT2:dynamic:1a6faf45;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ HIGHT
-CT2:dynamic:26258a0c;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Hill Cipher
-CT2:dynamic:96e94937;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Hill Cipher
-CT2:dynamic:d923b0a4;3) Hash and MAC Algorithms;CT2:C \ Protocols \ HMAC
-CT2:dynamic:1ba2d2b7;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ HMAC
-CT2:dynamic:f29f67f4;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
+CT2:dynamic:87ba9260;12) Prime numbers;CT2:C \ Tools \ Data input \ output \ Prime Generator
+CT2:dynamic:ff26068d;12) Prime numbers;CT2:T \ Codes \ QR Code Encryption
+CT2:dynamic:f864640d;12) Prime numbers;CT2:T \ Mathematics \ Primes Generator
+CT2:dynamic:00553e82;12) Prime numbers;CT2:T \ Protocols \ Diffie-Hellman Key-Exchange over network
+CT2:dynamic:71227caf;12) Prime numbers;CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
+CT2:dynamic:155cbce6;12) Prime numbers;CT2:W \ Mathematical Functions \ Prime Operations \ Prime Number Generation
+CT2:dynamic:e62aeb6a;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes
+CT2:dynamic:5fd8dfc9;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Grain v1
+CT2:dynamic:8f95a066;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Grain v1 Cipher
+CT2:dynamic:04c175dc;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ Grøstl
+CT2:dynamic:5abf8c83;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Grøstl
+CT2:dynamic:db1bca27;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password storage using salted Grøstl-256
+CT2:dynamic:25a979a1;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password verification using salted Grøstl-256
+CT2:dynamic:ebeaa525;9) Codings;CT2:C \ Tools \ Misc \ HammingDistance
+CT2:dynamic:27c43121;9) Codings;CT2:T \ Hash Functions \ ImageHash
+CT2:dynamic:8108576e;9) Codings;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
+CT2:dynamic:2f4611a6;9) Codings;CT2:T \ Mathematics \ Hamming Distance
+CT2:dynamic:2271761c;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ HC128
+CT2:dynamic:9502c190;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ HC128 Cipher
+CT2:dynamic:a52d9b83;7) Modern Cryptanalysis;CT2:W \ Tools \ Heartbleed analysis
+CT2:dynamic:028662c8;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ HIGHT
+CT2:dynamic:1bcff38b;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Hill Cipher
+CT2:dynamic:1694e44a;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Hill Cipher
+CT2:dynamic:8b17e7f7;3) Hash and MAC Algorithms;CT2:C \ Protocols \ HMAC
+CT2:dynamic:b0bed92d;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ HMAC
+CT2:dynamic:e6f2b65e;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
 CT2:dynamic:fefe5fbd;10) Learning Aids and Visualizations;CT2:T \ Cryptography \ Modern \ Asymmetric \ Pailier*
-CT2:dynamic:0aa661c1;9) Codings;CT2:C \ Tools \ Misc \ Huffman
-CT2:dynamic:6cbb659e;9) Codings;CT2:T \ Tools \ Huffman's algorithm (ASCII)
-CT2:dynamic:62c1f476;9) Codings;CT2:T \ Tools \ Huffman's algorithm (BMG, JPG)
-CT2:dynamic:e24a967f;9) Codings;CT2:T \ Tools \ Huffman's algorithm (UTF-8)
-CT2:dynamic:6cc1425b;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ IDP Analyzer
-CT2:dynamic:c48408d1;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
-CT2:dynamic:b1669853;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ ImageHash
-CT2:dynamic:2166f1e9;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ ImageHash
-CT2:dynamic:a607f3e6;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
-CT2:dynamic:f5e52680;8) Steganography;CT2:C \ Steganography \ Insertion Steganography
-CT2:dynamic:3361f4ed;8) Steganography;CT2:T \ Steganography \ Steganography Insertion Decryption
-CT2:dynamic:3f20fc52;8) Steganography;CT2:T \ Steganography \ Steganography Insertion Encryption
-CT2:dynamic:58c4e887;8) Steganography;CT2:T \ Steganography \ Steganography Permutation Encryption
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:a6ce27af;9) Codings;CT2:C \ Tools \ Misc \ Huffman
+CT2:dynamic:e757db00;9) Codings;CT2:T \ Tools \ Huffman's algorithm (ASCII)
+CT2:dynamic:4642fe41;9) Codings;CT2:T \ Tools \ Huffman's algorithm (BMG, JPG)
+CT2:dynamic:23ee8009;9) Codings;CT2:T \ Tools \ Huffman's algorithm (UTF-8)
+CT2:dynamic:93a982fa;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ IDP Analyzer
+CT2:dynamic:d1cc2e93;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
+CT2:dynamic:0e5ca605;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ ImageHash
+CT2:dynamic:27c43121;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ ImageHash
+CT2:dynamic:8108576e;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
+CT2:dynamic:66e74015;8) Steganography;CT2:C \ Steganography \ Insertion Steganography
+CT2:dynamic:1e1a9d0f;8) Steganography;CT2:T \ Steganography \ Steganography Insertion Decryption
+CT2:dynamic:65d2a1da;8) Steganography;CT2:T \ Steganography \ Steganography Insertion Encryption
+CT2:dynamic:95987fd9;8) Steganography;CT2:T \ Steganography \ Steganography Permutation Encryption
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
 CT2:dynamic:0d440876;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Kasiski Test
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
 CT2:dynamic:4b094a1c;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Key Searcher
-CT2:dynamic:7bdf6ef5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
-CT2:dynamic:61be0ffb;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
-CT2:dynamic:d20d7fe3;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
-CT2:dynamic:6ca8ae28;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
+CT2:dynamic:4ec49b37;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1)
+CT2:dynamic:16b4e535;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1)
+CT2:dynamic:01c2c292;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:dynamic:9ebef244;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Known-Plaintext Analysis
 CT2:dynamic:83564435;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2)
-CT2:dynamic:17127af1;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
-CT2:dynamic:d73d81e7;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
-CT2:dynamic:ce9b41b2;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
-CT2:dynamic:be45eaba;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
-CT2:dynamic:022949f5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
-CT2:dynamic:2c0e7089;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
-CT2:dynamic:012416a2;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ Merkle-Hellman Knapsack
-CT2:dynamic:fa14f0f7;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ RSA (Coppersmith's attack)
-CT2:dynamic:e936ff15;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ GGH
-CT2:dynamic:98bd4e9a;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ LWE
-CT2:dynamic:9599223e;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Closest Vector Problem (CVP) \ Find closest vector
-CT2:dynamic:7c054183;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm
-CT2:dynamic:60eaabf4;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ LLL algorithm
-CT2:dynamic:0a563b6f;8) Steganography;CT2:C \ Steganography \ LSB Steganography
-CT2:dynamic:4d9e6af3;8) Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Decryption
-CT2:dynamic:4f3cff6b;8) Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Encryption
-CT2:dynamic:a87036af;8) Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Data Transfer
+CT2:dynamic:8a60556f;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2)
+CT2:dynamic:a079a64a;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ DES Brute-force Analysis
+CT2:dynamic:7ce91c8c;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
+CT2:dynamic:a85673d5;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:dynamic:2d9fac55;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
+CT2:dynamic:681fcae9;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
+CT2:dynamic:2620c2bd;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ Merkle-Hellman Knapsack
+CT2:dynamic:92ccea3d;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ RSA (Coppersmith's attack)
+CT2:dynamic:079b6361;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ GGH
+CT2:dynamic:69a152a0;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ LWE
+CT2:dynamic:ab0d49bd;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Closest Vector Problem (CVP) \ Find closest vector
+CT2:dynamic:18e48df5;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm
+CT2:dynamic:4ec98ac2;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ LLL algorithm
+CT2:dynamic:1da59521;8) Steganography;CT2:C \ Steganography \ LSB Steganography
+CT2:dynamic:a51fbbc4;8) Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Decryption
+CT2:dynamic:c54ed297;8) Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Encryption
+CT2:dynamic:d659e1bf;8) Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Data Transfer
 CT2:dynamic:880e445b;2) Modern Ciphers;CT2:C \ Protocols \ LFSR
 CT2:dynamic:d8847ade;2) Modern Ciphers;CT2:T \ Mathematics \ Linear Feedback Shift Register (LFSR)
-CT2:dynamic:292edb93;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Lorenz SZ42
-CT2:dynamic:8aa73c34;1) Classic Ciphers;CT2:C \ Classic Ciphers \ M-138
-CT2:dynamic:6756b4e6;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ M-138
-CT2:dynamic:28789d4c;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ M-138 Analyzer
-CT2:dynamic:ed360328;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ M-138 Ciphertext only Attack
-CT2:dynamic:789bec19;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ M-138 Known-Plaintext Attack
+CT2:dynamic:8bfdb910;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Lorenz SZ42
+CT2:dynamic:c4d49ab3;1) Classic Ciphers;CT2:C \ Classic Ciphers \ M-138
+CT2:dynamic:747cb25d;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ M-138
+CT2:dynamic:707a1e2f;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ M-138 Analyzer
+CT2:dynamic:0161c70e;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ M-138 Ciphertext only Attack
+CT2:dynamic:0d84b81e;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ M-138 Known-Plaintext Attack
 CT2:dynamic:64717d8e;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ M-138 Partially Known-Plaintext Attack
-CT2:dynamic:17adb7d1;1) Classic Ciphers;CT2:C \ Classic Ciphers \ M209
-CT2:dynamic:1b3e8ff7;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ M209 Cipher Machine
-CT2:dynamic:ed6e7572;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ M209 Key Setup
-CT2:dynamic:61f264b5;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ MD5
-CT2:dynamic:bb7249d8;3) Hash and MAC Algorithms;CT2:T \ Codes \ RSA signed QR code
-CT2:dynamic:1e45ca9f;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
-CT2:dynamic:1ba2d2b7;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ HMAC
-CT2:dynamic:94cfc039;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ MD5
-CT2:dynamic:e2cd4fb9;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ MD5 Collision Finder
-CT2:dynamic:23c8350f;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ MD5 Salted Hash Comparison
-CT2:dynamic:d52a935d;3) Hash and MAC Algorithms;CT2:W \ Cryptanalysis \ Modern Encryption \ Hash Functions \ MD5
-CT2:dynamic:e5d51179;7) Modern Cryptanalysis;CT2:C \ Hash functions \ MD5 Collider
-CT2:dynamic:e2cd4fb9;7) Modern Cryptanalysis;CT2:T \ Hash Functions \ MD5 Collision Finder
-CT2:dynamic:48a60607;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Mickey 2
+CT2:dynamic:6331c485;1) Classic Ciphers;CT2:C \ Classic Ciphers \ M209
+CT2:dynamic:aded86a5;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ M209 Cipher Machine
+CT2:dynamic:afc1b2ef;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ M209 Key Setup
+CT2:dynamic:85b7fb4d;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ MD5
+CT2:dynamic:bd3e7318;3) Hash and MAC Algorithms;CT2:T \ Codes \ RSA signed QR code
+CT2:dynamic:22c9485e;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
+CT2:dynamic:b0bed92d;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ HMAC
+CT2:dynamic:42530bf8;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ MD5
+CT2:dynamic:05f7f48d;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ MD5 Collision Finder
+CT2:dynamic:f37bea05;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ MD5 Salted Hash Comparison
+CT2:dynamic:65b87c0a;3) Hash and MAC Algorithms;CT2:W \ Cryptanalysis \ Modern Encryption \ Hash Functions \ MD5
+CT2:dynamic:a193455c;7) Modern Cryptanalysis;CT2:C \ Hash functions \ MD5 Collider
+CT2:dynamic:05f7f48d;7) Modern Cryptanalysis;CT2:T \ Hash Functions \ MD5 Collision Finder
+CT2:dynamic:67a9e529;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Mickey 2
 CT2:dynamic:ba60093f;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Mickey2 Cipher
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:4395a6d1;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer
-CT2:dynamic:7277bffb;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer
-CT2:dynamic:660cd144;9) Codings;CT2:C \ Tools \ Misc \ Morse Code
-CT2:dynamic:3e2734cc;9) Codings;CT2:T \ Codes \ Morse code
-CT2:dynamic:cbd94a0d;9) Codings;CT2:W \ Codes \ Morse code
-CT2:dynamic:ec60fd3e;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Navajo Code
-CT2:dynamic:08dda90d;10) Learning Aids and Visualizations;CT2:C \ Tools \ Data input \ output \ Network Receiver
-CT2:dynamic:ea5aa0c3;10) Learning Aids and Visualizations;CT2:C \ Tools \ Data input \ output \ Network Sender
-CT2:dynamic:5cf8d2eb;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Nihilist
-CT2:dynamic:35b252ff;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Nihilist Cipher
-CT2:dynamic:2f64b9e6;2) Modern Ciphers;CT2:C \ Protocols \ NLFSR
-CT2:dynamic:8a4e2fc5;2) Modern Ciphers;CT2:T \ Mathematics \ Non-Linear Feedback Shift Register (NLFSR)
-CT2:dynamic:bd5bf82e;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture
-CT2:dynamic:60340853;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering
-CT2:dynamic:a528ba80;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions
-CT2:dynamic:7b70d053;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots
-CT2:dynamic:2ebae299;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Oblivious Transfer 1
-CT2:dynamic:3bd0df61;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
-CT2:dynamic:f60cd05e;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Oblivious Transfer 2
-CT2:dynamic:3bd0df61;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
-CT2:dynamic:2ebae299;13) Protocols;CT2:C \ Protocols \ Oblivious Transfer 1
-CT2:dynamic:3bd0df61;13) Protocols;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
-CT2:dynamic:f60cd05e;13) Protocols;CT2:C \ Protocols \ Oblivious Transfer 2
-CT2:dynamic:3bd0df61;13) Protocols;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
-CT2:dynamic:ab8544b7;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle
-CT2:dynamic:60b1af77;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
-CT2:dynamic:ec647442;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
-CT2:dynamic:6e7a5d4c;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle Attack
-CT2:dynamic:60b1af77;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
-CT2:dynamic:6e7a5d4c;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle Attack
-CT2:dynamic:6e7a5d4c;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle Attack
-CT2:dynamic:ec647442;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
-CT2:dynamic:f29f67f4;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
-CT2:dynamic:a3e01a58;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
-CT2:dynamic:2e581ff4;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
-CT2:dynamic:4bc84d93;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding
-CT2:dynamic:f0ee873c;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator
-CT2:dynamic:c6e2f310;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
-CT2:dynamic:6ac2e691;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting)
-CT2:dynamic:bdb5fbf5;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ PasswordStrength
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:b32a5054;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer
+CT2:dynamic:42f544e9;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer
+CT2:dynamic:f897da02;9) Codings;CT2:C \ Tools \ Misc \ Morse Code
+CT2:dynamic:e5c0781e;9) Codings;CT2:T \ Codes \ Morse code
+CT2:dynamic:bbf7c50c;9) Codings;CT2:W \ Codes \ Morse code
+CT2:dynamic:65d3b310;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Navajo Code
+CT2:dynamic:002e95cb;10) Learning Aids and Visualizations;CT2:C \ Tools \ Data input \ output \ Network Receiver
+CT2:dynamic:d82f9ec8;10) Learning Aids and Visualizations;CT2:C \ Tools \ Data input \ output \ Network Sender
+CT2:dynamic:839a9a73;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Nihilist
+CT2:dynamic:de5e0a37;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Nihilist Cipher
+CT2:dynamic:591a714a;2) Modern Ciphers;CT2:C \ Protocols \ NLFSR
+CT2:dynamic:87ed6426;2) Modern Ciphers;CT2:T \ Mathematics \ Non-Linear Feedback Shift Register (NLFSR)
+CT2:dynamic:255d325c;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture
+CT2:dynamic:416edc6a;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering
+CT2:dynamic:a7fc3c90;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions
+CT2:dynamic:9af40e0f;10) Learning Aids and Visualizations;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots
+CT2:dynamic:20f05f84;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Oblivious Transfer 1
+CT2:dynamic:30af03b0;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:dynamic:bc5dc0e6;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Oblivious Transfer 2
+CT2:dynamic:30af03b0;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:dynamic:20f05f84;13) Protocols;CT2:C \ Protocols \ Oblivious Transfer 1
+CT2:dynamic:30af03b0;13) Protocols;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:dynamic:bc5dc0e6;13) Protocols;CT2:C \ Protocols \ Oblivious Transfer 2
+CT2:dynamic:30af03b0;13) Protocols;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:dynamic:72f8c4bf;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle
+CT2:dynamic:d066fe8d;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
+CT2:dynamic:383536da;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
+CT2:dynamic:f3591123;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle Attack
+CT2:dynamic:d066fe8d;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES
+CT2:dynamic:f3591123;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle Attack
+CT2:dynamic:f3591123;7) Modern Cryptanalysis;CT2:C \ Tools \ Misc \ Padding Oracle Attack
+CT2:dynamic:383536da;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES
+CT2:dynamic:e6f2b65e;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
+CT2:dynamic:251ceabb;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
+CT2:dynamic:2e2794f6;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
+CT2:dynamic:877b1003;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding
+CT2:dynamic:e617d83b;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator
+CT2:dynamic:2ec84efc;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
+CT2:dynamic:d832664e;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting)
+CT2:dynamic:2f9e0d8e;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ PasswordStrength
 CT2:dynamic:465b1542;10) Learning Aids and Visualizations;CT2:T \ Tools \ Password Generator
-CT2:dynamic:7b0f6a95;10) Learning Aids and Visualizations;CT2:T \ Tools \ Check Password Strength
-CT2:dynamic:79ca2a79;10) Learning Aids and Visualizations;CT2:W \ Tools \ Password Strength
+CT2:dynamic:add41267;10) Learning Aids and Visualizations;CT2:T \ Tools \ Check Password Strength
+CT2:dynamic:8455fa4e;10) Learning Aids and Visualizations;CT2:W \ Tools \ Password Strength
 CT2:dynamic:de631e5b;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password store using salted SHA-1
 CT2:dynamic:60860621;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Password verification using salted SHA-1
-CT2:dynamic:cca82098;8) Steganography;CT2:C \ Steganography \ Permutation Steganography
-CT2:dynamic:e15df669;8) Steganography;CT2:T \ Steganography \ Steganography Permutation Decryption
-CT2:dynamic:09c47f01;8) Steganography;CT2:T \ Steganography \ Steganography Permutation Image Transfer
+CT2:dynamic:e41c9a55;8) Steganography;CT2:C \ Steganography \ Permutation Steganography
+CT2:dynamic:df38fa6b;8) Steganography;CT2:T \ Steganography \ Steganography Permutation Decryption
+CT2:dynamic:e45d3a88;8) Steganography;CT2:T \ Steganography \ Steganography Permutation Image Transfer
 CT2:dynamic:2da99295;10) Learning Aids and Visualizations;CT2:N \ Crypto Tutorials \ Attack on PKCS#1 \ Attacks on PKCS#1 \ Bleichenbacher attack
 CT2:dynamic:385e3bf4;10) Learning Aids and Visualizations;CT2:N \ Crypto Tutorials \ Attack on PKCS#1 \ Attacks on PKCS#1 \ Attack with shorter keys (Kuehn)
-CT2:dynamic:cabb7b94;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ PKCS#5
-CT2:dynamic:56aa421b;3) Hash and MAC Algorithms;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
-CT2:dynamic:7bf9e18a;3) Hash and MAC Algorithms;CT2:T \ Codes \ QR Code Encryption
-CT2:dynamic:1e45ca9f;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
-CT2:dynamic:79f8d1f9;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
-CT2:dynamic:c28aaa61;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
-CT2:dynamic:79850b59;3) Hash and MAC Algorithms;CT2:T \ Tools \ Simple Video and Audio Chat using AES encryption
-CT2:dynamic:76ba1834;3) Hash and MAC Algorithms;CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
-CT2:dynamic:ca84a5a9;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Playfair
-CT2:dynamic:b1310ed9;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Playfair Cipher
-CT2:dynamic:d374627f;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Playfair
-CT2:dynamic:bd47f8a3;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ PRESENT
-CT2:dynamic:b5c27dbe;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ PRESENT Cipher
+CT2:dynamic:1fad91a6;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ PKCS#5
+CT2:dynamic:8422d4a8;3) Hash and MAC Algorithms;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
+CT2:dynamic:ff26068d;3) Hash and MAC Algorithms;CT2:T \ Codes \ QR Code Encryption
+CT2:dynamic:22c9485e;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5
+CT2:dynamic:428d96db;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
+CT2:dynamic:924c9641;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5
+CT2:dynamic:557fd6db;3) Hash and MAC Algorithms;CT2:T \ Tools \ Simple Video and Audio Chat using AES encryption
+CT2:dynamic:71227caf;3) Hash and MAC Algorithms;CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
+CT2:dynamic:d5d0498e;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Playfair
+CT2:dynamic:4821d4d9;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Playfair Cipher
+CT2:dynamic:2d6af45b;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Playfair
+CT2:dynamic:de4e6629;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ PRESENT
+CT2:dynamic:e2bdb7b6;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ PRESENT Cipher
 CT2:dynamic:1d9ab5d7;2) Modern Ciphers;CT2:T \ Tools \ Keccak PRNG
-CT2:dynamic:bd47f8a3;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Symmetric \ PRESENT
-CT2:dynamic:30ea5ddb;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number line
-CT2:dynamic:5e125a55;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number grid
-CT2:dynamic:bd76355d;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number of primes
-CT2:dynamic:e35f1e78;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Ulam's spiral
-CT2:dynamic:08c130c6;12) Prime numbers;CT2:C \ Cryptanalysis \ Generic \ Prime Test
-CT2:dynamic:0a96b9d6;12) Prime numbers;CT2:T \ Mathematics \ Primes Test
+CT2:dynamic:de4e6629;10) Learning Aids and Visualizations;CT2:C \ Modern Ciphers \ Symmetric \ PRESENT
+CT2:dynamic:2a6ea5d0;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number line
+CT2:dynamic:94a26176;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number grid
+CT2:dynamic:149fc1bd;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Number of primes
+CT2:dynamic:15cf60e7;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Distribution of Primes \ Ulam's spiral
+CT2:dynamic:0f1e3ca5;12) Prime numbers;CT2:C \ Cryptanalysis \ Generic \ Prime Test
+CT2:dynamic:bd5d19ab;12) Prime numbers;CT2:T \ Mathematics \ Primes Test
 CT2:dynamic:c96816ec;12) Prime numbers;CT2:W \ Start \ Mathematical Functions \ Prime Operations \ Prime Number Test
 CT2:dynamic:134af43b;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Sieve of Erastosthenes
-CT2:dynamic:e458b325;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Miller-Rabin test
-CT2:dynamic:12aac71e;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Sieve of Atkin
-CT2:dynamic:cc4d995d;12) Prime numbers;CT2:W \ Mathematical Functions \ Prime Factorization
-CT2:dynamic:5e758549;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes
-CT2:dynamic:da91683b;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Purple
-CT2:dynamic:1758f158;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ PURPLE Cipher Machine
+CT2:dynamic:f8b8cae6;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Miller-Rabin test
+CT2:dynamic:b1df4be6;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes \ Primality Test \ Sieve of Atkin
+CT2:dynamic:2399720b;12) Prime numbers;CT2:W \ Mathematical Functions \ Prime Factorization
+CT2:dynamic:c3e2ccef;12) Prime numbers;CT2:N \ Crypto Tutorials \ World of Primes
+CT2:dynamic:d5823b0e;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Purple
+CT2:dynamic:205951c4;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ PURPLE Cipher Machine
 CT2:dynamic:cb0b0012;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Quadratic Sieve (QS)
 CT2:dynamic:68abd288;7) Modern Cryptanalysis;CT2:T \ Mathematics \ Factorization with Quadratic Sieve
-CT2:dynamic:73788f30;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Rabbit
-CT2:dynamic:8f833150;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Rabbit Cipher
-CT2:dynamic:73373b32;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ RC2
-CT2:dynamic:d20d7fe3;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
-CT2:dynamic:50b51e16;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ RC2 Cipher
-CT2:dynamic:cf361661;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ RC2
-CT2:dynamic:f1a1b796;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
-CT2:dynamic:e6e79e45;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ RC4
-CT2:dynamic:9c1861fd;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ RC4 Cipher
-CT2:dynamic:99d09343;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ AES
+CT2:dynamic:280d14e3;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Rabbit
+CT2:dynamic:83ef1e9d;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Rabbit Cipher
+CT2:dynamic:c3693fd0;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ RC2
+CT2:dynamic:01c2c292;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ DES Analysis using Entropy
+CT2:dynamic:595a34d1;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ RC2 Cipher
+CT2:dynamic:6bc70544;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ RC2
+CT2:dynamic:6ecfa366;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:dynamic:2fdecacd;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ RC4
+CT2:dynamic:9248f596;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ RC4 Cipher
+CT2:dynamic:bec5ea8e;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ AES
 CT2:dynamic:8ee90a4e;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ AES*
-CT2:dynamic:ecf1ca65;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ RIPEMD160
-CT2:dynamic:27ce4be0;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ RIPEMD160
-CT2:dynamic:b405cb53;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Caesar
+CT2:dynamic:dabf8391;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ RIPEMD160
+CT2:dynamic:39143e5b;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ RIPEMD160
+CT2:dynamic:de7ab596;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Caesar
 CT2:dynamic:3c20813d;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ CaesarCipher
 CT2:dynamic:19512f8c;1) Classic Ciphers;CT2:W \ Start \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Caesar
-CT2:dynamic:c835779e;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ RSA
-CT2:dynamic:bb7249d8;2) Modern Ciphers;CT2:T \ Codes \ RSA signed QR code
-CT2:dynamic:1e5c00bc;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
-CT2:dynamic:f9c47ee1;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Decryption
-CT2:dynamic:9d59f750;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Encryption
+CT2:dynamic:6e704fec;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ RSA
+CT2:dynamic:bd3e7318;2) Modern Ciphers;CT2:T \ Codes \ RSA signed QR code
+CT2:dynamic:a61c38b5;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
+CT2:dynamic:dd4791b2;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Decryption
+CT2:dynamic:c0f99070;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Encryption
 CT2:dynamic:9d0d7db5;2) Modern Ciphers;CT2:T \ Protocols \ Yao's Millionaire Problem
-CT2:dynamic:0b42ca4b;2) Modern Ciphers;CT2:W \ Cryptanalysis \ Modern Encryption \ Asymmetric Encryption \ RSA
-CT2:dynamic:87cd68ab;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Decryption
-CT2:dynamic:3b4fb164;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Encryption
-CT2:dynamic:0ab14b2e;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
-CT2:dynamic:bb7249d8;2) Modern Ciphers;CT2:T \ Codes \ RSA signed QR code
-CT2:dynamic:1e5c00bc;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
-CT2:dynamic:327a8a27;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Key Generator
-CT2:dynamic:3bd0df61;2) Modern Ciphers;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:dynamic:3ad8b78a;2) Modern Ciphers;CT2:W \ Cryptanalysis \ Modern Encryption \ Asymmetric Encryption \ RSA
+CT2:dynamic:4924fef3;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Decryption
+CT2:dynamic:b24c3947;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Asymmetric Encryption \ Decryption \ RSA \ RSA Encryption
+CT2:dynamic:024c4ba4;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
+CT2:dynamic:bd3e7318;2) Modern Ciphers;CT2:T \ Codes \ RSA signed QR code
+CT2:dynamic:a61c38b5;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
+CT2:dynamic:39b19072;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Key Generator
+CT2:dynamic:30af03b0;2) Modern Ciphers;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
 CT2:dynamic:9d0d7db5;2) Modern Ciphers;CT2:T \ Protocols \ Yao's Millionaire Problem
 CT2:dynamic:0de3f7e0;7) Modern Cryptanalysis;CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Asymmetric Encryption \ RSA
-CT2:dynamic:303cfcd5;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Salsa20
-CT2:dynamic:9bec0df3;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Salsa20 Cipher
-CT2:dynamic:7491f335;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ SAT Solver
-CT2:dynamic:f3fa4d7f;10) Learning Aids and Visualizations;CT2:T \ Mathematics \ SAT Solver (File Input)
-CT2:dynamic:1c6afb49;10) Learning Aids and Visualizations;CT2:T \ Mathematics \ SAT Solver (Text Input)
-CT2:dynamic:4277e266;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Scytale
-CT2:dynamic:d44d9a93;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ Scytale Brute-force Analysis
-CT2:dynamic:1122b2dc;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Scytale Cipher
-CT2:dynamic:54c4d93d;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Scytale
-CT2:dynamic:6b8d2d0b;1) Classic Ciphers;CT2:W \ Cryptanalysis \ Classic Encryption \ Scytale
+CT2:dynamic:5adfcb5e;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Salsa20
+CT2:dynamic:633504d7;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Salsa20 Cipher
+CT2:dynamic:141bf921;10) Learning Aids and Visualizations;CT2:C \ Tools \ Misc \ SAT Solver
+CT2:dynamic:d515fa96;10) Learning Aids and Visualizations;CT2:T \ Mathematics \ SAT Solver (File Input)
+CT2:dynamic:dc80e474;10) Learning Aids and Visualizations;CT2:T \ Mathematics \ SAT Solver (Text Input)
+CT2:dynamic:1ed702fa;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Scytale
+CT2:dynamic:09103be1;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ Scytale Brute-force Analysis
+CT2:dynamic:5f61cb32;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Scytale Cipher
+CT2:dynamic:964f6ffa;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Scytale
+CT2:dynamic:cc3ff38a;1) Classic Ciphers;CT2:W \ Cryptanalysis \ Classic Encryption \ Scytale
 CT2:dynamic:8b7277c0;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Scytale Brute-force Analysis
 CT2:dynamic:25f2f2f3;6) Classic Cryptanalysis;CT2:W \ Start \ Cryptanalysis \ Classic Encryption \ Scytale
-CT2:dynamic:f1a1b796;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
+CT2:dynamic:6ecfa366;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ KeySearcher
 CT2:dynamic:96dbd2fb;7) Modern Cryptanalysis;CT2:T \ Cryptanalysis \ Modern \ SDES*
 CT2:dynamic:45c9d5bf;7) Modern Cryptanalysis;CT2:W \ Start \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES*
-CT2:dynamic:1b289daf;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
-CT2:dynamic:720937c1;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ SHA-1 Collision
-CT2:dynamic:0f22bc4d;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ SHA-1
-CT2:dynamic:0a3235df;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
+CT2:dynamic:0dc7115b;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
+CT2:dynamic:63b163ea;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ SHA-1 Collision
+CT2:dynamic:a9a54492;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ SHA-1
+CT2:dynamic:30bcc28d;3) Hash and MAC Algorithms;CT2:T \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes
 CT2:dynamic:c2d89ce4;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Dictionary Attack
-CT2:dynamic:fc8c441d;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ PBKDF-1 (PKCS#5 2.0)
-CT2:dynamic:a27248d4;3) Hash and MAC Algorithms;CT2:T \ Protocols \ Coin Flipping Protocol
-CT2:dynamic:6e003760;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ SHA-256
+CT2:dynamic:481a3724;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ PBKDF-1 (PKCS#5 2.0)
+CT2:dynamic:0d6cc2ea;3) Hash and MAC Algorithms;CT2:T \ Protocols \ Coin Flipping Protocol
+CT2:dynamic:bb372c2c;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ SHA-256
 CT2:dynamic:465b1542;3) Hash and MAC Algorithms;CT2:T \ Tools \ Password Generator
-CT2:dynamic:16e78af0;3) Hash and MAC Algorithms;CT2:T \ Tools \ Simple AES Chat
-CT2:dynamic:1b289daf;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
-CT2:dynamic:1b289daf;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
-CT2:dynamic:1b289daf;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
-CT2:dynamic:458ddd69;5) Random Number Generators;CT2:C \ Hash functions \ Keccak
-CT2:dynamic:d0a4f459;5) Random Number Generators;CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
-CT2:dynamic:8f9832bd;5) Random Number Generators;CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
+CT2:dynamic:05095ecf;3) Hash and MAC Algorithms;CT2:T \ Tools \ Simple AES Chat
+CT2:dynamic:0dc7115b;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
+CT2:dynamic:0dc7115b;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
+CT2:dynamic:0dc7115b;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
+CT2:dynamic:a410b7f2;5) Random Number Generators;CT2:C \ Hash functions \ Keccak
+CT2:dynamic:765b42d7;5) Random Number Generators;CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
+CT2:dynamic:d3cfb48d;5) Random Number Generators;CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
 CT2:dynamic:1d9ab5d7;5) Random Number Generators;CT2:T \ Tools \ Keccak PRNG
 CT2:dynamic:5cc18ed3;2) Modern Ciphers;CT2:T \ Cryptography \ Modern Ciphers \ Symmetric \ Keccak Streamcipher
-CT2:dynamic:1b289daf;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
-CT2:dynamic:1b289daf;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
-CT2:dynamic:1b289daf;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
-CT2:dynamic:06be1b56;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ SDES
-CT2:dynamic:ce9b41b2;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
-CT2:dynamic:022949f5;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
-CT2:dynamic:2c0e7089;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
-CT2:dynamic:78f0001a;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ SDES Cipher
-CT2:dynamic:752d9c84;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ SDES
-CT2:dynamic:d04bb1a5;2) Modern Ciphers;CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES \ Ciphertext-only
-CT2:dynamic:b312e6fc;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Solitaire
-CT2:dynamic:147686ec;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Solitaire Cipher
+CT2:dynamic:0dc7115b;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
+CT2:dynamic:0dc7115b;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
+CT2:dynamic:0dc7115b;3) Hash and MAC Algorithms;CT2:C \ Hash functions \ SHA
+CT2:dynamic:51313843;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ SDES
+CT2:dynamic:7ce91c8c;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
+CT2:dynamic:2d9fac55;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
+CT2:dynamic:681fcae9;2) Modern Ciphers;CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
+CT2:dynamic:ec06f540;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ SDES Cipher
+CT2:dynamic:efc43b46;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ SDES
+CT2:dynamic:8c203ce9;2) Modern Ciphers;CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES \ Ciphertext-only
+CT2:dynamic:554fbba7;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Solitaire
+CT2:dynamic:8d33ce7e;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Solitaire Cipher
 CT2:dynamic:de9d322b;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ SolitaireAnalyser
-CT2:dynamic:91fcee38;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Solitaire Brute-force Analysis
-CT2:dynamic:9bfbd6f2;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Sosemanuk
-CT2:dynamic:3445c236;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Sosemanuk Cipher
-CT2:dynamic:04dcec57;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Spanish Strip Cipher
-CT2:dynamic:6b7a8f82;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Spanish Strip Cipher
-CT2:dynamic:5ddec3ce;6) Classic Cryptanalysis;CT2:C \ Tools \ Misc \ Stream Comparator
-CT2:dynamic:0988d39a;14) Tools;CT2:C \ Tools \ Misc \ String Operations
-CT2:dynamic:5ab8b408;14) Tools;CT2:T \ Mathematics \ Levenshtein Distance
-CT2:dynamic:ee5d7603;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Substitution
-CT2:dynamic:ec60fd3e;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Navajo Code
-CT2:dynamic:535fe8cb;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Substitution Cipher
-CT2:dynamic:10b0af8e;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Substitution Cipher using a password
-CT2:dynamic:052ca244;1) Classic Ciphers;CT2:T \ Tools \ Split a text
-CT2:dynamic:06cb38a8;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Substitution
+CT2:dynamic:245b6ee9;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Solitaire Brute-force Analysis
+CT2:dynamic:f8377efb;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Sosemanuk
+CT2:dynamic:ab477584;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Sosemanuk Cipher
+CT2:dynamic:4ddf5784;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Spanish Strip Cipher
+CT2:dynamic:bb4a0f5e;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Spanish Strip Cipher
+CT2:dynamic:360703f8;6) Classic Cryptanalysis;CT2:C \ Tools \ Misc \ Stream Comparator
+CT2:dynamic:188ab1e9;14) Tools;CT2:C \ Tools \ Misc \ String Operations
+CT2:dynamic:686cf64a;14) Tools;CT2:T \ Mathematics \ Levenshtein Distance
+CT2:dynamic:a8a53ca7;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Substitution
+CT2:dynamic:65d3b310;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Navajo Code
+CT2:dynamic:8336c464;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Substitution Cipher
+CT2:dynamic:84dacfd4;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Substitution Cipher using a password
+CT2:dynamic:19703d30;1) Classic Ciphers;CT2:T \ Tools \ Split a text
+CT2:dynamic:277fb15d;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Substitution
 CT2:dynamic:f71a9e35;1) Classic Ciphers;CT2:C \ Classic Ciphers \ T-310 \ 50
 CT2:dynamic:8f2bc29a;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ T310 \ 50 Cipher Machine
-CT2:dynamic:2ce07521;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ TEA
-CT2:dynamic:bd4eac56;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ TEA Cipher
+CT2:dynamic:c7056167;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ TEA
+CT2:dynamic:56fce376;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ TEA Cipher
 CT2:dynamic:d6a5e780;2) Modern Ciphers;CT2:W \ Start \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ TEA
-CT2:dynamic:03b86446;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ Tiger
-CT2:dynamic:f03f1f93;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Tiger
-CT2:dynamic:7ab976df;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Transcriptor
-CT2:dynamic:21d0a853;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transcriptor -- manual mode
-CT2:dynamic:345464ee;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transcriptor -- semi-automatic mode
-CT2:dynamic:124798f3;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Transposition
-CT2:dynamic:124798f3;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Transposition
-CT2:dynamic:4f09fa61;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Transposition Cipher
-CT2:dynamic:724c9bc1;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Transposition Analyzer
-CT2:dynamic:c48408d1;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
-CT2:dynamic:4b8a0803;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis
-CT2:dynamic:7e9f7b99;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Crib Analysis
-CT2:dynamic:ba19b61d;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Genetic Analysis
-CT2:dynamic:94f814a1;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis
-CT2:dynamic:cfa76c3c;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Brute-force
-CT2:dynamic:4a444bb6;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Crib
-CT2:dynamic:aed1aef8;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Genetic
-CT2:dynamic:cdaf359d;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Trivium
-CT2:dynamic:9565abfc;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Twofish
-CT2:dynamic:64857ba4;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Twofish Cipher
-CT2:dynamic:343e5c7d;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ Twofish
-CT2:dynamic:4a790717;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Vernam
-CT2:dynamic:a5998c23;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Vigenère
-CT2:dynamic:af261e38;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
-CT2:dynamic:a97ff4f0;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ Vigenère Analysis
-CT2:dynamic:b0520d55;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Vigenère Cipher
-CT2:dynamic:4bbbe502;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Vigenère
-CT2:dynamic:66e9b1fd;1) Classic Ciphers;CT2:W \ Cryptanalysis \ Classic Encryption \ Vigenère
-CT2:dynamic:2bfd17c5;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Vigenère Analyzer
-CT2:dynamic:02ba8964;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Kryptos K1 Analysis
-CT2:dynamic:29ec528a;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Kryptos K2 Analysis
-CT2:dynamic:66e9b1fd;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Vigenère
-CT2:dynamic:af261e38;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
-CT2:dynamic:a97ff4f0;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Vigenère Analysis
-CT2:dynamic:bb3369e5;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Smartcard
-CT2:dynamic:5ac7eb49;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Communication with a SmartCard
-CT2:dynamic:bb3369e5;13) Protocols;CT2:C \ Protocols \ Smartcard
-CT2:dynamic:5ac7eb49;13) Protocols;CT2:T \ Protocols \ Communication with a SmartCard
-CT2:dynamic:78678735;13) Protocols;CT2:C \ Protocols \ Smartcard Interpreter
-CT2:dynamic:1a5f9d3d;9) Codings;CT2:C \ Tools \ Misc \ Visual Decoder
-CT2:dynamic:f7ab9d92;9) Codings;CT2:C \ Tools \ Misc \ Visual Encoder
-CT2:dynamic:56aa421b;9) Codings;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
-CT2:dynamic:8bf79846;9) Codings;CT2:T \ Codes \ Create QR Code
-CT2:dynamic:7bf9e18a;9) Codings;CT2:T \ Codes \ QR Code Encryption
-CT2:dynamic:bb7249d8;9) Codings;CT2:T \ Codes \ RSA signed QR code
-CT2:dynamic:f5c1b6f4;9) Codings;CT2:T \ Codes \ VCard
-CT2:dynamic:ce612ab7;9) Codings;CT2:T \ Codes \ Decode QR code file
-CT2:dynamic:7bf9e18a;9) Codings;CT2:T \ Codes \ QR Code Encryption
-CT2:dynamic:bb7249d8;9) Codings;CT2:T \ Codes \ RSA signed QR code
-CT2:dynamic:2c08290f;9) Codings;CT2:T \ Codes \ Simple detection of optical codes
-CT2:dynamic:1700114a;9) Codings;CT2:W \ Codes \ Create visual code
-CT2:dynamic:4d44e23e;9) Codings;CT2:W \ Codes \ Decode visual code
-CT2:dynamic:1a5f9d3d;9) Codings;CT2:C \ Tools \ Misc \ Visual Decoder
-CT2:dynamic:f7ab9d92;9) Codings;CT2:C \ Tools \ Misc \ Visual Encoder
-CT2:dynamic:240447b3;8) Steganography;CT2:C \ Steganography \ Watermark Creator
-CT2:dynamic:e7a87581;8) Steganography;CT2:T \ Steganography \ Watermark Creator -- invisible watermark
-CT2:dynamic:4e1ae8fe;8) Steganography;CT2:T \ Steganography \ Watermark Creator -- Robustness
-CT2:dynamic:26a1314e;8) Steganography;CT2:T \ Steganography \ Watermark Creator -- visible watermark
-CT2:dynamic:bd235841;7) Modern Cryptanalysis;CT2:C \ Protocols \ Attacks on the WEP protocol
-CT2:dynamic:56b2ff86;7) Modern Cryptanalysis;CT2:T \ Protocols \ WEP Attack
-CT2:dynamic:ee339331;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ Whirlpool
-CT2:dynamic:2b445778;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Whirlpool
-CT2:dynamic:cdd977b0;2) Modern Ciphers;CT2:C \ Protocols \ WEP Protocol
-CT2:dynamic:56b2ff86;2) Modern Ciphers;CT2:T \ Protocols \ WEP Attack
-CT2:dynamic:cdd977b0;13) Protocols;CT2:C \ Protocols \ WEP Protocol
-CT2:dynamic:23c0aae4;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Word Patterns
-CT2:dynamic:1165c47d;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis
-CT2:dynamic:78c54d4f;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis with self-defined dictionary
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:98032e2b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
-CT2:dynamic:427a0fbf;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
-CT2:dynamic:552c714b;1) Classic Ciphers;CT2:C \ Classic Ciphers \ XOR
+CT2:dynamic:6fb94a9b;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ Tiger
+CT2:dynamic:519dfc31;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Tiger
+CT2:dynamic:2d86a530;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Transcriptor
+CT2:dynamic:5ce19e71;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transcriptor -- manual mode
+CT2:dynamic:9c42d797;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transcriptor -- semi-automatic mode
+CT2:dynamic:44d06a9d;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Transposition
+CT2:dynamic:44d06a9d;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Transposition
+CT2:dynamic:e8be881f;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Transposition Cipher
+CT2:dynamic:230055f1;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Transposition Analyzer
+CT2:dynamic:d1cc2e93;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
+CT2:dynamic:140ecd94;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis
+CT2:dynamic:89929fb1;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Crib Analysis
+CT2:dynamic:b9f939b4;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Genetic Analysis
+CT2:dynamic:2eb47312;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis
+CT2:dynamic:94f36bdc;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Brute-force
+CT2:dynamic:ba35211d;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Crib
+CT2:dynamic:317e0545;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Genetic
+CT2:dynamic:dea04989;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Trivium
+CT2:dynamic:0dd5a090;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Twofish
+CT2:dynamic:af0ce5d4;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Twofish Cipher
+CT2:dynamic:bd4bb509;2) Modern Ciphers;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ Twofish
+CT2:dynamic:5cbd0bef;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Vernam
+CT2:dynamic:73039c94;1) Classic Ciphers;CT2:C \ Classic Ciphers \ Vigenère
+CT2:dynamic:1e4e5830;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+CT2:dynamic:2c2d9382;1) Classic Ciphers;CT2:T \ Cryptanalysis \ Classical \ Vigenère Analysis
+CT2:dynamic:aa16b1fe;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Vigenère Cipher
+CT2:dynamic:9c264a7e;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Vigenère
+CT2:dynamic:4adce5d9;1) Classic Ciphers;CT2:W \ Cryptanalysis \ Classic Encryption \ Vigenère
+CT2:dynamic:6c6b2bda;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Vigenère Analyzer
+CT2:dynamic:f5649706;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Kryptos K1 Analysis
+CT2:dynamic:75629cf5;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Kryptos K2 Analysis
+CT2:dynamic:4adce5d9;6) Classic Cryptanalysis;CT2:W \ Cryptanalysis \ Classic Encryption \ Vigenère
+CT2:dynamic:1e4e5830;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
+CT2:dynamic:2c2d9382;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Vigenère Analysis
+CT2:dynamic:31d60b0b;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Smartcard
+CT2:dynamic:88b0579e;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Communication with a SmartCard
+CT2:dynamic:31d60b0b;13) Protocols;CT2:C \ Protocols \ Smartcard
+CT2:dynamic:88b0579e;13) Protocols;CT2:T \ Protocols \ Communication with a SmartCard
+CT2:dynamic:e29afff9;13) Protocols;CT2:C \ Protocols \ Smartcard Interpreter
+CT2:dynamic:c8ad35d8;9) Codings;CT2:C \ Tools \ Misc \ Visual Decoder
+CT2:dynamic:d5f9b98d;9) Codings;CT2:C \ Tools \ Misc \ Visual Encoder
+CT2:dynamic:8422d4a8;9) Codings;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
+CT2:dynamic:ad9a4300;9) Codings;CT2:T \ Codes \ Create QR Code
+CT2:dynamic:ff26068d;9) Codings;CT2:T \ Codes \ QR Code Encryption
+CT2:dynamic:bd3e7318;9) Codings;CT2:T \ Codes \ RSA signed QR code
+CT2:dynamic:5f963e33;9) Codings;CT2:T \ Codes \ VCard
+CT2:dynamic:ecbb9ede;9) Codings;CT2:T \ Codes \ Decode QR code file
+CT2:dynamic:ff26068d;9) Codings;CT2:T \ Codes \ QR Code Encryption
+CT2:dynamic:bd3e7318;9) Codings;CT2:T \ Codes \ RSA signed QR code
+CT2:dynamic:a849b84b;9) Codings;CT2:T \ Codes \ Simple detection of optical codes
+CT2:dynamic:776aa0fb;9) Codings;CT2:W \ Codes \ Create visual code
+CT2:dynamic:bd5e70f3;9) Codings;CT2:W \ Codes \ Decode visual code
+CT2:dynamic:c8ad35d8;9) Codings;CT2:C \ Tools \ Misc \ Visual Decoder
+CT2:dynamic:d5f9b98d;9) Codings;CT2:C \ Tools \ Misc \ Visual Encoder
+CT2:dynamic:20631e20;8) Steganography;CT2:C \ Steganography \ Watermark Creator
+CT2:dynamic:60fe9232;8) Steganography;CT2:T \ Steganography \ Watermark Creator -- invisible watermark
+CT2:dynamic:2b38cb12;8) Steganography;CT2:T \ Steganography \ Watermark Creator -- Robustness
+CT2:dynamic:765d6bef;8) Steganography;CT2:T \ Steganography \ Watermark Creator -- visible watermark
+CT2:dynamic:8dab0b0d;7) Modern Cryptanalysis;CT2:C \ Protocols \ Attacks on the WEP protocol
+CT2:dynamic:4ed6f2df;7) Modern Cryptanalysis;CT2:T \ Protocols \ WEP Attack
+CT2:dynamic:7b27b898;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ Whirlpool
+CT2:dynamic:9b858d6e;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ Whirlpool
+CT2:dynamic:2ab6fce7;2) Modern Ciphers;CT2:C \ Protocols \ WEP Protocol
+CT2:dynamic:4ed6f2df;2) Modern Ciphers;CT2:T \ Protocols \ WEP Attack
+CT2:dynamic:2ab6fce7;13) Protocols;CT2:C \ Protocols \ WEP Protocol
+CT2:dynamic:0e663871;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Generic \ Word Patterns
+CT2:dynamic:545d06b6;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis
+CT2:dynamic:b73559ad;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Wordpattern Analysis with self-defined dictionary
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:01152856;3) Hash and MAC Algorithms;CT2:C \ Hash Functions \ CRC
+CT2:dynamic:05c86955;3) Hash and MAC Algorithms;CT2:T \ Hash Functions \ CRC
+CT2:dynamic:4452a86e;1) Classic Ciphers;CT2:C \ Classic Ciphers \ XOR
 CT2:dynamic:b7b712f2;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ One Time Pad Demo
 CT2:dynamic:e8aa1245;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ One Time Pad Misusage
-CT2:dynamic:88da03f8;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ XOR Cipher
-CT2:dynamic:df11aae3;1) Classic Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
-CT2:dynamic:d0a4f459;1) Classic Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
-CT2:dynamic:1ba2d2b7;1) Classic Ciphers;CT2:T \ Hash Functions \ HMAC
-CT2:dynamic:5541390c;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ XOR
-CT2:dynamic:c68b4ffe;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Yao 1
-CT2:dynamic:58fdbf01;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Yao 2
-CT2:dynamic:51530169;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Yao 3
+CT2:dynamic:6ffa84cb;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ XOR Cipher
+CT2:dynamic:a4f749cc;1) Classic Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complementation Property
+CT2:dynamic:765b42d7;1) Classic Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
+CT2:dynamic:b0bed92d;1) Classic Ciphers;CT2:T \ Hash Functions \ HMAC
+CT2:dynamic:18f361f5;1) Classic Ciphers;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ XOR
+CT2:dynamic:f1c58b4f;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Yao 1
+CT2:dynamic:e5649775;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Yao 2
+CT2:dynamic:6da71cbf;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Yao 3
 CT2:dynamic:9d0d7db5;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Yao's Millionaire Problem
-CT2:dynamic:c68b4ffe;13) Protocols;CT2:C \ Protocols \ Yao 1
-CT2:dynamic:58fdbf01;13) Protocols;CT2:C \ Protocols \ Yao 2
-CT2:dynamic:51530169;13) Protocols;CT2:C \ Protocols \ Yao 3
+CT2:dynamic:f1c58b4f;13) Protocols;CT2:C \ Protocols \ Yao 1
+CT2:dynamic:e5649775;13) Protocols;CT2:C \ Protocols \ Yao 2
+CT2:dynamic:6da71cbf;13) Protocols;CT2:C \ Protocols \ Yao 3
 CT2:dynamic:9d0d7db5;13) Protocols;CT2:T \ Protocols \ Yao's Millionaire Problem
-CT2:dynamic:4e2750bd;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Zero Knowledge Prover
-CT2:dynamic:31205cf2;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Zero Knowledge Verifier
-CT2:dynamic:a9739be4;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Zero Knowledge Protocol
-CT2:dynamic:4e2750bd;13) Protocols;CT2:C \ Protocols \ Zero Knowledge Prover
-CT2:dynamic:31205cf2;13) Protocols;CT2:C \ Protocols \ Zero Knowledge Verifier
-CT2:dynamic:a9739be4;13) Protocols;CT2:T \ Protocols \ Zero Knowledge Protocol
+CT2:dynamic:dbfc1d94;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Zero Knowledge Prover
+CT2:dynamic:60e3784d;10) Learning Aids and Visualizations;CT2:C \ Protocols \ Zero Knowledge Verifier
+CT2:dynamic:7c8c1220;10) Learning Aids and Visualizations;CT2:T \ Protocols \ Zero Knowledge Protocol
+CT2:dynamic:dbfc1d94;13) Protocols;CT2:C \ Protocols \ Zero Knowledge Prover
+CT2:dynamic:60e3784d;13) Protocols;CT2:C \ Protocols \ Zero Knowledge Verifier
+CT2:dynamic:7c8c1220;13) Protocols;CT2:T \ Protocols \ Zero Knowledge Protocol

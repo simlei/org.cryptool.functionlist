@@ -1,76 +1,109 @@
-core-developer sln
+# 3) Funktionsliste Feedback
 
-Raus: 
-- bitcoin
-- blockmode / <space>mode/modus
-- CypherMatrix
-- nfs/gnfs factorizer
-- SIGABA-Analyse
-- Verschlüsselte VM
-- webtreffer
+## **Artefakte:**
 
-# TODO von ganz oben
+- SHA `[nur CT1]`
+- `[C` -> ?? Artifakt
 
-## offen @ 27.01.
+## **Systematisch:**
+
+[x] **slash / backslash** Problematik! Untersuchen & ändern
+
+```
+[x] base 64 encode/decode
+```
+
+### **Data flow/input:**
+
+[x] In "Input/Output einordnen", vs. Flow
+    [x] Beachte slash-Problematik
+
+```
+[x]C] Tools \ Data input \ output \ Clipboard Input
+[x]C] Tools \ Data input \ output \ Clipboard Output
+[x]C] Tools \ Data input \ output \ Alphabets
+[x]C] Tools \ Data input \ output \ IP Frame Generator
+[x]C] Tools \ Boolean \ Boolean Output
+[x]C] Tools \ Data input \ output \ Network Sender
+```
+
+## **Einzeln**
+
+BLAKE\|Grøstl
+[x] BLAKE/Grøstl password storage -> BLAKE/Grøstl
+[x] Blum Blum Shub (BBS) PRNG -> Blum Blum Shub (BBS) -- PRNG
+[x] Caesar + Rot-13 zusammen in Caesar
+
+[x] Application -> Secure Chat -- Applied Cryptography
+```
+Application		T				[T] Tools \ Simple Video and Audio Chat using AES encryption
+```
+
+- in "Visual Codes" einordnen
+
+[x]C] Tools \ Misc \ Visual Decoder
+[x]C] Tools \ Misc \ Visual Encoder
 
 
-- Online bringen (Fehler mit de/Pfaden)
-- Änderung in CT1 erforderlich, Test was passiert, wenn sich Pfad ändert
-- ??: s. screenshot
 
-Später
-- Datenbanken migrieren
+[x] DES attack -> DES analysis
+    [x] ebenso: DESL attack, DESX, DESXL
 
-## Format: 
+[x] DGK -> DGK (Homomorphic Encryption)
 
-[x] - "XXX-Analyse"  (also mit Bindestrich) also Caesar-Analyse, Transpositions-Analyse, ...
-[x] - "X Y -- Analyse"
-[x] - Ja, bitte vereinheitlichen. "visual" gefällt mir besser, aber Hauptsache einheitlich.
-
-** Fallbeispiele **
-
-[x] - Magic door - Visualisierung ==> Magic door -- Visualisierung
-[x] - Matrix-Bildschirmschoner-Visualisierung ==> Matrix-Bildschirmschoner -- Visualisierung
-[x] - "Matrix"-Zeile die nicht mehr in CTO drin ist
+[x] Dictionary search -> Dictionary Attack
 
 
-## Inhalt:
 
-[x] - Transposition analysis;Transpositions-Analyse
-[x] - Homophonic substitution analysis;Homophone Substitutions-Analyse
-[x] - Kryptos K1 analysis;Kryptos K1 -- Analyse
-[x] - Kryptos K2 analysis;Kryptos K2 -- Analyse
-[x] - Classical ciphers -- analysis;Klassische Verfahren -- Analyse
-[x] - Homophonic substitution cipher ==> Homophone Substitutions-Chiffre
-[x] - Bitte die ff. beiden lassen (also nicht zusammenfassen)
-    [x] Transposition (ein-stufige Spaltentransposition)
-    [x] Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
-[x] - 3DES Brute-Force-Angriff ==> 3DES-Angriff
-[x] - AES Brute-Force-Angriff ==> AES-Angriff
-[x] - DES Brute-Force-Angriff ==> DES-Angriff
-[x] - DESL Brute-Force-Angriff ==> DESL-Angriff
-[x] - DESX Brute-Force-Angriff ==> DESX-Angriff
-[x] - DESXL Brute-Force-Angriff ==> DESXL-Angriff
-[x] - 3DES und Triple-DES müssen wir bei den Funktionsnamen auch noch zusammen fassen.
-[x] - Base 64 decodieren => Base 64 decodieren/encodieren
-[x] - Base 64 encodieren => Base 64 decodieren/encodieren
-[x] - Eindeutschen: PKCS#1 attack  -->  PKCS#1-Angriff
+# 3) Funktionsliste Feedback, ctd.
 
-[x] SAT solver  ==>  SAT-Solver
+## **Artefakte**
 
-- [x] Bitte die ff. beiden lassen (also nicht zusammenfassen)
-    - Transposition (ein-stufige Spaltentransposition)
-    - Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
-- [x] 3DES und Triple-DES müssen wir bei den Funktionsnamen auch noch zusammen fassen.
 
-## Issues jetzt:
+## **Systematisch**
 
-[x] - CT1/O Datensatz neu lesen für DE. Bsp das weg sein muss: "Matrix-Bildschirmschoner-Visualisierung"
-[x] - Replay aller Anpassungen die auf dem alten de_ Dump passiert sind
-[x] - Früher hatten wir (wie es in der Legende unten steht) in Spalte 2 (CT1) und 5 (CTO) jeweils ein x, wenn es einen Pfad gab. Dieses x haben Sie verloren.
+[x] "C\T" -> "C/T"
+[x] "[X]" vor CT1 und CTO - Pfade
 
-## Issues später:
+- Cryptotutorials Unterpunkte Links nicht aufgeführt (zB Powering (iterating exponent))
+- (Wizard) Start -> Hash Functions -> MD5 -> MD5 - Result Only (Radio buttons links)
+-> erst mal kein Handlungsbedarf, wird in CT2 gelöst
 
-[x] - "3DES" filtering geht nicht
-[x] - 368 Zeilen gefunden, die dem Auswahlkriterium entsprechen. ==> 368 Zeilen mit xxx Einträgen gefunden, die dem Auswahlkriterium entsprechen.
+[x] `visual` als postfix ==> `[visual]` als postfix
+[x] `analysis`, `attack` ebenso
 
+_
+
+CTO: 
+
+https://www.cryptool.org/en/cto-documentation/sitemap
+
+## **Einzeln**
+
+[x] Diffie-Hellman key exchange (DH) ==> Key exchange (Diffie-Hellman DH)
+[x] Diffie-Hellman Key Exchange (Perfect Forward Secrecy) visual ==> Key exchange (Diffie-Hellman DH) (Perfect Forward Secrecy) visual
+[x] BB84 key exchange ==> Key exchange (BB84)
+    [x] BB84 Schlüsselaustausch => Schlüsselaustausch (BB84)
+    [x] bei "Angriff"/"attack" so lassen (BB84 zuerst)
+[x] Display/Export Keys ==> Keys (Display / Export)
+[x] Generate/Import Keys ==> Keys (Generate / Import)
+[x] DSA ==> DSA signature
+[x] DSA ==> DSA-Signatur
+[x] DSA Signatur ==> DSA-Signatur [de]
+    - ECNR und ECNR Signatur ebenso
+[x] GMSS ==> GMSS signature [en]
+[x] GMSS ==> GMSS-Signatur [en]
+[x] Entropy ==> Entropy [analysis] [en]
+    [x] Entropie / Entropie-Analyse ebenso [de]
+[x] Hash sensitivity ==> Hash algorithms [visual]
+    [x] Hash-Sensitivität ebenso
+[x] Heartbleed ==> Heartbleed analysis/-Analyse
+
+[x] [D] Visuals \ Multipartite Key Exchange :> Key exchange (multipartite)
+[x] [D] Visuals \ Diffie-Hellman Key Exchange :> Key exchange (Diffie-Hellman DH)
+
+[x] [C] Tools \ Misc \ SAT Solver :> SAT solver (auch deutsch)
+[x] [C] Tools \ Misc \ PasswordStrength :> Password Quality visual
+[x] [T] Tools \ Check Password Strength :> Password Quality visual
+[x] [W] Tools \ Password Strength :> Password Quality visual
+- 

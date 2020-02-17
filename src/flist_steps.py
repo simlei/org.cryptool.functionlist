@@ -152,57 +152,57 @@ registerStep(CT2scsv_ct2_de)
 
 categories_ct2_en = FlistStep(
     name="categories_ct2_en", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en", id_diff=False)
 )
 registerStep(categories_ct2_en)
 
 categories_ct2_de = FlistStep(
     name="categories_ct2_de", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de", id_diff=False)
 )
 registerStep(categories_ct2_de)
 
 categories_jct_en = FlistStep(
     name="categories_jct_en", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en", id_diff=False)
 )
 registerStep(categories_jct_en)
 
 categories_jct_de = FlistStep(
     name="categories_jct_de", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="category", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de", id_diff=False)
 )
 registerStep(categories_jct_de)
 
 functionalities_ct2_en = FlistStep(
     name="functionalities_ct2_en", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en", id_diff=False)
 )
 registerStep(functionalities_ct2_en)
 
 functionalities_ct2_de = FlistStep(
     name="functionalities_ct2_de", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de", id_diff=False)
 )
 registerStep(functionalities_ct2_de)
 
 functionalities_jct_en = FlistStep(
     name="functionalities_jct_en", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="en", id_diff=False)
 )
 registerStep(functionalities_jct_en)
 
 functionalities_jct_de = FlistStep(
     name="functionalities_jct_de", 
-    callable = flist_colmap.Map_Columns,
-    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de")
+    callable = flist_colmap.Dispatch_Map_Columns,
+    proto = bdict(input=None, colname="functionality", translationfile=None, mapfile=None, output=None, feedbackfile=None, language="de", id_diff=False)
 )
 registerStep(functionalities_jct_de)
 
