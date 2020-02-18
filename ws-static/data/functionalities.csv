@@ -39,7 +39,7 @@ Cyclic redundancy check (CRC);Zyklische Redundanzprüfung (CRC)
 Secure Chat -- Applied Cryptography;Sicherer Chat -- Angewendete Kryptographie
 Virtual smartcard;Virtuelle Smartcard
 Visual code;Visueller Code
-Transcriptor [analysis];Transcriptor [Analyse]
+Transcriptor [analysis];Transkriptor [Analyse]
 Word pattern [analysis];Wortmuster [Analyse]
 Specific cryptanalysis;Spezifische Kryptanalyse
 GQ signature;GQ Signatur
@@ -139,3 +139,5 @@ SAT solver;SAT solver
 Password quality [visual];Passwortqualität [Visualisierung]
 Format preserving encryption (FPE);Formatbewahrende Verschlüsselung (FPE)
 Password hash (SHA-1);Passwort-Hash (SHA-1)
+Discrete logarithm;Diskreter Logarithmus
+Differential cryptanalysis (DCA);Differenzielle Kryptanalyse (DKA)
