@@ -138,4 +138,4 @@ GMSS signature;GMSS-Signatur
 SAT solver;SAT solver
 Password quality [visual];Passwortqualität [Visualisierung]
 Format preserving encryption (FPE);Formatbewahrende Verschlüsselung (FPE)
-Password hash (SHA-1);Passworthash (SHA-1)
+Password hash (SHA-1);Passwort-Hash (SHA-1)
