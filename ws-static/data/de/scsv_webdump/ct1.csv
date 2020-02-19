@@ -132,15 +132,15 @@ CT1:de:static:399;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem
 CT1:de:static:400;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Williams;12) Primzahlen
 CT1:de:static:401;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Lenstra;12) Primzahlen
 CT1:de:static:402;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Quadratisches Sieb;12) Primzahlen
-CT1:de:static:403;Generierung von Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahlen generieren...\ Miller-Rabin-Test;12) Primzahlen
-CT1:de:static:404;Generierung von Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Solovay-Strassen-Test;12) Primzahlen
-CT1:de:static:405;Generierung von Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Fermat-Test;12) Primzahlen
+CT1:de:static:403;Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahlen generieren...\ Miller-Rabin-Test;12) Primzahlen
+CT1:de:static:404;Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Solovay-Strassen-Test;12) Primzahlen
+CT1:de:static:405;Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Fermat-Test;12) Primzahlen
 CT1:de:static:407;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ Miller-Rabin-Test;12) Primzahlen
 CT1:de:static:408;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ Fermat-Test;12) Primzahlen
 CT1:de:static:409;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ Solovay-Strassen-Test;12) Primzahlen
 CT1:de:static:410;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...\ AKS-Test (deterministisches Verfahren);12) Primzahlen
-CT1:de:static:412;Primzahl-Tutorial;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...;12) Primzahlen
-CT1:de:static:413;Primzahl-Tutorial;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahlen generieren...;12) Primzahlen
+CT1:de:static:412;Primzahl-Test;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahltest...;12) Primzahlen
+CT1:de:static:413;Primzahlen;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Primzahlen generieren...;12) Primzahlen
 CT1:de:static:414;Primzahl-Tutorial;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...;12) Primzahlen
 CT1:de:static:418;Authentifizierungsverfahren im Netz [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Authentifizierungsverfahren im Netz...;13) Protokolle
 CT1:de:static:424;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy) [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Diffie-Hellman-Demo...;13) Protokolle

@@ -87,9 +87,9 @@ CT1:en:static:87;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ P
 CT1:en:static:88;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Fermat Test;12) Prime numbers
 CT1:en:static:89;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Solovay-Strassen test;12) Prime numbers
 CT1:en:static:90;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ AKS test (deterministic procedure);12) Prime numbers
-CT1:en:static:91;Prime Number Tutorial;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…;12) Prime numbers
-CT1:en:static:92;Prime Number Tutorial;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…;12) Prime numbers
-CT1:en:static:93;Prime Number Tutorial;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…;12) Prime numbers
+CT1:en:static:91;Prime test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…;12) Prime numbers
+CT1:en:static:92;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…;12) Prime numbers
+CT1:en:static:93;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…;12) Prime numbers
 CT1:en:static:94;Rail fence;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Scytale / Rail Fence…;1) Classic Ciphers
 CT1:en:static:95;Randomness [visual];CT1:X;CT1:X\ Analysis\ Analyze Randomness\ 3D Visualization…;10) Learning Aids and Visualizations
 CT1:en:static:96;RC2;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ RC2…;2) Modern Ciphers

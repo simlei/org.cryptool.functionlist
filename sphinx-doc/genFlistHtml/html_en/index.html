@@ -413,6 +413,7 @@ var gdpr_enable_log_cookie_consent=1;
 <option value="5) Random Number Generators">Random Number Generators</option>
 <option value="11) Games">Games</option>
 <option value="14) Tools">Tools</option>
+<option value="1) Klassische Chiffren">Klassische Chiffren</option>
 <option value="13) Protocols">Protocols</option>
 <option value="8) Steganography">Steganography</option>
 
@@ -463,7 +464,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">D</td>
 				    <td align="center" class=" ">X</td>
                     <td class=" ">[X] \ Encrypt/Decrypt \ Symmetric (classic) \ ADFGVX…</td>
-                    <td class=" ">[C] \ Cryptanalysis \ Generic \ ADFGVX Analyzer <br /> [T] \ Cryptanalysis \ Classical \ ADFGVX heuristic analysis <br /> [C] \ Classic Ciphers \ ADFGVX <br /> [T] \ Cryptography \ Classical \ ADFGVX Cipher <br /> [W] \ Encryption/Decryption \ Classic Encryption/Decryption \ ADFGVX</td>
+                    <td class=" ">[C] \ Cryptanalysis \ Specific \ ADFGVX Analyzer <br /> [T] \ Cryptanalysis \ Classical \ ADFGVX heuristic analysis <br /> [C] \ Classic Ciphers \ ADFGVX <br /> [T] \ Cryptography \ Classical \ ADFGVX Cipher <br /> [W] \ Encryption/Decryption \ Classic Encryption/Decryption \ ADFGVX</td>
                     <td class=" ">[D] \ Algorithms \ Classic \ ADFGVX</td>
                     <td class=" ">[X] \ Ciphers \ ADFG(V)X</td>
                     <td style="display: none;" class=" ">1) Classic Ciphers</td>
@@ -491,7 +492,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">A/D</td>
 				    <td align="center" class=" "></td>
                     <td class=" ">[X] \ Encrypt/Decrypt \ Symmetric (modern) \ AES (CBC)... <br /> [X] \ Encrypt/Decrypt \ Symmetric (modern) \ AES (self extracting)…</td>
-                    <td class=" ">[T] \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes <br /> [C] \ Modern Ciphers \ Symmetric \ AES <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES Cipher (File Input) <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES Cipher (Text Input) <br /> [W] \ Encryption/Decryption \ Modern Encryption/Decryption \ Symmetric Encryption/Decryption \ AES</td>
+                    <td class=" ">[T] \ Cryptography \ Modern \ Symmetric \ AES Cipher with SHA hashes <br /> [C] \ Modern Ciphers \ Symmetric \ AES <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES Cipher (Text Input) <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES encryption with implicit conversion <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES Cipher (File Input) <br /> [W] \ Encryption/Decryption \ Modern Encryption/Decryption \ Symmetric Encryption/Decryption \ AES</td>
                     <td class=" ">[A] \ Block Ciphers \ Rijndael \ AES \ AES128_ECB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES256_CFB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES192_ECB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES256_CBC <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES128_CBC <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES128_CFB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES192_OFB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES192_CFB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES256_OFB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES128_OFB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES256_ECB <br /> [A] \ Block Ciphers \ Rijndael \ AES \ AES192_CBC <br /> [D] \ Algorithms \ Symmetric \ AES</td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">2) Modern Ciphers</td>
@@ -505,7 +506,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" ">[X] \ Analysis \ Symmetric Encryption (modern) \ AES (CBC)…</td>
-                    <td class=" ">[T] \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1) <br /> [T] \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1) <br /> [T] \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2) – with changeable plaintext <br /> [T] \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2) <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Ciphertext-only <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Known plaintext</td>
+                    <td class=" ">[T] \ Cryptanalysis \ Modern \ AES Analysis using Entropy (2) – with changeable plaintext <br /> [T] \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (2) <br /> [T] \ Cryptanalysis \ Modern \ AES Analysis using Entropy (1) <br /> [T] \ Cryptanalysis \ Modern \ AES Known-Plaintext Analysis (1) <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Ciphertext-only <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Known plaintext</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">7) Modern Cryptanalysis</td>
@@ -1022,8 +1023,8 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">T/C/N/W</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
-                    <td class=" ">[X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Miller-Rabin Test <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Solovay-Strassen Test <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ FermatTest</td>
-                    <td class=" ">[T] \ Mathematics \ Next Smaller Prime Number <br /> [C] \ Tools \ Data input/output \ Prime Generator <br /> [T] \ Mathematics \ Primes Generator <br /> [N] \ Crypto tutorials \ World of Primes <br /> [N] \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force <br /> [N] \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve <br /> [N] \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number line <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number grid <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number of primes <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Ulam's spiral <br /> [N] \ Crypto tutorials \ World of Primes \ Number theory \ Powering (iterating exponent) <br /> [N] \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions <br /> [N] \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots <br /> [N] \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture <br /> [W] \ Mathematical Functions \ Prime Operations \ Prime Number Generation</td>
+                    <td class=" ">[X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Miller-Rabin Test <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ Solovay-Strassen Test <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… \ FermatTest <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number…</td>
+                    <td class=" ">[T] \ Mathematics \ Next Smaller Prime Number <br /> [C] \ Tools \ Data input/output \ Prime Generator <br /> [T] \ Mathematics \ Primes Generator <br /> [N] \ Crypto tutorials \ World of Primes <br /> [N] \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force <br /> [N] \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve <br /> [N] \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number line <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number grid <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number of primes <br /> [N] \ Crypto tutorials \ World of Primes \ Distribution of primes \ Ulam's spiral <br /> [N] \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions <br /> [N] \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots <br /> [N] \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture <br /> [W] \ Mathematical Functions \ Prime Operations \ Prime Number Generation</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">12) Prime numbers</td>
@@ -1289,7 +1290,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">A/D</td>
 				    <td align="center" class=" "></td>
                     <td class=" ">[X] \ Indiv. Procedures \ Hash \ MD5</td>
-                    <td class=" ">[T] \ Hash Functions \ MD5 Collision Finder <br /> [T] \ Hash Functions \ MD5 Salted Hash Comparison <br /> [C] \ Hash functions \ MD5 <br /> [T] \ Hash Functions \ MD5</td>
+                    <td class=" ">[T] \ Hash Functions \ MD5 Salted Hash Comparison <br /> [T] \ Hash Functions \ MD5 Collision Finder <br /> [C] \ Hash functions \ MD5 <br /> [T] \ Hash Functions \ MD5</td>
                     <td class=" ">[A] \ Message Authentication Codes \ HMac \ HmacMD5 <br /> [D] \ Algorithms \ Hash \ MD5 <br /> [D] \ Algorithms \ MAC \ HMacMD5</td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
@@ -1423,12 +1424,12 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="odd">
-    <td class="ctfunction  sorting_1">Prime Number Tutorial</td>
+    <td class="ctfunction  sorting_1">Prime test</td>
     <td align="center" class=" ">X</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
-                    <td class=" ">[X] \ Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test… <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Generate Prime Numbers… <br /> [X] \ Indiv. Procedures \ RSA Cryptosystem \ Factorization of a Number…</td>
+                    <td class=" ">[X] \ Indiv. Procedures \ RSA Cryptosystem \ Prime Number Test…</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td class=" "></td>
@@ -1639,7 +1640,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" ">[X] \ Indiv. Procedures \ Tools \ Generate Random Numbers…</td>
-                    <td class=" ">[C] \ Tools \ Misc \ Random Number Generator <br /> [T] \ Tools \ Random number generators</td>
+                    <td class=" ">[C] \ Tools \ Random Number \ LFSR <br /> [C] \ Tools \ Random Number \ NLFSR <br /> [C] \ Tools \ Random Number \ Random Number Generator <br /> [T] \ Tools \ Random number generators</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">5) Random Number Generators</td>
@@ -1695,7 +1696,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">A/D</td>
 				    <td align="center" class=" "></td>
                     <td class=" ">[X] \ Indiv. Procedures \ Hash \ SHA-1 <br /> [X] \ Indiv. Procedures \ Hash \ SHA-256</td>
-                    <td class=" ">[C] \ Hash functions \ SHA <br /> [T] \ Hash Functions \ SHA-1 Collision <br /> [T] \ Hash Functions \ SHA-1 <br /> [T] \ Hash Functions \ SHA-256</td>
+                    <td class=" ">[C] \ Hash functions \ SHA <br /> [T] \ Hash Functions \ SHA-1 <br /> [T] \ Hash Functions \ SHA-1 Collision <br /> [T] \ Hash Functions \ SHA-256</td>
                     <td class=" ">[A] \ Message Digests \ SHA384 <br /> [A] \ Message Digests \ SHA224 <br /> [A] \ Message Digests \ SHA1 <br /> [A] \ Message Digests \ SHA256 <br /> [A] \ Message Digests \ SHA512 <br /> [A] \ Pseudo Random Number Generators \ SHA1PRNG <br /> [D] \ Algorithms \ Hash \ SHA <br /> [D] \ Algorithms \ Random Number Generator \ SHA1 <br /> [D] \ Algorithms \ Hash \ SHA3-Candidates</td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
@@ -1779,7 +1780,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">D</td>
 				    <td align="center" class=" "></td>
                     <td class=" ">[X] \ Analysis \ Symmetric Encryption (classic) \ Ciphertext-Only \ Substitution... <br /> [X] \ Analysis \ Symmetric Encryption (classic) \ Manual Analysis \ Substitution…</td>
-                    <td class=" ">[C] \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer <br /> [T] \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer <br /> [T] \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer with arbitrary Ciphertext Alphabet <br /> [W] \ Cryptanalysis \ Classic Encryption \ Monoalphabetic Substitution</td>
+                    <td class=" ">[C] \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer <br /> [T] \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer with arbitrary Ciphertext Alphabet <br /> [T] \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer <br /> [W] \ Cryptanalysis \ Classic Encryption \ Monoalphabetic Substitution</td>
                     <td class=" ">[D] \ Analysis \ Substitution Analysis</td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">6) Classic Cryptanalysis</td>
@@ -1807,7 +1808,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">D</td>
 				    <td align="center" class=" "></td>
                     <td class=" ">[X] \ Analysis \ Symmetric Encryption (classic) \ Known Plaintext \ Single Column Transposition…</td>
-                    <td class=" ">[T] \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis <br /> [T] \ Cryptanalysis \ Classical \ Transposition Crib Analysis <br /> [T] \ Cryptanalysis \ Classical \ Transposition Genetic Analysis <br /> [T] \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis <br /> [C] \ Cryptanalysis \ Specific \ Transposition Analyzer <br /> [W] \ Cryptanalysis \ Classic Encryption \ Transposition \ Brute-force <br /> [W] \ Cryptanalysis \ Classic Encryption \ Transposition \ Genetic</td>
+                    <td class=" ">[T] \ Cryptanalysis \ Classical \ Transposition Genetic Analysis <br /> [T] \ Cryptanalysis \ Classical \ Transposition Crib Analysis <br /> [T] \ Cryptanalysis \ Classical \ Transposition Hill Climbing Analysis <br /> [T] \ Cryptanalysis \ Classical \ Transposition Brute-force Analysis <br /> [C] \ Cryptanalysis \ Specific \ Transposition Analyzer <br /> [W] \ Cryptanalysis \ Classic Encryption \ Transposition \ Brute-force <br /> [W] \ Cryptanalysis \ Classic Encryption \ Transposition \ Genetic</td>
                     <td class=" ">[D] \ Analysis \ Transposition Analysis</td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">6) Classic Cryptanalysis</td>
@@ -2101,7 +2102,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" ">D</td>
 				    <td align="center" class=" ">X</td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Misc \ Huffman <br /> [T] \ Tools \ Huffman's algorithm (ASCII) <br /> [T] \ Tools \ Huffman's algorithm (BMG, JPG) <br /> [T] \ Tools \ Huffman's algorithm (UTF-8)</td>
+                    <td class=" ">[C] \ Tools \ Codes \ Huffman <br /> [T] \ Tools \ Huffman's algorithm (UTF-8) <br /> [T] \ Tools \ Huffman's algorithm (BMG, JPG) <br /> [T] \ Tools \ Huffman's algorithm (ASCII)</td>
                     <td class=" ">[D] \ Visuals \ Huffman Coding</td>
                     <td class=" ">[X] \ Codings \ Huffman</td>
                     <td style="display: none;" class=" ">9) Codings</td>
@@ -2311,7 +2312,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Data input/output \ Clipboard Input <br /> [C] \ Tools \ Data input/output \ Clipboard Output <br /> [C] \ Tools \ Data input/output \ Alphabets <br /> [C] \ Tools \ Data flow \ Clock <br /> [C] \ Tools \ Data input/output \ IP Frame Generator <br /> [C] \ Tools \ Data input/output \ Audio Input <br /> [C] \ Tools \ Data input/output \ Audio Output <br /> [C] \ Tools \ Boolean \ Boolean Input <br /> [T] \ Tools \ Take a Picture using the webcam <br /> [C] \ Tools \ Boolean \ Boolean Output <br /> [T] \ Tools \ Random Decimal Number <br /> [C] \ Tools \ Misc \ ImageProcessor <br /> [C] \ Tools \ Data input/output \ Network Receiver <br /> [C] \ Tools \ Data input/output \ Network Sender <br /> [C] \ Tools \ Data input/output \ Number Input <br /> [C] \ Tools \ Misc \ Camera <br /> [C] \ Tools \ Data input/output \ Text Input <br /> [C] \ Tools \ Data flow \ CSVReader <br /> [C] \ Tools \ Data input/output \ Dictionary <br /> [C] \ Tools \ Data input/output \ File Input</td>
+                    <td class=" ">[C] \ Tools \ Data input/output \ Clipboard Input <br /> [C] \ Tools \ Data input/output \ Clipboard Output <br /> [C] \ Tools \ Data input/output \ Alphabets <br /> [C] \ Tools \ Data flow \ Clock <br /> [C] \ Tools \ Data input/output \ IP Frame Generator <br /> [C] \ Tools \ Data input/output \ Audio Input <br /> [C] \ Tools \ Data input/output \ Audio Output <br /> [C] \ Tools \ Boolean \ Boolean Input <br /> [T] \ Tools \ Take a Picture using the webcam <br /> [C] \ Tools \ Boolean \ Boolean Output <br /> [T] \ Tools \ Random Decimal Number <br /> [C] \ Tools \ Misc \ ImageProcessor <br /> [C] \ Tools \ Data input/output \ Network Receiver <br /> [C] \ Tools \ Data input/output \ Network Sender <br /> [C] \ Tools \ Data input/output \ Number Input <br /> [C] \ Tools \ Data input/output \ Camera <br /> [C] \ Tools \ Data input/output \ Text Input <br /> [C] \ Tools \ Data flow \ CSVReader <br /> [C] \ Tools \ Data input/output \ Dictionary <br /> [C] \ Tools \ Data input/output \ File Input</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">14) Tools</td>
@@ -2325,7 +2326,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Misc \ Concatenate <br /> [C] \ Tools \ Boolean \ Boolean Function Parser <br /> [C] \ Tools \ Data flow \ Array Indexer <br /> [C] \ Tools \ Boolean \ Boolean Binary Operator <br /> [C] \ Tools \ Boolean \ Boolean If-Else Operator <br /> [C] \ Tools \ Boolean \ Boolean Not Operator <br /> [C] \ Tools \ Misc \ Comparators <br /> [C] \ Tools \ Misc \ Converter <br /> [C] \ Tools \ Misc \ String Decoder <br /> [C] \ Tools \ Misc \ String Encoder <br /> [C] \ Tools \ Misc \ Decimalization <br /> [C] \ Tools \ Misc \ Length <br /> [C] \ Tools \ Data flow \ Variable Load <br /> [C] \ Tools \ Data flow \ Variable Store <br /> [C] \ Tools \ Misc \ Stream Comparator <br /> [T] \ Tools \ Split a text <br /> [C] \ Tools \ Data input/output \ File Output <br /> [C] \ Tools \ Data flow \ Gate <br /> [C] \ Tools \ Misc \ HammingDistance <br /> [C] \ Tools \ Misc \ Inc Dec <br /> [C] \ Tools \ Data input/output \ Picture Output <br /> [C] \ Tools \ Data flow \ Splitter <br /> [C] \ Tools \ Misc \ String Operations <br /> [C] \ Tools \ Data input/output \ Text Output <br /> [W] \ Tools \ Random numbers</td>
+                    <td class=" ">[C] \ Tools \ Data flow \ Concatenate <br /> [C] \ Tools \ Boolean \ Boolean Function Parser <br /> [C] \ Tools \ Data flow \ Array Indexer <br /> [C] \ Tools \ Boolean \ Boolean Binary Operator <br /> [C] \ Tools \ Boolean \ Boolean If-Else Operator <br /> [C] \ Tools \ Boolean \ Boolean Not Operator <br /> [C] \ Tools \ Misc \ Comparators <br /> [C] \ Tools \ Misc \ Converter <br /> [C] \ Tools \ Codes \ String Decoder <br /> [C] \ Tools \ Codes \ String Encoder <br /> [C] \ Tools \ Misc \ Decimalization <br /> [C] \ Tools \ Misc \ Length <br /> [C] \ Tools \ Data flow \ Variable Load <br /> [C] \ Tools \ Data flow \ Variable Store <br /> [C] \ Tools \ Misc \ Stream Comparator <br /> [T] \ Tools \ Split a text <br /> [C] \ Tools \ Data input/output \ File Output <br /> [C] \ Tools \ Data flow \ Gate <br /> [C] \ Tools \ Misc \ HammingDistance <br /> [C] \ Tools \ Misc \ Inc Dec <br /> [C] \ Tools \ Data input/output \ Picture Output <br /> [C] \ Tools \ Data flow \ Splitter <br /> [C] \ Tools \ Misc \ String Operations <br /> [C] \ Tools \ Data input/output \ Text Output <br /> [W] \ Tools \ Random numbers</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">14) Tools</td>
@@ -2349,11 +2350,11 @@ var gdpr_enable_log_cookie_consent=1;
 <tr class="odd">
     <td class="ctfunction  sorting_1">Tools</td>
     <td align="center" class=" "></td>
-				    <td align="center" class=" ">C</td>
+				    <td align="center" class=" ">C/T</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Cryptanalysis \ Generic \ Contains</td>
+                    <td class=" ">[C] \ Cryptanalysis \ Generic \ Contains <br /> [T] \ Tools \ Loop</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">14) Tools</td>
@@ -2451,7 +2452,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Classic Ciphers \ Fialka <br /> [T] \ Cryptography \ Classical \ Fialka ED Check <br /> [T] \ Cryptography \ Classical \ Fialka ED Mixed Mode Check <br /> [T] \ Cryptography \ Classical \ Fialka ED NumLock10 Check <br /> [T] \ Cryptography \ Classical \ Fialka Key Output <br /> [T] \ Cryptography \ Classical \ Fialka M-125-3 PROTON II <br /> [T] \ Cryptography \ Classical \ Fialka M-125 PROTON I</td>
+                    <td class=" ">[C] \ Classic Ciphers \ Fialka <br /> [T] \ Cryptography \ Classical \ Fialka ED Check <br /> [T] \ Cryptography \ Classical \ Fialka M-125 PROTON I <br /> [T] \ Cryptography \ Classical \ Fialka ED NumLock10 Check <br /> [T] \ Cryptography \ Classical \ Fialka Key Output <br /> [T] \ Cryptography \ Classical \ Fialka M-125-3 PROTON II <br /> [T] \ Cryptography \ Classical \ Fialka ED Mixed Mode Check</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">6) Classic Cryptanalysis</td>
@@ -2517,14 +2518,14 @@ var gdpr_enable_log_cookie_consent=1;
 <tr class="odd">
     <td class="ctfunction  sorting_1">LFSR</td>
     <td align="center" class=" "></td>
-				    <td align="center" class=" ">C/T</td>
+				    <td align="center" class=" ">T</td>
 				    <td align="center" class=" ">D</td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Misc \ LFSR <br /> [T] \ Mathematics \ Linear Feedback Shift Register (LFSR)</td>
+                    <td class=" ">[T] \ Mathematics \ Linear Feedback Shift Register (LFSR)</td>
                     <td class=" ">[D] \ Algorithms \ Symmetric \ LFSR</td>
                     <td class=" "></td>
-                    <td style="display: none;" class=" ">2) Modern Ciphers</td>
+                    <td style="display: none;" class=" ">1) Klassische Chiffren</td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
@@ -2549,7 +2550,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Cryptanalysis \ Specific \ M-138 Analyzer <br /> [T] \ Cryptanalysis \ Classical \ M-138 Ciphertext only Attack <br /> [T] \ Cryptanalysis \ Classical \ M-138 Known-Plaintext Attack <br /> [T] \ Cryptanalysis \ Classical \ M-138 Partially-Known Plaintext Attack</td>
+                    <td class=" ">[C] \ Cryptanalysis \ Specific \ M-138 Analyzer <br /> [T] \ Cryptanalysis \ Classical \ M-138 Partially-Known Plaintext Attack <br /> [T] \ Cryptanalysis \ Classical \ M-138 Ciphertext only Attack <br /> [T] \ Cryptanalysis \ Classical \ M-138 Known-Plaintext Attack</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">6) Classic Cryptanalysis</td>
@@ -2557,6 +2558,20 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="even">
+    <td class="ctfunction  sorting_1">PKCS#5 AES</td>
+    <td align="center" class=" "></td>
+				    <td align="center" class=" ">T</td>
+				    <td align="center" class=" "></td>
+				    <td align="center" class=" "></td>
+                    <td class=" "></td>
+                    <td class=" ">[T] \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5 <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5 <br /> [T] \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code</td>
+                    <td class=" "></td>
+                    <td class=" "></td>
+                    <td style="display: none;" class=" ">2) Modern Ciphers</td>
+				    <td style="display: none;" class=" "></td>
+				</tr>
+
+<tr class="odd">
     <td class="ctfunction  sorting_1">QR code</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -2567,20 +2582,6 @@ var gdpr_enable_log_cookie_consent=1;
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
-<tr class="odd">
-    <td class="ctfunction  sorting_1">PKCS#5 AES</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Cryptography \ Modern \ Symmetric \ AES with PKCS#5 <br /> [T] \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV <br /> [T] \ Cryptography \ Modern \ Symmetric \ AES (ECB) with PKCS#5</td>
-                    <td class=" "></td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" ">2) Modern Ciphers</td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
@@ -2601,11 +2602,11 @@ var gdpr_enable_log_cookie_consent=1;
 <tr class="odd">
     <td class="ctfunction  sorting_1">NLFSR</td>
     <td align="center" class=" "></td>
-				    <td align="center" class=" ">C/T</td>
+				    <td align="center" class=" ">T</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Protocols \ NLFSR <br /> [T] \ Mathematics \ Non-Linear Feedback Shift Register (NLFSR)</td>
+                    <td class=" ">[T] \ Mathematics \ Non-Linear Feedback Shift Register (NLFSR)</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">2) Modern Ciphers</td>
@@ -2633,7 +2634,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Misc \ Avalanche Visualization <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (AES) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (classic ciphers) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (compare classic ciphers) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (DES) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (hash functions) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (modern ciphers)</td>
+                    <td class=" ">[C] \ Tools \ Misc \ Avalanche Visualization <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (compare classic ciphers) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (AES) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (DES) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (hash functions) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (modern ciphers) <br /> [T] \ Cryptanalysis \ Modern \ Avalanche (classic ciphers)</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">10) Learning Aids and Visualizations</td>
@@ -2731,7 +2732,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting) <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input) <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition <br /> [C] \ Modern Ciphers \ Asymmetric \ Paillier <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input) <br /> [C] \ Modern Ciphers \ Asymmetric \ Paillier Key Generator</td>
+                    <td class=" ">[T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting) <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input) <br /> [C] \ Modern Ciphers \ Asymmetric \ Paillier <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input) <br /> [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding <br /> [C] \ Modern Ciphers \ Asymmetric \ Paillier Key Generator</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">2) Modern Ciphers</td>
@@ -2767,20 +2768,6 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="odd">
-    <td class="ctfunction  sorting_1">Coin flipping protocol</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T/C</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Protocols \ Coin Flipping Protocol <br /> [C] \ Protocols \ Coin Flipping</td>
-                    <td class=" "></td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" ">13) Protocols</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
-<tr class="even">
     <td class="ctfunction  sorting_1">Key exchange (Diffie-Hellman DH)</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -2794,28 +2781,14 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
-    <td class="ctfunction  sorting_1">Dining cryptographers protocol</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Protocols \ Dining Cryptographers Protocol</td>
-                    <td class=" "></td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" ">10) Learning Aids and Visualizations</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
 <tr class="even">
-    <td class="ctfunction  sorting_1">Yao's millionaire problem (protocol)</td>
+    <td class="ctfunction  sorting_1">Coin flipping protocol</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T/C</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[T] \ Protocols \ Yao's Millionaire Problem Protocol <br /> [C] \ Protocols \ Yao 1 <br /> [C] \ Protocols \ Yao 2 <br /> [C] \ Protocols \ Yao 3</td>
+                    <td class=" ">[T] \ Protocols \ Coin Flipping Protocol <br /> [C] \ Protocols \ Coin Flipping</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">13) Protocols</td>
@@ -2833,6 +2806,34 @@ var gdpr_enable_log_cookie_consent=1;
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">10) Learning Aids and Visualizations</td>
+				    <td style="display: none;" class=" "></td>
+				</tr>
+
+<tr class="even">
+    <td class="ctfunction  sorting_1">Dining cryptographers protocol</td>
+    <td align="center" class=" "></td>
+				    <td align="center" class=" ">T</td>
+				    <td align="center" class=" "></td>
+				    <td align="center" class=" "></td>
+                    <td class=" "></td>
+                    <td class=" ">[T] \ Protocols \ Dining Cryptographers Protocol</td>
+                    <td class=" "></td>
+                    <td class=" "></td>
+                    <td style="display: none;" class=" ">10) Learning Aids and Visualizations</td>
+				    <td style="display: none;" class=" "></td>
+				</tr>
+
+<tr class="odd">
+    <td class="ctfunction  sorting_1">Yao's millionaire problem (protocol)</td>
+    <td align="center" class=" "></td>
+				    <td align="center" class=" ">T/C</td>
+				    <td align="center" class=" "></td>
+				    <td align="center" class=" "></td>
+                    <td class=" "></td>
+                    <td class=" ">[T] \ Protocols \ Yao's Millionaire Problem Protocol <br /> [C] \ Protocols \ Yao 1 <br /> [C] \ Protocols \ Yao 2 <br /> [C] \ Protocols \ Yao 3</td>
+                    <td class=" "></td>
+                    <td class=" "></td>
+                    <td style="display: none;" class=" ">13) Protocols</td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
@@ -2857,7 +2858,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[T] \ Cryptanalysis \ Modern \ SDES Brute-force Analysis <br /> [T] \ Cryptanalysis \ Modern \ SDES Analysis using Entropy <br /> [T] \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES \ Ciphertext-only <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES \ Known plaintext</td>
+                    <td class=" ">[T] \ Cryptanalysis \ Modern \ SDES Analysis using Entropy <br /> [T] \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis <br /> [T] \ Cryptanalysis \ Modern \ SDES Brute-force Analysis <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES \ Ciphertext-only <br /> [W] \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ SDES \ Known plaintext</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">7) Modern Cryptanalysis</td>
@@ -2899,7 +2900,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[T] \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES <br /> [T] \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES <br /> [C] \ Tools \ Misc \ Padding Oracle <br /> [C] \ Tools \ Misc \ Padding Oracle Attack</td>
+                    <td class=" ">[T] \ Cryptanalysis \ Modern \ Padding Oracle Attack on AES <br /> [T] \ Cryptanalysis \ Modern \ Padding Oracle Attack on DES <br /> [C] \ Cryptanalysis \ Specific \ Padding Oracle <br /> [C] \ Cryptanalysis \ Specific \ Padding Oracle Attack</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">2) Modern Ciphers</td>
@@ -2913,7 +2914,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[T] \ Tools \ Simple Video and Audio Chat using AES encryption <br /> [T] \ Tools \ Diffie-Hellman AES Video Audio Chat <br /> [T] \ Tools \ Simple AES Chat</td>
+                    <td class=" ">[T] \ Tools \ Simple Video and Audio Chat using AES encryption <br /> [T] \ Tools \ Simple AES Chat <br /> [T] \ Tools \ Diffie-Hellman AES Video Audio Chat</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
@@ -2921,20 +2922,6 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="even">
-    <td class="ctfunction  sorting_1">Block mode</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers</td>
-                    <td class=" "></td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" ">2) Modern Ciphers</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
-<tr class="odd">
     <td class="ctfunction  sorting_1">Triple DES</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -2943,6 +2930,20 @@ var gdpr_enable_log_cookie_consent=1;
                     <td class=" "></td>
                     <td class=" ">[T] \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher</td>
                     <td class=" ">[A] \ Password-Based Ciphers \ PbeWithSHAAnd3_KeyTripleDES_CBC</td>
+                    <td class=" "></td>
+                    <td style="display: none;" class=" ">2) Modern Ciphers</td>
+				    <td style="display: none;" class=" "></td>
+				</tr>
+
+<tr class="odd">
+    <td class="ctfunction  sorting_1">Block mode</td>
+    <td align="center" class=" "></td>
+				    <td align="center" class=" ">T</td>
+				    <td align="center" class=" "></td>
+				    <td align="center" class=" "></td>
+                    <td class=" "></td>
+                    <td class=" ">[T] \ Cryptography \ Modern \ Symmetric \ Block Modes of Symmetric Ciphers</td>
+                    <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">2) Modern Ciphers</td>
 				    <td style="display: none;" class=" "></td>
@@ -2969,7 +2970,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Cryptanalysis \ Specific \ DCA KeyRecovery <br /> [T] \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1 (automatic mode) <br /> [T] \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 2 (automatic mode) <br /> [T] \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3 (automatic mode) <br /> [C] \ Cryptanalysis \ Specific \ DCA Oracle <br /> [C] \ Cryptanalysis \ Specific \ DCA PathFinder <br /> [C] \ Cryptanalysis \ Specific \ DCA PathVisualizer <br /> [C] \ Cryptanalysis \ Specific \ DCA ToyCipher</td>
+                    <td class=" ">[C] \ Cryptanalysis \ Specific \ DCA KeyRecovery <br /> [T] \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 2 (automatic mode) <br /> [T] \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 3 (automatic mode) <br /> [T] \ Cryptanalysis \ Modern \ Differential Cryptanalysis Tutorial 1 (automatic mode) <br /> [C] \ Cryptanalysis \ Specific \ DCA Oracle <br /> [C] \ Cryptanalysis \ Specific \ DCA PathFinder <br /> [C] \ Cryptanalysis \ Specific \ DCA PathVisualizer <br /> [C] \ Cryptanalysis \ Specific \ DCA ToyCipher</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">7) Modern Cryptanalysis</td>
@@ -3053,7 +3054,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Modern Ciphers \ Symmetric \ Format Preserving Encryption (FPE) <br /> [T] \ Cryptography \ Modern \ Symmetric \ Format Preserving Encryption (XML) <br /> [T] \ Cryptography \ Modern \ Symmetric \ Format Preserving Encryption</td>
+                    <td class=" ">[C] \ Modern Ciphers \ Symmetric \ Format Preserving Encryption (FPE) <br /> [T] \ Cryptography \ Modern \ Symmetric \ Format Preserving Encryption <br /> [T] \ Cryptography \ Modern \ Symmetric \ Format Preserving Encryption (XML)</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">2) Modern Ciphers</td>
@@ -3081,7 +3082,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Hash functions \ Grøstl <br /> [T] \ Hash Functions \ Grøstl <br /> [T] \ Hash Functions \ Password storage using salted Grøstl-256 <br /> [T] \ Hash Functions \ Password verification using salted Grøstl-256</td>
+                    <td class=" ">[C] \ Hash functions \ Grøstl <br /> [T] \ Hash Functions \ Password verification using salted Grøstl-256 <br /> [T] \ Hash Functions \ Grøstl <br /> [T] \ Hash Functions \ Password storage using salted Grøstl-256</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
@@ -3151,7 +3152,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Hash functions \ ImageHash <br /> [T] \ Hash Functions \ ImageHash <br /> [T] \ Hash Functions \ ImageHash -- smooth comparison</td>
+                    <td class=" ">[C] \ Hash functions \ ImageHash <br /> [T] \ Hash Functions \ ImageHash -- smooth comparison <br /> [T] \ Hash Functions \ ImageHash</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
@@ -3235,7 +3236,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Misc \ Morse Code <br /> [T] \ Codes \ Morse code <br /> [W] \ Codes \ Morse Code</td>
+                    <td class=" ">[C] \ Tools \ Codes \ Morse Code <br /> [T] \ Codes \ Morse code <br /> [W] \ Codes \ Morse Code</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">9) Codings</td>
@@ -3243,20 +3244,6 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="odd">
-    <td class="ctfunction  sorting_1">Heartbleed [analysis]</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T/W</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Protocols \ Heartbleed Test <br /> [W] \ Tools \ Heartbleed analysis</td>
-                    <td class=" "></td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" ">13) Protocols</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
-<tr class="even">
     <td class="ctfunction  sorting_1">HTTP protocol</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3270,21 +3257,21 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
-    <td class="ctfunction  sorting_1">Simple webserver</td>
+<tr class="even">
+    <td class="ctfunction  sorting_1">Heartbleed [analysis]</td>
     <td align="center" class=" "></td>
-				    <td align="center" class=" ">T</td>
+				    <td align="center" class=" ">T/W</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[T] \ Protocols \ Simple Webserver</td>
+                    <td class=" ">[T] \ Protocols \ Heartbleed Test <br /> [W] \ Tools \ Heartbleed analysis</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">13) Protocols</td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Simple multi-client communication</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3298,6 +3285,20 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
+<tr class="even">
+    <td class="ctfunction  sorting_1">Simple webserver</td>
+    <td align="center" class=" "></td>
+				    <td align="center" class=" ">T</td>
+				    <td align="center" class=" "></td>
+				    <td align="center" class=" "></td>
+                    <td class=" "></td>
+                    <td class=" ">[T] \ Protocols \ Simple Webserver</td>
+                    <td class=" "></td>
+                    <td class=" "></td>
+                    <td style="display: none;" class=" ">13) Protocols</td>
+				    <td style="display: none;" class=" "></td>
+				</tr>
+
 <tr class="odd">
     <td class="ctfunction  sorting_1">Misc</td>
     <td align="center" class=" "></td>
@@ -3305,7 +3306,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Misc \ Number Operation <br /> [C] \ Tools \ Misc \ SAT Solver <br /> [C] \ Tools \ Misc \ Cryptanalytic Process Executor <br /> [C] \ Tools \ Misc \ Progress</td>
+                    <td class=" ">[C] \ Tools \ Misc \ Number Operation <br /> [C] \ Tools \ Misc \ Progress</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">14) Tools</td>
@@ -3371,14 +3372,14 @@ var gdpr_enable_log_cookie_consent=1;
 <tr class="even">
     <td class="ctfunction  sorting_1">SAT solver</td>
     <td align="center" class=" "></td>
-				    <td align="center" class=" ">T</td>
+				    <td align="center" class=" ">C/T</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[T] \ Mathematics \ SAT Solver (File Input) <br /> [T] \ Mathematics \ SAT Solver (Text Input)</td>
+                    <td class=" ">[C] \ Cryptanalysis \ Generic \ SAT Solver <br /> [T] \ Mathematics \ SAT Solver (Text Input) <br /> [T] \ Mathematics \ SAT Solver (File Input)</td>
                     <td class=" "></td>
                     <td class=" "></td>
-                    <td style="display: none;" class=" ">10) Learning Aids and Visualizations</td>
+                    <td style="display: none;" class=" ">14) Tools</td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
@@ -3417,7 +3418,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Steganography \ Insertion Steganography <br /> [T] \ Steganography \ Steganography Insertion Decryption <br /> [T] \ Steganography \ Steganography Insertion Encryption <br /> [T] \ Steganography \ Steganography Permutation Encryption <br /> [C] \ Steganography \ LSB Steganography <br /> [T] \ Steganography \ Steganography Least Significant Bit Decryption <br /> [T] \ Steganography \ Steganography Least Significant Bit Encryption <br /> [T] \ Steganography \ Steganography Least Significant Bit Data Transfer <br /> [C] \ Steganography \ Permutation Steganography <br /> [T] \ Steganography \ Steganography Permutation Decryption <br /> [T] \ Steganography \ Steganography Permutation Image Transfer</td>
+                    <td class=" ">[C] \ Steganography \ Insertion Steganography <br /> [T] \ Steganography \ Steganography Insertion Decryption <br /> [T] \ Steganography \ Steganography Permutation Encryption <br /> [T] \ Steganography \ Steganography Insertion Encryption <br /> [C] \ Steganography \ LSB Steganography <br /> [T] \ Steganography \ Steganography Least Significant Bit Data Transfer <br /> [T] \ Steganography \ Steganography Least Significant Bit Decryption <br /> [T] \ Steganography \ Steganography Least Significant Bit Encryption <br /> [C] \ Steganography \ Permutation Steganography <br /> [T] \ Steganography \ Steganography Permutation Image Transfer <br /> [T] \ Steganography \ Steganography Permutation Decryption</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">8) Steganography</td>
@@ -3445,7 +3446,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Classic Ciphers \ T-310 <br /> [T] \ Cryptography \ Classical \ T-310/50 Cipher Machine <br /> [T] \ Cryptography \ Classical \ T-310/51 Cipher Machine</td>
+                    <td class=" ">[C] \ Classic Ciphers \ T-310 <br /> [T] \ Cryptography \ Classical \ T-310/51 Cipher Machine <br /> [T] \ Cryptography \ Classical \ T-310/50 Cipher Machine</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">1) Classic Ciphers</td>
@@ -3459,7 +3460,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Cryptanalysis \ Generic \ Transcriptor <br /> [T] \ Cryptanalysis \ Classical \ Transcriptor -- manual mode <br /> [T] \ Cryptanalysis \ Classical \ Transcriptor -- semi-automatic mode</td>
+                    <td class=" ">[C] \ Cryptanalysis \ Generic \ Transcriptor <br /> [T] \ Cryptanalysis \ Classical \ Transcriptor -- semi-automatic mode <br /> [T] \ Cryptanalysis \ Classical \ Transcriptor -- manual mode</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">6) Classic Cryptanalysis</td>
@@ -3467,13 +3468,13 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="odd">
-    <td class="ctfunction  sorting_1">Visual Code</td>
+    <td class="ctfunction  sorting_1">Visual code</td>
     <td align="center" class=" "></td>
-				    <td align="center" class=" ">C</td>
+				    <td align="center" class=" ">C/T/W</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Tools \ Misc \ Visual Decoder</td>
+                    <td class=" ">[C] \ Tools \ Codes \ Visual Decoder <br /> [T] \ Codes \ Simple detection of optical codes <br /> [C] \ Tools \ Codes \ Visual Encoder <br /> [W] \ Codes \ Create visual code <br /> [W] \ Codes \ Decode visual code</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">9) Codings</td>
@@ -3481,20 +3482,6 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="even">
-    <td class="ctfunction  sorting_1">Visual code</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T/C/W</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Codes \ Simple detection of optical codes <br /> [C] \ Tools \ Misc \ Visual Encoder <br /> [W] \ Codes \ Create visual code <br /> [W] \ Codes \ Decode visual code</td>
-                    <td class=" "></td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" ">9) Codings</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
-<tr class="odd">
     <td class="ctfunction  sorting_1">VCard</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3508,21 +3495,21 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Watermark creator</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C/T</td>
 				    <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
                     <td class=" "></td>
-                    <td class=" ">[C] \ Steganography \ Watermark Creator <br /> [T] \ Steganography \ Watermark Creator -- invisible watermark <br /> [T] \ Steganography \ Watermark Creator -- Robustness <br /> [T] \ Steganography \ Watermark Creator -- visible watermark</td>
+                    <td class=" ">[C] \ Steganography \ Watermark Creator <br /> [T] \ Steganography \ Watermark Creator -- visible watermark <br /> [T] \ Steganography \ Watermark Creator -- invisible watermark <br /> [T] \ Steganography \ Watermark Creator -- Robustness</td>
                     <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">8) Steganography</td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">PRESENT</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C/T</td>
@@ -3536,7 +3523,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Navajo code</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3550,7 +3537,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">TEA</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C/T/W</td>
@@ -3564,7 +3551,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Trivium</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C</td>
@@ -3578,7 +3565,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Kryptos K1 [analysis]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3592,7 +3579,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Kryptos K2 [analysis]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3606,7 +3593,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">WEP</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C</td>
@@ -3620,7 +3607,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">One-time pad (OTP)</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3634,7 +3621,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Word pattern [analysis]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T/C</td>
@@ -3648,7 +3635,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Friedman test</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C</td>
@@ -3659,20 +3646,6 @@ var gdpr_enable_log_cookie_consent=1;
                     <td class=" ">[D] \ Analysis \ Friedman Test</td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">6) Classic Cryptanalysis</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
-<tr class="odd">
-    <td class="ctfunction  sorting_1">Loop</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Tools \ Loop</td>
-                    <td class=" "></td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" "><does_not_contain_category></td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
@@ -3803,7 +3776,21 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="odd">
-    <td class="ctfunction  sorting_1">Powering (iterating base)(RSA)</td>
+    <td class="ctfunction  sorting_1">Powering [visual]</td>
+    <td align="center" class=" "></td>
+				    <td align="center" class=" ">N</td>
+				    <td align="center" class=" "></td>
+				    <td align="center" class=" "></td>
+                    <td class=" "></td>
+                    <td class=" ">[N] \ Crypto tutorials \ World of Primes \ Number theory \ Powering (iterating exponent)</td>
+                    <td class=" "></td>
+                    <td class=" "></td>
+                    <td style="display: none;" class=" ">12) Prime numbers</td>
+				    <td style="display: none;" class=" "></td>
+				</tr>
+
+<tr class="even">
+    <td class="ctfunction  sorting_1">Potenzieren [Visualisierung]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">N</td>
 				    <td align="center" class=" "></td>
@@ -3812,11 +3799,11 @@ var gdpr_enable_log_cookie_consent=1;
                     <td class=" ">[N] \ Crypto tutorials \ World of Primes \ Number theory \ Powering (iterating base)(RSA)</td>
                     <td class=" "></td>
                     <td class=" "></td>
-                    <td style="display: none;" class=" "><does_not_contain_category></td>
+                    <td style="display: none;" class=" ">12) Prime numbers</td>
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">RIPEMD</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C/T</td>
@@ -3825,20 +3812,6 @@ var gdpr_enable_log_cookie_consent=1;
                     <td class=" "></td>
                     <td class=" ">[C] \ Hash functions \ RIPEMD160 <br /> [T] \ Hash Functions \ RIPEMD160</td>
                     <td class=" ">[A] \ Message Digests \ RIPEMD320 <br /> [A] \ Message Digests \ RIPEMD128 <br /> [A] \ Message Digests \ RIPEMD160 <br /> [A] \ Message Digests \ RIPEMD256</td>
-                    <td class=" "></td>
-                    <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
-				    <td style="display: none;" class=" "></td>
-				</tr>
-
-<tr class="odd">
-    <td class="ctfunction  sorting_1">Password hash (SHA-1)</td>
-    <td align="center" class=" "></td>
-				    <td align="center" class=" ">T</td>
-				    <td align="center" class=" "></td>
-				    <td align="center" class=" "></td>
-                    <td class=" "></td>
-                    <td class=" ">[T] \ Hash Functions \ Password store using salted SHA-1 <br /> [T] \ Hash Functions \ Password verification using salted SHA-1</td>
-                    <td class=" "></td>
                     <td class=" "></td>
                     <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
 				    <td style="display: none;" class=" "></td>
@@ -3859,6 +3832,20 @@ var gdpr_enable_log_cookie_consent=1;
 				</tr>
 
 <tr class="odd">
+    <td class="ctfunction  sorting_1">Password hash (SHA-1)</td>
+    <td align="center" class=" "></td>
+				    <td align="center" class=" ">T</td>
+				    <td align="center" class=" "></td>
+				    <td align="center" class=" "></td>
+                    <td class=" "></td>
+                    <td class=" ">[T] \ Hash Functions \ Password verification using salted SHA-1 <br /> [T] \ Hash Functions \ Password store using salted SHA-1</td>
+                    <td class=" "></td>
+                    <td class=" "></td>
+                    <td style="display: none;" class=" ">3) Hash and MAC Algorithms</td>
+				    <td style="display: none;" class=" "></td>
+				</tr>
+
+<tr class="even">
     <td class="ctfunction  sorting_1">Virtual smartcard</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C/T</td>
@@ -3872,7 +3859,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Levenshtein distance</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">T</td>
@@ -3886,7 +3873,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Tiger</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C/T</td>
@@ -3900,7 +3887,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Whirlpool</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">C/T</td>
@@ -3914,7 +3901,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Crib [analysis]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">W</td>
@@ -3928,7 +3915,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Encoding</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">W</td>
@@ -3942,7 +3929,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Encryption</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" ">W</td>
@@ -3956,7 +3943,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">ElGamal</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -3970,7 +3957,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">McEliece signature</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -3984,7 +3971,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Niederreiter</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -3998,7 +3985,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">RC5</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4012,7 +3999,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Shacal</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4026,7 +4013,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">SAFER</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4040,7 +4027,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Misty</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4054,7 +4041,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">ECIES</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4068,7 +4055,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">McEliece</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4082,7 +4069,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">AES MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4096,7 +4083,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">DES MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4110,7 +4097,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Tiger MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4124,7 +4111,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">FORK MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4138,7 +4125,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">SHA MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4152,7 +4139,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">RIPEMD MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4166,7 +4153,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">MAC general</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4180,7 +4167,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">DHA MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4194,7 +4181,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Serpent MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4208,7 +4195,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">RC5 MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4222,7 +4209,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">RC6 MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4236,7 +4223,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">RC2 MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4250,7 +4237,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">IDEA MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4264,7 +4251,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Misty MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4278,7 +4265,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">MARS MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4292,7 +4279,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Camellia MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4306,7 +4293,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">SAFER MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4320,7 +4307,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Twofish MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4334,7 +4321,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Shacal MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4348,7 +4335,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">TwoTrack MAC</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4362,7 +4349,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">DHA</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4376,7 +4363,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">VSH</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4390,7 +4377,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">MD</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4404,7 +4391,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">FORK</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4418,7 +4405,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">PBES2</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4432,7 +4419,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Blum Blum Shub (BBS) -- PRNG</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4446,7 +4433,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">EC PRNG</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4460,7 +4447,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">RSA signature</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4474,7 +4461,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">GQ signature</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4488,7 +4475,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Winternitz</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4502,7 +4489,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">CMSS</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4516,7 +4503,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">GMSS signature</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4530,7 +4517,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Merkle signature</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4544,7 +4531,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Bifid</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4558,7 +4545,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Double box</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4572,7 +4559,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Dragon</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4586,7 +4573,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Grille [analysis]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4600,7 +4587,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Viterbi [analysis]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4614,7 +4601,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Divider game</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4628,7 +4615,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Sudoku solver</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4642,7 +4629,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Zudo-Ku</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4656,7 +4643,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Key exchange (multipartite)</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4670,7 +4657,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Ant Colony Optimization (ACO)</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4684,7 +4671,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Android Unlock Pattern (AUP)</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4698,7 +4685,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Shanks Babystep-Giantstep</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4712,7 +4699,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Certificate verification</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4726,7 +4713,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">EC calculations</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4740,7 +4727,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Reciprocal subtraction</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4754,7 +4741,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Grille</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4768,7 +4755,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Homomorphic encryption</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4782,7 +4769,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Public-key infrastructure</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4796,7 +4783,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Kleptography</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4810,7 +4797,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Knapsack</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4824,7 +4811,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Shamir's secret sharing</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4838,7 +4825,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Differential power [analysis]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4852,7 +4839,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Square and multiply</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4866,7 +4853,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">SPHINCS</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4880,7 +4867,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">TLS handshake</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4894,7 +4881,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Verifiable secret sharing (VSS)</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4908,7 +4895,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">WOTS</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4922,7 +4909,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Magic door [visual]</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4936,7 +4923,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="even">
+<tr class="odd">
     <td class="ctfunction  sorting_1">Fiat Shamir</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>
@@ -4950,7 +4937,7 @@ var gdpr_enable_log_cookie_consent=1;
 				    <td style="display: none;" class=" "></td>
 				</tr>
 
-<tr class="odd">
+<tr class="even">
     <td class="ctfunction  sorting_1">Graph isomorphism</td>
     <td align="center" class=" "></td>
 				    <td align="center" class=" "></td>

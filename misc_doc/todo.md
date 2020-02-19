@@ -107,3 +107,25 @@ https://www.cryptool.org/en/cto-documentation/sitemap
 [x] [T] Tools \ Check Password Strength :> Password Quality visual
 [x] [W] Tools \ Password Strength :> Password Quality visual
 - 
+
+# 02/18
+
+1) Wenn wir "Potenzieren (laufende Basis)(RSA)" als eigene Funktion sehen, sollen wir beide darunter legen und die Funktion leicht umbenennen:
+
+[x] Funktion: Potenzieren [Visualisierung]
+
+Und dahinter:
+
+[x] [N] \ Kryptotutorien \ Die Welt der Primzahlen \ Zahlentheorie \ Potenzieren (laufender Exponent)
+[x] [N] \ Kryptotutorien \ Die Welt der Primzahlen \ Zahlentheorie \ Potenzieren (laufende Basis)(RSA)
+
+[x] Und analog im Englischen.
+
+
+[x] 2) Das, was jetzt als Funktion "Generierung von Primzahlen" (zeigt nur
+CT1-Pfade) gezeigt wird, könnten Sie auch unter die Funktion
+"Primzahlen" bringen. Ich glaube, im Englischen ist das sogar schon so.
+
+# Tail
+
+[ ] Nothing in this todo, for now...

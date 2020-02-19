@@ -127,3 +127,20 @@ CT2:dynamic:50aa0df7;7) Modern Cryptanalysis;CT2:W \ Cryptanalysis \ Modern Encr
 CT2:dynamic:85bc810e;13) Protocols;CT2:W \ Tools \ Encrypt with password
 CT2:dynamic:74f54437;5) Random Number Generators;CT2:W \ Tools \ Random numbers
 CT2:dynamic:81b24550;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Format Preserving Encryption (XML)
+CT2:dynamic:2b853e2f;6) Classic Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ ADFGVX Analyzer
+CT2:dynamic:aa04cec3;14) Tools;CT2:C \ Tools \ Data flow \ Concatenate
+CT2:dynamic:048091e9;5) Random Number Generators;CT2:C \ Tools \ Random Number \ LFSR
+CT2:dynamic:673b38bc;5) Random Number Generators;CT2:C \ Tools \ Random Number \ NLFSR
+CT2:dynamic:0d5e7807;9) Codings;CT2:C \ Tools \ Codes \ String Decoder
+CT2:dynamic:480713f6;9) Codings;CT2:C \ Tools \ Codes \ String Encoder
+CT2:dynamic:536baf7e;9) Codings;CT2:C \ Tools \ Codes \ Huffman
+CT2:dynamic:4c4e29cb;9) Codings;CT2:C \ Tools \ Codes \ Morse Code
+CT2:dynamic:0d84d4b4;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Padding Oracle
+CT2:dynamic:0e0a99fd;7) Modern Cryptanalysis;CT2:C \ Cryptanalysis \ Specific \ Padding Oracle Attack
+CT2:dynamic:da30d6be;5) Random Number Generators;CT2:C \ Tools \ Random Number \ Random Number Generator
+CT2:dynamic:b5cd4f04;14) Tools;CT2:C \ Cryptanalysis \ Generic \ SAT Solver
+CT2:dynamic:8bee545d;9) Codings;CT2:C \ Tools \ Codes \ Visual Decoder
+CT2:dynamic:5b71c797;9) Codings;CT2:C \ Tools \ Codes \ Visual Encoder
+CT2:dynamic:22a44114;14) Tools;CT2:C \ Tools \ Data input/output \ Camera
+CT2:dynamic:3c522033;14) Tools;CT2:T \ Tools \ Loop
+CT2:dynamic:4edde24e;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering (iterating base)(RSA)
