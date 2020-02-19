@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+
+# get link from https://www.cryptool.org/en/ct2-downloads
+
+set -euo pipefail
+dir="$( readlink -f "${BASH_SOURCE[0]}" )"; dir="${dir%/*}"; dir="${dir%/*}"
+contprompt() {
+    read -p "${1:-Continue...?}"$'\n' -n 1 -r
+    if [[ $REPLY != [Nn]* ]] 
+    then
+        return 0
+    else
+        return 1
+    fi
+}
+
+cliparg="https://www.cryptool.org$( curl -L 'https://www.cryptool.org/en/ct2-downloads' | sed -n 's/^.*href=.\([- /.A-Za-z_0-9()]*zip\)..*/\1/p' )"
+
+if [[ ! -z "${1:+x}" ]]; then
+    urlarg="$1"
+else
+    urlarg="$cliparg"
+fi
+if [[ -z "$urlarg" ]]; then
+    echo "no url given" >&2; return 3;
+fi
+
+cliparg_prefixdel="${urlarg##https://www.cryptool*}"
+if [[ ! -z "$cliparg_prefixdel" ]]; then
+    { echo "no cryptool url: $urlarg" >&2; exit 3; }
+fi
+
+url="$urlarg"
+
+# https://www.cryptool.org/ct2download/Builds/CrypTool%202.1%20(Nightly%20Build%208636.1).zip
+
+windir="/media/shared/VMs_FS/Win10/ct2gen"
+
+# rm -rf "$windir" || :
+# mkdir -p "$windir"
+
+mkdir -p "$windir/product"
+zipfile="$windir/ct2archive.zip"
+
+# curl -o "$zipfile" -JL "$url"
+# 7z x -o"$windir/product" "$zipfile"
+
+de_csv="$windir/product/FunctionList-de.csv"
+en_csv="$windir/product/FunctionList-en.csv"
+dest_de_csv="$dir/ws-static/data/de/scsv_generated/ct2.csv"
+dest_en_csv="$dir/ws-static/data/en/scsv_generated/ct2.csv"
+
+contprompt "Let Windows VM generate the files and press Enter..."
+
+echo cp "$de_csv" "$dest_de_csv" >&2
+cp "$de_csv" "$dest_de_csv"
+
+echo cp "$en_csv" "$dest_en_csv" >&2
+cp "$en_csv" "$dest_en_csv"
+
+echo "finished; copied csv files"
