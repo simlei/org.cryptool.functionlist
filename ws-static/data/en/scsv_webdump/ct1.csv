@@ -74,7 +74,7 @@ CT1:en:static:74;MD4;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ MD4;3) Hash and MAC A
 CT1:en:static:75;MD5;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ MD5;3) Hash and MAC Algorithms
 CT1:en:static:76;N-gram [analysis];CT1:X;CT1:X\ Analysis\ Tools for Analysis\ N-Gram…;6) Classic Cryptanalysis
 CT1:en:static:77;Nihilist [visual];CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Nihilist…;10) Learning Aids and Visualizations
-CT1:en:static:78;Number Shark (Taxman);CT1:X;CT1:X\ Indiv. Procedures\ Educational Games\ Number Shark;11) Games
+CT1:en:static:78;Number Shark (taxman);CT1:X;CT1:X\ Indiv. Procedures\ Educational Games\ Number Shark;11) Games
 CT1:en:static:79;Number theory;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\;10) Learning Aids and Visualizations
 CT1:en:static:80;Number theory;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\ Generic t-adic-NAF Key Generator;10) Learning Aids and Visualizations
 CT1:en:static:81;Password quality [visual];CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Quality Meter...;10) Learning Aids and Visualizations
@@ -117,8 +117,8 @@ CT1:en:static:117;Serpent [attack];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (
 CT1:en:static:118;SHA;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ SHA-1;3) Hash and MAC Algorithms
 CT1:en:static:119;SHA;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ SHA-256;3) Hash and MAC Algorithms
 CT1:en:static:120;SHA [nur CT1];CT1:X;CT1:X\ Indiv. Procedures\ Hash\ SHA-512;3) Hash and MAC Algorithms
-CT1:en:static:121;Shamir's secret sharing [visual];CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;10) Learning Aids and Visualizations
-CT1:en:static:122;Shamir's secret sharing [visual];CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;13) Protocols
+CT1:en:static:121;Shamir's secret sharing (MPC) [visual];CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;10) Learning Aids and Visualizations
+CT1:en:static:122;Shamir's secret sharing (MPC) [visual];CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;13) Protocols
 CT1:en:static:123;Solitaire;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Solitaire…;1) Classic Ciphers
 CT1:en:static:124;Solitaire [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Solitaire...;6) Classic Cryptanalysis
 CT1:en:static:125;Solitaire [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Manual Analysis\ Solitaire…;6) Classic Cryptanalysis

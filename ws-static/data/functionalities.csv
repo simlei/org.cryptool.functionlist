@@ -2,13 +2,13 @@ en;de
 Data flow;Datenfluss
 RSA signature;RSA-Signatur
 ECDSA signature;ECDSA-Signatur
-Data input/output;Datenein- und ausgabe
+Data input/output;Datenein- und -ausgabe
 Primes (generators, tests, factorization, tutorials);Primzahlen (Generatoren, Tests, Faktorisieren, Tutorien)
 Steganography;Steganographie
 Factorization of a number;Faktorisierung
 Transposition (single column transposition);Transposition (ein-stufige Spaltentransposition)
 Transposition (double column transposition);Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
-Transposition (double column transposition) -- [attack];Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) [Angriff]
+Transposition (double column transposition) -- [attack];Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) [Analyse]
 Transposition [analysis];Transposition [Analyse]
 Paillier;Paillier
 SPHINCS signature;SPHINCS-Signatur
@@ -18,7 +18,7 @@ DSA signature;DSA-Signatur
 Misc;Verschiedene
 AES [analysis];AES [Analyse]
 Differential cryptanalysis (DCA) [visual];Differenzielle Kryptanalyse (DKA) [Visualisierung]
-Lattice [visual];Lattice-Visualisierung
+Lattice [visual];Lattice [Visualisierung]
 Lattice [attack];Lattice [Angriff]
 Merkle signature;Merkle-Signatur
 Vigenère cipher;Vigenère-Chiffre
@@ -33,12 +33,12 @@ Watermark creator;Wasserzeichen erstellen
 DES [analysis];DES [Analyse]
 Encrypted VM;Verschlüsselte VM
 Tools;Werkzeuge
-Frequency test;Häufigkeitstest
+Frequency test;Häufigkeitstest [Analyse]
 Caesar / Rot-13 [analysis];Caesar / Rot-13 [Analyse]
 Morse code;Morse-Code
 Passwords;Passwörter
 Cyclic redundancy check (CRC);Zyklische Redundanzprüfung (CRC)
-Secure Chat -- Applied Cryptography;Sicherer Chat -- Angewendete Kryptographie
+Secure Chat -- Applied Cryptography;Sicherer Chat -- Angewandte Kryptographie
 Virtual smartcard;Virtuelle Smartcard
 Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);Visuelle Codes (QR, EAN8, WAN13, Code39, Code128, PDF417)
 Transcriptor [analysis];Transkriptor [Analyse]
@@ -53,12 +53,12 @@ Nihilist cipher;Nihilist-Chiffre
 Homophonic substitution [analysis];Homophone Substitution [Analyse]
 Playfair [analysis];Playfair [Analyse]
 Solitaire [analysis];Solitaire [Analyse]
-AES [visual];AES-Visualisierung
-DES [visual];DES-Visualisierung
+AES [visual];AES [Visualisierung]
+DES [visual];DES [Visualisierung]
 ISAP bit commitment scheme;ISAP Bit-Commitment-Verfahren
 mode [visual];Blockmodus [Visualisierung]
 Scytale [analysis];Skytale [Analyse]
-Homophonic substitution cipher;Homophonische Substitutions-Chiffre
+Homophonic substitution cipher;Homophone Substitutions-Chiffre
 SIGABA [analysis];SIGABA [Analyse]
 McEliece signature;McEliece-Signatur
 ECNR signature;ECNR-Signatur
@@ -66,25 +66,25 @@ Entropy [analysis];Entropie [Analyse]
 Grille [analysis];Grille [Analyse]
 Viterbi [analysis];Viterbi [Analyse]
 Divider game;Teilerspiel
-Number Shark (taxman);Zahlenhai (Taxman)
+Number Shark (taxman);Zahlenhai (Number Shark, Taxman)
 Sudoku solver;Sudoku-Solver
 Ant Colony Optimization (ACO);Ameisenalgorithmus (ACO)
 Android Unlock Pattern (AUP);Android Entsperrmuster (AUP)
-Chinese remainder theorem (CRT) [visual];Chinese remainder theorem (CRT) [Visualisierung]
-Certificate verification;Zertifikatsverifizierung
+Chinese remainder theorem (CRT) [visual];Chinesischer Restsatz (CRT) [Visualisierung]
+Certificate verification;Zertifikate verifizieren
 EC calculations;EC-Berechnungen
 Reciprocal subtraction;Reziproke Substraktion
 Hash algorithms [visual];Hash-Algorithmen [Visualisierung]
-Homomorphic encryption;Homomorphe Verschlüsselung
+Homomorphic encryption;Homomorphe Verschlüsselung (HE)
 Public-key infrastructure;Public-Key-Infrastruktur
 Kleptography;Kleptographie
 Knapsack;Rucksackproblem
 Differential power [analysis];Differential power [Analyse]
 Square and multiply;Binäre Exponentiation
 Signature [visual];Signatur [Visualisierung]
-Signature verification;Signatur-Verifizierung
+Signature verification;Signatur verifizieren
 Magic door [visual];Magic door [Visualisierung]
-Graph isomorphism;Graphisomorphismus
+Graph isomorphism;Graphenisomorphismus
 ADFGVX [analysis];ADFGVX [Analyse]
 Encryption with AES and password;Verschlüsselung mit AES und Passwort
 Cylinder cipher;Cylinder-Chiffre
@@ -96,7 +96,7 @@ Cube [attack];Cube [Angriff]
 IDP [analysis];IDP [Analyse]
 Key searcher;Schlüsselsuche
 Feistel [attack];Feistel [Angriff]
-MD5 attack (collisions);MD5 [Angriff] (Kollisionen)
+MD5 attack (collisions);MD5 (Kollisionen) [Angriff]
 Kryptos K1 [analysis];Kryptos K1 [Analyse]
 Kryptos K2 [analysis];Kryptos K2 [Analyse]
 Zodiac-408 [analysis];Zodiac-408 [Analyse]
@@ -116,12 +116,12 @@ Simple multi-client communication;Simple Kommunikation mit mehreren Clients
 Simple webserver;Einfacher Webserver
 Crib [analysis];Crib [Analyse]
 RSA [attack];RSA [Angriff]
-MD5 [analysis];MD5 [Analyse]
+MD5 [analysis];MD5 (Kollisionen) [Angriff]
 Classical ciphers [analysis];Klassische Verfahren [Analyse]
 Webhits for a hash value;Webtreffer für einen Hashwert
 Spanish strip cipher [analysis];Spanische Streifenchiffre [Analyse]
 Spanish strip cipher;Spanische Streifenchiffre
-Double box;Dopelkasten
+Double box;Doppelkasten
 Key exchange (multipartite);Schlüsselaustausch (multipartit)
 Key exchange (Diffie-Hellman DH);Schlüsselaustausch (Diffie-Hellman DH)
 TREYFER [attack];TREYFER [Angriff]
@@ -137,7 +137,7 @@ DESL [analysis];DESL  [Analyse]
 DESX [analysis];DESX  [Analyse]
 DGK (Homomorphic encryption);DGK (Homomorphe Verschlüsselung)
 GMSS signature;GMSS-Signatur
-SAT solver;SAT-solver
+SAT solver;SAT-Solver
 Password quality [visual];Passwortqualität [Visualisierung]
 Format preserving encryption (FPE);Formatbewahrende Verschlüsselung (FPE)
 Password hash (SHA-1);Passwort-Hash (SHA-1)
@@ -145,3 +145,18 @@ Discrete logarithm;Diskreter Logarithmus
 Differential cryptanalysis (DCA);Differenzielle Kryptanalyse (DKA)
 Powering [visual];Potenzieren [Visualisierung]
 Winternitz signature;Winternitz-Signatur
+Coin flipping protocol;Coin-Flipping-Protokoll
+Dining cryptographers protocol;Dining Cryptographers-Protokoll
+HTTP protocol;HTTP-Protokoll
+Oblivious transfer protocol (MPC);Oblivious Transfer-Protokoll (MPC)
+Yao's millionaire problem (protocol) (MPC);Yaos Millionärsproblem (MPC)
+Zero knowledge protocol;Zero Knowledge-Protokoll
+Key derivation function (KDF);Key Derivation Function (KDF)
+Key exchange (BB84);Schlüsselaustausch (BB84)
+MAC general;MAC generell
+Boolean functions;Boolesche Funktionen
+Navajo code;Navajo-Code
+Verifiable secret sharing (VSS);Verifiable Secret Sharing (VSS)
+Blum Blum Shub (BBS) -- PRNG;Blum Blum Shub (BBS) (PRNG)
+EC PRNG;EC (PRNG)
+Scytale;Skytale

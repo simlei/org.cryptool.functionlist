@@ -191,9 +191,9 @@ JCT:dynamic:22fa3c6c;10) Learning Aids and Visualizations;JCT:D \ Visuals \ Magi
 JCT:dynamic:e3ddb01a;10) Learning Aids and Visualizations;JCT:D \ Visuals \ Fiat Shamir
 JCT:dynamic:2a4087b8;10) Learning Aids and Visualizations;JCT:D \ Visuals \ Feige Fiat Shamir
 JCT:dynamic:6742fac1;10) Learning Aids and Visualizations;JCT:D \ Visuals \ Graph Isomorphism
-JCT:dynamic:7a09f6db;<enter value here>;JCT:A \ Block Ciphers \ SAFER++
-JCT:dynamic:ea1c7ade;<enter value here>;JCT:A \ Block Ciphers \ SAFER+
-JCT:dynamic:8136afb9;<enter value here>;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER+
-JCT:dynamic:06c1a045;<enter value here>;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
-JCT:dynamic:ab1578c0;<enter value here>;JCT:D \ Visuals \ SPHINCS+ Signature
-JCT:dynamic:8261200a;<enter value here>;JCT:D \ Visuals \ WOTS/WOTS+
+JCT:dynamic:7a09f6db;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER++
+JCT:dynamic:ea1c7ade;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER+
+JCT:dynamic:8136afb9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER+
+JCT:dynamic:06c1a045;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
+JCT:dynamic:ab1578c0;4) Digital Signatures, PKI;JCT:D \ Visuals \ SPHINCS+ Signature
+JCT:dynamic:8261200a;10) Learning Aids and Visualizations;JCT:D \ Visuals \ WOTS/WOTS+

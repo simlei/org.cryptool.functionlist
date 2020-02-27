@@ -202,7 +202,7 @@ JCT:dynamic:f647645d;Transposition [analysis];JCT:D \ Analysis \ Transposition A
 JCT:dynamic:db7e4fa0;Vigenère [analysis];JCT:D \ Analysis \ Vigenère Breaker
 JCT:dynamic:22555017;Viterbi [analysis];JCT:D \ Analysis \ Viterbi Analysis
 JCT:dynamic:b2307152;Divider game;JCT:D \ Games \ Divider Game
-JCT:dynamic:04aaf7cd;Number Shark;JCT:D \ Games \ Number Shark
+JCT:dynamic:04aaf7cd;Number Shark (taxman);JCT:D \ Games \ Number Shark
 JCT:dynamic:0fdb34fc;Sudoku solver;JCT:D \ Games \ Sudoku-Solver
 JCT:dynamic:45aef617;Zudo-Ku;JCT:D \ Games \ Zudo-Ku
 JCT:dynamic:e20c852e;Key exchange (multipartite);JCT:D \ Visuals \ Multipartite Key Exchange
@@ -227,7 +227,7 @@ JCT:dynamic:d8770738;Kleptography;JCT:D \ Visuals \ Kleptography
 JCT:dynamic:cd84c523;Knapsack;JCT:D \ Visuals \ Merkle-Hellman Knapsack Cryptosystem
 JCT:dynamic:ef774b7f;Merkle signature;JCT:D \ Visuals \ Merkle Signature (XMSS^MT)
 JCT:dynamic:8be3a019;RSA;JCT:D \ Visuals \ RSA Cryptosystem
-JCT:dynamic:2592b54a;Shamir's secret sharing;JCT:D \ Visuals \ Shamir's Secret Sharing
+JCT:dynamic:2592b54a;Shamir's secret sharing (MPC);JCT:D \ Visuals \ Shamir's Secret Sharing
 JCT:dynamic:eaf14744;Differential power [analysis];JCT:D \ Visuals \ Differential Power Analysis / Double and Add
 JCT:dynamic:f3db2b04;Square and multiply;JCT:D \ Visuals \ Simple Power Analysis / Square and Multiply
 JCT:dynamic:d35b8450;Signature [visual];JCT:D \ Visuals \ Signature Demonstration
@@ -239,9 +239,9 @@ JCT:dynamic:22fa3c6c;Magic door [visual];JCT:D \ Visuals \ Magic Door
 JCT:dynamic:e3ddb01a;Fiat Shamir;JCT:D \ Visuals \ Fiat Shamir
 JCT:dynamic:2a4087b8;Fiat Shamir;JCT:D \ Visuals \ Feige Fiat Shamir
 JCT:dynamic:6742fac1;Graph isomorphism;JCT:D \ Visuals \ Graph Isomorphism
-JCT:dynamic:7a09f6db;<enter value here>;JCT:A \ Block Ciphers \ SAFER++
-JCT:dynamic:ea1c7ade;<enter value here>;JCT:A \ Block Ciphers \ SAFER+
-JCT:dynamic:8136afb9;<enter value here>;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER+
-JCT:dynamic:06c1a045;<enter value here>;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
-JCT:dynamic:ab1578c0;<enter value here>;JCT:D \ Visuals \ SPHINCS+ Signature
-JCT:dynamic:8261200a;<enter value here>;JCT:D \ Visuals \ WOTS/WOTS+
+JCT:dynamic:7a09f6db;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER++
+JCT:dynamic:ea1c7ade;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER+
+JCT:dynamic:8136afb9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER+
+JCT:dynamic:06c1a045;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
+JCT:dynamic:ab1578c0;4) Digital Signatures, PKI;JCT:D \ Visuals \ SPHINCS+ Signature
+JCT:dynamic:8261200a;10) Learning Aids and Visualizations;JCT:D \ Visuals \ WOTS/WOTS+

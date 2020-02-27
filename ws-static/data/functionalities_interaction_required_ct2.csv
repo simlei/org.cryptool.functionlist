@@ -103,7 +103,7 @@ CT2:dynamic:f21fb1ba;DECODE database;CT2:T \ Tools \ Download documents from the
 CT2:dynamic:e757db00;Huffman;CT2:T \ Tools \ Huffman's algorithm (ASCII)
 CT2:dynamic:4642fe41;Huffman;CT2:T \ Tools \ Huffman's algorithm (BMG, JPG)
 CT2:dynamic:23ee8009;Huffman;CT2:T \ Tools \ Huffman's algorithm (UTF-8)
-CT2:dynamic:524cb8d1;Keccak;CT2:T \ Tools \ Keccak pseudorandom number generator (PRNG)
+CT2:dynamic:524cb8d1;Keccak (Hash, Chiffre, PRNG);CT2:T \ Tools \ Keccak pseudorandom number generator (PRNG)
 CT2:dynamic:d37d0c74;Data input/output;CT2:T \ Tools \ Random Decimal Number
 CT2:dynamic:78dddd93;Pseudo random number generator (PRNG);CT2:T \ Tools \ Random number generators
 CT2:dynamic:05095ecf;Secure Chat -- Applied Cryptography;CT2:T \ Tools \ Simple AES Chat
@@ -171,7 +171,7 @@ CT2:dynamic:02cbc531;BLAKE;CT2:C \ Hash functions \ BLAKE
 CT2:dynamic:01152856;Cyclic redundancy check (CRC);CT2:C \ Hash functions \ CRC
 CT2:dynamic:04c175dc;Grøstl;CT2:C \ Hash functions \ Grøstl
 CT2:dynamic:0e5ca605;ImageHash;CT2:C \ Hash functions \ ImageHash
-CT2:dynamic:a410b7f2;Keccak;CT2:C \ Hash functions \ Keccak
+CT2:dynamic:a410b7f2;Keccak (Hash, Chiffre, PRNG);CT2:C \ Hash functions \ Keccak
 CT2:dynamic:85b7fb4d;MD5;CT2:C \ Hash functions \ MD5
 CT2:dynamic:a193455c;MD5 attack (collisions);CT2:C \ Hash functions \ MD5 Collider
 CT2:dynamic:1fad91a6;PKCS#5;CT2:C \ Hash functions \ PKCS#5
@@ -227,14 +227,14 @@ CT2:dynamic:8b17e7f7;HMAC;CT2:C \ Protocols \ HMAC
 CT2:dynamic:965efbee;ISAP bit commitment scheme;CT2:C \ Protocols \ ISAP Bit Commitment Scheme
 CT2:dynamic:b2f6b1f3;Man-in-the-middle [attack];CT2:C \ Protocols \ ManInTheMiddle
 CT2:dynamic:591a714a;NLFSR;CT2:C \ Protocols \ NLFSR
-CT2:dynamic:20f05f84;Oblivious transfer protocol;CT2:C \ Protocols \ Oblivious Transfer 1
-CT2:dynamic:bc5dc0e6;Oblivious transfer protocol;CT2:C \ Protocols \ Oblivious Transfer 2
+CT2:dynamic:20f05f84;Oblivious transfer protocol (MPC);CT2:C \ Protocols \ Oblivious Transfer 1
+CT2:dynamic:bc5dc0e6;Oblivious transfer protocol (MPC);CT2:C \ Protocols \ Oblivious Transfer 2
 CT2:dynamic:31d60b0b;Virtual smartcard;CT2:C \ Protocols \ Smartcard
 CT2:dynamic:e29afff9;Virtual smartcard;CT2:C \ Protocols \ Smartcard Interpreter
 CT2:dynamic:2ab6fce7;WEP;CT2:C \ Protocols \ WEP protocol
-CT2:dynamic:f1c58b4f;Yao's millionaire problem (protocol);CT2:C \ Protocols \ Yao 1
-CT2:dynamic:e5649775;Yao's millionaire problem (protocol);CT2:C \ Protocols \ Yao 2
-CT2:dynamic:6da71cbf;Yao's millionaire problem (protocol);CT2:C \ Protocols \ Yao 3
+CT2:dynamic:f1c58b4f;Yao's millionaire problem (protocol) (MPC);CT2:C \ Protocols \ Yao 1
+CT2:dynamic:e5649775;Yao's millionaire problem (protocol) (MPC);CT2:C \ Protocols \ Yao 2
+CT2:dynamic:6da71cbf;Yao's millionaire problem (protocol) (MPC);CT2:C \ Protocols \ Yao 3
 CT2:dynamic:dbfc1d94;Zero knowledge protocol;CT2:C \ Protocols \ Zero Knowledge Prover
 CT2:dynamic:60e3784d;Zero knowledge protocol;CT2:C \ Protocols \ Zero Knowledge Verifier
 CT2:dynamic:66e74015;Steganography;CT2:C \ Steganography \ Insertion Steganography
@@ -362,7 +362,7 @@ CT2:dynamic:a4f749cc;DES;CT2:T \ Cryptography \ Modern \ Symmetric \ DES Complem
 CT2:dynamic:a3d6cc4e;DES [visual];CT2:T \ Cryptography \ Modern \ Symmetric \ DES Visualization
 CT2:dynamic:8f95a066;Grain;CT2:T \ Cryptography \ Modern \ Symmetric \ Grain v1 Cipher
 CT2:dynamic:9502c190;HC128;CT2:T \ Cryptography \ Modern \ Symmetric \ HC128 Cipher
-CT2:dynamic:765b42d7;Keccak;CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
+CT2:dynamic:765b42d7;Keccak (Hash, Chiffre, PRNG);CT2:T \ Cryptography \ Modern \ Symmetric \ Keccak Cipher
 CT2:dynamic:b827ce06;Mickey 2;CT2:T \ Cryptography \ Modern \ Symmetric \ Mickey 2 Cipher
 CT2:dynamic:e2bdb7b6;PRESENT;CT2:T \ Cryptography \ Modern \ Symmetric \ PRESENT Cipher
 CT2:dynamic:83ef1e9d;Rabbit;CT2:T \ Cryptography \ Modern \ Symmetric \ Rabbit Cipher
@@ -394,7 +394,7 @@ CT2:dynamic:27c43121;ImageHash;CT2:T \ Hash Functions \ ImageHash
 CT2:dynamic:8108576e;ImageHash;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
 CT2:dynamic:1f3381ca;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (without presentation)
 CT2:dynamic:1a8acc0a;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (with presentation)
-CT2:dynamic:d3cfb48d;Keccak hash;CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
+CT2:dynamic:d3cfb48d;Keccak (Hash, Chiffre, PRNG);CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
 CT2:dynamic:42530bf8;MD5;CT2:T \ Hash Functions \ MD5
 CT2:dynamic:794f15b7;BLAKE;CT2:T \ Hash Functions \ Password storage using salted BLAKE-256
 CT2:dynamic:51a0bd50;BLAKE;CT2:T \ Hash Functions \ Password verification using salted BLAKE-256
@@ -429,11 +429,11 @@ CT2:dynamic:00553e82;Key exchange (Diffie-Hellman DH);CT2:T \ Protocols \ Diffie
 CT2:dynamic:5c570de3;Dining cryptographers protocol;CT2:T \ Protocols \ Dining Cryptographers Protocol
 CT2:dynamic:5777d7b1;Heartbleed [analysis];CT2:T \ Protocols \ Heartbleed Test
 CT2:dynamic:7fc722b4;HTTP protocol;CT2:T \ Protocols \ HTTP Request
-CT2:dynamic:30af03b0;Oblivious transfer protocol;CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:dynamic:30af03b0;Oblivious transfer protocol (MPC);CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
 CT2:dynamic:411a6008;Simple multi-client communication;CT2:T \ Protocols \ Simple Multi Client Communication
 CT2:dynamic:e66f4e2a;Simple webserver;CT2:T \ Protocols \ Simple Webserver
 CT2:dynamic:4ed6f2df;WEP [attack];CT2:T \ Protocols \ WEP Attack
-CT2:dynamic:6e911c84;Yao's millionaire problem (protocol);CT2:T \ Protocols \ Yao's Millionaire Problem Protocol
+CT2:dynamic:6e911c84;Yao's millionaire problem (protocol) (MPC);CT2:T \ Protocols \ Yao's Millionaire Problem Protocol
 CT2:dynamic:7c8c1220;Zero knowledge protocol;CT2:T \ Protocols \ Zero Knowledge Protocol
 CT2:dynamic:60fe9232;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- invisible watermark
 CT2:dynamic:2b38cb12;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- Robustness
@@ -500,8 +500,8 @@ CT2:dynamic:8422d4a8;PKCS#5 AES;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, ou
 CT2:dynamic:1e4e5830;Classical ciphers [analysis];CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
 CT2:dynamic:428d96db;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
 CT2:dynamic:b78d06b0;Webhits for a hash value;CT2:T \ Experimental \ Webhits for a hash value
-CT2:dynamic:6c794f0b;Math template;CT2:T \ Mathematics \ Booleans
-CT2:dynamic:86a23f55;Math template;CT2:T \ Mathematics \ Loop (1)
+CT2:dynamic:6c794f0b;Boolean functions;CT2:T \ Mathematics \ Booleans
+CT2:dynamic:86a23f55;Boolean functions;CT2:T \ Mathematics \ Loop (1)
 CT2:dynamic:1e1a9d0f;Steganography;CT2:T \ Steganography \ Steganography Insertion Decryption
 CT2:dynamic:65d2a1da;Steganography;CT2:T \ Steganography \ Steganography Insertion Encryption
 CT2:dynamic:d659e1bf;Steganography;CT2:T \ Steganography \ Steganography Least Significant Bit Data Transfer

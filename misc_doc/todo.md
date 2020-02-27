@@ -185,6 +185,11 @@ Nur bei den Funktionennamen nach PKCS das # direkt dahinter:
 > Für das bisher dort befindliche "[K] \ Werkzeuge \ Sonstige \ Fortschritt" abkläen mit Kopal, wo es hin soll.
 > 
 
+[x] > 6) Im Deutschen und Englischen ging etwas verloren [das war am 27.1 noch
+[x] > dabei -- vielelicht verschluckt es Ihr Parser?]:
+[x] > Neue Funktion:  SPHINCS+
+[x] > Pfad dazu:          [D] \ Visualisierungen \ SPHINCS+-Signatur
+
 # Website stuff
 
 > 9) Zur Legende:
@@ -207,18 +212,127 @@ Nur bei den Funktionennamen nach PKCS das # direkt dahinter:
 > [attack or analysis]  templates for breaking a function or protocol
 > [MPC]    Multi-party communication
 
-# Anzeige der Zahl der Pfadeinträge
+- Anzeige der Zahl der Pfadeinträge
 
-- getrennte Aufgabe, cryptool.org/www
 
+# 02/27
+
+Etliches, was mir im Deutschen auffiel (englische Namen für die
+Funktionen oder noch nicht gemergte Zeilen) hätte Ihnen auffallen können.
+
+
+
+Hier was mir noch auffiel im Deutschen bei den Funktionsnamen:
+---------------------------------------------------------------------------------------
+[x] Coin flipping protocol  ==>  Coin-Flipping-Protokoll // nope
+
+
+[x] Dining cryptographers protocol  ==>  Dining Cryptographers-Protokoll // nope
+
+[x] HTTP protocol  ==>  HTTP-Protokoll // yep
+
+[x] Oblivious transfer protocol  ==>  Oblivious Transfer-Protocoll (MPC) // nope
+
+[x] Yao's millionaire problem (protocol)  ==>  Yaos Millionärsproblem (MPC) // nope
+
+[x] Sicherer Chat -- Angewendete Kryptographie  ==>  Sicherer Chat -- Angewandte Kryptographie // nope
+
+[x] Zero knowledge protocol  ==>  Zero Knowledge-Protokoll
+
+[x] Shamir's secret sharing  ==>  Shamirs Secret Sharing (MPC)
+
+[x] Autokey [Analyse]  == >  Autokey-Vigenère [Analyse]
+
+[x] Datenein- und ausgabe  ==>  Datenein- und -ausgabe
+
+[x] Dopelkasten  ==>  Doppelkasten
+
+[x] Graphisomorphismus  ==>  Graphenisomorphismus
+
+[x] Homomorphische Verschlüsselung  ==>  Homomorphe Verschlüsselung (HE)
+
+[x] Key derivation function (KDF)  ==>  Key Derivation Function (KDF)
+
+[x] Key exchange (BB84)    ==>  Schlüsselaustausch (BB84)    
+
+[x] Lattice-Visualisierung  ==>  Lattice [Visualisierung]
+
+[x] MAC general  ==>  MAC generell
+
+[x] Math template  ==>  Boolesche Funktionen
+
+[x] Navajo code  ==>  Navajo-Code
+
+[x] SAT-solver  ==>   SAT-Solver
+
+
+[x] Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) [Angriff] ==> Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) [Analyse]
+
+
+[x] Verifiable secret sharing (VSS)  ==>  Verifiable Secret Sharing (VSS)
+
+[x] Zertifikatsverifizierung  ==>   Zertifikate verifizieren
+
+[x] Blum Blum Shub (BBS) -- PRNG   ==>   Blum Blum Shub (BBS) (PRNG)
+
+[x] EC PRNG  ==>  EC (PRNG)
+
+
+
+Zusammenlegen: [sehe ich es richtig, dass wir uns im Deutschen für das
+Postfix "[Visualisierung]" entschieden?
+-----------------------
+
+[x] AES [Angriff]                     ==>     AES [Analyse]
+[x] AES [visual]                      ==>     AES [Visualisierung]
+[x] AES-Visualisierung                ==>     AES [Visualisierung]
+[x] DES-Visualisierung                ==>     DES [Visualisierung]
+[x] Hill                              ==>     Hill-Chiffre
+[x] Morse code                        ==>     Morse-Code
+[x] RSA [visual]                      ==>     RSA [Visualisierung]
+[x] Signatur-Verifizierung            ==>     Signatur verifizieren
+[x] Scytale                           ==>     Skytale
+
+
+
+
+[x] Chinesischer Restsatz [Visualisierung] ==> Chinesischer Restsatz (CRT) [Visualisierung]
+[x] Chinese remainder theorem (CRT) [Visualisierung] ==> Chinesischer Restsatz (CRT) [Visualisierung]
+
+
+[x] Homophone Substitutionschiffre ==> Homophone Substitutions-Chiffre
+[x] Homophonische Substitutions-Chiffre ==> Homophone Substitutions-Chiffre
+
+
+[x] Häufigkeitstest ==> Häufigkeitstest [Analyse]
+[x] Häufigkeitsanalyse [Analyse] ==> Häufigkeitstest [Analyse]
+
+[x] Keccak ==> Keccak (Hash, Chiffre, PRNG)
+[x] Keccak hash ==> Keccak (Hash, Chiffre, PRNG)
+
+
+[x] MD5 [Analyse] ==> MD5 (Kollisionen) [Angriff]
+[x] MD5 [Angriff] (Kollisionen) ==> MD5 (Kollisionen) [Angriff]
+
+
+Number Shark ==> Zahlenhai (Number Shark, Taxman)
+Taxman ==> Zahlenhai (Number Shark, Taxman)
+
+# remains...
+
+```
+Umbenennen und für denselben Pfad noch einen weiteren Eintrag aufmachen:
+-------------------------------------
+a) Reziproke Substraktion  ==>  Euklidischer Algorithmus, Wechselwegnahme, Reziproke Subtraktion
+b) Erweiterter Euklid
+
+Rauslegen in eigenen Funktionsnamen:
+Aus Werkzeuge   -->  Wörterbuch-Suche
+                               und
+                               --> Rechenoperationen
+```
 
 # Tail
 
-remains unclear
-
-> 6) Im Deutschen und Englischen ging etwas verloren [das war am 27.1 noch
-> dabei -- vielelicht verschluckt es Ihr Parser?]:
-> Neue Funktion:  SPHINCS+
-> Pfad dazu:          [D] \ Visualisierungen \ SPHINCS+-Signatur
 
 [ ] Nothing in this todo, for now...
