@@ -126,6 +126,99 @@ Und dahinter:
 CT1-Pfade) gezeigt wird, könnten Sie auch unter die Funktion
 "Primzahlen" bringen. Ich glaube, im Englischen ist das sogar schon so.
 
+# Neuere Ä. (Stand 02/24)
+
+[x] Differenzielle Kryptanalyse (DCA) [Visualisierung] ==> Differenzielle Kryptanalyse (DKA) [Visualisierung]
+
+[x] Häufigkeits [Analyse]  ==>  Häufigkeitsanalyse [Analyse]
+[x] Substitutions [Analyse]  ==>  Substitution [Analyse]
+[x] Transpositions [Analyse]  ==>  Transposition [Analyse]
+[x] Homophonische Substitutions [Analyse]  ==>  Homophone Substitution [Analyse]
+[x] SAT solver  ==>  SAT-Solver
+[x] Scytale [Analyse]  ==>  Skytale [Analyse]
+
+[x] [W] \ Cryptanalysis \ Classic Encryption \ Caesar sollte von der Funktionsbezeichnung "Caesar" nach "Caesar [analysis]"
+
+> 1) Die Funktion "Primzahl-Test" zusammenlegen mit "Primzahlen", da
+> Erzeugen und Testen normalerweise Hand in Hand gehen.
+>     Und die Funktion "Primzahl-Tutorial" mit  "Primzahlen" zusammenlegen.
+
+Primzahl-Tutorial, Primzahl-Test => Primzahlen/Primes
+;Primes;
+;Prim
+
+[x] Primzahlen, Primes => Primzahlen (Generatoren, Tests, Faktorisieren, Tutorien)
+
+[x] QR-Code, Visueller Code -> Visuelle Codes (QR, EAN8, WAN13, Code39, Code128, PDF417)
+[x] Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417)
+
+> 4) "Signatur-Verifizierung" zu "Signatur verifizieren" hinzfügen.
+Signatur-Verifizierung (F or Path?)-> Signatur verifizieren
+
+5) Umbenennen im Deutschen [analog DSA-Signatur]:
+[x] RSA Signatur  ==>  RSA-Signatur
+[x] CMSS  ==>  CMSS-Signatur
+[x] ECDSA  ==>  ECDSA-Signatur
+[x] GQ Signatur  ==>  GQ-Signatur
+[x] McEliece Signatur  ==>  McEliece-Signatur
+[x] Merkle Signatur  ==>  Merkle-Signatur
+[x] Paillier Signatur  ==>  Paillier
+[x] SPHINCS  ==>  SPHINCS-Signatur
+[x] Winternitz  ==>  Winternitz-Signatur
+
+[x] Signatur-Visualisierung  ==>  Signatur [Visualisierung]
+[x] Caesar  ==>  Caesar / Rot-13
+
+Nur bei den Funktionennamen nach PKCS das # direkt dahinter:
+[x] PKCS #5  ==>  PKCS#5
+[x] Triple DES  ==>  Triple DES (3DES)
+
+[x] Verschlüsselung  ==>  Verschlüsselung mit AES und Passwort
+[x] Wörterbuchsuche  ==>  Wörterbuchangriff
+[x] Zahlenhai  ==>  Zahlenhai (Taxman)
+[x] Number Shark  ==>  Number Shark (taxman)
+
+> 
+> 7) "Verschiedene" ganz auflösen und dafür neue Funktionen:
+> Rechenoperationen:    K                 [K] \ Werkzeuge \ Sonstige \ Rechenoperationen
+> 
+> Für das bisher dort befindliche "[K] \ Werkzeuge \ Sonstige \ Fortschritt" abkläen mit Kopal, wo es hin soll.
+> 
+
+# Website stuff
+
+> 9) Zur Legende:
+> 
+> D:
+> N    CT2: Funktion ist im Navigations-Bar verfügbar.
+> ==>
+> N    CT2: Funktion ist im oberen Navigations-Bar verfügbar.
+> 
+> E:
+> N    CT2: Function is available in the navigation bar.
+> ==>
+> N    CT2: Function is available in the top navigation bar.
+> 
+> 
+> Und darunter noch etwas zu allen Postfixes [in beiden Sprachen]
+> [visual]   Visualization of inner workings, e.g. via the presentation
+> mode within a CT2 component
+> (PRNG)   Pseudo random number generator
+> [attack or analysis]  templates for breaking a function or protocol
+> [MPC]    Multi-party communication
+
+# Anzeige der Zahl der Pfadeinträge
+
+- getrennte Aufgabe, cryptool.org/www
+
+
 # Tail
+
+remains unclear
+
+> 6) Im Deutschen und Englischen ging etwas verloren [das war am 27.1 noch
+> dabei -- vielelicht verschluckt es Ihr Parser?]:
+> Neue Funktion:  SPHINCS+
+> Pfad dazu:          [D] \ Visualisierungen \ SPHINCS+-Signatur
 
 [ ] Nothing in this todo, for now...

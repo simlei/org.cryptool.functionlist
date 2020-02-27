@@ -1,8 +1,8 @@
 CT2:dynamic:df53c191;ADFGX / ADFGVX;CT2:C \ Classic Ciphers \ ADFGVX
-CT2:dynamic:de7ab596;Caesar;CT2:C \ Classic Ciphers \ Caesar
+CT2:dynamic:de7ab596;Caesar / Rot-13;CT2:C \ Classic Ciphers \ Caesar
 CT2:dynamic:e118ba1a;ADFGX / ADFGVX;CT2:C \ Cryptanalysis \ Generic \ ADFGVX Analyzer
 CT2:dynamic:77afa2cc;Berlekamp-Massey algorithm;CT2:C \ Cryptanalysis \ Generic \ Berlekamp-Massey Algorithm
-CT2:dynamic:4d5c9d1c;Caesar [analysis];CT2:C \ Cryptanalysis \ Specific \ Caesar Analyzer
+CT2:dynamic:4d5c9d1c;Caesar / Rot-13 [analysis];CT2:C \ Cryptanalysis \ Specific \ Caesar Analyzer
 CT2:dynamic:b32a5054;Substitution [analysis];CT2:C \ Cryptanalysis \ Specific \ Monoalphabetic Substitution Analyzer
 CT2:dynamic:c2144b97;Achterbahn;CT2:C \ Modern Ciphers \ Symmetric \ Achterbahn
 CT2:dynamic:c02c923f;Camellia;CT2:C \ Modern Ciphers \ Symmetric \ Camellia
@@ -44,19 +44,19 @@ CT2:dynamic:002e95cb;Data input/output;CT2:C \ Tools \ Data input \ output \ Net
 CT2:dynamic:d82f9ec8;Data input/output;CT2:C \ Tools \ Data input \ output \ Network Sender
 CT2:dynamic:d1688145;Data input/output;CT2:C \ Tools \ Data input \ output \ Number Input
 CT2:dynamic:eac4fd17;Data flow;CT2:C \ Tools \ Data input \ output \ Picture Output
-CT2:dynamic:87ba9260;Primes;CT2:C \ Tools \ Data input \ output \ Prime Generator
+CT2:dynamic:87ba9260;Primes (generators, tests, factorization, tutorials);CT2:C \ Tools \ Data input \ output \ Prime Generator
 CT2:dynamic:de1f85ed;Data input/output;CT2:C \ Tools \ Data input \ output \ Text Input
 CT2:dynamic:f9f818ba;Data flow;CT2:C \ Tools \ Data input \ output \ Text Output
 CT2:dynamic:23706ec3;Data input/output;CT2:C \ Tools \ Misc \ Camera
-CT2:dynamic:5e554a92;Misc;CT2:C \ Tools \ Misc \ Cloud Test Component
+CT2:dynamic:5e554a92;Cloud;CT2:C \ Tools \ Misc \ Cloud Test Component
 CT2:dynamic:68e8a18a;Data flow;CT2:C \ Tools \ Misc \ Comparators
 CT2:dynamic:9315c251;Data flow;CT2:C \ Tools \ Misc \ Concatenate
 CT2:dynamic:692c882e;Data flow;CT2:C \ Tools \ Misc \ Converter
-CT2:dynamic:92043887;Misc;CT2:C \ Tools \ Misc \ Cryptanalytic Process Executor
+CT2:dynamic:92043887;Tools;CT2:C \ Tools \ Misc \ Cryptanalytic Process Executor
 CT2:dynamic:2c388873;CypherMatrix;CT2:C \ Tools \ Misc \ CypherMatrix
 CT2:dynamic:4f7b3d78;CypherMatrix;CT2:C \ Tools \ Misc \ CypherMatrix Hash
 CT2:dynamic:e1351121;Data flow;CT2:C \ Tools \ Misc \ Decimalization
-CT2:dynamic:9f6dc562;Misc;CT2:C \ Tools \ Misc \ Example Plugin
+CT2:dynamic:9f6dc562;Tools;CT2:C \ Tools \ Misc \ Example Plugin
 CT2:dynamic:ebeaa525;Data flow;CT2:C \ Tools \ Misc \ HammingDistance
 CT2:dynamic:a6ce27af;Huffman;CT2:C \ Tools \ Misc \ Huffman
 CT2:dynamic:b945116f;Data input/output;CT2:C \ Tools \ Misc \ ImageProcessor
@@ -64,13 +64,13 @@ CT2:dynamic:0a3b459c;Data flow;CT2:C \ Tools \ Misc \ Inc Dec
 CT2:dynamic:aaa96c9e;Data flow;CT2:C \ Tools \ Misc \ Length
 CT2:dynamic:875c3440;LFSR;CT2:C \ Tools \ Misc \ LFSR
 CT2:dynamic:f897da02;Morse code;CT2:C \ Tools \ Misc \ Morse Code
-CT2:dynamic:03da4eb7;Misc;CT2:C \ Tools \ Misc \ Number Operation
+CT2:dynamic:03da4eb7;Tools;CT2:C \ Tools \ Misc \ Number Operation
 CT2:dynamic:72f8c4bf;Padding oracle attack (POA);CT2:C \ Tools \ Misc \ Padding Oracle
 CT2:dynamic:f3591123;Padding oracle attack (POA);CT2:C \ Tools \ Misc \ Padding Oracle Attack
 CT2:dynamic:2f9e0d8e;Password quality [visual];CT2:C \ Tools \ Misc \ PasswordStrength
-CT2:dynamic:d8bbe4f0;Misc;CT2:C \ Tools \ Misc \ Progress
+CT2:dynamic:d8bbe4f0;Tools;CT2:C \ Tools \ Misc \ Progress
 CT2:dynamic:f2071b35;Pseudo random number generator (PRNG);CT2:C \ Tools \ Misc \ Random Number Generator
-CT2:dynamic:141bf921;Misc;CT2:C \ Tools \ Misc \ SAT Solver
+CT2:dynamic:141bf921;SAT solver;CT2:C \ Tools \ Misc \ SAT Solver
 CT2:dynamic:e4eb8008;SIGABA;CT2:C \ Tools \ Misc \ Sigaba
 CT2:dynamic:472c4a23;SIGABA;CT2:C \ Tools \ Misc \ SigabaBruteforce
 CT2:dynamic:360703f8;Data flow;CT2:C \ Tools \ Misc \ Stream Comparator
@@ -78,16 +78,16 @@ CT2:dynamic:cb5be9f5;Data flow;CT2:C \ Tools \ Misc \ StreamSplitter
 CT2:dynamic:777af65a;Data flow;CT2:C \ Tools \ Misc \ String Decoder
 CT2:dynamic:70921d06;Data flow;CT2:C \ Tools \ Misc \ String Encoder
 CT2:dynamic:188ab1e9;Data flow;CT2:C \ Tools \ Misc \ String Operations
-CT2:dynamic:c8ad35d8;Visual Code;CT2:C \ Tools \ Misc \ Visual Decoder
-CT2:dynamic:d5f9b98d;Visual code;CT2:C \ Tools \ Misc \ Visual Encoder
+CT2:dynamic:c8ad35d8;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:C \ Tools \ Misc \ Visual Decoder
+CT2:dynamic:d5f9b98d;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:C \ Tools \ Misc \ Visual Encoder
 CT2:dynamic:b5e29ae5;Data input/output;CT2:C \ Tools \ Misc \ WebHits
 CT2:dynamic:298fd52a;ADFGVX [analysis];CT2:T \ Cryptanalysis \ Classical \ ADFGVX dictionary attack
 CT2:dynamic:dc07040b;ADFGX / ADFGVX;CT2:T \ Cryptanalysis \ Classical \ ADFGVX heuristic analysis
-CT2:dynamic:87965491;Caesar [analysis];CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
+CT2:dynamic:87965491;Caesar / Rot-13 [analysis];CT2:T \ Cryptanalysis \ Classical \ Caesar Analysis using character frequencies
 CT2:dynamic:42f544e9;Substitution [analysis];CT2:T \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer
 CT2:dynamic:7441e81e;Substitution [analysis];CT2:T \ Cryptanalysis \ Classical \ Monoalphabetic Substitution Analyzer with arbitrary Ciphertext Alphabet
 CT2:dynamic:cf84eb83;ADFGX / ADFGVX;CT2:T \ Cryptography \ Classical \ ADFGVX Cipher
-CT2:dynamic:4d3e5d06;Caesar;CT2:T \ Cryptography \ Classical \ Caesar Cipher
+CT2:dynamic:4d3e5d06;Caesar / Rot-13;CT2:T \ Cryptography \ Classical \ Caesar Cipher
 CT2:dynamic:84dacfd4;Substitution;CT2:T \ Cryptography \ Classical \ Substitution Cipher using a password
 CT2:dynamic:573ce150;Achterbahn;CT2:T \ Cryptography \ Modern \ Symmetric \ Achterbahn Cipher
 CT2:dynamic:80156663;Camellia;CT2:T \ Cryptography \ Modern \ Symmetric \ Camellia Cipher
@@ -110,10 +110,10 @@ CT2:dynamic:05095ecf;Secure Chat -- Applied Cryptography;CT2:T \ Tools \ Simple 
 CT2:dynamic:557fd6db;Secure Chat -- Applied Cryptography;CT2:T \ Tools \ Simple Video and Audio Chat using AES encryption
 CT2:dynamic:19703d30;Data flow;CT2:T \ Tools \ Split a text
 CT2:dynamic:f01f7124;Data input/output;CT2:T \ Tools \ Take a Picture using the webcam
-CT2:dynamic:be99be1e;Caesar;CT2:W \ Cryptanalysis \ Classic Encryption \ Caesar
+CT2:dynamic:be99be1e;Caesar / Rot-13 [analysis];CT2:W \ Cryptanalysis \ Classic Encryption \ Caesar
 CT2:dynamic:0fac6e5c;ADFGX / ADFGVX;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ ADFGVX
-CT2:dynamic:abfbe5ed;Caesar;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Caesar
-CT2:dynamic:85bc810e;Encryption;CT2:W \ Tools \ Encrypt with password
+CT2:dynamic:abfbe5ed;Caesar / Rot-13;CT2:W \ Encryption \ Decryption \ Classic Encryption \ Decryption \ Caesar
+CT2:dynamic:85bc810e;Encryption with AES and password;CT2:W \ Tools \ Encrypt with password
 CT2:dynamic:a52d9b83;Heartbleed [analysis];CT2:W \ Tools \ Heartbleed analysis
 CT2:dynamic:8455fa4e;Password quality [visual];CT2:W \ Tools \ Password Strength
 CT2:dynamic:74f54437;Data flow;CT2:W \ Tools \ Random numbers
@@ -145,7 +145,7 @@ CT2:dynamic:8e123245;Frequency test;CT2:C \ Cryptanalysis \ Generic \ Frequency 
 CT2:dynamic:38022c01;Friedman test;CT2:C \ Cryptanalysis \ Generic \ Friedman Test
 CT2:dynamic:9eda4758;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \ General Number Field Sieve
 CT2:dynamic:d03fc6bf;Kasiski test;CT2:C \ Cryptanalysis \ Generic \ Kasiski's Test
-CT2:dynamic:0f1e3ca5;Primes test;CT2:C \ Cryptanalysis \ Generic \ Prime Test
+CT2:dynamic:0f1e3ca5;Primes (generators, tests, factorization, tutorials);CT2:C \ Cryptanalysis \ Generic \ Prime Test
 CT2:dynamic:8ea3d2e1;Factorization of a number;CT2:C \ Cryptanalysis \ Generic \ Quadratic Sieve
 CT2:dynamic:94329868;A5 [attack];CT2:C \ Cryptanalysis \ Specific \ A5 Attack
 CT2:dynamic:8cb9cba6;Cube [attack];CT2:C \ Cryptanalysis \ Specific \ Cube Attack
@@ -183,10 +183,10 @@ CT2:dynamic:a0dd61df;Blind signature;CT2:C \ Modern Ciphers \ Asymmetric \ Blind
 CT2:dynamic:18aef6eb;Blind signature;CT2:C \ Modern Ciphers \ Asymmetric \ Blind Signature Verifier
 CT2:dynamic:f320c8b9;Cramer-Shoup;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup
 CT2:dynamic:cfc872f1;Cramer-Shoup;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup Key Generator
-CT2:dynamic:9c0e63f8;DGK (Homomorphic Encryption);CT2:C \ Modern Ciphers \ Asymmetric \ DGK
-CT2:dynamic:9445f2b0;DGK (Homomorphic Encryption);CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
-CT2:dynamic:e6f2b65e;Paillier signature;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
-CT2:dynamic:086ffc7f;Paillier signature;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier Key Generator
+CT2:dynamic:9c0e63f8;DGK (Homomorphic encryption);CT2:C \ Modern Ciphers \ Asymmetric \ DGK
+CT2:dynamic:9445f2b0;DGK (Homomorphic encryption);CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
+CT2:dynamic:e6f2b65e;Paillier;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
+CT2:dynamic:086ffc7f;Paillier;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier Key Generator
 CT2:dynamic:6e704fec;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA
 CT2:dynamic:024c4ba4;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
 CT2:dynamic:d2203b62;A5;CT2:C \ Modern Ciphers \ Symmetric \ A5
@@ -246,16 +246,16 @@ CT2:dynamic:14d5b694;Block mode [visual];CT2:C \ Tools \ Misc \ Blockmode Visual
 CT2:dynamic:dbd17798;PKCS#1 [attack];CT2:N \ Crypto tutorials \ Attack on PKCS#1
 CT2:dynamic:c2c4de77;PKCS#1 [attack];CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Attack with shorter keys (Kuehn)
 CT2:dynamic:c2adc5e3;PKCS#1 [attack];CT2:N \ Crypto tutorials \ Attack on PKCS#1 \ Attack on PKCS#1 \ Bleichenbacher attack
-CT2:dynamic:ad9a4300;QR code;CT2:T \ Codes \ Create QR Code
-CT2:dynamic:ecbb9ede;QR code;CT2:T \ Codes \ Decode QR code file
+CT2:dynamic:ad9a4300;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:T \ Codes \ Create QR Code
+CT2:dynamic:ecbb9ede;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:T \ Codes \ Decode QR code file
 CT2:dynamic:15e65cb4;ISBN;CT2:T \ Codes \ ISBN-10 Check
 CT2:dynamic:7f38de29;ISBN;CT2:T \ Codes \ ISBN-13 Check
 CT2:dynamic:e5c0781e;Morse code;CT2:T \ Codes \ Morse code
-CT2:dynamic:ff26068d;QR code;CT2:T \ Codes \ QR Code Encryption
-CT2:dynamic:bd3e7318;QR code;CT2:T \ Codes \ RSA signed QR code
-CT2:dynamic:a849b84b;Visual code;CT2:T \ Codes \ Simple detection of optical codes
+CT2:dynamic:ff26068d;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:T \ Codes \ QR Code Encryption
+CT2:dynamic:bd3e7318;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:T \ Codes \ RSA signed QR code
+CT2:dynamic:a849b84b;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:T \ Codes \ Simple detection of optical codes
 CT2:dynamic:5f963e33;VCard;CT2:T \ Codes \ VCard
-CT2:dynamic:3c431f31;Caesar [analysis];CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
+CT2:dynamic:3c431f31;Caesar / Rot-13 [analysis];CT2:T \ Cryptanalysis \ Classical \ Caesar Brute-force Analysis
 CT2:dynamic:d1cc2e93;Transposition (double column transposition) -- [attack];CT2:T \ Cryptanalysis \ Classical \ Dictionary attack on the Double Columnar Transposition Cipher
 CT2:dynamic:3cecac3b;Enigma [attack];CT2:T \ Cryptanalysis \ Classical \ Enigma Analyzer
 CT2:dynamic:07f3ff64;Frequency test;CT2:T \ Cryptanalysis \ Classical \ Frequency Analysis
@@ -307,7 +307,7 @@ CT2:dynamic:383536da;Padding oracle attack (POA);CT2:T \ Cryptanalysis \ Modern 
 CT2:dynamic:2d9fac55;SDES [analysis];CT2:T \ Cryptanalysis \ Modern \ SDES Analysis using Entropy
 CT2:dynamic:7ce91c8c;SDES [analysis];CT2:T \ Cryptanalysis \ Modern \ SDES Brute-force Analysis
 CT2:dynamic:681fcae9;SDES [analysis];CT2:T \ Cryptanalysis \ Modern \ SDES Known-Plaintext Analysis
-CT2:dynamic:a85673d5;Triple DES [analysis];CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
+CT2:dynamic:a85673d5;Triple DES (3DES) [analysis];CT2:T \ Cryptanalysis \ Modern \ Triple DES Brute-force Analysis
 CT2:dynamic:f086d69c;Enigma;CT2:T \ Cryptography \ Classical \ Enigma Cipher Machine
 CT2:dynamic:577d7cc2;Fialka;CT2:T \ Cryptography \ Classical \ Fialka ED Check
 CT2:dynamic:7c171bb3;Fialka;CT2:T \ Cryptography \ Classical \ Fialka ED Mixed Mode Check
@@ -339,12 +339,12 @@ CT2:dynamic:6ffa84cb;XOR;CT2:T \ Cryptography \ Classical \ XOR Cipher
 CT2:dynamic:2d6ca7b1;Blind signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Blind Signature Paillier
 CT2:dynamic:28620e0a;Blind signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Blind Signature RSA
 CT2:dynamic:2018f99f;Cramer-Shoup;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
-CT2:dynamic:251ceabb;Paillier signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
-CT2:dynamic:2ec84efc;Paillier signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
-CT2:dynamic:d832664e;Paillier signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting)
-CT2:dynamic:2e2794f6;Paillier signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
-CT2:dynamic:877b1003;Paillier signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding
-CT2:dynamic:e617d83b;Paillier signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator
+CT2:dynamic:251ceabb;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
+CT2:dynamic:2ec84efc;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
+CT2:dynamic:d832664e;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting)
+CT2:dynamic:2e2794f6;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
+CT2:dynamic:877b1003;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding
+CT2:dynamic:e617d83b;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator
 CT2:dynamic:a61c38b5;RSA;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
 CT2:dynamic:dd4791b2;RSA;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Decryption
 CT2:dynamic:c0f99070;RSA;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Encryption
@@ -372,7 +372,7 @@ CT2:dynamic:633504d7;Salsa20;CT2:T \ Cryptography \ Modern \ Symmetric \ Salsa20
 CT2:dynamic:ec06f540;SDES;CT2:T \ Cryptography \ Modern \ Symmetric \ SDES Cipher
 CT2:dynamic:ab477584;Sosemanuk;CT2:T \ Cryptography \ Modern \ Symmetric \ Sosemanuk Cipher
 CT2:dynamic:56fce376;TEA;CT2:T \ Cryptography \ Modern \ Symmetric \ TEA Cipher
-CT2:dynamic:a1baf81c;Triple DES;CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
+CT2:dynamic:a1baf81c;Triple DES (3DES);CT2:T \ Cryptography \ Modern \ Symmetric \ Triple DES Cipher
 CT2:dynamic:af0ce5d4;Twofish;CT2:T \ Cryptography \ Modern \ Symmetric \ Twofish Cipher
 CT2:dynamic:7935241d;Block mode [visual];CT2:T \ Experimental \ Blockmode Visualizer
 CT2:dynamic:5e7de1a6;CypherMatrix;CT2:T \ Experimental \ CypherMatrix Cipher
@@ -414,10 +414,10 @@ CT2:dynamic:8d09be5b;Factorization of a number;CT2:T \ Mathematics \ Factorizati
 CT2:dynamic:2f4611a6;Hamming distance;CT2:T \ Mathematics \ Hamming Distance
 CT2:dynamic:08115411;ISAP bit commitment scheme;CT2:T \ Mathematics \ ISAP Bit Commitment Scheme
 CT2:dynamic:686cf64a;Levenshtein distance;CT2:T \ Mathematics \ Levenshtein Distance
-CT2:dynamic:ec5a486c;Primes;CT2:T \ Mathematics \ Next Smaller Prime Number
+CT2:dynamic:ec5a486c;Primes (generators, tests, factorization, tutorials);CT2:T \ Mathematics \ Next Smaller Prime Number
 CT2:dynamic:87ed6426;NLFSR;CT2:T \ Mathematics \ Non-Linear Feedback Shift Register (NLFSR)
-CT2:dynamic:f864640d;Primes;CT2:T \ Mathematics \ Primes Generator
-CT2:dynamic:bd5d19ab;Primes test;CT2:T \ Mathematics \ Primes Test
+CT2:dynamic:f864640d;Primes (generators, tests, factorization, tutorials);CT2:T \ Mathematics \ Primes Generator
+CT2:dynamic:bd5d19ab;Primes (generators, tests, factorization, tutorials);CT2:T \ Mathematics \ Primes Test
 CT2:dynamic:d515fa96;SAT solver;CT2:T \ Mathematics \ SAT Solver (File Input)
 CT2:dynamic:dc80e474;SAT solver;CT2:T \ Mathematics \ SAT Solver (Text Input)
 CT2:dynamic:6bfd9e05;Key exchange (BB84);CT2:T \ Protocols \ BB84 Key Exchange
@@ -438,8 +438,8 @@ CT2:dynamic:7c8c1220;Zero knowledge protocol;CT2:T \ Protocols \ Zero Knowledge 
 CT2:dynamic:60fe9232;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- invisible watermark
 CT2:dynamic:2b38cb12;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- Robustness
 CT2:dynamic:765d6bef;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- visible watermark
-CT2:dynamic:776aa0fb;Visual code;CT2:W \ Codes \ Create visual code
-CT2:dynamic:bd5e70f3;Visual code;CT2:W \ Codes \ Decode visual code
+CT2:dynamic:776aa0fb;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:W \ Codes \ Create visual code
+CT2:dynamic:bd5e70f3;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:W \ Codes \ Decode visual code
 CT2:dynamic:d106fa29;Encoding;CT2:W \ Codes \ Encoding
 CT2:dynamic:bbf7c50c;Morse code;CT2:W \ Codes \ Morse Code
 CT2:dynamic:763babf1;Enigma [attack];CT2:W \ Cryptanalysis \ Classic Encryption \ Enigma
@@ -472,7 +472,7 @@ CT2:dynamic:efc43b46;SDES;CT2:W \ Encryption \ Decryption \ Modern Encryption \ 
 CT2:dynamic:9ac0c18b;TEA;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ TEA
 CT2:dynamic:bd4bb509;Twofish;CT2:W \ Encryption \ Decryption \ Modern Encryption \ Decryption \ Symmetric Encryption \ Decryption \ Twofish
 CT2:dynamic:2399720b;Factorization of a number;CT2:W \ Mathematical Functions \ Prime Factorization
-CT2:dynamic:155cbce6;Primes;CT2:W \ Mathematical Functions \ Prime Operations \ Prime Number Generation
+CT2:dynamic:155cbce6;Primes (generators, tests, factorization, tutorials);CT2:W \ Mathematical Functions \ Prime Operations \ Prime Number Generation
 CT2:dynamic:69a152a0;Lattice [visual];CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ LWE
 CT2:dynamic:18e48df5;Lattice [visual];CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ Gauss algorithm
 CT2:dynamic:4ec98ac2;Lattice [visual];CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Shortest Vector Problem (SVP) \ LLL algorithm
@@ -481,21 +481,21 @@ CT2:dynamic:2620c2bd;Lattice [attack];CT2:N \ Crypto tutorials \ Lattice-based c
 CT2:dynamic:92ccea3d;Lattice [attack];CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptanalysis \ RSA (Coppersmith's attack)
 CT2:dynamic:079b6361;Lattice [visual];CT2:N \ Crypto tutorials \ Lattice-based cryptography \ Lattice-based cryptography \ GGH
 CT2:dynamic:783e7115;Lattice [visual];CT2:N \ Crypto tutorials \ Lattice-based cryptography
-CT2:dynamic:c3e2ccef;Primes;CT2:N \ Crypto tutorials \ World of Primes
-CT2:dynamic:94a26176;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number grid
-CT2:dynamic:2a6ea5d0;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number line
-CT2:dynamic:149fc1bd;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number of primes
-CT2:dynamic:15cf60e7;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Ulam's spiral
-CT2:dynamic:72e2365e;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force
-CT2:dynamic:5dc80c8d;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve
-CT2:dynamic:e62aeb6a;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes
-CT2:dynamic:255d325c;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture
-CT2:dynamic:a7fc3c90;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions
-CT2:dynamic:416edc6a;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering
-CT2:dynamic:9af40e0f;Primes;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots
-CT2:dynamic:f8b8cae6;Primes test;CT2:N \ Crypto tutorials \ World of Primes \ Primality test \ Miller-Rabin test
-CT2:dynamic:b1df4be6;Primes test;CT2:N \ Crypto tutorials \ World of Primes \ Primality test \ Sieve of Atkin
-CT2:dynamic:bb65191f;Primes test;CT2:N \ Crypto tutorials \ World of Primes \ Primality test \ Sieve of Eratosthenes
+CT2:dynamic:c3e2ccef;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes
+CT2:dynamic:94a26176;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number grid
+CT2:dynamic:2a6ea5d0;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number line
+CT2:dynamic:149fc1bd;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Number of primes
+CT2:dynamic:15cf60e7;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Distribution of primes \ Ulam's spiral
+CT2:dynamic:72e2365e;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force
+CT2:dynamic:5dc80c8d;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve
+CT2:dynamic:e62aeb6a;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Generation of primes \ Generation of primes
+CT2:dynamic:255d325c;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture
+CT2:dynamic:a7fc3c90;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions
+CT2:dynamic:416edc6a;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering
+CT2:dynamic:9af40e0f;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots
+CT2:dynamic:f8b8cae6;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Primality test \ Miller-Rabin test
+CT2:dynamic:b1df4be6;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Primality test \ Sieve of Atkin
+CT2:dynamic:bb65191f;Primes (generators, tests, factorization, tutorials);CT2:N \ Crypto tutorials \ World of Primes \ Primality test \ Sieve of Eratosthenes
 CT2:dynamic:8422d4a8;PKCS#5 AES;CT2:T \ Codes \ AES (CBC) with PKCS#5 and IV, output as QR Code
 CT2:dynamic:1e4e5830;Classical ciphers [analysis];CT2:T \ Cryptanalysis \ Classical \ Statistic Tests for Classical Ciphers
 CT2:dynamic:428d96db;PKCS#5 AES;CT2:T \ Cryptography \ Modern \ Symmetric \ AES (CBC) with PKCS#5 and IV
@@ -556,6 +556,6 @@ CT2:dynamic:0d84d4b4;Padding oracle attack (POA);CT2:C \ Cryptanalysis \ Specifi
 CT2:dynamic:0e0a99fd;Padding oracle attack (POA);CT2:C \ Cryptanalysis \ Specific \ Padding Oracle Attack
 CT2:dynamic:da30d6be;Pseudo random number generator (PRNG);CT2:C \ Tools \ Random Number \ Random Number Generator
 CT2:dynamic:b5cd4f04;SAT solver;CT2:C \ Cryptanalysis \ Generic \ SAT Solver
-CT2:dynamic:8bee545d;Visual code;CT2:C \ Tools \ Codes \ Visual Decoder
-CT2:dynamic:5b71c797;Visual code;CT2:C \ Tools \ Codes \ Visual Encoder
+CT2:dynamic:8bee545d;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:C \ Tools \ Codes \ Visual Decoder
+CT2:dynamic:5b71c797;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:C \ Tools \ Codes \ Visual Encoder
 CT2:dynamic:22a44114;Data input/output;CT2:C \ Tools \ Data input/output \ Camera

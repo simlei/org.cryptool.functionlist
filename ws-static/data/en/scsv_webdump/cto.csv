@@ -1,8 +1,8 @@
 CTO:en:static:10;Bacon;CTO:X;CTO:X\ Codings\ Bacon;9) Codings
-CTO:en:static:11;Barcode generator;CTO:X;CTO:X\ Codings\ Barcode Generator;9) Codings
+CTO:en:static:11;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CTO:X;CTO:X\ Codings\ Barcode Generator;9) Codings
 CTO:en:static:12;Base 64 encode/decode;CTO:X;CTO:X\ Codings\ Base64;9) Codings
 CTO:en:static:14;Beaufort;CTO:X;CTO:X\ Ciphers\ Beaufort;1) Classic Ciphers
-CTO:en:static:16;Caesar;CTO:X;CTO:X\ Ciphers\ Caesar;1) Classic Ciphers
+CTO:en:static:16;Caesar / Rot-13;CTO:X;CTO:X\ Ciphers\ Caesar;1) Classic Ciphers
 CTO:en:static:18;Distributed AES [analysis];CTO:X;CTO:X\ Cryptanalysis\ Distributed AES Analysis;7) Modern Cryptanalysis
 CTO:en:static:19;Enigma;CTO:X;CTO:X\ Ciphers\ Enigma (step-by-step);1) Classic Ciphers
 CTO:en:static:1;ADFGX / ADFGVX;CTO:X;CTO:X\ Ciphers\ ADFG(V)X;1) Classic Ciphers

@@ -2,7 +2,7 @@ CTO:de:static:37;Substitution;CTO:X;CTO:X \ Chiffren\ Substitution;1) Klassische
 CTO:de:static:1;ADFGVX;CTO:X;CTO:X \ Chiffren\ ADFG(V)X;1) Klassische Chiffren
 CTO:de:static:6;Autokey-Vigenère;CTO:X;CTO:X \ Chiffren\ Autokey;1) Klassische Chiffren
 CTO:de:static:7;Beaufort;CTO:X;CTO:X \ Chiffren\ Beaufort;1) Klassische Chiffren
-CTO:de:static:10;Caesar;CTO:X;CTO:X \ Chiffren\ Caesar / Rot-13;1) Klassische Chiffren
+CTO:de:static:10;Caesar / Rot-13;CTO:X;CTO:X \ Chiffren\ Caesar / Rot-13;1) Klassische Chiffren
 CTO:de:static:12;Enigma;CTO:X;CTO:X \ Chiffren\ Enigma (Schritt-für-Schritt);1) Klassische Chiffren
 CTO:de:static:17;Gronsfeld;CTO:X;CTO:X \ Chiffren\ Gronsfeld;1) Klassische Chiffren
 CTO:de:static:18;Hill;CTO:X;CTO:X \ Chiffren\ Hill;1) Klassische Chiffren
@@ -19,7 +19,7 @@ CTO:de:static:33;Rotation;CTO:X;CTO:X \ Chiffren\ Rotation;1) Klassische Chiffre
 CTO:de:static:34;Skytale;CTO:X;CTO:X \ Chiffren\ Skytale;1) Klassische Chiffren
 CTO:de:static:307;ASCII;CTO:X;CTO:X \ Kodierungen\ ASCII;9) Kodierungen
 CTO:de:static:309;Bacon;CTO:X;CTO:X \ Kodierungen\ Bacon;9) Kodierungen
-CTO:de:static:310;Barcode-Generator;CTO:X;CTO:X \ Kodierungen\ Barcode-Generator;9) Kodierungen
+CTO:de:static:310;Visuelle Codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CTO:X;CTO:X \ Kodierungen\ Barcode-Generator;9) Kodierungen
 CTO:de:static:311;Base 64 Encoding/Decoding;CTO:X;CTO:X \ Kodierungen\ Base64;9) Kodierungen
 CTO:de:static:316;Huffman;CTO:X;CTO:X \ Kodierungen\ Huffman;9) Kodierungen
 CTO:de:static:317;Morse code;CTO:X;CTO:X \ Kodierungen\ Morsecode;9) Kodierungen
@@ -27,7 +27,7 @@ CTO:en:static:103;N-Gramm [Analyse];CTO:X;CTO:X\ Kryptoanalyse\ N-Gramm-Analyse;
 CTO:de:static:234;Autokorrelation;CTO:X;CTO:X \ Kryptoanalyse\ Autokorrelation;6) Klassische Kryptoanalyse
 CTO:en:static:104;Autokey [Analyse];CTO:X;CTO:X\ Kryptoanalyse\ Autokey-Analyse;6) Classic Cryptanalysis
 CTO:en:static:104;Vigenère [Analyse];CTO:X;CTO:X\ Kryptoanalyse\ Vigenère-Analyse;6) Classic Cryptanalysis
-CTO:de:static:242;Häufigkeits [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ Häufigkeitsanalyse;6) Klassische Kryptoanalyse
+CTO:de:static:242;Häufigkeitsanalyse [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ Häufigkeitsanalyse;6) Klassische Kryptoanalyse
 CTO:de:static:297;Verteilte AES [Analyse];CTO:X;CTO:X \ Kryptoanalyse\ Verteilte AES-Analyse;7) Moderne Kryptoanalyse
 CTO:de:static:49;AES [visual];CTO:X;CTO:X \ Highlights\ AES (Schritt-für-Schritt);2) Moderne Chiffren
 CTO:de:static:49.2;RSA [visual];CTO:X;CTO:X \ Highlights\ RSA (Schritt-für-Schritt);2) Moderne Chiffren

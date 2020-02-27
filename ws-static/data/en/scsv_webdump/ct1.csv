@@ -1,4 +1,4 @@
-CT1:en:static:2;Triple DES [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Triple DES…;7) Modern Cryptanalysis
+CT1:en:static:2;Triple DES (3DES) [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Triple DES…;7) Modern Cryptanalysis
 CT1:en:static:3;ADFGX / ADFGVX;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ ADFGVX…;1) Classic Ciphers
 CT1:en:static:4;ADFGVX [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ ADFGVX…;6) Classic Cryptanalysis
 CT1:en:static:5;AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ AES (CBC)...;2) Modern Ciphers
@@ -14,9 +14,9 @@ CT2:en:static:14;Base 64 encode/decode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Co
 CT1:en:static:15;Base 64 encode/decode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Base64 Encode/Decode\ Base64 Encode;9) Codings
 CT1:en:static:16;Byte Addition;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Byte Addition…;1) Classic Ciphers
 CT1:en:static:17;Byte Addition [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Byte Addition;6) Classic Cryptanalysis
-CT1:en:static:18;Caesar;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Caesar / Rot-13…;1) Classic Ciphers
-CT1:en:static:19;Caesar [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Caesar;6) Classic Cryptanalysis
-CT1:en:static:20;Caesar [visual];CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Caesar…;10) Learning Aids and Visualizations
+CT1:en:static:18;Caesar / Rot-13;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Caesar / Rot-13…;1) Classic Ciphers
+CT1:en:static:19;Caesar / Rot-13 [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Caesar;6) Classic Cryptanalysis
+CT1:en:static:20;Caesar / Rot-13 [visual];CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Caesar…;10) Learning Aids and Visualizations
 CT1:en:static:21;Chinese remainder theorem (CRT) [visual];CT1:X;CT1:X\ Indiv. Procedures\ Chinese Remainder Theorem Applications\;10) Learning Aids and Visualizations
 CT1:en:static:22;DES;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ DES…;2) Modern Ciphers
 CT1:en:static:23;DES [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ DES…;7) Modern Cryptanalysis
@@ -34,7 +34,7 @@ CT1:en:static:34;Signature [visual];CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosy
 CT1:en:static:35;Keys (Display / Export);CT1:X;CT1:X\ Digital Signatures, PKI\ Display/Export Keys…;4) Digital Signatures, PKI
 CT1:en:static:36;DSA signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ DSA;4) Digital Signatures, PKI
 CT1:en:static:37;ECC-AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Hybrid\ ECC-AES…;2) Modern Ciphers
-CT1:en:static:38;ECDSA;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ ECSP-DSA;4) Digital Signatures, PKI
+CT1:en:static:38;ECDSA signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ ECSP-DSA;4) Digital Signatures, PKI
 CT1:en:static:39;ECNR signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ ECSP-NR;4) Digital Signatures, PKI
 CT1:en:static:40;EC calculations [visual];CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\ Point Addition on Elliptic Curves…;10) Learning Aids and Visualizations
 CT1:en:static:41;Enigma [visual];CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Enigma…;10) Learning Aids and Visualizations
@@ -50,9 +50,9 @@ CT1:en:static:50;PRNG test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ FIPS PUB-1
 CT1:en:static:51;Frequency test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Frequency Test...;6) Classic Cryptanalysis
 CT1:en:static:52;Frequency test;CT1:X;CT1:X\ Analysis\ Tools for Analysis\ Floating Frequency;6) Classic Cryptanalysis
 CT1:en:static:53;Keys (Generate / Import);CT1:X;CT1:X\ Digital Signatures, PKI\ Generate/Import Keys…;4) Digital Signatures, PKI
-CT1:en:static:54;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Miller-Rabin Test;12) Prime numbers
-CT1:en:static:55;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Solovay-Strassen Test;12) Prime numbers
-CT1:en:static:56;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ FermatTest;12) Prime numbers
+CT1:en:static:54;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Miller-Rabin Test;12) Prime numbers
+CT1:en:static:55;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ Solovay-Strassen Test;12) Prime numbers
+CT1:en:static:56;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…\ FermatTest;12) Prime numbers
 CT1:en:static:57;Hash algorithms [visual];CT1:X;CT1:X\ Indiv Procedures\ Hash\ Hash Demonstration…;10) Learning Aids and Visualizations
 CT1:en:static:58;Hash attack (collisions);CT1:X;CT1:X\ Analysis\ Hash\ Attack on the Hash Value of the Digital Signature…;7) Modern Cryptanalysis
 CT1:en:static:59;Hash value of a file;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ Hash Value of a File…;3) Hash and MAC Algorithms
@@ -74,7 +74,7 @@ CT1:en:static:74;MD4;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ MD4;3) Hash and MAC A
 CT1:en:static:75;MD5;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ MD5;3) Hash and MAC Algorithms
 CT1:en:static:76;N-gram [analysis];CT1:X;CT1:X\ Analysis\ Tools for Analysis\ N-Gram…;6) Classic Cryptanalysis
 CT1:en:static:77;Nihilist [visual];CT1:X;CT1:X\ Indiv. Procedures\ Visualization of Algorithms\ Nihilist…;10) Learning Aids and Visualizations
-CT1:en:static:78;Number Shark;CT1:X;CT1:X\ Indiv. Procedures\ Educational Games\ Number Shark;11) Games
+CT1:en:static:78;Number Shark (Taxman);CT1:X;CT1:X\ Indiv. Procedures\ Educational Games\ Number Shark;11) Games
 CT1:en:static:79;Number theory;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\;10) Learning Aids and Visualizations
 CT1:en:static:80;Number theory;CT1:X;CT1:X\ Indiv. Procedures\ Number Theory - Interactive\ Generic t-adic-NAF Key Generator;10) Learning Aids and Visualizations
 CT1:en:static:81;Password quality [visual];CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Quality Meter...;10) Learning Aids and Visualizations
@@ -83,13 +83,13 @@ CT1:en:static:83;Periodicity [analysis];CT1:X;CT1:X\ Analysis\ Tools for Analysi
 CT1:en:static:84;Playfair cipher;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Playfair…;1) Classic Ciphers
 CT1:en:static:85;Playfair [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Manual Analysis\ Playfair…;6) Classic Cryptanalysis
 CT1:en:static:86;PRNG test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Poker Test…;7) Modern Cryptanalysis
-CT1:en:static:87;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Miller-Rabin Test;12) Prime numbers
-CT1:en:static:88;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Fermat Test;12) Prime numbers
-CT1:en:static:89;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Solovay-Strassen test;12) Prime numbers
-CT1:en:static:90;Primes test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ AKS test (deterministic procedure);12) Prime numbers
-CT1:en:static:91;Prime test;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…;12) Prime numbers
-CT1:en:static:92;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…;12) Prime numbers
-CT1:en:static:93;Primes;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…;12) Prime numbers
+CT1:en:static:87;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Miller-Rabin Test;12) Prime numbers
+CT1:en:static:88;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Fermat Test;12) Prime numbers
+CT1:en:static:89;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ Solovay-Strassen test;12) Prime numbers
+CT1:en:static:90;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…\ AKS test (deterministic procedure);12) Prime numbers
+CT1:en:static:91;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Prime Number Test…;12) Prime numbers
+CT1:en:static:92;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Generate Prime Numbers…;12) Prime numbers
+CT1:en:static:93;Primes (generators, tests, factorization, tutorials);CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\ Factorization of a Number…;12) Prime numbers
 CT1:en:static:94;Rail fence;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Scytale / Rail Fence…;1) Classic Ciphers
 CT1:en:static:95;Randomness [visual];CT1:X;CT1:X\ Analysis\ Analyze Randomness\ 3D Visualization…;10) Learning Aids and Visualizations
 CT1:en:static:96;RC2;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ RC2…;2) Modern Ciphers
@@ -99,7 +99,7 @@ CT1:en:static:99;RC4 [attack];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (moder
 CT1:en:static:100;RC6;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (modern)\ Further Algorithms\ RC6…;2) Modern Ciphers
 CT1:en:static:101;RC6 [attack];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (modern)\ Further Algorithms\ RC6…;7) Modern Cryptanalysis
 CT1:en:static:102;RIPEMD-160;CT1:X;CT1:X\ Indiv. Procedures\ Hash\ RIPEMD-160;3) Hash and MAC Algorithms
-CT1:en:static:103;Caesar;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Caesar / Rot-13…;1) Classic Ciphers
+CT1:en:static:103;Caesar / Rot-13;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Caesar / Rot-13…;1) Classic Ciphers
 CT1:en:static:104;RSA;CT1:X;CT1:X\ Encrypt/Decrypt\ Asymmetric\ RSA ;2) Modern Ciphers
 CT1:en:static:105;RSA;CT1:X;CT1:X\ Indiv. Procedures\ RSA Cryptosystem\;2) Modern Ciphers
 CT1:en:static:106;RSA [attack];CT1:X;CT1:X\ Analysis\ Asymmetric Encryption\ Lattice-Based Attacks on RSA...\;7) Modern Cryptanalysis

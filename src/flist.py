@@ -38,7 +38,7 @@ def makeId_NEW(functionality_en:str, path:str, how_implemented:str):
     return result
 def makeId(functionality_en:str, path:str, how_implemented:str):
     # payload = f"{functionality_en}{path}{how_implemented}"
-    payload = re.sub("[^A-Za-z0-9]", "", path.lower())
+    payload = re.sub("[^A-Za-z0-9+]", "", path.lower())
     result = hashlib.md5(payload.encode()).hexdigest()[:8]
     return result
 
