@@ -8,7 +8,7 @@ Steganography;Steganographie
 Factorization of a number;Faktorisierung
 Transposition (single column transposition);Transposition (ein-stufige Spaltentransposition)
 Transposition (double column transposition);Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel)
-Transposition (double column transposition) -- [attack];Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) [Analyse]
+Transposition (double column transposition) [attack];Transposition (zwei-stufige Spaltentransposition) (Doppelwürfel) [Angriff]
 Transposition [analysis];Transposition [Analyse]
 Paillier;Paillier
 SPHINCS signature;SPHINCS-Signatur
@@ -75,9 +75,9 @@ Certificate verification;Zertifikate verifizieren
 EC calculations;EC-Berechnungen
 Reciprocal subtraction;Reziproke Substraktion
 Hash algorithms [visual];Hash-Algorithmen [Visualisierung]
-Homomorphic encryption;Homomorphe Verschlüsselung (HE)
+Homomorphic encryption (HE) (Gentry and Halevi, Paillier, DGK, RSA);Homomorphe Verschlüsselung (HE) (Gentry und Halevi, Paillier, DGK, RSA)
 Public-key infrastructure;Public-Key-Infrastruktur
-Kleptography;Kleptographie
+Kleptography (4 methods generating a prime, SETUP attack);Kleptographie (4 Methoden Primzahlen zu generieren, SETUP-Angriff)
 Knapsack;Rucksackproblem
 Differential power [analysis];Differential power [Analyse]
 Square and multiply;Binäre Exponentiation
@@ -112,15 +112,15 @@ BB84 key exchange;Schlüsselaustausch (BB84)
 BB84 key exchange [attack];Schlüsselaustausch (BB84) [Angriff]
 BB84 [attack];BB84 [Angriff]
 Heartbleed [analysis];Heartbleed [Analyse]
-Simple multi-client communication;Simple Kommunikation mit mehreren Clients
+Simple multi-client communication -- Applied Cryptography;Simple Kommunikation mit mehreren Clients -- Angewandte Kryptographie
 Simple webserver;Einfacher Webserver
 Crib [analysis];Crib [Analyse]
 RSA [attack];RSA [Angriff]
 MD5 [analysis];MD5 (Kollisionen) [Angriff]
 Classical ciphers [analysis];Klassische Verfahren [Analyse]
 Webhits for a hash value;Webtreffer für einen Hashwert
-Spanish strip cipher [analysis];Spanische Streifenchiffre [Analyse]
-Spanish strip cipher;Spanische Streifenchiffre
+Spanish strip cipher (SSC) [analysis];Spanische Streifenchiffre (SSC) [Analyse]
+Spanish strip cipher (SSC);Spanische Streifenchiffre (SSC)
 Double box;Doppelkasten
 Key exchange (multipartite);Schlüsselaustausch (multipartit)
 Key exchange (Diffie-Hellman DH);Schlüsselaustausch (Diffie-Hellman DH)
@@ -135,11 +135,11 @@ Classical ciphers -- [analysis];Klassische Verfahren [Analyse]
 DES [analysis];DES  [Analyse]
 DESL [analysis];DESL  [Analyse]
 DESX [analysis];DESX  [Analyse]
-DGK (Homomorphic encryption);DGK (Homomorphe Verschlüsselung)
+DGK (homomorphic encryption);DGK (Homomorphe Verschlüsselung)
 GMSS signature;GMSS-Signatur
 SAT solver;SAT-Solver
 Password quality [visual];Passwortqualität [Visualisierung]
-Format preserving encryption (FPE);Formatbewahrende Verschlüsselung (FPE)
+Format preserving encryption (FPE) (FF1, FF2, FF3 and DFF);Formatbewahrende Verschlüsselung (FPE)
 Password hash (SHA-1);Passwort-Hash (SHA-1)
 Discrete logarithm;Diskreter Logarithmus
 Differential cryptanalysis (DCA);Differenzielle Kryptanalyse (DKA)
@@ -157,6 +157,10 @@ MAC general;MAC generell
 Boolean functions;Boolesche Funktionen
 Navajo code;Navajo-Code
 Verifiable secret sharing (VSS);Verifiable Secret Sharing (VSS)
-Blum Blum Shub (BBS) -- PRNG;Blum Blum Shub (BBS) (PRNG)
-EC PRNG;EC (PRNG)
+Blum Blum Shub (BBS) (PRNG);Blum Blum Shub (BBS) (PRNG)
+EC (PRNG);EC (PRNG)
 Scytale;Skytale
+CMSS signature;CMSS-Signatur
+Paillier (homomorphic encryption);Paillier (homomorphische Verschlüsselung)
+Split a text (insert word borders);Text splitten (Wortgrenzen eingeben)
+Number theory (also see Primes);Zahlentheorie (siehe auch Primzahlen)

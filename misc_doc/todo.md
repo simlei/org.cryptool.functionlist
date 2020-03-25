@@ -279,8 +279,7 @@ Hier was mir noch auffiel im Deutschen bei den Funktionsnamen:
 
 
 
-Zusammenlegen: [sehe ich es richtig, dass wir uns im Deutschen für das
-Postfix "[Visualisierung]" entschieden?
+Zusammenlegen: [sehe ich es richtig, dass wir uns im Deutschen für das Postfix "[Visualisierung]" entschieden?
 -----------------------
 
 [x] AES [Angriff]                     ==>     AES [Analyse]
@@ -332,7 +331,166 @@ Aus Werkzeuge   -->  Wörterbuch-Suche
                                --> Rechenoperationen
 ```
 
+# TODO 28.02.
+
+Hallo Herr Lesichnig,
+
+FL_Deutsch:
+-----------
+
+[x] Homomorphe Verschlüsselung (HE)    ==> Homomorphe Verschlüsselung (HE) (Gentry und Halevi, Paillier, DGK, RSA)
+[x] Railfence  ==>  Gartenzaun
+[x] Simple Kommunikation mit mehreren Clients ==> Simple Kommunikation mit mehreren Clients -- Angewandte Kryptographie
+[x] Spanische Streifenchiffre ==> Spanische Streifenchiffre (SSC)
+
+FL_Englisch:
+-----------
+
+[x] Homomorphic encryption ==> Homomorphic encryption (HE) (Gentry and Halevi, Paillier, DGK, RSA)
+[x] Blum Blum Shub (BBS) -- PRNG ==> Blum Blum Shub (BBS) (PRNG)
+[x] EC PRNG  ==>  EC (PRNG)
+[x] Keccak (Hash, Chiffre, PRNG) ==> Keccak (hash, cipher, PRNG)
+
+```
+[Die generelle Änderungen im Deutschen auch im Englischen nachvollziehen
+-- bspw. "PRNG test" auflösen und 4 Funktionen daraus machen:
+[x] PRNG test ==> xyz
+[x] FIPS PUB-140-1 (test PRNG)
+[x] Poker-Test (test PRNG)
+[x] Runs-Test (test PRNG)
+[x] Serial-Test (test PRNG)  ]
+```
+
+[Wie im Deutschen]
+[x] Autokey [analysis]  ==>  Autokey Vigenère [analysis]
+
+[Nicht einfach das Deutsche kopieren, sondern anpassen]
+[x] CMSS-Signatur  ==>  CMSS signature
+[x] ECDSA-Signatur ==> mergen in ECDSA signature
+
+[x] 4) Digital Signatures, PKI  ==> SPHINCS+ signature
+[x] Hill [analysis]  ==>  Hill cipher [analysis]
+[x] Morse Code ==> Morse code
+[x] Potenzieren [Visualisierung]  ==>  Powering [visual]
+[x] Railfence  ==>  Rail fence
+[x] SHA [nur CT1]  ==>  SHA
+[x] Simple multi-client communication ==> Simple multi-client communication -- Applied Cryptography
+[x] Spanish strip cipher  ==>  Spanish strip cipher (SSC)
+
+Bei "Transposition (double column transposition) -- [attack]"
+[x] a) das "--" raus
+[x] b) Änderungen analog im Deutschen (single and double)
+[x] Transposition (double column transposition) -- [attack] ==> Transposition (double column transposition) [attack]
+
+---
+
+# Mail 22.03.
+
+1) Neue Zeilen in Funktionsübersicht -- weitere Unterteilungen:
+
+[x] Paillier ==> Paillier (homomorphic encryption)
+
+        [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
+        [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
+        [C] \ Modern Ciphers \ Asymmetric \ Paillier
+        [T] \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
+
+[x] Data flow => Split a text (insert word borders)
+
+    [T] \ Tools \ Split a text
+
+[ ] Zurückgestellt:
+
+    2) Ergänzen in ex. Zeile: (analog im Deutschen)
+
+    Alphabet --> CT1: [X] \ Options \ Text Options
+    Encoding --> CT1: [X] \ Indiv. Procedures \ Tools \ Codes
+
+    ```
+      [Komischerweise fehlt "Options \ Text Options" ganz in der
+    Funktionsliste. Ist da etwas in den aufbereitetetn Daten verloren
+    gegangen oder fehlte das schon in den Ursprungsdaten zu CT1.]
+    ```
+
+3) Anders verteilen:
+
+- Von "Data flow" nach "Hamming distance":
+  [x] CT2, [C] \ Tools \ Misc \ HammingDistance
+
+- Von "Data flow" nach "Pseudo random number generator (PRNG)":
+  [x] CT2, [W] \ Tools \ Random numbers
+
+- Von "Data flow" nach "Decimalization":
+  [x] CT2, [C] \ Tools \ Misc \ Decimalization
+
+- Von "Data input/output" nach "Alphabets": ?
+  [x] CT2, [C] \ Tools \ Data input/output \ Alphabets
+
+- Von "Primes (...)" nach "Factorization of a number":
+  [x] [N] \ Crypto tutorials \ World of Primes \ Factorization \ Brute-force
+  [x] [N] \ Crypto tutorials \ World of Primes \ Factorization \ Quadratic Sieve
+
+- Von "Primes (...)" nach "Number theory":
+  [x] [N] \ Crypto tutorials \ World of Primes \ Number theory \ Number-theoretic functions
+  [x] [N] \ Crypto tutorials \ World of Primes \ Number theory \ Primitive roots
+  [x] [N] \ Crypto tutorials \ World of Primes \ Number theory \ Goldbach's conjecture
+
+- Von "Tools" nach "Data flow":  [Kopal fragen]
+  [x] CT2, [T] \ Tools \ Loop
+
+
+- Postfix in Klammern klein im Englischen:
+[x] DGK (Homomorphic encryption) ==> DGK (homomorphic encryption)
+
+- More:
+
+[x] Format preserving encryption (FPE) ==> Format preserving encryption (FPE) (FF1, FF2, FF3 and DFF)
+[x] Key exchange (Diffie-Hellman DH) (Perfect Forward Secrecy) visual ==> Key exchange (Diffie-Hellman DH) (Perfect Forward Secrecy) [visual]
+[x] Keys (Display / Export)  ==>  Keys (display / export)
+[x] Keys (Generate / Import)  ==>  Keys (generate / import)
+[x] Kleptography  ==>  Kleptography (4 methods generating a prime, SETUP attack)
+[x] Number theory ==> Number theory (also see Primes)  ???
+
+Verschoben:
+    5)  Aus CT1 fehlt offenbar noch einiges. Z.B. findet er den Begriff
+
+    Bei mir findet er:
+    [en] -- RSA [attack]	X	"[X] \ Analysis \ Asymmetric Encryption \ Lattice-Based Attacks on RSA... \
+    [X] \ Analysis \ Asymmetric Encryption \ Side-Channel Attack on ""Textbook RSA""…" 
+
+    - Kann es sein, dass der Filter bei CT1 nur auf den String im
+    Menüpfad-Ende wirkt?
+    >> eigentlich nicht. Bei mir findet er im Englischen das "Lattice" im Pfad s.o.. Bei Ihnen nicht?
+    Im Deutschen finde ich für CT1 keinen Eintrag, s. TODO CT1 missing items
+
+    - Auch steroptype findet er nicht.
+Analog ales für Deutsch.
+
 # Tail
 
+Sieht aus wie größere TODOs:
+
+- CT1 Bestandsaufnahme, Ausgang: 
+```
+    2) Ergänzen in ex. Zeile: (analog im Deutschen)
+
+    Alphabet --> CT1: [X] \ Options \ Text Options
+    Encoding --> CT1: [X] \ Indiv. Procedures \ Tools \ Codes
+
+    ```
+      [Komischerweise fehlt "Options \ Text Options" ganz in der
+    Funktionsliste. Ist da etwas in den aufbereitetetn Daten verloren
+    gegangen oder fehlte das schon in den Ursprungsdaten zu CT1.]
+    ```
+
+    5)  Aus CT1 fehlt offenbar noch einiges. Z.B. findet er den Begriff
+
+    Bei mir findet er:
+    [en] -- RSA [attack]	X	"[X] \ Analysis \ Asymmetric Encryption \ Lattice-Based Attacks on RSA... \
+    [X] \ Analysis \ Asymmetric Encryption \ Side-Channel Attack on ""Textbook RSA""…" 
+    - im Dt. Bestand kein "Lattice"
+      ''Hier ein Screenshot, der zeigt, wo in CT2 "lattice" vorkommt":''
+    - Auch steroptype findet er nicht.
+```
 
 [ ] Nothing in this todo, for now...

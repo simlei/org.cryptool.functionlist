@@ -13,7 +13,7 @@ CTO:de:static:30;Porta;CTO:X;CTO:X \ Chiffren\ Porta;1) Klassische Chiffren
 CTO:de:static:42;Trithemius;CTO:X;CTO:X \ Chiffren\ Trithemius;1) Klassische Chiffren
 CTO:de:static:44;Vigenère-Chiffre;CTO:X;CTO:X \ Chiffren\ Vigenère;1) Klassische Chiffren
 CTO:de:static:40;Transposition (ein-stufige Spaltentransposition);CTO:X;CTO:X \ Chiffren\ Transposition;1) Klassische Chiffren
-CTO:en:static:101;Railfence;CTO:X;CTO:X\ Chiffren\ Railfence;1) Classic Ciphers
+CTO:en:static:101;Gartenzaun;CTO:X;CTO:X\ Chiffren\ Railfence;1) Classic Ciphers
 CTO:en:static:102;Redefence;CTO:X;CTO:X\ Chiffren\ Redefence;1) Classic Ciphers
 CTO:de:static:33;Rotation;CTO:X;CTO:X \ Chiffren\ Rotation;1) Klassische Chiffren
 CTO:de:static:34;Skytale;CTO:X;CTO:X \ Chiffren\ Skytale;1) Klassische Chiffren

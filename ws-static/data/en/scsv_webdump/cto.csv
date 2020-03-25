@@ -11,7 +11,7 @@ CTO:en:static:23;Gronsfeld;CTO:X;CTO:X\ Ciphers\ Gronsfeld;1) Classic Ciphers
 CTO:en:static:24;Hill cipher;CTO:X;CTO:X\ Ciphers\ Hill;1) Classic Ciphers
 CTO:en:static:26;Huffman;CTO:X;CTO:X\ Codings\ Huffman;9) Codings
 CTO:en:static:27;Kamasutra;CTO:X;CTO:X\ Ciphers\ Kamasutra;1) Classic Ciphers
-CTO:en:static:29;Morse Code;CTO:X;CTO:X\ Codings\ Morse Code;9) Codings
+CTO:en:static:29;Morse code;CTO:X;CTO:X\ Codings\ Morse Code;9) Codings
 CTO:en:static:2;AES [visual];CTO:X;CTO:X\ Highlights\ AES (step-by-step);2) Modern Ciphers
 CTO:en:static:2;RSA [visual];CTO:X;CTO:X\ Highlights\ RSA (step-by-step);2) Modern Ciphers
 CTO:en:static:30;N-gram [analysis];CTO:X;CTO:X\ Cryptanalysis\ N-Gram Analysis;6) Classic Cryptanalysis
@@ -22,7 +22,7 @@ CTO:en:static:35.2;Password quality [visual];CTO:X;CTO:X\ Highlights\ Password M
 CTO:en:static:39;Porta;CTO:X;CTO:X\ Ciphers\ Porta;1) Classic Ciphers
 CTO:en:static:3;Affine cipher;CTO:X;CTO:X\ Ciphers\ Multiplicative;1) Classic Ciphers
 CTO:en:static:40.2;Redefence;CTO:X;CTO:X\ Ciphers\ Redefence;1) Classic Ciphers
-CTO:en:static:40;Railfence;CTO:X;CTO:X\ Ciphers\ Railfence;1) Classic Ciphers
+CTO:en:static:40;Rail fence;CTO:X;CTO:X\ Ciphers\ Railfence;1) Classic Ciphers
 CTO:en:static:42;Rotation;CTO:X;CTO:X\ Ciphers\ Rotation;1) Classic Ciphers
 CTO:en:static:43;Scytale;CTO:X;CTO:X\ Ciphers\ Scytale;1) Classic Ciphers
 CTO:en:static:44.2;Substitution;CTO:X;CTO:X\ Ciphers\ Monoalphabet. Substitution;1) Classic Ciphers
@@ -33,5 +33,5 @@ CTO:en:static:48;Vigenère cipher;CTO:X;CTO:X\ Ciphers\ Vigenère;1) Classic Cip
 CTO:en:static:49;Vigenère [analysis];CTO:X;CTO:X\ Cryptanalysis\ Vigenère Analysis;6) Classic Cryptanalysis
 CTO:en:static:6;ASCII;CTO:X;CTO:X\ Codings\ ASCII;9) Codings
 CTO:en:static:7;Autocorrelation;CTO:X;CTO:X\ Cryptanalysis\ Autocorrelation;6) Classic Cryptanalysis
-CTO:en:static:8;Autokey [analysis];CTO:X;CTO:X\ Cryptanalysis\ Autokey Analysis;6) Classic Cryptanalysis
+CTO:en:static:8;Autokey Vigenère [analysis];CTO:X;CTO:X\ Cryptanalysis\ Autokey Analysis;6) Classic Cryptanalysis
 CTO:en:static:9;Autokey Vigenère;CTO:X;CTO:X\ Ciphers\ Autokey;1) Classic Ciphers

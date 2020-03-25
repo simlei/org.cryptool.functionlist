@@ -122,8 +122,8 @@ CT1:de:static:374;RSA [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ RSA-Krypto
 CT1:de:static:376;Shamir's Secret Sharing [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Secret-Sharing-Demo (nach Shamir)...;10) Lernhilfen und Visualisierungen
 CT1:de:static:377;Sichere E-Mail (S/MIME) [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Sichere E-Mail mit S/MIME...;10) Lernhilfen und Visualisierungen
 CT1:de:static:382;Vigenère [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Visualisierung von Algorithmen\ Vigenère...;10) Lernhilfen und Visualisierungen
-CT1:de:static:387;Zahlentheorie;CT1:X;CT1:X \ Einzelverfahren\ Zahlentheorie interaktiv\;10) Lernhilfen und Visualisierungen
-CT1:de:static:388;Zahlentheorie;CT1:X;CT1:X \ Einzelverfahren\ Zahlentheorie interaktiv\ Generischer t-adic-NAF-Schlüsselgenerator;10) Lernhilfen und Visualisierungen
+CT1:de:static:387;Zahlentheorie (siehe auch Primzahlen);CT1:X;CT1:X \ Einzelverfahren\ Zahlentheorie interaktiv\;10) Lernhilfen und Visualisierungen
+CT1:de:static:388;Zahlentheorie (siehe auch Primzahlen);CT1:X;CT1:X \ Einzelverfahren\ Zahlentheorie interaktiv\ Generischer t-adic-NAF-Schlüsselgenerator;10) Lernhilfen und Visualisierungen
 CT1:de:static:390;Zufall [Visualisierung];CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ 3D-Visualisierung...;10) Lernhilfen und Visualisierungen
 CT1:de:static:394;Zahlenhai (Number Shark, Taxman);CT1:X;CT1:X \ Einzelverfahren\ Lernspiele\ Der Zahlenhai;11) Spiele
 CT1:de:static:397;Faktorisierung;CT1:X;CT1:X \ Einzelverfahren\ RSA-Kryptosystem\ Faktorisieren einer Zahl...\ Brute-Force;12) Primzahlen

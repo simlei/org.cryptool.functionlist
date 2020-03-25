@@ -148,7 +148,7 @@ JCT:dynamic:479f310a;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ C
 JCT:dynamic:8b02b59a;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_2
 JCT:dynamic:49dc4929;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_4
 JCT:dynamic:4a859b95;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_3
-JCT:dynamic:666f2e0c;CMSS-Signatur;JCT:A \ Signatures \ CMSSSignature \ CMSS
+JCT:dynamic:666f2e0c;CMSS signature;JCT:A \ Signatures \ CMSSSignature \ CMSS
 JCT:dynamic:0d008183;DSA signature;JCT:A \ Signatures \ IQRDSASignature \ IQRDSA
 JCT:dynamic:bf54ed5a;DSA signature;JCT:A \ Signatures \ IQRDSASignature \ RIPEMD160withIQRDSA
 JCT:dynamic:392c2d69;RSA signature;JCT:A \ Signatures \ RbRSA
@@ -158,12 +158,12 @@ JCT:dynamic:745d40ee;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwit
 JCT:dynamic:62643fdc;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA224
 JCT:dynamic:f9c85b28;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA256
 JCT:dynamic:b0444fbb;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA384
-JCT:dynamic:c43fec9f;ECDSA-Signatur;JCT:A \ Signatures \ ECDSASignature \ SHA1/ECDSA
-JCT:dynamic:67e83937;ECDSA-Signatur;JCT:A \ Signatures \ ECDSASignature \ SHA512/ECDSA
-JCT:dynamic:b72e58db;ECDSA-Signatur;JCT:A \ Signatures \ ECDSASignature \ RawECDSA
-JCT:dynamic:6d1092d8;ECDSA-Signatur;JCT:A \ Signatures \ ECDSASignature \ SHA224/ECDSA
-JCT:dynamic:0b20e9b5;ECDSA-Signatur;JCT:A \ Signatures \ ECDSASignature \ SHA256/ECDSA
-JCT:dynamic:2459dc2b;ECDSA-Signatur;JCT:A \ Signatures \ ECDSASignature \ SHA384/ECDSA
+JCT:dynamic:c43fec9f;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA1/ECDSA
+JCT:dynamic:67e83937;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA512/ECDSA
+JCT:dynamic:b72e58db;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ RawECDSA
+JCT:dynamic:6d1092d8;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA224/ECDSA
+JCT:dynamic:0b20e9b5;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA256/ECDSA
+JCT:dynamic:2459dc2b;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA384/ECDSA
 JCT:dynamic:7e44442a;RSA signature;JCT:A \ Signatures \ SSL_MD5andSHA1withRSA
 JCT:dynamic:3cdf2ba5;Merkle signature;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA512
 JCT:dynamic:26de1756;Merkle signature;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA384
@@ -223,7 +223,7 @@ JCT:dynamic:4a969fd1;Hash algorithms [visual];JCT:D \ Visuals \ Hash Sensitivity
 JCT:dynamic:c742b179;Homomorphic encryption;JCT:D \ Visuals \ Homomorphic Encryption
 JCT:dynamic:c7d4c6d8;Huffman;JCT:D \ Visuals \ Huffman Coding
 JCT:dynamic:177838dc;Public-key infrastructure;JCT:D \ Visuals \ Public-Key Infrastructure
-JCT:dynamic:d8770738;Kleptography;JCT:D \ Visuals \ Kleptography
+JCT:dynamic:d8770738;Kleptography (4 methods generating a prime, SETUP attack);JCT:D \ Visuals \ Kleptography
 JCT:dynamic:cd84c523;Knapsack;JCT:D \ Visuals \ Merkle-Hellman Knapsack Cryptosystem
 JCT:dynamic:ef774b7f;Merkle signature;JCT:D \ Visuals \ Merkle Signature (XMSS^MT)
 JCT:dynamic:8be3a019;RSA;JCT:D \ Visuals \ RSA Cryptosystem
@@ -239,9 +239,9 @@ JCT:dynamic:22fa3c6c;Magic door [visual];JCT:D \ Visuals \ Magic Door
 JCT:dynamic:e3ddb01a;Fiat Shamir;JCT:D \ Visuals \ Fiat Shamir
 JCT:dynamic:2a4087b8;Fiat Shamir;JCT:D \ Visuals \ Feige Fiat Shamir
 JCT:dynamic:6742fac1;Graph isomorphism;JCT:D \ Visuals \ Graph Isomorphism
-JCT:dynamic:7a09f6db;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER++
-JCT:dynamic:ea1c7ade;2) Modern Ciphers;JCT:A \ Block Ciphers \ SAFER+
-JCT:dynamic:8136afb9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER+
-JCT:dynamic:06c1a045;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
-JCT:dynamic:ab1578c0;4) Digital Signatures, PKI;JCT:D \ Visuals \ SPHINCS+ Signature
-JCT:dynamic:8261200a;10) Learning Aids and Visualizations;JCT:D \ Visuals \ WOTS/WOTS+
+JCT:dynamic:7a09f6db;SAFER++;JCT:A \ Block Ciphers \ SAFER++
+JCT:dynamic:ea1c7ade;SAFER+;JCT:A \ Block Ciphers \ SAFER+
+JCT:dynamic:8136afb9;SAFER+;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER+
+JCT:dynamic:06c1a045;SAFER++;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
+JCT:dynamic:ab1578c0;SPHINCS+ signature;JCT:D \ Visuals \ SPHINCS+ Signature
+JCT:dynamic:8261200a;Winternitz signature;JCT:D \ Visuals \ WOTS/WOTS+
