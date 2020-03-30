@@ -16,6 +16,9 @@ import flist_io as io
 import flist_api as api; from flist_api import implicitly
 
 import benedict; from benedict import benedict as bdict
+import csv
+
+import csv
 
 def translate(translation_df: pandas.DataFrame, lang: str, category_en: str):
     for i,row in translation_df.iterrows():
@@ -40,14 +43,14 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
     if not catfile.is_file():
         raise io.FlistException(f"file {catfile} does not exist")
 
-    translations = pandas.read_csv(get_category_file(), sep=";")
+    translations = pandas.read_csv(get_category_file(), quoting=csv.QUOTE_NONE, sep=";")
     feedbackfile_static = Path(__file__).parent.parent / "ws-static" / feedbackfile.relative_to( implicitly("workspace").path )
 
     dataset = flist.SCSV_Dataset.From_Dataframe(flist.SCSV_Dataset.Dataframe_From_Files([input]))
 
     catmapping_all = pandas.DataFrame(columns = ["id", "category"])
 
-    df_cats_input = pandas.read_csv(catfile, names=["id", "category", "path"], header=None, sep=";")
+    df_cats_input = pandas.read_csv(catfile, quoting=csv.QUOTE_NONE, names=["id", "category", "path"], header=None, sep=";")
     df_cats_input.fillna('', inplace=True)
     df_cats_input = df_cats_input[
         (~ df_cats_input["id"].str.contains(blank_disappears)) & (~ df_cats_input["category"].str.contains(blank_placeholder))
@@ -55,7 +58,7 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
 
     df_cats_feedback = pandas.DataFrame(columns = ["id", "category", "path"])
     if feedbackfile.is_file():
-        df_cats_feedback = pandas.read_csv(feedbackfile, names=["id", "category", "path"], header=None, sep=";")
+        df_cats_feedback = pandas.read_csv(feedbackfile, quoting=csv.QUOTE_NONE, names=["id", "category", "path"], header=None, sep=";")
         df_cats_feedback.fillna('', inplace=True)
         df_cats_feedback = df_cats_feedback[
             (~ (df_cats_feedback["id"].str.contains(blank_disappears))) & (~ (df_cats_feedback["category"].str.contains(blank_placeholder)))
@@ -116,5 +119,5 @@ def Add_Categories(input: Path, catfile: Path, language: str, feedbackfile: Path
 
 
     # implicitly("prog.logger").info(f"writing feedbackfile with ids to {feedbackfile} with ids: {df_writeback_feedback['id'].tolist()}")
-    df_writeback_feedback.to_csv(feedbackfile, sep=flist.CSV_SEP, index=False, header=False)
+    df_writeback_feedback.to_csv(feedbackfile, quoting=csv.QUOTE_NONE, sep=flist.CSV_SEP, index=False, header=False)
     dataset.write_csv(output)

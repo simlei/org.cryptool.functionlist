@@ -13,6 +13,7 @@ import pathlib;
 from pathlib import Path
 import flist_argtype as argtype
 import flist_io as io
+import csv
 
 # ---- State that holds the multiple steps together. Must be completely inferrable by pointing to a workspace dir, and must also be optional
 
@@ -90,7 +91,7 @@ class CSV_Dataset(ABC):
         This attempts to convert the CSV_Entry fields from self.get_dataframe_dictionaries to a pandas.DataFrame, 
         which is then written to a CSV file.
         """
-        self.to_dataframe().to_csv(outfile, sep=CSV_SEP, index=False, header=False)
+        self.to_dataframe().to_csv(outfile, quoting=csv.QUOTE_NONE, sep=CSV_SEP, index=False, header=False)
         io.msg(f"written CSV output to {outfile}")
 
     @staticmethod
@@ -100,7 +101,7 @@ class CSV_Dataset(ABC):
         """
         if not file.exists():
             raise io.FlistException(f"nonexistent file path: {file}")
-        return pandas.read_csv(file, sep=CSV_SEP, header=None, names=columns, keep_default_na=False)
+        return pandas.read_csv(file, quoting=csv.QUOTE_NONE, sep=CSV_SEP, header=None, names=columns, keep_default_na=False)
 
     @staticmethod
     def Dataframe_From_Files(files, columns):
@@ -455,7 +456,7 @@ class FinalForm_Dataset(CSV_Dataset):
     def write_csv(self, outfile):
         df = self.to_dataframe()
         df.insert(0, "ID", range(len(self.rows)))
-        df.to_csv(outfile, sep=CSV_SEP, index=False, header=False)
+        df.to_csv(outfile, quoting=csv.QUOTE_NONE, sep=CSV_SEP, index=False, header=False)
         io.msg(f"written CSV output to {outfile}")
 
     def get_rows(self):

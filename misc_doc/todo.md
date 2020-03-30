@@ -452,18 +452,17 @@ Bei "Transposition (double column transposition) -- [attack]"
 [x] Number theory ==> Number theory (also see Primes)  ???
 
 Verschoben:
-    5)  Aus CT1 fehlt offenbar noch einiges. Z.B. findet er den Begriff
+    [x] 5)  Aus CT1 fehlt offenbar noch einiges. Z.B. findet er den Begriff
 
     Bei mir findet er:
     [en] -- RSA [attack]	X	"[X] \ Analysis \ Asymmetric Encryption \ Lattice-Based Attacks on RSA... \
     [X] \ Analysis \ Asymmetric Encryption \ Side-Channel Attack on ""Textbook RSA""…" 
 
-    - Kann es sein, dass der Filter bei CT1 nur auf den String im
-    Menüpfad-Ende wirkt?
+    - Kann es sein, dass der Filter bei CT1 nur auf den String im Menüpfad-Ende wirkt?
     >> eigentlich nicht. Bei mir findet er im Englischen das "Lattice" im Pfad s.o.. Bei Ihnen nicht?
     Im Deutschen finde ich für CT1 keinen Eintrag, s. TODO CT1 missing items
 
-    - Auch steroptype findet er nicht.
+    [x] - Auch steroptype findet er nicht.
 Analog ales für Deutsch.
 
 # Tail
@@ -492,5 +491,9 @@ Sieht aus wie größere TODOs:
       ''Hier ein Screenshot, der zeigt, wo in CT2 "lattice" vorkommt":''
     - Auch steroptype findet er nicht.
 ```
+
+[ ] Menübaum
+    - https://www.cryptool.org/en/ctp-documentation/ctbook
+    - S. 430/451
 
 [ ] Nothing in this todo, for now...

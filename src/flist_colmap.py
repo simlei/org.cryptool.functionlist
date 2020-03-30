@@ -17,6 +17,8 @@ import flist_api as api; from flist_api import implicitly
 
 import benedict; from benedict import benedict as bdict
 
+import csv
+
 def translate(translationfile: Path, translation_df: pandas.DataFrame, lang: str, category_en: str) -> typing.Optional[str]:
     for i,row in translation_df.iterrows():
         if row["en"] == category_en:
@@ -60,14 +62,14 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
     if not mapfile.is_file():
         raise io.FlistException(f"file {mapfile} does not exist")
 
-    translations = pandas.read_csv(translationfile, sep=";")
+    translations = pandas.read_csv(translationfile, quoting=csv.QUOTE_NONE, sep=";")
     feedbackfile_static = Path(__file__).parent.parent / "ws-static" / feedbackfile.relative_to( implicitly("workspace").path )
 
     dataset = flist.SCSV_Dataset.From_Dataframe(flist.SCSV_Dataset.Dataframe_From_Files([input]))
 
     catmapping_all = pandas.DataFrame(columns = ["id", colname])
 
-    df_cats_input = pandas.read_csv(mapfile, names=["id", colname, "path"], header=None, sep=";")
+    df_cats_input = pandas.read_csv(mapfile, quoting=csv.QUOTE_NONE, names=["id", colname, "path"], header=None, sep=";")
     df_cats_input.fillna('', inplace=True)
     df_cats_input = df_cats_input[
         (~ df_cats_input["id"].str.contains(blank_disappears)) & (~ df_cats_input[colname].str.contains(blank_placeholder))
@@ -75,7 +77,7 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
 
     df_cats_feedback = pandas.DataFrame(columns = ["id", colname, "path"])
     if feedbackfile.is_file():
-        df_cats_feedback = pandas.read_csv(feedbackfile, names=["id", colname, "path"], header=None, sep=";")
+        df_cats_feedback = pandas.read_csv(feedbackfile, quoting=csv.QUOTE_NONE, names=["id", colname, "path"], header=None, sep=";")
         df_cats_feedback.fillna('', inplace=True)
         df_cats_feedback = df_cats_feedback[
             (~ (df_cats_feedback["id"].str.contains(blank_disappears))) & (~ (df_cats_feedback[colname].str.contains(blank_placeholder)))
@@ -146,5 +148,5 @@ def Map_Columns(colname: str, translationfile: Path, input: Path, mapfile: Path,
 
 
     # implicitly("prog.logger").info(f"writing feedbackfile with ids to {feedbackfile} with ids: {df_writeback_feedback['id'].tolist()}")
-    df_writeback_feedback.to_csv(feedbackfile, sep=flist.CSV_SEP, index=False, header=False)
+    df_writeback_feedback.to_csv(feedbackfile, quoting=csv.QUOTE_NONE, sep=flist.CSV_SEP, index=False, header=False)
     dataset.write_csv(output)
