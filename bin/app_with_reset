@@ -3,4 +3,4 @@
 set -euo pipefail
 dir="$( readlink -f "${BASH_SOURCE[0]}" )"; dir="${dir%/*}"; dir="${dir%/*}"
 "$dir/bin/app" --initws | "$dir/bin/pretty" || echo "ERROR: fail $? at initws" >&2
-"$dir/bin/app" | "$dir/bin/pretty" || echo "ERROR: fail $? at main prog" >&2
+"$dir/bin/app" "$@" | "$dir/bin/pretty" || echo "ERROR: fail $? at main prog" >&2

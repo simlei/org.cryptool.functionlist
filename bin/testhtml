@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+dir="$( readlink -f "${BASH_SOURCE[0]}" )"; dir="${dir%/*}"
+"$dir/app" --skipUntil tohtml | "$dir/pretty"
+
+exec /usr/bin/google-chrome "$dir/../sphinx-doc/genFlistHtml/html_en/index.html"
