@@ -2545,9 +2545,15 @@
 		}
 		
 		
+        function _countPaths()
+        {
+            return 1234
+        }
+
 		function _fnInfoMacros ( oSettings, str )
 		{
 			var
+                sPathcount = _countPaths(),
 				iStart = oSettings._iDisplayStart+1,
 				sStart = oSettings.fnFormatNumber( iStart ),
 				iEnd = oSettings.fnDisplayEnd(),
@@ -2567,6 +2573,7 @@
 			return str.
 				replace(/_START_/g, sStart).
 				replace(/_END_/g,   sEnd).
+				replace(/_PATHCOUNT_/g,   sPathcount).
 				replace(/_TOTAL_/g, sTotal).
 				replace(/_MAX_/g,   sMax);
 		}

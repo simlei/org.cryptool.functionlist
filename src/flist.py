@@ -228,7 +228,8 @@ class Merged_Functionality():
 class MCSV_Entry(CSV_Entry):
     SEP_ids = "+"
     SEP_how_implemented = "/"
-    SEP_paths = " <br /> "
+    SEP_paths = ' <br class="pathend" /> '
+    FIN_paths = ' <span class="pathend" ></span> '
     SEP_categories = " <br \>"
     SEP_pathelement = " \\ "
 
@@ -293,6 +294,8 @@ class MCSV_Entry(CSV_Entry):
     def merge_paths(paths):
         uniqd = uniq(paths)
         appended = MCSV_Entry.SEP_paths.join([MCSV_Entry.SEP_pathelement.join(el) for el in uniqd])
+        if len(uniqd) > 0:
+            appended = appended + MCSV_Entry.FIN_paths
         return appended
 
     @staticmethod
@@ -317,8 +320,8 @@ class MCSV_Entry(CSV_Entry):
 
     @staticmethod
     def unmerge_paths(merged):
-        lvl1 = merged.strip().split(MCSV_Entry.SEP_paths)
-        lvl2 = [pathelement.split(MCSV_Entry.SEP_pathelement) for pathelement in lvl1]
+        lvl1 = merged.strip().replace(MCSV_Entry.FIN_paths, "").split(MCSV_Entry.SEP_paths)
+        lvl2 = [pathelement.split(MCSV_Entry.SEP_pathelement) for pathelement in lvl1] # type: str
         return lvl2
 
     @staticmethod
@@ -410,6 +413,7 @@ class FinalForm_Entry:
             pathfiltered = mcsv.filter_for_cryptoolstring(ctid)
             how_implemented[ctid] = MCSV_Entry.merge_how_implemented(pathfiltered.how_implemented)
             paths[ctid] = MCSV_Entry.merge_paths(pathfiltered.paths)
+            # paths[ctid] = pathfiltered.paths
 
         return FinalForm_Entry(functionality, how_implemented, paths, categories)
 
