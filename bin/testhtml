@@ -3,6 +3,23 @@
 set -euo pipefail
 
 dir="$( readlink -f "${BASH_SOURCE[0]}" )"; dir="${dir%/*}"
-"$dir/app" --skipUntil tohtml | "$dir/pretty"
+cd "$dir/.."
 
+origin="$dir/../ws-static/data/en/html_template"
+target="$dir/../ws/data/en/html_template"
+rm -rf "$target"; cp -r "$origin" "$target"
+
+origin="$dir/../ws-static/data/de/html_template"
+target="$dir/../ws/data/de/html_template"
+rm -rf "$target"; cp -r "$origin" "$target"
+
+origin="$dir/../ws-static/www/html_en"
+target="$dir/../ws/www/html_en"
+rm -rf "$target"; cp -r "$origin" "$target"
+
+origin="$dir/../ws-static/www/html_de"
+target="$dir/../ws/www/html_de"
+rm -rf "$target"; cp -r "$origin" "$target"
+
+"$dir/app" --skipUntil merge | "$dir/pretty"
 exec /usr/bin/google-chrome "$dir/../sphinx-doc/genFlistHtml/html_en/index.html"
