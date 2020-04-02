@@ -451,49 +451,60 @@ Bei "Transposition (double column transposition) -- [attack]"
 [x] Kleptography  ==>  Kleptography (4 methods generating a prime, SETUP attack)
 [x] Number theory ==> Number theory (also see Primes)  ???
 
-Verschoben:
-    [x] 5)  Aus CT1 fehlt offenbar noch einiges. Z.B. findet er den Begriff
-
-    Bei mir findet er:
-    [en] -- RSA [attack]	X	"[X] \ Analysis \ Asymmetric Encryption \ Lattice-Based Attacks on RSA... \
-    [X] \ Analysis \ Asymmetric Encryption \ Side-Channel Attack on ""Textbook RSA""…" 
-
-    - Kann es sein, dass der Filter bei CT1 nur auf den String im Menüpfad-Ende wirkt?
-    >> eigentlich nicht. Bei mir findet er im Englischen das "Lattice" im Pfad s.o.. Bei Ihnen nicht?
-    Im Deutschen finde ich für CT1 keinen Eintrag, s. TODO CT1 missing items
-
-    [x] - Auch steroptype findet er nicht.
-Analog ales für Deutsch.
 
 # Tail
 
-Sieht aus wie größere TODOs:
+## Fragen:
 
-- CT1 Bestandsaufnahme, Ausgang: 
+- Sollte bei "Secure Chat -- Applied Cryptography"  das "Applied Cryptography" auch in []?
+
+Ich denke, das ist eine gute Idee. Es gibt noch mehr Funktionen, die diesen Tag bekommen können.
+
+## TODO:
+
 ```
-    2) Ergänzen in ex. Zeile: (analog im Deutschen)
-
-    Alphabet --> CT1: [X] \ Options \ Text Options
-    Encoding --> CT1: [X] \ Indiv. Procedures \ Tools \ Codes
-
-    ```
-      [Komischerweise fehlt "Options \ Text Options" ganz in der
-    Funktionsliste. Ist da etwas in den aufbereitetetn Daten verloren
-    gegangen oder fehlte das schon in den Ursprungsdaten zu CT1.]
-    ```
-
-    5)  Aus CT1 fehlt offenbar noch einiges. Z.B. findet er den Begriff
-
-    Bei mir findet er:
-    [en] -- RSA [attack]	X	"[X] \ Analysis \ Asymmetric Encryption \ Lattice-Based Attacks on RSA... \
-    [X] \ Analysis \ Asymmetric Encryption \ Side-Channel Attack on ""Textbook RSA""…" 
-    - im Dt. Bestand kein "Lattice"
-      ''Hier ein Screenshot, der zeigt, wo in CT2 "lattice" vorkommt":''
-    - Auch steroptype findet er nicht.
+[x] - erledigt
+[oo] - andauernd
+[ ] - noch nicht begonnen
 ```
 
-[ ] Menübaum
-    - https://www.cryptool.org/en/ctp-documentation/ctbook
-    - S. 430/451
+### Website:
 
-[ ] Nothing in this todo, for now...
+**Legende**:
+
+- [x] CT2: Funktion ist im Navigations-Bar verfügbar. ==> CT2: Funktion ist im oberen Navigations-Bar verfügbar.
+- [x] CT2: Function is available in the navigation bar. ==> CT2: Function is available in the top navigation bar.
+
+- [x] Postfixes erläutern:
+    - [visual]              : Visualization of inner workings, e.g. via the presentation mode within a CT2 component
+    - (PRNG)                : Pseudo random number generator
+    - [attack or analysis]  : templates for breaking a function or protocol
+    - [MPC]                 : Multi-party communication
+
+- [ ] Schwebende Legende (toggle per schwebendem Button)
+
+**Anderes**
+
+- [x] **Path count zzgl zu Group count (xxx Zeilen *+ yyy einzelne Pfade* )**
+
+### Spezifische Fehler in der Tabelle
+
+- [ ] replace `(PRNG)` with `[PRNG]` for consistency with other tags
+
+### Manuell gepflegte Datenlage
+
+- [oo] **Einheitlichkeit aller Oberbegriffe, Pfade**
+- [oo] **Generelle Korrektheit, jedoch ohne spezifische Überprüfung jedes einzelnen Eintrags am Programm**
+- [ ] **CT1 Prüfung auf Vollständigkeit**
+    - https://www.cryptool.org/en/ctp-documentation/ctbook S. 430/451
+- [ ] CTO Prüfung auf Vollständigkeit
+
+### Datenverarbeitung
+
+- [x] `--` ==> `–` ( /home/simon/sandbox/featurelist/ct_functionlist/src/flist_step_tohtml.py )
+- [ ] Unterschiedlich viele Einträge en/de auch CT2/JCT ( --> systematisch)
+
+### Continuous Integration
+
+- [oo] (*last: 2020/04/01* :ok: ) Update CT2 functionality files and generate and import csv/SQL
+- [oo] (*last: 2020/02/26* :-1: ) Update JCT functionality files and generate and import csv/SQL
