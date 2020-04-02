@@ -14,7 +14,8 @@ contprompt() {
     fi
 }
 
-cliparg="https://www.cryptool.org$( curl -L 'https://www.cryptool.org/en/ct2-downloads' | sed -n 's/^.*href=.\([- /.A-Za-z_0-9()]*zip\)..*/\1/p' )"
+cliparg="https://www.cryptool.org$( curl -L 'https://www.cryptool.org/en/ct2-downloads' | sed -n 's/^.*href=.\([- /.A-Za-z_0-9()]*zip\)..*/\1/p' | head -n 1)"
+echo cliparg "$cliparg"
 
 if [[ ! -z "${1:+x}" ]]; then
     urlarg="$1"
@@ -36,14 +37,22 @@ url="$urlarg"
 
 windir="/media/shared/VMs_FS/Win10/ct2gen"
 
-# rm -rf "$windir" || :
-# mkdir -p "$windir"
-
-mkdir -p "$windir/product"
 zipfile="$windir/ct2archive.zip"
+url="${url// /%20}"
 
-# curl -o "$zipfile" -JL "$url"
-# 7z x -o"$windir/product" "$zipfile"
+if [[ -z "${NOREDOWNLOAD:+x}" ]]; then
+    echo "downloading..." >&2
+    # rm -rf "$windir" || :
+    # mkdir -p "$windir/product"
+    # curl -data-urlencode -o "$zipfile" -JL "$url"
+    # 7z x -o"$windir/product" "$zipfile"
+else
+    echo skipping redownload >&2
+fi
+
+# ls -la "$zipfile"
+# exit 1
+
 
 de_csv="$windir/product/FunctionList-de.csv"
 en_csv="$windir/product/FunctionList-en.csv"
