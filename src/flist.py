@@ -404,8 +404,15 @@ class FinalForm_Entry:
     categories: str
 
     @staticmethod
+    def prettifyHTML(s: str):
+        result = s
+        result = result.replace("--", '–')
+        return result
+
+
+    @staticmethod
     def From_MCSV(mcsv: MCSV_Entry):
-        functionality = mcsv.functionality
+        functionality = FinalForm_Entry.prettifyHTML(mcsv.functionality)
         categories = MCSV_Entry.merge_categories(mcsv.categories)
         how_implemented = dict()
         paths = dict()
