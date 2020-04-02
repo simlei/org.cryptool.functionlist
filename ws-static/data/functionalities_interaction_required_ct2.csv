@@ -559,3 +559,8 @@ CT2:dynamic:b5cd4f04;SAT solver;CT2:C \ Cryptanalysis \ Generic \ SAT Solver
 CT2:dynamic:8bee545d;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:C \ Tools \ Codes \ Visual Decoder
 CT2:dynamic:5b71c797;Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);CT2:C \ Tools \ Codes \ Visual Encoder
 CT2:dynamic:22a44114;Data input/output;CT2:C \ Tools \ Data input/output \ Camera
+CT2:dynamic:8f233a40;Alphabets;CT2:T \ Tools \ Usage of Alphabets and Alphabet Permutator
+CT2:dynamic:92413bc4;LAMBDA1;CT2:C \ Classic Ciphers \ LAMBDA1
+CT2:dynamic:a2aaa1c6;LAMBDA1;CT2:T \ Cryptography \ Modern \ Symmetric \ LAMBDA1 block cipher
+CT2:dynamic:0d2cebae;Speck cipher;CT2:C \ Modern Ciphers \ Symmetric \ Speck
+CT2:dynamic:6adf7cdb;Speck cipher;CT2:T \ Cryptography \ Modern \ Symmetric \ Speck Cipher

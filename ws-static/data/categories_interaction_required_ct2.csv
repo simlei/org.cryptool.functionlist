@@ -144,3 +144,8 @@ CT2:dynamic:5b71c797;9) Codings;CT2:C \ Tools \ Codes \ Visual Encoder
 CT2:dynamic:22a44114;14) Tools;CT2:C \ Tools \ Data input/output \ Camera
 CT2:dynamic:3c522033;14) Tools;CT2:T \ Tools \ Loop
 CT2:dynamic:4edde24e;12) Prime numbers;CT2:N \ Crypto tutorials \ World of Primes \ Number theory \ Powering (iterating base)(RSA)
+CT2:dynamic:8f233a40;14) Tools;CT2:T \ Tools \ Usage of Alphabets and Alphabet Permutator
+CT2:dynamic:92413bc4;1) Classic Ciphers;CT2:C \ Classic Ciphers \ LAMBDA1
+CT2:dynamic:a2aaa1c6;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ LAMBDA1 block cipher
+CT2:dynamic:0d2cebae;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Speck
+CT2:dynamic:6adf7cdb;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Speck Cipher
