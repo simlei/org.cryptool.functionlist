@@ -320,7 +320,7 @@ class MCSV_Entry(CSV_Entry):
 
     @staticmethod
     def unmerge_paths(merged):
-        lvl1 = merged.strip().replace(MCSV_Entry.FIN_paths, "").split(MCSV_Entry.SEP_paths)
+        lvl1 = merged.replace(MCSV_Entry.FIN_paths, "").split(MCSV_Entry.SEP_paths)
         lvl2 = [pathelement.split(MCSV_Entry.SEP_pathelement) for pathelement in lvl1] # type: str
         return lvl2
 
