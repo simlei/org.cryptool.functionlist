@@ -625,8 +625,8 @@ Teilerspiel;[n.a.];
 Zahlenhai;[n.a.];
 ;[D];Spiele \ Zahlenhai
 
-Sudoku-Solver;[n.a.];
-;[D];Spiele \ Sudoku-Solver
+Sudoku Solver;[n.a.];
+;[D];Spiele \ Sudoku Solver
 
 Zudo-Ku;[n.a.];
 ;[D];Spiele \ Zudo-Ku
@@ -676,14 +676,11 @@ Fleißner / Grille;[n.a.];
 Hash-Sensitivität;[n.a.];
 ;[D];Visualisierungen \ Hash-Sensitivität
 
-Homomorphe Verschlüsselung;[n.a.];
-;[D];Visualisierungen \ Homomorphe Verschlüsselung
+Homomorphe Verschlüsselung (HE);[n.a.];
+;[D];Visualisierungen \ Homomorphe Verschlüsselung (HE)
 
 Huffman-Kodierung;[n.a.];
 ;[D];Visualisierungen \ Huffman-Kodierung
-
-Public-Key-Infrastruktur;[n.a.];
-;[D];Visualisierungen \ Public-Key-Infrastruktur
 
 Kleptographie;[n.a.];
 ;[D];Visualisierungen \ Kleptographie
@@ -699,9 +696,6 @@ RSA-Kryptosystem;[n.a.];
 
 Shamir's Secret Sharing;[n.a.];
 ;[D];Visualisierungen \ Shamir's Secret Sharing
-
-Differential Power Analysis / Double and Add;[n.a.];
-;[D];Visualisierungen \ Differential Power Analysis / Double and Add
 
 Simple Power Analysis / Square and Multiply;[n.a.];
 ;[D];Visualisierungen \ Simple Power Analysis / Square and Multiply

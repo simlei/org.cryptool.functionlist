@@ -625,8 +625,8 @@ Divider Game;[n.a.];
 Number Shark;[n.a.];
 ;[D];Games \ Number Shark
 
-Sudoku-Solver;[n.a.];
-;[D];Games \ Sudoku-Solver
+Sudoku Solver;[n.a.];
+;[D];Games \ Sudoku Solver
 
 Zudo-Ku;[n.a.];
 ;[D];Games \ Zudo-Ku
@@ -676,14 +676,11 @@ Grille;[n.a.];
 Hash Sensitivity;[n.a.];
 ;[D];Visuals \ Hash Sensitivity
 
-Homomorphic Encryption;[n.a.];
-;[D];Visuals \ Homomorphic Encryption
+Homomorphic Encryption (HE) ;[n.a.];
+;[D];Visuals \ Homomorphic Encryption (HE) 
 
 Huffman Coding;[n.a.];
 ;[D];Visuals \ Huffman Coding
-
-Public-Key Infrastructure;[n.a.];
-;[D];Visuals \ Public-Key Infrastructure
 
 Kleptography;[n.a.];
 ;[D];Visuals \ Kleptography
@@ -699,9 +696,6 @@ RSA Cryptosystem;[n.a.];
 
 Shamir's Secret Sharing;[n.a.];
 ;[D];Visuals \ Shamir's Secret Sharing
-
-Differential Power Analysis / Double and Add;[n.a.];
-;[D];Visuals \ Differential Power Analysis / Double and Add
 
 Simple Power Analysis / Square and Multiply;[n.a.];
 ;[D];Visuals \ Simple Power Analysis / Square and Multiply
