@@ -96,7 +96,7 @@ Cube [attack];Cube [Angriff]
 IDP [analysis];IDP [Analyse]
 Key searcher;Schlüsselsuche
 Feistel [attack];Feistel [Angriff]
-MD5 attack (collisions);MD5 (Kollisionen) [Angriff]
+MD5 collisions [attack];MD5 (Kollisionen) [Angriff]
 Kryptos K1 [analysis];Kryptos K1 [Analyse]
 Kryptos K2 [analysis];Kryptos K2 [Analyse]
 Zodiac-408 [analysis];Zodiac-408 [Analyse]
@@ -116,7 +116,7 @@ Simple multi-client communication -- Applied Cryptography;Simple Kommunikation m
 Simple webserver;Einfacher Webserver
 Crib [analysis];Crib [Analyse]
 RSA [attack];RSA [Angriff]
-MD5 [analysis];MD5 (Kollisionen) [Angriff]
+MD5 [analysis];MD5 [Analyse]
 Classical ciphers [analysis];Klassische Verfahren [Analyse]
 Webhits for a hash value;Webtreffer für einen Hashwert
 Spanish strip cipher (SSC) [analysis];Spanische Streifenchiffre (SSC) [Analyse]
@@ -157,8 +157,8 @@ MAC general;MAC generell
 Boolean functions;Boolesche Funktionen
 Navajo code;Navajo-Code
 Verifiable secret sharing (VSS);Verifiable Secret Sharing (VSS)
-Blum Blum Shub (BBS) (PRNG);Blum Blum Shub (BBS) (PRNG)
-EC (PRNG);EC (PRNG)
+Blum Blum Shub (BBS) [PRNG];Blum Blum Shub (BBS) (PRNG)
+EC [PRNG];EC (PRNG)
 Scytale;Skytale
 CMSS signature;CMSS-Signatur
 Paillier (homomorphic encryption);Paillier (homomorphische Verschlüsselung)

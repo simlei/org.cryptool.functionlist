@@ -450,7 +450,7 @@ CT2:dynamic:ba35211d;Crib [analysis];CT2:W \ Cryptanalysis \ Classic Encryption 
 CT2:dynamic:317e0545;Transposition [analysis];CT2:W \ Cryptanalysis \ Classic Encryption \ Transposition \ Genetic
 CT2:dynamic:4adce5d9;Vigenère [analysis];CT2:W \ Cryptanalysis \ Classic Encryption \ Vigenère
 CT2:dynamic:3ad8b78a;RSA [attack];CT2:W \ Cryptanalysis \ Modern Encryption \ Asymmetric Encryption \ RSA
-CT2:dynamic:65b87c0a;MD5 [analysis];CT2:W \ Cryptanalysis \ Modern Encryption \ Hash Functions \ MD5
+CT2:dynamic:65b87c0a;MD5 collisions [attack];CT2:W \ Cryptanalysis \ Modern Encryption \ Hash Functions \ MD5
 CT2:dynamic:b2c8705f;AES [analysis];CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Ciphertext-only
 CT2:dynamic:ebbb6301;AES [analysis];CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ AES \ Known plaintext
 CT2:dynamic:57b16cde;DES [analysis];CT2:W \ Cryptanalysis \ Modern Encryption \ Symmetric Encryption \ DES \ Known plaintext
