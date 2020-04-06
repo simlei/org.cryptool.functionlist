@@ -478,7 +478,7 @@ Bei "Transposition (double column transposition) -- [attack]"
 - [ ] Schwebende Legende (toggle per schwebendem Button)
     - keine Prio
 
-- [ ] Text: 
+- [x] Text: 
 ```
 Postfixes:
 Function groups (leftmost column) often end with an indication w.r.t. in which way the preceding subject is used or demonstrated>>>.<<<
@@ -528,7 +528,7 @@ Function groups (leftmost column) often end with an indication w.r.t. in which w
 ### Continuous Integration
 
 - [o] (*last: 2020/04/01* :ok: ) Update CT2 functionality files and generate and import csv/SQL
-- [o] (*last: 2020/02/26* :-1: ) Update JCT functionality files and generate and import csv/SQL
+- [o] (*last: 2020/04/06* :ok: ) Update JCT functionality files and generate and import csv/SQL
 
 ### Einzelfunde
 
@@ -564,9 +564,9 @@ CTO:de:static:37   ;Substitution                                             ;CT
 
 # Round up
 
-[ ] - neueste JCT, CT2 einlesen, diff d. finalen Form
+[x] - neueste JCT, CT2 einlesen, diff d. finalen Form
 [ ] - Noch mal.. 
     [ ] - Sichtprüfung Oberbegriffe, 
-    [ ] - Pfad/Oberbegriff-Anzahlen
+    [x] - Pfad/Oberbegriff-Anzahlen
 [ ] - Generierung, Upload (Di. früh)
 
