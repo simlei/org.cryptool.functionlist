@@ -26,8 +26,6 @@ CTO:en:static:40;Rail fence;CTO:X;CTO:X\ Ciphers\ Railfence;1) Classic Ciphers
 CTO:en:static:42;Rotation;CTO:X;CTO:X\ Ciphers\ Rotation;1) Classic Ciphers
 CTO:en:static:43;Scytale;CTO:X;CTO:X\ Ciphers\ Scytale;1) Classic Ciphers
 CTO:en:static:44.2;Substitution;CTO:X;CTO:X\ Ciphers\ Monoalphabet. Substitution;1) Classic Ciphers
-CTO:en:static:44;Substitution;CTO:X;CTO:X\ Ciphers\ Substitution;1) Classic Ciphers
-CTO:en:static:46;Transposition (single column transposition);CTO:X;CTO:X\ Ciphers\ Transposition;1) Classic Ciphers
 CTO:en:static:47;Trithemius;CTO:X;CTO:X\ Ciphers\ Trithemius;1) Classic Ciphers
 CTO:en:static:48;Vigenère cipher;CTO:X;CTO:X\ Ciphers\ Vigenère;1) Classic Ciphers
 CTO:en:static:49;Vigenère [analysis];CTO:X;CTO:X\ Cryptanalysis\ Vigenère Analysis;6) Classic Cryptanalysis

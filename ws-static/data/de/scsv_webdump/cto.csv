@@ -1,4 +1,3 @@
-CTO:de:static:37;Substitution;CTO:X;CTO:X \ Chiffren\ Substitution;1) Klassische Chiffren
 CTO:de:static:1;ADFGVX;CTO:X;CTO:X \ Chiffren\ ADFG(V)X;1) Klassische Chiffren
 CTO:de:static:6;Autokey-Vigenère;CTO:X;CTO:X \ Chiffren\ Autokey;1) Klassische Chiffren
 CTO:de:static:7;Beaufort;CTO:X;CTO:X \ Chiffren\ Beaufort;1) Klassische Chiffren
@@ -12,7 +11,6 @@ CTO:de:static:2;Affine Chiffre;CTO:X;CTO:X \ Chiffren\ Multiplikativ;1) Klassisc
 CTO:de:static:30;Porta;CTO:X;CTO:X \ Chiffren\ Porta;1) Klassische Chiffren
 CTO:de:static:42;Trithemius;CTO:X;CTO:X \ Chiffren\ Trithemius;1) Klassische Chiffren
 CTO:de:static:44;Vigenère-Chiffre;CTO:X;CTO:X \ Chiffren\ Vigenère;1) Klassische Chiffren
-CTO:de:static:40;Transposition (ein-stufige Spaltentransposition);CTO:X;CTO:X \ Chiffren\ Transposition;1) Klassische Chiffren
 CTO:en:static:101;Gartenzaun;CTO:X;CTO:X\ Chiffren\ Railfence;1) Classic Ciphers
 CTO:en:static:102;Redefence;CTO:X;CTO:X\ Chiffren\ Redefence;1) Classic Ciphers
 CTO:de:static:33;Rotation;CTO:X;CTO:X \ Chiffren\ Rotation;1) Klassische Chiffren
