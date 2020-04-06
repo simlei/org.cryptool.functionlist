@@ -15,7 +15,7 @@ CT1:de:static:014;Playfair [Analyse];CT1:X;CT1:X \ Analyse\ Symmetrische Verschl
 CT1:de:static:015;Solitaire [Analyse];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Manuelle Analyse\ Solitaire...;6) Klassische Kryptoanalyse
 CT1:de:static:016;Substitution [Analyse];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (klassisch)\ Manuelle Analyse\ Substitution...;6) Klassische Kryptoanalyse
 CT1:de:static:017;AES [Analyse];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ AES (CBC)...;7) Moderne Kryptoanalyse
-CT1:de:static:018;DES [Angriff];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ DES...;7) Moderne Kryptoanalyse
+CT1:de:static:018;DES [Analyse];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ DES...;7) Moderne Kryptoanalyse
 CT1:de:static:019;IDEA [Angriff];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ IDEA...;7) Moderne Kryptoanalyse
 CT1:de:static:020;RC2 [Angriff];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ RC2...;7) Moderne Kryptoanalyse
 CT1:de:static:021;RC4 [Angriff];CT1:X;CT1:X \ Analyse\ Symmetrische Verschlüsselung (modern)\ RC4...;7) Moderne Kryptoanalyse

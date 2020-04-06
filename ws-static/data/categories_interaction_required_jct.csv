@@ -197,3 +197,4 @@ JCT:dynamic:8136afb9;3) Hash and MAC Algorithms;JCT:A \ Message Authentication C
 JCT:dynamic:06c1a045;3) Hash and MAC Algorithms;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
 JCT:dynamic:ab1578c0;4) Digital Signatures, PKI;JCT:D \ Visuals \ SPHINCS+ Signature
 JCT:dynamic:8261200a;10) Learning Aids and Visualizations;JCT:D \ Visuals \ WOTS/WOTS+
+JCT:dynamic:dc30306b;10) Learning Aids and Visualizations;JCT:D \ Visualisierungen \ Homomorphe Verschlüsselung (HE)

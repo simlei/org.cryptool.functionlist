@@ -245,3 +245,4 @@ JCT:dynamic:8136afb9;SAFER+;JCT:A \ Message Authentication Codes \ CBCMac \ CBCm
 JCT:dynamic:06c1a045;SAFER++;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
 JCT:dynamic:ab1578c0;SPHINCS+ signature;JCT:D \ Visuals \ SPHINCS+ Signature
 JCT:dynamic:8261200a;Winternitz signature;JCT:D \ Visuals \ WOTS/WOTS+
+JCT:dynamic:dc30306b;Homomorphic encryption (HE) (Gentry and Halevi, Paillier, DGK, RSA);JCT:D \ Visualisierungen \ Homomorphe Verschlüsselung (HE)
