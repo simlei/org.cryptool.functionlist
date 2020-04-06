@@ -454,23 +454,17 @@ Bei "Transposition (double column transposition) -- [attack]"
 
 # Tail
 
-## Fragen:
-
-- Sollte bei "Secure Chat -- Applied Cryptography"  das "Applied Cryptography" auch in []?
-
-Ich denke, das ist eine gute Idee. Es gibt noch mehr Funktionen, die diesen Tag bekommen können.
-
 ## TODO:
 
 ```
 [x] - erledigt
-[oo] - andauernd
+[o] - andauernd
 [ ] - noch nicht begonnen
 ```
 
 ### Website:
 
-**Legende**:
+*Legende*:
 
 - [x] CT2: Funktion ist im Navigations-Bar verfügbar. ==> CT2: Funktion ist im oberen Navigations-Bar verfügbar.
 - [x] CT2: Function is available in the navigation bar. ==> CT2: Function is available in the top navigation bar.
@@ -482,29 +476,97 @@ Ich denke, das ist eine gute Idee. Es gibt noch mehr Funktionen, die diesen Tag 
     - [MPC]                 : Multi-party communication
 
 - [ ] Schwebende Legende (toggle per schwebendem Button)
+    - keine Prio
 
-**Anderes**
+- [ ] Text: 
+```
+Postfixes:
+Function groups (leftmost column) often end with an indication w.r.t. in which way the preceding subject is used or demonstrated>>>.<<<
+`[[[Zeile löschen]]]` 
+[visual]	Visualization of inner workings, e.g. via the presentation mode within a CT2 component
+[PRNG]	Pseudo random number generator
+[attack or analysis]	>>>T<<<emplates for breaking a function or protocol
+[MPC]	Multi-party communication
+```
 
-- [x] **Path count zzgl zu Group count (xxx Zeilen *+ yyy einzelne Pfade* )**
+*Anderes*
+
+- [x] Path count zzgl zu Group count (xxx Zeilen + yyy einzelne Pfade )
 
 ### Spezifische Fehler in der Tabelle
 
-- [ ] replace `(PRNG)` with `[PRNG]` for consistency with other tags
+- [x] replace `(PRNG)` with `[PRNG]` for consistency with other tags
 
 ### Manuell gepflegte Datenlage
 
-- [oo] **Einheitlichkeit aller Oberbegriffe, Pfade**
-- [oo] **Generelle Korrektheit, jedoch ohne spezifische Überprüfung jedes einzelnen Eintrags am Programm**
-- [ ] **CT1 Prüfung auf Vollständigkeit**
+- [x] *Einheitlichkeit aller Oberbegriffe, Pfade*
+- [x] *Generelle Korrektheit, jedoch ohne spezifische Überprüfung jedes einzelnen Eintrags am Programm*
+*(beide: halbwegs sicher dass alles passt aber finale Durchsicht steht noch aus)*
+
+- [x] **CT1 Prüfung auf Vollständigkeit**
     - https://www.cryptool.org/en/ctp-documentation/ctbook S. 430/451
-- [ ] CTO Prüfung auf Vollständigkeit
+- [x] CTO Prüfung auf Vollständigkeit
+    - B.E. meinte da fehlt was..?
 
 ### Datenverarbeitung
 
 - [x] `--` ==> `–` ( /home/simon/sandbox/featurelist/ct_functionlist/src/flist_step_tohtml.py )
-- [ ] Unterschiedlich viele Einträge en/de auch CT2/JCT ( --> systematisch)
+- [x] Unterschiedlich viele Einträge en/de auch CT2/JCT ( --> systematisch)
+    - [x] CT1:
+        - DE: 113 Funktionsgruppen mit 142 einzelnen Funktionen (Pfaden) gefunden, die dem Auswahlkriterium entsprechen.
+        - EN: 111 function groups with 140 single functions (paths) found according to the selection criteria.
+    - [x] CT2:
+        - DE: 160 Funktionsgruppen mit 475 einzelnen Funktionen (Pfaden) gefunden, die dem Auswahlkriterium entsprechen.
+        - EN: 161 function groups with 475 single functions (paths) found according to the selection criteria.
+    - [x] JCT:
+        - DE: 113 Funktionsgruppen mit 247 einzelnen Funktionen (Pfaden) gefunden, die dem Auswahlkriterium entsprechen.
+        - EN: 113 function groups with 247 single functions (paths) found according to the selection criteria.
+    - [x] CTO:
+        - DE: 35 Funktionsgruppen mit 37 einzelnen Funktionen (Pfaden) gefunden, die dem Auswahlkriterium entsprechen.
+        - EN: 35 function groups with 37 single functions (paths) found according to the selection criteria.
 
 ### Continuous Integration
 
-- [oo] (*last: 2020/04/01* :ok: ) Update CT2 functionality files and generate and import csv/SQL
-- [oo] (*last: 2020/02/26* :-1: ) Update JCT functionality files and generate and import csv/SQL
+- [o] (*last: 2020/04/01* :ok: ) Update CT2 functionality files and generate and import csv/SQL
+- [o] (*last: 2020/02/26* :-1: ) Update JCT functionality files and generate and import csv/SQL
+
+### Einzelfunde
+
+- [x] MD5 [analysis] * umordnen ==> MD5 attack (collisions)
+- [x] MD5 attack (collisions) * umbenennen ==> MD5 (collisions) [attack]
+
+- [x] Pseudo random number generator [PRNG] --> Pseudo random number generator (PRNG) (nur en)
+
+CT1 Prüfung: 
+
+[x] - Werkzeuge zur Analyse fehlen im Englischen
+    - X \ Werkzeuge zur Analyse\ -> X \ Analyse \ Werkzeuge
+        - Ergänzen(o):
+[x]         - Entropie
+[x]         - Gleitende Häufigkeit 
+[x]         - Histogramm 
+[x]         - N-Gramm... 
+[x]         - Autokorrelation
+[x]         - Periode 
+
+[x] - fehlt: ;CT1:X;CT1:X \ Analyse\ Asymmetrische Verfahren\ Faktorisieren einer Zahl...
+[x] - ganze Untergruppe fehlt: Analyse\ Asymmetrische Verfahren\ Gitterbasierte Angriffe auf RSA, sind dafuer teilw. bei Einzelverfahren
+
+[x] - fehlt: RSA in 
+CT1:de:static:201;DSA-Signatur                                                                ;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Dokument signieren...\ [RSA]
+
+[x] - Formatting in CTO: blanks before \!
+CTO:en:static:101  ;Gartenzaun                                               ;CTO:X;CTO:X\ Chiffren\ Railfence                    ;1) Classic Ciphers
+CTO:en:static:102  ;Redefence                                                ;CTO:X;CTO:X\ Chiffren\ Redefence                    ;1) Classic Ciphers
+
+[x] - CTO: Substitution and Transposition o_O
+CTO:de:static:37   ;Substitution                                             ;CTO:X;CTO:X \ Chiffren\ Substitution                ;1) Klassische Chiffren
+
+# Round up
+
+[ ] - neueste JCT, CT2 einlesen, diff d. finalen Form
+[ ] - Noch mal.. 
+    [ ] - Sichtprüfung Oberbegriffe, 
+    [ ] - Pfad/Oberbegriff-Anzahlen
+[ ] - Generierung, Upload (Di. früh)
+
