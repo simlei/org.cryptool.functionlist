@@ -227,7 +227,7 @@ JCT:dynamic:d8770738;Kleptography (4 methods generating a prime, SETUP attack);J
 JCT:dynamic:cd84c523;Knapsack;JCT:D \ Visuals \ Merkle-Hellman Knapsack Cryptosystem
 JCT:dynamic:ef774b7f;Merkle signature;JCT:D \ Visuals \ Merkle Signature (XMSS^MT)
 JCT:dynamic:8be3a019;RSA;JCT:D \ Visuals \ RSA Cryptosystem
-JCT:dynamic:2592b54a;Shamir's secret sharing (MPC);JCT:D \ Visuals \ Shamir's Secret Sharing
+JCT:dynamic:2592b54a;Shamir's secret sharing [MPC] [visual];JCT:D \ Visuals \ Shamir's Secret Sharing
 JCT:dynamic:eaf14744;Differential power [analysis];JCT:D \ Visuals \ Differential Power Analysis / Double and Add
 JCT:dynamic:f3db2b04;Square and multiply;JCT:D \ Visuals \ Simple Power Analysis / Square and Multiply
 JCT:dynamic:d35b8450;Signature [visual];JCT:D \ Visuals \ Signature Demonstration

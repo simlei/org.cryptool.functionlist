@@ -170,7 +170,7 @@ CT2:dynamic:6c6b2bda;Vigenère [analysis];CT2:C \ Cryptanalysis \ Specific \ Vig
 CT2:dynamic:02cbc531;BLAKE;CT2:C \ Hash functions \ BLAKE
 CT2:dynamic:01152856;Cyclic redundancy check (CRC);CT2:C \ Hash functions \ CRC
 CT2:dynamic:04c175dc;Grøstl;CT2:C \ Hash functions \ Grøstl
-CT2:dynamic:0e5ca605;ImageHash;CT2:C \ Hash functions \ ImageHash
+CT2:dynamic:0e5ca605;Image Hash;CT2:C \ Hash functions \ ImageHash
 CT2:dynamic:a410b7f2;Keccak (hash, cipher, PRNG);CT2:C \ Hash functions \ Keccak
 CT2:dynamic:85b7fb4d;MD5;CT2:C \ Hash functions \ MD5
 CT2:dynamic:a193455c;MD5 attack (collisions);CT2:C \ Hash functions \ MD5 Collider
@@ -183,9 +183,9 @@ CT2:dynamic:a0dd61df;Blind signature;CT2:C \ Modern Ciphers \ Asymmetric \ Blind
 CT2:dynamic:18aef6eb;Blind signature;CT2:C \ Modern Ciphers \ Asymmetric \ Blind Signature Verifier
 CT2:dynamic:f320c8b9;Cramer-Shoup;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup
 CT2:dynamic:cfc872f1;Cramer-Shoup;CT2:C \ Modern Ciphers \ Asymmetric \ Cramer-Shoup Key Generator
-CT2:dynamic:9c0e63f8;DGK (homomorphic encryption);CT2:C \ Modern Ciphers \ Asymmetric \ DGK
-CT2:dynamic:9445f2b0;DGK (homomorphic encryption);CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
-CT2:dynamic:e6f2b65e;Paillier (homomorphic encryption);CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
+CT2:dynamic:9c0e63f8;DGK (homomorphic encryption, HE);CT2:C \ Modern Ciphers \ Asymmetric \ DGK
+CT2:dynamic:9445f2b0;DGK (homomorphic encryption, HE);CT2:C \ Modern Ciphers \ Asymmetric \ DGK Key Generator
+CT2:dynamic:e6f2b65e;Paillier (homomorphic encryption, HE);CT2:C \ Modern Ciphers \ Asymmetric \ Paillier
 CT2:dynamic:086ffc7f;Paillier;CT2:C \ Modern Ciphers \ Asymmetric \ Paillier Key Generator
 CT2:dynamic:6e704fec;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA
 CT2:dynamic:024c4ba4;RSA;CT2:C \ Modern Ciphers \ Asymmetric \ RSA Key Generator
@@ -227,14 +227,14 @@ CT2:dynamic:8b17e7f7;HMAC;CT2:C \ Protocols \ HMAC
 CT2:dynamic:965efbee;ISAP bit commitment scheme;CT2:C \ Protocols \ ISAP Bit Commitment Scheme
 CT2:dynamic:b2f6b1f3;Man-in-the-middle [attack];CT2:C \ Protocols \ ManInTheMiddle
 CT2:dynamic:591a714a;NLFSR;CT2:C \ Protocols \ NLFSR
-CT2:dynamic:20f05f84;Oblivious transfer protocol (MPC);CT2:C \ Protocols \ Oblivious Transfer 1
-CT2:dynamic:bc5dc0e6;Oblivious transfer protocol (MPC);CT2:C \ Protocols \ Oblivious Transfer 2
+CT2:dynamic:20f05f84;Oblivious transfer protocol [MPC];CT2:C \ Protocols \ Oblivious Transfer 1
+CT2:dynamic:bc5dc0e6;Oblivious transfer protocol [MPC];CT2:C \ Protocols \ Oblivious Transfer 2
 CT2:dynamic:31d60b0b;Virtual smartcard;CT2:C \ Protocols \ Smartcard
 CT2:dynamic:e29afff9;Virtual smartcard;CT2:C \ Protocols \ Smartcard Interpreter
 CT2:dynamic:2ab6fce7;WEP;CT2:C \ Protocols \ WEP protocol
-CT2:dynamic:f1c58b4f;Yao's millionaire problem (protocol) (MPC);CT2:C \ Protocols \ Yao 1
-CT2:dynamic:e5649775;Yao's millionaire problem (protocol) (MPC);CT2:C \ Protocols \ Yao 2
-CT2:dynamic:6da71cbf;Yao's millionaire problem (protocol) (MPC);CT2:C \ Protocols \ Yao 3
+CT2:dynamic:f1c58b4f;Yao's millionaire problem (protocol) [MPC];CT2:C \ Protocols \ Yao 1
+CT2:dynamic:e5649775;Yao's millionaire problem (protocol) [MPC];CT2:C \ Protocols \ Yao 2
+CT2:dynamic:6da71cbf;Yao's millionaire problem (protocol) [MPC];CT2:C \ Protocols \ Yao 3
 CT2:dynamic:dbfc1d94;Zero knowledge protocol;CT2:C \ Protocols \ Zero Knowledge Prover
 CT2:dynamic:60e3784d;Zero knowledge protocol;CT2:C \ Protocols \ Zero Knowledge Verifier
 CT2:dynamic:66e74015;Steganography;CT2:C \ Steganography \ Insertion Steganography
@@ -339,10 +339,10 @@ CT2:dynamic:6ffa84cb;XOR;CT2:T \ Cryptography \ Classical \ XOR Cipher
 CT2:dynamic:2d6ca7b1;Blind signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Blind Signature Paillier
 CT2:dynamic:28620e0a;Blind signature;CT2:T \ Cryptography \ Modern \ Asymmetric \ Blind Signature RSA
 CT2:dynamic:2018f99f;Cramer-Shoup;CT2:T \ Cryptography \ Modern \ Asymmetric \ Cramer-Shoup with AES
-CT2:dynamic:251ceabb;Paillier (homomorphic encryption);CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
-CT2:dynamic:2ec84efc;Paillier (homomorphic encryption);CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
+CT2:dynamic:251ceabb;Paillier (homomorphic encryption, HE);CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Number Input)
+CT2:dynamic:2ec84efc;Paillier (homomorphic encryption, HE);CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Text Input)
 CT2:dynamic:d832664e;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher (Voting)
-CT2:dynamic:2e2794f6;Paillier (homomorphic encryption);CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
+CT2:dynamic:2e2794f6;Paillier (homomorphic encryption, HE);CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Addition
 CT2:dynamic:877b1003;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Cipher with Blinding
 CT2:dynamic:e617d83b;Paillier;CT2:T \ Cryptography \ Modern \ Asymmetric \ Paillier Key Generator
 CT2:dynamic:a61c38b5;RSA;CT2:T \ Cryptography \ Modern \ Asymmetric \ RSA Cipher
@@ -390,8 +390,8 @@ CT2:dynamic:0e2d21d1;BLAKE;CT2:T \ Hash Functions \ BLAKE
 CT2:dynamic:05c86955;Cyclic redundancy check (CRC);CT2:T \ Hash Functions \ CRC
 CT2:dynamic:7fa57f5e;Dictionary [attack];CT2:T \ Hash Functions \ Dictionary Attack on a password hash value
 CT2:dynamic:5abf8c83;Grøstl;CT2:T \ Hash Functions \ Grøstl
-CT2:dynamic:27c43121;ImageHash;CT2:T \ Hash Functions \ ImageHash
-CT2:dynamic:8108576e;ImageHash;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
+CT2:dynamic:27c43121;Image Hash;CT2:T \ Hash Functions \ ImageHash
+CT2:dynamic:8108576e;Image Hash;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
 CT2:dynamic:1f3381ca;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (without presentation)
 CT2:dynamic:1a8acc0a;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (with presentation)
 CT2:dynamic:d3cfb48d;Keccak (hash, cipher, PRNG);CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
@@ -429,11 +429,11 @@ CT2:dynamic:00553e82;Key exchange (Diffie-Hellman DH);CT2:T \ Protocols \ Diffie
 CT2:dynamic:5c570de3;Dining cryptographers protocol;CT2:T \ Protocols \ Dining Cryptographers Protocol
 CT2:dynamic:5777d7b1;Heartbleed [analysis];CT2:T \ Protocols \ Heartbleed Test
 CT2:dynamic:7fc722b4;HTTP protocol;CT2:T \ Protocols \ HTTP Request
-CT2:dynamic:30af03b0;Oblivious transfer protocol (MPC);CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
+CT2:dynamic:30af03b0;Oblivious transfer protocol [MPC];CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
 CT2:dynamic:411a6008;Simple multi-client communication -- Applied Cryptography;CT2:T \ Protocols \ Simple Multi Client Communication
 CT2:dynamic:e66f4e2a;Simple webserver;CT2:T \ Protocols \ Simple Webserver
 CT2:dynamic:4ed6f2df;WEP [attack];CT2:T \ Protocols \ WEP Attack
-CT2:dynamic:6e911c84;Yao's millionaire problem (protocol) (MPC);CT2:T \ Protocols \ Yao's Millionaire Problem Protocol
+CT2:dynamic:6e911c84;Yao's millionaire problem (protocol) [MPC];CT2:T \ Protocols \ Yao's Millionaire Problem Protocol
 CT2:dynamic:7c8c1220;Zero knowledge protocol;CT2:T \ Protocols \ Zero Knowledge Protocol
 CT2:dynamic:60fe9232;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- invisible watermark
 CT2:dynamic:2b38cb12;Watermark creator;CT2:T \ Steganography \ Watermark Creator -- Robustness

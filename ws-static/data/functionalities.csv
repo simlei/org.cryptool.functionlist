@@ -135,11 +135,11 @@ Classical ciphers -- [analysis];Klassische Verfahren [Analyse]
 DES [analysis];DES  [Analyse]
 DESL [analysis];DESL  [Analyse]
 DESX [analysis];DESX  [Analyse]
-DGK (homomorphic encryption);DGK (Homomorphe Verschlüsselung)
+DGK (homomorphic encryption, HE);DGK (Homomorphe Verschlüsselung, HE)
 GMSS signature;GMSS-Signatur
 SAT solver;SAT-Solver
 Password quality [visual];Passwortqualität [Visualisierung]
-Format preserving encryption (FPE) (FF1, FF2, FF3 and DFF);Formatbewahrende Verschlüsselung (FPE)
+Format preserving encryption (FPE) (FF1, FF2, FF3 and DFF);Format-bewahrende Verschlüsselung (FPE)
 Password hash (SHA-1);Passwort-Hash (SHA-1)
 Discrete logarithm;Diskreter Logarithmus
 Differential cryptanalysis (DCA);Differenzielle Kryptanalyse (DKA)
@@ -148,8 +148,8 @@ Winternitz signature;Winternitz-Signatur
 Coin flipping protocol;Coin-Flipping-Protokoll
 Dining cryptographers protocol;Dining Cryptographers-Protokoll
 HTTP protocol;HTTP-Protokoll
-Oblivious transfer protocol (MPC);Oblivious Transfer-Protokoll (MPC)
-Yao's millionaire problem (protocol) (MPC);Yaos Millionärsproblem (MPC)
+Oblivious transfer protocol [MPC];Oblivious Transfer-Protokoll [MPC]
+Yao's millionaire problem (protocol) [MPC];Yaos Millionärsproblem [MPC]
 Zero knowledge protocol;Zero Knowledge-Protokoll
 Key derivation function (KDF);Key Derivation Function (KDF)
 Key exchange (BB84);Schlüsselaustausch (BB84)
@@ -161,9 +161,13 @@ Blum Blum Shub (BBS) [PRNG];Blum Blum Shub (BBS) (PRNG)
 EC [PRNG];EC (PRNG)
 Scytale;Skytale
 CMSS signature;CMSS-Signatur
-Paillier (homomorphic encryption);Paillier (homomorphische Verschlüsselung)
+Paillier (homomorphic encryption, HE);Paillier (homomorphische Verschlüsselung, HE)
 Split a text (insert word borders);Text splitten (Wortgrenzen eingeben)
 Number theory (also see Primes);Zahlentheorie (siehe auch Primzahlen)
 Alphabets;Alphabete
 LAMBDA1;LAMBDA1
 Speck cipher;Speck-Chiffre
+TLS handshake;TLS-Handshake
+SPHINCS+ signature;SPHINCS+-Signatur
+Shamir's secret sharing [MPC] [visual];Shamirs Secret-Sharing [MPC] [Visualisierung]
+Keccak (hash, cipher, PRNG);Keccak (Hash, Verschlüsselung, PRNG)

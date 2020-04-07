@@ -37,7 +37,7 @@ CT1:de:static:036;Zufall [Visualisierung];CT1:X;CT1:X \ Analyse\ Zufallsanalyse\
 CT1:de:static:037;FIPS PUB-140-1;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ FIPS PUB-140-1 Testbatterie;7) Moderne Kryptoanalyse
 CT1:de:static:038;Häufigkeitstest [Analyse];CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Frequency-Test...;6) Klassische Kryptoanalyse
 CT1:de:static:039;Poker-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Poker-Test...;7) Moderne Kryptoanalyse
-CT1:de:static:040;Runs-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Runs-Test...;6) Klassische Kryptoanalyse
+CT1:de:static:040;Runs Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Runs-Test...;6) Klassische Kryptoanalyse
 CT1:de:static:041;Serial-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Serial-Test...;7) Moderne Kryptoanalyse
 CT1:de:static:042;Vitányi [Analyse];CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Vitányi;7) Moderne Kryptoanalyse
 CT1:de:static:043;DSA-Signatur;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Dokument signieren...\ RSA;4) Digitale Signatur/PKI
@@ -85,7 +85,7 @@ CT1:de:static:084;Zahlenhai (Number Shark, Taxman);CT1:X;CT1:X \ Einzelverfahren
 CT1:de:static:085;Authentifizierungsverfahren im Netz [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Authentifizierungsverfahren im Netz...;10) Lernhilfen und Visualisierungen
 CT1:de:static:086;Diffie-Hellman-Schlüsselaustausch (Perfect Forward Secrecy) [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Diffie-Hellman-Demo...;10) Lernhilfen und Visualisierungen
 CT1:de:static:087;Sichere E-Mail (S/MIME) [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Protokolle\ Sichere E-Mail mit S/MIME...;10) Lernhilfen und Visualisierungen
-CT1:de:static:088;Shamir's Secret Sharing [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Secret-Sharing-Demo (nach Shamir)...;10) Lernhilfen und Visualisierungen
+CT1:de:static:088;Shamirs Secret-Sharing [MPC] [Visualisierung];CT1:X;CT1:X \ Einzelverfahren\ Secret-Sharing-Demo (nach Shamir)...;10) Lernhilfen und Visualisierungen
 CT1:de:static:089;ASN.1;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ ASN.1-Decodieren eines Dokuments;9) Kodierungen
 CT1:de:static:090;Base 64 Encoding/Decoding;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ Base64-Codierung/Decodierung\ Base64 codieren;9) Kodierungen
 CT1:de:static:091;Base 64 Encoding/Decoding;CT1:X;CT1:X \ Einzelverfahren\ Tools\ Codierungen\ Base64-Codierung/Decodierung\ Base64 decodieren;9) Kodierungen

@@ -37,7 +37,7 @@ CT1:en:static:036;Randomness [visual];CT1:X;CT1:X\ Analysis\ Analyze Randomness\
 CT1:en:static:037;FIPS PUB-140-1 (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ FIPS PUB-140-1 Test Battery;7) Modern Cryptanalysis
 CT1:en:static:038;Frequency test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Frequency Test...;6) Classic Cryptanalysis
 CT1:en:static:039;Poker-Test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Poker Test…;7) Modern Cryptanalysis
-CT1:en:static:040;Runs-Test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Runs Test…;6) Classic Cryptanalysis
+CT1:en:static:040;Runs Test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Runs Test…;6) Classic Cryptanalysis
 CT1:en:static:041;Serial-Test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Serial Test…;7) Modern Cryptanalysis
 CT1:en:static:042;Vitányi [analysis];CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Vitányi;7) Modern Cryptanalysis
 CT1:en:static:043;DSA signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ RSA;4) Digital Signatures, PKI
@@ -85,14 +85,14 @@ CT1:en:static:084;Number Shark (taxman);CT1:X;CT1:X\ Indiv. Procedures\ Educatio
 CT1:en:static:085;Authentication methods in networks [visual];CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Network Authentication…;10) Learning Aids and Visualizations
 CT1:en:static:086;Key exchange (Diffie-Hellman DH) (Perfect Forward Secrecy) [visual];CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Diffie-Hellman Demonstration…;10) Learning Aids and Visualizations
 CT1:en:static:087;Secure email (S/MIME) [visual];CT1:X;CT1:X\ Indiv. Procedures\ Protocols\ Secure E-Mail with S/MIME…;10) Learning Aids and Visualizations
-CT1:en:static:088;Shamir's secret sharing (MPC) [visual];CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;10) Learning Aids and Visualizations
+CT1:en:static:088;Shamir's secret sharing [MPC] [visual];CT1:X;CT1:X\ Indiv. Procedures\ Secret Sharing Demonstration (Shamir)…;10) Learning Aids and Visualizations
 CT1:en:static:089;ASN.1;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Decode ASN.1 Code of a Document;9) Codings
 CT1:en:static:090;Base 64 encode/decode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Base64 Encode/Decode\ Base64 Encode;9) Codings
 CT1:en:static:091;Base 64 encode/decode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ Base64 Encode/Decode\ Base64 Decode;9) Codings
 CT1:en:static:092;Zip/Unzip;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Compress\ UnZip;9) Codings
 CT1:en:static:093;Zip/Unzip;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Compress\ Zip;9) Codings
-CT1:en:static:094;UU Decode/Encode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Decode;9) Codings
-CT1:en:static:095;UU Decode/Encode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Encode;9) Codings
+CT1:en:static:094;UU decode/encode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Decode;9) Codings
+CT1:en:static:095;UU decode/encode;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Codes\ UU Encode/Decode\ UU Encode;9) Codings
 CT1:en:static:096;Length of a number;CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Length of a number…;10) Learning Aids and Visualizations
 CT1:en:static:097;Password quality [visual];CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Entropy...;10) Learning Aids and Visualizations
 CT1:en:static:098;Password quality [visual];CT1:X;CT1:X\ Indiv. Procedures\ Tools\ Password Quality Meter...;10) Learning Aids and Visualizations
