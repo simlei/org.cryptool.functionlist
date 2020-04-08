@@ -562,6 +562,46 @@ CTO:en:static:102  ;Redefence                                                ;CT
 [x] - CTO: Substitution and Transposition o_O
 CTO:de:static:37   ;Substitution                                             ;CTO:X;CTO:X \ Chiffren\ Substitution                ;1) Klassische Chiffren
 
+# Feedback 2020/04/07
+
+- [x] Manchmal haben wir noch das Postfix  (MPC)  statt [MPC].
+- [x] Nur im Englischen (in der ersten Spalte): Runs-Test  ==>  Runs Test
+- [x] Nur im Englischen (in der ersten Spalte): ImageHash  ==>  Image Hash
+- [x] Nur im Englischen (in der ersten Spalte): UU Decode/Encode  ==>  UU decode/encode
+- [x] Nur im Englischen (in der ersten Spalte):
+  [x]  DGK (homomorphic encryption) ==> DGK (homomorphic encryption, HE)
+- [x] Nur im Englischen (in der ersten Spalte):
+  [x]  Paillier (homomorphic encryption) ==> Paillier (homomorphic encryption, HE)
+- [x] Nur im Deutschen (in der ersten Spalte): TLS handshake  ==>  TLS-Handshake
+- [x] Nur im Deutschen (in der ersten Spalte): SPHINCS+ signature  ==> 
+SP[x] HINCS+-Signatur
+- [x] Nur im Deutschen (in der ersten Spalte): [das Genitiv-Apostroph ist
+nu[x] r im Englischen]
+  [x]  Shamir's secret sharing ==> Shamirs Secret-Sharing
+- [x] Nur im Deutschen (in der ersten Spalte):
+  [x]  Shamir's Secret Sharing ==> Shamirs Secret-Sharing
+- [x] Nur im Deutschen (in der ersten Spalte):
+  [x] Keccak (hash, cipher, PRNG) ==> Keccak (Hash, Verschlüsselung, PRNG)
+- [x] Nur im Deutschen (in der ersten Spalte): Formatbewahrende  ==> 
+Fo[x] rmat-bewahrende
+- [x] Nur im Deutschen (in der ersten Spalte):
+  [x]  DGK (Homomorphe Verschlüsselung) ==> DGK (Homomorphe Verschlüsselung, HE)
+- [x] Nur im Deutschen (in der ersten Spalte):
+   Paillier (homomorphische Verschlüsselung) ==> Paillier (homomorphische Verschlüsselung, HE)
+
+Kann es sein, dass im Englischen die Suche manchmal nur die Path-Spalten
+betrifft?
+- "Homo" findet die Zeilen mit "homomorphic" in der ersten Spalte nicht
+(bei mir mit FF).
+- Aber DGK findet er.
+- Ist da vllt ein Schmierzeichen drin?
+
+# Feedback 2020/04/08
+
+Paillier (homomorphische Verschlüsselung, HE) ==> Paillier (homomorphe Verschlüsselung, HE)
+
+Multipartei-Kommunikatikon  ==>  Mehr-Parteien-Kommunikation
+
 # Round up
 
 [x] - neueste JCT, CT2 einlesen, diff d. finalen Form
