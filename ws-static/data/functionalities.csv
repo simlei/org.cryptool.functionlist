@@ -161,7 +161,7 @@ Blum Blum Shub (BBS) [PRNG];Blum Blum Shub (BBS) (PRNG)
 EC [PRNG];EC (PRNG)
 Scytale;Skytale
 CMSS signature;CMSS-Signatur
-Paillier (homomorphic encryption, HE);Paillier (homomorphische Verschlüsselung, HE)
+Paillier (homomorphic encryption, HE);Paillier (homomorphe Verschlüsselung, HE)
 Split a text (insert word borders);Text splitten (Wortgrenzen eingeben)
 Number theory (also see Primes);Zahlentheorie (siehe auch Primzahlen)
 Alphabets;Alphabete

@@ -598,15 +598,15 @@ betrifft?
 
 # Feedback 2020/04/08
 
-Paillier (homomorphische Verschlüsselung, HE) ==> Paillier (homomorphe Verschlüsselung, HE)
+[x] Paillier (homomorphische Verschlüsselung, HE) ==> Paillier (homomorphe Verschlüsselung, HE)
 
-Multipartei-Kommunikatikon  ==>  Mehr-Parteien-Kommunikation
+[x] (ctorg server) Multipartei-Kommunikatikon  ==>  Mehr-Parteien-Kommunikation
 
 # Round up
 
 [x] - neueste JCT, CT2 einlesen, diff d. finalen Form
-[ ] - Noch mal.. 
-    [ ] - Sichtprüfung Oberbegriffe, 
+[x] - Noch mal.. 
+    [x] - Sichtprüfung Oberbegriffe, 
     [x] - Pfad/Oberbegriff-Anzahlen
-[ ] - Generierung, Upload (Di. früh)
+[x] - Generierung, Upload
 
