@@ -2,7 +2,7 @@ CT1:en:static:001;RSA [attack];CT1:X;CT1:X\ Analysis\ Asymmetric Encryption\ Lat
 CT1:en:static:002;RSA [attack];CT1:X;CT1:X\ Analysis\ Asymmetric Encryption\ Side-Channel Attack on "Textbook RSA"…;7) Modern Cryptanalysis
 CT1:en:static:003;Hash attack (collisions);CT1:X;CT1:X\ Analysis\ Hash\ Attack on the Hash Value of the Digital Signature…;7) Modern Cryptanalysis
 CT1:en:static:004;ADFGVX [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ ADFGVX…;6) Classic Cryptanalysis
-CT1:en:static:005;Byte Addition [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Byte Addition;6) Classic Cryptanalysis
+CT1:en:static:005;Byte addition [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Byte Addition;6) Classic Cryptanalysis
 CT1:en:static:006;Caesar / Rot-13 [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Caesar;6) Classic Cryptanalysis
 CT1:en:static:007;Solitaire [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Solitaire...;6) Classic Cryptanalysis
 CT1:en:static:008;Substitution [analysis];CT1:X;CT1:X\ Analysis\ Symmetric Encryption (classic)\ Ciphertext-Only\ Substitution...;6) Classic Cryptanalysis
@@ -38,7 +38,7 @@ CT1:en:static:037;FIPS PUB-140-1 (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Rand
 CT1:en:static:038;Frequency test;CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Frequency Test...;6) Classic Cryptanalysis
 CT1:en:static:039;Poker-Test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Poker Test…;7) Modern Cryptanalysis
 CT1:en:static:040;Runs Test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Runs Test…;6) Classic Cryptanalysis
-CT1:en:static:041;Serial-Test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Serial Test…;7) Modern Cryptanalysis
+CT1:en:static:041;Serial test (test PRNG);CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Serial Test…;7) Modern Cryptanalysis
 CT1:en:static:042;Vitányi [analysis];CT1:X;CT1:X\ Analysis\ Analyze Randomness\ Vitányi;7) Modern Cryptanalysis
 CT1:en:static:043;DSA signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ RSA;4) Digital Signatures, PKI
 CT1:en:static:044;DSA signature;CT1:X;CT1:X\ Digital Signatures, PKI\ Sign Document...\ DSA;4) Digital Signatures, PKI
@@ -114,7 +114,7 @@ CT1:en:static:113;RSA;CT1:X;CT1:X\ Encrypt/Decrypt\ Asymmetric\ RSA;2) Modern Ci
 CT1:en:static:114;RSA-AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Hybrid\ RSA-AES…;2) Modern Ciphers
 CT1:en:static:115;ECC-AES;CT1:X;CT1:X\ Encrypt/Decrypt\ Hybrid\ ECC-AES…;2) Modern Ciphers
 CT1:en:static:116;ADFGX / ADFGVX;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ ADFGVX…;1) Classic Ciphers
-CT1:en:static:117;Byte Addition;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Byte Addition…;1) Classic Ciphers
+CT1:en:static:117;Byte addition;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Byte Addition…;1) Classic Ciphers
 CT1:en:static:118;Caesar / Rot-13;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Caesar / Rot-13…;1) Classic Ciphers
 CT1:en:static:119;Hill cipher;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Hill…;1) Classic Ciphers
 CT1:en:static:120;Homophonic substitution cipher;CT1:X;CT1:X\ Encrypt/Decrypt\ Symmetric (classic)\ Homophone…;1) Classic Ciphers

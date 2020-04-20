@@ -38,7 +38,7 @@ CT1:de:static:037;FIPS PUB-140-1;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ FIPS PUB
 CT1:de:static:038;Häufigkeitstest [Analyse];CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Frequency-Test...;6) Klassische Kryptoanalyse
 CT1:de:static:039;Poker-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Poker-Test...;7) Moderne Kryptoanalyse
 CT1:de:static:040;Runs Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Runs-Test...;6) Klassische Kryptoanalyse
-CT1:de:static:041;Serial-Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Serial-Test...;7) Moderne Kryptoanalyse
+CT1:de:static:041;Serial Test;CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Serial-Test...;7) Moderne Kryptoanalyse
 CT1:de:static:042;Vitányi [Analyse];CT1:X;CT1:X \ Analyse\ Zufallsanalyse\ Vitányi;7) Moderne Kryptoanalyse
 CT1:de:static:043;DSA-Signatur;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Dokument signieren...\ RSA;4) Digitale Signatur/PKI
 CT1:de:static:044;DSA-Signatur;CT1:X;CT1:X \ Digitale Signaturen/PKI\ Dokument signieren...\ DSA;4) Digitale Signatur/PKI

@@ -38,7 +38,7 @@ Caesar / Rot-13 [analysis];Caesar / Rot-13 [Analyse]
 Morse code;Morse-Code
 Passwords;Passwörter
 Cyclic redundancy check (CRC);Zyklische Redundanzprüfung (CRC)
-Secure Chat -- Applied Cryptography;Sicherer Chat -- Angewandte Kryptographie
+Secure chat -- applied cryptography;Sicherer Chat -- Angewandte Kryptographie
 Virtual smartcard;Virtuelle Smartcard
 Visual codes (QR, EAN8, WAN13, Code39, Code128, PDF417);Visuelle Codes (QR, EAN8, WAN13, Code39, Code128, PDF417)
 Transcriptor [analysis];Transkriptor [Analyse]
@@ -112,7 +112,7 @@ BB84 key exchange;Schlüsselaustausch (BB84)
 BB84 key exchange [attack];Schlüsselaustausch (BB84) [Angriff]
 BB84 [attack];BB84 [Angriff]
 Heartbleed [analysis];Heartbleed [Analyse]
-Simple multi-client communication -- Applied Cryptography;Simple Kommunikation mit mehreren Clients -- Angewandte Kryptographie
+Simple multi-client communication -- applied cryptography;Simple Kommunikation mit mehreren Clients -- angewandte Kryptographie
 Simple webserver;Einfacher Webserver
 Crib [analysis];Crib [Analyse]
 RSA [attack];RSA [Angriff]

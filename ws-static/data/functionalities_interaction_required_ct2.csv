@@ -16,7 +16,7 @@ CT2:dynamic:79f6a048;Data flow;CT2:C \ Tools \ Boolean \ Boolean If-Else Operato
 CT2:dynamic:19cdcbb8;Data input/output;CT2:C \ Tools \ Boolean \ Boolean Input
 CT2:dynamic:d86fdbad;Data flow;CT2:C \ Tools \ Boolean \ Boolean Not Operator
 CT2:dynamic:f98c9f12;Data input/output;CT2:C \ Tools \ Boolean \ Boolean Output
-CT2:dynamic:db8f35b5;Alphabet;CT2:C \ Tools \ Data flow \ Alphabet Permutator
+CT2:dynamic:db8f35b5;Alphabets;CT2:C \ Tools \ Data flow \ Alphabet Permutator
 CT2:dynamic:cb62cc56;Data flow;CT2:C \ Tools \ Data flow \ Array Indexer
 CT2:dynamic:54b6a60a;Data input/output;CT2:C \ Tools \ Data flow \ Clock
 CT2:dynamic:3bd3df70;Data flow;CT2:C \ Tools \ Data flow \ Collector
@@ -98,7 +98,7 @@ CT2:dynamic:05f7f48d;MD5;CT2:T \ Hash Functions \ MD5 Collision Finder
 CT2:dynamic:f37bea05;MD5;CT2:T \ Hash Functions \ MD5 Salted Hash Comparison
 CT2:dynamic:906d70bf;Berlekamp-Massey algorithm;CT2:T \ Mathematics \ Berlekamp-Massey
 CT2:dynamic:add41267;Password quality [visual];CT2:T \ Tools \ Check Password Strength
-CT2:dynamic:71227caf;Secure Chat -- Applied Cryptography;CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
+CT2:dynamic:71227caf;Secure chat -- applied cryptography;CT2:T \ Tools \ Diffie-Hellman AES Video Audio Chat
 CT2:dynamic:f21fb1ba;DECODE database;CT2:T \ Tools \ Download documents from the DECODE database
 CT2:dynamic:e757db00;Huffman;CT2:T \ Tools \ Huffman's algorithm (ASCII)
 CT2:dynamic:4642fe41;Huffman;CT2:T \ Tools \ Huffman's algorithm (BMG, JPG)
@@ -106,8 +106,8 @@ CT2:dynamic:23ee8009;Huffman;CT2:T \ Tools \ Huffman's algorithm (UTF-8)
 CT2:dynamic:524cb8d1;Keccak (hash, cipher, PRNG);CT2:T \ Tools \ Keccak pseudorandom number generator (PRNG)
 CT2:dynamic:d37d0c74;Data input/output;CT2:T \ Tools \ Random Decimal Number
 CT2:dynamic:78dddd93;Pseudo random number generator (PRNG);CT2:T \ Tools \ Random number generators
-CT2:dynamic:05095ecf;Secure Chat -- Applied Cryptography;CT2:T \ Tools \ Simple AES Chat
-CT2:dynamic:557fd6db;Secure Chat -- Applied Cryptography;CT2:T \ Tools \ Simple Video and Audio Chat using AES encryption
+CT2:dynamic:05095ecf;Secure chat -- applied cryptography;CT2:T \ Tools \ Simple AES Chat
+CT2:dynamic:557fd6db;Secure chat -- applied cryptography;CT2:T \ Tools \ Simple Video and Audio Chat using AES encryption
 CT2:dynamic:19703d30;Data flow;CT2:T \ Tools \ Split a text
 CT2:dynamic:f01f7124;Data input/output;CT2:T \ Tools \ Take a Picture using the webcam
 CT2:dynamic:be99be1e;Caesar / Rot-13 [analysis];CT2:W \ Cryptanalysis \ Classic Encryption \ Caesar
@@ -170,7 +170,7 @@ CT2:dynamic:6c6b2bda;Vigenère [analysis];CT2:C \ Cryptanalysis \ Specific \ Vig
 CT2:dynamic:02cbc531;BLAKE;CT2:C \ Hash functions \ BLAKE
 CT2:dynamic:01152856;Cyclic redundancy check (CRC);CT2:C \ Hash functions \ CRC
 CT2:dynamic:04c175dc;Grøstl;CT2:C \ Hash functions \ Grøstl
-CT2:dynamic:0e5ca605;Image Hash;CT2:C \ Hash functions \ ImageHash
+CT2:dynamic:0e5ca605;Image hash;CT2:C \ Hash functions \ ImageHash
 CT2:dynamic:a410b7f2;Keccak (hash, cipher, PRNG);CT2:C \ Hash functions \ Keccak
 CT2:dynamic:85b7fb4d;MD5;CT2:C \ Hash functions \ MD5
 CT2:dynamic:a193455c;MD5 attack (collisions);CT2:C \ Hash functions \ MD5 Collider
@@ -390,8 +390,8 @@ CT2:dynamic:0e2d21d1;BLAKE;CT2:T \ Hash Functions \ BLAKE
 CT2:dynamic:05c86955;Cyclic redundancy check (CRC);CT2:T \ Hash Functions \ CRC
 CT2:dynamic:7fa57f5e;Dictionary [attack];CT2:T \ Hash Functions \ Dictionary Attack on a password hash value
 CT2:dynamic:5abf8c83;Grøstl;CT2:T \ Hash Functions \ Grøstl
-CT2:dynamic:27c43121;Image Hash;CT2:T \ Hash Functions \ ImageHash
-CT2:dynamic:8108576e;Image Hash;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
+CT2:dynamic:27c43121;Image hash;CT2:T \ Hash Functions \ ImageHash
+CT2:dynamic:8108576e;Image hash;CT2:T \ Hash Functions \ ImageHash -- smooth comparison
 CT2:dynamic:1f3381ca;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (without presentation)
 CT2:dynamic:1a8acc0a;Key derivation function (KDF);CT2:T \ Hash Functions \ KDF Performance Comparison (with presentation)
 CT2:dynamic:d3cfb48d;Keccak (hash, cipher, PRNG);CT2:T \ Hash Functions \ Keccak Hash (SHA-3)
@@ -430,7 +430,7 @@ CT2:dynamic:5c570de3;Dining cryptographers protocol;CT2:T \ Protocols \ Dining C
 CT2:dynamic:5777d7b1;Heartbleed [analysis];CT2:T \ Protocols \ Heartbleed Test
 CT2:dynamic:7fc722b4;HTTP protocol;CT2:T \ Protocols \ HTTP Request
 CT2:dynamic:30af03b0;Oblivious transfer protocol [MPC];CT2:T \ Protocols \ Oblivious Transfer Protocol (1 out of n)
-CT2:dynamic:411a6008;Simple multi-client communication -- Applied Cryptography;CT2:T \ Protocols \ Simple Multi Client Communication
+CT2:dynamic:411a6008;Simple multi-client communication -- applied cryptography;CT2:T \ Protocols \ Simple Multi Client Communication
 CT2:dynamic:e66f4e2a;Simple webserver;CT2:T \ Protocols \ Simple Webserver
 CT2:dynamic:4ed6f2df;WEP [attack];CT2:T \ Protocols \ WEP Attack
 CT2:dynamic:6e911c84;Yao's millionaire problem (protocol) [MPC];CT2:T \ Protocols \ Yao's Millionaire Problem Protocol
