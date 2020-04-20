@@ -409,7 +409,6 @@ class FinalForm_Entry:
         result = result.replace("--", '–')
         return result
 
-
     @staticmethod
     def From_MCSV(mcsv: MCSV_Entry):
         functionality = FinalForm_Entry.prettifyHTML(mcsv.functionality)
@@ -419,7 +418,7 @@ class FinalForm_Entry:
         for ctid in ["CT1", "CT2", "CTO", "JCT"]:
             pathfiltered = mcsv.filter_for_cryptoolstring(ctid)
             how_implemented[ctid] = MCSV_Entry.merge_how_implemented(pathfiltered.how_implemented)
-            paths[ctid] = MCSV_Entry.merge_paths(pathfiltered.paths)
+            paths[ctid] = MCSV_Entry.merge_paths(sorted(pathfiltered.paths))
             # paths[ctid] = pathfiltered.paths
 
         return FinalForm_Entry(functionality, how_implemented, paths, categories)
