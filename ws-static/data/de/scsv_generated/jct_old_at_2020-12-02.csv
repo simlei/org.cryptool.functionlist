@@ -4,6 +4,9 @@ ElGamal;[n.a.];
 RprimeRSA;[n.a.];
 ;[A];Asymmetrische Blockchiffren \ RprimeRSA
 
+MeRSA;[n.a.];
+;[A];Asymmetrische Blockchiffren \ MeRSA
+
 McEliecePKCS;[n.a.];
 ;[A];Asymmetrische Blockchiffren \ McEliecePKCS
 
@@ -145,6 +148,9 @@ Misty1;[n.a.];
 ECIES;[n.a.];
 ;[A];Hybride Verschlüsselung \ ECIES
 
+McEliecePointchevalCipher;[n.a.];
+;[A];Hybride Verschlüsselung \ McEliecePointchevalCipher
+
 McElieceFujisakiCipher;[n.a.];
 ;[A];Hybride Verschlüsselung \ McElieceFujisakiCipher
 
@@ -175,9 +181,6 @@ HmacFORK256;[n.a.];
 HmacSHA512;[n.a.];
 ;[A];Authentifizierungscodes \ HMac \ HmacSHA512
 
-HmacSHA1;[n.a.];
-;[A];Authentifizierungscodes \ HMac \ HmacSHA1
-
 HmacSHA224;[n.a.];
 ;[A];Authentifizierungscodes \ HMac \ HmacSHA224
 
@@ -195,6 +198,9 @@ HmacRIPEMD128;[n.a.];
 
 HmacSHA384;[n.a.];
 ;[A];Authentifizierungscodes \ HMac \ HmacSHA384
+
+Hmac;[n.a.];
+;[A];Authentifizierungscodes \ HMac \ Hmac
 
 HmacRIPEMD160;[n.a.];
 ;[A];Authentifizierungscodes \ HMac \ HmacRIPEMD160
@@ -345,6 +351,9 @@ SHA1/ECNR;[n.a.];
 
 RprimeRSA;[n.a.];
 ;[A];Signaturen \ RprimeRSA
+
+MeRSA;[n.a.];
+;[A];Signaturen \ MeRSA
 
 RIPEMD160/RSA;[n.a.];
 ;[A];Signaturen \ RSASignaturePKCS1v15 \ RIPEMD160/RSA
@@ -523,8 +532,8 @@ Autokey-Vigenère;[n.a.];
 Caesar;[n.a.];
 ;[D];Algorithmen \ Klassisch \ Caesar
 
-Bifid;[n.a.];
-;[D];Algorithmen \ Klassisch \ Bifid
+Bifid-Verfahren;[n.a.];
+;[D];Algorithmen \ Klassisch \ Bifid-Verfahren
 
 Doppelkasten;[n.a.];
 ;[D];Algorithmen \ Klassisch \ Doppelkasten
@@ -553,8 +562,8 @@ MD5;[n.a.];
 AES;[n.a.];
 ;[D];Algorithmen \ Symmetrisch \ AES
 
-SHA-256;[n.a.];
-;[D];Algorithmen \ Hash \ SHA-256
+SHA;[n.a.];
+;[D];Algorithmen \ Hash \ SHA
 
 RC6;[n.a.];
 ;[D];Algorithmen \ Symmetrisch \ RC6
@@ -571,8 +580,8 @@ ElGamal;[n.a.];
 HMacMD5;[n.a.];
 ;[D];Algorithmen \ MAC \ HMacMD5
 
-SHA-1;[n.a.];
-;[D];Algorithmen \ Zufallszahlengenerator \ SHA-1
+SHA1;[n.a.];
+;[D];Algorithmen \ Zufallszahlengenerator \ SHA1
 
 SHA-3-Kandidaten;[n.a.];
 ;[D];Algorithmen \ Hash \ SHA-3-Kandidaten
@@ -589,8 +598,8 @@ LFSR;[n.a.];
 Entropie-Analyse;[n.a.];
 ;[D];Analysen \ Entropie-Analyse
 
-Fleißner-/Grille-Analyse;[n.a.];
-;[D];Analysen \ Fleißner-/Grille-Analyse
+Fleißner-Analyse;[n.a.];
+;[D];Analysen \ Fleißner-Analyse
 
 Häufigkeits-Analyse;[n.a.];
 ;[D];Analysen \ Häufigkeits-Analyse
@@ -616,11 +625,14 @@ Teilerspiel;[n.a.];
 Zahlenhai;[n.a.];
 ;[D];Spiele \ Zahlenhai
 
+Sudoku-Solver;[n.a.];
+;[D];Spiele \ Sudoku-Solver
+
 Zudo-Ku;[n.a.];
 ;[D];Spiele \ Zudo-Ku
 
-Mehrparteien-Schlüsselaustausch (BD II);[n.a.];
-;[D];Visualisierungen \ Mehrparteien-Schlüsselaustausch (BD II)
+Multipartite Key Exchange;[n.a.];
+;[D];Visualisierungen \ Multipartite Key Exchange
 
 Ameisenkolonie-Optimierung (ACO);[n.a.];
 ;[D];Visualisierungen \ Ameisenkolonie-Optimierung (ACO)
@@ -649,8 +661,8 @@ Elliptische-Kurven-Berechnungen;[n.a.];
 Diffie-Hellman Schlüsselaustausch (EC);[n.a.];
 ;[D];Visualisierungen \ Diffie-Hellman Schlüsselaustausch (EC)
 
-McEliece-Kryptosystem;[n.a.];
-;[D];Visualisierungen \ McEliece-Kryptosystem
+ElGamal-Kryptosystem;[n.a.];
+;[D];Visualisierungen \ ElGamal-Kryptosystem
 
 Erweiterter Euklid / Wechselwegnahme;[n.a.];
 ;[D];Visualisierungen \ Erweiterter Euklid / Wechselwegnahme
@@ -658,14 +670,20 @@ Erweiterter Euklid / Wechselwegnahme;[n.a.];
 Erweitertes RSA-Kryptosystem;[n.a.];
 ;[D];Visualisierungen \ Erweitertes RSA-Kryptosystem
 
+Fleißner / Grille;[n.a.];
+;[D];Visualisierungen \ Fleißner / Grille
+
 Hash-Sensitivität;[n.a.];
 ;[D];Visualisierungen \ Hash-Sensitivität
 
-Homomorphe Verschlüsselung (HE);[n.a.];
-;[D];Visualisierungen \ Homomorphe Verschlüsselung (HE)
+Homomorphe Verschlüsselung;[n.a.];
+;[D];Visualisierungen \ Homomorphe Verschlüsselung
 
 Huffman-Kodierung;[n.a.];
 ;[D];Visualisierungen \ Huffman-Kodierung
+
+Public-Key-Infrastruktur;[n.a.];
+;[D];Visualisierungen \ Public-Key-Infrastruktur
 
 Kleptographie;[n.a.];
 ;[D];Visualisierungen \ Kleptographie
@@ -673,14 +691,17 @@ Kleptographie;[n.a.];
 Merkle-Hellman Rucksack-Verschlüsselung;[n.a.];
 ;[D];Visualisierungen \ Merkle-Hellman Rucksack-Verschlüsselung
 
-Merkle-Signaturen (XMSS^MT);[n.a.];
-;[D];Visualisierungen \ Merkle-Signaturen (XMSS^MT)
+Merkle-Signaturverfahren (XMSS^MT);[n.a.];
+;[D];Visualisierungen \ Merkle-Signaturverfahren (XMSS^MT)
 
-Multivariate Kryptografie;[n.a.];
-;[D];Visualisierungen \ Multivariate Kryptografie
+RSA-Kryptosystem;[n.a.];
+;[D];Visualisierungen \ RSA-Kryptosystem
 
-Shamirs Secret Sharing;[n.a.];
-;[D];Visualisierungen \ Shamirs Secret Sharing
+Shamir's Secret Sharing;[n.a.];
+;[D];Visualisierungen \ Shamir's Secret Sharing
+
+Differential Power Analysis / Double and Add;[n.a.];
+;[D];Visualisierungen \ Differential Power Analysis / Double and Add
 
 Simple Power Analysis / Square and Multiply;[n.a.];
 ;[D];Visualisierungen \ Simple Power Analysis / Square and Multiply
@@ -703,18 +724,18 @@ SSL/TLS-Handshake;[n.a.];
 Verifiable-Secret-Sharing;[n.a.];
 ;[D];Visualisierungen \ Verifiable-Secret-Sharing
 
-Winternitz Einmal-Signatur (WOTS / WOTS+);[n.a.];
-;[D];Visualisierungen \ Winternitz Einmal-Signatur (WOTS / WOTS+)
+WOTS/WOTS+;[n.a.];
+;[D];Visualisierungen \ WOTS/WOTS+
 
-Zero-Knowledge: Magische Tür;[n.a.];
-;[D];Visualisierungen \ Zero-Knowledge: Magische Tür
+Magische Tür;[n.a.];
+;[D];Visualisierungen \ Magische Tür
 
-Zero-Knowledge: Fiat-Shamir;[n.a.];
-;[D];Visualisierungen \ Zero-Knowledge: Fiat-Shamir
+Fiat Shamir;[n.a.];
+;[D];Visualisierungen \ Fiat Shamir
 
-Zero-Knowledge: Feige-Fiat-Shamir;[n.a.];
-;[D];Visualisierungen \ Zero-Knowledge: Feige-Fiat-Shamir
+Feige Fiat Shamir;[n.a.];
+;[D];Visualisierungen \ Feige Fiat Shamir
 
-Zero-Knowledge: Graphenisomorphie;[n.a.];
-;[D];Visualisierungen \ Zero-Knowledge: Graphenisomorphie
+Graphenisomorphie;[n.a.];
+;[D];Visualisierungen \ Graphenisomorphie
 

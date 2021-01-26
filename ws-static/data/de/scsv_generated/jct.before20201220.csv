@@ -589,8 +589,8 @@ LFSR;[n.a.];
 Entropie-Analyse;[n.a.];
 ;[D];Analysen \ Entropie-Analyse
 
-Fleißner-/Grille-Analyse;[n.a.];
-;[D];Analysen \ Fleißner-/Grille-Analyse
+Grille-Analyse;[n.a.];
+;[D];Analysen \ Grille-Analyse
 
 Häufigkeits-Analyse;[n.a.];
 ;[D];Analysen \ Häufigkeits-Analyse
@@ -657,6 +657,9 @@ Erweiterter Euklid / Wechselwegnahme;[n.a.];
 
 Erweitertes RSA-Kryptosystem;[n.a.];
 ;[D];Visualisierungen \ Erweitertes RSA-Kryptosystem
+
+Grille;[n.a.];
+;[D];Visualisierungen \ Grille
 
 Hash-Sensitivität;[n.a.];
 ;[D];Visualisierungen \ Hash-Sensitivität

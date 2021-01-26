@@ -1,1 +1,241 @@
-en;de
+JCT:dynamic:6a60a3a0;ElGamal;JCT:A \ Asymmetric Block Ciphers \ ElGamal
+JCT:dynamic:90bca000;RSA;JCT:A \ Asymmetric Block Ciphers \ RprimeRSA
+JCT:dynamic:6dafd5ec;McEliece signature;JCT:A \ Asymmetric Block Ciphers \ McEliecePKCS
+JCT:dynamic:78699c27;Niederreiter;JCT:A \ Asymmetric Block Ciphers \ Niederreiter
+JCT:dynamic:8433b391;RSA;JCT:A \ Asymmetric Block Ciphers \ RSA
+JCT:dynamic:2711602d;RSA;JCT:A \ Asymmetric Block Ciphers \ RbRSA
+JCT:dynamic:c84f9308;RC2;JCT:A \ Block Ciphers \ RC2 \ RC2_CBC
+JCT:dynamic:5367687f;Camellia;JCT:A \ Block Ciphers \ Camellia \ Camellia256_CBC
+JCT:dynamic:b06a9ecd;Camellia;JCT:A \ Block Ciphers \ Camellia \ Camellia192_CBC
+JCT:dynamic:e85dca58;Camellia;JCT:A \ Block Ciphers \ Camellia \ Camellia128_CBC
+JCT:dynamic:d7acbacf;RC6;JCT:A \ Block Ciphers \ RC6
+JCT:dynamic:09ac4d64;RC5;JCT:A \ Block Ciphers \ RC5
+JCT:dynamic:e959a5a0;DES;JCT:A \ Block Ciphers \ DESede \ DESede_CBC
+JCT:dynamic:37e1eb34;IDEA;JCT:A \ Block Ciphers \ IDEA \ IDEA_CFB
+JCT:dynamic:a2e234ff;IDEA;JCT:A \ Block Ciphers \ IDEA \ IDEA_ECB
+JCT:dynamic:f72a87b6;IDEA;JCT:A \ Block Ciphers \ IDEA \ IDEA_OFB
+JCT:dynamic:c5296347;IDEA;JCT:A \ Block Ciphers \ IDEA \ IDEA_CBC
+JCT:dynamic:a69301ec;Shacal;JCT:A \ Block Ciphers \ Shacal
+JCT:dynamic:9115d0eb;Twofish;JCT:A \ Block Ciphers \ Twofish
+JCT:dynamic:7a09f6db;SAFER++;JCT:A \ Block Ciphers \ SAFER++
+JCT:dynamic:ea1c7ade;SAFER+;JCT:A \ Block Ciphers \ SAFER+
+JCT:dynamic:36da3b01;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES128_ECB
+JCT:dynamic:af3e831d;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES256_CFB
+JCT:dynamic:2e4ae39e;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES192_ECB
+JCT:dynamic:5aeea90d;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES256_CBC
+JCT:dynamic:f479de74;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES128_CBC
+JCT:dynamic:7474ac46;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES128_CFB
+JCT:dynamic:a811de10;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES192_OFB
+JCT:dynamic:cf76842d;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES192_CFB
+JCT:dynamic:3586b498;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES256_OFB
+JCT:dynamic:15e27552;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES128_OFB
+JCT:dynamic:3c0052be;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES256_ECB
+JCT:dynamic:bdb8ffda;AES;JCT:A \ Block Ciphers \ Rijndael \ AES \ AES192_CBC
+JCT:dynamic:4f39ca91;Shacal;JCT:A \ Block Ciphers \ Shacal2
+JCT:dynamic:c7e6094f;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent192_CBC
+JCT:dynamic:717f64d4;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent192_CFB
+JCT:dynamic:57cc72b9;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent128_OFB
+JCT:dynamic:40be5fb5;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent256_ECB
+JCT:dynamic:f36ffc6c;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent256_OFB
+JCT:dynamic:1afe071d;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent256_CFB
+JCT:dynamic:a512ea6a;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent128_ECB
+JCT:dynamic:49ffff9e;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent192_OFB
+JCT:dynamic:f8576252;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent192_ECB
+JCT:dynamic:267b4b50;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent128_CBC
+JCT:dynamic:c905ee6a;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent128_CFB
+JCT:dynamic:cc2768d4;Serpent;JCT:A \ Block Ciphers \ Serpent \ Serpent256_CBC
+JCT:dynamic:7d859b8c;MARS;JCT:A \ Block Ciphers \ MARS
+JCT:dynamic:e0c4818d;Misty;JCT:A \ Block Ciphers \ Misty1
+JCT:dynamic:9bc08641;ECIES;JCT:A \ Hybrid Ciphers \ ECIES
+JCT:dynamic:0ef4b719;McEliece;JCT:A \ Hybrid Ciphers \ McElieceFujisakiCipher
+JCT:dynamic:a6594505;McEliece;JCT:A \ Hybrid Ciphers \ McElieceKobaraImaiCipher
+JCT:dynamic:b2fc6459;AES MAC;JCT:A \ Message Authentication Codes \ CMac \ CmacAES128
+JCT:dynamic:4865d3b0;AES MAC;JCT:A \ Message Authentication Codes \ CMac \ CmacAES192
+JCT:dynamic:31100196;DES MAC;JCT:A \ Message Authentication Codes \ CMac \ CmacDESede
+JCT:dynamic:76b74479;AES MAC;JCT:A \ Message Authentication Codes \ CMac \ CmacAES256
+JCT:dynamic:7f8b573c;Tiger MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacTiger
+JCT:dynamic:1182ea79;MD5;JCT:A \ Message Authentication Codes \ HMac \ HmacMD5
+JCT:dynamic:f6647b3c;FORK MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacFORK256
+JCT:dynamic:0fc6ec0e;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA512
+JCT:dynamic:c3b64d7f;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA224
+JCT:dynamic:95c3652b;MD4;JCT:A \ Message Authentication Codes \ HMac \ HmacMD4
+JCT:dynamic:cb5d9a9a;RIPEMD MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacRIPEMD256
+JCT:dynamic:b1927e15;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA256
+JCT:dynamic:5559fd82;RIPEMD MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacRIPEMD128
+JCT:dynamic:8ed635c6;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA384
+JCT:dynamic:692fe08b;RIPEMD MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacRIPEMD160
+JCT:dynamic:6755d51c;DHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacDHA256
+JCT:dynamic:37390edf;RIPEMD MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacRIPEMD320
+JCT:dynamic:f28243a0;Serpent MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSerpent
+JCT:dynamic:bc7216d0;RC5 MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacRC5
+JCT:dynamic:87e48f71;AES MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacAES256
+JCT:dynamic:e456c100;RC6 MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacRC6
+JCT:dynamic:f5a69fc4;RC2 MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacRC2
+JCT:dynamic:5275c500;IDEA MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacIDEA
+JCT:dynamic:93b556bf;Misty MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacMisty1
+JCT:dynamic:fd08d8f8;AES MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacAES192
+JCT:dynamic:bc28a3f1;MARS MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacMARS
+JCT:dynamic:04f30b8b;Camellia MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacCamellia
+JCT:dynamic:8136afb9;SAFER+;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER+
+JCT:dynamic:e427c931;DES MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacDESede
+JCT:dynamic:e07fd5de;Twofish MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacTwofish
+JCT:dynamic:a8b0e6ea;Shacal MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacShacal
+JCT:dynamic:3eb17178;Shacal MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacShacal2
+JCT:dynamic:2d0d004f;AES MAC;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacAES128
+JCT:dynamic:06c1a045;SAFER++;JCT:A \ Message Authentication Codes \ CBCMac \ CBCmacSAFER++
+JCT:dynamic:430af06e;TwoTrack MAC;JCT:A \ Message Authentication Codes \ TwoTrackMac \ TwoTrackMac160
+JCT:dynamic:a022803f;TwoTrack MAC;JCT:A \ Message Authentication Codes \ TwoTrackMac \ TwoTrackMac64
+JCT:dynamic:1353f70a;TwoTrack MAC;JCT:A \ Message Authentication Codes \ TwoTrackMac \ TwoTrackMac32
+JCT:dynamic:88517965;TwoTrack MAC;JCT:A \ Message Authentication Codes \ TwoTrackMac \ TwoTrackMac96
+JCT:dynamic:8696342c;TwoTrack MAC;JCT:A \ Message Authentication Codes \ TwoTrackMac \ TTmac128
+JCT:dynamic:0c111899;RIPEMD;JCT:A \ Message Digests \ RIPEMD320
+JCT:dynamic:9fd3e0b6;SHA;JCT:A \ Message Digests \ SHA384
+JCT:dynamic:4ff50f31;DHA;JCT:A \ Message Digests \ DHA256
+JCT:dynamic:e08c7932;RIPEMD;JCT:A \ Message Digests \ RIPEMD128
+JCT:dynamic:799e318e;VSH;JCT:A \ Message Digests \ VSH
+JCT:dynamic:ea04093d;MD;JCT:A \ Message Digests \ MD5
+JCT:dynamic:b783f64f;SHA;JCT:A \ Message Digests \ SHA224
+JCT:dynamic:9d2201dc;SHA;JCT:A \ Message Digests \ SHA1
+JCT:dynamic:610e2fa2;RIPEMD;JCT:A \ Message Digests \ RIPEMD160
+JCT:dynamic:4502492f;SHA;JCT:A \ Message Digests \ SHA256
+JCT:dynamic:16b1410c;FORK;JCT:A \ Message Digests \ FORK256
+JCT:dynamic:d29ca486;Tiger;JCT:A \ Message Digests \ Tiger
+JCT:dynamic:7e3ce1e2;MD;JCT:A \ Message Digests \ MD4
+JCT:dynamic:6d0dfb99;SHA;JCT:A \ Message Digests \ SHA512
+JCT:dynamic:7d5d96c3;RIPEMD;JCT:A \ Message Digests \ RIPEMD256
+JCT:dynamic:ba6a101c;RC2;JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd40BitRC2_CBC
+JCT:dynamic:92abd1e0;PBES2;JCT:A \ Password-Based Ciphers \ PBES2
+JCT:dynamic:101d8394;Triple DES (3DES);JCT:A \ Password-Based Ciphers \ PbeWithSHAAnd3_KeyTripleDES_CBC
+JCT:dynamic:0e833c13;DES;JCT:A \ Password-Based Ciphers \ PbeWithSHA1AndDES_CBC
+JCT:dynamic:238608a6;DES;JCT:A \ Password-Based Ciphers \ PbeWithMD5AndDES_CBC
+JCT:dynamic:60319365;SHA;JCT:A \ Pseudo Random Number Generators \ SHA1PRNG
+JCT:dynamic:fcc51500;Blum Blum Shub (BBS) -- PRNG;JCT:A \ Pseudo Random Number Generators \ BBSRandom
+JCT:dynamic:8c0cf199;EC PRNG;JCT:A \ Pseudo Random Number Generators \ ECPRNG
+JCT:dynamic:32bcb2b8;ECNR signature;JCT:A \ Signatures \ SHA1/ECNR
+JCT:dynamic:77190bd3;RSA signature;JCT:A \ Signatures \ RprimeRSA
+JCT:dynamic:18a13141;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ RIPEMD160/RSA
+JCT:dynamic:2b9020dc;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA384withRSA
+JCT:dynamic:94320c30;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA1/RSA/RAW
+JCT:dynamic:e48dba91;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA512withRSA
+JCT:dynamic:81821e94;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA384/RSA/RAW
+JCT:dynamic:ca412352;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ MD5withRSA
+JCT:dynamic:f4a8275d;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA224/RSA
+JCT:dynamic:9678b58c;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA256withRSA
+JCT:dynamic:b5ae18eb;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA1/RSA
+JCT:dynamic:6094702b;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ MD5/RSA/RAW
+JCT:dynamic:c5c66dc5;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA512/RSA/RAW
+JCT:dynamic:284d7fd2;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA224/RSA/RAW
+JCT:dynamic:226decd5;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ RIPEMD160/RSA/RAW
+JCT:dynamic:ad64802e;RSA signature;JCT:A \ Signatures \ RSASignaturePKCS1v15 \ SHA256/RSA/RAW
+JCT:dynamic:3b119338;GQ signature;JCT:A \ Signatures \ IQGQSignature \ IQGQ
+JCT:dynamic:415bd327;GQ signature;JCT:A \ Signatures \ IQGQSignature \ RIPEMD160withIQGQ
+JCT:dynamic:ff97c95a;DSA signature;JCT:A \ Signatures \ DSASignature \ RAW/DSA
+JCT:dynamic:24fc5f97;DSA signature;JCT:A \ Signatures \ DSASignature \ SHAwithDSA
+JCT:dynamic:506e09c1;DSA signature;JCT:A \ Signatures \ IQDSASignature \ IQDSA
+JCT:dynamic:38a394f3;DSA signature;JCT:A \ Signatures \ IQDSASignature \ RIPEMD160withIQDSA
+JCT:dynamic:27da89f1;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_1
+JCT:dynamic:4cc3f968;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_3
+JCT:dynamic:14642cf0;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA256andWinternitzOTS_4
+JCT:dynamic:83c97bc2;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_1
+JCT:dynamic:57ac3574;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_2
+JCT:dynamic:9ec6adb4;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA256andWinternitzOTS_3
+JCT:dynamic:dc782e99;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_3
+JCT:dynamic:a87e4201;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_4
+JCT:dynamic:fcefbde5;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_2
+JCT:dynamic:297b4042;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA384andWinternitzOTS_1
+JCT:dynamic:881cb676;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA256andWinternitzOTS_1
+JCT:dynamic:479f310a;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_4
+JCT:dynamic:8b02b59a;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_2
+JCT:dynamic:49dc4929;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA512andWinternitzOTS_4
+JCT:dynamic:4a859b95;Winternitz signature;JCT:A \ Signatures \ CMSSSignature \ CMSSwithSHA1andWinternitzOTS_3
+JCT:dynamic:666f2e0c;CMSS signature;JCT:A \ Signatures \ CMSSSignature \ CMSS
+JCT:dynamic:0d008183;DSA signature;JCT:A \ Signatures \ IQRDSASignature \ IQRDSA
+JCT:dynamic:bf54ed5a;DSA signature;JCT:A \ Signatures \ IQRDSASignature \ RIPEMD160withIQRDSA
+JCT:dynamic:392c2d69;RSA signature;JCT:A \ Signatures \ RbRSA
+JCT:dynamic:5c266d4f;Niederreiter;JCT:A \ Signatures \ NiederreiterCFS
+JCT:dynamic:0aa07dc0;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA512
+JCT:dynamic:745d40ee;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA1
+JCT:dynamic:62643fdc;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA224
+JCT:dynamic:f9c85b28;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA256
+JCT:dynamic:b0444fbb;GMSS signature;JCT:A \ Signatures \ GMSSSignature \ GMSSwithSHA384
+JCT:dynamic:c43fec9f;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA1/ECDSA
+JCT:dynamic:67e83937;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA512/ECDSA
+JCT:dynamic:b72e58db;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ RawECDSA
+JCT:dynamic:6d1092d8;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA224/ECDSA
+JCT:dynamic:0b20e9b5;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA256/ECDSA
+JCT:dynamic:2459dc2b;ECDSA signature;JCT:A \ Signatures \ ECDSASignature \ SHA384/ECDSA
+JCT:dynamic:7e44442a;RSA signature;JCT:A \ Signatures \ SSL_MD5andSHA1withRSA
+JCT:dynamic:3cdf2ba5;Merkle signature;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA512
+JCT:dynamic:26de1756;Merkle signature;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA384
+JCT:dynamic:d3519924;Merkle signature;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA1
+JCT:dynamic:ef215ec7;Merkle signature;JCT:A \ Signatures \ MerkleOTSSignature \ MerkleOTSwithSHA256
+JCT:dynamic:cf0a1ea1;ADFGX / ADFGVX;JCT:D \ Algorithms \ Classic \ ADFGVX
+JCT:dynamic:2c8be371;Vigenère cipher;JCT:D \ Algorithms \ Classic \ Autokey-Vigenère
+JCT:dynamic:cd8d0d08;Caesar / Rot-13;JCT:D \ Algorithms \ Classic \ Caesar
+JCT:dynamic:03625e80;Bifid;JCT:D \ Algorithms \ Classic \ Bifid
+JCT:dynamic:531ac6e1;Double box;JCT:D \ Algorithms \ Classic \ Double Box
+JCT:dynamic:0d12e3ba;Playfair cipher;JCT:D \ Algorithms \ Classic \ Playfair
+JCT:dynamic:8f32fe53;Substitution;JCT:D \ Algorithms \ Classic \ Substitution
+JCT:dynamic:f23511d5;Transposition (single column transposition);JCT:D \ Algorithms \ Classic \ Transposition
+JCT:dynamic:3aa5a9fe;Vigenère cipher;JCT:D \ Algorithms \ Classic \ Vigenère
+JCT:dynamic:711f1c9e;XOR;JCT:D \ Algorithms \ Classic \ XOR
+JCT:dynamic:ed626bc7;RSA;JCT:D \ Algorithms \ Asymmetric \ RSA
+JCT:dynamic:3350de09;MD5;JCT:D \ Algorithms \ Hash \ MD5
+JCT:dynamic:70f09c25;AES;JCT:D \ Algorithms \ Symmetric \ AES
+JCT:dynamic:99c31d62;RC6;JCT:D \ Algorithms \ Symmetric \ RC6
+JCT:dynamic:6a04e142;IDEA;JCT:D \ Algorithms \ Symmetric \ IDEA
+JCT:dynamic:8e7798ef;DSA signature;JCT:D \ Algorithms \ Signature \ DSA
+JCT:dynamic:f1274b68;ElGamal;JCT:D \ Algorithms \ Asymmetric \ ElGamal
+JCT:dynamic:f7aad1b4;MD5;JCT:D \ Algorithms \ MAC \ HMacMD5
+JCT:dynamic:5097506b;SHA;JCT:D \ Algorithms \ Random Number Generator \ SHA-1
+JCT:dynamic:e4f525c9;SHA;JCT:D \ Algorithms \ Hash \ SHA-3 Candidates
+JCT:dynamic:dd1640e8;RC4;JCT:D \ Algorithms \ Symmetric \ ARC4/Spritz
+JCT:dynamic:8e770ee8;Dragon;JCT:D \ Algorithms \ Symmetric \ Dragon
+JCT:dynamic:282c3316;LFSR;JCT:D \ Algorithms \ Symmetric \ LFSR
+JCT:dynamic:409dd7f9;Entropy [analysis];JCT:D \ Analysis \ Entropy Analysis
+JCT:dynamic:e66fe4cc;Grille [analysis];JCT:D \ Analysis \ Grille Analysis
+JCT:dynamic:0738b381;Frequency test;JCT:D \ Analysis \ Frequency Analysis
+JCT:dynamic:6bc3fc13;Friedman test;JCT:D \ Analysis \ Friedman Test
+JCT:dynamic:71687791;Substitution [analysis];JCT:D \ Analysis \ Substitution Analysis
+JCT:dynamic:f647645d;Transposition [analysis];JCT:D \ Analysis \ Transposition Analysis
+JCT:dynamic:db7e4fa0;Vigenère [analysis];JCT:D \ Analysis \ Vigenère Breaker
+JCT:dynamic:22555017;Viterbi [analysis];JCT:D \ Analysis \ Viterbi Analysis
+JCT:dynamic:b2307152;Divider game;JCT:D \ Games \ Divider Game
+JCT:dynamic:04aaf7cd;Number Shark (taxman);JCT:D \ Games \ Number Shark
+JCT:dynamic:45aef617;Zudo-Ku;JCT:D \ Games \ Zudo-Ku
+JCT:dynamic:7e1370ec;Ant Colony Optimization (ACO);JCT:D \ Visuals \ Ant Colony Optimization (ACO)
+JCT:dynamic:94df246e;RC4;JCT:D \ Visuals \ ARC4 / Spritz
+JCT:dynamic:2e325e57;Android Unlock Pattern (AUP);JCT:D \ Visuals \ Android Unlock Pattern (AUP)
+JCT:dynamic:a2f57f7a;Shanks Babystep-Giantstep;JCT:D \ Visuals \ Shanks Babystep-Giantstep
+JCT:dynamic:5384a9ec;Chinese remainder theorem (CRT) [visual];JCT:D \ Visuals \ Chinese Remainder Theorem (CRT)
+JCT:dynamic:e8a10920;Certificate verification;JCT:D \ Visuals \ Certificate Verification
+JCT:dynamic:8d0fac16;DES;JCT:D \ Visuals \ Inner States of the Data Encryption Standard (DES)
+JCT:dynamic:2b76a2b0;EC calculations;JCT:D \ Visuals \ Elliptic Curve Calculations
+JCT:dynamic:ee5ac7ce;Key exchange (Diffie-Hellman DH);JCT:D \ Visuals \ Diffie-Hellman Key Exchange (EC)
+JCT:dynamic:41fa582d;Reciprocal subtraction;JCT:D \ Visuals \ Extended Euclidean / Reciprocal Subtraction
+JCT:dynamic:4be92e34;RSA;JCT:D \ Visuals \ Extended RSA Cryptosystem
+JCT:dynamic:977d942c;Grille;JCT:D \ Visuals \ Grille
+JCT:dynamic:4a969fd1;Hash algorithms [visual];JCT:D \ Visuals \ Hash Sensitivity
+JCT:dynamic:c7d4c6d8;Huffman;JCT:D \ Visuals \ Huffman Coding
+JCT:dynamic:d8770738;Kleptography (4 methods generating a prime, SETUP attack);JCT:D \ Visuals \ Kleptography
+JCT:dynamic:cd84c523;Knapsack;JCT:D \ Visuals \ Merkle-Hellman Knapsack Cryptosystem
+JCT:dynamic:2592b54a;Shamir's secret sharing (MPC);JCT:D \ Visuals \ Shamir's Secret Sharing
+JCT:dynamic:f3db2b04;Square and multiply;JCT:D \ Visuals \ Simple Power Analysis / Square and Multiply
+JCT:dynamic:d35b8450;Signature [visual];JCT:D \ Visuals \ Signature Demonstration
+JCT:dynamic:11b7e363;Signature verification;JCT:D \ Visuals \ Signature Verification
+JCT:dynamic:8cd75731;SPHINCS signature;JCT:D \ Visuals \ SPHINCS Signature
+JCT:dynamic:ab1578c0;SPHINCS+ signature;JCT:D \ Visuals \ SPHINCS+ Signature
+JCT:dynamic:640eaf99;TLS handshake;JCT:D \ Visuals \ SSL/TLS Handshake
+JCT:dynamic:a8df96c7;Verifiable secret sharing (VSS);JCT:D \ Visuals \ Verifiable Secret Sharing
+JCT:dynamic:b6fe3e17;SHA MAC;JCT:A \ Message Authentication Codes \ HMac \ HmacSHA1
+JCT:dynamic:34fe194a;SHA;JCT:D \ Algorithms \ Hash \ SHA-256
+JCT:dynamic:7cfb77fa;Key exchange (multipartite);JCT:D \ Visuals \ Multipartite Key Exchange (BD II)
+JCT:dynamic:4ffb87d3;McEliece;JCT:D \ Visuals \ McEliece Cryptosystem
+JCT:dynamic:dc30306b;Homomorphic Encryption;JCT:D \ Visuals \ Homomorphic Encryption (HE)
+JCT:dynamic:8b730073;Merkle Signature;JCT:D \ Visuals \ Merkle Signatures (XMSS^MT)
+JCT:dynamic:eb41b8af;Multivariate cryptography;JCT:D \ Visuals \ Multivariate Cryptography
+JCT:dynamic:00078368;Winternitz Signature;JCT:D \ Visuals \ Winternitz OT-Signature (WOTS / WOTS+)
+JCT:dynamic:4179b979;Zero knowledge protocol;JCT:D \ Visuals \ Zero-Knowledge: Magic Door
+JCT:dynamic:49e6c97f;Zero knowledge protocol;JCT:D \ Visuals \ Zero-Knowledge: Fiat Shamir
+JCT:dynamic:79c5ce91;Zero knowledge protocol;JCT:D \ Visuals \ Zero-Knowledge: Feige Fiat Shamir
+JCT:dynamic:622cf819;Zero knowledge protocol;JCT:D \ Visuals \ Zero-Knowledge: Graph Isomorphism

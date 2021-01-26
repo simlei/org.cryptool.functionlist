@@ -4,6 +4,9 @@ ElGamal;[n.a.];
 RprimeRSA;[n.a.];
 ;[A];Asymmetric Block Ciphers \ RprimeRSA
 
+MeRSA;[n.a.];
+;[A];Asymmetric Block Ciphers \ MeRSA
+
 McEliecePKCS;[n.a.];
 ;[A];Asymmetric Block Ciphers \ McEliecePKCS
 
@@ -145,6 +148,9 @@ Misty1;[n.a.];
 ECIES;[n.a.];
 ;[A];Hybrid Ciphers \ ECIES
 
+McEliecePointchevalCipher;[n.a.];
+;[A];Hybrid Ciphers \ McEliecePointchevalCipher
+
 McElieceFujisakiCipher;[n.a.];
 ;[A];Hybrid Ciphers \ McElieceFujisakiCipher
 
@@ -175,9 +181,6 @@ HmacFORK256;[n.a.];
 HmacSHA512;[n.a.];
 ;[A];Message Authentication Codes \ HMac \ HmacSHA512
 
-HmacSHA1;[n.a.];
-;[A];Message Authentication Codes \ HMac \ HmacSHA1
-
 HmacSHA224;[n.a.];
 ;[A];Message Authentication Codes \ HMac \ HmacSHA224
 
@@ -195,6 +198,9 @@ HmacRIPEMD128;[n.a.];
 
 HmacSHA384;[n.a.];
 ;[A];Message Authentication Codes \ HMac \ HmacSHA384
+
+Hmac;[n.a.];
+;[A];Message Authentication Codes \ HMac \ Hmac
 
 HmacRIPEMD160;[n.a.];
 ;[A];Message Authentication Codes \ HMac \ HmacRIPEMD160
@@ -345,6 +351,9 @@ SHA1/ECNR;[n.a.];
 
 RprimeRSA;[n.a.];
 ;[A];Signatures \ RprimeRSA
+
+MeRSA;[n.a.];
+;[A];Signatures \ MeRSA
 
 RIPEMD160/RSA;[n.a.];
 ;[A];Signatures \ RSASignaturePKCS1v15 \ RIPEMD160/RSA
@@ -553,8 +562,8 @@ MD5;[n.a.];
 AES;[n.a.];
 ;[D];Algorithms \ Symmetric \ AES
 
-SHA-256;[n.a.];
-;[D];Algorithms \ Hash \ SHA-256
+SHA;[n.a.];
+;[D];Algorithms \ Hash \ SHA
 
 RC6;[n.a.];
 ;[D];Algorithms \ Symmetric \ RC6
@@ -571,11 +580,11 @@ ElGamal;[n.a.];
 HMacMD5;[n.a.];
 ;[D];Algorithms \ MAC \ HMacMD5
 
-SHA-1;[n.a.];
-;[D];Algorithms \ Random Number Generator \ SHA-1
+SHA1;[n.a.];
+;[D];Algorithms \ Random Number Generator \ SHA1
 
-SHA-3 Candidates;[n.a.];
-;[D];Algorithms \ Hash \ SHA-3 Candidates
+SHA3-Candidates;[n.a.];
+;[D];Algorithms \ Hash \ SHA3-Candidates
 
 ARC4/Spritz;[n.a.];
 ;[D];Algorithms \ Symmetric \ ARC4/Spritz
@@ -616,11 +625,14 @@ Divider Game;[n.a.];
 Number Shark;[n.a.];
 ;[D];Games \ Number Shark
 
+Sudoku-Solver;[n.a.];
+;[D];Games \ Sudoku-Solver
+
 Zudo-Ku;[n.a.];
 ;[D];Games \ Zudo-Ku
 
-Multipartite Key Exchange (BD II);[n.a.];
-;[D];Visuals \ Multipartite Key Exchange (BD II)
+Multipartite Key Exchange;[n.a.];
+;[D];Visuals \ Multipartite Key Exchange
 
 Ant Colony Optimization (ACO);[n.a.];
 ;[D];Visuals \ Ant Colony Optimization (ACO)
@@ -649,8 +661,8 @@ Elliptic Curve Calculations;[n.a.];
 Diffie-Hellman Key Exchange (EC);[n.a.];
 ;[D];Visuals \ Diffie-Hellman Key Exchange (EC)
 
-McEliece Cryptosystem;[n.a.];
-;[D];Visuals \ McEliece Cryptosystem
+ElGamal Cryptosystem;[n.a.];
+;[D];Visuals \ ElGamal Cryptosystem
 
 Extended Euclidean / Reciprocal Subtraction;[n.a.];
 ;[D];Visuals \ Extended Euclidean / Reciprocal Subtraction
@@ -658,14 +670,20 @@ Extended Euclidean / Reciprocal Subtraction;[n.a.];
 Extended RSA Cryptosystem;[n.a.];
 ;[D];Visuals \ Extended RSA Cryptosystem
 
+Grille;[n.a.];
+;[D];Visuals \ Grille
+
 Hash Sensitivity;[n.a.];
 ;[D];Visuals \ Hash Sensitivity
 
-Homomorphic Encryption (HE) ;[n.a.];
-;[D];Visuals \ Homomorphic Encryption (HE) 
+Homomorphic Encryption;[n.a.];
+;[D];Visuals \ Homomorphic Encryption
 
 Huffman Coding;[n.a.];
 ;[D];Visuals \ Huffman Coding
+
+Public-Key Infrastructure;[n.a.];
+;[D];Visuals \ Public-Key Infrastructure
 
 Kleptography;[n.a.];
 ;[D];Visuals \ Kleptography
@@ -673,14 +691,17 @@ Kleptography;[n.a.];
 Merkle-Hellman Knapsack Cryptosystem;[n.a.];
 ;[D];Visuals \ Merkle-Hellman Knapsack Cryptosystem
 
-Merkle Signatures (XMSS^MT);[n.a.];
-;[D];Visuals \ Merkle Signatures (XMSS^MT)
+Merkle Signature (XMSS^MT);[n.a.];
+;[D];Visuals \ Merkle Signature (XMSS^MT)
 
-Multivariate Cryptography;[n.a.];
-;[D];Visuals \ Multivariate Cryptography
+RSA Cryptosystem;[n.a.];
+;[D];Visuals \ RSA Cryptosystem
 
 Shamir's Secret Sharing;[n.a.];
 ;[D];Visuals \ Shamir's Secret Sharing
+
+Differential Power Analysis / Double and Add;[n.a.];
+;[D];Visuals \ Differential Power Analysis / Double and Add
 
 Simple Power Analysis / Square and Multiply;[n.a.];
 ;[D];Visuals \ Simple Power Analysis / Square and Multiply
@@ -703,18 +724,18 @@ SSL/TLS Handshake;[n.a.];
 Verifiable Secret Sharing;[n.a.];
 ;[D];Visuals \ Verifiable Secret Sharing
 
-Winternitz OT-Signature (WOTS / WOTS+);[n.a.];
-;[D];Visuals \ Winternitz OT-Signature (WOTS / WOTS+)
+WOTS/WOTS+;[n.a.];
+;[D];Visuals \ WOTS/WOTS+
 
-Zero-Knowledge: Magic Door;[n.a.];
-;[D];Visuals \ Zero-Knowledge: Magic Door
+Magic Door;[n.a.];
+;[D];Visuals \ Magic Door
 
-Zero-Knowledge: Fiat Shamir;[n.a.];
-;[D];Visuals \ Zero-Knowledge: Fiat Shamir
+Fiat Shamir;[n.a.];
+;[D];Visuals \ Fiat Shamir
 
-Zero-Knowledge: Feige Fiat Shamir;[n.a.];
-;[D];Visuals \ Zero-Knowledge: Feige Fiat Shamir
+Feige Fiat Shamir;[n.a.];
+;[D];Visuals \ Feige Fiat Shamir
 
-Zero-Knowledge: Graph Isomorphism;[n.a.];
-;[D];Visuals \ Zero-Knowledge: Graph Isomorphism
+Graph Isomorphism;[n.a.];
+;[D];Visuals \ Graph Isomorphism
 
