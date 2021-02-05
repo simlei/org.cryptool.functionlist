@@ -10,6 +10,7 @@ thereEn="$project__ctwebsite__Droot/_data/functionvolume/cryptool-function-volum
 
 copy() {
     cp "$hereEn" "$thereEn"
+    cp "$hereDe" "$thereDe"
 }
 
 gitstatus() {

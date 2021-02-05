@@ -808,3 +808,9 @@ CT2:dynamic:92413bc4;1) Classic Ciphers;CT2:C \ Classic Ciphers \ LAMBDA1
 CT2:dynamic:a2aaa1c6;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ LAMBDA1 block cipher
 CT2:dynamic:0d2cebae;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ Speck
 CT2:dynamic:6adf7cdb;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Symmetric \ Speck Cipher
+CT2:dynamic:94476352;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Friedman Test for Classical Ciphers
+CT2:dynamic:72aa131b;6) Classic Cryptanalysis;CT2:T \ Cryptanalysis \ Classical \ Cost Functions
+CT2:dynamic:b88169a7;2) Modern Ciphers;CT2:T \ Cryptography \ Modern \ Asymmetric \ DGK Cipher (Text Input)
+CT2:dynamic:3d3d364a;2) Modern Ciphers;CT2:C \ Modern Ciphers \ Symmetric \ FEAL
+CT2:dynamic:8bdb2e02;7) Modern Cryptanalysis;CT2:T \ Cryptography \ Modern \ Symmetric \ FEAL Cipher
+CT2:dynamic:22d91aaa;1) Classic Ciphers;CT2:T \ Cryptography \ Classical \ Double Columnar Transposition Cipher

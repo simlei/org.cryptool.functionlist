@@ -564,3 +564,9 @@ CT2:dynamic:92413bc4;LAMBDA1;CT2:C \ Classic Ciphers \ LAMBDA1
 CT2:dynamic:a2aaa1c6;LAMBDA1;CT2:T \ Cryptography \ Modern \ Symmetric \ LAMBDA1 block cipher
 CT2:dynamic:0d2cebae;Speck cipher;CT2:C \ Modern Ciphers \ Symmetric \ Speck
 CT2:dynamic:6adf7cdb;Speck cipher;CT2:T \ Cryptography \ Modern \ Symmetric \ Speck Cipher
+CT2:dynamic:94476352;Friedman test;CT2:T \ Cryptanalysis \ Classical \ Friedman Test for Classical Ciphers
+CT2:dynamic:72aa131b;Cost function;CT2:T \ Cryptanalysis \ Classical \ Cost Functions
+CT2:dynamic:b88169a7;DGK (homomorphic encryption);CT2:T \ Cryptography \ Modern \ Asymmetric \ DGK Cipher (Text Input)
+CT2:dynamic:3d3d364a;FEAL;CT2:C \ Modern Ciphers \ Symmetric \ FEAL
+CT2:dynamic:8bdb2e02;FEAL;CT2:T \ Cryptography \ Modern \ Symmetric \ FEAL Cipher
+CT2:dynamic:22d91aaa;Transposition (double column transposition);CT2:T \ Cryptography \ Classical \ Double Columnar Transposition Cipher
