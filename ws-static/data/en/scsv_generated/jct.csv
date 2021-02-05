@@ -589,8 +589,8 @@ LFSR;[n.a.];
 Entropy Analysis;[n.a.];
 ;[D];Analysis \ Entropy Analysis
 
-Grille Analysis ;[n.a.];
-;[D];Analysis \ Grille Analysis 
+Fleissner-Grille Analysis ;[n.a.];
+;[D];Analysis \ Fleissner-Grille Analysis 
 
 Frequency Analysis;[n.a.];
 ;[D];Analysis \ Frequency Analysis
