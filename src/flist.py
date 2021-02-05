@@ -482,7 +482,7 @@ class FinalForm_Dataset(CSV_Dataset):
     # new format headers: id,function,category,ct1_availability,ct2_availability,jct_availability,cto_availability,ct1_path,ct2_path,jct_path,cto_path
     def write_csv(self, outfile):
         df = self.to_dataframe() # type: pandas.dataframe
-        print(df)
+        # print(df)
         # df = df[df.function.str.contains("Triple")] # filters to only contain one or two rows with TripleDES for debug
         df.insert(0, "id", range(len(df))) # insert id column
         df.to_csv(outfile, quoting=csv.QUOTE_MINIMAL, sep=",", index=False, header=True)
