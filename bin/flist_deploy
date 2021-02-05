@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+here="$project__flist__Droot/ct_functionlist"
+hereEn="$project__flist__Droot/ct_functionlist/ws/all_final_en.csv"
+hereDe="$project__flist__Droot/ct_functionlist/ws/all_final_de.csv"
+there="$project__ctwebsite__Droot"
+thereSpot="$project__ctwebsite__Droot/_data/functionvolume"
+thereDe="$project__ctwebsite__Droot/_data/functionvolume/cryptool-function-volume.de.csv"
+thereEn="$project__ctwebsite__Droot/_data/functionvolume/cryptool-function-volume.en.csv"
+
+copy() {
+    cp "$hereEn" "$thereEn"
+}
+
+gitstatus() {
+    cmd git status
+}
+
+reset() {
+    cmd git reset --hard
+}
+
+cmd() (
+    cd "$there"
+    "$@"
+)
+
+TEST() {
+    while [[ ! -z "${1:+x}" ]]; do
+        echo "test $1"
+        shift
+    done
+}
+
+while [[ ! -z "$1" ]]; do
+    eval "$1" || exit $?
+    shift || :
+done

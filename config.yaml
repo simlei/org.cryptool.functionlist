@@ -49,8 +49,8 @@ defaultsteps:
   - merge_en
   - tofinalform_en
   - tofinalform_de
-  - tohtml_de
-  - tohtml_en
+  # - tohtml_de
+  # - tohtml_en
 
 step.ct2outputfilter_en:
   input: ${workspace}/data/en/scsv_generated/ct2.csv

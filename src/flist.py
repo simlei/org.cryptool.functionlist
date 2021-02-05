@@ -426,32 +426,46 @@ class FinalForm_Entry:
 
     @staticmethod
     def From_Dataframe_Row(row):
-        functionality = row["functionality"]
-        categories = row["categories"]
+        functionality = row["function"]
+        categories = row["category"]
         how_implemented = dict()
         paths = dict()
         for ctid in ["CT1", "CT2", "CTO", "JCT"]:
-            how_implemented[ctid] = row[f"how_implemented_{ctid}"]
-            paths[ctid] = row[f"paths_{ctid}"]
+            how_implemented[ctid] = row[f"{ctid}_availability"]
+            paths[ctid] = row[f"{ctid}_path"]
 
         return FinalForm_Entry(functionality, how_implemented, paths, categories)
 
     def to_dataframe_row(self):
         result = {}
-        result["functionality"] = self.functionality
-        result["categories"] = self.categories
+        result["function"] = self.functionality
+        result["category"] = self.categories
         for ctid in ["CT1", "CT2", "CTO", "JCT"]:
-            column_HI = f"how_implemented_{ctid}"
-            column_paths = f"paths_{ctid}"
+            column_HI = f"{ctid.lower()}_availability"
+            column_paths = f"{ctid.lower()}_path"
             result[column_HI] = self.how_implemented[ctid]
             result[column_paths] = self.paths[ctid]
+            # result[column_paths] = '"'+self.paths[ctid].replace('"', '""')+'"'
 
         return result
 
 
 @dataclass
 class FinalForm_Dataset(CSV_Dataset):
-    COLUMNS = ["categories",
+    COLUMNS = [
+               "function",
+               "category",
+               "ct1_availability",
+               "ct2_availability",
+               "jct_availability",
+               "cto_availability",
+               "ct1_path",
+               "ct2_path",
+               "jct_path",
+               "cto_path"
+               ]
+    ORIGINAL_COLUMNS = [
+               "categories",
                "functionality",
                "how_implemented_CT1",
                "how_implemented_CT2",
@@ -464,16 +478,21 @@ class FinalForm_Dataset(CSV_Dataset):
                ]
     rows: List[FinalForm_Entry] = field(default_factory=list)
 
+    # old format headers: ID,categories,functionality,how_implemented_CT1,how_implemented_CT2,how_implemented_JCT,how_implemented_CTO,paths_CT1,paths_CT2,paths_JCT,paths_CTO
+    # new format headers: id,function,category,ct1_availability,ct2_availability,jct_availability,cto_availability,ct1_path,ct2_path,jct_path,cto_path
     def write_csv(self, outfile):
-        df = self.to_dataframe()
-        df.insert(0, "ID", range(len(self.rows)))
-        df.to_csv(outfile, quoting=csv.QUOTE_NONE, sep=CSV_SEP, index=False, header=False)
+        df = self.to_dataframe() # type: pandas.dataframe
+        print(df)
+        # df = df[df.function.str.contains("Triple")] # filters to only contain one or two rows with TripleDES for debug
+        df.insert(0, "id", range(len(df))) # insert id column
+        df.to_csv(outfile, quoting=csv.QUOTE_MINIMAL, sep=",", index=False, header=True)
         io.msg(f"written CSV output to {outfile}")
 
     def get_rows(self):
         return [row.to_dataframe_row() for row in self.rows]
 
     def get_dataframe_dictionaries(self):
+        # return [row.to_dataframe_row() for row in self.rows[0:1]]
         return [row.to_dataframe_row() for row in self.rows]
 
     def get_columns(self):
